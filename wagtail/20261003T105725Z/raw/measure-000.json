@@ -1,0 +1,1095 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/",
+  "targets": [
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Skip to main content",
+      "width": 166.046875,
+      "height": 42,
+      "x": 16,
+      "y": -16000,
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle sidebar",
+      "width": 35,
+      "height": 35,
+      "x": 149,
+      "y": 8,
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n             "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Dashboard",
+      "width": 110,
+      "height": 110,
+      "x": 45,
+      "y": 51,
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\" aria-current=\"page\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Search",
+      "width": 39,
+      "height": 35,
+      "x": 0,
+      "y": 208.5,
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-defa"
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "text": "",
+      "width": 200,
+      "height": 42,
+      "x": 0,
+      "y": 205,
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n         "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Pages",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 247,
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"m"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Breads",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 290.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Images",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 334,
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Bakery Misc",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 377.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery M"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Documents",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 421,
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documen"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Forms",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 464.5,
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Reports",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 508,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><s"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Settings",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 551.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Help",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 595,
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-ex"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Admin",
+      "width": 200,
+      "height": 52,
+      "x": 0,
+      "y": 948,
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n    "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Read the release notes.",
+      "width": 144.34375,
+      "height": 15,
+      "x": 513.90625,
+      "y": 113.296875,
+      "html": "<a href=\"https://docs.wagtail.org/en/stable/releases/8.0.html\" data-w-upgrade-target=\"link\" class=\"w-text-text-link-info hover:w-text-text-link-info w-underline w-underline-offset-[3px]\">Read the release notes.</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Close",
+      "width": 32,
+      "height": 32,
+      "x": 1352,
+      "y": 93.296875,
+      "html": "<button type=\"button\" data-action=\"w-dismissible#toggle\" data-w-upgrade-target=\"dismiss\" aria-label=\"Close\" class=\"w-ml-auto w-flex w-items-center w-justify-center w-bg-transparent w-rounded-full w-p-0 w-w-8 w-h-8\n               w-text-curr"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "34 Pages created in The Wagtail Bakery",
+      "width": 57.453125,
+      "height": 20.40625,
+      "x": 292,
+      "y": 276.59375,
+      "html": "<a href=\"/admin/pages/60/\">\n        34 Pages <span class=\"w-sr-only\">created in The Wagtail Bakery</span>\n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "39 Images created in The Wagtail Bakery",
+      "width": 63.484375,
+      "height": 20.40625,
+      "x": 413.453125,
+      "y": 276.59375,
+      "html": "<a href=\"/admin/images/\">\n        39 Images <span class=\"w-sr-only\">created in The Wagtail Bakery</span>\n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "2 Documents created in The Wagtail Bakery",
+      "width": 80.09375,
+      "height": 20.40625,
+      "x": 540.9375,
+      "y": 276.59375,
+      "html": "<a href=\"/admin/documents/\">\n        2 Documents <span class=\"w-sr-only\">created in The Wagtail Bakery</span>\n    </a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_q",
+      "text": "",
+      "width": 659.078125,
+      "height": 42.5,
+      "x": 260,
+      "y": 333.796875,
+      "html": "<input type=\"text\" name=\"q\" placeholder=\"Search all pages…\" data-w-swap-target=\"input\" id=\"id_q\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "",
+      "width": 74.359375,
+      "height": 42,
+      "x": 259,
+      "y": 405.296875,
+      "html": "<input type=\"submit\" value=\"Search\" class=\"button\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Edit account avatar",
+      "width": 20,
+      "height": 20,
+      "x": 1090.078125,
+      "y": 298.703125,
+      "html": "<a class=\"avatar__edit-link\" aria-label=\"Edit account avatar\" href=\"/admin/account/#avatar-section\">\n            <svg class=\"icon icon-edit icon\" aria-hidden=\"true\"><use href=\"#icon-edit\"></use></svg>\n        </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Account",
+      "width": 49.125,
+      "height": 15,
+      "x": 1160.078125,
+      "y": 255.5,
+      "html": "<a class=\"w-underline w-underline-offset-[3px]\" href=\"/admin/account/\">Account</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Wagtail 7.4 editor guide",
+      "width": 159.921875,
+      "height": 20.40625,
+      "x": 1160.078125,
+      "y": 277.90625,
+      "html": "<a class=\"w-underline w-underline-offset-[3px] w-flex w-items-center w-gap-1\" href=\"https://guide.wagtail.org/en-7.4.x/\" target=\"_blank\" rel=\"noreferrer\">\n                    Wagtail 7.4 editor guide\n                    <svg class=\"icon ico"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 261,
+      "y": 447.59375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#objects-in-workflow-section\" data-panel-anchor=\"\" aria-labelledby=\"objects-in-workflow-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><use hre"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 285,
+      "y": 447.59375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"objects-in-workflow-heading\" data-panel-toggle=\"\" aria-controls=\"objects-in-workflow-content\" aria-expanded=\"true\">\n                \n               "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Southern Cornbread",
+      "width": 144.984375,
+      "height": 17,
+      "x": 285,
+      "y": 513.984375,
+      "html": "<a href=\"/admin/pages/82/edit/\" title=\"Edit\">Southern Cornbread</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 1168.3125,
+      "y": 512.515625,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 261,
+      "y": 604.84375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#awaiting-review-section\" data-panel-anchor=\"\" aria-labelledby=\"awaiting-review-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><use href=\"#icon"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 285,
+      "y": 604.84375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"awaiting-review-heading\" data-panel-toggle=\"\" aria-controls=\"awaiting-review-content\" aria-expanded=\"true\">\n                \n                <svg cl"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Southern Cornbread",
+      "width": 144.984375,
+      "height": 17,
+      "x": 285,
+      "y": 674.3125,
+      "html": "<a href=\"/admin/pages/82/edit/\" title=\"Edit\">Southern Cornbread</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 1168.3125,
+      "y": 672.84375,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 32,
+      "x": 1316.609375,
+      "y": 667.046875,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dropdown__toggle-ico"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Muddy Waters",
+      "width": 102.546875,
+      "height": 17,
+      "x": 285,
+      "y": 733.125,
+      "html": "<a href=\"/admin/snippets/base/person/edit/4/\" title=\"Edit\">Muddy Waters</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 1168.3125,
+      "y": 731.65625,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:04 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 32,
+      "x": 1316.609375,
+      "y": 725.859375,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dropdown__toggle-ico"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Welcome to the Wagtail Bakery!",
+      "width": 226.765625,
+      "height": 17,
+      "x": 285,
+      "y": 791.9375,
+      "html": "<a href=\"/admin/pages/60/edit/\" title=\"Edit\">Welcome to the Wagtail Bakery!</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 1168.3125,
+      "y": 790.46875,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:01 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 32,
+      "x": 1316.609375,
+      "y": 784.671875,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dropdown__toggle-ico"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 261,
+      "y": 885.875,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#recent-edits-section\" data-panel-anchor=\"\" aria-labelledby=\"recent-edits-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><use href=\"#icon-link\""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 285,
+      "y": 885.875,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"recent-edits-heading\" data-panel-toggle=\"\" aria-controls=\"recent-edits-content\" aria-expanded=\"true\">\n                \n                <svg class=\"i"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Bread and Circuses",
+      "width": 140.515625,
+      "height": 17,
+      "x": 285,
+      "y": 955.34375,
+      "html": "<a href=\"/admin/pages/68/edit/\" title=\"Edit this page\">Bread and Circuses</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live + draft",
+      "width": 80.90625,
+      "height": 21,
+      "x": 888.8125,
+      "y": 953.578125,
+      "html": "<a href=\"/blog/bread-circuses/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live + draft\n        \n    </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 1168.3125,
+      "y": 953.875,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:58 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 32,
+      "x": 1316.609375,
+      "y": 948.078125,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dropdown__toggle-ico"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Southern Cornbread",
+      "width": 144.984375,
+      "height": 17,
+      "x": 285,
+      "y": 1014.15625,
+      "html": "<a href=\"/admin/pages/82/edit/\" title=\"Edit this page\">Southern Cornbread</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live + in moderation",
+      "width": 128.921875,
+      "height": 21,
+      "x": 888.8125,
+      "y": 1012.390625,
+      "html": "<a href=\"/recipes/southern-cornbread/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live + in moderation\n        \n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 1168.3125,
+      "y": 1012.6875,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 32,
+      "x": 1316.609375,
+      "y": 1006.890625,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dropdown__toggle-ico"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Contact Us",
+      "width": 79.140625,
+      "height": 17,
+      "x": 285,
+      "y": 1072.96875,
+      "html": "<a href=\"/admin/pages/69/edit/\" title=\"Edit this page\">Contact Us</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 888.8125,
+      "y": 1071.203125,
+      "html": "<a href=\"/contact-us/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 1168.3125,
+      "y": 1071.5,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 32,
+      "x": 1316.609375,
+      "y": 1065.703125,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dropdown__toggle-ico"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Recipes",
+      "width": 57.8125,
+      "height": 17,
+      "x": 285,
+      "y": 1131.78125,
+      "html": "<a href=\"/admin/pages/80/edit/\" title=\"Edit this page\">Recipes</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 888.8125,
+      "y": 1130.015625,
+      "html": "<a href=\"/recipes/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 1168.3125,
+      "y": 1130.3125,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 32,
+      "x": 1316.609375,
+      "y": 1124.515625,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dropdown__toggle-ico"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Desserts with Benefits",
+      "width": 158.28125,
+      "height": 17,
+      "x": 285,
+      "y": 1190.59375,
+      "html": "<a href=\"/admin/pages/77/edit/\" title=\"Edit this page\">Desserts with Benefits</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 888.8125,
+      "y": 1188.828125,
+      "html": "<a href=\"/blog/desserts-benefits/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 1168.3125,
+      "y": 1189.125,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 32,
+      "x": 1316.609375,
+      "y": 1183.328125,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dropdown__toggle-ico"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 261,
+      "y": 1284.53125,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#locked-pages-section\" data-panel-anchor=\"\" aria-labelledby=\"locked-pages-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><use href=\"#icon-link\""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 285,
+      "y": 1284.53125,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"locked-pages-heading\" data-panel-toggle=\"\" aria-controls=\"locked-pages-content\" aria-expanded=\"true\">\n                \n                <svg class=\"i"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Contact Us",
+      "width": 79.140625,
+      "height": 17,
+      "x": 285,
+      "y": 1354,
+      "html": "<a href=\"/admin/pages/69/edit/\" title=\"Edit this page\">Contact Us</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 888.8125,
+      "y": 1352.234375,
+      "html": "<a href=\"/contact-us/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 1168.3125,
+      "y": 1352.53125,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:05 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 32,
+      "x": 1316.609375,
+      "y": 1346.734375,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dropdown__toggle-ico"
+    }
+  ],
+  "keyboard": [
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Skip to main content",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 125, 126)",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "w": 166.046875,
+        "h": 42
+      },
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle sidebar",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 149,
+        "y": 8,
+        "w": 35,
+        "h": 35
+      },
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n                w-items"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Dashboard",
+      "outline": "rgb(0, 125, 126) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 45,
+        "y": 51,
+        "w": 110,
+        "h": 110
+      },
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\" aria-current=\"page\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-br"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Search",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 208.5,
+        "w": 39,
+        "h": 35
+      },
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-default\n      "
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 0,
+        "y": 205,
+        "w": 200,
+        "h": 42
+      },
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n            !w-bg-t"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Pages",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 247,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"menuitem-la"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Breads",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 290.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</span><svg "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Images",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 334,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Bakery Misc",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 377.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery Misc</span>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Documents",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 421,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documents</span><"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Forms",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 464.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Reports",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 508,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><svg class=\""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Settings",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 551.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><svg class="
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Help",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 595,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"fa"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Admin",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 948,
+        "w": 200,
+        "h": 52
+      },
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n            w-"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Read the release notes.",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 91, 94)",
+      "rect": {
+        "x": 513.90625,
+        "y": 113.296875,
+        "w": 144.34375,
+        "h": 15
+      },
+      "html": "<a href=\"https://docs.wagtail.org/en/stable/releases/8.0.html\" data-w-upgrade-target=\"link\" class=\"w-text-text-link-info hover:w-text-text-link-info w-underline w-underline-offset-[3px]\">Read the release notes.</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Close",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1352,
+        "y": 93.296875,
+        "w": 32,
+        "h": 32
+      },
+      "html": "<button type=\"button\" data-action=\"w-dismissible#toggle\" data-w-upgrade-target=\"dismiss\" aria-label=\"Close\" class=\"w-ml-auto w-flex w-items-center w-justify-center w-bg-transparent w-rounded-full w-p-0 w-w-8 w-h-8\n               w-text-current\n      "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "34 Pages created in The Wagtail Bakery",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 292,
+        "y": 276.59375,
+        "w": 57.453125,
+        "h": 20.40625
+      },
+      "html": "<a href=\"/admin/pages/60/\">\n        34 Pages <span class=\"w-sr-only\">created in The Wagtail Bakery</span>\n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "39 Images created in The Wagtail Bakery",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 413.453125,
+        "y": 276.59375,
+        "w": 63.484375,
+        "h": 20.40625
+      },
+      "html": "<a href=\"/admin/images/\">\n        39 Images <span class=\"w-sr-only\">created in The Wagtail Bakery</span>\n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "2 Documents created in The Wagtail Bakery",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 540.9375,
+        "y": 276.59375,
+        "w": 80.09375,
+        "h": 20.40625
+      },
+      "html": "<a href=\"/admin/documents/\">\n        2 Documents <span class=\"w-sr-only\">created in The Wagtail Bakery</span>\n    </a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_q",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 260,
+        "y": 333.796875,
+        "w": 659.078125,
+        "h": 42.5
+      },
+      "html": "<input type=\"text\" name=\"q\" placeholder=\"Search all pages…\" data-w-swap-target=\"input\" id=\"id_q\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 259,
+        "y": 405.296875,
+        "w": 74.359375,
+        "h": 42
+      },
+      "html": "<input type=\"submit\" value=\"Search\" class=\"button\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Edit account avatar",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(224, 224, 224)",
+      "rect": {
+        "x": 1090.078125,
+        "y": 298.703125,
+        "w": 20,
+        "h": 20
+      },
+      "html": "<a class=\"avatar__edit-link\" aria-label=\"Edit account avatar\" href=\"/admin/account/#avatar-section\">\n            <svg class=\"icon icon-edit icon\" aria-hidden=\"true\"><use href=\"#icon-edit\"></use></svg>\n        </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Account",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 1160.078125,
+        "y": 255.5,
+        "w": 49.125,
+        "h": 15
+      },
+      "html": "<a class=\"w-underline w-underline-offset-[3px]\" href=\"/admin/account/\">Account</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Wagtail 7.4 editor guide",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 1160.078125,
+        "y": 277.90625,
+        "w": 159.921875,
+        "h": 20.40625
+      },
+      "html": "<a class=\"w-underline w-underline-offset-[3px] w-flex w-items-center w-gap-1\" href=\"https://guide.wagtail.org/en-7.4.x/\" target=\"_blank\" rel=\"noreferrer\">\n                    Wagtail 7.4 editor guide\n                    <svg class=\"icon icon-link-ext"
+    }
+  ],
+  "reflow": {
+    "viewport": 320,
+    "scrollWidth": 320,
+    "bodyWidth": 320,
+    "overflow": []
+  },
+  "textSpacing": {
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "clipped": [
+      {
+        "html": "<label class=\"w-sr-only\" for=\"menu-search-q\">Search</label>",
+        "scrollWidth": 53,
+        "clientWidth": 1,
+        "scrollHeight": 20,
+        "clientHeight": 1
+      },
+      {
+        "html": "<h2 class=\"w-sr-only\">Site summary</h2>",
+        "scrollWidth": 144,
+        "clientWidth": 1,
+        "scrollHeight": 27,
+        "clientHeight": 1
+      },
+      {
+        "html": "<label class=\"w-field__label w-sr-only\" for=\"id_q\" id=\"id_q-label\">\n            Search term\n        </label>",
+        "scrollWidth": 102,
+        "clientWidth": 1,
+        "scrollHeight": 21,
+        "clientHeight": 1
+      }
+    ]
+  }
+}

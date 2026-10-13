@@ -1,0 +1,47 @@
+{
+  "skill": "contrast-master",
+  "scope": [
+    "https://www.djangoproject.com/",
+    "https://www.djangoproject.com/start/",
+    "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/",
+    "https://www.djangoproject.com/fundraising/",
+    "https://www.djangoproject.com/download/",
+    "https://www.djangoproject.com/foundation/corporate-members/badges/",
+    "https://www.djangoproject.com/sponsor/plans/"
+  ],
+  "findings": [
+    {
+      "rule": "CONTRAST-DARK-BANNER-CTA",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "https://www.djangoproject.com/start/ | dark theme .copy-banner .cta",
+      "summary": "Dark-theme download call-to-action text fails minimum contrast.",
+      "fix": "Set the dark-theme banner CTA text to a light foreground or give it a background that provides at least 4.5:1 for its 18px normal-weight text.",
+      "evidence": "1440px and 320px axe: #0e1117 on #187f58 = 3.79:1; expected4.5:1; .cta and its em.",
+      "component": "Getting started banner CTA"
+    },
+    {
+      "rule": "CONTRAST-DARK-BADGE-LINKS",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "https://www.djangoproject.com/foundation/corporate-members/badges/ | dark theme .variant .links a",
+      "summary": "Badge download links become nearly invisible on their fixed gray background in dark theme.",
+      "fix": "Use theme-aware badge-panel background and link colors, or retain a sufficiently dark foreground on the #cccccc panel in both themes.",
+      "evidence": "1440px and320px: #93d7b7 foreground on #cccccc background =1.03:1 at18px normal weight; expected4.5:1.",
+      "component": "Corporate membership badge downloads"
+    }
+  ],
+  "passed": [
+    "No document horizontal overflow at320px on homepage, start, selected blog article, corporate badge page and sponsor plans in either theme.",
+    "Dark normal-content links pass contrast on reviewed pages outside badge-panel exception.",
+    "Theme control meets45x45px source dimensions."
+  ],
+  "notes": [
+    "28 scenes tested:7URLs,1440/320px, explicitlight/dark, WCAG2A/AA,2.1A/AA,2.2AA axe tags.",
+    "Light-theme findings consolidated into cross-page-analyzer; image-alt findings left to image specialist/parent.",
+    "Download page reaches365px document width due release tables; tabular content may qualify for1.4.10 two-dimensional layout exception, recommend local horizontal scroll to contain overflow.",
+    "Fundraising document width325px at320px from description width100% plus5% margin; minor horizontal overflow observed but no confirmed loss of content/function, so not scored as AA failure.",
+    "Reflow tested with320CSSpixel viewport equivalent to1280px at400%; no screen-reader visual verification performed.",
+    "Source and production CSS differ:14px bold .link-readmore in production versus source14px normal; white main background versus #F1FFF7 source token. Raw measured colors take precedence."
+  ]
+}

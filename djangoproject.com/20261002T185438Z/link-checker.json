@@ -1,0 +1,21 @@
+{
+  "skill": "link-checker",
+  "scope": [
+    "djangoproject/templates/start.html",
+    "djangoproject/templates/homepage.html",
+    "djangoproject/templates/blog/news_summary.html",
+    "djangoproject/templates/foundation/meeting_snippet.html",
+    "djangoproject/scss/_utils.scss"
+  ],
+  "findings": [],
+  "passed": [
+    "Blog and foundation meeting Read more links share a list item with the descriptive linked heading, providing contextual purpose under 2.4.4.",
+    "Homepage primary call-to-action links have descriptive text.",
+    "Commented historical homepage placeholders are excluded from findings."
+  ],
+  "notes": [
+    "Read more links in start.html benefit from preceding descriptive headings and explanatory content; individual link names could be more useful in a screen-reader links list (AAA/advisory).",
+    "New-tab warning, raw URL text, and file size indicators are not automatic WCAG AA failures.",
+    "Runtime accessible-name and destination checks remain with parent browser review."
+  ]
+}

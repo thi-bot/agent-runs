@@ -1,0 +1,39 @@
+{
+  "skill": "live-region-controller",
+  "scope": [
+    "djangoproject/static/js/djangoproject.js",
+    "djangoproject/static/js/mod/stripe-change-card.js",
+    "djangoproject/static/js/mod/stripe-donation.js",
+    "djangoproject/templates/fundraising/manage-donations.html"
+  ],
+  "findings": [
+    {
+      "rule": "STATUS-CLIPBOARD",
+      "wcag": "4.1.3 AA",
+      "severity": "moderate",
+      "location": "djangoproject/static/js/djangoproject.js:137",
+      "summary": "Clipboard success and error messages are inserted without a status or alert role.",
+      "fix": "Add an empty persistent role=status region before copying, update its text with success or failure, and preserve the message long enough to be perceived; keep keyboard focus on the copy button.",
+      "evidence": "Creates span.clipboard-success and sets innerText to Copied! or Could not copy!; no aria-live/role; fades after 1 or 5 seconds.",
+      "component": "Code clipboard feedback"
+    },
+    {
+      "rule": "STATUS-CARD-UPDATED",
+      "wcag": "4.1.3 AA",
+      "severity": "moderate",
+      "location": "djangoproject/templates/fundraising/manage-donations.html:48",
+      "summary": "The card update confirmation has no programmatic status announcement.",
+      "fix": "Give the existing empty .change-card-result span role=status before its text is updated; test return focus and confirmation with Stripe sandbox credentials.",
+      "evidence": "<span class=\"change-card-result\"></span>; stripe-change-card.js calls .text(\"Card updated\") on AJAX success.",
+      "component": "Manage donations card update"
+    }
+  ],
+  "passed": [
+    "Donation setup error is displayed using a native alert dialog rather than an unannounced visual toast."
+  ],
+  "notes": [
+    "Read-only audit did not execute payment or saved-card mutations.",
+    "Collapsing content needs expanded state and keyboard semantics rather than blanket live regions.",
+    "Static server-rendered form responses do not inherently require live regions."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "skill": "alt-text-headings",
+  "scope": [
+    "djangoproject/templates/**/*.html",
+    "checklists/templates/**/*.html",
+    "https://www.djangoproject.com/",
+    "https://www.djangoproject.com/download/",
+    "https://www.djangoproject.com/sponsor/plans/",
+    "https://www.djangoproject.com/foundation/corporate-members/badges/",
+    "https://www.djangoproject.com/foundation/corporate-members/",
+    "https://www.djangoproject.com/foundation/individual-members/",
+    "https://www.djangoproject.com/foundation/teams/",
+    "https://www.djangoproject.com/community/ecosystem/"
+  ],
+  "findings": [
+    {
+      "rule": "ALT-001",
+      "wcag": "1.1.1 A",
+      "severity": "serious",
+      "location": "djangoproject/templates/members/corporate_member_badges.html:44",
+      "summary": "All 16 corporate membership badge previews lack text alternatives identifying the badge and visual variant.",
+      "fix": "Add alt text identifying the membership level and variant, for example \"Django Bronze Member badge, full colour\"; expose variant names in the data supplied to this template.",
+      "evidence": "Production /foundation/corporate-members/badges/: <img src=\"\u2026/bronze.982734d94010.svg\"> has no alt; visual inspection confirms text \"django Bronze Member\".",
+      "component": "Corporate member badges"
+    },
+    {
+      "rule": "TITLE-001",
+      "wcag": "2.4.2 A",
+      "severity": "moderate",
+      "confidence": "medium",
+      "location": "djangoproject/templates/base_foundation.html:8",
+      "summary": "Member directories, team directory and badge downloads share a generic foundation title that omits their specific purpose.",
+      "fix": "Override the title block in corporate_member_badges.html, corporatemember_list.html, individualmember_list.html and team_list.html with their page heading and the foundation name.",
+      "evidence": "Production corporate-members/badges, corporate-members, individual-members and teams all have <title>Django Software Foundation | Django</title>.",
+      "component": "Foundation child page titles"
+    }
+  ],
+  "passed": [
+    "Representative production pages have lang=\"en\" and a main landmark.",
+    "Corporate sponsor logos have organization-name alternatives; sponsor plan logos are decorative next to text.",
+    "Fundraising progress SVG has a descriptive accessible name including funded percentage."
+  ],
+  "notes": [
+    "Skipped heading levels alone are not reported as WCAG failures.",
+    "Release-roadmap graphic is accompanied by supported/future/unsupported release data tables; its generic short alternative alone is not treated as a failure.",
+    "Flatpage and blog database content beyond representative runtime pages is outside this source-only review."
+  ]
+}

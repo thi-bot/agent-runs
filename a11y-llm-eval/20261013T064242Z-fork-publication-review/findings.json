@@ -1,0 +1,31 @@
+{
+  "skill": "pr-review",
+  "scope": [
+    "README.md",
+    "a11y_llm_tests/",
+    "scripts/",
+    "config/",
+    "tests/",
+    ".gitignore",
+    "requirements.txt",
+    "requirements-copilot.txt",
+    "docs/legacy-copilot.md"
+  ],
+  "findings": [],
+  "passed": [
+    "No credential-like tokens or private-key material found by pattern scan of all 21 pending files.",
+    "No generated experiment outputs included among pending files; runs, jobs, exported datasets and review artifacts are ignored.",
+    "No hard-coded user home paths found in pending files.",
+    "Four new test modules total 670 lines against 1368 new production lines, above the skill 20% threshold.",
+    "Harbor dependency and optional legacy Copilot SDK installation paths are documented.",
+    "Campaign setup finding resolved: README now covers Unix locking, host Codex auth.json login, and exclusive baseline creation using Harbor Task.checksum."
+  ],
+  "notes": [
+    "Triage publication review only; extensive Python logic review and runtime tests are handled separately by the parent agent.",
+    "Change map: new Harbor integration and campaign/comparison features, variant-loading refactor, report wording, config/docs/dependencies, four test modules.",
+    "Commit story: pending migration builds on upstream f6ac724; no publication commit exists yet.",
+    "No existing publication review document or workspace scan configuration found.",
+    "Security-sensitive behavior: campaign uses host Codex auth.json through Harbor; no credentials are embedded in source.",
+    "Delta: DOC-CAMPAIGN-SETUP resolved after rereading the revised README. No remaining findings."
+  ]
+}

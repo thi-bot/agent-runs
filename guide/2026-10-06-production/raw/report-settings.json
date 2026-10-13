@@ -1,0 +1,16 @@
+{
+  "target": "WCAG 2.2 AA",
+  "production": "https://guide.wagtail.org",
+  "method": "Full production HTML crawl plus Django/Wagtail source review, keyboard/AX/state testing and all-successful-page dark/320px sweeps",
+  "screenshots": false,
+  "sourceCommit": "31a4547eb1f6de55baea84269723313784f6b544",
+  "tooling": "Chromium 152.0.7977.82; Playwright 1.58.2; axe-core 4.11.1 (full crawl and state sweeps); axe CLI 4.13.0 (homepage cross-check)",
+  "tags": ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"],
+  "desktop": {"width":1440,"height":1000},
+  "mobile": {"width":320,"height":800},
+  "keyboardMobile": {"width":390,"height":844},
+  "exclusions": ["Authenticated /admin/", "API/JSON endpoints", "raw Markdown and other non-HTML downloads", "external destinations"],
+  "feedback": "Production POST requests intercepted and fulfilled locally for all feedback-state testing",
+  "config": "No .a11y-web-config.json found; default rule coverage expanded to WCAG 2.2 AA and crawl limit lifted for explicitly requested full site",
+  "limitations": ["No native screen-reader speech testing", "No visual screenshot or pixel-level image-equivalence review", "200% text enlargement used root font-size; native browser zoom and Firefox text-only mode remain human checks", "No production feedback data was created; backend failure paths not exercised", "Computed styles, viewport and forced-colors emulation are not native device/OS testing", "Non-English content language assessed from textual evidence; idiomatic translations need native-language review"]
+}

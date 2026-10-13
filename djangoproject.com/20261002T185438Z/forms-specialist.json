@@ -1,0 +1,80 @@
+{
+  "skill": "forms-specialist",
+  "scope": [
+    "djangoproject/templates/fundraising/includes/_form.html",
+    "djangoproject/templates/fundraising/includes/donation_form_with_heart.html",
+    "djangoproject/templates/fundraising/manage-donations.html",
+    "djangoproject/templates/members/corporatemember_form.html",
+    "djangoproject/templates/accounts/edit_profile.html",
+    "djangoproject/templates/contact/foundation.html",
+    "djangoproject/templates/registration/*.html",
+    "fundraising/forms.py",
+    "members/forms.py",
+    "contact/forms.py",
+    "accounts/forms.py"
+  ],
+  "findings": [
+    {
+      "rule": "FORM-001",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "djangoproject/static/js/djangoproject.js:206",
+      "summary": "Choosing Other amount creates an unnamed donation amount input and removes the existing label target.",
+      "fix": "Give the new input id=id_amount so the existing Donation amount label remains associated; associate the USD integer instruction using aria-describedby.",
+      "evidence": "Production /fundraising/: Other amount creates <input type=\"number\" name=\"amount\"> with labels=[], aria-label=null, aria-labelledby=null; axe label failure. See evidence/behavior.json.",
+      "component": "Donation custom amount"
+    },
+    {
+      "rule": "FORM-002",
+      "wcag": "1.3.1 A",
+      "severity": "serious",
+      "location": "djangoproject/templates/fundraising/includes/_form.html:8",
+      "summary": "Donation management renders amount, interval and logo fields without associated labels.",
+      "fix": "Render each normal field with as_field_group or label_tag; use fieldsets and legends for radio groups and associate help/error descriptions.",
+      "evidence": "The normal-field branch renders only {{ field }}. DonationForm subscription_amount and interval have no placeholder; DjangoHeroForm logo has no label.",
+      "component": "Donation management form"
+    },
+    {
+      "rule": "FORM-003",
+      "wcag": "1.3.1 A",
+      "severity": "serious",
+      "location": "djangoproject/templates/members/corporatemember_form.html:18",
+      "summary": "Corporate membership file and membership-level controls have plain text labels without programmatic association.",
+      "fix": "Use field.label_tag or field.as_field_group for all controls, keeping visible labels for text fields as well.",
+      "evidence": "Production corporate join: id_logo and id_membership_level have labels=[]; membership select fails axe select-name. Plain {{ field.label }} is not linked to either control.",
+      "component": "Corporate membership form"
+    },
+    {
+      "rule": "FORM-004",
+      "wcag": "1.3.5 AA",
+      "severity": "moderate",
+      "location": "contact/forms.py:27",
+      "summary": "The contact form does not expose autocomplete purposes for the user name and email.",
+      "fix": "Set autocomplete=name on name and autocomplete=email on email; add appropriate name/email tokens to profile and corporate contact fields.",
+      "evidence": "BaseContactForm name/email widgets specify only class=required; accounts/forms.py:31-35 similarly sets only placeholder.",
+      "component": "Personal information forms"
+    },
+    {
+      "rule": "STATUS-CARD-UPDATED",
+      "wcag": "4.1.3 AA",
+      "severity": "moderate",
+      "location": "djangoproject/templates/fundraising/manage-donations.html:48",
+      "summary": "Successful payment-card updates are inserted without an assistive-technology status announcement.",
+      "fix": "Give .change-card-result role=status before updates, keeping the visible Card updated text.",
+      "evidence": "The callback sets .change-card-result.text(\"Card updated\"); manage-donations.html:48 renders a plain span without role or aria-live.",
+      "component": "Manage donations card update"
+    }
+  ],
+  "passed": [
+    "Registration and login templates provide explicitly associated visible username/password/email labels.",
+    "Documentation search input has a visually hidden associated label and named submit button.",
+    "Foundation contact form uses Django as_field_group rendering.",
+    "Donation frequency and preset amount selects have associated visible labels."
+  ],
+  "notes": [
+    "No forms submitted, accounts modified, payments made, or third-party checkout opened.",
+    "Custom paragraph errors/help text in older templates do not supply IDs even though modern Django may auto-generate aria-describedby references; verify rendered invalid forms locally before recording an additional failure.",
+    "Profile and several corporate/donor text fields rely on placeholders; persistent labels are recommended, but placeholder presence alone is not recorded as an unequivocal missing accessible-name failure.",
+    "Source defects in authenticated donation-management/profile views are recorded as source-only coverage, not verified production behavior."
+  ]
+}

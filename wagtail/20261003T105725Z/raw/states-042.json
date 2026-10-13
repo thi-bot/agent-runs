@@ -1,0 +1,337 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/groups/edit/2/",
+  "states": [
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"document_permissions-0-collection\" id=\"id_document_permissions-0-collection\">",
+                      "target": [
+                        "#id_document_permissions-0-collection"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"document_permissions-0-collection\" id=\"id_document_permissions-0-collection\">",
+              "target": [
+                "#id_document_permissions-0-collection"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"image_permissions-0-collection\" id=\"id_image_permissions-0-collection\">",
+                      "target": [
+                        "#id_image_permissions-0-collection"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"image_permissions-0-collection\" id=\"id_image_permissions-0-collection\">",
+              "target": [
+                "#id_image_permissions-0-collection"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        },
+        {
+          "id": "th-has-data-cells",
+          "impact": "serious",
+          "tags": [
+            "cat.tables",
+            "wcag2a",
+            "wcag131",
+            "section508",
+            "section508.22.g",
+            "TTv5",
+            "TT14.b",
+            "EN-301-549",
+            "EN-9.1.3.1",
+            "RGAAv4",
+            "RGAA-5.7.1"
+          ],
+          "description": "Ensure that <th> elements and elements with role=columnheader/rowheader have data cells they describe",
+          "help": "Table headers in a data table must refer to data cells",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/th-has-data-cells?application=playwright",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "th-has-data-cells",
+                  "data": null,
+                  "relatedNodes": [
+                    {
+                      "html": "<th title=\"Delete collections\">Delete</th>",
+                      "target": [
+                        "th[title=\"Delete collections\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Table data cells are missing or empty"
+                }
+              ],
+              "none": [],
+              "impact": "serious",
+              "html": "<table class=\"listing\">",
+              "target": [
+                "#collection-management-permissions-content > .listing"
+              ],
+              "failureSummary": "Fix all of the following:\n  Table data cells are missing or empty"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "bold",
+                    "messageKey": "elmPartiallyObscuring",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it partially overlaps other elements"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" data-chooser-action-choose=\"\" aria-describedby=\"id_page_permissions-0-page-title\">\n                <svg class=\"icon icon-resubmit icon\" aria-hidden=\"true\"><use href=\"#icon-resubmit\"></use></svg>\n                Choose another page\n            </button>",
+              "target": [
+                ".w-dropdown__content > button[data-chooser-action-choose=\"\"][type=\"button\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button class=\"button bicolor button--icon\" id=\"id_page_permissions-ADD\" value=\"Add\" type=\"button\" data-action=\"w-formset#add\"><span class=\"icon-wrapper\"><svg class=\"icon icon-plus icon\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg></span>Add a page permission</button>",
+              "target": [
+                "#id_page_permissions-ADD"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"document_permissions-0-collection\" id=\"id_document_permissions-0-collection\">",
+                      "target": [
+                        "#id_document_permissions-0-collection"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"document_permissions-0-collection\" id=\"id_document_permissions-0-collection\">",
+              "target": [
+                "#id_document_permissions-0-collection"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"image_permissions-0-collection\" id=\"id_image_permissions-0-collection\">",
+                      "target": [
+                        "#id_image_permissions-0-collection"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"image_permissions-0-collection\" id=\"id_image_permissions-0-collection\">",
+              "target": [
+                "#id_image_permissions-0-collection"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        },
+        {
+          "id": "th-has-data-cells",
+          "impact": "serious",
+          "tags": [
+            "cat.tables",
+            "wcag2a",
+            "wcag131",
+            "section508",
+            "section508.22.g",
+            "TTv5",
+            "TT14.b",
+            "EN-301-549",
+            "EN-9.1.3.1",
+            "RGAAv4",
+            "RGAA-5.7.1"
+          ],
+          "description": "Ensure that <th> elements and elements with role=columnheader/rowheader have data cells they describe",
+          "help": "Table headers in a data table must refer to data cells",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/th-has-data-cells?application=playwright",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "th-has-data-cells",
+                  "data": null,
+                  "relatedNodes": [
+                    {
+                      "html": "<th title=\"Delete collections\">Delete</th>",
+                      "target": [
+                        "th[title=\"Delete collections\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Table data cells are missing or empty"
+                }
+              ],
+              "none": [],
+              "impact": "serious",
+              "html": "<table class=\"listing\">",
+              "target": [
+                "#collection-management-permissions-content > .listing"
+              ],
+              "failureSummary": "Fix all of the following:\n  Table data cells are missing or empty"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blocked": [],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list\n  - 'heading \"Editing: Editors\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Editors\":\n          - /url: \"\"\n  - navigation \"Actions\":\n    - link \"View users in this group\":\n      - /url: /admin/users/?group=2\n    - button \"Actions\"\n  - button \"Toggle status\"\n  - link \"History\":\n    - /url: /admin/groups/history/2/\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"Name*\":\n          - /url: \"#name-section\"\n      - listitem:\n        - link \"Object permissions\":\n          - /url: \"#object-permissions-section\"\n      - listitem:\n        - link \"Other permissions\":\n          - /url: \"#other-permissions-section\"\n      - listitem:\n        - link \"Page permissions\":\n          - /url: \"#page-permissions-section\"\n      - listitem:\n        - link \"Site settings permissi…\":\n          - /url: \"#base-sitesettings-permissions-section\"\n      - listitem:\n        - link \"Document permissions\":\n          - /url: \"#document-permissions-section\"\n      - listitem:\n        - link \"Image permissions\":\n          - /url: \"#image-permissions-section\"\n      - listitem:\n        - link \"Collection management …\":\n          - /url: \"#collection-management-permissions-section\"\n  - heading \"Editors\" [level=2]\n  - region \"Name*\":\n    - link \"Name*\":\n      - /url: \"#name-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Name*\" [level=2]\n    - textbox \"Name*\": Editors\n  - region \"Object permissions\":\n    - link \"Object permissions\":\n      - /url: \"#object-permissions-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Object permissions\" [level=2]\n    - group \"Object permissions\":\n      - text: Object permissions\n      - table:\n        - rowgroup:\n          - row \"Name Add Change Delete Custom permissions\":\n            - columnheader \"Name\"\n            - columnheader \"Add\"\n            - columnheader \"Change\"\n            - columnheader \"Delete\"\n            - columnheader \"Custom permissions\"\n        - rowgroup:\n          - row \"Group Can add group Can change group Can delete group\":\n            - cell \"Group\":\n              - heading \"Group\" [level=3]\n            - cell \"Can add group\":\n              - text: Can add group\n              - checkbox \"Can add group\"\n            - cell \"Can change group\":\n              - text: Can change group\n              - checkbox \"Can change group\"\n            - cell \"Can delete group\":\n              - text: Can delete group\n              - checkbox \"Can delete group\"\n            - cell\n          - row \"User Can add user Can change user Can delete user\":\n            - cell \"User\":\n              - heading \"User\" [level=3]\n            - cell \"Can add user\":\n              - text: Can add user\n              - checkbox \"Can add user\"\n            - cell \"Can change user\":\n              - text: Can change user\n              - checkbox \"Can change user\"\n            - cell \"Can delete user\":\n              - text: Can delete user\n              - checkbox \"Can delete user\"\n            - cell\n          - row \"Footer text Can add footer text Can change footer text Can delete footer text Custom permissions\":\n            - cell \"Footer text\":\n              - heading \"Footer text\" [level=3]\n            - cell \"Can add footer text\":\n              - text: Can add footer text\n              - checkbox \"Can add footer text\" [checked]\n            - cell \"Can change footer text\":\n              - text: Can change footer text\n              - checkbox \"Can change footer text\" [checked]\n            - cell \"Can delete footer text\":\n              - text: Can delete footer text\n              - checkbox \"Can delete footer text\"\n            - cell \"Custom permissions\":\n              - group \"Custom permissions\":\n                - text: Custom permissions\n                - checkbox \"Can publish\"\n                - text: Can publish\n          - row \"Generic settings Can change generic settings\":\n            - cell \"Generic settings\":\n              - heading \"Generic settings\" [level=3]\n            - cell\n            - cell \"Can change generic settings\":\n              - text: Can change generic settings\n              - checkbox \"Can change generic settings\"\n            - cell\n            - cell\n          - row \"Person Can add person Can change person Can delete person Custom permissions\":\n            - cell \"Person\":\n              - heading \"Person\" [level=3]\n            - cell \"Can add person\":\n              - text: Can add person\n              - checkbox \"Can add person\" [checked]\n            - cell \"Can change person\":\n              - text: Can change person\n              - checkbox \"Can change person\" [checked]\n            - cell \"Can delete person\":\n              - text: Can delete person\n              - checkbox \"Can delete person\"\n            - cell \"Custom permissions\":\n              - group \"Custom permissions\":\n                - text: Custom permissions\n                - checkbox \"Can lock\" [checked]\n                - text: Can lock\n                - checkbox \"Can publish\"\n                - text: Can publish\n                - checkbox \"Can unlock\"\n                - text: Can unlock\n          - row \"Site settings Can change site settings\":\n            - cell \"Site settings\":\n              - heading \"Site settings\" [level=3]\n            - cell\n            - cell \"Can change site settings\":\n              - text: Can change site settings\n              - checkbox \"Can change site settings\"\n            - cell\n            - cell\n          - row \"Bread ingredient Can add bread ingredient Can change bread ingredient Can delete bread ingredient Custom permissions\":\n            - cell \"Bread ingredient\":\n              - heading \"Bread ingredient\" [level=3]\n            - cell \"Can add bread ingredient\":\n              - text: Can add bread ingredient\n              - checkbox \"Can add bread ingredient\" [checked]\n            - cell \"Can change bread ingredient\":\n              - text: Can change bread ingredient\n              - checkbox \"Can change bread ingredient\" [checked]\n            - cell \"Can delete bread ingredient\":\n              - text: Can delete bread ingredient\n              - checkbox \"Can delete bread ingredient\"\n            - cell \"Custom permissions\":\n              - group \"Custom permissions\":\n                - text: Custom permissions\n                - checkbox \"Can publish\"\n                - text: Can publish\n                - checkbox \"Can view\"\n                - text: Can view\n          - row \"Bread type Can add bread type Can change bread type Can delete bread type\":\n            - cell \"Bread type\":\n              - heading \"Bread type\" [level=3]\n            - cell \"Can add bread type\":\n              - text: Can add bread type\n              - checkbox \"Can add bread type\"\n            - cell \"Can change bread type\":\n              - text: Can change bread type\n              - checkbox \"Can change bread type\"\n            - cell \"Can delete bread type\":\n              - text: Can delete bread type\n              - checkbox \"Can delete bread type\"\n            - cell\n          - row \"Country of origin Can add country of origin Can change country of origin Can delete country of origin Custom permissions\":\n            - cell \"Country of origin\":\n              - heading \"Country of origin\" [level=3]\n            - cell \"Can add country of origin\":\n              - text: Can add country of origin\n              - checkbox \"Can add country of origin\"\n            - cell \"Can change country of origin\":\n              - text: Can change country of origin\n              - checkbox \"Can change country of origin\"\n            - cell \"Can delete country of origin\":\n              - text: Can delete country of origin\n              - checkbox \"Can delete country of origin\"\n            - cell \"Custom permissions\":\n              - group \"Custom permissions\":\n                - text: Custom permissions\n                - checkbox \"Can view\"\n                - text: Can view\n          - row \"Simple translation Custom permissions\":\n            - cell \"Simple translation\":\n              - heading \"Simple translation\" [level=3]\n            - cell\n            - cell\n            - cell\n            - cell \"Custom permissions\":\n              - group \"Custom permissions\":\n                - text: Custom permissions\n                - checkbox \"Can submit translations\"\n                - text: Can submit translations\n          - row \"Locale Can add locale Can change locale Can delete locale\":\n            - cell \"Locale\":\n              - heading \"Locale\" [level=3]\n            - cell \"Can add locale\":\n              - text: Can add locale\n              - checkbox \"Can add locale\"\n            - cell \"Can change locale\":\n              - text: Can change locale\n              - checkbox \"Can change locale\"\n            - cell \"Can delete locale\":\n              - text: Can delete locale\n              - checkbox \"Can delete locale\"\n            - cell\n          - row \"Site Can add site Can change site Can delete site\":\n            - cell \"Site\":\n              - heading \"Site\" [level=3]\n            - cell \"Can add site\":\n              - text: Can add site\n              - checkbox \"Can add site\"\n            - cell \"Can change site\":\n              - text: Can change site\n              - checkbox \"Can change site\"\n            - cell \"Can delete site\":\n              - text: Can delete site\n              - checkbox \"Can delete site\"\n            - cell\n          - row \"Task Can add task Can change task Can delete task\":\n            - cell \"Task\":\n              - heading \"Task\" [level=3]\n            - cell \"Can add task\":\n              - text: Can add task\n              - checkbox \"Can add task\"\n            - cell \"Can change task\":\n              - text: Can change task\n              - checkbox \"Can change task\"\n            - cell \"Can delete task\":\n              - text: Can delete task\n              - checkbox \"Can delete task\"\n            - cell\n          - row \"Workflow Can add workflow Can change workflow Can delete workflow\":\n            - cell \"Workflow\":\n              - heading \"Workflow\" [level=3]\n            - cell \"Can add workflow\":\n              - text: Can add workflow\n              - checkbox \"Can add workflow\"\n            - cell \"Can change workflow\":\n              - text: Can change workflow\n              - checkbox \"Can change workflow\"\n            - cell \"Can delete workflow\":\n              - text: Can delete workflow\n              - checkbox \"Can delete workflow\"\n            - cell\n          - row \"Redirect Can add redirect Can change redirect Can delete redirect\":\n            - cell \"Redirect\":\n              - heading \"Redirect\" [level=3]\n            - cell \"Can add redirect\":\n              - text: Can add redirect\n              - checkbox \"Can add redirect\"\n            - cell \"Can change redirect\":\n              - text: Can change redirect\n              - checkbox \"Can change redirect\"\n            - cell \"Can delete redirect\":\n              - text: Can delete redirect\n              - checkbox \"Can delete redirect\"\n            - cell\n          - row \"Search promotion Can add search promotion Can change search promotion Can delete search promotion\":\n            - cell \"Search promotion\":\n              - heading \"Search promotion\" [level=3]\n            - cell \"Can add search promotion\":\n              - text: Can add search promotion\n              - checkbox \"Can add search promotion\"\n            - cell \"Can change search promotion\":\n              - text: Can change search promotion\n              - checkbox \"Can change search promotion\"\n            - cell \"Can delete search promotion\":\n              - text: Can delete search promotion\n              - checkbox \"Can delete search promotion\"\n            - cell\n        - rowgroup:\n          - row \"Toggle all Toggle all add permissions Toggle all change permissions Toggle all delete permissions Toggle all custom permissions\":\n            - rowheader \"Toggle all\":\n              - checkbox \"Toggle all\"\n              - text: Toggle all\n            - cell \"Toggle all add permissions\":\n              - text: Toggle all add permissions\n              - checkbox \"Toggle all add permissions\"\n            - cell \"Toggle all change permissions\":\n              - text: Toggle all change permissions\n              - checkbox \"Toggle all change permissions\"\n            - cell \"Toggle all delete permissions\":\n              - text: Toggle all delete permissions\n              - checkbox \"Toggle all delete permissions\"\n            - cell \"Toggle all custom permissions\":\n              - text: Toggle all custom permissions\n              - checkbox \"Toggle all custom permissions\"\n  - region \"Other permissions\":\n    - link \"Other permissions\":\n      - /url: \"#other-permissions-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Other permissions\" [level=2]\n    - group \"Other permissions\":\n      - text: Other permissions\n      - table:\n        - rowgroup:\n          - row \"Name\":\n            - columnheader \"Name\"\n        - rowgroup:\n          - row \"Can access Wagtail admin\":\n            - cell \"Can access Wagtail admin\"\n            - cell \"Can access Wagtail admin\":\n              - checkbox \"Can access Wagtail admin\" [checked]\n  - region \"Page permissions\":\n    - link \"Page permissions\":\n      - /url: \"#page-permissions-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Page permissions\" [level=2]\n    - table:\n      - rowgroup:\n        - row \"Page Add Bulk delete Edit Lock Publish Unlock\":\n          - columnheader \"Page\"\n          - columnheader \"Add\"\n          - columnheader \"Bulk delete\"\n          - columnheader \"Edit\"\n          - columnheader \"Lock\"\n          - columnheader \"Publish\"\n          - columnheader \"Unlock\"\n      - rowgroup:\n        - row \"Page* Root Actions Wagtail core | page | Can add page Wagtail core | page | Delete pages with children Wagtail core | page | Can change page Wagtail core | page | Lock/unlock pages you've locked Wagtail core | page | Publish any page Wagtail core | page | Unlock any page Delete\":\n          - cell \"Page* Root Actions\":\n            - text: Page* Root\n            - button \"Actions\"\n          - cell \"Wagtail core | page | Can add page\":\n            - text: Wagtail core | page | Can add page\n            - checkbox \"Wagtail core | page | Can add page\" [checked]\n          - cell \"Wagtail core | page | Delete pages with children\":\n            - text: Wagtail core | page | Delete pages with children\n            - checkbox \"Wagtail core | page | Delete pages with children\"\n          - cell \"Wagtail core | page | Can change page\":\n            - text: Wagtail core | page | Can change page\n            - checkbox \"Wagtail core | page | Can change page\" [checked]\n          - cell \"Wagtail core | page | Lock/unlock pages you've locked\":\n            - text: Wagtail core | page | Lock/unlock pages you've locked\n            - checkbox \"Wagtail core | page | Lock/unlock pages you've locked\"\n          - cell \"Wagtail core | page | Publish any page\":\n            - text: Wagtail core | page | Publish any page\n            - checkbox \"Wagtail core | page | Publish any page\"\n          - cell \"Wagtail core | page | Unlock any page\":\n            - text: Wagtail core | page | Unlock any page\n            - checkbox \"Wagtail core | page | Unlock any page\"\n          - cell \"Delete\":\n            - button \"Delete\"\n    - paragraph:\n      - button \"Add a page permission\"\n  - region \"Site settings permissions\":\n    - link \"Site settings permissions\":\n      - /url: \"#base-sitesettings-permissions-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Site settings permissions\" [level=2]\n    - list:\n      - listitem:\n        - text: Sites\n        - checkbox \"Wagtail Bakery [default]\"\n        - text: Wagtail Bakery [default]\n  - region \"Document permissions\":\n    - link \"Document permissions\":\n      - /url: \"#document-permissions-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Document permissions\" [level=2]\n    - table:\n      - rowgroup:\n        - row \"Collection Add Edit Choose\":\n          - columnheader \"Collection\"\n          - columnheader \"Add\"\n          - columnheader \"Edit\"\n          - columnheader \"Choose\"\n      - rowgroup:\n        - row \"Collection* Root Add/edit documents you own Edit any document Select documents in choosers Delete\":\n          - cell \"Collection* Root\":\n            - text: Collection*\n            - combobox \"Collection*\":\n              - option \"Root\" [selected]\n              - option \"Bakeries\"\n              - option \"BreadPage Images\"\n              - option \"Other\"\n              - option \"Recipes\"\n          - cell \"Add/edit documents you own\":\n            - text: Add/edit documents you own\n            - checkbox \"Add/edit documents you own\" [checked]\n          - cell \"Edit any document\":\n            - text: Edit any document\n            - checkbox \"Edit any document\" [checked]\n          - cell \"Select documents in choosers\":\n            - text: Select documents in choosers\n            - checkbox \"Select documents in choosers\" [checked]\n          - cell \"Delete\":\n            - button \"Delete\"\n    - paragraph:\n      - button \"Add a document permission\"\n  - region \"Image permissions\":\n    - link \"Image permissions\":\n      - /url: \"#image-permissions-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Image permissions\" [level=2]\n    - table:\n      - rowgroup:\n        - row \"Collection Add Edit Choose\":\n          - columnheader \"Collection\"\n          - columnheader \"Add\"\n          - columnheader \"Edit\"\n          - columnheader \"Choose\"\n      - rowgroup:\n        - row \"Collection* Root Add/edit images you own Edit any image Select images in choosers Delete\":\n          - cell \"Collection* Root\":\n            - text: Collection*\n            - combobox \"Collection*\":\n              - option \"Root\" [selected]\n              - option \"Bakeries\"\n              - option \"BreadPage Images\"\n              - option \"Other\"\n              - option \"Recipes\"\n          - cell \"Add/edit images you own\":\n            - text: Add/edit images you own\n            - checkbox \"Add/edit images you own\" [checked]\n          - cell \"Edit any image\":\n            - text: Edit any image\n            - checkbox \"Edit any image\" [checked]\n          - cell \"Select images in choosers\":\n            - text: Select images in choosers\n            - checkbox \"Select images in choosers\" [checked]\n          - cell \"Delete\":\n            - button \"Delete\"\n    - paragraph:\n      - button \"Add an image permission\"\n  - region \"Collection management permissions\":\n    - link \"Collection management permissions\":\n      - /url: \"#collection-management-permissions-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Collection management permissions\" [level=2]\n    - table:\n      - rowgroup:\n        - row \"Collection Add Edit Delete\":\n          - columnheader \"Collection\"\n          - columnheader \"Add\"\n          - columnheader \"Edit\"\n          - columnheader \"Delete\"\n      - rowgroup\n    - paragraph:\n      - button \"Add a collection permission\"\n  - navigation \"Actions (footer)\":\n    - button \"Save\":\n      - emphasis: Save"
+}

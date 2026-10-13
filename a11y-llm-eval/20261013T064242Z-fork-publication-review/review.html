@@ -1,0 +1,215 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Harbor publication review</title><style>body{font:1rem/1.6 system-ui;max-width:72rem;margin:auto;padding:1.5rem;color:#1a1a1a;background:white}a{color:#0969da}a:focus{outline:3px solid #0969da;outline-offset:3px}.skip{position:absolute;left:-9999px}.skip:focus{left:1rem}table{border-collapse:collapse;width:100%}th,td{border:1px solid #777;padding:.5rem;text-align:left}pre{overflow:auto}caption{text-align:left;font-weight:bold}</style></head><body><a class="skip" href="#main">Skip to review</a><main id="main"><h1>Markdown Accessibility Audit</h1>
+<p>An audit of markdown documentation, run on 2026-10-13. Read the executive summary for the verdict, the priorities section for what to do first, and the findings tables for detail.</p>
+<h2>Metadata</h2>
+<p>What was audited, with what, and under which settings.</p>
+<table><caption>Review details</caption>
+<thead>
+<tr>
+<th scope="col">Field</th>
+<th scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Date</td>
+<td>2026-10-13</td>
+</tr>
+<tr>
+<td>Scope</td>
+<td>9 items</td>
+</tr>
+<tr>
+<td>Skills run</td>
+<td>pr-review</td>
+</tr>
+<tr>
+<td>Tooling</td>
+<td>node v26.8.1</td>
+</tr>
+<tr>
+<td>Scan configuration</td>
+<td>defaults, no config file found</td>
+</tr>
+<tr>
+<td>Checks counted</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<p>Audited:</p>
+<ul>
+<li><code>.gitignore</code></li>
+<li><code>README.md</code></li>
+<li><code>a11y_llm_tests/</code></li>
+<li><code>config/</code></li>
+<li><code>docs/legacy-copilot.md</code></li>
+<li><code>requirements-copilot.txt</code></li>
+<li><code>requirements.txt</code></li>
+<li><code>scripts/</code></li>
+<li><code>tests/</code></li>
+</ul>
+<h2>Executive summary</h2>
+<p>Pass. No critical or serious findings.</p>
+<p>The headline numbers for this run.</p>
+<table><caption>Review details</caption>
+<thead>
+<tr>
+<th scope="col">Measure</th>
+<th scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Score</td>
+<td>100 out of 100</td>
+</tr>
+<tr>
+<td>Grade</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Findings</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Blocking (critical plus serious)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Verdict</td>
+<td>Pass</td>
+</tr>
+</tbody>
+</table>
+<h2>Severity breakdown</h2>
+<p>Counts by severity, highest impact first.</p>
+<table><caption>Review details</caption>
+<thead>
+<tr>
+<th scope="col">Severity</th>
+<th style="text-align:right">Count</th>
+<th scope="col">What it means</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>critical</td>
+<td style="text-align:right">0</td>
+<td>Blocks a person from completing the task</td>
+</tr>
+<tr>
+<td>serious</td>
+<td style="text-align:right">0</td>
+<td>Major barrier with a difficult workaround</td>
+</tr>
+<tr>
+<td>moderate</td>
+<td style="text-align:right">0</td>
+<td>Real friction, workaround exists</td>
+</tr>
+<tr>
+<td>minor</td>
+<td style="text-align:right">0</td>
+<td>Noticeable but rarely blocking</td>
+</tr>
+</tbody>
+</table>
+<h2>Findings</h2>
+<p>No findings. Every check listed under &quot;What passed&quot; ran and came back clean.</p>
+<h2>Remediation priorities</h2>
+<p>Nothing to remediate.</p>
+<h2>What passed</h2>
+<p>6 checks ran and found nothing.</p>
+<ul>
+<li>Campaign setup finding resolved: README now covers Unix locking, host Codex auth.json login, and exclusive baseline creation using Harbor Task.checksum.</li>
+<li>Four new test modules total 670 lines against 1368 new production lines, above the skill 20% threshold.</li>
+<li>Harbor dependency and optional legacy Copilot SDK installation paths are documented.</li>
+<li>No credential-like tokens or private-key material found by pattern scan of all 21 pending files.</li>
+<li>No generated experiment outputs included among pending files; runs, jobs, exported datasets and review artifacts are ignored.</li>
+<li>No hard-coded user home paths found in pending files.</li>
+</ul>
+<h2>Needs a human</h2>
+<p>Items a skill could not decide, or could not check automatically.</p>
+<ul>
+<li><strong>pr-review</strong>: Triage publication review only; extensive Python logic review and runtime tests are handled separately by the parent agent.</li>
+<li><strong>pr-review</strong>: Change map: new Harbor integration and campaign/comparison features, variant-loading refactor, report wording, config/docs/dependencies, four test modules.</li>
+<li><strong>pr-review</strong>: Commit story: pending migration builds on upstream f6ac724; no publication commit exists yet.</li>
+<li><strong>pr-review</strong>: No existing publication review document or workspace scan configuration found.</li>
+<li><strong>pr-review</strong>: Security-sensitive behavior: campaign uses host Codex auth.json through Harbor; no credentials are embedded in source.</li>
+<li><strong>pr-review</strong>: Delta: DOC-CAMPAIGN-SETUP resolved after rereading the revised README. No remaining findings.</li>
+</ul>
+<h2>Next steps</h2>
+<ol>
+<li>Keep the current checks in continuous integration so this does not regress.</li>
+<li>Re-audit when the interface changes materially, or quarterly.</li>
+<li>Confirm the automated result with a manual screen reader and keyboard pass.</li>
+</ol>
+<p>Automated checks find a minority of accessibility barriers. A passing score is a floor, not a guarantee.</p>
+<h2>Findings data</h2>
+<p>The merged findings, embedded so the next run can compute a delta without parsing this document.</p>
+<pre><code class="language-json">{
+  &quot;skills&quot;: [
+    &quot;pr-review&quot;
+  ],
+  &quot;scope&quot;: [
+    &quot;.gitignore&quot;,
+    &quot;README.md&quot;,
+    &quot;a11y_llm_tests/&quot;,
+    &quot;config/&quot;,
+    &quot;docs/legacy-copilot.md&quot;,
+    &quot;requirements-copilot.txt&quot;,
+    &quot;requirements.txt&quot;,
+    &quot;scripts/&quot;,
+    &quot;tests/&quot;
+  ],
+  &quot;findings&quot;: [],
+  &quot;passed&quot;: [
+    &quot;Campaign setup finding resolved: README now covers Unix locking, host Codex auth.json login, and exclusive baseline creation using Harbor Task.checksum.&quot;,
+    &quot;Four new test modules total 670 lines against 1368 new production lines, above the skill 20% threshold.&quot;,
+    &quot;Harbor dependency and optional legacy Copilot SDK installation paths are documented.&quot;,
+    &quot;No credential-like tokens or private-key material found by pattern scan of all 21 pending files.&quot;,
+    &quot;No generated experiment outputs included among pending files; runs, jobs, exported datasets and review artifacts are ignored.&quot;,
+    &quot;No hard-coded user home paths found in pending files.&quot;
+  ],
+  &quot;notes&quot;: [
+    {
+      &quot;skill&quot;: &quot;pr-review&quot;,
+      &quot;note&quot;: &quot;Triage publication review only; extensive Python logic review and runtime tests are handled separately by the parent agent.&quot;
+    },
+    {
+      &quot;skill&quot;: &quot;pr-review&quot;,
+      &quot;note&quot;: &quot;Change map: new Harbor integration and campaign/comparison features, variant-loading refactor, report wording, config/docs/dependencies, four test modules.&quot;
+    },
+    {
+      &quot;skill&quot;: &quot;pr-review&quot;,
+      &quot;note&quot;: &quot;Commit story: pending migration builds on upstream f6ac724; no publication commit exists yet.&quot;
+    },
+    {
+      &quot;skill&quot;: &quot;pr-review&quot;,
+      &quot;note&quot;: &quot;No existing publication review document or workspace scan configuration found.&quot;
+    },
+    {
+      &quot;skill&quot;: &quot;pr-review&quot;,
+      &quot;note&quot;: &quot;Security-sensitive behavior: campaign uses host Codex auth.json through Harbor; no credentials are embedded in source.&quot;
+    },
+    {
+      &quot;skill&quot;: &quot;pr-review&quot;,
+      &quot;note&quot;: &quot;Delta: DOC-CAMPAIGN-SETUP resolved after rereading the revised README. No remaining findings.&quot;
+    }
+  ],
+  &quot;counts&quot;: {
+    &quot;critical&quot;: 0,
+    &quot;serious&quot;: 0,
+    &quot;moderate&quot;: 0,
+    &quot;minor&quot;: 0
+  },
+  &quot;components&quot;: [],
+  &quot;score&quot;: 100,
+  &quot;grade&quot;: &quot;A&quot;,
+  &quot;penalty&quot;: 0,
+  &quot;checks&quot;: 10,
+  &quot;generated&quot;: &quot;2026-10-13&quot;,
+  &quot;template&quot;: &quot;markdown&quot;
+}
+</code></pre>
+</main></body></html>

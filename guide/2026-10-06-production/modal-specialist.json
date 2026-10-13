@@ -1,0 +1,39 @@
+{
+  "skill": "modal-specialist",
+  "scope": [
+    "https://guide.wagtail.org/en/how-to-guides/manage-pages/",
+    "https://guide.wagtail.org/en/",
+    "apps/core/templates/components/search_modal.html",
+    "apps/core/templates/components/header.html",
+    "apps/core/templates/components/navigation.html",
+    "apps/frontend/static_src/js/main.js",
+    "apps/frontend/static_src/js/mobile-menu/index.js",
+    ".a11y-history/2026-10-06-production/raw/states.json"
+  ],
+  "findings": [
+    {
+      "rule": "MODAL-ACCESSIBLE-NAME",
+      "wcag": "4.1.2 A",
+      "severity": "moderate",
+      "location": "apps/core/templates/components/search_modal.html:3",
+      "summary": "The open search dialog has no accessible name, so assistive technology cannot identify its purpose as a dialog.",
+      "fix": "Give the dialog an accessible name with a translated aria-label=\"Search\", or add a visible Search heading and reference its id with aria-labelledby. Retain the separate Search label for the input.",
+      "evidence": "Production open state: <div id=\"search-modal\" tabindex=\"-1\" aria-modal=\"true\" role=\"dialog\"> has no aria-label or aria-labelledby. Chromium accessibility snapshot begins \"- dialog:\" with no name; textbox alone is named Search. Explicit axe aria-dialog-name run fails.",
+      "component": "Search modal"
+    }
+  ],
+  "passed": [
+    "Bootstrap adds role=\"dialog\" and aria-modal=\"true\" and removes aria-hidden=\"true\" when opening the production search modal; missing static role is not a runtime defect.",
+    "Search trigger keyboard activation focuses the Search input; Shift+Tab in the empty dialog returns to that input without reaching background controls.",
+    "Escape dismissal and backdrop dismissal both close the search modal and restore focus to the search trigger.",
+    "Search result links are keyboard reachable and dropdown options support ArrowDown and Escape with focus restoration."
+  ],
+  "notes": [
+    "Confirmed mobile focus-obscuring failure is already recorded in keyboard-navigator.json as KEYBOARD-MOBILE-OVERLAY-FOCUS; it is not duplicated here.",
+    "axe-core 4.11.1 aria-dialog-name tags are cat.aria and best-practice, without WCAG tags. A WCAG-tag-only scan therefore omits it; the 4.1.2 mapping here is a manual assessment of the unnamed dialog interface.",
+    "Normative naming requirement: WAI-ARIA dialog role requires an author-provided accessible name: https://www.w3.org/TR/wai-aria-1.2/#dialog ; WCAG name/role/value context: https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html .",
+    "No visible close button is supplied; Escape and backdrop dismissal work. A visible Close control would improve discoverability and touch/screen-reader operation, but its absence is not scored as an independent failure here.",
+    "Mobile toggle aria-haspopup=\"true\" describes a menu popup although the disclosed content is ordinary navigation links; remove aria-haspopup for a navigation disclosure and consider aria-controls. This recommendation is not scored independently.",
+    "No screenshots captured. Targeted runtime and axe evidence is saved to raw/modal-specialist-runtime.json; CSP bypass was enabled only in the isolated audit browser to inject axe."
+  ]
+}

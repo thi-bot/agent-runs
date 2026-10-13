@@ -1,0 +1,45 @@
+{
+  "pages": 100,
+  "successful_scans": 100,
+  "page_status_counts": {
+    "200": 100
+  },
+  "pages_with_initial_axe_violations": 16,
+  "initial_axe_node_occurrences": 43,
+  "initial_axe_rule_occurrences": {
+    "list": 1,
+    "listitem": 1,
+    "aria-input-field-name": 7,
+    "color-contrast": 1,
+    "label": 7,
+    "aria-required-parent": 2,
+    "scrollable-region-focusable": 1,
+    "button-name": 1
+  },
+  "initial_axe_node_occurrences_by_rule": {
+    "list": 1,
+    "listitem": 1,
+    "aria-input-field-name": 26,
+    "color-contrast": 3,
+    "label": 8,
+    "aria-required-parent": 2,
+    "scrollable-region-focusable": 1,
+    "button-name": 1
+  },
+  "state_scan_pages": 25,
+  "state_scans": 41,
+  "state_errors": [],
+  "first_tab_sequence_pages": 100,
+  "tabs_per_page": 25,
+  "320px_measurement_pages": 100,
+  "text_spacing_measurement_pages": 100,
+  "missing_assets": [
+    "https://static-wagtail-v7-4.netlify.app/static/table_block/js/vendor/handsontable-6.2.2.full.min.js?v=ddc5feba",
+    "https://static-wagtail-v7-4.netlify.app/static/wagtailadmin/js/vendor/jquery.fileupload-validate.js?v=ddc5feba"
+  ],
+  "notes": [
+    "Raw axe violations are candidates; specialists filter exceptions and browser false positives before reporting.",
+    "All runtime scan URLs remained under /admin/; fragments tested in their real chooser shells are supplemental to the100 full documents.",
+    "No screenshots, source fixes, commits, or persisted backend writes."
+  ]
+}

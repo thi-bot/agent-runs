@@ -1,0 +1,78 @@
+{
+  "skill": "live-region-controller",
+  "scope": [
+    "client/src/includes/bulk-actions.js",
+    "client/src/controllers/CloneController.ts",
+    "client/src/controllers/SwapController.ts",
+    "client/src/controllers/OrderableController.ts",
+    "client/src/components/InlinePanel/index.js",
+    "client/src/components/StreamField/blocks/BaseSequenceBlock.js",
+    "client/src/components/CommentApp/components/Comment/index.tsx",
+    "wagtail/admin/templates/wagtailadmin/base.html",
+    "wagtail/admin/templates/wagtailadmin/generic/listing_results.html",
+    "wagtail/admin/templates/wagtailadmin/generic/listing.html",
+    "wagtail/admin/templates/wagtailadmin/bulk_actions/footer.html",
+    "wagtail/images/templates/wagtailimages/multiple/add.html",
+    "wagtail/documents/templates/wagtaildocs/multiple/add.html",
+    "wagtail/images/static_src/wagtailimages/js/add-multiple.js",
+    "wagtail/documents/static_src/wagtaildocs/js/add-multiple.js",
+    "https://static-wagtail-v7-4.netlify.app/admin/images/",
+    "https://static-wagtail-v7-4.netlify.app/admin/users/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/60/"
+  ],
+  "findings": [
+    {
+      "rule": "LIVE-BULK-SELECTION-COUNT",
+      "wcag": "4.1.3 AA",
+      "severity": "moderate",
+      "location": "wagtail/admin/templates/wagtailadmin/bulk_actions/footer.html:7",
+      "summary": "Bulk-selection totals change visually without a programmatic status announcement.",
+      "fix": "Maintain a persistent polite status region outside the initially hidden footer and update it with the selected-item total, including deselection to zero. Preserve checkbox focus and avoid announcing every row in a select-all operation.",
+      "evidence": "Browser: /admin/images/, /admin/users/, /admin/pages/60/ first-checkbox selection changes span[data-bulk-action-num-objects] to \u201c1 image/user/page selected\u201d. Only live region is unrelated empty .messages. includes/bulk-actions.js:158 changes plain span textContent.",
+      "component": "Bulk actions selection count"
+    },
+    {
+      "rule": "LIVE-LISTING-ZERO-RESULTS",
+      "wcag": "4.1.3 AA",
+      "severity": "moderate",
+      "location": "wagtail/admin/templates/wagtailadmin/generic/listing_results.html:37",
+      "summary": "Generic AJAX search and filter zero-result messages lack status semantics, leaving users uninformed when no matches remain.",
+      "fix": "Announce zero matches through a persistent role=status region updated after the results swap, or provide equivalent status semantics to the empty-result message; use polite announcements for routine search feedback.",
+      "evidence": "Source: lines8\u201310 skip the role=alert match-count branch for empty object_list; line37 emits a plain p. generic/listing.html:15 has a plain #listing-results wrapper and no live ancestor. Static archive does not support true query-result verification.",
+      "component": "Generic listing search/filter"
+    },
+    {
+      "rule": "LIVE-UPLOAD-OUTCOME",
+      "wcag": "4.1.3 AA",
+      "severity": "serious",
+      "location": "wagtail/images/templates/wagtailimages/multiple/add.html:75",
+      "summary": "Multiple-upload success and failure messages appear without announcements or focus changes.",
+      "fix": "Create a persistent upload status region before operations start; update it with the file name and completion, duplicate-warning or failure message. Route urgent errors through an existing alert region and batch multiple-file updates to prevent flooding.",
+      "evidence": "Source: image template75\u201386/document template69\u201372 plain status-msg/error_messages p elements; add-multiple.js image157\u2013172/document120\u2013132 reveals outcomes by classes and appends errors without live semantics or focus. CSS _add-multiple.scss111\u2013155 toggles visibility.",
+      "component": "Multiple image/document upload results"
+    },
+    {
+      "rule": "LIVE-UPLOAD-PROGRESS-SEMANTICS",
+      "wcag": "4.1.2 A",
+      "severity": "moderate",
+      "location": "wagtail/images/templates/wagtailimages/multiple/add.html:55",
+      "summary": "Upload progress indicators set aria-valuenow on unnamed generic divs without a progressbar role.",
+      "fix": "Use native progress elements with accessible names, or add role=progressbar, labels and min/max/current values to aggregate and per-file indicators. Give per-file indicators names containing the file name; announce completion separately.",
+      "evidence": "Image template55/68 and document template53/63 render generic div.progress. Image JS74/85 and document JS62/73 set aria-valuenow but never role, name or min/max. This is source-confirmed; real upload traffic was not exercised.",
+      "component": "Multiple-upload progress"
+    }
+  ],
+  "passed": [
+    "Base admin template maintains a role=status messages container before dynamic messages are appended; CloneController appends updates inside the existing region.",
+    "OrderableController sends a success message through w-messages:add after a successful reorder request.",
+    "Nonzero generic search/filter counts and chooser search results have explicit announcement semantics; no missing-announcement finding asserted for those states.",
+    "InlinePanel.initialFocus moves focus to newly created forms; StreamField sequence additions support focusing the inserted block. Live-region announcements are not required for every mutation where meaningful focus movement conveys context.",
+    "Comment editor uses focus-trap and initialFocus for active comments; no general claim that every local comment mutation requires a separate live announcement."
+  ],
+  "notes": [
+    "Bulk checkbox/count runtime probe stored in raw/live-region-runtime.json. It verifies DOM semantics rather than audible output from a physical screen reader.",
+    "Real uploads, save outcomes and true empty query responses cannot be validated end to end against this static archive. Their reported omissions are established from source paths rather than archive network failures.",
+    "Search result counts commonly use role=alert, which is assertive. Polite status feedback would be less disruptive, but assertiveness alone is not reported as a WCAG failure.",
+    "Counter updates and selection states were assessed as status messages only when they provide operation-result information; not every DOM change is treated as requiring a live region."
+  ]
+}

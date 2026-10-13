@@ -1,0 +1,54 @@
+{
+  "skill": "keyboard-navigator",
+  "scope": [
+    "client/src/components/StreamField/blocks/BaseSequenceBlock.js",
+    "client/src/components/InlinePanel/index.js",
+    "client/src/controllers/DropdownController.ts",
+    "client/src/controllers/TooltipController.ts",
+    "client/src/components/Sidebar/modules/MainMenu.tsx",
+    "client/src/controllers/KeyboardController.ts",
+    "client/src/controllers/OrderableController.ts",
+    "wagtail/images/static_src/wagtailimages/js/focal-point-chooser.js",
+    "wagtail/images/static_src/wagtailimages/js/vendor/jquery.Jcrop.min.js",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/60/edit/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/68/edit/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/",
+    "https://static-wagtail-v7-4.netlify.app/admin/images/51/",
+    "https://static-wagtail-v7-4.netlify.app/admin/images/51/generate_url/",
+    "https://static-wagtail-v7-4.netlify.app/admin/"
+  ],
+  "findings": [
+    {
+      "rule": "KEYBOARD-FOCAL-CREATE",
+      "wcag": "2.1.1 A; 2.5.7 AA",
+      "severity": "serious",
+      "location": "wagtail/images/static_src/wagtailimages/js/focal-point-chooser.js:4",
+      "summary": "Image focal areas cannot be created or resized using the keyboard.",
+      "fix": "Expose labelled coordinate and size inputs or implement a focusable crop widget with keyboard create, move and resize actions; keep hidden model fields synchronized and provide a single-pointer alternative to dragging.",
+      "evidence": "At /admin/images/51/, focus .jcrop-keymgr and press ArrowRight, ArrowDown, Space, Enter: all four hidden coordinates remain empty, selection w/h remain 0. Jcrop keyboard handler only moves an existing rectangle; no resize/create keys.",
+      "component": "Image focal-point chooser"
+    },
+    {
+      "rule": "KEYBOARD-FOCAL-VISIBLE",
+      "wcag": "2.4.7 AA",
+      "severity": "moderate",
+      "location": "wagtail/images/static_src/wagtailimages/js/vendor/jquery.Jcrop.min.js:20",
+      "summary": "The focal-point chooser receives keyboard focus in an offscreen radio input with no visible focus indicator.",
+      "fix": "Provide a visible, focusable focal-area control and draw an obvious focus indicator on the displayed image/widget when keyboard focus enters.",
+      "evidence": "Runtime .jcrop-keymgr is type=radio with position:fixed;left:-120px;width:12px. Keyboard focus stays on this offscreen input after arrow keys and there is no visible selection for images without a focal area.",
+      "component": "Image focal-point chooser"
+    }
+  ],
+  "passed": [
+    "Dashboard first Tab reaches visible skip link; Enter transfers focus to #main.",
+    "StreamField and InlinePanel provide native up/down buttons as alternatives to sorting by drag.",
+    "OrderableController provides ArrowUp/ArrowDown reordering and explicitly restores handle focus.",
+    "KeyboardController respects user setting disabling shortcuts.",
+    "Image URL preview scroll container is reached by Tab in Chromium 152 through implicit scroll-container focusability; axe missing-tabindex result is not a confirmed Chromium keyboard failure."
+  ],
+  "notes": [
+    "Runtime tests used isolated Chromium and real Tab/Enter/Escape key events; no persisted writes.",
+    "Archive cannot validate successful uploads, server validation redirects or successful saves. Full screen-reader behaviour and Firefox/Safari scroll-container behaviour remain untested.",
+    "Focus restoration improvement: StreamField/InlinePanel deletion and Escape from dropdown/sidebar leave activeElement BODY, but subsequent Tab resumes logically (Insert block, Add author, listing Search and following Help trigger respectively); not recorded as confirmed 2.4.3 failures."
+  ]
+}

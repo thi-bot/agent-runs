@@ -1,0 +1,36 @@
+{
+  "skill": "cognitive-accessibility",
+  "scope": [
+    "wagtail/admin/forms/auth.py",
+    "wagtail/admin/templates/wagtailadmin/login.html",
+    "wagtail/admin/templates/wagtailadmin/generic/confirm_delete.html",
+    "wagtail/admin/templates/wagtailadmin/pages/confirm_delete.html",
+    "wagtail/images/templates/wagtailimages/images/confirm_delete.html",
+    "wagtail/users/forms.py",
+    "wagtail/users/templates/wagtailusers/users/confirm_delete.html",
+    "wagtail/admin/views/generic/models.py",
+    "wagtail/admin/wagtail_hooks.py",
+    "client/src/controllers/UnsavedController.ts",
+    "https://static-wagtail-v7-4.netlify.app/admin/users/new/",
+    "https://static-wagtail-v7-4.netlify.app/admin/workflows/edit/1/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/69/edit/",
+    ".a11y-history/20261003T105725Z/raw/states-000.json"
+  ],
+  "findings": [],
+  "passed": [
+    "Source review: generic, page, image and user deletion present explicit confirmation and cancellation before mutation; page deletion also describes affected descendants/translations and offers unpublishing.",
+    "Source review: password creation exposes password-validator instructions and mismatch errors; confirmation passwords use autocomplete=new-password. Security confirmation is an exception to redundant-entry requirements.",
+    "Source review: default login uses normal text/password inputs and no paste-blocking handler was found. No CAPTCHA or puzzle appears in the reviewed default authentication template.",
+    "Source review: consistent Help submenu is registered centrally and sidebar components repeat across sampled admin pages.",
+    "Source review: UnsavedController warns before leaving forms with pending changes.",
+    "Desktop800px focus-obscuration candidates in user creation and workflow editor were rechecked with600ms-perTab: target controls remained visible above footer after settling. Initial fastTab geometry was not treated as a confirmed2.4.11 failure.",
+    "Dashboard expanded-menu target-size results were manually triaged in contrast review; popup overlap artifact was excluded rather than treating every sub24px target as nonconforming."
+  ],
+  "notes": [
+    "Authentication was source-reviewed only: no login/password reset/MFA, session timeout, password-manager autofill or successful server authentication was exercised. Login form autocomplete=off is a usability improvement candidate; it alone does not prove3.3.8 failure while password paste remains available.",
+    "Redundant-entry checks are limited to visible forms and source; no complete backend multi-step workflow was executed. No verified3.3.7 failure was found.",
+    "No timed session or timeout warning was exercised; do not claim2.2.1 compliance from this static archive.",
+    "Plain-language recommendations are unscored: consider expanding technical terms such as redirect permanence, rendition filters and workflow tasks in inline help for occasional administrators. No reading-level/COGA advice was counted as a WCAGAA defect.",
+    "Fast sequential-tab geometry at320px included smooth-scroll transition snapshots and intentionally offscreen collapsed minimap content; these candidates were not asserted as failures without settled visibility verification."
+  ]
+}

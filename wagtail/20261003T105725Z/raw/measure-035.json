@@ -1,0 +1,3540 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+  "targets": [
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Skip to main content",
+      "width": 166.046875,
+      "height": 42,
+      "x": 16,
+      "y": -16000,
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle sidebar",
+      "width": 35,
+      "height": 35,
+      "x": 149,
+      "y": 8,
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n             "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Dashboard",
+      "width": 110,
+      "height": 110,
+      "x": 45,
+      "y": 51,
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-branding__ic"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Search",
+      "width": 39,
+      "height": 35,
+      "x": 0,
+      "y": 208.5,
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-defa"
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "text": "",
+      "width": 200,
+      "height": 42,
+      "x": 0,
+      "y": 205,
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n         "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Pages",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 247,
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"m"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Breads",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 290.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Images",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 334,
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Bakery Misc",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 377.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery M"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Documents",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 421,
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documen"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Forms",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 464.5,
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Reports",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 508,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><s"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Settings",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 551.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Help",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 595,
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-ex"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Admin",
+      "width": 200,
+      "height": 52,
+      "x": 0,
+      "y": 948,
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n    "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle breadcrumbs",
+      "width": 50,
+      "height": 50,
+      "x": 220,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-flex w-items-center w-justify-center w-box-border w-ml-0 w-mr-2.5 w-w-slim-header w-h-slim-header w-bg-transparent w-text-text-meta w-transition hover:w-scale-110 hover:w-text-text-label w-outline-offset-insid"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Southern Cornbread",
+      "width": 138.125,
+      "height": 22.40625,
+      "x": 280,
+      "y": 13.796875,
+      "html": "<a class=\"w-flex w-items-center w-text-text-label w-pr-0.5 w-text-14 w-no-underline w-outline-offset-inside w-border-b w-border-b-2 w-border-transparent w-box-content hover:w-border-current hover:w-text-text-label\" href=\"/admin/pages/82/\">\n"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 50,
+      "x": 445.125,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon w-h-slim-header\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-drop"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle status",
+      "width": 50,
+      "height": 50,
+      "x": 1107.546875,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle status\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"status\" data-w-tooltip-content-value=\"Status\" data-w-tooltip-offset-value=\"[0, 0]\">\n    <"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle preview",
+      "width": 50,
+      "height": 50,
+      "x": 1157.546875,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle preview\" aria-expanded=\"false\" data-controller=\"w-tooltip w-kbd\" data-side-panel-toggle=\"preview\" data-w-kbd-key-value=\"mod+p\" data-w-kbd-scope-value=\"global\" data-w-toolt"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle checks",
+      "width": 50,
+      "height": 50,
+      "x": 1207.546875,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle checks\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"checks\" data-w-tooltip-content-value=\"Checks\" data-w-tooltip-offset-value=\"[0, 0]\">\n    <"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle comments",
+      "width": 50,
+      "height": 50,
+      "x": 1257.546875,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle comments\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"comments\" data-w-tooltip-content-value=\"Comments\" data-w-tooltip-offset-value=\"[0, 0]\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "History",
+      "width": 50,
+      "height": 50,
+      "x": 1307.546875,
+      "y": 0,
+      "html": "<a href=\"/admin/pages/82/history/\" class=\"w-side-panel-toggle\" aria-label=\"History\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"History\" data-w-tooltip-offset-value=\"[0, 0]\">\n    <svg class=\"icon icon-history w-side-panel-togg"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Visible to all. Visit the live page",
+      "width": 54.453125,
+      "height": 22.40625,
+      "x": 1369.546875,
+      "y": 13.796875,
+      "html": "<a href=\"/recipes/southern-cornbread/\" target=\"_blank\" rel=\"noreferrer\" class=\"page-status-tag\" aria-label=\"Visible to all. Visit the live page\" data-controller=\"w-tooltip w-zone\" data-action=\"w-privacy:changed@document-&gt;w-zone#switch\" d"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Collapse all",
+      "width": 110,
+      "height": 24.359375,
+      "x": 1290,
+      "y": 71,
+      "html": "<button type=\"button\" aria-expanded=\"true\" class=\"button button-small button-secondary w-minimap__collapse-all w-minimap__collapse-all--floating \"><svg class=\"icon icon-collapse-up\" aria-hidden=\"true\"><use href=\"#icon-collapse-up\"></use></s"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "w-minimap-toggle",
+      "text": "Toggle side panel",
+      "width": 28,
+      "height": 28,
+      "x": 1410,
+      "y": 69,
+      "html": "<button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd\" data-w-kbd-key-value=\"]\"><svg class=\"icon icon-expand-right\" aria-hidden=\"true\"><use href=\"#i"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Title*",
+      "width": 80.875,
+      "height": 32,
+      "x": 1410,
+      "y": 121,
+      "html": "<a href=\"#panel-child-content-title-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" ar"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Date article published",
+      "width": 188.484375,
+      "height": 32,
+      "x": 1410,
+      "y": 153,
+      "html": "<a href=\"#panel-child-content-date_published-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-minus w-minimap-item__placeh"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Subtitle",
+      "width": 94.34375,
+      "height": 32,
+      "x": 1410,
+      "y": 185,
+      "html": "<a href=\"#panel-child-content-subtitle-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-minus w-minimap-item__placeholder\""
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Preface",
+      "width": 93.59375,
+      "height": 32,
+      "x": 1410,
+      "y": 217,
+      "html": "<a href=\"#panel-child-content-preface-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Body*",
+      "width": 87.34375,
+      "height": 32,
+      "x": 1410,
+      "y": 249,
+      "html": "<a href=\"#panel-child-content-body-section\" class=\"w-minimap-item w-minimap-item--h2  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-hidden=\"true\"><use "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Ingredients:*",
+      "width": 151.515625,
+      "height": 32,
+      "x": 1410,
+      "y": 281,
+      "html": "<a href=\"#block-432fbbf5-210d-422c-ad4c-4147a205a25a-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "2 cups yellow or white…*",
+      "width": 229.296875,
+      "height": 32,
+      "x": 1410,
+      "y": 313,
+      "html": "<a href=\"#block-4effba56-74c6-45a4-b295-a752b3121c96-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "2 cups yellow or white…*",
+      "width": 229.296875,
+      "height": 32,
+      "x": 1410,
+      "y": 345,
+      "html": "<a href=\"#block-af8a3379-357c-4133-9397-66df6ea6fe68-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "1 large egg*",
+      "width": 148.40625,
+      "height": 32,
+      "x": 1410,
+      "y": 377,
+      "html": "<a href=\"#block-cdb5339c-49e0-43dd-ba85-cbb35d17b4a6-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "1¼–1½ cups buttermilk …*",
+      "width": 240.984375,
+      "height": 32,
+      "x": 1410,
+      "y": 409,
+      "html": "<a href=\"#block-b68d5f75-8478-4e34-8fea-4b27fad06e52-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "¼ cup olive oil or veg…*",
+      "width": 223.875,
+      "height": 32,
+      "x": 1410,
+      "y": 441,
+      "html": "<a href=\"#block-73dcf889-97e7-4abc-b0c1-35e221747702-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Equipment needed: well…*",
+      "width": 241.78125,
+      "height": 32,
+      "x": 1410,
+      "y": 473,
+      "html": "<a href=\"#block-4544593d-1ab4-49a0-833f-143f0d5434fa-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Preheat the oven to 42…",
+      "width": 224.671875,
+      "height": 32,
+      "x": 1410,
+      "y": 505,
+      "html": "<a href=\"#block-65daf49f-e92b-4179-b3c3-82dd9309624f-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Preheat the oven to 42…",
+      "width": 224.671875,
+      "height": 32,
+      "x": 1410,
+      "y": 537,
+      "html": "<a href=\"#block-8d758f80-4833-4aa0-befd-9a06f6c26575-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "If using non-cast-iron…",
+      "width": 213.734375,
+      "height": 32,
+      "x": 1410,
+      "y": 569,
+      "html": "<a href=\"#block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Beat egg in the bowl. …",
+      "width": 217.65625,
+      "height": 32,
+      "x": 1410,
+      "y": 601,
+      "html": "<a href=\"#block-6cd3c540-a110-4c4c-a194-b9ab60058105-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Stir in the cornmeal a…",
+      "width": 215.296875,
+      "height": 32,
+      "x": 1410,
+      "y": 633,
+      "html": "<a href=\"#block-ae73e89f-9674-486e-8df5-5db6fc430eb4-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Pour the batter into t…",
+      "width": 209.859375,
+      "height": 32,
+      "x": 1410,
+      "y": 665,
+      "html": "<a href=\"#block-e0b41ad1-cae5-482d-ae31-f13b35f17830-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Then, bake until crust…",
+      "width": 216.859375,
+      "height": 32,
+      "x": 1410,
+      "y": 697,
+      "html": "<a href=\"#block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Make sure to let it co…",
+      "width": 212.171875,
+      "height": 32,
+      "x": 1410,
+      "y": 729,
+      "html": "<a href=\"#block-5da87d79-5e73-491c-b38a-5422d89786e0-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Notes, tips, and varia…",
+      "width": 214.515625,
+      "height": 32,
+      "x": 1410,
+      "y": 761,
+      "html": "<a href=\"#block-26e29d41-c99a-4fde-9423-4130089691ba-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Any leftover cornbread…*",
+      "width": 233.203125,
+      "height": 32,
+      "x": 1410,
+      "y": 793,
+      "html": "<a href=\"#block-910c5024-a47a-45b1-a3a3-8f8bb5a8fa70-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Authors",
+      "width": 96.671875,
+      "height": 32,
+      "x": 1410,
+      "y": 825,
+      "html": "<a href=\"#panel-child-content-authors-section\" class=\"w-minimap-item w-minimap-item--h2  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-hidden=\"true\"><u"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Author 1",
+      "width": 121.9375,
+      "height": 32,
+      "x": 1410,
+      "y": 857,
+      "html": "<a href=\"#inline_child_recipe_person_relationship-0-panel-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" a"
+    },
+    {
+      "tag": "A",
+      "id": "tab-label-content",
+      "text": "Content\n    \n        \n        ()",
+      "width": 49.046875,
+      "height": 50.1875,
+      "x": 280,
+      "y": 54,
+      "html": "<a id=\"tab-label-content\" href=\"#tab-content\" class=\"w-tabs__tab \" role=\"tab\" aria-selected=\"true\" tabindex=\"0\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" aria-controls=\"tab-content\">\n    Content\n    <div class=\"w-tabs"
+    },
+    {
+      "tag": "A",
+      "id": "tab-label-promote",
+      "text": "Promote\n    \n        \n        ()",
+      "width": 52.921875,
+      "height": 50.1875,
+      "x": 353.046875,
+      "y": 54,
+      "html": "<a id=\"tab-label-promote\" href=\"#tab-promote\" class=\"w-tabs__tab \" role=\"tab\" tabindex=\"-1\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" aria-controls=\"tab-promote\">\n    Promote\n    <div class=\"w-tabs__errors\" data-contr"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_title",
+      "text": "",
+      "width": 840,
+      "height": 53,
+      "x": 274,
+      "y": 150.1875,
+      "html": "<input type=\"text\" name=\"title\" value=\"Southern Cornbread\" maxlength=\"255\" data-controller=\"w-sync\" data-w-sync-target-value=\"#id_slug\" placeholder=\"Page title*\" aria-describedby=\"panel-child-content-child-title-helptext\" required=\"\" id=\"id"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add comment",
+      "width": 32,
+      "height": 48,
+      "x": 1120,
+      "y": 152.6875,
+      "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_title-label\">\n                    <svg class=\"icon icon"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 267.375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-child-content-date_published-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-child-content-date_published-heading\">\n                <svg class=\"icon icon-link w-panel__ico"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 267.375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-child-content-date_published-heading\" data-panel-toggle=\"\" aria-controls=\"panel-child-content-date_published-content\" aria-expanded=\"true\">\n  "
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_date_published",
+      "text": "",
+      "width": 287,
+      "height": 42.5,
+      "x": 280,
+      "y": 307.375,
+      "html": "<input type=\"text\" name=\"date_published\" value=\"2019-03-21\" autocomplete=\"off\" id=\"id_date_published\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add comment",
+      "width": 32,
+      "height": 48,
+      "x": 567,
+      "y": 304.625,
+      "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_date_published-label\">\n                    <svg class=\""
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 393.875,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-child-content-subtitle-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-child-content-subtitle-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidd"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 393.875,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-child-content-subtitle-heading\" data-panel-toggle=\"\" aria-controls=\"panel-child-content-subtitle-content\" aria-expanded=\"true\">\n              "
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_subtitle",
+      "text": "",
+      "width": 840,
+      "height": 42.5,
+      "x": 280,
+      "y": 431.875,
+      "html": "<input type=\"text\" name=\"subtitle\" maxlength=\"255\" id=\"id_subtitle\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add comment",
+      "width": 32,
+      "height": 48,
+      "x": 1120,
+      "y": 429.125,
+      "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_subtitle-label\">\n                    <svg class=\"icon i"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 518.375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-child-content-preface-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-child-content-preface-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 518.375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-child-content-preface-heading\" data-panel-toggle=\"\" aria-controls=\"panel-child-content-preface-content\" aria-expanded=\"true\">\n                "
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": "id_introduction",
+      "text": "Southern Cornbread is a hearty, unsweetened variety of cornbread, widely served in the Sou",
+      "width": 840,
+      "height": 156,
+      "x": 280,
+      "y": 624.15625,
+      "html": "<textarea name=\"introduction\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" maxlength=\"500\" id=\"id_introduction\" style=\"overflow: hidden; overflow-wrap: break-word; text-align: start; height: 156px;\">Southern Cor"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add comment",
+      "width": 32,
+      "height": 48,
+      "x": 1120,
+      "y": 624.15625,
+      "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_introduction-label\">\n                    <svg class=\"ic"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 275,
+      "y": 858.53125,
+      "html": "<button type=\"button\" title=\"Insert a block\" class=\"c-sf-add-button\" aria-expanded=\"false\">\n          <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n        </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 1070.40625,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-child-content-body-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-child-content-body-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 1070.40625,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-child-content-body-heading\" data-panel-toggle=\"\" aria-controls=\"panel-child-content-body-content\" aria-expanded=\"true\">\n                \n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 277,
+      "y": 1128.59375,
+      "html": "<button type=\"button\" title=\"Insert a block\" class=\"c-sf-add-button\" aria-expanded=\"false\">\n          <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n        </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 1157.59375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-432fbbf5-210d-422c-ad4c-4147a205a25a-section\" aria-labelledby=\"block-432fbbf5-210d-422c-ad4c-4147a205a25a-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 1157.59375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-432fbbf5-210d-422c-ad4c-4147a205a25a-heading\" data-panel-toggle=\"\" aria-controls=\"block-432fbbf5-210d-422c-ad4c-4147a205a25a-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 1152.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\" disabled=\"disabled\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></u"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 1152.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 1152.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 1152.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 1152.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 277,
+      "y": 1292.09375,
+      "html": "<button type=\"button\" title=\"Insert a block\" class=\"c-sf-add-button\" aria-expanded=\"false\">\n          <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n        </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 1321.09375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-4effba56-74c6-45a4-b295-a752b3121c96-section\" aria-labelledby=\"block-4effba56-74c6-45a4-b295-a752b3121c96-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 1321.09375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-4effba56-74c6-45a4-b295-a752b3121c96-heading\" data-panel-toggle=\"\" aria-controls=\"block-4effba56-74c6-45a4-b295-a752b3121c96-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 1316.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 1316.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 1316.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 1316.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 1316.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 1352.09375,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 288,
+      "y": 1381.09375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-af8a3379-357c-4133-9397-66df6ea6fe68-section\" aria-labelledby=\"block-af8a3379-357c-4133-9397-66df6ea6fe68-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 312,
+      "y": 1381.09375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-af8a3379-357c-4133-9397-66df6ea6fe68-heading\" data-panel-toggle=\"\" aria-controls=\"block-af8a3379-357c-4133-9397-66df6ea6fe68-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 1376.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\" disabled=\"disabled\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></u"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 1376.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 1376.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 1376.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 1376.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "cups",
+      "width": 62.9375,
+      "height": 21,
+      "x": 390.859375,
+      "y": 1444.09375,
+      "html": "<a href=\"https://en.wikibooks.org/wiki/Cookbook:Cup\" role=\"button\" class=\"TooltipEntity\" data-draftail-trigger=\"true\"><svg class=\"icon icon-link\" aria-hidden=\"true\"><use href=\"#icon-link\"></use></svg><span data-offset-key=\"k7zw7-1-0\"><span "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "corn meal",
+      "width": 106.21875,
+      "height": 21,
+      "x": 675.546875,
+      "y": 1444.09375,
+      "html": "<a href=\"https://en.wikibooks.org/wiki/Cookbook:Cornmeal\" role=\"button\" class=\"TooltipEntity\" data-draftail-trigger=\"true\"><svg class=\"icon icon-link\" aria-hidden=\"true\"><use href=\"#icon-link\"></use></svg><span data-offset-key=\"k7zw7-3-0\"><"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 1515.59375,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 288,
+      "y": 1544.59375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-cdb5339c-49e0-43dd-ba85-cbb35d17b4a6-section\" aria-labelledby=\"block-cdb5339c-49e0-43dd-ba85-cbb35d17b4a6-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 312,
+      "y": 1544.59375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-cdb5339c-49e0-43dd-ba85-cbb35d17b4a6-heading\" data-panel-toggle=\"\" aria-controls=\"block-cdb5339c-49e0-43dd-ba85-cbb35d17b4a6-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 1539.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 1539.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 1539.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 1539.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 1539.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "egg",
+      "width": 54.5,
+      "height": 21,
+      "x": 438.375,
+      "y": 1607.59375,
+      "html": "<a href=\"https://en.wikibooks.org/wiki/Cookbook:Egg\" role=\"button\" class=\"TooltipEntity\" data-draftail-trigger=\"true\"><svg class=\"icon icon-link\" aria-hidden=\"true\"><use href=\"#icon-link\"></use></svg><span data-offset-key=\"wiza7-1-0\"><span "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 1679.09375,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 288,
+      "y": 1708.09375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-b68d5f75-8478-4e34-8fea-4b27fad06e52-section\" aria-labelledby=\"block-b68d5f75-8478-4e34-8fea-4b27fad06e52-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 312,
+      "y": 1708.09375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-b68d5f75-8478-4e34-8fea-4b27fad06e52-heading\" data-panel-toggle=\"\" aria-controls=\"block-b68d5f75-8478-4e34-8fea-4b27fad06e52-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 1703.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 1703.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 1703.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 1703.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 1703.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "buttermilk",
+      "width": 105.15625,
+      "height": 21,
+      "x": 489.09375,
+      "y": 1771.09375,
+      "html": "<a href=\"https://en.wikibooks.org/wiki/Cookbook:Buttermilk\" role=\"button\" class=\"TooltipEntity\" data-draftail-trigger=\"true\"><svg class=\"icon icon-link\" aria-hidden=\"true\"><use href=\"#icon-link\"></use></svg><span data-offset-key=\"wiza7-1-0\""
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "milk",
+      "width": 56.578125,
+      "height": 21,
+      "x": 676.625,
+      "y": 1771.09375,
+      "html": "<a href=\"https://en.wikibooks.org/wiki/Cookbook:Milk\" role=\"button\" class=\"TooltipEntity\" data-draftail-trigger=\"true\"><svg class=\"icon icon-link\" aria-hidden=\"true\"><use href=\"#icon-link\"></use></svg><span data-offset-key=\"wiza7-3-0\"><span"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 1842.59375,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 288,
+      "y": 1871.59375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-73dcf889-97e7-4abc-b0c1-35e221747702-section\" aria-labelledby=\"block-73dcf889-97e7-4abc-b0c1-35e221747702-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 312,
+      "y": 1871.59375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-73dcf889-97e7-4abc-b0c1-35e221747702-heading\" data-panel-toggle=\"\" aria-controls=\"block-73dcf889-97e7-4abc-b0c1-35e221747702-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 1866.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 1866.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\" disabled=\"disabled\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-d"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 1866.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 1866.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 1866.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "olive oil",
+      "width": 86.171875,
+      "height": 21,
+      "x": 432.046875,
+      "y": 1934.59375,
+      "html": "<a href=\"https://en.wikibooks.org/wiki/Cookbook:Olive_Oil\" role=\"button\" class=\"TooltipEntity\" data-draftail-trigger=\"true\"><svg class=\"icon icon-link\" aria-hidden=\"true\"><use href=\"#icon-link\"></use></svg><span data-offset-key=\"wiza7-1-0\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "vegetable oil",
+      "width": 129.5,
+      "height": 21,
+      "x": 545.671875,
+      "y": 1934.59375,
+      "html": "<a href=\"https://en.wikibooks.org/wiki/Cookbook:Vegetable_oil\" role=\"button\" class=\"TooltipEntity\" data-draftail-trigger=\"true\"><svg class=\"icon icon-link\" aria-hidden=\"true\"><use href=\"#icon-link\"></use></svg><span data-offset-key=\"wiza7-3"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 2006.09375,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 277,
+      "y": 2040.09375,
+      "html": "<button type=\"button\" title=\"Insert a block\" class=\"c-sf-add-button\" aria-expanded=\"false\">\n          <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n        </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 2069.09375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-4544593d-1ab4-49a0-833f-143f0d5434fa-section\" aria-labelledby=\"block-4544593d-1ab4-49a0-833f-143f0d5434fa-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 2069.09375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-4544593d-1ab4-49a0-833f-143f0d5434fa-heading\" data-panel-toggle=\"\" aria-controls=\"block-4544593d-1ab4-49a0-833f-143f0d5434fa-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 2064.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 2064.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 2064.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 2064.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 2064.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "skillet",
+      "width": 70.3125,
+      "height": 21,
+      "x": 719.171875,
+      "y": 2176.59375,
+      "html": "<a href=\"https://en.wikibooks.org/wiki/Cookbook:Frying_Pan\" role=\"button\" class=\"TooltipEntity\" data-draftail-trigger=\"true\"><svg class=\"icon icon-link\" aria-hidden=\"true\"><use href=\"#icon-link\"></use></svg><span data-offset-key=\"9h6ph-1-0\""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 277,
+      "y": 2378.09375,
+      "html": "<button type=\"button\" title=\"Insert a block\" class=\"c-sf-add-button\" aria-expanded=\"false\">\n          <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n        </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 2407.09375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-65daf49f-e92b-4179-b3c3-82dd9309624f-section\" aria-labelledby=\"block-65daf49f-e92b-4179-b3c3-82dd9309624f-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 2407.09375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-65daf49f-e92b-4179-b3c3-82dd9309624f-heading\" data-panel-toggle=\"\" aria-controls=\"block-65daf49f-e92b-4179-b3c3-82dd9309624f-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 2402.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 2402.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 2402.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 2402.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 2402.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 2438.09375,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 288,
+      "y": 2467.09375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-8d758f80-4833-4aa0-befd-9a06f6c26575-section\" aria-labelledby=\"block-8d758f80-4833-4aa0-befd-9a06f6c26575-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 312,
+      "y": 2467.09375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-8d758f80-4833-4aa0-befd-9a06f6c26575-heading\" data-panel-toggle=\"\" aria-controls=\"block-8d758f80-4833-4aa0-befd-9a06f6c26575-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 2462.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\" disabled=\"disabled\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></u"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 2462.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 2462.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 2462.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 2462.09375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-0-value-difficulty_0",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 2678.46875,
+      "html": "<input type=\"radio\" name=\"body-3-value-0-value-difficulty\" value=\"S\" id=\"body-3-value-0-value-difficulty_0\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-0-value-difficulty_1",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 2712.46875,
+      "html": "<input type=\"radio\" name=\"body-3-value-0-value-difficulty\" value=\"M\" id=\"body-3-value-0-value-difficulty_1\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-0-value-difficulty_2",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 2746.46875,
+      "html": "<input type=\"radio\" name=\"body-3-value-0-value-difficulty\" value=\"L\" id=\"body-3-value-0-value-difficulty_2\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add Comment",
+      "width": 32,
+      "height": 48,
+      "x": 444.90625,
+      "y": 2705.46875,
+      "html": "<button type=\"button\" aria-label=\"Add Comment\" data-comment-add=\"\" class=\"w-field__comment-button w-field__comment-button--add\"><svg class=\"icon icon-comment-add\" aria-hidden=\"true\"><use href=\"#icon-comment-add\"></use></svg><svg class=\"icon"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 2805.46875,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 288,
+      "y": 2834.46875,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-section\" aria-labelledby=\"block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 312,
+      "y": 2834.46875,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-heading\" data-panel-toggle=\"\" aria-controls=\"block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 2829.46875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 2829.46875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 2829.46875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 2829.46875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 2829.46875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-1-value-difficulty_0",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 3017.34375,
+      "html": "<input type=\"radio\" name=\"body-3-value-1-value-difficulty\" value=\"S\" id=\"body-3-value-1-value-difficulty_0\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-1-value-difficulty_1",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 3051.34375,
+      "html": "<input type=\"radio\" name=\"body-3-value-1-value-difficulty\" value=\"M\" id=\"body-3-value-1-value-difficulty_1\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-1-value-difficulty_2",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 3085.34375,
+      "html": "<input type=\"radio\" name=\"body-3-value-1-value-difficulty\" value=\"L\" id=\"body-3-value-1-value-difficulty_2\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add Comment",
+      "width": 32,
+      "height": 48,
+      "x": 444.90625,
+      "y": 3044.34375,
+      "html": "<button type=\"button\" aria-label=\"Add Comment\" data-comment-add=\"\" class=\"w-field__comment-button w-field__comment-button--add\"><svg class=\"icon icon-comment-add\" aria-hidden=\"true\"><use href=\"#icon-comment-add\"></use></svg><svg class=\"icon"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 3144.34375,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 288,
+      "y": 3173.34375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-6cd3c540-a110-4c4c-a194-b9ab60058105-section\" aria-labelledby=\"block-6cd3c540-a110-4c4c-a194-b9ab60058105-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 312,
+      "y": 3173.34375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-6cd3c540-a110-4c4c-a194-b9ab60058105-heading\" data-panel-toggle=\"\" aria-controls=\"block-6cd3c540-a110-4c4c-a194-b9ab60058105-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 3168.34375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 3168.34375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 3168.34375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 3168.34375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 3168.34375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-2-value-difficulty_0",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 3356.21875,
+      "html": "<input type=\"radio\" name=\"body-3-value-2-value-difficulty\" value=\"S\" id=\"body-3-value-2-value-difficulty_0\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-2-value-difficulty_1",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 3390.21875,
+      "html": "<input type=\"radio\" name=\"body-3-value-2-value-difficulty\" value=\"M\" id=\"body-3-value-2-value-difficulty_1\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-2-value-difficulty_2",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 3424.21875,
+      "html": "<input type=\"radio\" name=\"body-3-value-2-value-difficulty\" value=\"L\" id=\"body-3-value-2-value-difficulty_2\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add Comment",
+      "width": 32,
+      "height": 48,
+      "x": 444.90625,
+      "y": 3383.21875,
+      "html": "<button type=\"button\" aria-label=\"Add Comment\" data-comment-add=\"\" class=\"w-field__comment-button w-field__comment-button--add\"><svg class=\"icon icon-comment-add\" aria-hidden=\"true\"><use href=\"#icon-comment-add\"></use></svg><svg class=\"icon"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 3483.21875,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 288,
+      "y": 3512.21875,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-ae73e89f-9674-486e-8df5-5db6fc430eb4-section\" aria-labelledby=\"block-ae73e89f-9674-486e-8df5-5db6fc430eb4-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 312,
+      "y": 3512.21875,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-ae73e89f-9674-486e-8df5-5db6fc430eb4-heading\" data-panel-toggle=\"\" aria-controls=\"block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 3507.21875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 3507.21875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 3507.21875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 3507.21875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 3507.21875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-3-value-difficulty_0",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 3723.59375,
+      "html": "<input type=\"radio\" name=\"body-3-value-3-value-difficulty\" value=\"S\" id=\"body-3-value-3-value-difficulty_0\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-3-value-difficulty_1",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 3757.59375,
+      "html": "<input type=\"radio\" name=\"body-3-value-3-value-difficulty\" value=\"M\" id=\"body-3-value-3-value-difficulty_1\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-3-value-difficulty_2",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 3791.59375,
+      "html": "<input type=\"radio\" name=\"body-3-value-3-value-difficulty\" value=\"L\" id=\"body-3-value-3-value-difficulty_2\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add Comment",
+      "width": 32,
+      "height": 48,
+      "x": 444.90625,
+      "y": 3750.59375,
+      "html": "<button type=\"button\" aria-label=\"Add Comment\" data-comment-add=\"\" class=\"w-field__comment-button w-field__comment-button--add\"><svg class=\"icon icon-comment-add\" aria-hidden=\"true\"><use href=\"#icon-comment-add\"></use></svg><svg class=\"icon"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 3850.59375,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 288,
+      "y": 3879.59375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-e0b41ad1-cae5-482d-ae31-f13b35f17830-section\" aria-labelledby=\"block-e0b41ad1-cae5-482d-ae31-f13b35f17830-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 312,
+      "y": 3879.59375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-e0b41ad1-cae5-482d-ae31-f13b35f17830-heading\" data-panel-toggle=\"\" aria-controls=\"block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 3874.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 3874.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 3874.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 3874.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 3874.59375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-4-value-difficulty_0",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 4062.46875,
+      "html": "<input type=\"radio\" name=\"body-3-value-4-value-difficulty\" value=\"S\" id=\"body-3-value-4-value-difficulty_0\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-4-value-difficulty_1",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 4096.46875,
+      "html": "<input type=\"radio\" name=\"body-3-value-4-value-difficulty\" value=\"M\" id=\"body-3-value-4-value-difficulty_1\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-4-value-difficulty_2",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 4130.46875,
+      "html": "<input type=\"radio\" name=\"body-3-value-4-value-difficulty\" value=\"L\" id=\"body-3-value-4-value-difficulty_2\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add Comment",
+      "width": 32,
+      "height": 48,
+      "x": 444.90625,
+      "y": 4089.46875,
+      "html": "<button type=\"button\" aria-label=\"Add Comment\" data-comment-add=\"\" class=\"w-field__comment-button w-field__comment-button--add\"><svg class=\"icon icon-comment-add\" aria-hidden=\"true\"><use href=\"#icon-comment-add\"></use></svg><svg class=\"icon"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 4189.46875,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 288,
+      "y": 4218.46875,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-section\" aria-labelledby=\"block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 312,
+      "y": 4218.46875,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-heading\" data-panel-toggle=\"\" aria-controls=\"block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 4213.46875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 4213.46875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 4213.46875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 4213.46875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 4213.46875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-5-value-difficulty_0",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 4429.84375,
+      "html": "<input type=\"radio\" name=\"body-3-value-5-value-difficulty\" value=\"S\" id=\"body-3-value-5-value-difficulty_0\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-5-value-difficulty_1",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 4463.84375,
+      "html": "<input type=\"radio\" name=\"body-3-value-5-value-difficulty\" value=\"M\" id=\"body-3-value-5-value-difficulty_1\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-5-value-difficulty_2",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 4497.84375,
+      "html": "<input type=\"radio\" name=\"body-3-value-5-value-difficulty\" value=\"L\" id=\"body-3-value-5-value-difficulty_2\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add Comment",
+      "width": 32,
+      "height": 48,
+      "x": 444.90625,
+      "y": 4456.84375,
+      "html": "<button type=\"button\" aria-label=\"Add Comment\" data-comment-add=\"\" class=\"w-field__comment-button w-field__comment-button--add\"><svg class=\"icon icon-comment-add\" aria-hidden=\"true\"><use href=\"#icon-comment-add\"></use></svg><svg class=\"icon"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 4556.84375,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 288,
+      "y": 4585.84375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-5da87d79-5e73-491c-b38a-5422d89786e0-section\" aria-labelledby=\"block-5da87d79-5e73-491c-b38a-5422d89786e0-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 312,
+      "y": 4585.84375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-5da87d79-5e73-491c-b38a-5422d89786e0-heading\" data-panel-toggle=\"\" aria-controls=\"block-5da87d79-5e73-491c-b38a-5422d89786e0-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 4580.84375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 4580.84375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\" disabled=\"disabled\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-d"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 4580.84375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 4580.84375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 4580.84375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-6-value-difficulty_0",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 4768.71875,
+      "html": "<input type=\"radio\" name=\"body-3-value-6-value-difficulty\" value=\"S\" id=\"body-3-value-6-value-difficulty_0\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-6-value-difficulty_1",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 4802.71875,
+      "html": "<input type=\"radio\" name=\"body-3-value-6-value-difficulty\" value=\"M\" id=\"body-3-value-6-value-difficulty_1\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-3-value-6-value-difficulty_2",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 354,
+      "y": 4836.71875,
+      "html": "<input type=\"radio\" name=\"body-3-value-6-value-difficulty\" value=\"L\" id=\"body-3-value-6-value-difficulty_2\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add Comment",
+      "width": 32,
+      "height": 48,
+      "x": 444.90625,
+      "y": 4795.71875,
+      "html": "<button type=\"button\" aria-label=\"Add Comment\" data-comment-add=\"\" class=\"w-field__comment-button w-field__comment-button--add\"><svg class=\"icon icon-comment-add\" aria-hidden=\"true\"><use href=\"#icon-comment-add\"></use></svg><svg class=\"icon"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 313,
+      "y": 4895.71875,
+      "html": "<button type=\"button\" title=\"Add\" data-streamfield-list-add=\"\" class=\"c-sf-add-button\">\n        <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 277,
+      "y": 4929.71875,
+      "html": "<button type=\"button\" title=\"Insert a block\" class=\"c-sf-add-button\" aria-expanded=\"false\">\n          <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n        </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 4958.71875,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-26e29d41-c99a-4fde-9423-4130089691ba-section\" aria-labelledby=\"block-26e29d41-c99a-4fde-9423-4130089691ba-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 4958.71875,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-26e29d41-c99a-4fde-9423-4130089691ba-heading\" data-panel-toggle=\"\" aria-controls=\"block-26e29d41-c99a-4fde-9423-4130089691ba-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 4953.71875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 4953.71875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-down\"></use>\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 4953.71875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 4953.71875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 4953.71875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "INPUT",
+      "id": "body-4-value-heading_text",
+      "text": "",
+      "width": 802,
+      "height": 42.5,
+      "x": 318,
+      "y": 5017.90625,
+      "html": "<input type=\"text\" name=\"body-4-value-heading_text\" id=\"body-4-value-heading_text\" required=\"\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add Comment",
+      "width": 32,
+      "height": 48,
+      "x": 1120,
+      "y": 5015.15625,
+      "html": "<button type=\"button\" aria-label=\"Add Comment\" data-comment-add=\"\" class=\"w-field__comment-button w-field__comment-button--add\"><svg class=\"icon icon-comment-add\" aria-hidden=\"true\"><use href=\"#icon-comment-add\"></use></svg><svg class=\"icon"
+    },
+    {
+      "tag": "SELECT",
+      "id": "body-4-value-size",
+      "text": "Select a header size\n\n  H2\n\n  H3\n\n  H4",
+      "width": 237,
+      "height": 43.796875,
+      "x": 318,
+      "y": 5113.59375,
+      "html": "<select name=\"body-4-value-size\" id=\"body-4-value-size\">\n  <option value=\"\" selected=\"\">Select a header size</option>\n\n  <option value=\"h2\">H2</option>\n\n  <option value=\"h3\">H3</option>\n\n  <option value=\"h4\">H4</option>\n\n</select>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add Comment",
+      "width": 32,
+      "height": 48,
+      "x": 555,
+      "y": 5111.484375,
+      "html": "<button type=\"button\" aria-label=\"Add Comment\" data-comment-add=\"\" class=\"w-field__comment-button w-field__comment-button--add\"><svg class=\"icon icon-comment-add\" aria-hidden=\"true\"><use href=\"#icon-comment-add\"></use></svg><svg class=\"icon"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 277,
+      "y": 5182.390625,
+      "html": "<button type=\"button\" title=\"Insert a block\" class=\"c-sf-add-button\" aria-expanded=\"false\">\n          <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n        </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 5211.390625,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-910c5024-a47a-45b1-a3a3-8f8bb5a8fa70-section\" aria-labelledby=\"block-910c5024-a47a-45b1-a3a3-8f8bb5a8fa70-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 5211.390625,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-910c5024-a47a-45b1-a3a3-8f8bb5a8fa70-heading\" data-panel-toggle=\"\" aria-controls=\"block-910c5024-a47a-45b1-a3a3-8f8bb5a8fa70-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 5206.390625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></use>\n        </svg>\n "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 5206.390625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\" disabled=\"disabled\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-d"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 5206.390625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 5206.390625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 5206.390625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Skillet Cornbread (PDF)",
+      "width": 224.46875,
+      "height": 21,
+      "x": 522.78125,
+      "y": 5369.890625,
+      "html": "<a href=\"/documents/2/Cookbook_Skillet_Cornbread_CUlyevp.pdf\" role=\"button\" class=\"TooltipEntity\" data-draftail-trigger=\"true\"><svg class=\"icon icon-doc-full\" aria-hidden=\"true\"><use href=\"#icon-doc-full\"></use></svg><span data-offset-key=\""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 277,
+      "y": 5441.390625,
+      "html": "<button type=\"button\" title=\"Insert a block\" class=\"c-sf-add-button\" aria-expanded=\"false\">\n          <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n        </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 5554.796875,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-child-content-authors-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-child-content-authors-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 5554.796875,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-child-content-authors-heading\" data-panel-toggle=\"\" aria-controls=\"panel-child-content-authors-content\" aria-expanded=\"true\">\n                "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 5662.578125,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#inline_child_recipe_person_relationship-0-panel-section\" data-panel-anchor=\"\" aria-labelledby=\"inline_child_recipe_person_relationship-0-panel-heading\">\n                <svg class=\"i"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 5662.578125,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"inline_child_recipe_person_relationship-0-panel-heading\" data-panel-toggle=\"\" aria-controls=\"inline_child_recipe_person_relationship-0-panel-content"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move up",
+      "width": 34,
+      "height": 34,
+      "x": 976.65625,
+      "y": 5657.578125,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-up=\"\" title=\"Move up\" disabled=\"\"><svg class=\"icon icon-arrow-up icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-up\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move down",
+      "width": 34,
+      "height": 34,
+      "x": 1014.4375,
+      "y": 5657.578125,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-down=\"\" title=\"Move down\" disabled=\"\"><svg class=\"icon icon-arrow-down icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-down\"></use></svg></but"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Drag",
+      "width": 34,
+      "height": 34,
+      "x": 1052.21875,
+      "y": 5657.578125,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-drag=\"\" title=\"Drag\"><svg class=\"icon icon-grip icon\" aria-hidden=\"true\"><use href=\"#icon-grip\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_recipe_person_relationship-0-DELETE-button",
+      "text": "Delete",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 5657.578125,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" id=\"id_recipe_person_relationship-0-DELETE-button\" title=\"Delete\"><svg class=\"icon icon-bin icon\" aria-hidden=\"true\"><use href=\"#icon-bin\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 32,
+      "x": 536.71875,
+      "y": 5726.765625,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-describedby=\"id_recipe_person_relationship-0-person-title\" aria-expanded=\"false\">\n        \n        \n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_recipe_person_relationship-OPEN_MODAL",
+      "text": "Add author",
+      "width": 103.5,
+      "height": 28,
+      "x": 266,
+      "y": 5788.765625,
+      "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_recipe_person_relationship-OPEN_MODAL\">\n        <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></us"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Save draft",
+      "width": 268,
+      "height": 42,
+      "x": 279.796875,
+      "y": 948,
+      "html": "<button type=\"submit\" class=\"button action-save button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-value=\"mod+s\" data-w-kbd-scope-value=\"global\" data-w-progress-active-value=\"Saving…\" dat"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More actions",
+      "width": 32,
+      "height": 42,
+      "x": 547.796875,
+      "y": 948,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle button\" data-w-dropdown-target=\"toggle\" aria-expanded=\"false\">\n        <span class=\"w-sr-only\">More actions</span>\n        \n            <svg class=\"icon icon-arrow-up w-dropdown__toggle-icon\" "
+    }
+  ],
+  "keyboard": [
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Skip to main content",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 125, 126)",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "w": 166.046875,
+        "h": 42
+      },
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle sidebar",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 149,
+        "y": 8,
+        "w": 35,
+        "h": 35
+      },
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n                w-items"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Dashboard",
+      "outline": "rgb(0, 125, 126) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 45,
+        "y": 51,
+        "w": 110,
+        "h": 110
+      },
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-branding__icon\n       "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Search",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 208.5,
+        "w": 39,
+        "h": 35
+      },
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-default\n      "
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 0,
+        "y": 205,
+        "w": 200,
+        "h": 42
+      },
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n            !w-bg-t"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Pages",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 247,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"menuitem-la"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Breads",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 290.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</span><svg "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Images",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 334,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Bakery Misc",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 377.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery Misc</span>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Documents",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 421,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documents</span><"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Forms",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 464.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Reports",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 508,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><svg class=\""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Settings",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 551.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><svg class="
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Help",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 595,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"fa"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Admin",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 948,
+        "w": 200,
+        "h": 52
+      },
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n            w-"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle breadcrumbs",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 220,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-flex w-items-center w-justify-center w-box-border w-ml-0 w-mr-2.5 w-w-slim-header w-h-slim-header w-bg-transparent w-text-text-meta w-transition hover:w-scale-110 hover:w-text-text-label w-outline-offset-inside\" aria-la"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Southern Cornbread",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "",
+      "rect": {
+        "x": 280,
+        "y": 13.796875,
+        "w": 138.125,
+        "h": 22.40625
+      },
+      "html": "<a class=\"w-flex w-items-center w-text-text-label w-pr-0.5 w-text-14 w-no-underline w-outline-offset-inside w-border-b w-border-b-2 w-border-transparent w-box-content hover:w-border-current hover:w-text-text-label\" href=\"/admin/pages/82/\">\n          "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Actions",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "2px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 445.125,
+        "y": 0,
+        "w": 32,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon w-h-slim-header\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\" aria-describedby=\"tippy-1\">\n        \n        \n            <svg class=\"icon icon-dots-"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle status",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1107.546875,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle status\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"status\" data-w-tooltip-content-value=\"Status\" data-w-tooltip-offset-value=\"[0, 0]\" aria-describedby"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle preview",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1157.546875,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle preview\" aria-expanded=\"false\" data-controller=\"w-tooltip w-kbd\" data-side-panel-toggle=\"preview\" data-w-kbd-key-value=\"mod+p\" data-w-kbd-scope-value=\"global\" data-w-tooltip-content"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle checks",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1207.546875,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle checks\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"checks\" data-w-tooltip-content-value=\"Checks\" data-w-tooltip-offset-value=\"[0, 0]\" aria-describedby"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle comments",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1257.546875,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle comments\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"comments\" data-w-tooltip-content-value=\"Comments\" data-w-tooltip-offset-value=\"[0, 0]\" aria-descr"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "History",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1307.546875,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<a href=\"/admin/pages/82/history/\" class=\"w-side-panel-toggle\" aria-label=\"History\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"History\" data-w-tooltip-offset-value=\"[0, 0]\" aria-describedby=\"tippy-8\">\n    <svg class=\"icon icon-history "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Visible to all. Visit the live page",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(224, 224, 224)",
+      "rect": {
+        "x": 1369.546875,
+        "y": 13.796875,
+        "w": 54.453125,
+        "h": 22.40625
+      },
+      "html": "<a href=\"/recipes/southern-cornbread/\" target=\"_blank\" rel=\"noreferrer\" class=\"page-status-tag\" aria-label=\"Visible to all. Visit the live page\" data-controller=\"w-tooltip w-zone\" data-action=\"w-privacy:changed@document-&gt;w-zone#switch\" data-w-tool"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Collapse all",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 1290,
+        "y": 71,
+        "w": 110,
+        "h": 24.359375
+      },
+      "html": "<button type=\"button\" aria-expanded=\"true\" class=\"button button-small button-secondary w-minimap__collapse-all w-minimap__collapse-all--floating \"><svg class=\"icon icon-collapse-up\" aria-hidden=\"true\"><use href=\"#icon-collapse-up\"></use></svg>Collaps"
+    }
+  ],
+  "reflow": {
+    "viewport": 320,
+    "scrollWidth": 320,
+    "bodyWidth": 320,
+    "overflow": [
+      {
+        "tag": "A",
+        "id": "",
+        "class": "page-status-tag",
+        "text": "Live",
+        "x": 306,
+        "width": 54.453125,
+        "right": 360.453125,
+        "html": "<a href=\"/recipes/southern-cornbread/\" target=\"_blank\" rel=\"noreferrer\" class=\"page-status-tag\" aria-label=\"Visible to all. Visit the live page\" data-controller=\"w-tooltip w-zone\" data-action=\"w-priva"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 311,
+        "width": 16,
+        "right": 327,
+        "html": "<svg class=\"icon icon-view w-w-4 w-h-4 w-mr-1\" aria-hidden=\"true\"><use href=\"#icon-view\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 311.1185607910156,
+        "width": 15.735870361328125,
+        "right": 326.85443115234375,
+        "html": "<use href=\"#icon-view\"></use>"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "w-minimap ",
+        "text": "Title*Date article publishedSubtitlePrefaceBody*Ingredients:*2 cups yellow or wh",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<div class=\"w-minimap \"><div class=\"w-minimap__header\"><button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "w-minimap__header",
+        "text": "",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<div class=\"w-minimap__header\"><button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd\" data-w-kbd-key-value=\""
+      },
+      {
+        "tag": "OL",
+        "id": "",
+        "class": "w-minimap__list",
+        "text": "Title*Date article publishedSubtitlePrefaceBody*Ingredients:*2 cups yellow or wh",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<ol class=\"w-minimap__list\"><li><a href=\"#panel-child-content-title-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-cu"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Title*",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-child-content-title-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"ico"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2 w-minimap-item--active ",
+        "text": "Title*",
+        "x": 300,
+        "width": 62.921875,
+        "right": 362.921875,
+        "html": "<a href=\"#panel-child-content-title-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon ic"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Title*",
+        "x": 327,
+        "width": 35.921875,
+        "right": 362.921875,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Title</span><span class=\"w-required-mark\">*</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Title",
+        "x": 327,
+        "width": 28.53125,
+        "right": 355.53125,
+        "html": "<span class=\"w-minimap-item__text\">Title</span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-required-mark",
+        "text": "*",
+        "x": 357.46875,
+        "width": 5.453125,
+        "right": 362.921875,
+        "html": "<span class=\"w-required-mark\">*</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Date article published",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-child-content-date_published-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg c"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2 w-minimap-item--active ",
+        "text": "Date article published",
+        "x": 300,
+        "width": 172.484375,
+        "right": 472.484375,
+        "html": "<a href=\"#panel-child-content-date_published-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Date article published",
+        "x": 327,
+        "width": 145.484375,
+        "right": 472.484375,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Date article published</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Date article published",
+        "x": 327,
+        "width": 145.484375,
+        "right": 472.484375,
+        "html": "<span class=\"w-minimap-item__text\">Date article published</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Subtitle",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-child-content-subtitle-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\""
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2 w-minimap-item--active ",
+        "text": "Subtitle",
+        "x": 300,
+        "width": 78.34375,
+        "right": 378.34375,
+        "html": "<a href=\"#panel-child-content-subtitle-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Subtitle",
+        "x": 327,
+        "width": 51.34375,
+        "right": 378.34375,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Subtitle</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Subtitle",
+        "x": 327,
+        "width": 51.34375,
+        "right": 378.34375,
+        "html": "<span class=\"w-minimap-item__text\">Subtitle</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Preface",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-child-content-preface-section\" class=\"w-minimap-item w-minimap-item--h2  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-mini"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2  ",
+        "text": "Preface",
+        "x": 300,
+        "width": 77.59375,
+        "right": 377.59375,
+        "html": "<a href=\"#panel-child-content-preface-section\" class=\"w-minimap-item w-minimap-item--h2  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Preface",
+        "x": 327,
+        "width": 50.59375,
+        "right": 377.59375,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Preface</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Preface",
+        "x": 327,
+        "width": 50.59375,
+        "right": 377.59375,
+        "html": "<span class=\"w-minimap-item__text\">Preface</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Body*",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-child-content-body-section\" class=\"w-minimap-item w-minimap-item--h2  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2  ",
+        "text": "Body*",
+        "x": 300,
+        "width": 69.390625,
+        "right": 369.390625,
+        "html": "<a href=\"#panel-child-content-body-section\" class=\"w-minimap-item w-minimap-item--h2  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-ite"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Body*",
+        "x": 327,
+        "width": 42.390625,
+        "right": 369.390625,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Body</span><span class=\"w-required-mark\">*</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Body",
+        "x": 327,
+        "width": 35,
+        "right": 362,
+        "html": "<span class=\"w-minimap-item__text\">Body</span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-required-mark",
+        "text": "*",
+        "x": 363.9375,
+        "width": 5.453125,
+        "right": 369.390625,
+        "html": "<span class=\"w-required-mark\">*</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Ingredients:*",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#block-432fbbf5-210d-422c-ad4c-4147a205a25a-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon ic"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h3  ",
+        "text": "Ingredients:*",
+        "x": 300,
+        "width": 133.5625,
+        "right": 433.5625,
+        "html": "<a href=\"#block-432fbbf5-210d-422c-ad4c-4147a205a25a-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-m"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 327,
+        "width": 16,
+        "right": 343,
+        "html": "<svg class=\"icon icon-pilcrow w-minimap-item__icon\" aria-hidden=\"true\"><use href=\"#icon-pilcrow\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 328.97711181640625,
+        "width": 13.02288818359375,
+        "right": 342,
+        "html": "<use href=\"#icon-pilcrow\"></use>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Ingredients:*",
+        "x": 353,
+        "width": 80.5625,
+        "right": 433.5625,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Ingredients:</span><span class=\"w-required-mark\">*</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Ingredients:",
+        "x": 353,
+        "width": 73.171875,
+        "right": 426.171875,
+        "html": "<span class=\"w-minimap-item__text\">Ingredients:</span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-required-mark",
+        "text": "*",
+        "x": 428.109375,
+        "width": 5.453125,
+        "right": 433.5625,
+        "html": "<span class=\"w-required-mark\">*</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "2 cups yellow or white…*",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#block-4effba56-74c6-45a4-b295-a752b3121c96-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon ic"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h3  ",
+        "text": "2 cups yellow or white…*",
+        "x": 300,
+        "width": 211.34375,
+        "right": 511.34375,
+        "html": "<a href=\"#block-4effba56-74c6-45a4-b295-a752b3121c96-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-m"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 327,
+        "width": 16,
+        "right": 343,
+        "html": "<svg class=\"icon icon-list-ol w-minimap-item__icon\" aria-hidden=\"true\"><use href=\"#icon-list-ol\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 328.2044982910156,
+        "width": 13.795501708984375,
+        "right": 342,
+        "html": "<use href=\"#icon-list-ol\"></use>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "2 cups yellow or white…*",
+        "x": 353,
+        "width": 158.34375,
+        "right": 511.34375,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">2 cups yellow or white…</span><span class=\"w-required-mark\">*</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "2 cups yellow or white…",
+        "x": 353,
+        "width": 150.953125,
+        "right": 503.953125,
+        "html": "<span class=\"w-minimap-item__text\">2 cups yellow or white…</span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-required-mark",
+        "text": "*",
+        "x": 505.890625,
+        "width": 5.453125,
+        "right": 511.34375,
+        "html": "<span class=\"w-required-mark\">*</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "2 cups yellow or white…*",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#block-af8a3379-357c-4133-9397-66df6ea6fe68-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon ic"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h3  ",
+        "text": "2 cups yellow or white…*",
+        "x": 300,
+        "width": 211.34375,
+        "right": 511.34375,
+        "html": "<a href=\"#block-af8a3379-357c-4133-9397-66df6ea6fe68-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-m"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 327,
+        "width": 16,
+        "right": 343,
+        "html": "<svg class=\"icon icon-pilcrow w-minimap-item__icon\" aria-hidden=\"true\"><use href=\"#icon-pilcrow\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 328.97711181640625,
+        "width": 13.02288818359375,
+        "right": 342,
+        "html": "<use href=\"#icon-pilcrow\"></use>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "2 cups yellow or white…*",
+        "x": 353,
+        "width": 158.34375,
+        "right": 511.34375,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">2 cups yellow or white…</span><span class=\"w-required-mark\">*</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "2 cups yellow or white…",
+        "x": 353,
+        "width": 150.953125,
+        "right": 503.953125,
+        "html": "<span class=\"w-minimap-item__text\">2 cups yellow or white…</span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-required-mark",
+        "text": "*",
+        "x": 505.890625,
+        "width": 5.453125,
+        "right": 511.34375,
+        "html": "<span class=\"w-required-mark\">*</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "1 large egg*",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#block-cdb5339c-49e0-43dd-ba85-cbb35d17b4a6-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon ic"
+      }
+    ]
+  },
+  "textSpacing": {
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "clipped": [
+      {
+        "html": "<label class=\"w-sr-only\" for=\"menu-search-q\">Search</label>",
+        "scrollWidth": 53,
+        "clientWidth": 1,
+        "scrollHeight": 20,
+        "clientHeight": 1
+      },
+      {
+        "html": "<h1 class=\"w-sr-only\">\n                                    Editing Recipe page: Southern Cornbread\n                                </h1>",
+        "scrollWidth": 514,
+        "clientWidth": 1,
+        "scrollHeight": 31,
+        "clientHeight": 1
+      },
+      {
+        "html": "<h2 class=\"w-panel__heading w-panel__heading--label\" id=\"panel-child-content-title-heading\" data-panel-heading=\"\">\n                    \n                        <label for=\"id_title\" id=\"id_title-label\"><span data-panel-heading-text=\"\">Title</span><span class=\"w-required-mark\" data-panel-required=\"\">",
+        "scrollWidth": 63,
+        "clientWidth": 8,
+        "scrollHeight": 24,
+        "clientHeight": 24
+      },
+      {
+        "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_recipe_person_relationship-OPEN_MODAL\">\n        <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>Add author\n    </button>",
+        "scrollWidth": 121,
+        "clientWidth": 121,
+        "scrollHeight": 30,
+        "clientHeight": 26
+      },
+      {
+        "html": "<button type=\"button\" class=\"w-dropdown__toggle button\" data-w-dropdown-target=\"toggle\" aria-expanded=\"false\">\n        <span class=\"w-sr-only\">More actions</span>\n        \n            <svg class=\"icon icon-arrow-up w-dropdown__toggle-icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-up\"></use></svg>\n ",
+        "scrollWidth": 40,
+        "clientWidth": 30,
+        "scrollHeight": 40,
+        "clientHeight": 40
+      }
+    ]
+  }
+}

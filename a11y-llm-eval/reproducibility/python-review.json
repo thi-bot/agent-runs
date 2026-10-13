@@ -1,0 +1,21 @@
+{
+  "skill": "python-specialist",
+  "scope": [
+    "scripts/compare_harbor_runs.py",
+    "tests/test_compare_harbor_runs.py"
+  ],
+  "findings": [],
+  "passed": [
+    "Median uses three variant/turn PASS rates, separately from per-prompt majority voting.",
+    "ERROR outcomes remain in denominators and have explicit per-run counts.",
+    "Original-to-median differences use percentage points with an explicit direction.",
+    "Rejects mismatched models, prompt metadata, prompt hashes, dimensions, coverage, and duplicate attempts.",
+    "Requires three distinct result paths and run IDs.",
+    "Preserves separate variant/turn groups and writes JSON and CSV."
+  ],
+  "notes": [
+    "Three runs provide descriptive repeatability, not statistical certainty.",
+    "Execution independence depends on task checksums and execution configuration, not just distinct run IDs.",
+    "Main-agent verification after review: nine tests passed, including separate skill turns and differing local asset paths."
+  ]
+}

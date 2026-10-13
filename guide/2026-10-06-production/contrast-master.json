@@ -1,0 +1,58 @@
+{
+  "skill": "contrast-master",
+  "scope": [
+    "https://guide.wagtail.org/en/",
+    "https://guide.wagtail.org/en/getting-started/overview/",
+    "https://guide.wagtail.org/en/how-to-guides/manage-pages/",
+    "https://guide.wagtail.org/en/how-to-guides/manage-snippets/",
+    "https://guide.wagtail.org/en/how-to-guides/manage-users-and-roles/",
+    "https://guide.wagtail.org/en/reference/",
+    "apps/frontend/static_src/scss/**"
+  ],
+  "findings": [
+    {
+      "rule": "CONTRAST-001",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "apps/frontend/static_src/scss/components/version-badge.scss:21",
+      "summary": "Added-version badges have insufficient text contrast in the light theme.",
+      "fix": "Use a darker teal foreground or lighter badge background that reaches at least 4.5:1 for the 14.4px badge text; verify all badge variants in both themes.",
+      "evidence": "Production manage-pages, reports, content-checks and account-settings: foreground #007d7e on #e0eff0 = 4.19:1; text is 14.4px. axe-core 4.11.1 confirms the failure.",
+      "component": "Version badge"
+    },
+    {
+      "rule": "CONTRAST-002",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "apps/frontend/static_src/scss/components/alert.scss:38",
+      "summary": "Links inside light-theme note and warning panels fail the 4.5:1 text contrast requirement.",
+      "fix": "Give alert-content links a darker foreground that reaches 4.5:1 against both #e0eff0 and #e6e3f1, while retaining an underline and distinct hover/focus states.",
+      "evidence": "Production manage-users-and-roles and promote-search-results: #007d7e on #e0eff0 = 4.19:1. manage-snippets warning link: #007d7e on #e6e3f1 = 3.92:1. Text is 18px normal, requiring 4.5:1.",
+      "component": "Alert content links"
+    },
+    {
+      "rule": "CONTRAST-003",
+      "wcag": "1.4.11 AA",
+      "severity": "moderate",
+      "location": "apps/frontend/static_src/scss/components/theme-toggle.scss:16",
+      "summary": "The theme switch becomes visually indistinguishable from its background in forced-colors mode.",
+      "fix": "Add a forced-colors style using system colors and a visible border or system-color icon so the switch and its state remain discernible; retain native color adjustment where possible.",
+      "evidence": "Chromium forcedColors: active on production homepage: switch background, ::before and ::after all rgb(255,255,255), border 0px none; no visible switch boundary or thumb remains.",
+      "component": "Theme toggle"
+    }
+  ],
+  "passed": [
+    "Representative homepage, section, overview, manage-pages and 404 layouts fit 320 CSS px without horizontal scrolling.",
+    "WCAG text-spacing override (line height 1.5, letter spacing .12em, word spacing .16em, paragraph spacing 2em) on homepage, overview, manage-pages and reference layouts caused no main-content overflow.",
+    "200% text resize through root font-size enlargement on homepage, overview and manage-pages retained content without horizontal scrolling or clipped visible text.",
+    "Theme toggle and sampled standalone controls meet 24 CSS px target size; short inline content links use the inline-text exception.",
+    "Main body, shared navigation, footer and native search input retain readable foreground/background combinations in sampled light and dark states.",
+    "Global 2px focus outline overrides theme-toggle outline removal via !important."
+  ],
+  "notes": [
+    "No screenshots were taken. Runtime evidence is saved in raw/visual-runtime.json, raw/visual-extra.json and raw/visual-zoom-search.json.",
+    "prefers-reduced-motion: reduce leaves the theme-switch .25s transition active. This is an enhancement opportunity, not an asserted WCAG AA failure for this brief user-triggered transition.",
+    "200% resize was tested with doubled root text size, not manual browser zoom.",
+    "Search input was inspected in both themes; autocomplete result styling should be corroborated by the dedicated search interaction audit."
+  ]
+}

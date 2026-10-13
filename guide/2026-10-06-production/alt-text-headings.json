@@ -1,0 +1,75 @@
+{
+  "skill": "alt-text-headings",
+  "scope": [
+    "All 149 successful public content paths across en/is/fr/pt-br/ar; 153 successful HTML URLs including four version-query aliases",
+    "All 43 discovered HTML 404 addresses",
+    "Production search blank/results/empty states",
+    "apps/core/templates/**",
+    "apps/core/blocks.py",
+    "apps/custom_media/**",
+    "apps/richtext/**",
+    "content/**"
+  ],
+  "findings": [
+    {
+      "rule": "LANG-SHARED-001",
+      "wcag": "3.1.1 A",
+      "severity": "serious",
+      "location": "apps/core/templates/base.html:7",
+      "summary": "Search and 404 pages have an empty document language.",
+      "fix": "Use the active Django LANGUAGE_CODE as a fallback when self.locale.language_code is absent, and verify blank/results/empty search pages and nonexistent URLs in English and translated locales.",
+      "evidence": "404 GET /en/a11y-audit-nonexistent-page/ renders <html lang=\"\">; root browser evidence raw/states.json confirms empty document language in blank/results/empty search pages too. These views lack a page instance.",
+      "component": "Shared base template / search and 404 views"
+    },
+    {
+      "rule": "LANDMARK-NAMES-001",
+      "wcag": "n/a",
+      "severity": "minor",
+      "location": "apps/core/templates/components/navigation.html:3",
+      "summary": "Repeated navigation landmarks have no distinct accessible names.",
+      "fix": "Label primary navigation and previous/next navigation distinctly; remove the unnecessary nav wrapper around the standalone skip link or give it a distinct name. Verify landmark navigation exposes clear purposes.",
+      "evidence": "English home has <nav class=\"skip-link\"> and <nav class=\"primary-nav\" data-mobile-menu>; content pages also have <nav class=\"nav-buttons\">. None has aria-label or aria-labelledby.",
+      "component": "Shared navigation templates"
+    },
+    {
+      "rule": "HEADINGS-RELEASE-001",
+      "wcag": "n/a",
+      "severity": "minor",
+      "location": "content/en/releases/new-in-wagtail-6-4.md:12",
+      "summary": "Wagtail 6.4 release topics use H3 for top-level article sections.",
+      "fix": "Change the five release topic headings from H3 to H2 in CMS content and the corresponding export; these topics are siblings of the contents panel, rather than subsections of its On this page heading.",
+      "evidence": "The page uses H1 New in Wagtail 6.4, H2 On this page, then H3 Previews for StreamField Blocks, Alt text management enhancements, Drag-and-drop reordering for StreamField, Search terms report, Additional user interface improvements.",
+      "component": "Wagtail 6.4 release article"
+    },
+    {
+      "rule": "LANG-UNTRANSLATED-PARTS-001",
+      "wcag": "3.1.2 AA",
+      "severity": "serious",
+      "location": "https://guide.wagtail.org/fr/",
+      "summary": "Substantial English fallback content inherits the translated page language without a language override.",
+      "fix": "Translate fallback content, or explicitly mark English introductions/article blocks and other English passages lang=en while retaining the correct language for translated UI. Track the actual language of CMS translation segments so templates can render accurate language attributes.",
+      "evidence": "/fr/ lang=fr: introduction begins Welcome to the Wagtail user guide; /is/reference/content-checks/ lang=is: English Content quality checks are present in the CMS paragraph; /pt-br/how-to-guides/manage-forms/ lang=pt-br: English Wagtail provides a flexible form builder paragraph; /ar/about/ lang=ar: English The User Guide is a website paragraph. None has lang=en ancestors.",
+      "component": "Untranslated CMS segments / multilingual fallback content"
+    }
+  ],
+  "passed": [
+    "All 153 successful HTML URLs have one H1 and one main landmark; all 149 successful content paths were inspected across five locales.",
+    "All successful HTML pages have nonempty document language appropriate to the selected locale; search/404 absence and untranslated passages are reported separately.",
+    "All successful HTML titles identify their page topic; duplicate English titles across locale copies identify the same topic and were not treated as independent title failures.",
+    "Across 425 rendered image instances on distinct successful URLs, all images have an alt attribute; 393 are nonempty and 32 are empty. English sitemap images have nonempty alternatives.",
+    "Shared logo, section illustrations, alert icons, footer icons and feedback emoji use aria-hidden=true with adjacent text or named parent links/buttons.",
+    "Arabic home and article pages have dir=rtl; Icelandic, French and Brazilian Portuguese successful pages declare their respective language codes.",
+    "No iframe/video/audio elements were found in successful guide pages.",
+    "No additional broken heading relationships were asserted solely from heading-level changes; Wagtail 6.4 section hierarchy remains an advisory finding."
+  ],
+  "notes": [
+    "Coverage: crawl completed 238 navigations resulting in 197 unique final addresses: 153 successful HTML URLs (149 content paths plus four query aliases), 43 HTML 404 addresses and one plaintext .md resource. The synthetic browser wrapper for .well-known/agent-skills/wagtail-guide-support/SKILL.md was excluded from HTML structure checks.",
+    "Heading levels and landmark labels reported as n/a are structural improvements, not independently proven WCAG AA failures.",
+    "No screenshots were captured or inspected. Image alternatives were reviewed textually and against surrounding instructional prose; pixel-level equivalence and screenshot transcription completeness were not established.",
+    "32 empty-alt instructional image instances occur on 15 Icelandic/Brazilian Portuguese paths. Many have adjacent prose explaining the same action, so empty alt alone was not asserted as WCAG 1.1.1 failure. Editors should verify equivalent information: /is/releases/new-in-wagtail-4-1/ explicitly refers to looking at the preceding snippets screenshot; /is/how-to/finding-your-way-around/ and /pt-br/how-to-guides/find-your-way-around/ have seven and five empty-alt screenshots respectively; /is/tutorials/getting-started/ and /pt-br/getting-started/overview/ omit sign-in image descriptions.",
+    "Short alternatives such as Pin toolbar and page history replace current draft merit contextual editorial review, but no unsupported alternative-text inadequacy failure was asserted.",
+    "The language-of-parts finding concerns clearly English sentences/paragraphs, not single-word language names, product names, code or technical terms exempted by 3.1.2. Additional English fallback navigation/footer/control strings should be covered by the same translation remediation.",
+    "content/en/index.md contains an external Wagtail developer-documentation HTML export unlike the production guide home. Its markup was not used as production home evidence.",
+    "Detailed runtime evidence is raw/crawl.json and raw/page-46.html (French home), raw/page-70.html (Portuguese forms), raw/page-100.html (Icelandic content checks), raw/page-155.html (Arabic about). raw/structure-crawl.json provides the initial 45-English-page inventory."
+  ]
+}

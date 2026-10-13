@@ -1,0 +1,56 @@
+{
+  "skill": "python-specialist",
+  "scope": [
+    "scripts/run_harbor_campaign.py",
+    "scripts/compare_harbor_runs.py",
+    "tests/test_harbor_campaign.py",
+    "tests/test_compare_harbor_runs.py"
+  ],
+  "findings": [
+    {
+      "rule": "PY-CAMPAIGN-001",
+      "wcag": "n/a",
+      "severity": "serious",
+      "location": "scripts/run_harbor_campaign.py:60",
+      "summary": "A model failure suppresses a separate infrastructure exception and marks an unresolved run complete.",
+      "fix": "Classify every exception before deciding completeness; prohibit regeneration when a model failure exists but retain unresolved infrastructure as review/incomplete, or regrade saved outputs where possible.",
+      "evidence": "AgentTimeoutError in one step plus a Docker transport failure in another returns terminal; run_round treats every terminal selection as complete."
+    },
+    {
+      "rule": "PY-CAMPAIGN-002",
+      "wcag": "n/a",
+      "severity": "serious",
+      "location": "scripts/run_harbor_campaign.py:55",
+      "summary": "Verifier infrastructure errors without Harbor exceptions are counted as terminal outcomes and can enter the five-run mean.",
+      "fix": "Inspect each verifier/a11y-result.json, including skill-step sidecars, before declaring a trial complete. Recognized infrastructure errors may be regraded; unresolved errors must mark the run incomplete. Preserve ordinary model failures.",
+      "evidence": "harbor_verifier writes reward.txt=0 on Node/browser exceptions. Harbor Verifier parses that reward even when test.sh exits nonzero, leaving exception_info unset."
+    },
+    {
+      "rule": "PY-CAMPAIGN-003",
+      "wcag": "n/a",
+      "severity": "moderate",
+      "location": "scripts/run_harbor_campaign.py:81",
+      "summary": "A multistep regrade wrapper hides recoverable nested transport failures and prevents the second permitted retry.",
+      "fix": "Recognize the specific MultiStepRegradeTrial wrapper only when nested step errors fully explain it, then classify those errors and preserve regrade-only mode. Add a wrapper regression test.",
+      "evidence": "RegradeError: Fresh verification failed for regrade step(s) ... returns review before nested Docker transport errors are examined."
+    },
+    {
+      "rule": "PY-CAMPAIGN-004",
+      "wcag": "n/a",
+      "severity": "serious",
+      "location": "scripts/run_harbor_campaign.py:170",
+      "summary": "The runner schedules unregradable partial skill trials after an early verifier infrastructure failure.",
+      "fix": "Validate ordered step coverage and artifact availability before choosing regrade. If later skill steps never ran, use a permitted whole-task infrastructure retry or explicitly retain the run as incomplete when regeneration is prohibited.",
+      "evidence": "MultiStepTrial stops after an exceptional step without verifier_result; MultiStepRegradeTrial._validate_regradable rejects records that omit any configured step."
+    }
+  ],
+  "passed": [
+    "28 targeted campaign/comparison tests pass.",
+    "Five-run mean, sample standard deviation, variance units, and incomplete-campaign comparison rejection are correct.",
+    "Native retries are disabled and retry waves preserve separate original job directories."
+  ],
+  "notes": [
+    "Current tests do not exercise run_round restart behavior, total retry bounds, or final publication end to end.",
+    "Installed Harbor source was read to verify retry deletion, verifier reward parsing, and multistep regrade requirements."
+  ]
+}

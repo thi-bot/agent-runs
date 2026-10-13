@@ -1,0 +1,12 @@
+{
+  "chromium": "152.0.7977.82",
+  "axe": "4.13.0",
+  "playwright": "1.63.0",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ]
+}

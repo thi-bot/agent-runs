@@ -1,0 +1,611 @@
+# Web Accessibility Audit
+
+An audit of web content, run on 2026-10-03. Read the executive summary for the verdict, the priorities section for what to do first, and the findings tables for detail.
+
+## Metadata
+
+What was audited, with what, and under which settings.
+
+| Field | Value |
+|---|---|
+| Date | 2026-10-03 |
+| Scope | 100 items |
+| Skills run | playwright-scanner |
+| Tooling | node v26.8.1, a11y-mcp-server 7.0.3 |
+| Scan configuration | defaults, no config file found |
+| Checks counted | 22 |
+
+Audited:
+
+- `https://static-wagtail-v7-4.netlify.app/admin/`
+- `https://static-wagtail-v7-4.netlify.app/admin/account/`
+- `https://static-wagtail-v7-4.netlify.app/admin/collections/`
+- `https://static-wagtail-v7-4.netlify.app/admin/collections/2/`
+- `https://static-wagtail-v7-4.netlify.app/admin/collections/2/delete/`
+- `https://static-wagtail-v7-4.netlify.app/admin/collections/add/`
+- `https://static-wagtail-v7-4.netlify.app/admin/country/`
+- `https://static-wagtail-v7-4.netlify.app/admin/documents/`
+- `https://static-wagtail-v7-4.netlify.app/admin/documents/edit/2/`
+- `https://static-wagtail-v7-4.netlify.app/admin/documents/multiple/add/`
+- `https://static-wagtail-v7-4.netlify.app/admin/documents/usage/2/`
+- `https://static-wagtail-v7-4.netlify.app/admin/forms/`
+- `https://static-wagtail-v7-4.netlify.app/admin/forms/submissions/69/`
+- `https://static-wagtail-v7-4.netlify.app/admin/groups/`
+- `https://static-wagtail-v7-4.netlify.app/admin/groups/delete/2/`
+- `https://static-wagtail-v7-4.netlify.app/admin/groups/edit/2/`
+- `https://static-wagtail-v7-4.netlify.app/admin/groups/history/2/`
+- `https://static-wagtail-v7-4.netlify.app/admin/groups/new/`
+- `https://static-wagtail-v7-4.netlify.app/admin/images/`
+- `https://static-wagtail-v7-4.netlify.app/admin/images/51/`
+- `https://static-wagtail-v7-4.netlify.app/admin/images/51/delete/`
+- `https://static-wagtail-v7-4.netlify.app/admin/images/51/generate_url/`
+- `https://static-wagtail-v7-4.netlify.app/admin/images/multiple/add/`
+- `https://static-wagtail-v7-4.netlify.app/admin/locales/`
+- `https://static-wagtail-v7-4.netlify.app/admin/locales/delete/1/`
+- `https://static-wagtail-v7-4.netlify.app/admin/locales/edit/1/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/60/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/60/edit/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/60/history/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/60/move/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/60/revisions/2/revert/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/60/usage/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/60/workflow_history/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/66/add_subpage/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/68/edit/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/69/edit/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/77/edit/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/80/edit/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/82/revisions/compare/live...110/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/82/workflow_history/detail/4/`
+- `https://static-wagtail-v7-4.netlify.app/admin/pages/search/`
+- `https://static-wagtail-v7-4.netlify.app/admin/redirects/`
+- `https://static-wagtail-v7-4.netlify.app/admin/redirects/29/`
+- `https://static-wagtail-v7-4.netlify.app/admin/redirects/29/delete/`
+- `https://static-wagtail-v7-4.netlify.app/admin/redirects/add/`
+- `https://static-wagtail-v7-4.netlify.app/admin/redirects/import/`
+- `https://static-wagtail-v7-4.netlify.app/admin/reports/aging-pages/`
+- `https://static-wagtail-v7-4.netlify.app/admin/reports/locked/`
+- and 50 more
+
+## Executive summary
+
+Fail. Critical or serious findings must be fixed before this ships.
+
+The headline numbers for this run.
+
+| Measure | Value |
+|---|---|
+| Score | 51 out of 100 |
+| Grade | F |
+| Findings | 17 |
+| Blocking (critical plus serious) | 7 |
+| Verdict | Fail |
+
+## Severity breakdown
+
+Counts by severity, highest impact first.
+
+| Severity | Count | What it means |
+|---|---:|---|
+| critical | 0 | Blocks a person from completing the task |
+| serious | 7 | Major barrier with a difficult workaround |
+| moderate | 9 | Real friction, workaround exists |
+| minor | 1 | Noticeable but rarely blocking |
+
+## Findings
+
+17 findings, ordered by severity then by rule.
+
+### Serious (7)
+
+Each row names the rule, the criterion it fails, where it is, and what to change.
+
+| Rule | WCAG | Location | Problem | Fix |
+|---|---|---|---|---|
+| `ARIA-004` | 4.1.2 A | client/src/components/Draftail/blocks/MediaBlock.js:110 | Rich text image and embed preview buttons have no accessible name when a thumbnail is present. | Give MediaBlock an explicit localized accessible label identifying its image/embed and action, supplied by ImageBlock/EmbedBlock (for example “Edit image: [alt text]” or “Edit embed: [title]”). Preserve decorative thumbnail alt="" without relying on it for the button name. |
+| `FORM-DRAFTAIL-NAME` | 4.1.2 A | client/src/components/Draftail/index.js:213 | Draftail rich-text textboxes have no accessible name, including fifteen fields on the recipe editor. | Give each visible contenteditable textbox aria-labelledby pointing to its field or block label, or an equivalent translated aria-label; propagate this through Draftail options for both ordinary fields and StreamField widgets. |
+| `FORM-MULTIUPLOAD-NAME` | 4.1.2 A | wagtail/images/templates/wagtailimages/multiple/add.html:26 | Multiple image and document upload file inputs have no accessible name. | Use an associated label for #fileupload in both upload templates; retain the visible “Or choose from your computer” text as the input name. Associate accepted-format and size instructions with aria-describedby. |
+| `FORM-SUBMISSION-CHECKBOX-NAME` | 4.1.2 A | wagtail/contrib/forms/templates/wagtailforms/list_submissions.html:12 | Form-submission selection checkboxes have no names, so screen-reader users cannot identify the select-all control or selected record. | Label the header checkbox “Select all submissions” and label each row checkbox “Select submission …” with a meaningful row identifier, using labels or aria-label. |
+| `FORM-TAG-INPUT-NAME` | 4.1.2 A | client/src/controllers/TagController.ts:63 | Tag-it replaces the labeled tag field with an unnamed text input. | After tag-it initializes, give its generated input an ID and associate the existing Tags label with it, or copy the field label through aria-labelledby; also preserve relevant descriptions and invalid state. |
+| `KEYBOARD-FOCAL-CREATE` | 2.1.1 A; 2.5.7 AA | wagtail/images/static_src/wagtailimages/js/focal-point-chooser.js:4 | Image focal areas cannot be created or resized using the keyboard. | Expose labelled coordinate and size inputs or implement a focusable crop widget with keyboard create, move and resize actions; keep hidden model fields synchronized and provide a single-pointer alternative to dragging. |
+| `MODAL-001` | 4.1.2 A | client/src/entrypoints/admin/modal-workflow.js:66 | Legacy chooser dialogs lack an accessible name and do not expose their modal state, leaving background content exposed to assistive technology. | Give the chooser dialog aria-labelledby pointing to its loaded heading (with a unique stable ID) and aria-modal="true", updating the relationship on workflow body replacement. Prefer migrating this Bootstrap branch to the existing labelled a11y-dialog component or native showModal dialog. |
+
+### Moderate (9)
+
+Each row names the rule, the criterion it fails, where it is, and what to change.
+
+| Rule | WCAG | Location | Problem | Fix |
+|---|---|---|---|---|
+| `ARIA-001` | 1.3.1 A | wagtail/admin/templates/wagtailadmin/workflows/includes/workflow_tasks_cell.html:5 | Workflow task links wrap list items, breaking the task list structure exposed to assistive technology. | Make each li a direct child of ul and place the task link inside its li; move the card styling to the link as needed to preserve its click area. Keep the extra-count li as another direct child. |
+| `ARIA-002` | 4.1.2 A | wagtail/users/templates/wagtailusers/users/create.html:44 | The Roles shortcut in user creation and copying is exposed as a tab outside any tablist. | Remove role="tab" from the in-panel shortcut and use a link or native button to activate the Roles panel. In TabsController, write aria-selected only on actual tablist tabs, rather than every trigger; retain aria-controls and move focus appropriately. |
+| `ARIA-003` | 4.1.2 A | client/src/components/Sidebar/menu/SubMenuItem.tsx:106 | Sidebar navigation and account disclosures announce a menu popup although their opened content has ordinary list/link semantics. | Remove aria-haspopup="menu" from SubMenuItem and the account button in MainMenu.tsx:279; retain the accurate aria-expanded disclosure state. Optionally add aria-controls with a stable panel ID. Keep native navigation lists and links. |
+| `CONTRAST-FIELD-BOUNDARY` | 1.4.11 AA | client/scss/components/forms/_input-base.scss:12 | Empty form controls have low-contrast boundaries in both light and dark themes. | Increase border-field-default to at least 3:1 against field and surrounding page surfaces in both themes; retain separate inactive styling. Apply to controls whose empty editable extent is identified by their border. |
+| `KEYBOARD-FOCAL-VISIBLE` | 2.4.7 AA | wagtail/images/static_src/wagtailimages/js/vendor/jquery.Jcrop.min.js:20 | The focal-point chooser receives keyboard focus in an offscreen radio input with no visible focus indicator. | Provide a visible, focusable focal-area control and draw an obvious focus indicator on the displayed image/widget when keyboard focus enters. |
+| `LIVE-BULK-SELECTION-COUNT` | 4.1.3 AA | wagtail/admin/templates/wagtailadmin/bulk_actions/footer.html:7 | Bulk-selection totals change visually without a programmatic status announcement. | Maintain a persistent polite status region outside the initially hidden footer and update it with the selected-item total, including deselection to zero. Preserve checkbox focus and avoid announcing every row in a select-all operation. |
+| `MODAL-002` | 2.4.3 A | wagtail/admin/static_src/wagtailadmin/js/vendor/bootstrap-modal.js:116 | Tab past the last chooser control moves focus outside the modal, where Escape no longer dismisses it. | Implement explicit Tab and Shift+Tab wrapping between the first and last focusable controls, including document-boundary cases, and handle Escape while the dialog is open. Migrating the shell to the existing a11y-dialog implementation or a native modal dialog can provide these behaviors. |
+| `REFLOW-EDITOR-STATUS-TOOLBAR` | 1.4.10 AA | wagtail/admin/templates/wagtailadmin/shared/headers/slim_header.html:110 | The editor header requires horizontal scrolling to reach the Live-page control at 320 CSS pixels. | Allow the header status/action strip to wrap or move secondary actions into an accessible disclosure at narrow widths, so all controls fit within320px without horizontal scrolling. |
+| `TABLE-001` | 1.3.1 A | wagtail/admin/templates/wagtailadmin/tables/column_header.html:2 | Sortable listings and form submissions expose the current sort column and direction only through visual classes and arrows. | Set aria-sort="ascending" or "descending" on the currently sorted th based on is_ascending/is_descending; clear it on other headers. Do the same using heading.order in wagtailforms/list_submissions.html. Preserve link titles describing the next action. |
+
+### Minor (1)
+
+Each row names the rule, the criterion it fails, where it is, and what to change.
+
+| Rule | WCAG | Location | Problem | Fix |
+|---|---|---|---|---|
+| `CONTRAST-DISABLED-METADATA` | 1.4.3 AA | client/scss/components/_listing.scss:181 | The disabled-row style also dims ordinary table metadata to 1.65:1 contrast. | Restrict opacity changes to genuinely inactive controls; keep informational table cell text at 4.5:1. Review disabled chooser/listing rows so unavailable choices do not make their identifying metadata unreadable. |
+
+## Remediation priorities
+
+Fix these components first. Each one carries the same defect in several places, so one fix clears every instance.
+
+| Component | Instances | Worst severity | Rules |
+|---|---:|---|---|
+| Image focal-point chooser | 2 | serious | `KEYBOARD-FOCAL-CREATE`, `KEYBOARD-FOCAL-VISIBLE` |
+
+Then the 7 remaining blocking findings, in this order:
+
+1. `ARIA-004` at client/src/components/Draftail/blocks/MediaBlock.js:110. Give MediaBlock an explicit localized accessible label identifying its image/embed and action, supplied by ImageBlock/EmbedBlock (for example “Edit image: [alt text]” or “Edit embed: [title]”). Preserve decorative thumbnail alt="" without relying on it for the button name.
+2. `FORM-DRAFTAIL-NAME` at client/src/components/Draftail/index.js:213. Give each visible contenteditable textbox aria-labelledby pointing to its field or block label, or an equivalent translated aria-label; propagate this through Draftail options for both ordinary fields and StreamField widgets.
+3. `FORM-MULTIUPLOAD-NAME` at wagtail/images/templates/wagtailimages/multiple/add.html:26. Use an associated label for #fileupload in both upload templates; retain the visible “Or choose from your computer” text as the input name. Associate accepted-format and size instructions with aria-describedby.
+4. `FORM-SUBMISSION-CHECKBOX-NAME` at wagtail/contrib/forms/templates/wagtailforms/list_submissions.html:12. Label the header checkbox “Select all submissions” and label each row checkbox “Select submission …” with a meaningful row identifier, using labels or aria-label.
+5. `FORM-TAG-INPUT-NAME` at client/src/controllers/TagController.ts:63. After tag-it initializes, give its generated input an ID and associate the existing Tags label with it, or copy the field label through aria-labelledby; also preserve relevant descriptions and invalid state.
+6. `KEYBOARD-FOCAL-CREATE` at wagtail/images/static_src/wagtailimages/js/focal-point-chooser.js:4. Expose labelled coordinate and size inputs or implement a focusable crop widget with keyboard create, move and resize actions; keep hidden model fields synchronized and provide a single-pointer alternative to dragging.
+7. `MODAL-001` at client/src/entrypoints/admin/modal-workflow.js:66. Give the chooser dialog aria-labelledby pointing to its loaded heading (with a unique stable ID) and aria-modal="true", updating the relationship on workflow body replacement. Prefer migrating this Bootstrap branch to the existing labelled a11y-dialog component or native showModal dialog.
+
+The remaining 10 moderate and minor findings can follow in normal work.
+
+## What passed
+
+5 checks ran and found nothing.
+
+- 25 pages underwent41 expanded tab/dropdown-state scans; overlap-induced dashboard target-size candidates were reviewed and excluded.
+- All100 pages have first25Tab samples and320px/text-spacing measurements; these are bounded observations, not complete keyboard or responsive conformance tests.
+- All100 sampled admin pages returned HTTP200 and completed axe-core4.13 WCAG A/AA scans in Chromium152.
+- Targeted runtime tests verified dashboard skip link, existing drag-reordering alternatives, chooser Escape within dialogs, shared privacy dialog name/modality and sidebar PageExplorer dismissal.
+- WCAG-tagged axe checked applicable ARIA validity, permitted attributes, roles and relationships; native form/link/button naming, list structure and table associations. Confirmed exceptions are correlated to canonical findings.
+
+## Needs a human
+
+Items a skill could not decide, or could not check automatically.
+
+- **playwright-scanner**: Scored runtime findings reuse the exact canonical rule and file:line so rendering can deduplicate them; source-only defects are deliberately absent.
+- **playwright-scanner**: 43 initial node candidates remain preserved in raw/runtime-correlation.json and individual runtime files. Multiple nodes can share one component finding.
+- **playwright-scanner**: Image URL scroll-container axe warning was disproved by actual Tab focus in Chromium152; Firefox/Safari behavior remains untested.
+- **playwright-scanner**: Inactive chooser title contrast is excluded; ordinary disabled-row metadata contrast is retained separately.
+- **playwright-scanner**: Expanded dashboard target-size failures were popup-overlap artifacts and are not scored.
+- **playwright-scanner**: Settled suspect table/report widths stay in local scrollers; no data-table reflow failure inferred. Editor non-table toolbar overflow is separately confirmed.
+- **playwright-scanner**: No screenshots, screen-reader audible-output tests, persisted writes, successful POST flows or full100-page keyboard journeys were performed.
+- **playwright-scanner**: Static archive coverage limits include missing Handsontable and fileupload validation assets and unavailable editing-session pings.
+- **playwright-scanner**: raw/runtime-correlation.json maps each initial axe node to its accepted canonical finding or exclusion reason and records aggregate passing rule IDs.
+
+## Next steps
+
+1. Fix the 7 blocking findings above, starting with any repeated component.
+2. Re-run this audit and check the delta section for regressions.
+3. Wire the scan into continuous integration so the next regression is caught before review.
+
+Automated checks find a minority of accessibility barriers. A passing score is a floor, not a guarantee.
+
+## Findings data
+
+The merged findings, embedded so the next run can compute a delta without parsing this document.
+
+```json a11y-findings
+{
+  "skills": [
+    "playwright-scanner"
+  ],
+  "scope": [
+    "https://static-wagtail-v7-4.netlify.app/admin/",
+    "https://static-wagtail-v7-4.netlify.app/admin/account/",
+    "https://static-wagtail-v7-4.netlify.app/admin/collections/",
+    "https://static-wagtail-v7-4.netlify.app/admin/collections/2/",
+    "https://static-wagtail-v7-4.netlify.app/admin/collections/2/delete/",
+    "https://static-wagtail-v7-4.netlify.app/admin/collections/add/",
+    "https://static-wagtail-v7-4.netlify.app/admin/country/",
+    "https://static-wagtail-v7-4.netlify.app/admin/documents/",
+    "https://static-wagtail-v7-4.netlify.app/admin/documents/edit/2/",
+    "https://static-wagtail-v7-4.netlify.app/admin/documents/multiple/add/",
+    "https://static-wagtail-v7-4.netlify.app/admin/documents/usage/2/",
+    "https://static-wagtail-v7-4.netlify.app/admin/forms/",
+    "https://static-wagtail-v7-4.netlify.app/admin/forms/submissions/69/",
+    "https://static-wagtail-v7-4.netlify.app/admin/groups/",
+    "https://static-wagtail-v7-4.netlify.app/admin/groups/delete/2/",
+    "https://static-wagtail-v7-4.netlify.app/admin/groups/edit/2/",
+    "https://static-wagtail-v7-4.netlify.app/admin/groups/history/2/",
+    "https://static-wagtail-v7-4.netlify.app/admin/groups/new/",
+    "https://static-wagtail-v7-4.netlify.app/admin/images/",
+    "https://static-wagtail-v7-4.netlify.app/admin/images/51/",
+    "https://static-wagtail-v7-4.netlify.app/admin/images/51/delete/",
+    "https://static-wagtail-v7-4.netlify.app/admin/images/51/generate_url/",
+    "https://static-wagtail-v7-4.netlify.app/admin/images/multiple/add/",
+    "https://static-wagtail-v7-4.netlify.app/admin/locales/",
+    "https://static-wagtail-v7-4.netlify.app/admin/locales/delete/1/",
+    "https://static-wagtail-v7-4.netlify.app/admin/locales/edit/1/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/60/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/60/edit/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/60/history/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/60/move/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/60/revisions/2/revert/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/60/usage/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/60/workflow_history/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/66/add_subpage/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/68/edit/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/69/edit/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/77/edit/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/80/edit/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/82/revisions/compare/live...110/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/82/workflow_history/detail/4/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/search/",
+    "https://static-wagtail-v7-4.netlify.app/admin/redirects/",
+    "https://static-wagtail-v7-4.netlify.app/admin/redirects/29/",
+    "https://static-wagtail-v7-4.netlify.app/admin/redirects/29/delete/",
+    "https://static-wagtail-v7-4.netlify.app/admin/redirects/add/",
+    "https://static-wagtail-v7-4.netlify.app/admin/redirects/import/",
+    "https://static-wagtail-v7-4.netlify.app/admin/reports/aging-pages/",
+    "https://static-wagtail-v7-4.netlify.app/admin/reports/locked/",
+    "https://static-wagtail-v7-4.netlify.app/admin/reports/page-types-usage/",
+    "https://static-wagtail-v7-4.netlify.app/admin/reports/site-history/",
+    "https://static-wagtail-v7-4.netlify.app/admin/reports/workflow/",
+    "https://static-wagtail-v7-4.netlify.app/admin/reports/workflow_tasks/",
+    "https://static-wagtail-v7-4.netlify.app/admin/searchpicks/",
+    "https://static-wagtail-v7-4.netlify.app/admin/searchpicks/5/",
+    "https://static-wagtail-v7-4.netlify.app/admin/searchpicks/5/delete/",
+    "https://static-wagtail-v7-4.netlify.app/admin/searchpicks/add/",
+    "https://static-wagtail-v7-4.netlify.app/admin/searchpicks/reports/search-terms/",
+    "https://static-wagtail-v7-4.netlify.app/admin/settings/base/genericsettings/1/",
+    "https://static-wagtail-v7-4.netlify.app/admin/settings/base/sitesettings/2/",
+    "https://static-wagtail-v7-4.netlify.app/admin/sites/",
+    "https://static-wagtail-v7-4.netlify.app/admin/sites/copy/2/",
+    "https://static-wagtail-v7-4.netlify.app/admin/sites/delete/2/",
+    "https://static-wagtail-v7-4.netlify.app/admin/sites/edit/2/",
+    "https://static-wagtail-v7-4.netlify.app/admin/sites/new/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/base/footertext/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/base/person/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/base/person/add/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/base/person/copy/4/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/base/person/delete/4/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/base/person/edit/4/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/base/person/history/4/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/base/person/history/4/revisions/compare/live...109/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/base/person/unpublish/4/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/base/person/workflow_history/4/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/base/person/workflow_history/4/detail/3/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/breads/breadingredient/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/breads/breadingredient/add/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/breads/breadingredient/delete/1/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/breads/breadingredient/edit/1/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/breads/breadingredient/inspect/1/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/breads/breadtype/",
+    "https://static-wagtail-v7-4.netlify.app/admin/snippets/breads/breadtype/add/",
+    "https://static-wagtail-v7-4.netlify.app/admin/styleguide/",
+    "https://static-wagtail-v7-4.netlify.app/admin/translation/submit/page/60/",
+    "https://static-wagtail-v7-4.netlify.app/admin/users/",
+    "https://static-wagtail-v7-4.netlify.app/admin/users/copy/7/",
+    "https://static-wagtail-v7-4.netlify.app/admin/users/delete/7/",
+    "https://static-wagtail-v7-4.netlify.app/admin/users/edit/7/",
+    "https://static-wagtail-v7-4.netlify.app/admin/users/history/7/",
+    "https://static-wagtail-v7-4.netlify.app/admin/users/new/",
+    "https://static-wagtail-v7-4.netlify.app/admin/workflows/disable/1/",
+    "https://static-wagtail-v7-4.netlify.app/admin/workflows/edit/1/",
+    "https://static-wagtail-v7-4.netlify.app/admin/workflows/list/",
+    "https://static-wagtail-v7-4.netlify.app/admin/workflows/tasks/add/wagtailcore/groupapprovaltask/",
+    "https://static-wagtail-v7-4.netlify.app/admin/workflows/tasks/disable/1/",
+    "https://static-wagtail-v7-4.netlify.app/admin/workflows/tasks/edit/1/",
+    "https://static-wagtail-v7-4.netlify.app/admin/workflows/tasks/index/",
+    "https://static-wagtail-v7-4.netlify.app/admin/workflows/usage/1/"
+  ],
+  "findings": [
+    {
+      "rule": "ARIA-004",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "client/src/components/Draftail/blocks/MediaBlock.js:110",
+      "summary": "Rich text image and embed preview buttons have no accessible name when a thumbnail is present.",
+      "fix": "Give MediaBlock an explicit localized accessible label identifying its image/embed and action, supplied by ImageBlock/EmbedBlock (for example “Edit image: [alt text]” or “Edit embed: [title]”). Preserve decorative thumbnail alt=\"\" without relying on it for the button name.",
+      "evidence": "Runtime confirmed 1 nodes on 1 pages; axe button-name. https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright Selector ['.MediaBlock']. Runtime 099 /admin/pages/77/edit/: axe button-name on button.MediaBlock. ImageBlock passes alt=\"\"; EmbedBlock also passes alt=\"\". MediaBlock hides its icon and renders no fallback text when src is present.",
+      "component": "Draftail MediaBlock",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "FORM-DRAFTAIL-NAME",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "client/src/components/Draftail/index.js:213",
+      "summary": "Draftail rich-text textboxes have no accessible name, including fifteen fields on the recipe editor.",
+      "fix": "Give each visible contenteditable textbox aria-labelledby pointing to its field or block label, or an equivalent translated aria-label; propagate this through Draftail options for both ordinary fields and StreamField widgets.",
+      "evidence": "Runtime confirmed 26 nodes on 7 pages; axe aria-input-field-name. https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright Selector ['.notranslate']. Runtime /admin/pages/82/edit/: axe aria-input-field-name finds 15 role=textbox contenteditables without aria-label or aria-labelledby. A label targeting the hidden backing input does not name the visible editor.",
+      "component": "Draftail rich-text widget",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "FORM-MULTIUPLOAD-NAME",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "wagtail/images/templates/wagtailimages/multiple/add.html:26",
+      "summary": "Multiple image and document upload file inputs have no accessible name.",
+      "fix": "Use an associated label for #fileupload in both upload templates; retain the visible “Or choose from your computer” text as the input name. Associate accepted-format and size instructions with aria-describedby.",
+      "evidence": "Runtime confirmed 2 nodes on 2 pages; axe label. https://dequeuniversity.com/rules/axe/4.13/label?application=playwright Selector ['#fileupload']. Runtime /admin/images/multiple/add/ and /admin/documents/multiple/add/: axe label flags #fileupload. Adjacent button text is not programmatically associated. Document template also has the input at line 26.",
+      "component": "Multiple image/document upload",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "FORM-SUBMISSION-CHECKBOX-NAME",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "wagtail/contrib/forms/templates/wagtailforms/list_submissions.html:12",
+      "summary": "Form-submission selection checkboxes have no names, so screen-reader users cannot identify the select-all control or selected record.",
+      "fix": "Label the header checkbox “Select all submissions” and label each row checkbox “Select submission …” with a meaningful row identifier, using labels or aria-label.",
+      "evidence": "Runtime confirmed 2 nodes on 1 pages; axe label. https://dequeuniversity.com/rules/axe/4.13/label?application=playwright Selector ['input[data-action=\"w-bulk#toggleAll\"]']. Runtime /admin/forms/submissions/69/: axe label flags header checkbox data-w-bulk-target=all and row checkbox name=selected-submissions; source lines 12 and 24 contain no labels.",
+      "component": "Form submissions listing",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "FORM-TAG-INPUT-NAME",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "client/src/controllers/TagController.ts:63",
+      "summary": "Tag-it replaces the labeled tag field with an unnamed text input.",
+      "fix": "After tag-it initializes, give its generated input an ID and associate the existing Tags label with it, or copy the field label through aria-labelledby; also preserve relevant descriptions and invalid state.",
+      "evidence": "Runtime confirmed 4 nodes on 4 pages; axe label. https://dequeuniversity.com/rules/axe/4.13/label?application=playwright Selector ['.ui-autocomplete-input']. Runtime /admin/images/51/, /admin/documents/edit/2/, /admin/pages/68/edit/ and /admin/pages/77/edit/: axe label flags .ui-autocomplete-input. vendor/tag-it.js:130 creates <input type=text> without an ID/name association; TagController.connect does not supply one.",
+      "component": "Tag widget",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "KEYBOARD-FOCAL-CREATE",
+      "wcag": "2.1.1 A; 2.5.7 AA",
+      "severity": "serious",
+      "location": "wagtail/images/static_src/wagtailimages/js/focal-point-chooser.js:4",
+      "summary": "Image focal areas cannot be created or resized using the keyboard.",
+      "fix": "Expose labelled coordinate and size inputs or implement a focusable crop widget with keyboard create, move and resize actions; keep hidden model fields synchronized and provide a single-pointer alternative to dragging.",
+      "evidence": "At /admin/images/51/, focus .jcrop-keymgr and press ArrowRight, ArrowDown, Space, Enter: all four hidden coordinates remain empty, selection w/h remain 0. Jcrop keyboard handler only moves an existing rectangle; no resize/create keys.",
+      "component": "Image focal-point chooser",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "MODAL-001",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "client/src/entrypoints/admin/modal-workflow.js:66",
+      "summary": "Legacy chooser dialogs lack an accessible name and do not expose their modal state, leaving background content exposed to assistive technology.",
+      "fix": "Give the chooser dialog aria-labelledby pointing to its loaded heading (with a unique stable ID) and aria-modal=\"true\", updating the relationship on workflow body replacement. Prefer migrating this Bootstrap branch to the existing labelled a11y-dialog component or native showModal dialog.",
+      "evidence": "Chromium image/page/document chooser probes: role=\"dialog\", aria-hidden=\"false\", aria-label=null, aria-labelledby=null, aria-modal=null, headings #header-title present. No background aria-hidden or inert. raw/modal-runtime.json.",
+      "component": "Legacy ModalWorkflow chooser shell",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "ARIA-001",
+      "wcag": "1.3.1 A",
+      "severity": "moderate",
+      "location": "wagtail/admin/templates/wagtailadmin/workflows/includes/workflow_tasks_cell.html:5",
+      "summary": "Workflow task links wrap list items, breaking the task list structure exposed to assistive technology.",
+      "fix": "Make each li a direct child of ul and place the task link inside its li; move the card styling to the link as needed to preserve its click area. Keep the extra-count li as another direct child.",
+      "evidence": "Runtime confirmed 2 nodes on 1 pages; axe list, listitem. https://dequeuniversity.com/rules/axe/4.13/list?application=playwright Selector ['.workflow-tasks']. Runtime 011: axe list and listitem failures on /admin/workflows/list/. Source: <ul class=\"workflow-tasks\"><a href=\"...\"><li class=\"workflow-tasks__task\">...</li></a></ul>.",
+      "component": "Workflow task summary cards",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "ARIA-002",
+      "wcag": "4.1.2 A",
+      "severity": "moderate",
+      "location": "wagtail/users/templates/wagtailusers/users/create.html:44",
+      "summary": "The Roles shortcut in user creation and copying is exposed as a tab outside any tablist.",
+      "fix": "Remove role=\"tab\" from the in-panel shortcut and use a link or native button to activate the Roles panel. In TabsController, write aria-selected only on actual tablist tabs, rather than every trigger; retain aria-controls and move focus appropriately.",
+      "evidence": "Runtime confirmed 2 nodes on 2 pages; axe aria-required-parent. https://dequeuniversity.com/rules/axe/4.13/aria-required-parent?application=playwright Selector ['.w-w-fit']. Runtime 044 and 073: aria-required-parent on a.w-w-fit, role=\"tab\" outside tablist. TabsController:186–193 updates aria-selected on all triggerTargets, including this shortcut.",
+      "component": "User create/copy Roles shortcut",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "ARIA-003",
+      "wcag": "4.1.2 A",
+      "severity": "moderate",
+      "location": "client/src/components/Sidebar/menu/SubMenuItem.tsx:106",
+      "summary": "Sidebar navigation and account disclosures announce a menu popup although their opened content has ordinary list/link semantics.",
+      "fix": "Remove aria-haspopup=\"menu\" from SubMenuItem and the account button in MainMenu.tsx:279; retain the accurate aria-expanded disclosure state. Optionally add aria-controls with a stable panel ID. Keep native navigation lists and links.",
+      "evidence": "Captured admin DOM: Settings/Reports/Help buttons have aria-haspopup=\"menu\"; panels contain h2 and ul > li > a without role=\"menu\". Account button likewise opens ul containing ordinary links.",
+      "component": "Sidebar submenu and account disclosures",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "CONTRAST-FIELD-BOUNDARY",
+      "wcag": "1.4.11 AA",
+      "severity": "moderate",
+      "location": "client/scss/components/forms/_input-base.scss:12",
+      "summary": "Empty form controls have low-contrast boundaries in both light and dark themes.",
+      "fix": "Increase border-field-default to at least 3:1 against field and surrounding page surfaces in both themes; retain separate inactive styling. Apply to controls whose empty editable extent is identified by their border.",
+      "evidence": "On /admin/users/new/ username, first/last name and password fields: light border #c8c8c8 against white field/content =1.67:1; dark border #5c5c5c against #262626 field/content =2.26:1. Empty fields have no contrasting fill or other extent indicator.",
+      "component": "Default text-input and password boundaries",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "KEYBOARD-FOCAL-VISIBLE",
+      "wcag": "2.4.7 AA",
+      "severity": "moderate",
+      "location": "wagtail/images/static_src/wagtailimages/js/vendor/jquery.Jcrop.min.js:20",
+      "summary": "The focal-point chooser receives keyboard focus in an offscreen radio input with no visible focus indicator.",
+      "fix": "Provide a visible, focusable focal-area control and draw an obvious focus indicator on the displayed image/widget when keyboard focus enters.",
+      "evidence": "Runtime .jcrop-keymgr is type=radio with position:fixed;left:-120px;width:12px. Keyboard focus stays on this offscreen input after arrow keys and there is no visible selection for images without a focal area.",
+      "component": "Image focal-point chooser",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "LIVE-BULK-SELECTION-COUNT",
+      "wcag": "4.1.3 AA",
+      "severity": "moderate",
+      "location": "wagtail/admin/templates/wagtailadmin/bulk_actions/footer.html:7",
+      "summary": "Bulk-selection totals change visually without a programmatic status announcement.",
+      "fix": "Maintain a persistent polite status region outside the initially hidden footer and update it with the selected-item total, including deselection to zero. Preserve checkbox focus and avoid announcing every row in a select-all operation.",
+      "evidence": "Browser: /admin/images/, /admin/users/, /admin/pages/60/ first-checkbox selection changes span[data-bulk-action-num-objects] to “1 image/user/page selected”. Only live region is unrelated empty .messages. includes/bulk-actions.js:158 changes plain span textContent.",
+      "component": "Bulk actions selection count",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "MODAL-002",
+      "wcag": "2.4.3 A",
+      "severity": "moderate",
+      "location": "wagtail/admin/static_src/wagtailadmin/js/vendor/bootstrap-modal.js:116",
+      "summary": "Tab past the last chooser control moves focus outside the modal, where Escape no longer dismisses it.",
+      "fix": "Implement explicit Tab and Shift+Tab wrapping between the first and last focusable controls, including document-boundary cases, and handle Escape while the dialog is open. Migrating the shell to the existing a11y-dialog implementation or a native modal dialog can provide these behaviors.",
+      "evidence": "Chromium image chooser: focus final visible button/input/select/textarea/a; Tab gives document.activeElement=body outside .modal. Escape then leaves .modal.in open. Bootstrap enforces only focusin and binds keyup Escape to .modal. raw/modal-focus.json.",
+      "component": "Legacy Bootstrap chooser focus trap",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "REFLOW-EDITOR-STATUS-TOOLBAR",
+      "wcag": "1.4.10 AA",
+      "severity": "moderate",
+      "location": "wagtail/admin/templates/wagtailadmin/shared/headers/slim_header.html:110",
+      "summary": "The editor header requires horizontal scrolling to reach the Live-page control at 320 CSS pixels.",
+      "fix": "Allow the header status/action strip to wrap or move secondary actions into an accessible disclosure at narrow widths, so all controls fit within320px without horizontal scrolling.",
+      "evidence": "Settled desktop-to320px resize on /admin/pages/69/edit/: status/action strip clientWidth320,scrollWidth368; Live-page link x306,right360.45. Its text and right edge are outside the viewport until the strip scrolls; document also requires vertical scrolling.",
+      "component": "Editor slim header status/action strip",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "TABLE-001",
+      "wcag": "1.3.1 A",
+      "severity": "moderate",
+      "location": "wagtail/admin/templates/wagtailadmin/tables/column_header.html:2",
+      "summary": "Sortable listings and form submissions expose the current sort column and direction only through visual classes and arrows.",
+      "fix": "Set aria-sort=\"ascending\" or \"descending\" on the currently sorted th based on is_ascending/is_descending; clear it on other headers. Do the same using heading.order in wagtailforms/list_submissions.html. Preserve link titles describing the next action.",
+      "evidence": "20 archived table pages contain active teal/ordered arrow classes and no aria-sort. /admin/sites/: ascending Site class icon-arrow-up-after, title says “Sort by Site in descending order” (next action). Form submissions: ordered icon-arrow-down-after only.",
+      "component": "Shared sortable table column headers and form submissions",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    },
+    {
+      "rule": "CONTRAST-DISABLED-METADATA",
+      "wcag": "1.4.3 AA",
+      "severity": "minor",
+      "location": "client/scss/components/_listing.scss:181",
+      "summary": "The disabled-row style also dims ordinary table metadata to 1.65:1 contrast.",
+      "fix": "Restrict opacity changes to genuinely inactive controls; keep informational table cell text at 4.5:1. Review disabled chooser/listing rows so unavailable choices do not make their identifying metadata unreadable.",
+      "evidence": "Runtime confirmed 2 nodes on 1 pages; axe color-contrast. https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright Selector ['.disabled > td:nth-child(2)']. /admin/styleguide/: .disabled > td:nth-child(2) and td:nth-child(3) contain static \"Standard TD\", not inactive controls. opacity:.25 yields #c9c9c9 on white (axe1.65:1,12.92px). Inactive choice title is not used as the basis of this finding.",
+      "component": "Disabled listing row metadata",
+      "confidence": "high",
+      "foundBy": [
+        "playwright-scanner"
+      ]
+    }
+  ],
+  "passed": [
+    "25 pages underwent41 expanded tab/dropdown-state scans; overlap-induced dashboard target-size candidates were reviewed and excluded.",
+    "All100 pages have first25Tab samples and320px/text-spacing measurements; these are bounded observations, not complete keyboard or responsive conformance tests.",
+    "All100 sampled admin pages returned HTTP200 and completed axe-core4.13 WCAG A/AA scans in Chromium152.",
+    "Targeted runtime tests verified dashboard skip link, existing drag-reordering alternatives, chooser Escape within dialogs, shared privacy dialog name/modality and sidebar PageExplorer dismissal.",
+    "WCAG-tagged axe checked applicable ARIA validity, permitted attributes, roles and relationships; native form/link/button naming, list structure and table associations. Confirmed exceptions are correlated to canonical findings."
+  ],
+  "notes": [
+    {
+      "skill": "playwright-scanner",
+      "note": "Scored runtime findings reuse the exact canonical rule and file:line so rendering can deduplicate them; source-only defects are deliberately absent."
+    },
+    {
+      "skill": "playwright-scanner",
+      "note": "43 initial node candidates remain preserved in raw/runtime-correlation.json and individual runtime files. Multiple nodes can share one component finding."
+    },
+    {
+      "skill": "playwright-scanner",
+      "note": "Image URL scroll-container axe warning was disproved by actual Tab focus in Chromium152; Firefox/Safari behavior remains untested."
+    },
+    {
+      "skill": "playwright-scanner",
+      "note": "Inactive chooser title contrast is excluded; ordinary disabled-row metadata contrast is retained separately."
+    },
+    {
+      "skill": "playwright-scanner",
+      "note": "Expanded dashboard target-size failures were popup-overlap artifacts and are not scored."
+    },
+    {
+      "skill": "playwright-scanner",
+      "note": "Settled suspect table/report widths stay in local scrollers; no data-table reflow failure inferred. Editor non-table toolbar overflow is separately confirmed."
+    },
+    {
+      "skill": "playwright-scanner",
+      "note": "No screenshots, screen-reader audible-output tests, persisted writes, successful POST flows or full100-page keyboard journeys were performed."
+    },
+    {
+      "skill": "playwright-scanner",
+      "note": "Static archive coverage limits include missing Handsontable and fileupload validation assets and unavailable editing-session pings."
+    },
+    {
+      "skill": "playwright-scanner",
+      "note": "raw/runtime-correlation.json maps each initial axe node to its accepted canonical finding or exclusion reason and records aggregate passing rule IDs."
+    }
+  ],
+  "counts": {
+    "critical": 0,
+    "serious": 7,
+    "moderate": 9,
+    "minor": 1
+  },
+  "components": [
+    {
+      "component": "Image focal-point chooser",
+      "count": 2,
+      "worst": "serious",
+      "rules": [
+        "KEYBOARD-FOCAL-CREATE",
+        "KEYBOARD-FOCAL-VISIBLE"
+      ]
+    }
+  ],
+  "score": 51,
+  "grade": "F",
+  "penalty": 54,
+  "checks": 22,
+  "generated": "2026-10-03",
+  "template": "web"
+}
+```

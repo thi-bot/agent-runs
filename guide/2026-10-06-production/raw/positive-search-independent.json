@@ -1,0 +1,7 @@
+{
+  "query": "page",
+  "count": "3 results found.",
+  "results": 3,
+  "live": [],
+  "focus": "<input type=\"text\" id=\"search\" name=\"query\" data-search-input=\"\" placeholder=\"Search…\" class=\"search__input\">"
+}

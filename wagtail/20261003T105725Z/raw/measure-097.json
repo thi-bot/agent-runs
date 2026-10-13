@@ -1,0 +1,2307 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/69/edit/",
+  "targets": [
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Skip to main content",
+      "width": 166.046875,
+      "height": 42,
+      "x": 16,
+      "y": -16000,
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle sidebar",
+      "width": 35,
+      "height": 35,
+      "x": 149,
+      "y": 8,
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n             "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Dashboard",
+      "width": 110,
+      "height": 110,
+      "x": 45,
+      "y": 51,
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-branding__ic"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Search",
+      "width": 39,
+      "height": 35,
+      "x": 0,
+      "y": 208.5,
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-defa"
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "text": "",
+      "width": 200,
+      "height": 42,
+      "x": 0,
+      "y": 205,
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n         "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Pages",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 247,
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"m"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Breads",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 290.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Images",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 334,
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Bakery Misc",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 377.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery M"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Documents",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 421,
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documen"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Forms",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 464.5,
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Reports",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 508,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><s"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Settings",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 551.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Help",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 595,
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-ex"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Admin",
+      "width": 200,
+      "height": 52,
+      "x": 0,
+      "y": 948,
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n    "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Unlock",
+      "width": 63.21875,
+      "height": 24.359375,
+      "x": 646.046875,
+      "y": 21.75,
+      "html": "<button type=\"button\" class=\"button button-small button-secondary\" data-action=\"w-action#post\" data-controller=\"w-action\" data-w-action-url-value=\"/admin/pages/69/unlock/\">Unlock</button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle breadcrumbs",
+      "width": 50,
+      "height": 50,
+      "x": 220,
+      "y": 68.859375,
+      "html": "<button type=\"button\" class=\"w-flex w-items-center w-justify-center w-box-border w-ml-0 w-mr-2.5 w-w-slim-header w-h-slim-header w-bg-transparent w-text-text-meta w-transition hover:w-scale-110 hover:w-text-text-label w-outline-offset-insid"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Contact Us",
+      "width": 75.90625,
+      "height": 22.40625,
+      "x": 280,
+      "y": 82.65625,
+      "html": "<a class=\"w-flex w-items-center w-text-text-label w-pr-0.5 w-text-14 w-no-underline w-outline-offset-inside w-border-b w-border-b-2 w-border-transparent w-box-content hover:w-border-current hover:w-text-text-label\" href=\"/admin/pages/69/\">\n"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 50,
+      "x": 382.90625,
+      "y": 68.859375,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon w-h-slim-header\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-drop"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle status",
+      "width": 50,
+      "height": 50,
+      "x": 1107.546875,
+      "y": 68.859375,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle status\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"status\" data-w-tooltip-content-value=\"Status\" data-w-tooltip-offset-value=\"[0, 0]\">\n    <"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle preview",
+      "width": 50,
+      "height": 50,
+      "x": 1157.546875,
+      "y": 68.859375,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle preview\" aria-expanded=\"false\" data-controller=\"w-tooltip w-kbd\" data-side-panel-toggle=\"preview\" data-w-kbd-key-value=\"mod+p\" data-w-kbd-scope-value=\"global\" data-w-toolt"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle checks",
+      "width": 50,
+      "height": 50,
+      "x": 1207.546875,
+      "y": 68.859375,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle checks\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"checks\" data-w-tooltip-content-value=\"Checks\" data-w-tooltip-offset-value=\"[0, 0]\">\n    <"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle comments",
+      "width": 50,
+      "height": 50,
+      "x": 1257.546875,
+      "y": 68.859375,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle comments\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"comments\" data-w-tooltip-content-value=\"Comments\" data-w-tooltip-offset-value=\"[0, 0]\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "History",
+      "width": 50,
+      "height": 50,
+      "x": 1307.546875,
+      "y": 68.859375,
+      "html": "<a href=\"/admin/pages/69/history/\" class=\"w-side-panel-toggle\" aria-label=\"History\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"History\" data-w-tooltip-offset-value=\"[0, 0]\">\n    <svg class=\"icon icon-history w-side-panel-togg"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Visible to all. Visit the live page",
+      "width": 54.453125,
+      "height": 22.40625,
+      "x": 1369.546875,
+      "y": 82.65625,
+      "html": "<a href=\"/contact-us/\" target=\"_blank\" rel=\"noreferrer\" class=\"page-status-tag\" aria-label=\"Visible to all. Visit the live page\" data-controller=\"w-tooltip w-zone\" data-action=\"w-privacy:changed@document-&gt;w-zone#switch\" data-w-tooltip-co"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Collapse all",
+      "width": 110,
+      "height": 24.359375,
+      "x": 1290,
+      "y": 139.859375,
+      "html": "<button type=\"button\" aria-expanded=\"true\" class=\"button button-small button-secondary w-minimap__collapse-all w-minimap__collapse-all--floating \"><svg class=\"icon icon-collapse-up\" aria-hidden=\"true\"><use href=\"#icon-collapse-up\"></use></s"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "w-minimap-toggle",
+      "text": "Toggle side panel",
+      "width": 28,
+      "height": 28,
+      "x": 1410,
+      "y": 137.859375,
+      "html": "<button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd\" data-w-kbd-key-value=\"]\"><svg class=\"icon icon-expand-right\" aria-hidden=\"true\"><use href=\"#i"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Title*",
+      "width": 80.875,
+      "height": 32,
+      "x": 1410,
+      "y": 189.859375,
+      "html": "<a href=\"#panel-child-content-title-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" ar"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Form page submissions",
+      "width": 204.046875,
+      "height": 32,
+      "x": 1410,
+      "y": 221.859375,
+      "html": "<a href=\"#panel-child-content-form_page_submissions-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-minus w-minimap-item_"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Image",
+      "width": 83.46875,
+      "height": 32,
+      "x": 1410,
+      "y": 253.859375,
+      "html": "<a href=\"#panel-child-content-image-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" ar"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Body*",
+      "width": 87.34375,
+      "height": 32,
+      "x": 1410,
+      "y": 285.859375,
+      "html": "<a href=\"#panel-child-content-body-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" ari"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "We'd love to hear from…*",
+      "width": 232.5,
+      "height": 32,
+      "x": 1410,
+      "y": 317.859375,
+      "html": "<a href=\"#block-25a48aa0-7b9b-47a9-ac24-bce39baf0a6c-section\" class=\"w-minimap-item w-minimap-item--h3 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-minus w-minimap-item"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Form fields",
+      "width": 118.46875,
+      "height": 32,
+      "x": 1410,
+      "y": 349.859375,
+      "html": "<a href=\"#panel-child-content-form_fields-section\" class=\"w-minimap-item w-minimap-item--h2  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-hidden=\"true"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Field 1",
+      "width": 111.03125,
+      "height": 32,
+      "x": 1410,
+      "y": 381.859375,
+      "html": "<a href=\"#inline_child_form_fields-0-panel-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-hidden=\"tru"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Field 2",
+      "width": 111.03125,
+      "height": 32,
+      "x": 1410,
+      "y": 413.859375,
+      "html": "<a href=\"#inline_child_form_fields-1-panel-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-hidden=\"tru"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Field 3",
+      "width": 111.03125,
+      "height": 32,
+      "x": 1410,
+      "y": 445.859375,
+      "html": "<a href=\"#inline_child_form_fields-2-panel-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-hidden=\"tru"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Field 4",
+      "width": 111.03125,
+      "height": 32,
+      "x": 1410,
+      "y": 477.859375,
+      "html": "<a href=\"#inline_child_form_fields-3-panel-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-hidden=\"tru"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Field 5",
+      "width": 111.03125,
+      "height": 32,
+      "x": 1410,
+      "y": 509.859375,
+      "html": "<a href=\"#inline_child_form_fields-4-panel-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-hidden=\"tru"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Thank you text",
+      "width": 141.796875,
+      "height": 32,
+      "x": 1410,
+      "y": 541.859375,
+      "html": "<a href=\"#panel-child-content-thank_you_text-section\" class=\"w-minimap-item w-minimap-item--h2  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-hidden=\"t"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Email",
+      "width": 80.359375,
+      "height": 32,
+      "x": 1410,
+      "y": 573.859375,
+      "html": "<a href=\"#panel-child-content-email-section\" class=\"w-minimap-item w-minimap-item--h2  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-hidden=\"true\"><use"
+    },
+    {
+      "tag": "A",
+      "id": "tab-label-content",
+      "text": "Content\n    \n        \n        ()",
+      "width": 49.046875,
+      "height": 50.1875,
+      "x": 280,
+      "y": 122.859375,
+      "html": "<a id=\"tab-label-content\" href=\"#tab-content\" class=\"w-tabs__tab \" role=\"tab\" aria-selected=\"true\" tabindex=\"0\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" aria-controls=\"tab-content\">\n    Content\n    <div class=\"w-tabs"
+    },
+    {
+      "tag": "A",
+      "id": "tab-label-promote",
+      "text": "Promote\n    \n        \n        ()",
+      "width": 52.921875,
+      "height": 50.1875,
+      "x": 353.046875,
+      "y": 122.859375,
+      "html": "<a id=\"tab-label-promote\" href=\"#tab-promote\" class=\"w-tabs__tab \" role=\"tab\" tabindex=\"-1\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" aria-controls=\"tab-promote\">\n    Promote\n    <div class=\"w-tabs__errors\" data-contr"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_title",
+      "text": "",
+      "width": 840,
+      "height": 53,
+      "x": 274,
+      "y": 219.046875,
+      "html": "<input type=\"text\" name=\"title\" value=\"Contact Us\" maxlength=\"255\" data-controller=\"w-sync\" data-w-sync-target-value=\"#id_slug\" placeholder=\"Page title*\" aria-describedby=\"panel-child-content-child-title-helptext\" required=\"\" id=\"id_title\" "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add comment",
+      "width": 32,
+      "height": 48,
+      "x": 1120,
+      "y": 221.546875,
+      "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_title-label\">\n                    <svg class=\"icon icon"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 336.234375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-child-content-form_page_submissions-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-child-content-form_page_submissions-heading\">\n                <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 336.234375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-child-content-form_page_submissions-heading\" data-panel-toggle=\"\" aria-controls=\"panel-child-content-form_page_submissions-content\" aria-expan"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "1",
+      "width": 7.5625,
+      "height": 15,
+      "x": 394.28125,
+      "y": 368.234375,
+      "html": "<a href=\"/admin/forms/submissions/69/\">1</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 464.640625,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-child-content-image-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-child-content-image-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"tr"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 464.640625,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-child-content-image-heading\" data-panel-toggle=\"\" aria-controls=\"panel-child-content-image-content\" aria-expanded=\"true\">\n                \n   "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Choose an image",
+      "width": 144.75,
+      "height": 28,
+      "x": 280,
+      "y": 504.640625,
+      "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-image icon\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg>\n            Choos"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add comment",
+      "width": 32,
+      "height": 48,
+      "x": 424.75,
+      "y": 494.640625,
+      "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_image-label\">\n                    <svg class=\"icon icon"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 577.046875,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-child-content-body-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-child-content-body-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 577.046875,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-child-content-body-heading\" data-panel-toggle=\"\" aria-controls=\"panel-child-content-body-content\" aria-expanded=\"true\">\n                \n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 277,
+      "y": 615.046875,
+      "html": "<button type=\"button\" title=\"Insert a block\" class=\"c-sf-add-button\" aria-expanded=\"false\">\n          <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n        </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 644.046875,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#block-25a48aa0-7b9b-47a9-ac24-bce39baf0a6c-section\" aria-labelledby=\"block-25a48aa0-7b9b-47a9-ac24-bce39baf0a6c-heading\" data-panel-anchor=\"\">\n              <svg class=\"icon icon-lin"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 644.046875,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"block-25a48aa0-7b9b-47a9-ac24-bce39baf0a6c-heading\" data-panel-toggle=\"\" aria-controls=\"block-25a48aa0-7b9b-47a9-ac24-bce39baf0a6c-content\" aria-exp"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 954,
+      "y": 639.046875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_UP\" title=\"Move up\" disabled=\"disabled\">\n        <svg class=\"icon icon-arrow-up\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-up\"></u"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 988,
+      "y": 639.046875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"MOVE_DOWN\" title=\"Move down\" disabled=\"disabled\">\n        <svg class=\"icon icon-arrow-down\" aria-hidden=\"true\">\n          <use href=\"#icon-arrow-d"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1022,
+      "y": 639.046875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DRAG\" title=\"Drag\">\n        <svg class=\"icon icon-grip\" aria-hidden=\"true\">\n          <use href=\"#icon-grip\"></use>\n        </svg>\n      </button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1056,
+      "y": 639.046875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DUPLICATE\" title=\"Duplicate\">\n        <svg class=\"icon icon-copy\" aria-hidden=\"true\">\n          <use href=\"#icon-copy\"></use>\n        </svg>\n     "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 639.046875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-streamfield-action=\"DELETE\" title=\"Delete\">\n        <svg class=\"icon icon-bin\" aria-hidden=\"true\">\n          <use href=\"#icon-bin\"></use>\n        </svg>\n      </butto"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 277,
+      "y": 902.546875,
+      "html": "<button type=\"button\" title=\"Insert a block\" class=\"c-sf-add-button\" aria-expanded=\"false\">\n          <svg class=\"icon icon-plus\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg>\n        </button>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 1015.953125,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-child-content-form_fields-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-child-content-form_fields-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" ari"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 1015.953125,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-child-content-form_fields-heading\" data-panel-toggle=\"\" aria-controls=\"panel-child-content-form_fields-content\" aria-expanded=\"true\">\n        "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 1050.953125,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#inline_child_form_fields-0-panel-section\" data-panel-anchor=\"\" aria-labelledby=\"inline_child_form_fields-0-panel-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" a"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 1050.953125,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"inline_child_form_fields-0-panel-heading\" data-panel-toggle=\"\" aria-controls=\"inline_child_form_fields-0-panel-content\" aria-expanded=\"true\">\n      "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move up",
+      "width": 34,
+      "height": 34,
+      "x": 976.65625,
+      "y": 1045.953125,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-up=\"\" title=\"Move up\" disabled=\"\"><svg class=\"icon icon-arrow-up icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-up\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move down",
+      "width": 34,
+      "height": 34,
+      "x": 1014.4375,
+      "y": 1045.953125,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-down=\"\" title=\"Move down\"><svg class=\"icon icon-arrow-down icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-down\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Drag",
+      "width": 34,
+      "height": 34,
+      "x": 1052.21875,
+      "y": 1045.953125,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-drag=\"\" title=\"Drag\"><svg class=\"icon icon-grip icon\" aria-hidden=\"true\"><use href=\"#icon-grip\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_form_fields-0-DELETE-button",
+      "text": "Delete",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 1045.953125,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" id=\"id_form_fields-0-DELETE-button\" title=\"Delete\"><svg class=\"icon icon-bin icon\" aria-hidden=\"true\"><use href=\"#icon-bin\"></use></svg></button>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-0-label",
+      "text": "",
+      "width": 802,
+      "height": 42.5,
+      "x": 318,
+      "y": 1130.328125,
+      "html": "<input type=\"text\" name=\"form_fields-0-label\" value=\"Subject\" maxlength=\"255\" aria-describedby=\"panel-child-content-child-form_fields-0-child-label-helptext\" id=\"id_form_fields-0-label\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-0-help_text",
+      "text": "",
+      "width": 802,
+      "height": 42.5,
+      "x": 318,
+      "y": 1226.015625,
+      "html": "<input type=\"text\" name=\"form_fields-0-help_text\" maxlength=\"255\" id=\"id_form_fields-0-help_text\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-0-required",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 318,
+      "y": 1321.703125,
+      "html": "<input type=\"checkbox\" name=\"form_fields-0-required\" id=\"id_form_fields-0-required\" checked=\"\">"
+    },
+    {
+      "tag": "SELECT",
+      "id": "id_form_fields-0-field_type",
+      "text": "---------\n\n  Single line text\n\n  Multi-line text\n\n  Email\n\n  Number\n\n  URL\n\n  Checkbox\n\n  ",
+      "width": 188,
+      "height": 43.796875,
+      "x": 318,
+      "y": 1398.890625,
+      "html": "<select name=\"form_fields-0-field_type\" id=\"id_form_fields-0-field_type\">\n  <option value=\"\">---------</option>\n\n  <option value=\"singleline\" selected=\"\">Single line text</option>\n\n  <option value=\"multiline\">Multi-line text</option>\n\n  <op"
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": "id_form_fields-0-choices",
+      "text": "",
+      "width": 802,
+      "height": 71,
+      "x": 318,
+      "y": 1516.0625,
+      "html": "<textarea name=\"form_fields-0-choices\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-0-child-choices-helptext\" id=\"id_form_fields-0-choices\" style=\"overflow"
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": "id_form_fields-0-default_value",
+      "text": "",
+      "width": 802,
+      "height": 71,
+      "x": 318,
+      "y": 1660.4375,
+      "html": "<textarea name=\"form_fields-0-default_value\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-0-child-default_value-helptext\" id=\"id_form_fields-0-default_valu"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 1761.4375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#inline_child_form_fields-1-panel-section\" data-panel-anchor=\"\" aria-labelledby=\"inline_child_form_fields-1-panel-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" a"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 1761.4375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"inline_child_form_fields-1-panel-heading\" data-panel-toggle=\"\" aria-controls=\"inline_child_form_fields-1-panel-content\" aria-expanded=\"true\">\n      "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move up",
+      "width": 34,
+      "height": 34,
+      "x": 976.65625,
+      "y": 1756.4375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-up=\"\" title=\"Move up\"><svg class=\"icon icon-arrow-up icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-up\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move down",
+      "width": 34,
+      "height": 34,
+      "x": 1014.4375,
+      "y": 1756.4375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-down=\"\" title=\"Move down\"><svg class=\"icon icon-arrow-down icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-down\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Drag",
+      "width": 34,
+      "height": 34,
+      "x": 1052.21875,
+      "y": 1756.4375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-drag=\"\" title=\"Drag\"><svg class=\"icon icon-grip icon\" aria-hidden=\"true\"><use href=\"#icon-grip\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_form_fields-1-DELETE-button",
+      "text": "Delete",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 1756.4375,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" id=\"id_form_fields-1-DELETE-button\" title=\"Delete\"><svg class=\"icon icon-bin icon\" aria-hidden=\"true\"><use href=\"#icon-bin\"></use></svg></button>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-1-label",
+      "text": "",
+      "width": 802,
+      "height": 42.5,
+      "x": 318,
+      "y": 1840.8125,
+      "html": "<input type=\"text\" name=\"form_fields-1-label\" value=\"Your Name\" maxlength=\"255\" aria-describedby=\"panel-child-content-child-form_fields-1-child-label-helptext\" id=\"id_form_fields-1-label\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-1-help_text",
+      "text": "",
+      "width": 802,
+      "height": 42.5,
+      "x": 318,
+      "y": 1936.5,
+      "html": "<input type=\"text\" name=\"form_fields-1-help_text\" maxlength=\"255\" id=\"id_form_fields-1-help_text\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-1-required",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 318,
+      "y": 2032.1875,
+      "html": "<input type=\"checkbox\" name=\"form_fields-1-required\" id=\"id_form_fields-1-required\" checked=\"\">"
+    },
+    {
+      "tag": "SELECT",
+      "id": "id_form_fields-1-field_type",
+      "text": "---------\n\n  Single line text\n\n  Multi-line text\n\n  Email\n\n  Number\n\n  URL\n\n  Checkbox\n\n  ",
+      "width": 188,
+      "height": 43.796875,
+      "x": 318,
+      "y": 2109.375,
+      "html": "<select name=\"form_fields-1-field_type\" id=\"id_form_fields-1-field_type\">\n  <option value=\"\">---------</option>\n\n  <option value=\"singleline\" selected=\"\">Single line text</option>\n\n  <option value=\"multiline\">Multi-line text</option>\n\n  <op"
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": "id_form_fields-1-choices",
+      "text": "",
+      "width": 802,
+      "height": 71,
+      "x": 318,
+      "y": 2226.546875,
+      "html": "<textarea name=\"form_fields-1-choices\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-1-child-choices-helptext\" id=\"id_form_fields-1-choices\" style=\"overflow"
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": "id_form_fields-1-default_value",
+      "text": "",
+      "width": 802,
+      "height": 71,
+      "x": 318,
+      "y": 2370.921875,
+      "html": "<textarea name=\"form_fields-1-default_value\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-1-child-default_value-helptext\" id=\"id_form_fields-1-default_valu"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 2471.921875,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#inline_child_form_fields-2-panel-section\" data-panel-anchor=\"\" aria-labelledby=\"inline_child_form_fields-2-panel-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" a"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 2471.921875,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"inline_child_form_fields-2-panel-heading\" data-panel-toggle=\"\" aria-controls=\"inline_child_form_fields-2-panel-content\" aria-expanded=\"true\">\n      "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move up",
+      "width": 34,
+      "height": 34,
+      "x": 976.65625,
+      "y": 2466.921875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-up=\"\" title=\"Move up\"><svg class=\"icon icon-arrow-up icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-up\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move down",
+      "width": 34,
+      "height": 34,
+      "x": 1014.4375,
+      "y": 2466.921875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-down=\"\" title=\"Move down\"><svg class=\"icon icon-arrow-down icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-down\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Drag",
+      "width": 34,
+      "height": 34,
+      "x": 1052.21875,
+      "y": 2466.921875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-drag=\"\" title=\"Drag\"><svg class=\"icon icon-grip icon\" aria-hidden=\"true\"><use href=\"#icon-grip\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_form_fields-2-DELETE-button",
+      "text": "Delete",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 2466.921875,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" id=\"id_form_fields-2-DELETE-button\" title=\"Delete\"><svg class=\"icon icon-bin icon\" aria-hidden=\"true\"><use href=\"#icon-bin\"></use></svg></button>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-2-label",
+      "text": "",
+      "width": 802,
+      "height": 42.5,
+      "x": 318,
+      "y": 2551.296875,
+      "html": "<input type=\"text\" name=\"form_fields-2-label\" value=\"Your Email\" maxlength=\"255\" aria-describedby=\"panel-child-content-child-form_fields-2-child-label-helptext\" id=\"id_form_fields-2-label\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-2-help_text",
+      "text": "",
+      "width": 802,
+      "height": 42.5,
+      "x": 318,
+      "y": 2646.984375,
+      "html": "<input type=\"text\" name=\"form_fields-2-help_text\" maxlength=\"255\" id=\"id_form_fields-2-help_text\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-2-required",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 318,
+      "y": 2742.671875,
+      "html": "<input type=\"checkbox\" name=\"form_fields-2-required\" id=\"id_form_fields-2-required\" checked=\"\">"
+    },
+    {
+      "tag": "SELECT",
+      "id": "id_form_fields-2-field_type",
+      "text": "---------\n\n  Single line text\n\n  Multi-line text\n\n  Email\n\n  Number\n\n  URL\n\n  Checkbox\n\n  ",
+      "width": 188,
+      "height": 43.796875,
+      "x": 318,
+      "y": 2819.859375,
+      "html": "<select name=\"form_fields-2-field_type\" id=\"id_form_fields-2-field_type\">\n  <option value=\"\">---------</option>\n\n  <option value=\"singleline\">Single line text</option>\n\n  <option value=\"multiline\">Multi-line text</option>\n\n  <option value=\""
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": "id_form_fields-2-choices",
+      "text": "",
+      "width": 802,
+      "height": 71,
+      "x": 318,
+      "y": 2937.03125,
+      "html": "<textarea name=\"form_fields-2-choices\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-2-child-choices-helptext\" id=\"id_form_fields-2-choices\" style=\"overflow"
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": "id_form_fields-2-default_value",
+      "text": "you@example.com",
+      "width": 802,
+      "height": 71,
+      "x": 318,
+      "y": 3081.40625,
+      "html": "<textarea name=\"form_fields-2-default_value\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-2-child-default_value-helptext\" id=\"id_form_fields-2-default_valu"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 3182.40625,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#inline_child_form_fields-3-panel-section\" data-panel-anchor=\"\" aria-labelledby=\"inline_child_form_fields-3-panel-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" a"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 3182.40625,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"inline_child_form_fields-3-panel-heading\" data-panel-toggle=\"\" aria-controls=\"inline_child_form_fields-3-panel-content\" aria-expanded=\"true\">\n      "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move up",
+      "width": 34,
+      "height": 34,
+      "x": 976.65625,
+      "y": 3177.40625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-up=\"\" title=\"Move up\"><svg class=\"icon icon-arrow-up icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-up\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move down",
+      "width": 34,
+      "height": 34,
+      "x": 1014.4375,
+      "y": 3177.40625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-down=\"\" title=\"Move down\"><svg class=\"icon icon-arrow-down icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-down\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Drag",
+      "width": 34,
+      "height": 34,
+      "x": 1052.21875,
+      "y": 3177.40625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-drag=\"\" title=\"Drag\"><svg class=\"icon icon-grip icon\" aria-hidden=\"true\"><use href=\"#icon-grip\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_form_fields-3-DELETE-button",
+      "text": "Delete",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 3177.40625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" id=\"id_form_fields-3-DELETE-button\" title=\"Delete\"><svg class=\"icon icon-bin icon\" aria-hidden=\"true\"><use href=\"#icon-bin\"></use></svg></button>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-3-label",
+      "text": "",
+      "width": 802,
+      "height": 42.5,
+      "x": 318,
+      "y": 3261.78125,
+      "html": "<input type=\"text\" name=\"form_fields-3-label\" value=\"Purpose\" maxlength=\"255\" aria-describedby=\"panel-child-content-child-form_fields-3-child-label-helptext\" id=\"id_form_fields-3-label\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-3-help_text",
+      "text": "",
+      "width": 802,
+      "height": 42.5,
+      "x": 318,
+      "y": 3357.46875,
+      "html": "<input type=\"text\" name=\"form_fields-3-help_text\" maxlength=\"255\" id=\"id_form_fields-3-help_text\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-3-required",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 318,
+      "y": 3453.15625,
+      "html": "<input type=\"checkbox\" name=\"form_fields-3-required\" id=\"id_form_fields-3-required\" checked=\"\">"
+    },
+    {
+      "tag": "SELECT",
+      "id": "id_form_fields-3-field_type",
+      "text": "---------\n\n  Single line text\n\n  Multi-line text\n\n  Email\n\n  Number\n\n  URL\n\n  Checkbox\n\n  ",
+      "width": 188,
+      "height": 43.796875,
+      "x": 318,
+      "y": 3530.34375,
+      "html": "<select name=\"form_fields-3-field_type\" id=\"id_form_fields-3-field_type\">\n  <option value=\"\">---------</option>\n\n  <option value=\"singleline\">Single line text</option>\n\n  <option value=\"multiline\">Multi-line text</option>\n\n  <option value=\""
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": "id_form_fields-3-choices",
+      "text": "Comment, Question, Feedback",
+      "width": 802,
+      "height": 71,
+      "x": 318,
+      "y": 3647.515625,
+      "html": "<textarea name=\"form_fields-3-choices\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-3-child-choices-helptext\" id=\"id_form_fields-3-choices\" style=\"overflow"
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": "id_form_fields-3-default_value",
+      "text": "",
+      "width": 802,
+      "height": 71,
+      "x": 318,
+      "y": 3791.890625,
+      "html": "<textarea name=\"form_fields-3-default_value\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-3-child-default_value-helptext\" id=\"id_form_fields-3-default_valu"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 3892.890625,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#inline_child_form_fields-4-panel-section\" data-panel-anchor=\"\" aria-labelledby=\"inline_child_form_fields-4-panel-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" a"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 3892.890625,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"inline_child_form_fields-4-panel-heading\" data-panel-toggle=\"\" aria-controls=\"inline_child_form_fields-4-panel-content\" aria-expanded=\"true\">\n      "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move up",
+      "width": 34,
+      "height": 34,
+      "x": 976.65625,
+      "y": 3887.890625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-up=\"\" title=\"Move up\"><svg class=\"icon icon-arrow-up icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-up\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move down",
+      "width": 34,
+      "height": 34,
+      "x": 1014.4375,
+      "y": 3887.890625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-down=\"\" title=\"Move down\" disabled=\"\"><svg class=\"icon icon-arrow-down icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-down\"></use></svg></but"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Drag",
+      "width": 34,
+      "height": 34,
+      "x": 1052.21875,
+      "y": 3887.890625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-drag=\"\" title=\"Drag\"><svg class=\"icon icon-grip icon\" aria-hidden=\"true\"><use href=\"#icon-grip\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_form_fields-4-DELETE-button",
+      "text": "Delete",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 3887.890625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" id=\"id_form_fields-4-DELETE-button\" title=\"Delete\"><svg class=\"icon icon-bin icon\" aria-hidden=\"true\"><use href=\"#icon-bin\"></use></svg></button>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-4-label",
+      "text": "",
+      "width": 802,
+      "height": 42.5,
+      "x": 318,
+      "y": 3972.265625,
+      "html": "<input type=\"text\" name=\"form_fields-4-label\" value=\"Body\" maxlength=\"255\" aria-describedby=\"panel-child-content-child-form_fields-4-child-label-helptext\" id=\"id_form_fields-4-label\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-4-help_text",
+      "text": "",
+      "width": 802,
+      "height": 42.5,
+      "x": 318,
+      "y": 4067.953125,
+      "html": "<input type=\"text\" name=\"form_fields-4-help_text\" value=\"What's on your mind?\" maxlength=\"255\" id=\"id_form_fields-4-help_text\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_form_fields-4-required",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 318,
+      "y": 4163.640625,
+      "html": "<input type=\"checkbox\" name=\"form_fields-4-required\" id=\"id_form_fields-4-required\" checked=\"\">"
+    },
+    {
+      "tag": "SELECT",
+      "id": "id_form_fields-4-field_type",
+      "text": "---------\n\n  Single line text\n\n  Multi-line text\n\n  Email\n\n  Number\n\n  URL\n\n  Checkbox\n\n  ",
+      "width": 188,
+      "height": 43.796875,
+      "x": 318,
+      "y": 4240.828125,
+      "html": "<select name=\"form_fields-4-field_type\" id=\"id_form_fields-4-field_type\">\n  <option value=\"\">---------</option>\n\n  <option value=\"singleline\">Single line text</option>\n\n  <option value=\"multiline\" selected=\"\">Multi-line text</option>\n\n  <op"
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": "id_form_fields-4-choices",
+      "text": "",
+      "width": 802,
+      "height": 71,
+      "x": 318,
+      "y": 4358,
+      "html": "<textarea name=\"form_fields-4-choices\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-4-child-choices-helptext\" id=\"id_form_fields-4-choices\" style=\"overflow"
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": "id_form_fields-4-default_value",
+      "text": "",
+      "width": 802,
+      "height": 71,
+      "x": 318,
+      "y": 4502.375,
+      "html": "<textarea name=\"form_fields-4-default_value\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-4-child-default_value-helptext\" id=\"id_form_fields-4-default_valu"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_form_fields-ADD",
+      "text": "Add Field",
+      "width": 94.15625,
+      "height": 28,
+      "x": 266,
+      "y": 4598.375,
+      "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_form_fields-ADD\">\n            <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>Add Field\n"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 4706.78125,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-child-content-thank_you_text-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-child-content-thank_you_text-heading\">\n                <svg class=\"icon icon-link w-panel__ico"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 4706.78125,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-child-content-thank_you_text-heading\" data-panel-toggle=\"\" aria-controls=\"panel-child-content-thank_you_text-content\" aria-expanded=\"true\">\n  "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 4897.78125,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-child-content-email-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-child-content-email-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"tr"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 4897.78125,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-child-content-email-heading\" data-panel-toggle=\"\" aria-controls=\"panel-child-content-email-content\" aria-expanded=\"true\">\n                \n   "
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_from_address",
+      "text": "",
+      "width": 406,
+      "height": 42.5,
+      "x": 280,
+      "y": 4955.96875,
+      "html": "<input type=\"email\" name=\"from_address\" value=\"you@example.com\" maxlength=\"255\" id=\"id_from_address\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add comment",
+      "width": 32,
+      "height": 48,
+      "x": 686,
+      "y": 4953.21875,
+      "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_from_address-label\">\n                    <svg class=\"ic"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_to_address",
+      "text": "",
+      "width": 406,
+      "height": 42.5,
+      "x": 714,
+      "y": 4994.34375,
+      "html": "<input type=\"text\" name=\"to_address\" value=\"us@example.com\" maxlength=\"255\" aria-describedby=\"panel-child-content-child-email-child-panel-child-to_address-helptext\" id=\"id_to_address\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add comment",
+      "width": 32,
+      "height": 48,
+      "x": 1120,
+      "y": 4991.59375,
+      "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_to_address-label\">\n                    <svg class=\"icon"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_subject",
+      "text": "",
+      "width": 840,
+      "height": 42.5,
+      "x": 280,
+      "y": 5095.03125,
+      "html": "<input type=\"text\" name=\"subject\" value=\"Contact message from Wagtail Demo site\" maxlength=\"255\" id=\"id_subject\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add comment",
+      "width": 32,
+      "height": 48,
+      "x": 1120,
+      "y": 5092.28125,
+      "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_subject-label\">\n                    <svg class=\"icon ic"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Save draft",
+      "width": 268,
+      "height": 42,
+      "x": 279.796875,
+      "y": 948,
+      "html": "<button type=\"submit\" class=\"button action-save button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-value=\"mod+s\" data-w-kbd-scope-value=\"global\" data-w-progress-active-value=\"Saving…\" dat"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More actions",
+      "width": 32,
+      "height": 42,
+      "x": 547.796875,
+      "y": 948,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle button\" data-w-dropdown-target=\"toggle\" aria-expanded=\"false\">\n        <span class=\"w-sr-only\">More actions</span>\n        \n            <svg class=\"icon icon-arrow-up w-dropdown__toggle-icon\" "
+    }
+  ],
+  "keyboard": [
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Skip to main content",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 125, 126)",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "w": 166.046875,
+        "h": 42
+      },
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle sidebar",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 149,
+        "y": 8,
+        "w": 35,
+        "h": 35
+      },
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n                w-items"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Dashboard",
+      "outline": "rgb(0, 132, 127) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 45,
+        "y": 51,
+        "w": 110,
+        "h": 110
+      },
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-branding__icon\n       "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Search",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 208.5,
+        "w": 39,
+        "h": 35
+      },
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-default\n      "
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 0,
+        "y": 205,
+        "w": 200,
+        "h": 42
+      },
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n            !w-bg-t"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Pages",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 247,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"menuitem-la"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Breads",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 290.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</span><svg "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Images",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 334,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Bakery Misc",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 377.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery Misc</span>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Documents",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 421,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documents</span><"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Forms",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 464.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Reports",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 508,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><svg class=\""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Settings",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 551.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><svg class="
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Help",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 595,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"fa"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Admin",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 948,
+        "w": 200,
+        "h": 52
+      },
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n            w-"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Unlock",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(255, 255, 255)",
+      "rect": {
+        "x": 646.046875,
+        "y": 21.75,
+        "w": 63.21875,
+        "h": 24.359375
+      },
+      "html": "<button type=\"button\" class=\"button button-small button-secondary\" data-action=\"w-action#post\" data-controller=\"w-action\" data-w-action-url-value=\"/admin/pages/69/unlock/\">Unlock</button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle breadcrumbs",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 220,
+        "y": 68.859375,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-flex w-items-center w-justify-center w-box-border w-ml-0 w-mr-2.5 w-w-slim-header w-h-slim-header w-bg-transparent w-text-text-meta w-transition hover:w-scale-110 hover:w-text-text-label w-outline-offset-inside\" aria-la"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Contact Us",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "",
+      "rect": {
+        "x": 280,
+        "y": 82.65625,
+        "w": 75.90625,
+        "h": 22.40625
+      },
+      "html": "<a class=\"w-flex w-items-center w-text-text-label w-pr-0.5 w-text-14 w-no-underline w-outline-offset-inside w-border-b w-border-b-2 w-border-transparent w-box-content hover:w-border-current hover:w-text-text-label\" href=\"/admin/pages/69/\">\n          "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Actions",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "2px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 382.90625,
+        "y": 68.859375,
+        "w": 32,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon w-h-slim-header\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\" aria-describedby=\"tippy-1\">\n        \n        \n            <svg class=\"icon icon-dots-"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle status",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1107.546875,
+        "y": 68.859375,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle status\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"status\" data-w-tooltip-content-value=\"Status\" data-w-tooltip-offset-value=\"[0, 0]\" aria-describedby"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle preview",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1157.546875,
+        "y": 68.859375,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle preview\" aria-expanded=\"false\" data-controller=\"w-tooltip w-kbd\" data-side-panel-toggle=\"preview\" data-w-kbd-key-value=\"mod+p\" data-w-kbd-scope-value=\"global\" data-w-tooltip-content"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle checks",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1207.546875,
+        "y": 68.859375,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle checks\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"checks\" data-w-tooltip-content-value=\"Checks\" data-w-tooltip-offset-value=\"[0, 0]\" aria-describedby"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle comments",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1257.546875,
+        "y": 68.859375,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle comments\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"comments\" data-w-tooltip-content-value=\"Comments\" data-w-tooltip-offset-value=\"[0, 0]\" aria-descr"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "History",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1307.546875,
+        "y": 68.859375,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<a href=\"/admin/pages/69/history/\" class=\"w-side-panel-toggle\" aria-label=\"History\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"History\" data-w-tooltip-offset-value=\"[0, 0]\" aria-describedby=\"tippy-8\">\n    <svg class=\"icon icon-history "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Visible to all. Visit the live page",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(224, 224, 224)",
+      "rect": {
+        "x": 1369.546875,
+        "y": 82.65625,
+        "w": 54.453125,
+        "h": 22.40625
+      },
+      "html": "<a href=\"/contact-us/\" target=\"_blank\" rel=\"noreferrer\" class=\"page-status-tag\" aria-label=\"Visible to all. Visit the live page\" data-controller=\"w-tooltip w-zone\" data-action=\"w-privacy:changed@document-&gt;w-zone#switch\" data-w-tooltip-content-valu"
+    }
+  ],
+  "reflow": {
+    "viewport": 320,
+    "scrollWidth": 522,
+    "bodyWidth": 522,
+    "overflow": [
+      {
+        "tag": "A",
+        "id": "",
+        "class": "page-status-tag",
+        "text": "Live",
+        "x": 306,
+        "width": 54.453125,
+        "right": 360.453125,
+        "html": "<a href=\"/contact-us/\" target=\"_blank\" rel=\"noreferrer\" class=\"page-status-tag\" aria-label=\"Visible to all. Visit the live page\" data-controller=\"w-tooltip w-zone\" data-action=\"w-privacy:changed@docum"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 311,
+        "width": 16,
+        "right": 327,
+        "html": "<svg class=\"icon icon-view w-w-4 w-h-4 w-mr-1\" aria-hidden=\"true\"><use href=\"#icon-view\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 311.1185607910156,
+        "width": 15.735870361328125,
+        "right": 326.85443115234375,
+        "html": "<use href=\"#icon-view\"></use>"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "w-minimap ",
+        "text": "Title*Form page submissionsImageBody*We'd love to hear from…*Form fields\n       ",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<div class=\"w-minimap \"><div class=\"w-minimap__header\"><button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "w-minimap__header",
+        "text": "",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<div class=\"w-minimap__header\"><button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd\" data-w-kbd-key-value=\""
+      },
+      {
+        "tag": "OL",
+        "id": "",
+        "class": "w-minimap__list",
+        "text": "Title*Form page submissionsImageBody*We'd love to hear from…*Form fields\n       ",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<ol class=\"w-minimap__list\"><li><a href=\"#panel-child-content-title-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-cu"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Title*",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-child-content-title-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"ico"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2 w-minimap-item--active ",
+        "text": "Title*",
+        "x": 300,
+        "width": 62.921875,
+        "right": 362.921875,
+        "html": "<a href=\"#panel-child-content-title-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon ic"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Title*",
+        "x": 327,
+        "width": 35.921875,
+        "right": 362.921875,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Title</span><span class=\"w-required-mark\">*</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Title",
+        "x": 327,
+        "width": 28.53125,
+        "right": 355.53125,
+        "html": "<span class=\"w-minimap-item__text\">Title</span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-required-mark",
+        "text": "*",
+        "x": 357.46875,
+        "width": 5.453125,
+        "right": 362.921875,
+        "html": "<span class=\"w-required-mark\">*</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Form page submissions",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-child-content-form_page_submissions-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\""
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2 w-minimap-item--active ",
+        "text": "Form page submissions",
+        "x": 300,
+        "width": 188.046875,
+        "right": 488.046875,
+        "html": "<a href=\"#panel-child-content-form_page_submissions-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><sv"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Form page submissions",
+        "x": 327,
+        "width": 161.046875,
+        "right": 488.046875,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Form page submissions</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Form page submissions",
+        "x": 327,
+        "width": 161.046875,
+        "right": 488.046875,
+        "html": "<span class=\"w-minimap-item__text\">Form page submissions</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Image",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-child-content-image-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"ico"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2 w-minimap-item--active ",
+        "text": "Image",
+        "x": 300,
+        "width": 67.46875,
+        "right": 367.46875,
+        "html": "<a href=\"#panel-child-content-image-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon ic"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Image",
+        "x": 327,
+        "width": 40.46875,
+        "right": 367.46875,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Image</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Image",
+        "x": 327,
+        "width": 40.46875,
+        "right": 367.46875,
+        "html": "<span class=\"w-minimap-item__text\">Image</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Body*",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-child-content-body-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2 w-minimap-item--active ",
+        "text": "Body*",
+        "x": 300,
+        "width": 69.390625,
+        "right": 369.390625,
+        "html": "<a href=\"#panel-child-content-body-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon ico"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Body*",
+        "x": 327,
+        "width": 42.390625,
+        "right": 369.390625,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Body</span><span class=\"w-required-mark\">*</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Body",
+        "x": 327,
+        "width": 35,
+        "right": 362,
+        "html": "<span class=\"w-minimap-item__text\">Body</span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-required-mark",
+        "text": "*",
+        "x": 363.9375,
+        "width": 5.453125,
+        "right": 369.390625,
+        "html": "<span class=\"w-required-mark\">*</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "We'd love to hear from…*",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#block-25a48aa0-7b9b-47a9-ac24-bce39baf0a6c-section\" class=\"w-minimap-item w-minimap-item--h3 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h3 w-minimap-item--active ",
+        "text": "We'd love to hear from…*",
+        "x": 300,
+        "width": 214.546875,
+        "right": 514.546875,
+        "html": "<a href=\"#block-25a48aa0-7b9b-47a9-ac24-bce39baf0a6c-section\" class=\"w-minimap-item w-minimap-item--h3 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><s"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 327,
+        "width": 16,
+        "right": 343,
+        "html": "<svg class=\"icon icon-pilcrow w-minimap-item__icon\" aria-hidden=\"true\"><use href=\"#icon-pilcrow\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 328.97711181640625,
+        "width": 13.02288818359375,
+        "right": 342,
+        "html": "<use href=\"#icon-pilcrow\"></use>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "We'd love to hear from…*",
+        "x": 353,
+        "width": 161.546875,
+        "right": 514.546875,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">We'd love to hear from…</span><span class=\"w-required-mark\">*</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "We'd love to hear from…",
+        "x": 353,
+        "width": 154.15625,
+        "right": 507.15625,
+        "html": "<span class=\"w-minimap-item__text\">We'd love to hear from…</span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-required-mark",
+        "text": "*",
+        "x": 509.09375,
+        "width": 5.453125,
+        "right": 514.546875,
+        "html": "<span class=\"w-required-mark\">*</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Form fields",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-child-content-form_fields-section\" class=\"w-minimap-item w-minimap-item--h2  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2  ",
+        "text": "Form fields",
+        "x": 300,
+        "width": 102.46875,
+        "right": 402.46875,
+        "html": "<a href=\"#panel-child-content-form_fields-section\" class=\"w-minimap-item w-minimap-item--h2  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-mini"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Form fields",
+        "x": 327,
+        "width": 75.46875,
+        "right": 402.46875,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Form fields</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Form fields",
+        "x": 327,
+        "width": 75.46875,
+        "right": 402.46875,
+        "html": "<span class=\"w-minimap-item__text\">Form fields</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Field 1",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#inline_child_form_fields-0-panel-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h3  ",
+        "text": "Field 1",
+        "x": 300,
+        "width": 95.03125,
+        "right": 395.03125,
+        "html": "<a href=\"#inline_child_form_fields-0-panel-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-min"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 327,
+        "width": 16,
+        "right": 343,
+        "html": "<svg class=\"icon icon-placeholder w-minimap-item__icon\" aria-hidden=\"true\"><use href=\"#icon-placeholder\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 327,
+        "width": 16,
+        "right": 343,
+        "html": "<use href=\"#icon-placeholder\"></use>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Field 1",
+        "x": 353,
+        "width": 42.03125,
+        "right": 395.03125,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">\n        Field 1\n    </span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Field 1",
+        "x": 353,
+        "width": 42.03125,
+        "right": 395.03125,
+        "html": "<span class=\"w-minimap-item__text\">\n        Field 1\n    </span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Field 2",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#inline_child_form_fields-1-panel-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h3  ",
+        "text": "Field 2",
+        "x": 300,
+        "width": 95.03125,
+        "right": 395.03125,
+        "html": "<a href=\"#inline_child_form_fields-1-panel-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-min"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 327,
+        "width": 16,
+        "right": 343,
+        "html": "<svg class=\"icon icon-placeholder w-minimap-item__icon\" aria-hidden=\"true\"><use href=\"#icon-placeholder\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 327,
+        "width": 16,
+        "right": 343,
+        "html": "<use href=\"#icon-placeholder\"></use>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Field 2",
+        "x": 353,
+        "width": 42.03125,
+        "right": 395.03125,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">\n        Field 2\n    </span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Field 2",
+        "x": 353,
+        "width": 42.03125,
+        "right": 395.03125,
+        "html": "<span class=\"w-minimap-item__text\">\n        Field 2\n    </span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Field 3",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#inline_child_form_fields-2-panel-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h3  ",
+        "text": "Field 3",
+        "x": 300,
+        "width": 95.03125,
+        "right": 395.03125,
+        "html": "<a href=\"#inline_child_form_fields-2-panel-section\" class=\"w-minimap-item w-minimap-item--h3  \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"false\"><svg class=\"icon icon-minus w-min"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 327,
+        "width": 16,
+        "right": 343,
+        "html": "<svg class=\"icon icon-placeholder w-minimap-item__icon\" aria-hidden=\"true\"><use href=\"#icon-placeholder\"></use></svg>"
+      }
+    ]
+  },
+  "textSpacing": {
+    "viewport": 1440,
+    "scrollWidth": 1455,
+    "clipped": [
+      {
+        "html": "<label class=\"w-sr-only\" for=\"menu-search-q\">Search</label>",
+        "scrollWidth": 53,
+        "clientWidth": 1,
+        "scrollHeight": 20,
+        "clientHeight": 1
+      },
+      {
+        "html": "<h1 class=\"w-sr-only\">\n                                    Editing Form page: Contact Us\n                                </h1>",
+        "scrollWidth": 383,
+        "clientWidth": 1,
+        "scrollHeight": 31,
+        "clientHeight": 1
+      },
+      {
+        "html": "<h2 class=\"w-panel__heading w-panel__heading--label\" id=\"panel-child-content-title-heading\" data-panel-heading=\"\">\n                    \n                        <label for=\"id_title\" id=\"id_title-label\"><span data-panel-heading-text=\"\">Title</span><span class=\"w-required-mark\" data-panel-required=\"\">",
+        "scrollWidth": 63,
+        "clientWidth": 8,
+        "scrollHeight": 24,
+        "clientHeight": 24
+      },
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-image icon\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg>\n            Choose an image\n        </button>",
+        "scrollWidth": 172,
+        "clientWidth": 172,
+        "scrollHeight": 30,
+        "clientHeight": 26
+      },
+      {
+        "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_form_fields-ADD\">\n            <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>Add Field\n        </button>",
+        "scrollWidth": 110,
+        "clientWidth": 110,
+        "scrollHeight": 30,
+        "clientHeight": 26
+      },
+      {
+        "html": "<button type=\"button\" class=\"w-dropdown__toggle button\" data-w-dropdown-target=\"toggle\" aria-expanded=\"false\">\n        <span class=\"w-sr-only\">More actions</span>\n        \n            <svg class=\"icon icon-arrow-up w-dropdown__toggle-icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-up\"></use></svg>\n ",
+        "scrollWidth": 40,
+        "clientWidth": 30,
+        "scrollHeight": 40,
+        "clientHeight": 40
+      }
+    ]
+  }
+}

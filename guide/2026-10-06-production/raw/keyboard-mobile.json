@@ -1,0 +1,592 @@
+[
+  {
+    "text": "Getting started",
+    "cls": "navigation__link navigation__link--heading",
+    "top": 122,
+    "bottom": 160.796875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Overview",
+    "cls": "navigation__link",
+    "top": 162.796875,
+    "bottom": 198.390625,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "How-to guides",
+    "cls": "navigation__link navigation__link--heading",
+    "top": 220.390625,
+    "bottom": 259.1875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Find your way around",
+    "cls": "navigation__link",
+    "top": 261.1875,
+    "bottom": 296.78125,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Manage pages",
+    "cls": "navigation__link",
+    "top": 296.78125,
+    "bottom": 332.375,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Manage documents",
+    "cls": "navigation__link",
+    "top": 332.375,
+    "bottom": 367.96875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Manage images",
+    "cls": "navigation__link",
+    "top": 367.96875,
+    "bottom": 403.5625,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Manage snippets",
+    "cls": "navigation__link",
+    "top": 403.5625,
+    "bottom": 439.15625,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Manage forms",
+    "cls": "navigation__link",
+    "top": 439.15625,
+    "bottom": 474.75,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Manage collections",
+    "cls": "navigation__link",
+    "top": 474.75,
+    "bottom": 510.34375,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Manage redirects",
+    "cls": "navigation__link",
+    "top": 510.34375,
+    "bottom": 545.9375,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Manage users and roles",
+    "cls": "navigation__link",
+    "top": 545.9375,
+    "bottom": 581.53125,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Configure workflows for moderation",
+    "cls": "navigation__link",
+    "top": 581.53125,
+    "bottom": 617.125,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Promote search results",
+    "cls": "navigation__link",
+    "top": 617.125,
+    "bottom": 652.71875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Concepts",
+    "cls": "navigation__link navigation__link--heading",
+    "top": 674.71875,
+    "bottom": 713.515625,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Wagtail interfaces",
+    "cls": "navigation__link",
+    "top": 715.515625,
+    "bottom": 751.109375,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Pages",
+    "cls": "navigation__link",
+    "top": 751.109375,
+    "bottom": 786.703125,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Reports",
+    "cls": "navigation__link",
+    "top": 786.703125,
+    "bottom": 822.296875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Users status",
+    "cls": "navigation__link",
+    "top": 808.296875,
+    "bottom": 843.890625,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Page status",
+    "cls": "navigation__link",
+    "top": 808.890625,
+    "bottom": 844.484375,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Accessibility features",
+    "cls": "navigation__link",
+    "top": 404.484375,
+    "bottom": 440.078125,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Scheduled publishing",
+    "cls": "navigation__link",
+    "top": 440.078125,
+    "bottom": 475.671875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Reference",
+    "cls": "navigation__link navigation__link--heading",
+    "top": 476.671875,
+    "bottom": 515.46875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Browser compatibility",
+    "cls": "navigation__link",
+    "top": 0.46875,
+    "bottom": 36.0625,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Content checks",
+    "cls": "navigation__link",
+    "top": 36.0625,
+    "bottom": 71.65625,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Account settings",
+    "cls": "navigation__link",
+    "top": 71.65625,
+    "bottom": 107.25,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Releases",
+    "cls": "navigation__link navigation__link--heading",
+    "top": 129.25,
+    "bottom": 168.046875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 8.0",
+    "cls": "navigation__link",
+    "top": 170.046875,
+    "bottom": 205.640625,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 7.4",
+    "cls": "navigation__link",
+    "top": 205.640625,
+    "bottom": 241.234375,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 7.3",
+    "cls": "navigation__link",
+    "top": 241.234375,
+    "bottom": 276.828125,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 7.2",
+    "cls": "navigation__link",
+    "top": 276.828125,
+    "bottom": 312.421875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 7.1",
+    "cls": "navigation__link",
+    "top": 312.421875,
+    "bottom": 348.015625,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 7.0",
+    "cls": "navigation__link",
+    "top": 348.015625,
+    "bottom": 383.609375,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 6.4",
+    "cls": "navigation__link",
+    "top": 383.609375,
+    "bottom": 419.203125,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 6.3",
+    "cls": "navigation__link",
+    "top": 419.203125,
+    "bottom": 454.796875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 6.2",
+    "cls": "navigation__link",
+    "top": 454.796875,
+    "bottom": 490.390625,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 6.1",
+    "cls": "navigation__link",
+    "top": 484.390625,
+    "bottom": 519.984375,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 6.0",
+    "cls": "navigation__link",
+    "top": 483.984375,
+    "bottom": 519.578125,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 5.2",
+    "cls": "navigation__link",
+    "top": 484.578125,
+    "bottom": 520.171875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 5.1",
+    "cls": "navigation__link",
+    "top": 275.171875,
+    "bottom": 310.765625,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 5.0",
+    "cls": "navigation__link",
+    "top": 310.765625,
+    "bottom": 346.359375,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 4.2",
+    "cls": "navigation__link",
+    "top": 346.359375,
+    "bottom": 381.953125,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "New in Wagtail 4.1",
+    "cls": "navigation__link",
+    "top": 381.953125,
+    "bottom": 417.546875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "About",
+    "cls": "navigation__link navigation__link--heading",
+    "top": 439.546875,
+    "bottom": 478.34375,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Light mode\n        Dark mode",
+    "cls": "theme-toggle__button",
+    "top": 129.1875,
+    "bottom": 157.1875,
+    "hit": "primary-nav is-visible",
+    "covered": true,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Copy page",
+    "cls": "copy-button__btn",
+    "top": 113.796875,
+    "bottom": 172.578125,
+    "hit": "primary-nav is-visible",
+    "covered": true,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "",
+    "cls": "copy-button__toggle dropdown-toggle",
+    "top": 113.796875,
+    "bottom": 172.578125,
+    "hit": "primary-nav is-visible",
+    "covered": true,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "English",
+    "cls": "language-selector__toggle dropdown-toggle",
+    "top": 113.796875,
+    "bottom": 154.1875,
+    "hit": "primary-nav is-visible",
+    "covered": true,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Wagtail Space 2026 conference",
+    "cls": "",
+    "top": 526.5625,
+    "bottom": 575.359375,
+    "hit": "primary-nav is-visible",
+    "covered": true,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Getting started\n            Our tutorial",
+    "cls": "section__container",
+    "top": 580.15625,
+    "bottom": 843.734375,
+    "hit": "primary-nav is-visible",
+    "covered": true,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "How-to\n            Our how-to guides exp",
+    "cls": "section__container",
+    "top": 316.734375,
+    "bottom": 527.71875,
+    "hit": "section__container",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Concepts\n            Wagtail has strong ",
+    "cls": "section__container",
+    "top": 567.71875,
+    "bottom": 838.296875,
+    "hit": "section__heading",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Reference\n            What is a Snippet?",
+    "cls": "section__container",
+    "top": 289.296875,
+    "bottom": 553.875,
+    "hit": "section__heading",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "About this guide\n                       ",
+    "cls": "link-block",
+    "top": 635.875,
+    "bottom": 732.671875,
+    "hit": "link-block__description",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Help improve this guide\n                ",
+    "cls": "link-block",
+    "top": 732.671875,
+    "bottom": 829.46875,
+    "hit": "link-block__description",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Wagtail\n                        \n       ",
+    "cls": "link-block",
+    "top": 747.46875,
+    "bottom": 844.265625,
+    "hit": "link-block__description",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "CC0",
+    "cls": "",
+    "top": 746.265625,
+    "bottom": 763.265625,
+    "hit": "",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Skip to main content\n\n\n        \n\n       ",
+    "cls": "app no-scroll",
+    "top": -1486,
+    "bottom": 843.859375,
+    "covered": null,
+    "outline": "rgb(38, 38, 38) none 3px"
+  },
+  {
+    "text": "Skip to main content",
+    "cls": "skip-link__link",
+    "top": 0,
+    "bottom": 45.59375,
+    "hit": "header__actions",
+    "covered": true,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "",
+    "cls": "header__logo-link",
+    "top": 20,
+    "bottom": 93.796875,
+    "hit": {},
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "",
+    "cls": "header__search-toggle",
+    "top": 37,
+    "bottom": 77,
+    "hit": {},
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "",
+    "cls": "burger is-open",
+    "top": 35,
+    "bottom": 75,
+    "hit": "burger__line",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Getting started",
+    "cls": "navigation__link navigation__link--heading",
+    "top": 122,
+    "bottom": 160.796875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "Overview",
+    "cls": "navigation__link",
+    "top": 162.796875,
+    "bottom": 198.390625,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "text": "How-to guides",
+    "cls": "navigation__link navigation__link--heading",
+    "top": 220.390625,
+    "bottom": 259.1875,
+    "hit": "primary-nav is-visible",
+    "covered": false,
+    "outline": "rgb(49, 120, 250) solid 2px"
+  },
+  {
+    "afterSkip": {
+      "text": "Wagtail Space 2026 conference",
+      "cls": ""
+    }
+  }
+]

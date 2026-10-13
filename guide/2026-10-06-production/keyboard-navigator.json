@@ -1,0 +1,40 @@
+{
+  "skill": "keyboard-navigator",
+  "scope": [
+    "https://guide.wagtail.org/en/",
+    "https://guide.wagtail.org/en/how-to-guides/manage-pages/",
+    "apps/frontend/static_src/js/**",
+    "apps/frontend/static_src/scss/**",
+    "apps/core/templates/components/**",
+    "apps/core/templates/base.html"
+  ],
+  "findings": [
+    {
+      "rule": "KEYBOARD-MOBILE-OVERLAY-FOCUS",
+      "wcag": "2.4.11 AA",
+      "severity": "serious",
+      "location": "apps/frontend/static_src/js/mobile-menu/index.js:42",
+      "summary": "The open mobile navigation lets Tab move to background controls that the menu completely covers.",
+      "fix": "Close the mobile navigation when focus moves outside its toggle and navigation, or implement an accessible modal menu with background inertness, focus containment, Escape dismissal and focus restoration. Keep the toggle available to close the menu.",
+      "evidence": "Live Chromium at 390\u00d7844: Space opens the menu; after 44 navigation links, Tab focuses Light mode, Copy page, copy options and English behind nav.primary-nav.is-visible. Their centres hit the opaque menu, while aria-expanded stays true. Escape leaves the menu open. See raw/keyboard-mobile.json.",
+      "component": "Mobile navigation"
+    }
+  ],
+  "passed": [
+    "The skip link is the first Tab stop, becomes visible, and Enter followed by Tab reaches a main-content link in production Chromium.",
+    "The mobile menu opens with Enter and Space, updates aria-expanded, and its native navigation links are keyboard reachable; closed navigation is display:none and excluded from Tab order.",
+    "The search trigger opens with Enter, focuses the input, makes search result links keyboard reachable, and Escape closes the modal and restores trigger focus.",
+    "Copy options and language dropdowns open with Enter, ArrowDown reaches their first item, and Escape closes and restores focus to their trigger.",
+    "Copy page activates with Enter, preserves focus, displays Copied!, and writes the expected page Markdown to the clipboard (16,140 characters on Manage pages).",
+    "Manage pages table-of-contents links activate with Enter; the next Tab advances within the destination section.",
+    "Both feedback buttons are reachable in sequence by Tab without submitting feedback.",
+    "Source review found no positive tabindex or non-native click-only interactive elements in the scoped components; inspected keyboard targets receive a 2px solid focus outline."
+  ],
+  "notes": [
+    "No screenshots were captured. Runtime evidence is in raw/keyboard-runtime.json, raw/keyboard-mobile.json and raw/keyboard-widgets.json.",
+    "Feedback buttons were not activated because they POST to the production site; post-submission focus handling was reviewed in source only.",
+    "Missing Escape dismissal alone is not treated as an independent WCAG failure for a non-modal navigation disclosure; it contributes to the confirmed obscured-focus defect.",
+    "Search Tab traversal can briefly reach browser chrome (document.activeElement becomes BODY) before re-entering the input; no background page control was reached in the inspected modal sequence.",
+    "Focus geometry and event behavior were checked with Chromium; this does not establish cross-browser or screen-reader conformance."
+  ]
+}

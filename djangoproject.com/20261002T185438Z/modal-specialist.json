@@ -1,0 +1,18 @@
+{
+  "skill": "modal-specialist",
+  "scope": [
+    "djangoproject/templates/**/*.html",
+    "djangoproject/static/js/mod/stripe-change-card.js",
+    "djangoproject/static/js/mod/stripe-donation.js",
+    "djangoproject/static/js/djangoproject.js"
+  ],
+  "findings": [],
+  "passed": [
+    "No bespoke modal/dialog implementation was found in the reviewed marketing/foundation templates and JavaScript.",
+    "Donation errors use native alert() rather than an untrapped custom overlay."
+  ],
+  "notes": [
+    "Card change invokes externally hosted StripeCheckout; focus trapping, dismissal, return and accessible naming require authorized account/payment runtime coverage and were not tested.",
+    "The mobile navigation is a non-modal disclosure; modal focus trapping is not required. Its expanded-state semantics belong in the ARIA review."
+  ]
+}

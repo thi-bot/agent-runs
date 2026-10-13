@@ -1,0 +1,123 @@
+{
+  "skill": "cross-page-analyzer",
+  "scope": [
+    ".a11y-history/20261002T185438Z/evidence/runtime-groups.json"
+  ],
+  "findings": [
+    {
+      "rule": "CONTRAST-LIGHT-CTA",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "https://www.djangoproject.com/ | p:nth-child(2) > .cta",
+      "summary": "Light-theme CTA labels fail normal-text contrast.",
+      "fix": "Use darker CTA background or dark labels meeting4.5:1; verify18px bold labels against normal-text threshold.",
+      "evidence": "14 mutually exclusive instances on 8/100 pages; example p:nth-child(2) > .cta, #ffffff on #44b78b=2.5:1; 2 measured color recipes; full raw evidence in evidence/axe.",
+      "component": ".cta"
+    },
+    {
+      "rule": "CONTRAST-METADATA",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "https://www.djangoproject.com/ | .outline",
+      "summary": "Muted metadata and secondary text fail normal-text contrast.",
+      "fix": "Darken light-theme metadata tokens to meet4.5:1 on white and sidebar backgrounds, including author and RSS links.",
+      "evidence": "812 mutually exclusive instances on 82/100 pages; example .outline, #859d94 on #ffffff=2.89:1; 4 measured color recipes; full raw evidence in evidence/axe.",
+      "component": ".list-news .meta, .footnote, .outline"
+    },
+    {
+      "rule": "CONTRAST-LIGHT-LINKS",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "https://www.djangoproject.com/ | .link-readmore:nth-child(3)",
+      "summary": "Light-theme green body and sidebar links fail text contrast.",
+      "fix": "Darken shared --link-color to meet4.5:1 on white, #f8f8f8, #f1fff7 and tinted table rows and gray badge panels; verify all interaction states.",
+      "evidence": "4574 mutually exclusive instances on 100/100 pages; example .link-readmore:nth-child(3), #20aa76 on #f8f8f8=2.79:1; 5 measured color recipes; full raw evidence in evidence/axe.",
+      "component": ".link-readmore and main/sidebar a"
+    },
+    {
+      "rule": "CONTRAST-FOOTER-MAIN",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "https://www.djangoproject.com/ | .col-learn-more > h3",
+      "summary": "Light-theme footer headings and navigation links fail text contrast.",
+      "fix": "Darken the footer background or use a dark text color providing4.5:1; preserve visible link focus.",
+      "evidence": "3000 mutually exclusive instances on 100/100 pages; example .col-learn-more > h3, #f1fff7 on #44b78b=2.42:1; 1 measured color recipes; full raw evidence in evidence/axe.",
+      "component": "footer .col-learn-more a"
+    },
+    {
+      "rule": "CONTRAST-FOOTER-CREDITS",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "https://www.djangoproject.com/ | .thanks > li:nth-child(1) > span",
+      "summary": "Footer credits and donor links fail text contrast.",
+      "fix": "Use a lighter footer-specific accent providing4.5:1 on the dark-green footer background.",
+      "evidence": "567 mutually exclusive instances on 100/100 pages; example .thanks > li:nth-child(1) > span, #2b8c67 on #0c4b33=2.43:1; 1 measured color recipes; full raw evidence in evidence/axe.",
+      "component": "footer .thanks, footer .in-kind-donors"
+    },
+    {
+      "rule": "CONTRAST-ACTIVE-NAV",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "https://www.djangoproject.com/community/ | .active > a",
+      "summary": "Current-page desktop navigation link fails normal-text contrast.",
+      "fix": "Use a lighter selected-navigation foreground with4.5:1 contrast in both themes; keep a non-color current-page indicator.",
+      "evidence": "98 mutually exclusive instances on 98/100 pages; example .active > a, #44b78b on #0c4b33=4.05:1; 1 measured color recipes; full raw evidence in evidence/axe.",
+      "component": "#top nav .active > a"
+    },
+    {
+      "rule": "CONTRAST-LIGHT-BANNER",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "https://www.djangoproject.com/community/ | section > .container > p",
+      "summary": "Light-theme banner text fails large-text contrast.",
+      "fix": "Darken banner background or change foreground so large text achieves3:1 and smaller text4.5:1.",
+      "evidence": "114 mutually exclusive instances on 99/100 pages; example section > .container > p, #c9f0dd on #44b78b=2.02:1; 2 measured color recipes; full raw evidence in evidence/axe.",
+      "component": ".copy-banner p, .copy-banner em"
+    },
+    {
+      "rule": "CONTRAST-EXPAND-CONTROLS",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "https://www.djangoproject.com/community/ | .expandall",
+      "summary": "Expand-all and collapse-all labels fail text contrast.",
+      "fix": "Use a darker label foreground meeting4.5:1 and implement these controls as keyboard-accessible buttons.",
+      "evidence": "4 mutually exclusive instances on 2/100 pages; example .expandall, #cacfcd on #ffffff=1.57:1; 1 measured color recipes; full raw evidence in evidence/axe.",
+      "component": ".expandall, .collapseall"
+    },
+    {
+      "rule": "CONTRAST-OTHER-TEXT",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "summary": "Additional text colors fail minimum contrast outside the shared palette groups.",
+      "fix": "Review the remaining measured foreground/background pairs and change text or backgrounds to meet4.5:1 for normal text and3:1 for large text.",
+      "component": "Remaining contrast instances",
+      "location": "https://www.djangoproject.com/community/ | li:nth-child(1) > span",
+      "evidence": "137 mutually exclusive instances on 33/100 pages; example li:nth-child(1) > span, #2b8c67 on #0c4b33=2.43:1; 5 measured color recipes; full raw evidence in evidence/axe."
+    },
+    {
+      "rule": "CONTRAST-SPONSOR-EYEBROW",
+      "wcag": "1.4.3 AA",
+      "severity": "serious",
+      "location": "https://www.djangoproject.com/sponsor/ | .sponsor-intro > .sponsor-eyebrow",
+      "summary": "Sponsor section eyebrows fail normal-text contrast.",
+      "fix": "Darken light-theme sponsor accent text to meet4.5:1 against white and #f8f8f8 backgrounds.",
+      "evidence": "22 mutually exclusive instances on 4/100 pages; example .sponsor-intro > .sponsor-eyebrow, #2b8c67 on #ffffff=4.15:1; 2 measured color recipes; full raw evidence in evidence/axe.",
+      "component": ".sponsor-eyebrow"
+    }
+  ],
+  "notes": [
+    "CONTRAST-LIGHT-CTA: shared-template, 8/100 pages, 14 distinct nodes.",
+    "CONTRAST-METADATA: shared-template, 82/100 pages, 812 distinct nodes.",
+    "CONTRAST-LIGHT-LINKS: systemic, 100/100 pages, 4574 distinct nodes.",
+    "CONTRAST-FOOTER-MAIN: systemic, 100/100 pages, 3000 distinct nodes.",
+    "CONTRAST-FOOTER-CREDITS: systemic, 100/100 pages, 567 distinct nodes.",
+    "CONTRAST-ACTIVE-NAV: shared-template, 98/100 pages, 98 distinct nodes.",
+    "CONTRAST-LIGHT-BANNER: shared-template, 99/100 pages, 114 distinct nodes.",
+    "CONTRAST-EXPAND-CONTROLS: shared-template, 2/100 pages, 4 distinct nodes.",
+    "CONTRAST-OTHER-TEXT: shared-template, 33/100 pages, 137 distinct nodes.",
+    "CONTRAST-SPONSOR-EYEBROW: shared-template, 4/100 pages, 22 distinct nodes.",
+    "100 completed desktoplight files; 9342 color-contrast nodes partitioned without overlap. Components classified by selector first, then shared recipe when selector lacks an ancestor; ambiguous leftovers kept separate.",
+    "Risk scores are remediation prioritization, not WCAG conformance evidence.",
+    "No baseline, full accessibility-tree diff or keyboard-flow comparison supplied."
+  ]
+}

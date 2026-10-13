@@ -1,0 +1,275 @@
+[
+  {
+    "tag": "A",
+    "text": "Skip to main content",
+    "cls": "skip-link__link",
+    "top": 0,
+    "bottom": 45.59375,
+    "expanded": "false",
+    "scroll": 0
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "cls": "header__logo-link",
+    "top": 20,
+    "bottom": 93.796875,
+    "expanded": "false",
+    "scroll": 0
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "cls": "header__search-toggle",
+    "top": 37,
+    "bottom": 77,
+    "expanded": "false",
+    "scroll": 0
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "cls": "burger",
+    "top": 35,
+    "bottom": 75,
+    "expanded": "false",
+    "scroll": 0
+  },
+  {
+    "opened": {
+      "tag": "BUTTON",
+      "text": "",
+      "cls": "burger is-open",
+      "top": 35,
+      "bottom": 75,
+      "expanded": "true",
+      "scroll": 0
+    }
+  },
+  {
+    "escape": {
+      "tag": "BUTTON",
+      "text": "",
+      "cls": "burger is-open",
+      "top": 35,
+      "bottom": 75,
+      "expanded": "true",
+      "scroll": 0
+    }
+  },
+  {
+    "tag": "A",
+    "text": "Getting started",
+    "cls": "navigation__link navigation__link--heading",
+    "top": 122,
+    "bottom": 160.796875,
+    "expanded": "true",
+    "scroll": 0
+  },
+  {
+    "tag": "A",
+    "text": "Overview",
+    "cls": "navigation__link",
+    "top": 162.796875,
+    "bottom": 198.390625,
+    "expanded": "true",
+    "scroll": 0
+  },
+  {
+    "tag": "A",
+    "text": "How-to guides",
+    "cls": "navigation__link navigation__link--heading",
+    "top": 220.390625,
+    "bottom": 259.1875,
+    "expanded": "true",
+    "scroll": 0
+  },
+  {
+    "tag": "A",
+    "text": "Find your way around",
+    "cls": "navigation__link",
+    "top": 261.1875,
+    "bottom": 296.78125,
+    "expanded": "true",
+    "scroll": 0
+  },
+  {
+    "tag": "A",
+    "text": "Manage pages",
+    "cls": "navigation__link",
+    "top": 296.78125,
+    "bottom": 332.375,
+    "expanded": "true",
+    "scroll": 0
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Light mode\n        Dark mode",
+    "cls": "theme-toggle__button",
+    "top": 129.1875,
+    "bottom": 157.1875,
+    "expanded": "true",
+    "scroll": 0
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Copy page",
+    "cls": "copy-button__btn",
+    "top": 113.796875,
+    "bottom": 172.578125,
+    "expanded": "true",
+    "scroll": 0
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "cls": "copy-button__toggle dropdown-toggle",
+    "top": 113.796875,
+    "bottom": 172.578125,
+    "expanded": "true",
+    "scroll": 0
+  },
+  {
+    "tag": "BUTTON",
+    "text": "English",
+    "cls": "language-selector__toggle dropdown-toggle",
+    "top": 113.796875,
+    "bottom": 154.1875,
+    "expanded": "true",
+    "scroll": 0
+  },
+  {
+    "tag": "A",
+    "text": "Wagtail Space 2026 conference",
+    "cls": "",
+    "top": 526.5625,
+    "bottom": 575.359375,
+    "expanded": "true",
+    "scroll": 0
+  },
+  {
+    "tag": "A",
+    "text": "Getting started\n            Our tutorials will help you learn and master the different way",
+    "cls": "section__container",
+    "top": 580.15625,
+    "bottom": 843.734375,
+    "expanded": "true",
+    "scroll": 60
+  },
+  {
+    "tag": "A",
+    "text": "How-to\n            Our how-to guides explain the simplest ways to achieve common tasks.",
+    "cls": "section__container",
+    "top": 316.734375,
+    "bottom": 527.71875,
+    "expanded": "true",
+    "scroll": 627
+  },
+  {
+    "tag": "A",
+    "text": "Concepts\n            Wagtail has strong opinions about CMS best practices. This section de",
+    "cls": "section__container",
+    "top": 567.71875,
+    "bottom": 838.296875,
+    "expanded": "true",
+    "scroll": 627
+  },
+  {
+    "tag": "A",
+    "text": "Reference\n            What is a Snippet? What does a permission do? Our reference material",
+    "cls": "section__container",
+    "top": 289.296875,
+    "bottom": 553.875,
+    "expanded": "true",
+    "scroll": 1216
+  },
+  {
+    "tag": "A",
+    "text": "About this guide\n                        \n                            Learn why we structu",
+    "cls": "link-block",
+    "top": 635.875,
+    "bottom": 732.671875,
+    "expanded": "true",
+    "scroll": 1216
+  },
+  {
+    "skip": {
+      "tag": "BODY",
+      "text": "Skip to main content\n\n\n        \n\n        \n            \n                \n                \n ",
+      "cls": "app",
+      "top": -203,
+      "bottom": 1297.046875,
+      "expanded": "false",
+      "scroll": 203
+    }
+  },
+  {
+    "searchOpened": {
+      "tag": "INPUT",
+      "text": "",
+      "cls": "search__input",
+      "top": 50.5,
+      "bottom": 127.6875,
+      "expanded": "false",
+      "scroll": 203
+    }
+  },
+  {
+    "results": 2
+  },
+  {
+    "searchTab": {
+      "tag": "A",
+      "text": "ConceptsPagesYou can use Wagtail Pages to organize the content of your Wagtail websites. I",
+      "cls": "autocomplete__row is-visible",
+      "top": 197.6875,
+      "bottom": 387.671875,
+      "expanded": "false",
+      "scroll": 203
+    }
+  },
+  {
+    "searchTab": {
+      "tag": "A",
+      "text": "How-to guidesManage pagesHow to create, edit, copy, and manage pages in the Wagtail admin,",
+      "cls": "autocomplete__row is-visible",
+      "top": 387.671875,
+      "bottom": 548.859375,
+      "expanded": "false",
+      "scroll": 203
+    }
+  },
+  {
+    "searchTab": {
+      "tag": "BODY",
+      "text": "Skip to main content\n\n\n        \n\n        \n            \n                \n                \n ",
+      "cls": "app modal-open",
+      "top": -203,
+      "bottom": 1297.046875,
+      "expanded": "false",
+      "scroll": 203
+    }
+  },
+  {
+    "searchTab": {
+      "tag": "INPUT",
+      "text": "",
+      "cls": "search__input",
+      "top": 50.5,
+      "bottom": 127.6875,
+      "expanded": "false",
+      "scroll": 0
+    }
+  },
+  {
+    "searchEscape": {
+      "tag": "BUTTON",
+      "text": "",
+      "cls": "header__search-toggle",
+      "top": 106.984375,
+      "bottom": 146.984375,
+      "expanded": "false",
+      "scroll": 0
+    }
+  }
+]

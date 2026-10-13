@@ -1,0 +1,404 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/account/",
+  "states": [
+    {
+      "kind": "tab",
+      "name": "Profile",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"locale-preferred_language\" id=\"id_locale-preferred_language\">",
+                      "target": [
+                        "#id_locale-preferred_language"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"locale-preferred_language\" id=\"id_locale-preferred_language\">",
+              "target": [
+                "#id_locale-preferred_language"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"locale-current_time_zone\" data-controller=\"w-locale\" data-action=\"w-init:ready->w-locale#localizeTimeZoneOptions\" data-w-locale-server-time-zone-param=\"UTC\" id=\"id_locale-current_time_zone\" class=\"\">",
+                      "target": [
+                        "#id_locale-current_time_zone"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"locale-current_time_zone\" data-controller=\"w-locale\" data-action=\"w-init:ready->w-locale#localizeTimeZoneOptions\" data-w-locale-server-time-zone-param=\"UTC\" id=\"id_locale-current_time_zone\" class=\"\">",
+              "target": [
+                "#id_locale-current_time_zone"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"theme-theme\" id=\"id_theme-theme\">\n  <option value=\"system\">System default</option>\n\n  <option value=\"light\" selected=\"\">Light</option>\n\n  <option value=\"dark\">Dark</option>\n\n</select>",
+                      "target": [
+                        "#id_theme-theme"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"theme-theme\" id=\"id_theme-theme\">\n  <option value=\"system\">System default</option>\n\n  <option value=\"light\" selected=\"\">Light</option>\n\n  <option value=\"dark\">Dark</option>\n\n</select>",
+              "target": [
+                "#id_theme-theme"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"theme-contrast\" id=\"id_theme-contrast\">\n  <option value=\"system\" selected=\"\">System default</option>\n\n  <option value=\"more_contrast\">More contrast</option>\n\n</select>",
+                      "target": [
+                        "#id_theme-contrast"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"theme-contrast\" id=\"id_theme-contrast\">\n  <option value=\"system\" selected=\"\">System default</option>\n\n  <option value=\"more_contrast\">More contrast</option>\n\n</select>",
+              "target": [
+                "#id_theme-contrast"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"theme-density\" id=\"id_theme-density\">\n  <option value=\"default\" selected=\"\">Default</option>\n\n  <option value=\"snug\">Snug</option>\n\n</select>",
+                      "target": [
+                        "#id_theme-density"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"theme-density\" id=\"id_theme-density\">\n  <option value=\"default\" selected=\"\">Default</option>\n\n  <option value=\"snug\">Snug</option>\n\n</select>",
+              "target": [
+                "#id_theme-density"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        },
+        {
+          "id": "form-field-multiple-labels",
+          "impact": "moderate",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag332",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.3.3.2",
+            "RGAAv4",
+            "RGAA-11.2.1"
+          ],
+          "description": "Ensure form field does not have multiple label elements",
+          "help": "Form field must not have multiple label elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/form-field-multiple-labels?application=playwright",
+          "nodes": [
+            {
+              "any": [],
+              "all": [],
+              "none": [
+                {
+                  "id": "multiple-label",
+                  "data": null,
+                  "relatedNodes": [
+                    {
+                      "html": "<label class=\"w-field__label\" for=\"id_theme-keyboard_shortcuts\" id=\"id_theme-keyboard_shortcuts-label\">\n            Keyboard shortcuts\n        </label>",
+                      "target": [
+                        "#id_theme-keyboard_shortcuts-label"
+                      ]
+                    },
+                    {
+                      "html": "<label class=\"switch\">",
+                      "target": [
+                        "div[data-contentpath=\"keyboard_shortcuts\"] > .w-field__input[data-field-input=\"\"] > .switch"
+                      ]
+                    }
+                  ],
+                  "impact": "moderate",
+                  "message": "Multiple label elements is not widely supported in assistive technologies. Ensure the first label contains all necessary information."
+                }
+              ],
+              "impact": "moderate",
+              "html": "<input type=\"checkbox\" name=\"theme-keyboard_shortcuts\" aria-describedby=\"id_theme-keyboard_shortcuts-helptext\" id=\"id_theme-keyboard_shortcuts\" checked=\"\">",
+              "target": [
+                "#id_theme-keyboard_shortcuts"
+              ],
+              "failureSummary": "Fix all of the following:\n  Multiple label elements is not widely supported in assistive technologies. Ensure the first label contains all necessary information."
+            }
+          ]
+        }
+      ],
+      "ax": "- main:\n  - status:\n    - list\n  - heading \"Account\" [level=1]\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Account\":\n          - /url: \"\"\n  - heading \"Account\" [level=2]\n  - tablist:\n    - tab \"Profile\" [selected]\n    - tab \"Notifications\"\n  - tabpanel \"Profile\":\n    - region \"Name and Email\":\n      - link \"Name and Email\":\n        - /url: \"#name_email-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Name and Email\" [level=2]\n      - text: First Name*\n      - textbox \"First Name*\": Admin\n      - text: Last Name*\n      - textbox \"Last Name*\": User\n      - text: Email*\n      - textbox \"Email*\": admin@example.com\n    - region \"Profile picture\":\n      - link \"Profile picture\":\n        - /url: \"#avatar-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Profile picture\" [level=2]\n      - text: \"Upload a profile picture:\"\n      - button \"Upload a profile picture:\"\n    - region \"Locale\":\n      - link \"Locale\":\n        - /url: \"#locale-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Locale\" [level=2]\n      - text: Preferred language\n      - combobox \"Preferred language\":\n        - 'option \"Use server language: English\" [selected]'\n        - option \"Bahasa Indonesia\"\n        - option \"català\"\n        - option \"Deutsch\"\n        - option \"eesti\"\n        - option \"English\"\n        - option \"español\"\n        - option \"français\"\n        - option \"galego\"\n        - option \"Hrvatski\"\n        - option \"italiano\"\n        - option \"Lietuviškai\"\n        - option \"Magyar\"\n        - option \"Mongolian\"\n        - option \"Nederlands\"\n        - option \"norsk (bokmål)\"\n        - option \"polski\"\n        - option \"Português\"\n        - option \"Português Brasileiro\"\n        - option \"Română\"\n        - option \"slovensky\"\n        - option \"Slovenščina\"\n        - option \"suomi\"\n        - option \"svenska\"\n        - option \"Türkçe\"\n        - option \"Íslenska\"\n        - option \"česky\"\n        - option \"Ελληνικά\"\n        - option \"Русский\"\n        - option \"Українська\"\n        - option \"ئۇيغۇرچە\"\n        - option \"العربيّة\"\n        - option \"فارسی\"\n        - option \"ภาษาไทย\"\n        - option \"日本語\"\n        - option \"简体中文\"\n        - option \"繁體中文\"\n        - option \"한국어\"\n      - text: Current time zone\n      - combobox \"Current time zone\":\n        - 'option \"Use server time zone: UTC (Coordinated Universal Time)\" [selected]'\n        - 'option \"Africa/Abidjan: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Accra: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Addis_Ababa: GMT+3 (East Africa Time)\"'\n        - 'option \"Africa/Algiers: GMT+1 (Central European Standard Time)\"'\n        - 'option \"Africa/Asmara: GMT+3 (East Africa Time)\"'\n        - 'option \"Africa/Asmera: GMT+3 (East Africa Time)\"'\n        - 'option \"Africa/Bamako: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Bangui: GMT+1 (West Africa Time)\"'\n        - 'option \"Africa/Banjul: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Bissau: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Blantyre: GMT+2 (Central Africa Time)\"'\n        - 'option \"Africa/Brazzaville: GMT+1 (West Africa Time)\"'\n        - 'option \"Africa/Bujumbura: GMT+2 (Central Africa Time)\"'\n        - 'option \"Africa/Cairo: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Africa/Casablanca: GMT+1 (GMT+01:00)\"'\n        - 'option \"Africa/Ceuta: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Africa/Conakry: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Dakar: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Dar_es_Salaam: GMT+3 (East Africa Time)\"'\n        - 'option \"Africa/Djibouti: GMT+3 (East Africa Time)\"'\n        - 'option \"Africa/Douala: GMT+1 (West Africa Time)\"'\n        - 'option \"Africa/El_Aaiun: GMT+1 (GMT+01:00)\"'\n        - 'option \"Africa/Freetown: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Gaborone: GMT+2 (Central Africa Time)\"'\n        - 'option \"Africa/Harare: GMT+2 (Central Africa Time)\"'\n        - 'option \"Africa/Johannesburg: GMT+2 (South Africa Standard Time)\"'\n        - 'option \"Africa/Juba: GMT+2 (Central Africa Time)\"'\n        - 'option \"Africa/Kampala: GMT+3 (East Africa Time)\"'\n        - 'option \"Africa/Khartoum: GMT+2 (Central Africa Time)\"'\n        - 'option \"Africa/Kigali: GMT+2 (Central Africa Time)\"'\n        - 'option \"Africa/Kinshasa: GMT+1 (West Africa Time)\"'\n        - 'option \"Africa/Lagos: GMT+1 (West Africa Time)\"'\n        - 'option \"Africa/Libreville: GMT+1 (West Africa Time)\"'\n        - 'option \"Africa/Lome: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Luanda: GMT+1 (West Africa Time)\"'\n        - 'option \"Africa/Lubumbashi: GMT+2 (Central Africa Time)\"'\n        - 'option \"Africa/Lusaka: GMT+2 (Central Africa Time)\"'\n        - 'option \"Africa/Malabo: GMT+1 (West Africa Time)\"'\n        - 'option \"Africa/Maputo: GMT+2 (Central Africa Time)\"'\n        - 'option \"Africa/Maseru: GMT+2 (South Africa Standard Time)\"'\n        - 'option \"Africa/Mbabane: GMT+2 (South Africa Standard Time)\"'\n        - 'option \"Africa/Mogadishu: GMT+3 (East Africa Time)\"'\n        - 'option \"Africa/Monrovia: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Nairobi: GMT+3 (East Africa Time)\"'\n        - 'option \"Africa/Ndjamena: GMT+1 (West Africa Time)\"'\n        - 'option \"Africa/Niamey: GMT+1 (West Africa Time)\"'\n        - 'option \"Africa/Nouakchott: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Ouagadougou: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Porto-Novo: GMT+1 (West Africa Time)\"'\n        - 'option \"Africa/Sao_Tome: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Timbuktu: GMT (Greenwich Mean Time)\"'\n        - 'option \"Africa/Tripoli: GMT+2 (Eastern European Standard Time)\"'\n        - 'option \"Africa/Tunis: GMT+1 (Central European Standard Time)\"'\n        - 'option \"Africa/Windhoek: GMT+2 (Central Africa Time)\"'\n        - 'option \"America/Adak: HADT (Hawaii-Aleutian Daylight Time)\"'\n        - 'option \"America/Anchorage: AKDT (Alaska Daylight Time)\"'\n        - 'option \"America/Anguilla: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Antigua: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Araguaina: GMT-3 (Brasilia Standard Time)\"'\n        - 'option \"America/Argentina/Buenos_Aires: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Argentina/Catamarca: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Argentina/ComodRivadavia: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Argentina/Cordoba: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Argentina/Jujuy: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Argentina/La_Rioja: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Argentina/Mendoza: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Argentina/Rio_Gallegos: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Argentina/Salta: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Argentina/San_Juan: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Argentina/San_Luis: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Argentina/Tucuman: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Argentina/Ushuaia: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Aruba: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Asuncion: GMT-3 (Paraguay Standard Time)\"'\n        - 'option \"America/Atikokan: EST (Eastern Standard Time)\"'\n        - 'option \"America/Atka: HADT (Hawaii-Aleutian Daylight Time)\"'\n        - 'option \"America/Bahia: GMT-3 (Brasilia Standard Time)\"'\n        - 'option \"America/Bahia_Banderas: CST (Central Standard Time)\"'\n        - 'option \"America/Barbados: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Belem: GMT-3 (Brasilia Standard Time)\"'\n        - 'option \"America/Belize: CST (Central Standard Time)\"'\n        - 'option \"America/Blanc-Sablon: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Boa_Vista: GMT-4 (Amazon Standard Time)\"'\n        - 'option \"America/Bogota: GMT-5 (Colombia Standard Time)\"'\n        - 'option \"America/Boise: MDT (Mountain Daylight Time)\"'\n        - 'option \"America/Buenos_Aires: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Cambridge_Bay: MDT (Mountain Daylight Time)\"'\n        - 'option \"America/Campo_Grande: GMT-4 (Amazon Standard Time)\"'\n        - 'option \"America/Cancun: EST (Eastern Standard Time)\"'\n        - 'option \"America/Caracas: GMT-4 (Venezuela Time)\"'\n        - 'option \"America/Catamarca: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Cayenne: GMT-3 (French Guiana Time)\"'\n        - 'option \"America/Cayman: EST (Eastern Standard Time)\"'\n        - 'option \"America/Chicago: CDT (Central Daylight Time)\"'\n        - 'option \"America/Chihuahua: CST (Central Standard Time)\"'\n        - 'option \"America/Ciudad_Juarez: MDT (Mountain Daylight Time)\"'\n        - 'option \"America/Coral_Harbour: EST (Eastern Standard Time)\"'\n        - 'option \"America/Cordoba: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Costa_Rica: CST (Central Standard Time)\"'\n        - 'option \"America/Coyhaique: GMT-3 (GMT-03:00)\"'\n        - 'option \"America/Creston: MST (Mountain Standard Time)\"'\n        - 'option \"America/Cuiaba: GMT-4 (Amazon Standard Time)\"'\n        - 'option \"America/Curacao: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Danmarkshavn: GMT (Greenwich Mean Time)\"'\n        - 'option \"America/Dawson: GMT-7 (Yukon Time)\"'\n        - 'option \"America/Dawson_Creek: MST (Mountain Standard Time)\"'\n        - 'option \"America/Denver: MDT (Mountain Daylight Time)\"'\n        - 'option \"America/Detroit: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Dominica: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Edmonton: MDT (Mountain Daylight Time)\"'\n        - 'option \"America/Eirunepe: GMT-5 (Acre Standard Time)\"'\n        - 'option \"America/El_Salvador: CST (Central Standard Time)\"'\n        - 'option \"America/Ensenada: PDT (Pacific Daylight Time)\"'\n        - 'option \"America/Fort_Nelson: MST (Mountain Standard Time)\"'\n        - 'option \"America/Fort_Wayne: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Fortaleza: GMT-3 (Brasilia Standard Time)\"'\n        - 'option \"America/Glace_Bay: ADT (Atlantic Daylight Time)\"'\n        - 'option \"America/Godthab: GMT-1 (Greenland Summer Time)\"'\n        - 'option \"America/Goose_Bay: ADT (Atlantic Daylight Time)\"'\n        - 'option \"America/Grand_Turk: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Grenada: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Guadeloupe: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Guatemala: CST (Central Standard Time)\"'\n        - 'option \"America/Guayaquil: GMT-5 (Ecuador Time)\"'\n        - 'option \"America/Guyana: GMT-4 (Guyana Time)\"'\n        - 'option \"America/Halifax: ADT (Atlantic Daylight Time)\"'\n        - 'option \"America/Havana: GMT-4 (Cuba Daylight Time)\"'\n        - 'option \"America/Hermosillo: GMT-7 (Mexican Pacific Standard Time)\"'\n        - 'option \"America/Indiana/Indianapolis: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Indiana/Knox: CDT (Central Daylight Time)\"'\n        - 'option \"America/Indiana/Marengo: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Indiana/Petersburg: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Indiana/Tell_City: CDT (Central Daylight Time)\"'\n        - 'option \"America/Indiana/Vevay: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Indiana/Vincennes: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Indiana/Winamac: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Indianapolis: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Inuvik: MDT (Mountain Daylight Time)\"'\n        - 'option \"America/Iqaluit: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Jamaica: EST (Eastern Standard Time)\"'\n        - 'option \"America/Jujuy: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Juneau: AKDT (Alaska Daylight Time)\"'\n        - 'option \"America/Kentucky/Louisville: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Kentucky/Monticello: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Knox_IN: CDT (Central Daylight Time)\"'\n        - 'option \"America/Kralendijk: AST (Atlantic Standard Time)\"'\n        - 'option \"America/La_Paz: GMT-4 (Bolivia Time)\"'\n        - 'option \"America/Lima: GMT-5 (Peru Standard Time)\"'\n        - 'option \"America/Los_Angeles: PDT (Pacific Daylight Time)\"'\n        - 'option \"America/Louisville: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Lower_Princes: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Maceio: GMT-3 (Brasilia Standard Time)\"'\n        - 'option \"America/Managua: CST (Central Standard Time)\"'\n        - 'option \"America/Manaus: GMT-4 (Amazon Standard Time)\"'\n        - 'option \"America/Marigot: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Martinique: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Matamoros: CDT (Central Daylight Time)\"'\n        - 'option \"America/Mazatlan: GMT-7 (Mexican Pacific Standard Time)\"'\n        - 'option \"America/Mendoza: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Menominee: CDT (Central Daylight Time)\"'\n        - 'option \"America/Merida: CST (Central Standard Time)\"'\n        - 'option \"America/Metlakatla: AKDT (Alaska Daylight Time)\"'\n        - 'option \"America/Mexico_City: CST (Central Standard Time)\"'\n        - 'option \"America/Miquelon: GMT-2 (St. Pierre & Miquelon Daylight Time)\"'\n        - 'option \"America/Moncton: ADT (Atlantic Daylight Time)\"'\n        - 'option \"America/Monterrey: CST (Central Standard Time)\"'\n        - 'option \"America/Montevideo: GMT-3 (Uruguay Standard Time)\"'\n        - 'option \"America/Montreal: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Montserrat: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Nassau: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/New_York: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Nipigon: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Nome: AKDT (Alaska Daylight Time)\"'\n        - 'option \"America/Noronha: GMT-2 (Fernando de Noronha Standard Time)\"'\n        - 'option \"America/North_Dakota/Beulah: CDT (Central Daylight Time)\"'\n        - 'option \"America/North_Dakota/Center: CDT (Central Daylight Time)\"'\n        - 'option \"America/North_Dakota/New_Salem: CDT (Central Daylight Time)\"'\n        - 'option \"America/Nuuk: GMT-1 (Greenland Summer Time)\"'\n        - 'option \"America/Ojinaga: CDT (Central Daylight Time)\"'\n        - 'option \"America/Panama: EST (Eastern Standard Time)\"'\n        - 'option \"America/Pangnirtung: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Paramaribo: GMT-3 (Suriname Time)\"'\n        - 'option \"America/Phoenix: MST (Mountain Standard Time)\"'\n        - 'option \"America/Port-au-Prince: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Port_of_Spain: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Porto_Acre: GMT-5 (Acre Standard Time)\"'\n        - 'option \"America/Porto_Velho: GMT-4 (Amazon Standard Time)\"'\n        - 'option \"America/Puerto_Rico: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Punta_Arenas: GMT-3 (GMT-03:00)\"'\n        - 'option \"America/Rainy_River: CDT (Central Daylight Time)\"'\n        - 'option \"America/Rankin_Inlet: CDT (Central Daylight Time)\"'\n        - 'option \"America/Recife: GMT-3 (Brasilia Standard Time)\"'\n        - 'option \"America/Regina: CST (Central Standard Time)\"'\n        - 'option \"America/Resolute: CDT (Central Daylight Time)\"'\n        - 'option \"America/Rio_Branco: GMT-5 (Acre Standard Time)\"'\n        - 'option \"America/Rosario: GMT-3 (Argentina Standard Time)\"'\n        - 'option \"America/Santa_Isabel: PDT (Pacific Daylight Time)\"'\n        - 'option \"America/Santarem: GMT-3 (Brasilia Standard Time)\"'\n        - 'option \"America/Santiago: GMT-3 (Chile Summer Time)\"'\n        - 'option \"America/Santo_Domingo: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Sao_Paulo: GMT-3 (Brasilia Standard Time)\"'\n        - 'option \"America/Scoresbysund: GMT-1 (Greenland Summer Time)\"'\n        - 'option \"America/Shiprock: MDT (Mountain Daylight Time)\"'\n        - 'option \"America/Sitka: AKDT (Alaska Daylight Time)\"'\n        - 'option \"America/St_Barthelemy: AST (Atlantic Standard Time)\"'\n        - 'option \"America/St_Johns: GMT-2:30 (Newfoundland Daylight Time)\"'\n        - 'option \"America/St_Kitts: AST (Atlantic Standard Time)\"'\n        - 'option \"America/St_Lucia: AST (Atlantic Standard Time)\"'\n        - 'option \"America/St_Thomas: AST (Atlantic Standard Time)\"'\n        - 'option \"America/St_Vincent: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Swift_Current: CST (Central Standard Time)\"'\n        - 'option \"America/Tegucigalpa: CST (Central Standard Time)\"'\n        - 'option \"America/Thule: ADT (Atlantic Daylight Time)\"'\n        - 'option \"America/Thunder_Bay: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Tijuana: PDT (Pacific Daylight Time)\"'\n        - 'option \"America/Toronto: EDT (Eastern Daylight Time)\"'\n        - 'option \"America/Tortola: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Vancouver: PDT (Pacific Daylight Time)\"'\n        - 'option \"America/Virgin: AST (Atlantic Standard Time)\"'\n        - 'option \"America/Whitehorse: GMT-7 (Yukon Time)\"'\n        - 'option \"America/Winnipeg: CDT (Central Daylight Time)\"'\n        - 'option \"America/Yakutat: AKDT (Alaska Daylight Time)\"'\n        - 'option \"America/Yellowknife: MDT (Mountain Daylight Time)\"'\n        - 'option \"Antarctica/Casey: GMT+8 (Australian Western Standard Time)\"'\n        - 'option \"Antarctica/Davis: GMT+7 (Davis Time)\"'\n        - 'option \"Antarctica/DumontDUrville: GMT+10 (Dumont d’Urville Time)\"'\n        - 'option \"Antarctica/Macquarie: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Antarctica/Mawson: GMT+5 (Mawson Time)\"'\n        - 'option \"Antarctica/McMurdo: GMT+13 (New Zealand Daylight Time)\"'\n        - 'option \"Antarctica/Palmer: GMT-3 (GMT-03:00)\"'\n        - 'option \"Antarctica/Rothera: GMT-3 (Rothera Time)\"'\n        - 'option \"Antarctica/South_Pole: GMT+13 (New Zealand Daylight Time)\"'\n        - 'option \"Antarctica/Syowa: GMT+3 (Syowa Time)\"'\n        - 'option \"Antarctica/Troll: GMT+2 (GMT+02:00)\"'\n        - 'option \"Antarctica/Vostok: GMT+5 (Vostok Time)\"'\n        - 'option \"Arctic/Longyearbyen: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Asia/Aden: GMT+3 (Arabian Standard Time)\"'\n        - 'option \"Asia/Almaty: GMT+5 (Kazakhstan Time)\"'\n        - 'option \"Asia/Amman: GMT+3 (GMT+03:00)\"'\n        - 'option \"Asia/Anadyr: GMT+12 (Kamchatka Standard Time)\"'\n        - 'option \"Asia/Aqtau: GMT+5 (Kazakhstan Time)\"'\n        - 'option \"Asia/Aqtobe: GMT+5 (Kazakhstan Time)\"'\n        - 'option \"Asia/Ashgabat: GMT+5 (Turkmenistan Standard Time)\"'\n        - 'option \"Asia/Ashkhabad: GMT+5 (Turkmenistan Standard Time)\"'\n        - 'option \"Asia/Atyrau: GMT+5 (Kazakhstan Time)\"'\n        - 'option \"Asia/Baghdad: GMT+3 (Arabian Standard Time)\"'\n        - 'option \"Asia/Bahrain: GMT+3 (Arabian Standard Time)\"'\n        - 'option \"Asia/Baku: GMT+4 (Azerbaijan Standard Time)\"'\n        - 'option \"Asia/Bangkok: GMT+7 (Indochina Time)\"'\n        - 'option \"Asia/Barnaul: GMT+7 (Krasnoyarsk Standard Time)\"'\n        - 'option \"Asia/Beirut: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Asia/Bishkek: GMT+6 (Kyrgyzstan Time)\"'\n        - 'option \"Asia/Brunei: GMT+8 (Brunei Time)\"'\n        - 'option \"Asia/Calcutta: GMT+5:30 (India Standard Time)\"'\n        - 'option \"Asia/Chita: GMT+9 (Yakutsk Standard Time)\"'\n        - 'option \"Asia/Choibalsan: GMT+8 (Ulaanbaatar Standard Time)\"'\n        - 'option \"Asia/Chongqing: GMT+8 (China Standard Time)\"'\n        - 'option \"Asia/Chungking: GMT+8 (China Standard Time)\"'\n        - 'option \"Asia/Colombo: GMT+5:30 (India Standard Time)\"'\n        - 'option \"Asia/Dacca: GMT+6 (Bangladesh Standard Time)\"'\n        - 'option \"Asia/Damascus: GMT+3 (GMT+03:00)\"'\n        - 'option \"Asia/Dhaka: GMT+6 (Bangladesh Standard Time)\"'\n        - 'option \"Asia/Dili: GMT+9 (Timor-Leste Time)\"'\n        - 'option \"Asia/Dubai: GMT+4 (Gulf Standard Time)\"'\n        - 'option \"Asia/Dushanbe: GMT+5 (Tajikistan Time)\"'\n        - 'option \"Asia/Famagusta: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Asia/Gaza: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Asia/Harbin: GMT+8 (China Standard Time)\"'\n        - 'option \"Asia/Hebron: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Asia/Ho_Chi_Minh: GMT+7 (Indochina Time)\"'\n        - 'option \"Asia/Hong_Kong: GMT+8 (Hong Kong Standard Time)\"'\n        - 'option \"Asia/Hovd: GMT+7 (Khovd Standard Time)\"'\n        - 'option \"Asia/Irkutsk: GMT+8 (Irkutsk Standard Time)\"'\n        - 'option \"Asia/Istanbul: GMT+3 (Türkiye Standard Time)\"'\n        - 'option \"Asia/Jakarta: GMT+7 (Western Indonesia Time)\"'\n        - 'option \"Asia/Jayapura: GMT+9 (Eastern Indonesia Time)\"'\n        - 'option \"Asia/Jerusalem: GMT+3 (Israel Daylight Time)\"'\n        - 'option \"Asia/Kabul: GMT+4:30 (Afghanistan Time)\"'\n        - 'option \"Asia/Kamchatka: GMT+12 (Kamchatka Standard Time)\"'\n        - 'option \"Asia/Karachi: GMT+5 (Pakistan Standard Time)\"'\n        - 'option \"Asia/Kashgar: GMT+6 (GMT+06:00)\"'\n        - 'option \"Asia/Kathmandu: GMT+5:45 (Nepal Time)\"'\n        - 'option \"Asia/Katmandu: GMT+5:45 (Nepal Time)\"'\n        - 'option \"Asia/Khandyga: GMT+9 (Yakutsk Standard Time)\"'\n        - 'option \"Asia/Kolkata: GMT+5:30 (India Standard Time)\"'\n        - 'option \"Asia/Krasnoyarsk: GMT+7 (Krasnoyarsk Standard Time)\"'\n        - 'option \"Asia/Kuala_Lumpur: GMT+8 (Malaysia Time)\"'\n        - 'option \"Asia/Kuching: GMT+8 (Malaysia Time)\"'\n        - 'option \"Asia/Kuwait: GMT+3 (Arabian Standard Time)\"'\n        - 'option \"Asia/Macao: GMT+8 (China Standard Time)\"'\n        - 'option \"Asia/Macau: GMT+8 (China Standard Time)\"'\n        - 'option \"Asia/Magadan: GMT+11 (Magadan Standard Time)\"'\n        - 'option \"Asia/Makassar: GMT+8 (Central Indonesia Time)\"'\n        - 'option \"Asia/Manila: GMT+8 (Philippine Standard Time)\"'\n        - 'option \"Asia/Muscat: GMT+4 (Gulf Standard Time)\"'\n        - 'option \"Asia/Nicosia: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Asia/Novokuznetsk: GMT+7 (Krasnoyarsk Standard Time)\"'\n        - 'option \"Asia/Novosibirsk: GMT+7 (Krasnoyarsk Standard Time)\"'\n        - 'option \"Asia/Omsk: GMT+6 (Omsk Standard Time)\"'\n        - 'option \"Asia/Oral: GMT+5 (Kazakhstan Time)\"'\n        - 'option \"Asia/Phnom_Penh: GMT+7 (Indochina Time)\"'\n        - 'option \"Asia/Pontianak: GMT+7 (Western Indonesia Time)\"'\n        - 'option \"Asia/Pyongyang: GMT+9 (Korean Standard Time)\"'\n        - 'option \"Asia/Qatar: GMT+3 (Arabian Standard Time)\"'\n        - 'option \"Asia/Qostanay: GMT+5 (Kazakhstan Time)\"'\n        - 'option \"Asia/Qyzylorda: GMT+5 (Kazakhstan Time)\"'\n        - 'option \"Asia/Rangoon: GMT+6:30 (Myanmar Time)\"'\n        - 'option \"Asia/Riyadh: GMT+3 (Arabian Standard Time)\"'\n        - 'option \"Asia/Saigon: GMT+7 (Indochina Time)\"'\n        - 'option \"Asia/Sakhalin: GMT+11 (Magadan Standard Time)\"'\n        - 'option \"Asia/Samarkand: GMT+5 (Uzbekistan Standard Time)\"'\n        - 'option \"Asia/Seoul: GMT+9 (Korean Standard Time)\"'\n        - 'option \"Asia/Shanghai: GMT+8 (China Standard Time)\"'\n        - 'option \"Asia/Singapore: GMT+8 (Singapore Standard Time)\"'\n        - 'option \"Asia/Srednekolymsk: GMT+11 (Magadan Standard Time)\"'\n        - 'option \"Asia/Taipei: GMT+8 (Taiwan Standard Time)\"'\n        - 'option \"Asia/Tashkent: GMT+5 (Uzbekistan Standard Time)\"'\n        - 'option \"Asia/Tbilisi: GMT+4 (Georgia Standard Time)\"'\n        - 'option \"Asia/Tehran: GMT+3:30 (Iran Standard Time)\"'\n        - 'option \"Asia/Tel_Aviv: GMT+3 (Israel Daylight Time)\"'\n        - 'option \"Asia/Thimbu: GMT+6 (Bhutan Time)\"'\n        - 'option \"Asia/Thimphu: GMT+6 (Bhutan Time)\"'\n        - 'option \"Asia/Tokyo: GMT+9 (Japan Standard Time)\"'\n        - 'option \"Asia/Tomsk: GMT+7 (Krasnoyarsk Standard Time)\"'\n        - 'option \"Asia/Ujung_Pandang: GMT+8 (Central Indonesia Time)\"'\n        - 'option \"Asia/Ulaanbaatar: GMT+8 (Ulaanbaatar Standard Time)\"'\n        - 'option \"Asia/Ulan_Bator: GMT+8 (Ulaanbaatar Standard Time)\"'\n        - 'option \"Asia/Urumqi: GMT+6 (GMT+06:00)\"'\n        - 'option \"Asia/Ust-Nera: GMT+10 (Vladivostok Standard Time)\"'\n        - 'option \"Asia/Vientiane: GMT+7 (Indochina Time)\"'\n        - 'option \"Asia/Vladivostok: GMT+10 (Vladivostok Standard Time)\"'\n        - 'option \"Asia/Yakutsk: GMT+9 (Yakutsk Standard Time)\"'\n        - 'option \"Asia/Yangon: GMT+6:30 (Myanmar Time)\"'\n        - 'option \"Asia/Yekaterinburg: GMT+5 (Yekaterinburg Standard Time)\"'\n        - 'option \"Asia/Yerevan: GMT+4 (Armenia Standard Time)\"'\n        - 'option \"Atlantic/Azores: GMT+0 (Azores Summer Time)\"'\n        - 'option \"Atlantic/Bermuda: ADT (Atlantic Daylight Time)\"'\n        - 'option \"Atlantic/Canary: GMT+1 (Western European Summer Time)\"'\n        - 'option \"Atlantic/Cape_Verde: GMT-1 (Cape Verde Standard Time)\"'\n        - 'option \"Atlantic/Faeroe: GMT+1 (Western European Summer Time)\"'\n        - 'option \"Atlantic/Faroe: GMT+1 (Western European Summer Time)\"'\n        - 'option \"Atlantic/Jan_Mayen: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Atlantic/Madeira: GMT+1 (Western European Summer Time)\"'\n        - 'option \"Atlantic/Reykjavik: GMT (Greenwich Mean Time)\"'\n        - 'option \"Atlantic/South_Georgia: GMT-2 (South Georgia Time)\"'\n        - 'option \"Atlantic/St_Helena: GMT (Greenwich Mean Time)\"'\n        - 'option \"Atlantic/Stanley: GMT-3 (Falkland Islands Standard Time)\"'\n        - 'option \"Australia/ACT: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Australia/Adelaide: GMT+9:30 (Australian Central Standard Time)\"'\n        - 'option \"Australia/Brisbane: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Australia/Broken_Hill: GMT+9:30 (Australian Central Standard Time)\"'\n        - 'option \"Australia/Canberra: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Australia/Currie: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Australia/Darwin: GMT+9:30 (Australian Central Standard Time)\"'\n        - 'option \"Australia/Eucla: GMT+8:45 (Australian Central Western Standard Time)\"'\n        - 'option \"Australia/Hobart: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Australia/LHI: GMT+10:30 (Lord Howe Standard Time)\"'\n        - 'option \"Australia/Lindeman: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Australia/Lord_Howe: GMT+10:30 (Lord Howe Standard Time)\"'\n        - 'option \"Australia/Melbourne: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Australia/NSW: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Australia/North: GMT+9:30 (Australian Central Standard Time)\"'\n        - 'option \"Australia/Perth: GMT+8 (Australian Western Standard Time)\"'\n        - 'option \"Australia/Queensland: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Australia/South: GMT+9:30 (Australian Central Standard Time)\"'\n        - 'option \"Australia/Sydney: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Australia/Tasmania: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Australia/Victoria: GMT+10 (Australian Eastern Standard Time)\"'\n        - 'option \"Australia/West: GMT+8 (Australian Western Standard Time)\"'\n        - 'option \"Australia/Yancowinna: GMT+9:30 (Australian Central Standard Time)\"'\n        - 'option \"Brazil/Acre: GMT-5 (Acre Standard Time)\"'\n        - 'option \"Brazil/DeNoronha: GMT-2 (Fernando de Noronha Standard Time)\"'\n        - 'option \"Brazil/East: GMT-3 (Brasilia Standard Time)\"'\n        - 'option \"Brazil/West: GMT-4 (Amazon Standard Time)\"'\n        - 'option \"CET: GMT+2 (Central European Summer Time)\"'\n        - 'option \"CST6CDT: CDT (Central Daylight Time)\"'\n        - 'option \"Canada/Atlantic: ADT (Atlantic Daylight Time)\"'\n        - 'option \"Canada/Central: CDT (Central Daylight Time)\"'\n        - 'option \"Canada/Eastern: EDT (Eastern Daylight Time)\"'\n        - 'option \"Canada/Mountain: MDT (Mountain Daylight Time)\"'\n        - 'option \"Canada/Newfoundland: GMT-2:30 (Newfoundland Daylight Time)\"'\n        - 'option \"Canada/Pacific: PDT (Pacific Daylight Time)\"'\n        - 'option \"Canada/Saskatchewan: CST (Central Standard Time)\"'\n        - 'option \"Canada/Yukon: GMT-7 (Yukon Time)\"'\n        - 'option \"Chile/Continental: GMT-3 (Chile Summer Time)\"'\n        - 'option \"Chile/EasterIsland: GMT-5 (Easter Island Summer Time)\"'\n        - 'option \"Cuba: GMT-4 (Cuba Daylight Time)\"'\n        - 'option \"EET: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"EST: EST (Eastern Standard Time)\"'\n        - 'option \"EST5EDT: EDT (Eastern Daylight Time)\"'\n        - 'option \"Egypt: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Eire: GMT+1 (Irish Standard Time)\"'\n        - 'option \"Etc/GMT: UTC (Coordinated Universal Time)\"'\n        - 'option \"Etc/GMT+0: GMT (Greenwich Mean Time)\"'\n        - 'option \"Etc/GMT+1: GMT-1 (GMT-01:00)\"'\n        - 'option \"Etc/GMT+10: GMT-10 (GMT-10:00)\"'\n        - 'option \"Etc/GMT+11: GMT-11 (GMT-11:00)\"'\n        - 'option \"Etc/GMT+12: GMT-12 (GMT-12:00)\"'\n        - 'option \"Etc/GMT+2: GMT-2 (GMT-02:00)\"'\n        - 'option \"Etc/GMT+3: GMT-3 (GMT-03:00)\"'\n        - 'option \"Etc/GMT+4: GMT-4 (GMT-04:00)\"'\n        - 'option \"Etc/GMT+5: GMT-5 (GMT-05:00)\"'\n        - 'option \"Etc/GMT+6: GMT-6 (GMT-06:00)\"'\n        - 'option \"Etc/GMT+7: GMT-7 (GMT-07:00)\"'\n        - 'option \"Etc/GMT+8: GMT-8 (GMT-08:00)\"'\n        - 'option \"Etc/GMT+9: GMT-9 (GMT-09:00)\"'\n        - 'option \"Etc/GMT-0: GMT (Greenwich Mean Time)\"'\n        - 'option \"Etc/GMT-1: GMT+1 (GMT+01:00)\"'\n        - 'option \"Etc/GMT-10: GMT+10 (GMT+10:00)\"'\n        - 'option \"Etc/GMT-11: GMT+11 (GMT+11:00)\"'\n        - 'option \"Etc/GMT-12: GMT+12 (GMT+12:00)\"'\n        - 'option \"Etc/GMT-13: GMT+13 (GMT+13:00)\"'\n        - 'option \"Etc/GMT-14: GMT+14 (GMT+14:00)\"'\n        - 'option \"Etc/GMT-2: GMT+2 (GMT+02:00)\"'\n        - 'option \"Etc/GMT-3: GMT+3 (GMT+03:00)\"'\n        - 'option \"Etc/GMT-4: GMT+4 (GMT+04:00)\"'\n        - 'option \"Etc/GMT-5: GMT+5 (GMT+05:00)\"'\n        - 'option \"Etc/GMT-6: GMT+6 (GMT+06:00)\"'\n        - 'option \"Etc/GMT-7: GMT+7 (GMT+07:00)\"'\n        - 'option \"Etc/GMT-8: GMT+8 (GMT+08:00)\"'\n        - 'option \"Etc/GMT-9: GMT+9 (GMT+09:00)\"'\n        - 'option \"Etc/GMT0: GMT (Greenwich Mean Time)\"'\n        - 'option \"Etc/Greenwich: GMT (Greenwich Mean Time)\"'\n        - 'option \"Etc/UCT: UTC (Coordinated Universal Time)\"'\n        - 'option \"Etc/UTC: UTC (Coordinated Universal Time)\"'\n        - 'option \"Etc/Universal: UTC (Coordinated Universal Time)\"'\n        - 'option \"Etc/Zulu: UTC (Coordinated Universal Time)\"'\n        - 'option \"Europe/Amsterdam: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Andorra: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Astrakhan: GMT+4 (Samara Standard Time)\"'\n        - 'option \"Europe/Athens: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Belfast: GMT+1 (British Summer Time)\"'\n        - 'option \"Europe/Belgrade: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Berlin: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Bratislava: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Brussels: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Bucharest: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Budapest: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Busingen: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Chisinau: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Copenhagen: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Dublin: GMT+1 (Irish Standard Time)\"'\n        - 'option \"Europe/Gibraltar: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Guernsey: GMT+1 (GMT+01:00)\"'\n        - 'option \"Europe/Helsinki: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Isle_of_Man: GMT+1 (GMT+01:00)\"'\n        - 'option \"Europe/Istanbul: GMT+3 (Türkiye Standard Time)\"'\n        - 'option \"Europe/Jersey: GMT+1 (GMT+01:00)\"'\n        - 'option \"Europe/Kaliningrad: GMT+2 (Eastern European Standard Time)\"'\n        - 'option \"Europe/Kiev: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Kirov: GMT+3 (Moscow Standard Time)\"'\n        - 'option \"Europe/Kyiv: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Lisbon: GMT+1 (Western European Summer Time)\"'\n        - 'option \"Europe/Ljubljana: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/London: GMT+1 (British Summer Time)\"'\n        - 'option \"Europe/Luxembourg: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Madrid: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Malta: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Mariehamn: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Minsk: GMT+3 (Moscow Standard Time)\"'\n        - 'option \"Europe/Monaco: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Moscow: GMT+3 (Moscow Standard Time)\"'\n        - 'option \"Europe/Nicosia: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Oslo: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Paris: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Podgorica: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Prague: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Riga: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Rome: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Samara: GMT+4 (Samara Standard Time)\"'\n        - 'option \"Europe/San_Marino: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Sarajevo: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Saratov: GMT+4 (Samara Standard Time)\"'\n        - 'option \"Europe/Simferopol: GMT+3 (Moscow Standard Time)\"'\n        - 'option \"Europe/Skopje: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Sofia: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Stockholm: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Tallinn: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Tirane: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Tiraspol: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Ulyanovsk: GMT+4 (Samara Standard Time)\"'\n        - 'option \"Europe/Uzhgorod: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Vaduz: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Vatican: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Vienna: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Vilnius: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Volgograd: GMT+3 (Moscow Standard Time)\"'\n        - 'option \"Europe/Warsaw: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Zagreb: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Europe/Zaporozhye: GMT+3 (Eastern European Summer Time)\"'\n        - 'option \"Europe/Zurich: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Factory: GMT+0 (GMT+00:00)\"'\n        - 'option \"GB: GMT+1 (British Summer Time)\"'\n        - 'option \"GB-Eire: GMT+1 (British Summer Time)\"'\n        - 'option \"GMT: UTC (Coordinated Universal Time)\"'\n        - 'option \"GMT+0: UTC (Coordinated Universal Time)\"'\n        - 'option \"GMT-0: UTC (Coordinated Universal Time)\"'\n        - 'option \"GMT0: UTC (Coordinated Universal Time)\"'\n        - 'option \"Greenwich: GMT (Greenwich Mean Time)\"'\n        - 'option \"HST: HST (Hawaii-Aleutian Standard Time)\"'\n        - 'option \"Hongkong: GMT+8 (Hong Kong Standard Time)\"'\n        - 'option \"Iceland: GMT (Greenwich Mean Time)\"'\n        - 'option \"Indian/Antananarivo: GMT+3 (East Africa Time)\"'\n        - 'option \"Indian/Chagos: GMT+6 (Indian Ocean Time)\"'\n        - 'option \"Indian/Christmas: GMT+7 (Christmas Island Time)\"'\n        - 'option \"Indian/Cocos: GMT+6:30 (Cocos Islands Time)\"'\n        - 'option \"Indian/Comoro: GMT+3 (East Africa Time)\"'\n        - 'option \"Indian/Kerguelen: GMT+5 (French Southern & Antarctic Time)\"'\n        - 'option \"Indian/Mahe: GMT+4 (Seychelles Time)\"'\n        - 'option \"Indian/Maldives: GMT+5 (Maldives Time)\"'\n        - 'option \"Indian/Mauritius: GMT+4 (Mauritius Standard Time)\"'\n        - 'option \"Indian/Mayotte: GMT+3 (East Africa Time)\"'\n        - 'option \"Indian/Reunion: GMT+4 (Réunion Time)\"'\n        - 'option \"Iran: GMT+3:30 (Iran Standard Time)\"'\n        - 'option \"Israel: GMT+3 (Israel Daylight Time)\"'\n        - 'option \"Jamaica: EST (Eastern Standard Time)\"'\n        - 'option \"Japan: GMT+9 (Japan Standard Time)\"'\n        - 'option \"Kwajalein: GMT+12 (Marshall Islands Time)\"'\n        - 'option \"Libya: GMT+2 (Eastern European Standard Time)\"'\n        - 'option \"MET: GMT+2 (Central European Summer Time)\"'\n        - 'option \"MST: MST (Mountain Standard Time)\"'\n        - 'option \"MST7MDT: MDT (Mountain Daylight Time)\"'\n        - 'option \"Mexico/BajaNorte: PDT (Pacific Daylight Time)\"'\n        - 'option \"Mexico/BajaSur: GMT-7 (Mexican Pacific Standard Time)\"'\n        - 'option \"Mexico/General: CST (Central Standard Time)\"'\n        - 'option \"NZ: GMT+13 (New Zealand Daylight Time)\"'\n        - 'option \"NZ-CHAT: GMT+13:45 (Chatham Daylight Time)\"'\n        - 'option \"Navajo: MDT (Mountain Daylight Time)\"'\n        - 'option \"PRC: GMT+8 (China Standard Time)\"'\n        - 'option \"PST8PDT: PDT (Pacific Daylight Time)\"'\n        - 'option \"Pacific/Apia: GMT+13 (Samoa Standard Time)\"'\n        - 'option \"Pacific/Auckland: GMT+13 (New Zealand Daylight Time)\"'\n        - 'option \"Pacific/Bougainville: GMT+11 (GMT+11:00)\"'\n        - 'option \"Pacific/Chatham: GMT+13:45 (Chatham Daylight Time)\"'\n        - 'option \"Pacific/Chuuk: GMT+10 (Chuuk Time)\"'\n        - 'option \"Pacific/Easter: GMT-5 (Easter Island Summer Time)\"'\n        - 'option \"Pacific/Efate: GMT+11 (Vanuatu Standard Time)\"'\n        - 'option \"Pacific/Enderbury: GMT+13 (Phoenix Islands Time)\"'\n        - 'option \"Pacific/Fakaofo: GMT+13 (Tokelau Time)\"'\n        - 'option \"Pacific/Fiji: GMT+12 (Fiji Standard Time)\"'\n        - 'option \"Pacific/Funafuti: GMT+12 (Tuvalu Time)\"'\n        - 'option \"Pacific/Galapagos: GMT-6 (Galapagos Time)\"'\n        - 'option \"Pacific/Gambier: GMT-9 (Gambier Time)\"'\n        - 'option \"Pacific/Guadalcanal: GMT+11 (Solomon Islands Time)\"'\n        - 'option \"Pacific/Guam: GMT+10 (Chamorro Standard Time)\"'\n        - 'option \"Pacific/Honolulu: HST (Hawaii-Aleutian Standard Time)\"'\n        - 'option \"Pacific/Johnston: HST (Hawaii-Aleutian Standard Time)\"'\n        - 'option \"Pacific/Kanton: GMT+13 (Phoenix Islands Time)\"'\n        - 'option \"Pacific/Kiritimati: GMT+14 (Line Islands Time)\"'\n        - 'option \"Pacific/Kosrae: GMT+11 (Kosrae Time)\"'\n        - 'option \"Pacific/Kwajalein: GMT+12 (Marshall Islands Time)\"'\n        - 'option \"Pacific/Majuro: GMT+12 (Marshall Islands Time)\"'\n        - 'option \"Pacific/Marquesas: GMT-9:30 (Marquesas Time)\"'\n        - 'option \"Pacific/Midway: GMT-11 (American Samoa Standard Time)\"'\n        - 'option \"Pacific/Nauru: GMT+12 (Nauru Time)\"'\n        - 'option \"Pacific/Niue: GMT-11 (Niue Time)\"'\n        - 'option \"Pacific/Norfolk: GMT+11 (Norfolk Island Standard Time)\"'\n        - 'option \"Pacific/Noumea: GMT+11 (New Caledonia Standard Time)\"'\n        - 'option \"Pacific/Pago_Pago: GMT-11 (American Samoa Standard Time)\"'\n        - 'option \"Pacific/Palau: GMT+9 (Palau Time)\"'\n        - 'option \"Pacific/Pitcairn: GMT-8 (Pitcairn Time)\"'\n        - 'option \"Pacific/Pohnpei: GMT+11 (Pohnpei Time)\"'\n        - 'option \"Pacific/Ponape: GMT+11 (Pohnpei Time)\"'\n        - 'option \"Pacific/Port_Moresby: GMT+10 (Papua New Guinea Time)\"'\n        - 'option \"Pacific/Rarotonga: GMT-10 (Cook Islands Standard Time)\"'\n        - 'option \"Pacific/Saipan: GMT+10 (Chamorro Standard Time)\"'\n        - 'option \"Pacific/Samoa: GMT-11 (American Samoa Standard Time)\"'\n        - 'option \"Pacific/Tahiti: GMT-10 (Tahiti Time)\"'\n        - 'option \"Pacific/Tarawa: GMT+12 (Gilbert Islands Time)\"'\n        - 'option \"Pacific/Tongatapu: GMT+13 (Tonga Standard Time)\"'\n        - 'option \"Pacific/Truk: GMT+10 (Chuuk Time)\"'\n        - 'option \"Pacific/Wake: GMT+12 (Wake Island Time)\"'\n        - 'option \"Pacific/Wallis: GMT+12 (Wallis & Futuna Time)\"'\n        - 'option \"Pacific/Yap: GMT+10 (Chuuk Time)\"'\n        - 'option \"Poland: GMT+2 (Central European Summer Time)\"'\n        - 'option \"Portugal: GMT+1 (Western European Summer Time)\"'\n        - 'option \"ROC: GMT+8 (Taiwan Standard Time)\"'\n        - 'option \"ROK: GMT+9 (Korean Standard Time)\"'\n        - 'option \"Singapore: GMT+8 (Singapore Standard Time)\"'\n        - 'option \"Turkey: GMT+3 (Türkiye Standard Time)\"'\n        - 'option \"UCT: UTC (Coordinated Universal Time)\"'\n        - 'option \"US/Alaska: AKDT (Alaska Daylight Time)\"'\n        - 'option \"US/Aleutian: HADT (Hawaii-Aleutian Daylight Time)\"'\n        - 'option \"US/Arizona: MST (Mountain Standard Time)\"'\n        - 'option \"US/Central: CDT (Central Daylight Time)\"'\n        - 'option \"US/East-Indiana: EDT (Eastern Daylight Time)\"'\n        - 'option \"US/Eastern: EDT (Eastern Daylight Time)\"'\n        - 'option \"US/Hawaii: HST (Hawaii-Aleutian Standard Time)\"'\n        - 'option \"US/Indiana-Starke: CDT (Central Daylight Time)\"'\n        - 'option \"US/Michigan: EDT (Eastern Daylight Time)\"'\n        - 'option \"US/Mountain: MDT (Mountain Daylight Time)\"'\n        - 'option \"US/Pacific: PDT (Pacific Daylight Time)\"'\n        - 'option \"US/Samoa: GMT-11 (American Samoa Standard Time)\"'\n        - 'option \"UTC: UTC (Coordinated Universal Time)\"'\n        - 'option \"Universal: UTC (Coordinated Universal Time)\"'\n        - 'option \"W-SU: GMT+3 (Moscow Standard Time)\"'\n        - 'option \"WET: GMT+1 (Western European Summer Time)\"'\n        - 'option \"Zulu: UTC (Coordinated Universal Time)\"'\n    - region \"Theme preferences\":\n      - link \"Theme preferences\":\n        - /url: \"#theme-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Theme preferences\" [level=2]\n      - text: Admin theme*\n      - combobox \"Admin theme*\":\n        - option \"System default\"\n        - option \"Light\" [selected]\n        - option \"Dark\"\n      - text: Contrast*\n      - combobox \"Contrast*\":\n        - option \"System default\" [selected]\n        - option \"More contrast\"\n      - text: Density*\n      - combobox \"Density*\":\n        - option \"Default\" [selected]\n        - option \"Snug\"\n      - text: Keyboard shortcuts Enable custom keyboard shortcuts specific to Wagtail.\n      - checkbox \"Keyboard shortcuts\" [checked]\n    - region \"Password\":\n      - link \"Password\":\n        - /url: \"#password-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Password\" [level=2]\n      - text: Old password\n      - textbox \"Old password\"\n      - text: New password\n      - list:\n        - listitem: Your password can’t be too similar to your other personal information.\n        - listitem: Your password must contain at least 8 characters.\n        - listitem: Your password can’t be a commonly used password.\n        - listitem: Your password can’t be entirely numeric.\n      - textbox \"New password\"\n      - text: New password confirmation Enter the same password as before, for verification.\n      - textbox \"New password confirmation\"\n  - navigation \"Actions (footer)\":\n    - button \"Save\":\n      - emphasis: Save"
+    },
+    {
+      "kind": "tab",
+      "name": "Notifications",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "form-field-multiple-labels",
+          "impact": "moderate",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag332",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.3.3.2",
+            "RGAAv4",
+            "RGAA-11.2.1"
+          ],
+          "description": "Ensure form field does not have multiple label elements",
+          "help": "Form field must not have multiple label elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/form-field-multiple-labels?application=playwright",
+          "nodes": [
+            {
+              "any": [],
+              "all": [],
+              "none": [
+                {
+                  "id": "multiple-label",
+                  "data": null,
+                  "relatedNodes": [
+                    {
+                      "html": "<label class=\"w-field__label\" for=\"id_notifications-submitted_notifications\" id=\"id_notifications-submitted_notifications-label\">\n            Submitted notifications\n        </label>",
+                      "target": [
+                        "#id_notifications-submitted_notifications-label"
+                      ]
+                    },
+                    {
+                      "html": "<label class=\"switch\">",
+                      "target": [
+                        "div[data-contentpath=\"submitted_notifications\"] > .w-field__input[data-field-input=\"\"] > .switch"
+                      ]
+                    }
+                  ],
+                  "impact": "moderate",
+                  "message": "Multiple label elements is not widely supported in assistive technologies. Ensure the first label contains all necessary information."
+                }
+              ],
+              "impact": "moderate",
+              "html": "<input type=\"checkbox\" name=\"notifications-submitted_notifications\" aria-describedby=\"id_notifications-submitted_notifications-helptext\" id=\"id_notifications-submitted_notifications\" checked=\"\">",
+              "target": [
+                "#id_notifications-submitted_notifications"
+              ],
+              "failureSummary": "Fix all of the following:\n  Multiple label elements is not widely supported in assistive technologies. Ensure the first label contains all necessary information."
+            },
+            {
+              "any": [],
+              "all": [],
+              "none": [
+                {
+                  "id": "multiple-label",
+                  "data": null,
+                  "relatedNodes": [
+                    {
+                      "html": "<label class=\"w-field__label\" for=\"id_notifications-approved_notifications\" id=\"id_notifications-approved_notifications-label\">\n            Approved notifications\n        </label>",
+                      "target": [
+                        "#id_notifications-approved_notifications-label"
+                      ]
+                    },
+                    {
+                      "html": "<label class=\"switch\">",
+                      "target": [
+                        "div[data-contentpath=\"approved_notifications\"] > .w-field__input[data-field-input=\"\"] > .switch"
+                      ]
+                    }
+                  ],
+                  "impact": "moderate",
+                  "message": "Multiple label elements is not widely supported in assistive technologies. Ensure the first label contains all necessary information."
+                }
+              ],
+              "impact": "moderate",
+              "html": "<input type=\"checkbox\" name=\"notifications-approved_notifications\" aria-describedby=\"id_notifications-approved_notifications-helptext\" id=\"id_notifications-approved_notifications\" checked=\"\">",
+              "target": [
+                "#id_notifications-approved_notifications"
+              ],
+              "failureSummary": "Fix all of the following:\n  Multiple label elements is not widely supported in assistive technologies. Ensure the first label contains all necessary information."
+            },
+            {
+              "any": [],
+              "all": [],
+              "none": [
+                {
+                  "id": "multiple-label",
+                  "data": null,
+                  "relatedNodes": [
+                    {
+                      "html": "<label class=\"w-field__label\" for=\"id_notifications-rejected_notifications\" id=\"id_notifications-rejected_notifications-label\">\n            Rejected notifications\n        </label>",
+                      "target": [
+                        "#id_notifications-rejected_notifications-label"
+                      ]
+                    },
+                    {
+                      "html": "<label class=\"switch\">",
+                      "target": [
+                        "div[data-contentpath=\"rejected_notifications\"] > .w-field__input[data-field-input=\"\"] > .switch"
+                      ]
+                    }
+                  ],
+                  "impact": "moderate",
+                  "message": "Multiple label elements is not widely supported in assistive technologies. Ensure the first label contains all necessary information."
+                }
+              ],
+              "impact": "moderate",
+              "html": "<input type=\"checkbox\" name=\"notifications-rejected_notifications\" aria-describedby=\"id_notifications-rejected_notifications-helptext\" id=\"id_notifications-rejected_notifications\" checked=\"\">",
+              "target": [
+                "#id_notifications-rejected_notifications"
+              ],
+              "failureSummary": "Fix all of the following:\n  Multiple label elements is not widely supported in assistive technologies. Ensure the first label contains all necessary information."
+            },
+            {
+              "any": [],
+              "all": [],
+              "none": [
+                {
+                  "id": "multiple-label",
+                  "data": null,
+                  "relatedNodes": [
+                    {
+                      "html": "<label class=\"w-field__label\" for=\"id_notifications-updated_comments_notifications\" id=\"id_notifications-updated_comments_notifications-label\">\n            Updated comments notifications\n        </label>",
+                      "target": [
+                        "#id_notifications-updated_comments_notifications-label"
+                      ]
+                    },
+                    {
+                      "html": "<label class=\"switch\">",
+                      "target": [
+                        "div[data-contentpath=\"updated_comments_notifications\"] > .w-field__input[data-field-input=\"\"] > .switch"
+                      ]
+                    }
+                  ],
+                  "impact": "moderate",
+                  "message": "Multiple label elements is not widely supported in assistive technologies. Ensure the first label contains all necessary information."
+                }
+              ],
+              "impact": "moderate",
+              "html": "<input type=\"checkbox\" name=\"notifications-updated_comments_notifications\" aria-describedby=\"id_notifications-updated_comments_notifications-helptext\" id=\"id_notifications-updated_comments_notifications\" checked=\"\">",
+              "target": [
+                "#id_notifications-updated_comments_notifications"
+              ],
+              "failureSummary": "Fix all of the following:\n  Multiple label elements is not widely supported in assistive technologies. Ensure the first label contains all necessary information."
+            }
+          ]
+        }
+      ],
+      "ax": "- main:\n  - status:\n    - list\n  - heading \"Account\" [level=1]\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Account\":\n          - /url: \"\"\n  - heading \"Account\" [level=2]\n  - tablist:\n    - tab \"Profile\"\n    - tab \"Notifications\" [selected]\n  - tabpanel \"Notifications\":\n    - region \"Notifications\":\n      - link \"Notifications\":\n        - /url: \"#notifications-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Notifications\" [level=2]\n      - text: Submitted notifications Receive notification when a page is submitted for moderation\n      - checkbox \"Submitted notifications\" [checked]\n      - text: Approved notifications Receive notification when your page edit is approved\n      - checkbox \"Approved notifications\" [checked]\n      - text: Rejected notifications Receive notification when your page edit is rejected\n      - checkbox \"Rejected notifications\" [checked]\n      - text: Updated comments notifications Receive notification when comments have been created, resolved, or deleted on a page that you have subscribed to receive comment notifications on\n      - checkbox \"Updated comments notifications\" [checked]\n  - navigation \"Actions (footer)\":\n    - button \"Save\":\n      - emphasis: Save"
+    }
+  ],
+  "blocked": [],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list\n  - heading \"Account\" [level=1]\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Account\":\n          - /url: \"\"\n  - heading \"Account\" [level=2]\n  - tablist:\n    - tab \"Profile\"\n    - tab \"Notifications\" [selected]\n  - tabpanel \"Notifications\":\n    - region \"Notifications\":\n      - link \"Notifications\":\n        - /url: \"#notifications-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Notifications\" [level=2]\n      - text: Submitted notifications Receive notification when a page is submitted for moderation\n      - checkbox \"Submitted notifications\" [checked]\n      - text: Approved notifications Receive notification when your page edit is approved\n      - checkbox \"Approved notifications\" [checked]\n      - text: Rejected notifications Receive notification when your page edit is rejected\n      - checkbox \"Rejected notifications\" [checked]\n      - text: Updated comments notifications Receive notification when comments have been created, resolved, or deleted on a page that you have subscribed to receive comment notifications on\n      - checkbox \"Updated comments notifications\" [checked]\n  - navigation \"Actions (footer)\":\n    - button \"Save\":\n      - emphasis: Save"
+}

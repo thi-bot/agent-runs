@@ -1,0 +1,89 @@
+{
+  "skill": "forms-specialist",
+  "scope": [
+    "client/src/components/Draftail/index.js",
+    "client/src/components/StreamField/blocks/FieldBlock.js",
+    "client/src/controllers/TagController.ts",
+    "wagtail/admin/templates/wagtailadmin/shared/formatted_field.html",
+    "wagtail/admin/panels/field_panel.py",
+    "wagtail/users/forms.py",
+    "wagtail/contrib/forms/templates/wagtailforms/list_submissions.html",
+    "wagtail/images/templates/wagtailimages/multiple/add.html",
+    "wagtail/documents/templates/wagtaildocs/multiple/add.html",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+    "https://static-wagtail-v7-4.netlify.app/admin/forms/submissions/69/",
+    "https://static-wagtail-v7-4.netlify.app/admin/images/51/"
+  ],
+  "findings": [
+    {
+      "rule": "FORM-DRAFTAIL-NAME",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "client/src/components/Draftail/index.js:213",
+      "summary": "Draftail rich-text textboxes have no accessible name, including fifteen fields on the recipe editor.",
+      "fix": "Give each visible contenteditable textbox aria-labelledby pointing to its field or block label, or an equivalent translated aria-label; propagate this through Draftail options for both ordinary fields and StreamField widgets.",
+      "evidence": "Runtime /admin/pages/82/edit/: axe aria-input-field-name finds 15 role=textbox contenteditables without aria-label or aria-labelledby. A label targeting the hidden backing input does not name the visible editor.",
+      "component": "Draftail rich-text widget"
+    },
+    {
+      "rule": "FORM-SUBMISSION-CHECKBOX-NAME",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "wagtail/contrib/forms/templates/wagtailforms/list_submissions.html:12",
+      "summary": "Form-submission selection checkboxes have no names, so screen-reader users cannot identify the select-all control or selected record.",
+      "fix": "Label the header checkbox \u201cSelect all submissions\u201d and label each row checkbox \u201cSelect submission \u2026\u201d with a meaningful row identifier, using labels or aria-label.",
+      "evidence": "Runtime /admin/forms/submissions/69/: axe label flags header checkbox data-w-bulk-target=all and row checkbox name=selected-submissions; source lines 12 and 24 contain no labels.",
+      "component": "Form submissions listing"
+    },
+    {
+      "rule": "FORM-MULTIUPLOAD-NAME",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "wagtail/images/templates/wagtailimages/multiple/add.html:26",
+      "summary": "Multiple image and document upload file inputs have no accessible name.",
+      "fix": "Use an associated label for #fileupload in both upload templates; retain the visible \u201cOr choose from your computer\u201d text as the input name. Associate accepted-format and size instructions with aria-describedby.",
+      "evidence": "Runtime /admin/images/multiple/add/ and /admin/documents/multiple/add/: axe label flags #fileupload. Adjacent button text is not programmatically associated. Document template also has the input at line 26.",
+      "component": "Multiple image/document upload"
+    },
+    {
+      "rule": "FORM-TAG-INPUT-NAME",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "client/src/controllers/TagController.ts:63",
+      "summary": "Tag-it replaces the labeled tag field with an unnamed text input.",
+      "fix": "After tag-it initializes, give its generated input an ID and associate the existing Tags label with it, or copy the field label through aria-labelledby; also preserve relevant descriptions and invalid state.",
+      "evidence": "Runtime /admin/images/51/, /admin/documents/edit/2/, /admin/pages/68/edit/ and /admin/pages/77/edit/: axe label flags .ui-autocomplete-input. vendor/tag-it.js:130 creates <input type=text> without an ID/name association; TagController.connect does not supply one.",
+      "component": "Tag widget"
+    },
+    {
+      "rule": "FORM-STREAMFIELD-ERROR-ASSOCIATION",
+      "wcag": "1.3.1 A",
+      "severity": "moderate",
+      "location": "client/src/components/StreamField/blocks/FieldBlock.js:153",
+      "summary": "StreamField field errors are displayed beside inputs but are not programmatically associated with those inputs.",
+      "fix": "Include the existing ${prefix}-errors container in the widget aria-describedby tokens when invalid, preserving help-text tokens, and remove the error token when clear. Ensure custom widgets propagate the association to their interactive control.",
+      "evidence": "Source: error container has id=${prefix}-errors (line 24); setError appends text and sets invalid state (123\u2013146); getAttributes only describes ${prefix}-helptext (160\u2013161). No error ID is passed to the widget.",
+      "component": "StreamField FieldBlock validation"
+    },
+    {
+      "rule": "FORM-DRAFTAIL-DESCRIPTION-PROPAGATION",
+      "wcag": "1.3.1 A",
+      "severity": "moderate",
+      "location": "client/src/components/Draftail/index.js:161",
+      "summary": "Draftail does not propagate field instructions and validation descriptions from its hidden backing field to the interactive textbox.",
+      "fix": "Read and preserve the backing field aria-describedby tokens and pass them to Draftail ariaDescribedBy, adding the length counter rather than replacing them; propagate aria-invalid to the visible textbox as validation changes.",
+      "evidence": "initEditor sets ariaDescribedBy=null, only substitutes the length-counter ID at 199, and passes it at 251; BoundDraftailWidget.setInvalid only changes the hidden input at 343. Field help/error IDs supplied by FieldPanel are not used.",
+      "component": "Draftail field help and validation"
+    }
+  ],
+  "passed": [
+    "Shared formatted fields render associated labels, separately identified help and error containers. FieldPanel passes aria-describedby and aria-invalid for ordinary supported widgets.",
+    "User creation password fields explicitly set autocomplete=new-password.",
+    "Collection permission option checkboxes have visually hidden associated labels."
+  ],
+  "notes": [
+    "Archive POST validation, upload completion and server-side error responses were not exercised; these require a live writable test environment.",
+    "StreamField error association and Draftail validation-description propagation are source-confirmed findings; interactive invalid-state runtime testing is pending.",
+    "No missing autocomplete finding is asserted for editing another user\u2019s information; WCAG 1.3.5 concerns information about the person using the form."
+  ]
+}

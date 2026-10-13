@@ -1,0 +1,129 @@
+[
+  {
+    "path": "users/new/",
+    "darkContrast": [],
+    "colors": [
+      {
+        "id": "menu-search-q",
+        "color": "rgba(255, 255, 255, 0.8)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px solid rgb(92, 92, 92)"
+      },
+      {
+        "id": "id_username",
+        "color": "rgb(246, 246, 248)",
+        "bg": "rgb(38, 38, 38)",
+        "border": "1px solid rgb(92, 92, 92)"
+      },
+      {
+        "id": "id_first_name",
+        "color": "rgb(246, 246, 248)",
+        "bg": "rgb(38, 38, 38)",
+        "border": "1px solid rgb(92, 92, 92)"
+      }
+    ],
+    "textScale": {
+      "width": 1440,
+      "clipped": []
+    }
+  },
+  {
+    "path": "pages/69/edit/",
+    "darkContrast": [],
+    "colors": [
+      {
+        "id": "menu-search-q",
+        "color": "rgba(255, 255, 255, 0.8)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px solid rgb(92, 92, 92)"
+      },
+      {
+        "id": "id_title",
+        "color": "rgb(246, 246, 248)",
+        "bg": "rgb(38, 38, 38)",
+        "border": "1px solid rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "id_form_fields-0-label",
+        "color": "rgb(246, 246, 248)",
+        "bg": "rgb(38, 38, 38)",
+        "border": "1px solid rgb(92, 92, 92)"
+      }
+    ],
+    "textScale": {
+      "width": 1440,
+      "clipped": [
+        {
+          "html": "<h2 class=\"w-panel__heading w-panel__heading--label\" id=\"panel-child-content-title-heading\" data-panel-heading=\"\" style=\"font-size: 32px !important;\">\n                    \n                        <label for=\"id_title\" id",
+          "sw": 95,
+          "cw": 8,
+          "sh": 42,
+          "ch": 42
+        },
+        {
+          "html": "<button type=\"button\" class=\"w-dropdown__toggle button\" data-w-dropdown-target=\"toggle\" aria-expanded=\"false\" style=\"font-size: 28px !important;\">\n        <span class=\"w-sr-only\" style=\"font-size: 28px !important;\">More ",
+          "sw": 40,
+          "cw": 30,
+          "sh": 40,
+          "ch": 40
+        }
+      ]
+    }
+  },
+  {
+    "path": "reports/site-history/",
+    "darkContrast": [],
+    "colors": [
+      {
+        "id": "menu-search-q",
+        "color": "rgba(255, 255, 255, 0.8)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px solid rgb(92, 92, 92)"
+      },
+      {
+        "id": "id_timestamp_0",
+        "color": "rgb(246, 246, 248)",
+        "bg": "rgb(38, 38, 38)",
+        "border": "1px solid rgb(92, 92, 92)"
+      },
+      {
+        "id": "id_timestamp_1",
+        "color": "rgb(246, 246, 248)",
+        "bg": "rgb(38, 38, 38)",
+        "border": "1px solid rgb(92, 92, 92)"
+      }
+    ],
+    "textScale": {
+      "width": 1440,
+      "clipped": []
+    }
+  },
+  {
+    "path": "account/",
+    "darkContrast": [],
+    "colors": [
+      {
+        "id": "menu-search-q",
+        "color": "rgba(255, 255, 255, 0.8)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px solid rgb(92, 92, 92)"
+      },
+      {
+        "id": "id_name_email-first_name",
+        "color": "rgb(246, 246, 248)",
+        "bg": "rgb(38, 38, 38)",
+        "border": "1px solid rgb(92, 92, 92)"
+      },
+      {
+        "id": "id_name_email-last_name",
+        "color": "rgb(246, 246, 248)",
+        "bg": "rgb(38, 38, 38)",
+        "border": "1px solid rgb(92, 92, 92)"
+      }
+    ],
+    "textScale": {
+      "width": 1440,
+      "clipped": []
+    }
+  }
+]

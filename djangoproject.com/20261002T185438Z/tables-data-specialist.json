@@ -1,0 +1,27 @@
+{
+  "skill": "tables-data-specialist",
+  "scope": [
+    "djangoproject/templates/**/*.html",
+    "checklists/templates/**/*.html",
+    "https://www.djangoproject.com/",
+    "https://www.djangoproject.com/download/",
+    "https://www.djangoproject.com/sponsor/plans/",
+    "https://www.djangoproject.com/foundation/corporate-members/badges/",
+    "https://www.djangoproject.com/foundation/corporate-members/",
+    "https://www.djangoproject.com/foundation/individual-members/",
+    "https://www.djangoproject.com/foundation/teams/",
+    "https://www.djangoproject.com/community/ecosystem/"
+  ],
+  "findings": [],
+  "passed": [
+    "Download page tables use native th column headers with straightforward one-row header relationships.",
+    "Release schedule source uses scope=\"col\" for Date and Milestone.",
+    "Production sponsorship comparison uses scoped column, row and rowgroup headers; table is labeled by an existing heading.",
+    "Production social media reach table uses scoped column and row headers.",
+    "No grid, treegrid or sortable table widgets were found in scoped source."
+  ],
+  "notes": [
+    "Missing captions or scope attributes alone on simple tables are not WCAG failures.",
+    "Runtime review covered five tables on download and sponsor plans; other database-backed tables need the parent crawl to confirm coverage."
+  ]
+}

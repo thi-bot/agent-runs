@@ -1,0 +1,2623 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/search/",
+  "targets": [
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Skip to main content",
+      "width": 166.046875,
+      "height": 42,
+      "x": 16,
+      "y": -16000,
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle sidebar",
+      "width": 35,
+      "height": 35,
+      "x": 149,
+      "y": 8,
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n             "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Dashboard",
+      "width": 110,
+      "height": 110,
+      "x": 45,
+      "y": 51,
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-branding__ic"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Search",
+      "width": 39,
+      "height": 35,
+      "x": 0,
+      "y": 208.5,
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-defa"
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "text": "",
+      "width": 200,
+      "height": 42,
+      "x": 0,
+      "y": 205,
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n         "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Pages",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 247,
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"m"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Breads",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 290.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Images",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 334,
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Bakery Misc",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 377.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery M"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Documents",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 421,
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documen"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Forms",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 464.5,
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Reports",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 508,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><s"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Settings",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 551.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Help",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 595,
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-ex"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Admin",
+      "width": 200,
+      "height": 52,
+      "x": 0,
+      "y": 948,
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n    "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle breadcrumbs",
+      "width": 50,
+      "height": 50,
+      "x": 220,
+      "y": 10,
+      "html": "<button type=\"button\" class=\"w-flex w-items-center w-justify-center w-box-border w-ml-0 w-mr-2.5 w-w-slim-header w-h-slim-header w-bg-transparent w-text-text-meta w-transition hover:w-scale-110 hover:w-text-text-label w-outline-offset-insid"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Search",
+      "width": 105.390625,
+      "height": 22.40625,
+      "x": 280,
+      "y": 23.796875,
+      "html": "<a class=\"w-flex w-items-center w-text-text-label w-pr-0.5 w-text-14 w-no-underline w-outline-offset-inside w-border-b w-border-b-2 w-border-transparent w-box-content hover:w-border-current hover:w-text-text-label\" href=\"\">\n                "
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_q",
+      "text": "",
+      "width": 271,
+      "height": 40,
+      "x": 1137,
+      "y": 15,
+      "html": "<input type=\"text\" name=\"q\" placeholder=\"Search…\" data-w-swap-target=\"input\" id=\"id_q\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Pages",
+      "width": 54.859375,
+      "height": 15,
+      "x": 417.828125,
+      "y": 125.671875,
+      "html": "<a href=\"/admin/pages/search/?q=\" class=\" nolink\"><svg class=\"icon icon-folder-open-inverse filter-options__icon\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg>Pages</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Images",
+      "width": 60.890625,
+      "height": 15,
+      "x": 494.4375,
+      "y": 125.671875,
+      "html": "<a href=\"/admin/images/?q=\" class=\"\"><svg class=\"icon icon-image filter-options__icon\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg>Images</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Documents",
+      "width": 85.078125,
+      "height": 15,
+      "x": 577.078125,
+      "y": 125.671875,
+      "html": "<a href=\"/admin/documents/?q=\" class=\"\"><svg class=\"icon icon-doc-full-inverse filter-options__icon\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg>Documents</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Users",
+      "width": 51.8125,
+      "height": 15,
+      "x": 683.90625,
+      "y": 125.671875,
+      "html": "<a href=\"/admin/users/?q=\" class=\"\"><svg class=\"icon icon-user filter-options__icon\" aria-hidden=\"true\"><use href=\"#icon-user\"></use></svg>Users</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Bread page (11)",
+      "width": 97.234375,
+      "height": 15,
+      "x": 458.984375,
+      "y": 211.078125,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=breads.breadpage\">Bread page (11)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Location page (6)",
+      "width": 105.8125,
+      "height": 15,
+      "x": 577.96875,
+      "y": 211.078125,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=locations.locationpage\">Location page (6)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Blog page (6)",
+      "width": 81.625,
+      "height": 15,
+      "x": 705.53125,
+      "y": 211.078125,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=blog.blogpage\">Blog page (6)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Recipe page (3)",
+      "width": 96.734375,
+      "height": 15,
+      "x": 808.90625,
+      "y": 211.078125,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=recipes.recipepage\">Recipe page (3)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Recipe index page (1)",
+      "width": 133,
+      "height": 15,
+      "x": 927.390625,
+      "y": 211.078125,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=recipes.recipeindexpage\">Recipe index page (1)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Locations index page (1)",
+      "width": 148.875,
+      "height": 15,
+      "x": 1082.140625,
+      "y": 211.078125,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=locations.locationsindexpage\">Locations index page (1)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Breads index page (1)",
+      "width": 133.765625,
+      "height": 15,
+      "x": 394.171875,
+      "y": 253.234375,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=breads.breadsindexpage\">Breads index page (1)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Blog index page (1)",
+      "width": 117.890625,
+      "height": 15,
+      "x": 549.6875,
+      "y": 253.234375,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=blog.blogindexpage\">Blog index page (1)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Standard page (1)",
+      "width": 109.59375,
+      "height": 15,
+      "x": 689.328125,
+      "y": 253.234375,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=base.standardpage\">Standard page (1)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Home page (1)",
+      "width": 90.671875,
+      "height": 15,
+      "x": 820.671875,
+      "y": 253.234375,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=base.homepage\">Home page (1)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Gallery page (1)",
+      "width": 97.46875,
+      "height": 15,
+      "x": 933.09375,
+      "y": 253.234375,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=base.gallerypage\">Gallery page (1)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Form page (1)",
+      "width": 86.125,
+      "height": 15,
+      "x": 1052.3125,
+      "y": 253.234375,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=base.formpage\">Form page (1)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Page (1)",
+      "width": 52.140625,
+      "height": 15,
+      "x": 1160.1875,
+      "y": 253.234375,
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=wagtailcore.page\">Page (1)</a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select all",
+      "width": 24,
+      "height": 24,
+      "x": 231.609375,
+      "y": 369.640625,
+      "html": "<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Title",
+      "width": 40.015625,
+      "height": 15,
+      "x": 280,
+      "y": 373.4375,
+      "html": "<a href=\"/admin/pages/search/?ordering=title\" title=\"Sort by 'Title' in ascending order.\" class=\"icon icon-arrow-down-after teal label\">\n                Title\n            </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Updated",
+      "width": 64.65625,
+      "height": 15,
+      "x": 882.390625,
+      "y": 373.4375,
+      "html": "<a href=\"/admin/pages/search/?ordering=latest_revision_created_at\" title=\"Sort by 'Updated' in ascending order.\" class=\"icon icon-arrow-down-after label\">\n                Updated\n            </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Status",
+      "width": 52.578125,
+      "height": 15,
+      "x": 1179.984375,
+      "y": 373.4375,
+      "html": "<a href=\"/admin/pages/search/?ordering=live\" title=\"Sort by 'Status' in ascending order.\" class=\"icon icon-arrow-down-after label\">\n                Status\n            </a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 423.21875,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"60\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_60_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Sites menu",
+      "width": 16,
+      "height": 17,
+      "x": 280,
+      "y": 423.3125,
+      "html": "<a href=\"/admin/sites/\" title=\"Sites menu\"><svg class=\"icon icon-site initial\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg></a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Welcome to the Wagtail Bakery!",
+      "width": 246.28125,
+      "height": 17,
+      "x": 300.453125,
+      "y": 423.3125,
+      "html": "<a href=\"/admin/pages/60/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_60_title\">\n            \n            Welcome to the Wagtail Bakery!\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Welcome to the Wagtail Bakery!'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 419.21875,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Welcome to the Wagtail Bakery!'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon i"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Root",
+      "width": 27.265625,
+      "height": 15,
+      "x": 681.78125,
+      "y": 427.015625,
+      "html": "<a href=\"/admin/pages/1/\">Root</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 425.015625,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:01 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live + in moderation",
+      "width": 122.984375,
+      "height": 40,
+      "x": 1180.109375,
+      "y": 415.21875,
+      "html": "<a href=\"/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live + in moderation\n        \n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Explore child pages of 'Welcome to the Wagtail Bakery!'",
+      "width": 124,
+      "height": 50,
+      "x": 1316,
+      "y": 410.21875,
+      "html": "<a href=\"/admin/pages/60/\" title=\"Explore child pages of 'Welcome to the Wagtail Bakery!'\" aria-label=\"Explore child pages of 'Welcome to the Wagtail Bakery!'\"><svg class=\"icon icon-arrow-right default\" aria-hidden=\"true\"><use href=\"#icon-a"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 486.03125,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"66\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_66_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Vik",
+      "width": 28.171875,
+      "height": 17,
+      "x": 280,
+      "y": 486.125,
+      "html": "<a href=\"/admin/pages/66/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_66_title\">\n            \n            Vik\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Vik'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 482.03125,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Vik'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dropd"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Locations",
+      "width": 55.25,
+      "height": 15,
+      "x": 681.78125,
+      "y": 489.828125,
+      "html": "<a href=\"/admin/pages/63/\">Locations</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 487.828125,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 487.53125,
+      "html": "<a href=\"/locations/vik/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Add a child page to 'Vik'",
+      "width": 124,
+      "height": 48,
+      "x": 1316,
+      "y": 474.03125,
+      "html": "<a href=\"/admin/pages/66/add_subpage/\" title=\"Add a child page to 'Vik'\" aria-label=\"Add a child page to 'Vik'\"><svg class=\"icon icon-plus-inverse default\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg></a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 544.84375,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"62\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_62_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Tracking Wild Yeast",
+      "width": 154.296875,
+      "height": 17,
+      "x": 280,
+      "y": 544.9375,
+      "html": "<a href=\"/admin/pages/62/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_62_title\">\n            \n            Tracking Wild Yeast\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Tracking Wild Yeast'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 540.84375,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Tracking Wild Yeast'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-ho"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Blog",
+      "width": 25.84375,
+      "height": 15,
+      "x": 681.78125,
+      "y": 548.640625,
+      "html": "<a href=\"/admin/pages/61/\">Blog</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 546.640625,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 546.34375,
+      "html": "<a href=\"/blog/wild-yeast/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 603.65625,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"73\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_73_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "The Joy of (Baking) Soda",
+      "width": 196.46875,
+      "height": 17,
+      "x": 280,
+      "y": 603.75,
+      "html": "<a href=\"/admin/pages/73/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_73_title\">\n            \n            The Joy of (Baking) Soda\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'The Joy of (Baking) Soda'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 599.65625,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'The Joy of (Baking) Soda'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-do"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Blog",
+      "width": 25.84375,
+      "height": 15,
+      "x": 681.78125,
+      "y": 607.453125,
+      "html": "<a href=\"/admin/pages/61/\">Blog</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 605.453125,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 605.15625,
+      "html": "<a href=\"/blog/joy-baking-soda/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 675.390625,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"74\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_74_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "The Greatest Thing Since Sliced Bread",
+      "width": 298.75,
+      "height": 17,
+      "x": 280,
+      "y": 662.5625,
+      "html": "<a href=\"/admin/pages/74/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_74_title\">\n            \n            The Greatest Thing Since Sliced Bread\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'The Greatest Thing Since Sliced Bread'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 684.3125,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'The Greatest Thing Since Sliced Bread'\" aria-expanded=\"false\">\n        \n        \n            <svg class="
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Blog",
+      "width": 25.84375,
+      "height": 15,
+      "x": 681.78125,
+      "y": 679.1875,
+      "html": "<a href=\"/admin/pages/61/\">Blog</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 677.1875,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 676.890625,
+      "html": "<a href=\"/blog/sliced-bread/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 747.125,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"72\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_72_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "The Great Icelandic Baking Show",
+      "width": 256.953125,
+      "height": 17,
+      "x": 280,
+      "y": 747.21875,
+      "html": "<a href=\"/admin/pages/72/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_72_title\">\n            \n            The Great Icelandic Baking Show\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'The Great Icelandic Baking Show'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 743.125,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'The Great Icelandic Baking Show'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Blog",
+      "width": 25.84375,
+      "height": 15,
+      "x": 681.78125,
+      "y": 750.921875,
+      "html": "<a href=\"/admin/pages/61/\">Blog</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 748.921875,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 748.625,
+      "html": "<a href=\"/blog/icelandic-baking/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 809.9375,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"82\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_82_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Southern Cornbread",
+      "width": 160.015625,
+      "height": 17,
+      "x": 280,
+      "y": 810.03125,
+      "html": "<a href=\"/admin/pages/82/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_82_title\">\n            \n            Southern Cornbread\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Southern Cornbread'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 805.9375,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Southern Cornbread'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-hor"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Recipes",
+      "width": 46.640625,
+      "height": 15,
+      "x": 681.78125,
+      "y": 813.734375,
+      "html": "<a href=\"/admin/pages/80/\">Recipes</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 811.734375,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live + in moderation",
+      "width": 122.984375,
+      "height": 40,
+      "x": 1180.109375,
+      "y": 801.9375,
+      "html": "<a href=\"/recipes/southern-cornbread/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live + in moderation\n        \n "
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 872.75,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"67\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_67_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Selfoss",
+      "width": 61.359375,
+      "height": 17,
+      "x": 280,
+      "y": 872.84375,
+      "html": "<a href=\"/admin/pages/67/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_67_title\">\n            \n            Selfoss\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Selfoss'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 868.75,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Selfoss'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-d"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Locations",
+      "width": 55.25,
+      "height": 15,
+      "x": 681.78125,
+      "y": 876.546875,
+      "html": "<a href=\"/admin/pages/63/\">Locations</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 874.546875,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 874.25,
+      "html": "<a href=\"/locations/selfoss/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Add a child page to 'Selfoss'",
+      "width": 124,
+      "height": 48,
+      "x": 1316,
+      "y": 860.75,
+      "html": "<a href=\"/admin/pages/67/add_subpage/\" title=\"Add a child page to 'Selfoss'\" aria-label=\"Add a child page to 'Selfoss'\"><svg class=\"icon icon-plus-inverse default\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg></a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 931.5625,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"1\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_1_title\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Root'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 927.5625,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Root'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-drop"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Explore child pages of 'Root'",
+      "width": 124,
+      "height": 50,
+      "x": 1316,
+      "y": 918.5625,
+      "html": "<a href=\"/admin/pages/1/\" title=\"Explore child pages of 'Root'\" aria-label=\"Explore child pages of 'Root'\"><svg class=\"icon icon-arrow-right default\" aria-hidden=\"true\"><use href=\"#icon-arrow-right\"></use></svg></a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 990.375,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"65\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_65_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Reykjavik",
+      "width": 78.28125,
+      "height": 17,
+      "x": 280,
+      "y": 990.46875,
+      "html": "<a href=\"/admin/pages/65/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_65_title\">\n            \n            Reykjavik\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Reykjavik'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 986.375,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Reykjavik'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Locations",
+      "width": 55.25,
+      "height": 15,
+      "x": 681.78125,
+      "y": 994.171875,
+      "html": "<a href=\"/admin/pages/63/\">Locations</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 992.171875,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 991.875,
+      "html": "<a href=\"/locations/reykjavik/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Add a child page to 'Reykjavik'",
+      "width": 124,
+      "height": 48,
+      "x": 1316,
+      "y": 978.375,
+      "html": "<a href=\"/admin/pages/65/add_subpage/\" title=\"Add a child page to 'Reykjavik'\" aria-label=\"Add a child page to 'Reykjavik'\"><svg class=\"icon icon-plus-inverse default\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg></a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 1053.59375,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"80\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_80_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Recipes",
+      "width": 91.0625,
+      "height": 17,
+      "x": 280,
+      "y": 1053.6875,
+      "html": "<a href=\"/admin/pages/80/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_80_title\">\n            <svg class=\"icon icon-folder initial\" aria-hidden=\"true\"><use href=\"#icon-folder\"></use></svg>\n            Recipes\n        </"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Recipes'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 1049.59375,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Recipes'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-d"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Welcome to the Wagtail Bakery!",
+      "width": 135.578125,
+      "height": 35.40625,
+      "x": 681.78125,
+      "y": 1047.1875,
+      "html": "<a href=\"/admin/pages/60/\">Welcome to the Wagtail Bakery!</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 1055.390625,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 1055.09375,
+      "html": "<a href=\"/recipes/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Explore child pages of 'Recipes'",
+      "width": 124,
+      "height": 50,
+      "x": 1316,
+      "y": 1040.59375,
+      "html": "<a href=\"/admin/pages/80/\" title=\"Explore child pages of 'Recipes'\" aria-label=\"Explore child pages of 'Recipes'\"><svg class=\"icon icon-arrow-right default\" aria-hidden=\"true\"><use href=\"#icon-arrow-right\"></use></svg></a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 1116.8125,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"83\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_83_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Mincemeat Tart",
+      "width": 120.625,
+      "height": 17,
+      "x": 280,
+      "y": 1116.90625,
+      "html": "<a href=\"/admin/pages/83/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_83_title\">\n            \n            Mincemeat Tart\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Mincemeat Tart'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 1112.8125,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Mincemeat Tart'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizon"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Recipes",
+      "width": 46.640625,
+      "height": 15,
+      "x": 681.78125,
+      "y": 1120.609375,
+      "html": "<a href=\"/admin/pages/80/\">Recipes</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 1118.609375,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 1118.3125,
+      "html": "<a href=\"/recipes/mincemeat-tart/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 1180.03125,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"63\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_63_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Locations",
+      "width": 105.25,
+      "height": 17,
+      "x": 280,
+      "y": 1180.125,
+      "html": "<a href=\"/admin/pages/63/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_63_title\">\n            <svg class=\"icon icon-folder initial\" aria-hidden=\"true\"><use href=\"#icon-folder\"></use></svg>\n            Locations\n        "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Locations'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 1176.03125,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Locations'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Welcome to the Wagtail Bakery!",
+      "width": 135.578125,
+      "height": 35.40625,
+      "x": 681.78125,
+      "y": 1173.625,
+      "html": "<a href=\"/admin/pages/60/\">Welcome to the Wagtail Bakery!</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 1181.828125,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 1181.53125,
+      "html": "<a href=\"/locations/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Explore child pages of 'Locations'",
+      "width": 124,
+      "height": 50,
+      "x": 1316,
+      "y": 1167.03125,
+      "html": "<a href=\"/admin/pages/63/\" title=\"Explore child pages of 'Locations'\" aria-label=\"Explore child pages of 'Locations'\"><svg class=\"icon icon-arrow-right default\" aria-hidden=\"true\"><use href=\"#icon-arrow-right\"></use></svg></a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 1243.25,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"78\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_78_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Höfn",
+      "width": 40.875,
+      "height": 17,
+      "x": 280,
+      "y": 1243.34375,
+      "html": "<a href=\"/admin/pages/78/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_78_title\">\n            \n            Höfn\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Höfn'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 1239.25,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Höfn'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-drop"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Locations",
+      "width": 55.25,
+      "height": 15,
+      "x": 681.78125,
+      "y": 1247.046875,
+      "html": "<a href=\"/admin/pages/63/\">Locations</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 1245.046875,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 1244.75,
+      "html": "<a href=\"/locations/hofn/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Add a child page to 'Höfn'",
+      "width": 124,
+      "height": 48,
+      "x": 1316,
+      "y": 1231.25,
+      "html": "<a href=\"/admin/pages/78/add_subpage/\" title=\"Add a child page to 'Höfn'\" aria-label=\"Add a child page to 'Höfn'\"><svg class=\"icon icon-plus-inverse default\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg></a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 1302.0625,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"81\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_81_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Hot Cross Bun",
+      "width": 116.453125,
+      "height": 17,
+      "x": 280,
+      "y": 1302.15625,
+      "html": "<a href=\"/admin/pages/81/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_81_title\">\n            \n            Hot Cross Bun\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Hot Cross Bun'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 1298.0625,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Hot Cross Bun'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizont"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Recipes",
+      "width": 46.640625,
+      "height": 15,
+      "x": 681.78125,
+      "y": 1305.859375,
+      "html": "<a href=\"/admin/pages/80/\">Recipes</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "1 year ago",
+      "width": 61,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 1303.859375,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Feb. 11, 2025, 5:10 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2025-02-11"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 1303.5625,
+      "html": "<a href=\"/recipes/hot-cross-bun/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 1360.875,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"64\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_64_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Hof",
+      "width": 31.109375,
+      "height": 17,
+      "x": 280,
+      "y": 1360.96875,
+      "html": "<a href=\"/admin/pages/64/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_64_title\">\n            \n            Hof\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Hof'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 1356.875,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Hof'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dropd"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Locations",
+      "width": 55.25,
+      "height": 15,
+      "x": 681.78125,
+      "y": 1364.671875,
+      "html": "<a href=\"/admin/pages/63/\">Locations</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 1362.671875,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 1362.375,
+      "html": "<a href=\"/locations/hof/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Add a child page to 'Hof'",
+      "width": 124,
+      "height": 48,
+      "x": 1316,
+      "y": 1348.875,
+      "html": "<a href=\"/admin/pages/64/add_subpage/\" title=\"Add a child page to 'Hof'\" aria-label=\"Add a child page to 'Hof'\"><svg class=\"icon icon-plus-inverse default\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg></a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 1424.09375,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"70\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_70_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Gallery",
+      "width": 58.703125,
+      "height": 17,
+      "x": 280,
+      "y": 1424.1875,
+      "html": "<a href=\"/admin/pages/70/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_70_title\">\n            \n            Gallery\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Gallery'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 1420.09375,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Gallery'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-d"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Welcome to the Wagtail Bakery!",
+      "width": 135.578125,
+      "height": 35.40625,
+      "x": 681.78125,
+      "y": 1417.6875,
+      "html": "<a href=\"/admin/pages/60/\">Welcome to the Wagtail Bakery!</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 1425.890625,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 1425.59375,
+      "html": "<a href=\"/gallery/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 1487.3125,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"77\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_77_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Desserts with Benefits",
+      "width": 176.0625,
+      "height": 17,
+      "x": 280,
+      "y": 1487.40625,
+      "html": "<a href=\"/admin/pages/77/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_77_title\">\n            \n            Desserts with Benefits\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Desserts with Benefits'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 1483.3125,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Desserts with Benefits'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Blog",
+      "width": 25.84375,
+      "height": 15,
+      "x": 681.78125,
+      "y": 1491.109375,
+      "html": "<a href=\"/admin/pages/61/\">Blog</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 1489.109375,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 1488.8125,
+      "html": "<a href=\"/blog/desserts-benefits/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 1550.53125,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"69\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_69_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Contact Us",
+      "width": 88.90625,
+      "height": 17,
+      "x": 280,
+      "y": 1550.625,
+      "html": "<a href=\"/admin/pages/69/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_69_title\">\n            \n            Contact Us\n        </span>\n    \n        </a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Contact Us'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 1546.53125,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Contact Us'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Welcome to the Wagtail Bakery!",
+      "width": 135.578125,
+      "height": 35.40625,
+      "x": 681.78125,
+      "y": 1544.125,
+      "html": "<a href=\"/admin/pages/60/\">Welcome to the Wagtail Bakery!</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 1552.328125,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 1552.03125,
+      "html": "<a href=\"/contact-us/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Add a child page to 'Contact Us'",
+      "width": 124,
+      "height": 48,
+      "x": 1316,
+      "y": 1538.53125,
+      "html": "<a href=\"/admin/pages/69/add_subpage/\" title=\"Add a child page to 'Contact Us'\" aria-label=\"Add a child page to 'Contact Us'\"><svg class=\"icon icon-plus-inverse default\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg></a>"
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "Select",
+      "width": 24,
+      "height": 24,
+      "x": 231.546875,
+      "y": 1618.15625,
+      "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"3\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_3_title\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Breads",
+      "width": 83.9375,
+      "height": 17,
+      "x": 280,
+      "y": 1618.25,
+      "html": "<a href=\"/admin/pages/3/edit/\" title=\"Edit this page\">\n            \n        <span id=\"page_3_title\">\n            <svg class=\"icon icon-folder initial\" aria-hidden=\"true\"><use href=\"#icon-folder\"></use></svg>\n            Breads\n        </spa"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More options for 'Breads'",
+      "width": 32,
+      "height": 32,
+      "x": 617.578125,
+      "y": 1614.15625,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"More options for 'Breads'\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dr"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Welcome to the Wagtail Bakery!",
+      "width": 135.578125,
+      "height": 35.40625,
+      "x": 681.78125,
+      "y": 1611.75,
+      "html": "<a href=\"/admin/pages/60/\">Welcome to the Wagtail Bakery!</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "2 years ago",
+      "width": 67.453125,
+      "height": 20.40625,
+      "x": 882.515625,
+      "y": 1619.953125,
+      "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 4:55 p.m.\" data-w-tooltip-placement-value=\"top\">\n    <time class=\"w-human-readable-date__date\" datetime=\"2023-09-01"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Current page status: live",
+      "width": 34.71875,
+      "height": 21,
+      "x": 1180.109375,
+      "y": 1619.65625,
+      "html": "<a href=\"/breads/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live\n        \n    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Explore child pages of 'Breads'",
+      "width": 124,
+      "height": 50,
+      "x": 1316,
+      "y": 1605.15625,
+      "html": "<a href=\"/admin/pages/3/\" title=\"Explore child pages of 'Breads'\" aria-label=\"Explore child pages of 'Breads'\"><svg class=\"icon icon-arrow-right default\" aria-hidden=\"true\"><use href=\"#icon-arrow-right\"></use></svg></a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "1",
+      "width": 32,
+      "height": 32,
+      "x": 796.46875,
+      "y": 1694.296875,
+      "html": "<a href=\"/admin/pages/search/?ordering=-title&amp;p=1\" aria-current=\"page\">\n                        1\n                    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "2",
+      "width": 32,
+      "height": 32,
+      "x": 836.46875,
+      "y": 1694.296875,
+      "html": "<a href=\"/admin/pages/search/?ordering=-title&amp;p=2\">\n                        2\n                    </a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Next",
+      "width": 48.34375,
+      "height": 20.390625,
+      "x": 880.46875,
+      "y": 1700.09375,
+      "html": "<a href=\"/admin/pages/search/?ordering=-title&amp;p=2\">\n                Next\n                <svg class=\"icon icon-arrow-right default\" aria-hidden=\"true\"><use href=\"#icon-arrow-right\"></use></svg>\n            </a>"
+    }
+  ],
+  "keyboard": [
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Skip to main content",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 125, 126)",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "w": 166.046875,
+        "h": 42
+      },
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle sidebar",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 149,
+        "y": 8,
+        "w": 35,
+        "h": 35
+      },
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n                w-items"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Dashboard",
+      "outline": "rgb(0, 126, 126) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 45,
+        "y": 51,
+        "w": 110,
+        "h": 110
+      },
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-branding__icon\n       "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Search",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 208.5,
+        "w": 39,
+        "h": 35
+      },
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-default\n      "
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 0,
+        "y": 205,
+        "w": 200,
+        "h": 42
+      },
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n            !w-bg-t"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Pages",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 247,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"menuitem-la"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Breads",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 290.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</span><svg "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Images",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 334,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Bakery Misc",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 377.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery Misc</span>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Documents",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 421,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documents</span><"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Forms",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 464.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Reports",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 508,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><svg class=\""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Settings",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 551.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><svg class="
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Help",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 595,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"fa"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Admin",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 948,
+        "w": 200,
+        "h": 52
+      },
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n            w-"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle breadcrumbs",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 220,
+        "y": 10,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-flex w-items-center w-justify-center w-box-border w-ml-0 w-mr-2.5 w-w-slim-header w-h-slim-header w-bg-transparent w-text-text-meta w-transition hover:w-scale-110 hover:w-text-text-label w-outline-offset-inside\" aria-la"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Search",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "",
+      "rect": {
+        "x": 280,
+        "y": 23.796875,
+        "w": 105.390625,
+        "h": 22.40625
+      },
+      "html": "<a class=\"w-flex w-items-center w-text-text-label w-pr-0.5 w-text-14 w-no-underline w-outline-offset-inside w-border-b w-border-b-2 w-border-transparent w-box-content hover:w-border-current hover:w-text-text-label\" href=\"\">\n                          "
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_q",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 1137,
+        "y": 15,
+        "w": 271,
+        "h": 40
+      },
+      "html": "<input type=\"text\" name=\"q\" placeholder=\"Search…\" data-w-swap-target=\"input\" id=\"id_q\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Pages",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(38, 38, 38)",
+      "rect": {
+        "x": 417.828125,
+        "y": 125.671875,
+        "w": 54.859375,
+        "h": 15
+      },
+      "html": "<a href=\"/admin/pages/search/?q=\" class=\" nolink\"><svg class=\"icon icon-folder-open-inverse filter-options__icon\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg>Pages</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Images",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 494.4375,
+        "y": 125.671875,
+        "w": 60.890625,
+        "h": 15
+      },
+      "html": "<a href=\"/admin/images/?q=\" class=\"\"><svg class=\"icon icon-image filter-options__icon\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg>Images</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Documents",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 577.078125,
+        "y": 125.671875,
+        "w": 85.078125,
+        "h": 15
+      },
+      "html": "<a href=\"/admin/documents/?q=\" class=\"\"><svg class=\"icon icon-doc-full-inverse filter-options__icon\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg>Documents</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Users",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 683.90625,
+        "y": 125.671875,
+        "w": 51.8125,
+        "h": 15
+      },
+      "html": "<a href=\"/admin/users/?q=\" class=\"\"><svg class=\"icon icon-user filter-options__icon\" aria-hidden=\"true\"><use href=\"#icon-user\"></use></svg>Users</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Bread page (11)",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 458.984375,
+        "y": 211.078125,
+        "w": 97.234375,
+        "h": 15
+      },
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=breads.breadpage\">Bread page (11)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Location page (6)",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 577.96875,
+        "y": 211.078125,
+        "w": 105.8125,
+        "h": 15
+      },
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=locations.locationpage\">Location page (6)</a>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Blog page (6)",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 705.53125,
+        "y": 211.078125,
+        "w": 81.625,
+        "h": 15
+      },
+      "html": "<a href=\"/admin/pages/search/?q=&amp;content_type=blog.blogpage\">Blog page (6)</a>"
+    }
+  ],
+  "reflow": {
+    "viewport": 320,
+    "scrollWidth": 320,
+    "bodyWidth": 320,
+    "overflow": [
+      {
+        "tag": "TABLE",
+        "id": "",
+        "class": "listing",
+        "text": "Title\n            \n        \n    \n    \n    \n        1-20 of 35 None\n    \n\n\n\n     ",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<table class=\"listing\">\n    \n        \n    \n    \n        \n            <colgroup><col>\n        \n            <col>\n        \n            <col>\n        \n            <col width=\"12%\">\n        \n            <"
+      },
+      {
+        "tag": "COLGROUP",
+        "id": "",
+        "class": "",
+        "text": "",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<colgroup><col>\n        \n            <col>\n        \n            <col>\n        \n            <col width=\"12%\">\n        \n            <col width=\"12%\">\n        \n            <col width=\"12%\">\n        \n    "
+      },
+      {
+        "tag": "COL",
+        "id": "",
+        "class": "",
+        "text": "",
+        "x": 297.796875,
+        "width": 89.3125,
+        "right": 387.109375,
+        "html": "<col width=\"12%\">"
+      },
+      {
+        "tag": "COL",
+        "id": "",
+        "class": "",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<col width=\"10%\">"
+      },
+      {
+        "tag": "THEAD",
+        "id": "",
+        "class": "",
+        "text": "Title\n            \n        \n    \n    \n    \n        1-20 of 35 None\n    \n\n\n\n     ",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<thead>\n        <tr>\n            \n                \n<th class=\"bulk-actions-filter-checkbox\" aria-label=\"Select row\">\n    \n<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Sel"
+      },
+      {
+        "tag": "TR",
+        "id": "",
+        "class": "",
+        "text": "Title\n            \n        \n    \n    \n    \n        1-20 of 35 None\n    \n\n\n\n     ",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<tr>\n            \n                \n<th class=\"bulk-actions-filter-checkbox\" aria-label=\"Select row\">\n    \n<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">\n\n</th>"
+      },
+      {
+        "tag": "TH",
+        "id": "",
+        "class": "",
+        "text": "Status",
+        "x": 297.796875,
+        "width": 89.3125,
+        "right": 387.109375,
+        "html": "<th>\n    \n        \n            <a href=\"/admin/pages/search/?ordering=live\" title=\"Sort by 'Status' in ascending order.\" class=\"icon icon-arrow-down-after label\">\n                Status\n            </"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "icon icon-arrow-down-after label",
+        "text": "Status",
+        "x": 301.625,
+        "width": 52.578125,
+        "right": 354.203125,
+        "html": "<a href=\"/admin/pages/search/?ordering=live\" title=\"Sort by 'Status' in ascending order.\" class=\"icon icon-arrow-down-after label\">\n                Status\n            </a>"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<td></td>"
+      },
+      {
+        "tag": "TBODY",
+        "id": "",
+        "class": "",
+        "text": "Welcome to the Wagtail Bakery!\n        \n    \n        \n    \n\n    \n        \n\n    \n",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<tbody>\n        \n            <tr>\n                \n                    \n\n\n<td class=\"bulk-action-checkbox-cell\">\n    <input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"60\" data-bulk-action"
+      },
+      {
+        "tag": "TR",
+        "id": "",
+        "class": "",
+        "text": "Welcome to the Wagtail Bakery!\n        \n    \n        \n    \n\n    \n        \n\n    \n",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<tr>\n                \n                    \n\n\n<td class=\"bulk-action-checkbox-cell\">\n    <input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"60\" data-bulk-action-checkbox=\"\" class=\"bulk-acti"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "",
+        "text": "Current page status: live + in moderation",
+        "x": 297.796875,
+        "width": 89.3125,
+        "right": 387.109375,
+        "html": "<td>\n    \n\n\n\n    \n    \n        \n\n    <a href=\"/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current p"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-status w-status--primary",
+        "text": "Current page status: live + in moderation",
+        "x": 301.671875,
+        "width": 81.5625,
+        "right": 383.234375,
+        "html": "<a href=\"/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live + in moderati"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "children",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<td class=\"children\">\n    \n        <a href=\"/admin/pages/60/\" title=\"Explore child pages of 'Welcome to the Wagtail Bakery!'\" aria-label=\"Explore child pages of 'Welcome to the Wagtail Bakery!'\"><svg "
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<a href=\"/admin/pages/60/\" title=\"Explore child pages of 'Welcome to the Wagtail Bakery!'\" aria-label=\"Explore child pages of 'Welcome to the Wagtail Bakery!'\"><svg class=\"icon icon-arrow-right defaul"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<svg class=\"icon icon-arrow-right default\" aria-hidden=\"true\"><use href=\"#icon-arrow-right\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 404.3020935058594,
+        "width": 15.7879638671875,
+        "right": 420.0900573730469,
+        "html": "<use href=\"#icon-arrow-right\"></use>"
+      },
+      {
+        "tag": "TR",
+        "id": "",
+        "class": "",
+        "text": "Vik\n        \n    \n        \n    \n\n    \n        \n\n    \n        \n        English\n  ",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<tr>\n                \n                    \n\n\n<td class=\"bulk-action-checkbox-cell\">\n    <input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"66\" data-bulk-action-checkbox=\"\" class=\"bulk-acti"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "",
+        "text": "Current page status: live",
+        "x": 297.796875,
+        "width": 89.3125,
+        "right": 387.109375,
+        "html": "<td>\n    \n\n\n\n    \n    \n        \n\n    <a href=\"/locations/vik/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-o"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-status w-status--primary",
+        "text": "Current page status: live",
+        "x": 301.671875,
+        "width": 34.71875,
+        "right": 336.390625,
+        "html": "<a href=\"/locations/vik/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> live"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "no-children",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<td class=\"no-children\">\n    \n        <a href=\"/admin/pages/66/add_subpage/\" title=\"Add a child page to 'Vik'\" aria-label=\"Add a child page to 'Vik'\"><svg class=\"icon icon-plus-inverse default\" aria-h"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<a href=\"/admin/pages/66/add_subpage/\" title=\"Add a child page to 'Vik'\" aria-label=\"Add a child page to 'Vik'\"><svg class=\"icon icon-plus-inverse default\" aria-hidden=\"true\"><use href=\"#icon-plus-inv"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 399.109375,
+        "width": 24,
+        "right": 423.109375,
+        "html": "<svg class=\"icon icon-plus-inverse default\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 399.109375,
+        "width": 24,
+        "right": 423.109375,
+        "html": "<use href=\"#icon-plus-inverse\"></use>"
+      },
+      {
+        "tag": "TR",
+        "id": "",
+        "class": "",
+        "text": "Tracking Wild Yeast\n        \n    \n        \n    \n\n    \n        \n\n    \n        \n  ",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<tr>\n                \n                    \n\n\n<td class=\"bulk-action-checkbox-cell\">\n    <input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"62\" data-bulk-action-checkbox=\"\" class=\"bulk-acti"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "",
+        "text": "Current page status: live",
+        "x": 297.796875,
+        "width": 89.3125,
+        "right": 387.109375,
+        "html": "<td>\n    \n\n\n\n    \n    \n        \n\n    <a href=\"/blog/wild-yeast/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-status w-status--primary",
+        "text": "Current page status: live",
+        "x": 301.671875,
+        "width": 34.71875,
+        "right": 336.390625,
+        "html": "<a href=\"/blog/wild-yeast/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> li"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "no-children",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<td class=\"no-children\">\n    \n</td>"
+      },
+      {
+        "tag": "TR",
+        "id": "",
+        "class": "",
+        "text": "The Joy of (Baking) Soda\n        \n    \n        \n    \n\n    \n        \n\n    \n      ",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<tr>\n                \n                    \n\n\n<td class=\"bulk-action-checkbox-cell\">\n    <input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"73\" data-bulk-action-checkbox=\"\" class=\"bulk-acti"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "",
+        "text": "Current page status: live",
+        "x": 297.796875,
+        "width": 89.3125,
+        "right": 387.109375,
+        "html": "<td>\n    \n\n\n\n    \n    \n        \n\n    <a href=\"/blog/joy-baking-soda/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class="
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-status w-status--primary",
+        "text": "Current page status: live",
+        "x": 301.671875,
+        "width": 34.71875,
+        "right": 336.390625,
+        "html": "<a href=\"/blog/joy-baking-soda/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</spa"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "no-children",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<td class=\"no-children\">\n    \n</td>"
+      },
+      {
+        "tag": "TR",
+        "id": "",
+        "class": "",
+        "text": "The Greatest Thing Since Sliced Bread\n        \n    \n        \n    \n\n    \n        ",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<tr>\n                \n                    \n\n\n<td class=\"bulk-action-checkbox-cell\">\n    <input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"74\" data-bulk-action-checkbox=\"\" class=\"bulk-acti"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "",
+        "text": "Current page status: live",
+        "x": 297.796875,
+        "width": 89.3125,
+        "right": 387.109375,
+        "html": "<td>\n    \n\n\n\n    \n    \n        \n\n    <a href=\"/blog/sliced-bread/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-status w-status--primary",
+        "text": "Current page status: live",
+        "x": 301.671875,
+        "width": 34.71875,
+        "right": 336.390625,
+        "html": "<a href=\"/blog/sliced-bread/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> "
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "no-children",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<td class=\"no-children\">\n    \n</td>"
+      },
+      {
+        "tag": "TR",
+        "id": "",
+        "class": "",
+        "text": "The Great Icelandic Baking Show\n        \n    \n        \n    \n\n    \n        \n\n    ",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<tr>\n                \n                    \n\n\n<td class=\"bulk-action-checkbox-cell\">\n    <input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"72\" data-bulk-action-checkbox=\"\" class=\"bulk-acti"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "",
+        "text": "Current page status: live",
+        "x": 297.796875,
+        "width": 89.3125,
+        "right": 387.109375,
+        "html": "<td>\n    \n\n\n\n    \n    \n        \n\n    <a href=\"/blog/icelandic-baking/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-status w-status--primary",
+        "text": "Current page status: live",
+        "x": 301.671875,
+        "width": 34.71875,
+        "right": 336.390625,
+        "html": "<a href=\"/blog/icelandic-baking/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</sp"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "no-children",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<td class=\"no-children\">\n    \n</td>"
+      },
+      {
+        "tag": "TR",
+        "id": "",
+        "class": "",
+        "text": "Southern Cornbread\n        \n    \n        \n    \n\n    \n        \n\n    \n        \n   ",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<tr>\n                \n                    \n\n\n<td class=\"bulk-action-checkbox-cell\">\n    <input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"82\" data-bulk-action-checkbox=\"\" class=\"bulk-acti"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "",
+        "text": "Current page status: live + in moderation",
+        "x": 297.796875,
+        "width": 89.3125,
+        "right": 387.109375,
+        "html": "<td>\n    \n\n\n\n    \n    \n        \n\n    <a href=\"/recipes/southern-cornbread/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span "
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-status w-status--primary",
+        "text": "Current page status: live + in moderation",
+        "x": 301.671875,
+        "width": 81.5625,
+        "right": 383.234375,
+        "html": "<a href=\"/recipes/southern-cornbread/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "no-children",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<td class=\"no-children\">\n    \n</td>"
+      },
+      {
+        "tag": "TR",
+        "id": "",
+        "class": "",
+        "text": "Selfoss\n        \n    \n        \n    \n\n    \n        \n\n    \n        \n        Englis",
+        "x": 0,
+        "width": 435.109375,
+        "right": 435.109375,
+        "html": "<tr>\n                \n                    \n\n\n<td class=\"bulk-action-checkbox-cell\">\n    <input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"67\" data-bulk-action-checkbox=\"\" class=\"bulk-acti"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "",
+        "text": "Current page status: live",
+        "x": 297.796875,
+        "width": 89.3125,
+        "right": 387.109375,
+        "html": "<td>\n    \n\n\n\n    \n    \n        \n\n    <a href=\"/locations/selfoss/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-status w-status--primary",
+        "text": "Current page status: live",
+        "x": 301.671875,
+        "width": 34.71875,
+        "right": 336.390625,
+        "html": "<a href=\"/locations/selfoss/\" class=\"w-status w-status--primary\" title=\"Visit the live page\" target=\"_blank\" rel=\"noreferrer\">\n        \n            <span class=\"w-sr-only\">Current page status:</span> "
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "no-children",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<td class=\"no-children\">\n    \n        <a href=\"/admin/pages/67/add_subpage/\" title=\"Add a child page to 'Selfoss'\" aria-label=\"Add a child page to 'Selfoss'\"><svg class=\"icon icon-plus-inverse default"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "",
+        "text": "",
+        "x": 387.109375,
+        "width": 48,
+        "right": 435.109375,
+        "html": "<a href=\"/admin/pages/67/add_subpage/\" title=\"Add a child page to 'Selfoss'\" aria-label=\"Add a child page to 'Selfoss'\"><svg class=\"icon icon-plus-inverse default\" aria-hidden=\"true\"><use href=\"#icon-"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 399.109375,
+        "width": 24,
+        "right": 423.109375,
+        "html": "<svg class=\"icon icon-plus-inverse default\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>"
+      }
+    ]
+  },
+  "textSpacing": {
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "clipped": [
+      {
+        "html": "<label class=\"w-sr-only\" for=\"menu-search-q\">Search</label>",
+        "scrollWidth": 53,
+        "clientWidth": 1,
+        "scrollHeight": 20,
+        "clientHeight": 1
+      },
+      {
+        "html": "<h1 class=\"w-sr-only\">\n                                    Search\n                                </h1>",
+        "scrollWidth": 83,
+        "clientWidth": 1,
+        "scrollHeight": 31,
+        "clientHeight": 1
+      },
+      {
+        "html": "<label class=\"w-field__label w-sr-only\" for=\"id_q\" id=\"id_q-label\">\n            Search term\n        </label>",
+        "scrollWidth": 102,
+        "clientWidth": 1,
+        "scrollHeight": 21,
+        "clientHeight": 1
+      },
+      {
+        "html": "<h2 id=\"bulk-actions-heading\" class=\"w-sr-only\">Bulk actions</h2>",
+        "scrollWidth": 133,
+        "clientWidth": 1,
+        "scrollHeight": 27,
+        "clientHeight": 1
+      }
+    ]
+  }
+}

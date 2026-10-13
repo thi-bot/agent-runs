@@ -1,0 +1,39 @@
+{
+  "search": [
+    {
+      "outer": "<input type=\"text\" id=\"search\" name=\"query\" value=\"pages\">",
+      "labels": [
+        "<label for=\"search\" class=\"u-sr-only\">Search</label>",
+        "<label for=\"search\" class=\"u-sr-only\">Search</label>"
+      ]
+    },
+    {
+      "outer": "<input type=\"text\" id=\"search\" name=\"query\" data-search-input=\"\" placeholder=\"Search…\" class=\"search__input\">",
+      "labels": []
+    }
+  ],
+  "modalAX": "- dialog:\n  - text: Search\n  - textbox \"Search…\"",
+  "feedbackReveal": {
+    "focusTag": "BODY",
+    "focusClass": "app",
+    "textarea": "<textarea data-feedback-text=\"\" id=\"feedback\" class=\"feedback__form-textarea\" rows=\"3\"></textarea>"
+  },
+  "afterRevealTab": {
+    "tag": "TEXTAREA",
+    "cls": "feedback__form-textarea"
+  },
+  "afterSubmit": {
+    "tag": "BODY",
+    "cls": "app",
+    "feedback": "Thanks for your feedback!"
+  },
+  "afterSubmitTab": {
+    "tag": "A",
+    "cls": "link-block",
+    "text": "About this guide\n                        \n                  "
+  },
+  "interceptedPOST": [
+    "{\"feedback\":\"happy\"}",
+    "{\"pk\":123,\"feedback_text\":\"Audit mocked feedback\"}"
+  ]
+}

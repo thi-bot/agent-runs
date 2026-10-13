@@ -1,0 +1,281 @@
+[
+  {
+    "path": "images/",
+    "inputs": [
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"54\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_54_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"53\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_53_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"52\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_52_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"51\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_51_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"49\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_49_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"48\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_48_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"47\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_47_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"46\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_46_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"45\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_45_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"44\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_44_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"43\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_43_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"42\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_42_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"41\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_41_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"40\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_40_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"39\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_39_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"37\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_37_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"36\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_36_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"35\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_35_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"34\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_34_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"33\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_33_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"32\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_32_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"31\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_31_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"30\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_30_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"29\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_29_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"28\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_28_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"26\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_26_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"25\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_25_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"24\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_24_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"23\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_23_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"22\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"image_22_title\">"
+      },
+      {
+        "html": "<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">"
+      }
+    ],
+    "after": {
+      "count": [
+        {
+          "html": "<span data-bulk-action-num-objects=\"\" class=\"num-objects\">1 image selected</span>",
+          "ancestors": [
+            "<div class=\"footer__container\">\n        \n<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">\n\n        <ul class=\"bulk-actions-buttons\">\n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailimages/image/add_tags/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Add tags to the selected images\" data-bulk-action-button=\"\">\n    \n    Tag\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailimages/image/add_to_collection/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Add selected images to collection\" data-bulk-action-button=\"\">\n    \n    Add to collection\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailimages/image/delete/\" class=\"bulk-action-btn serious button button-small button-secondary\" aria-label=\"Delete selected images\" data-bulk-action-button=\"\">\n    \n    Delete\n</a>\n</li>\n    \n\n</ul>\n        <span data-bulk-action-num-objects=\"\" class=\"num-objects\">1 image selected</span>\n    ",
+            "<section class=\"footer bulk-actions-choices\" data-bulk-action-footer=\"IMAGE\" aria-labelledby=\"bulk-actions-heading\">\n    <h2 id=\"bulk-actions-heading\" class=\"w-sr-only\">Bulk actions</h2>\n    <div class=\"footer__container\">\n        \n<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">\n\n        <ul class=\"bulk-actions-buttons\">\n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailimages/image/add_tags/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Add tags to the selected images\" data-bulk-action-button=\"\">\n    \n    Tag\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailimages/image/add_to_collection/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Add selected images to collection\" data-bulk-action-button=\"\">\n    \n    Add to collection\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailimages/image/delete/\" class=\"bulk-action-btn serious button button-small button-secondary\" aria-l"
+          ]
+        }
+      ],
+      "regions": [
+        {
+          "html": "<div class=\"messages\" role=\"status\" data-controller=\"w-messages\" data-action=\"w-messages:add@document-&gt;w-messages#add w-messages:clear@document-&gt;w-messages#clear\" data-w-messages-added-class=\"new\" data-w-messages-show-class=\"appear\" data-w-messages-show-delay-value=\"100\">\n                <ul data-w-messages-target=\"container\">\n                    \n                </ul>\n                <template data-w-messages-target=\"template\" data-type=\"success\">\n                    <li class=\"success\"><svg class=\"icon icon-success messages-icon\" aria-hidden=\"true\"><use href=\"#icon-success\"></use></svg><span></span></li>\n                </template>\n  "
+        }
+      ]
+    }
+  },
+  {
+    "path": "users/",
+    "inputs": [
+      {
+        "html": "<input type=\"checkbox\" name=\"group\" value=\"1\" id=\"id_group_0\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"group\" value=\"2\" id=\"id_group_1\">"
+      },
+      {
+        "html": "<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"7\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"user_7_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"8\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"user_8_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"3\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"user_3_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"10\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"user_10_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"4\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"user_4_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"5\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"user_5_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"9\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"user_9_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-object-id=\"6\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"user_6_title\">"
+      },
+      {
+        "html": "<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">"
+      }
+    ],
+    "after": {
+      "count": [
+        {
+          "html": "<span data-bulk-action-num-objects=\"\" class=\"num-objects\">1 user selected</span>",
+          "ancestors": [
+            "<div class=\"footer__container\">\n        \n<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">\n\n        <ul class=\"bulk-actions-buttons\">\n\n    \n        <li>\n<a href=\"/admin/bulk/auth/user/delete/\" class=\"bulk-action-btn serious button button-small button-secondary\" aria-label=\"Delete selected users\" data-bulk-action-button=\"\">\n    \n    Delete\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/auth/user/set_active_state/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Change the active state for selected users\" data-bulk-action-button=\"\">\n    \n    Set active state\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/auth/user/assign_role/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Assign role to selected users\" data-bulk-action-button=\"\">\n    \n    Assign role\n</a>\n</li>\n    \n\n</ul>\n        <span data-bulk-action-num-objects=\"\" class=\"num-objects\">1 user selected</span>\n        \n    </div>",
+            "<section class=\"footer bulk-actions-choices\" data-bulk-action-footer=\"USER\" aria-labelledby=\"bulk-actions-heading\">\n    <h2 id=\"bulk-actions-heading\" class=\"w-sr-only\">Bulk actions</h2>\n    <div class=\"footer__container\">\n        \n<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">\n\n        <ul class=\"bulk-actions-buttons\">\n\n    \n        <li>\n<a href=\"/admin/bulk/auth/user/delete/\" class=\"bulk-action-btn serious button button-small button-secondary\" aria-label=\"Delete selected users\" data-bulk-action-button=\"\">\n    \n    Delete\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/auth/user/set_active_state/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Change the active state for selected users\" data-bulk-action-button=\"\">\n    \n    Set active state\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/auth/user/assign_role/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Assign role to selecte"
+          ]
+        }
+      ],
+      "regions": [
+        {
+          "html": "<div class=\"messages\" role=\"status\" data-controller=\"w-messages\" data-action=\"w-messages:add@document-&gt;w-messages#add w-messages:clear@document-&gt;w-messages#clear\" data-w-messages-added-class=\"new\" data-w-messages-show-class=\"appear\" data-w-messages-show-delay-value=\"100\">\n                <ul data-w-messages-target=\"container\">\n                    \n                </ul>\n                <template data-w-messages-target=\"template\" data-type=\"success\">\n                    <li class=\"success\"><svg class=\"icon icon-success messages-icon\" aria-hidden=\"true\"><use href=\"#icon-success\"></use></svg><span></span></li>\n                </template>\n  "
+        }
+      ]
+    }
+  },
+  {
+    "path": "pages/60/",
+    "inputs": [
+      {
+        "html": "<input type=\"checkbox\" name=\"owner\" value=\"3\" id=\"id_owner_0\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"edited_by\" value=\"3\" id=\"id_edited_by_0\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"edited_by\" value=\"4\" id=\"id_edited_by_1\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"edited_by\" value=\"7\" id=\"id_edited_by_2\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"edited_by\" value=\"8\" id=\"id_edited_by_3\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"site\" value=\"2\" id=\"id_site_0\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"40\" id=\"id_content_type_0\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"41\" id=\"id_content_type_1\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"45\" id=\"id_content_type_2\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"46\" id=\"id_content_type_3\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"32\" id=\"id_content_type_4\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"33\" id=\"id_content_type_5\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"35\" id=\"id_content_type_6\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"50\" id=\"id_content_type_7\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"51\" id=\"id_content_type_8\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"76\" id=\"id_content_type_9\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"77\" id=\"id_content_type_10\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"52\" id=\"id_content_type_11\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"53\" id=\"id_content_type_12\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_type\" value=\"37\" id=\"id_content_type_13\">"
+      },
+      {
+        "html": "<input data-bulk-action-parent-id=\"60\" data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"80\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_80_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"63\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_63_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"70\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_70_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"69\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_69_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"3\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_3_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"61\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_61_title\">"
+      },
+      {
+        "html": "<input type=\"checkbox\" data-page-status=\"live\" data-object-id=\"76\" data-bulk-action-checkbox=\"\" class=\"bulk-action-checkbox\" aria-label=\"Select\" aria-describedby=\"page_76_title\">"
+      },
+      {
+        "html": "<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">"
+      }
+    ],
+    "after": {
+      "count": [
+        {
+          "html": "<span data-bulk-action-num-objects=\"\" class=\"num-objects\">1 page selected</span>",
+          "ancestors": [
+            "<div class=\"footer__container\">\n        \n<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">\n\n        <ul class=\"bulk-actions-buttons\">\n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailcore/page/move/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Move selected pages\" data-bulk-action-button=\"\">\n    \n    Move\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailcore/page/delete/\" class=\"bulk-action-btn serious button button-small button-secondary\" aria-label=\"Delete selected pages\" data-bulk-action-button=\"\">\n    \n    Delete\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailcore/page/publish/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Publish selected pages\" data-bulk-action-button=\"\">\n    \n    Publish\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailcore/page/unpublish/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Unpublish selec",
+            "<section class=\"footer bulk-actions-choices\" data-bulk-action-footer=\"PAGE\" aria-labelledby=\"bulk-actions-heading\">\n    <h2 id=\"bulk-actions-heading\" class=\"w-sr-only\">Bulk actions</h2>\n    <div class=\"footer__container\">\n        \n<input data-bulk-action-select-all-checkbox=\"\" type=\"checkbox\" aria-label=\"Select all\">\n\n        <ul class=\"bulk-actions-buttons\">\n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailcore/page/move/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Move selected pages\" data-bulk-action-button=\"\">\n    \n    Move\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailcore/page/delete/\" class=\"bulk-action-btn serious button button-small button-secondary\" aria-label=\"Delete selected pages\" data-bulk-action-button=\"\">\n    \n    Delete\n</a>\n</li>\n    \n\n    \n        <li>\n<a href=\"/admin/bulk/wagtailcore/page/publish/\" class=\"bulk-action-btn button button-small button-secondary\" aria-label=\"Publish selected pages\" data-bulk-action-button=\"\">\n"
+          ]
+        }
+      ],
+      "regions": [
+        {
+          "html": "<div class=\"messages\" role=\"status\" data-controller=\"w-messages\" data-action=\"w-messages:add@document-&gt;w-messages#add w-messages:clear@document-&gt;w-messages#clear\" data-w-messages-added-class=\"new\" data-w-messages-show-class=\"appear\" data-w-messages-show-delay-value=\"100\">\n                <ul data-w-messages-target=\"container\">\n                    \n                </ul>\n                <template data-w-messages-target=\"template\" data-type=\"success\">\n                    <li class=\"success\"><svg class=\"icon icon-success messages-icon\" aria-hidden=\"true\"><use href=\"#icon-success\"></use></svg><span></span></li>\n                </template>\n  "
+        }
+      ]
+    }
+  }
+]

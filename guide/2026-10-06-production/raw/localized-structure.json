@@ -1,0 +1,159 @@
+[
+  {
+    "url": "https://guide.wagtail.org/is/",
+    "status": 200,
+    "html": [
+      "<html lang=\"is\" dir=\"ltr\" class=\"no-js\">"
+    ],
+    "h1": [
+      "Notendahandb\u00f3k Wagtail"
+    ],
+    "links": [
+      "/is/",
+      "/is/about/",
+      "/is/accessibility-features/",
+      "/is/accessibility-features/browser-level-user-interface-settings/",
+      "/is/accessibility-features/global-navigation/",
+      "/is/accessibility-features/user-account-preferences/",
+      "/is/concepts/",
+      "/is/concepts/page-status/",
+      "/is/concepts/pages/",
+      "/is/concepts/reports/",
+      "/is/concepts/scheduled-publishing/",
+      "/is/concepts/users-status/",
+      "/is/concepts/wagtail-interfaces/",
+      "/is/contributing/",
+      "/is/how-to/",
+      "/is/how-to/configuring-moderation-workflows/",
+      "/is/how-to/copying-and-aliasing-pages/",
+      "/is/how-to/creating-and-editing-pages/",
+      "/is/how-to/finding-your-way-around/",
+      "/is/how-to/how-to-promote-search-results/",
+      "/is/how-to/manage-forms/",
+      "/is/how-to/managing-collections/",
+      "/is/how-to/managing-documents/",
+      "/is/how-to/managing-images/",
+      "/is/how-to/managing-redirects/",
+      "/is/how-to/managing-snippets/",
+      "/is/how-to/managing-users-and-roles/",
+      "/is/markdown/",
+      "/is/reference/",
+      "/is/reference/account-settings/",
+      "/is/reference/browser-issues/",
+      "/is/reference/content-checks/",
+      "/is/reference/wagtail-page-status-definitions/",
+      "/is/releases/",
+      "/is/releases/new-in-wagtail-4-1/",
+      "/is/releases/new-in-wagtail-4-2/",
+      "/is/releases/new-in-wagtail-5-0/",
+      "/is/releases/new-in-wagtail-5-1/",
+      "/is/releases/new-in-wagtail-5-2/",
+      "/is/releases/new-in-wagtail-6-0/",
+      "/is/releases/new-in-wagtail-6-1/",
+      "/is/releases/new-in-wagtail-6-3/",
+      "/is/releases/new-in-wagtail-6-4/",
+      "/is/releases/new-in-wagtail-62/",
+      "/is/releases/new-in-wagtail-7-0/",
+      "/is/releases/new-in-wagtail-7-1/",
+      "/is/releases/new-in-wagtail-7-2/",
+      "/is/releases/new-in-wagtail-7-3/",
+      "/is/releases/new-in-wagtail-7-4/",
+      "/is/tutorials/",
+      "/is/tutorials/getting-started/"
+    ]
+  },
+  {
+    "url": "https://guide.wagtail.org/fr/",
+    "status": 200,
+    "html": [
+      "<html lang=\"fr\" dir=\"ltr\" class=\"no-js\">"
+    ],
+    "h1": [
+      "Guide utilisateur Wagtail"
+    ],
+    "links": [
+      "/fr/",
+      "/fr/commencement/",
+      "/fr/concepts/scheduled-publishing/",
+      "/fr/fonctionnalites-d-accessibilite/",
+      "/fr/how-to-guides/",
+      "/fr/how-to-guides/manage-forms/",
+      "/fr/markdown/",
+      "/fr/reference/account-settings/",
+      "/fr/reference/content-checks/",
+      "/fr/releases/",
+      "/fr/releases/new-in-wagtail-5-1/",
+      "/fr/releases/new-in-wagtail-5-2/",
+      "/fr/releases/new-in-wagtail-6-1/",
+      "/fr/releases/new-in-wagtail-6-3/",
+      "/fr/releases/new-in-wagtail-6-4/",
+      "/fr/releases/new-in-wagtail-60/",
+      "/fr/releases/new-in-wagtail-62/",
+      "/fr/releases/new-in-wagtail-7-0/",
+      "/fr/releases/new-in-wagtail-7-1/",
+      "/fr/releases/new-in-wagtail-7-2/",
+      "/fr/releases/new-in-wagtail-7-3/",
+      "/fr/releases/new-in-wagtail-7-4/"
+    ]
+  },
+  {
+    "url": "https://guide.wagtail.org/pt-br/",
+    "status": 200,
+    "html": [
+      "<html lang=\"pt-br\" dir=\"ltr\" class=\"no-js\">"
+    ],
+    "h1": [
+      "Guia do usu\u00e1rio Wagtail"
+    ],
+    "links": [
+      "/pt-br/",
+      "/pt-br/about/",
+      "/pt-br/accessibility-features/",
+      "/pt-br/accessibility-features/browser-level-user-interface-settings/",
+      "/pt-br/accessibility-features/global-navigation/",
+      "/pt-br/accessibility-features/user-account-preferences/",
+      "/pt-br/concepts/",
+      "/pt-br/concepts/scheduled-publishing/",
+      "/pt-br/concepts/wagtail-interfaces/",
+      "/pt-br/contributing/",
+      "/pt-br/getting-started/",
+      "/pt-br/getting-started/overview/",
+      "/pt-br/how-to-guides/",
+      "/pt-br/how-to-guides/find-your-way-around/",
+      "/pt-br/how-to-guides/manage-forms/",
+      "/pt-br/markdown/",
+      "/pt-br/reference/",
+      "/pt-br/reference/account-settings/",
+      "/pt-br/reference/browser-compatibility/",
+      "/pt-br/reference/content-checks/",
+      "/pt-br/releases/",
+      "/pt-br/releases/new-in-wagtail-5-1/",
+      "/pt-br/releases/new-in-wagtail-5-2/",
+      "/pt-br/releases/new-in-wagtail-6-1/",
+      "/pt-br/releases/new-in-wagtail-6-3/",
+      "/pt-br/releases/new-in-wagtail-6-4/",
+      "/pt-br/releases/new-in-wagtail-60/",
+      "/pt-br/releases/new-in-wagtail-62/",
+      "/pt-br/releases/new-in-wagtail-7-0/",
+      "/pt-br/releases/new-in-wagtail-7-1/",
+      "/pt-br/releases/new-in-wagtail-7-2/",
+      "/pt-br/releases/new-in-wagtail-7-3/",
+      "/pt-br/releases/new-in-wagtail-7-4/"
+    ]
+  },
+  {
+    "url": "https://guide.wagtail.org/ar/",
+    "status": 200,
+    "html": [
+      "<html lang=\"ar\" dir=\"rtl\" class=\"no-js\">"
+    ],
+    "h1": [
+      "\u062f\u0644\u064a\u0644 \u0645\u0633\u062a\u062e\u062f\u0645 Wagtail"
+    ],
+    "links": [
+      "/ar/",
+      "/ar/about/",
+      "/ar/markdown/"
+    ]
+  }
+]

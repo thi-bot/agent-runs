@@ -1,0 +1,2227 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/69/edit/",
+  "states": [
+    {
+      "kind": "tab",
+      "name": "Content",
+      "violations": [
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-6q8c\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-6q8c\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-bgrbe\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-bgrbe\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=playwright",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-6q8c\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-6q8c\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-6q8c\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-6q8c\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-6q8c\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-bgrbe\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-bgrbe\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-bgrbe\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-bgrbe\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-bgrbe\""
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"c-sf-block__type\">Paragraph block</span>",
+              "target": [
+                ".c-sf-block__type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "elmPartiallyObscuring",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it partially overlaps other elements"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-text=\"true\">We'd love to hear from you! Drop us a line to let us know what you liked or didn't like about your recent store visit, or if you have comments or questions about this site.&nbsp;</span>",
+              "target": [
+                "span[data-offset-key=\"xxvz0-0-0\"] > span[data-text=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-form_fields-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-form_fields-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-panel-heading-text=\"\">\n        Field<span data-inline-panel-child-count=\"\"> 1</span>\n    </span>",
+              "target": [
+                "#inline_child_form_fields-0-panel-heading > span[data-panel-heading-text=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "shortTextContent",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-form_fields-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-form_fields-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element content is too short to determine if it is actual text content"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-inline-panel-child-count=\"\"> 1</span>",
+              "target": [
+                "#inline_child_form_fields-0-panel-heading > span[data-panel-heading-text=\"\"] > span[data-inline-panel-child-count=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-0-label\" id=\"id_form_fields-0-label-label\">\n            Label<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_form_fields-0-label-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">The label of the form field</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-0-child-label-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-0-help_text\" id=\"id_form_fields-0-help_text-label\">\n            Help text\n        </label>",
+              "target": [
+                "#id_form_fields-0-help_text-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-0-required\" id=\"id_form_fields-0-required-label\">\n            Required\n        </label>",
+              "target": [
+                "#id_form_fields-0-required-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-0-field_type\" id=\"id_form_fields-0-field_type-label\">\n            Field type<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_form_fields-0-field_type-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"form_fields-0-field_type\" id=\"id_form_fields-0-field_type\">",
+                      "target": [
+                        "#id_form_fields-0-field_type"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"form_fields-0-field_type\" id=\"id_form_fields-0-field_type\">",
+              "target": [
+                "#id_form_fields-0-field_type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-0-choices\" id=\"id_form_fields-0-choices-label\">\n            Choices\n        </label>",
+              "target": [
+                "#id_form_fields-0-choices-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">Comma or new line separated list of choices. Only applicable in checkboxes, radio and dropdown.</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-0-child-choices-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-0-default_value\" id=\"id_form_fields-0-default_value-label\">\n            Default value\n        </label>",
+              "target": [
+                "#id_form_fields-0-default_value-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">Default value. Comma or new line separated values supported for checkboxes.</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-0-child-default_value-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-form_fields-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-form_fields-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-panel-heading-text=\"\">\n        Field<span data-inline-panel-child-count=\"\"> 2</span>\n    </span>",
+              "target": [
+                "#inline_child_form_fields-1-panel-heading > span[data-panel-heading-text=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "shortTextContent",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-form_fields-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-form_fields-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element content is too short to determine if it is actual text content"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-inline-panel-child-count=\"\"> 2</span>",
+              "target": [
+                "#inline_child_form_fields-1-panel-heading > span[data-panel-heading-text=\"\"] > span[data-inline-panel-child-count=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-1-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-1-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-1-label\" id=\"id_form_fields-1-label-label\">\n            Label<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_form_fields-1-label-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-1-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-1-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">The label of the form field</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-1-child-label-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-1-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-1-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-1-help_text\" id=\"id_form_fields-1-help_text-label\">\n            Help text\n        </label>",
+              "target": [
+                "#id_form_fields-1-help_text-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-1-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-1-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-1-required\" id=\"id_form_fields-1-required-label\">\n            Required\n        </label>",
+              "target": [
+                "#id_form_fields-1-required-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-1-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-1-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-1-field_type\" id=\"id_form_fields-1-field_type-label\">\n            Field type<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_form_fields-1-field_type-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"form_fields-1-field_type\" id=\"id_form_fields-1-field_type\">",
+                      "target": [
+                        "#id_form_fields-1-field_type"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"form_fields-1-field_type\" id=\"id_form_fields-1-field_type\">",
+              "target": [
+                "#id_form_fields-1-field_type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-1-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-1-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-1-choices\" id=\"id_form_fields-1-choices-label\">\n            Choices\n        </label>",
+              "target": [
+                "#id_form_fields-1-choices-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-1-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-1-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">Comma or new line separated list of choices. Only applicable in checkboxes, radio and dropdown.</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-1-child-choices-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-1-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-1-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-1-default_value\" id=\"id_form_fields-1-default_value-label\">\n            Default value\n        </label>",
+              "target": [
+                "#id_form_fields-1-default_value-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-1-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-1-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">Default value. Comma or new line separated values supported for checkboxes.</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-1-child-default_value-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-form_fields-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-form_fields-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-panel-heading-text=\"\">\n        Field<span data-inline-panel-child-count=\"\"> 3</span>\n    </span>",
+              "target": [
+                "#inline_child_form_fields-2-panel-heading > span[data-panel-heading-text=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "shortTextContent",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-form_fields-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-form_fields-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element content is too short to determine if it is actual text content"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-inline-panel-child-count=\"\"> 3</span>",
+              "target": [
+                "#inline_child_form_fields-2-panel-heading > span[data-panel-heading-text=\"\"] > span[data-inline-panel-child-count=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-2-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-2-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-2-label\" id=\"id_form_fields-2-label-label\">\n            Label<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_form_fields-2-label-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-2-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-2-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">The label of the form field</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-2-child-label-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-2-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-2-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-2-help_text\" id=\"id_form_fields-2-help_text-label\">\n            Help text\n        </label>",
+              "target": [
+                "#id_form_fields-2-help_text-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-2-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-2-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-2-required\" id=\"id_form_fields-2-required-label\">\n            Required\n        </label>",
+              "target": [
+                "#id_form_fields-2-required-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-2-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-2-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-2-field_type\" id=\"id_form_fields-2-field_type-label\">\n            Field type<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_form_fields-2-field_type-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"form_fields-2-field_type\" id=\"id_form_fields-2-field_type\">",
+                      "target": [
+                        "#id_form_fields-2-field_type"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"form_fields-2-field_type\" id=\"id_form_fields-2-field_type\">",
+              "target": [
+                "#id_form_fields-2-field_type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-2-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-2-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-2-choices\" id=\"id_form_fields-2-choices-label\">\n            Choices\n        </label>",
+              "target": [
+                "#id_form_fields-2-choices-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-2-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-2-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">Comma or new line separated list of choices. Only applicable in checkboxes, radio and dropdown.</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-2-child-choices-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-2-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-2-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-2-default_value\" id=\"id_form_fields-2-default_value-label\">\n            Default value\n        </label>",
+              "target": [
+                "#id_form_fields-2-default_value-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-2-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-2-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">Default value. Comma or new line separated values supported for checkboxes.</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-2-child-default_value-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-form_fields-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-form_fields-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-panel-heading-text=\"\">\n        Field<span data-inline-panel-child-count=\"\"> 4</span>\n    </span>",
+              "target": [
+                "#inline_child_form_fields-3-panel-heading > span[data-panel-heading-text=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "shortTextContent",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-form_fields-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-form_fields-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element content is too short to determine if it is actual text content"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-inline-panel-child-count=\"\"> 4</span>",
+              "target": [
+                "#inline_child_form_fields-3-panel-heading > span[data-panel-heading-text=\"\"] > span[data-inline-panel-child-count=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-3-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-3-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-3-label\" id=\"id_form_fields-3-label-label\">\n            Label<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_form_fields-3-label-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-3-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-3-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">The label of the form field</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-3-child-label-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-3-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-3-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-3-help_text\" id=\"id_form_fields-3-help_text-label\">\n            Help text\n        </label>",
+              "target": [
+                "#id_form_fields-3-help_text-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-3-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-3-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-3-required\" id=\"id_form_fields-3-required-label\">\n            Required\n        </label>",
+              "target": [
+                "#id_form_fields-3-required-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-3-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-3-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-3-field_type\" id=\"id_form_fields-3-field_type-label\">\n            Field type<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_form_fields-3-field_type-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"form_fields-3-field_type\" id=\"id_form_fields-3-field_type\">",
+                      "target": [
+                        "#id_form_fields-3-field_type"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"form_fields-3-field_type\" id=\"id_form_fields-3-field_type\">",
+              "target": [
+                "#id_form_fields-3-field_type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-3-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-3-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-3-choices\" id=\"id_form_fields-3-choices-label\">\n            Choices\n        </label>",
+              "target": [
+                "#id_form_fields-3-choices-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-3-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-3-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">Comma or new line separated list of choices. Only applicable in checkboxes, radio and dropdown.</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-3-child-choices-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-3-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-3-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-3-default_value\" id=\"id_form_fields-3-default_value-label\">\n            Default value\n        </label>",
+              "target": [
+                "#id_form_fields-3-default_value-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-3-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-3-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">Default value. Comma or new line separated values supported for checkboxes.</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-3-child-default_value-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-form_fields-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-form_fields-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-panel-heading-text=\"\">\n        Field<span data-inline-panel-child-count=\"\"> 5</span>\n    </span>",
+              "target": [
+                "#inline_child_form_fields-4-panel-heading > span[data-panel-heading-text=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "shortTextContent",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-form_fields-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-form_fields-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element content is too short to determine if it is actual text content"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-inline-panel-child-count=\"\"> 5</span>",
+              "target": [
+                "#inline_child_form_fields-4-panel-heading > span[data-panel-heading-text=\"\"] > span[data-inline-panel-child-count=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-4-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-4-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-4-label\" id=\"id_form_fields-4-label-label\">\n            Label<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_form_fields-4-label-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-4-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-4-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">The label of the form field</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-4-child-label-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-4-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-4-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-4-help_text\" id=\"id_form_fields-4-help_text-label\">\n            Help text\n        </label>",
+              "target": [
+                "#id_form_fields-4-help_text-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-4-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-4-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-4-required\" id=\"id_form_fields-4-required-label\">\n            Required\n        </label>",
+              "target": [
+                "#id_form_fields-4-required-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-4-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-4-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-4-field_type\" id=\"id_form_fields-4-field_type-label\">\n            Field type<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_form_fields-4-field_type-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"form_fields-4-field_type\" id=\"id_form_fields-4-field_type\">",
+                      "target": [
+                        "#id_form_fields-4-field_type"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"form_fields-4-field_type\" id=\"id_form_fields-4-field_type\">",
+              "target": [
+                "#id_form_fields-4-field_type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-4-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-4-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-4-choices\" id=\"id_form_fields-4-choices-label\">\n            Choices\n        </label>",
+              "target": [
+                "#id_form_fields-4-choices-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-4-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-4-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">Comma or new line separated list of choices. Only applicable in checkboxes, radio and dropdown.</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-4-child-choices-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-4-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-4-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_form_fields-4-default_value\" id=\"id_form_fields-4-default_value-label\">\n            Default value\n        </label>",
+              "target": [
+                "#id_form_fields-4-default_value-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_form_fields-4-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_form_fields-4-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">Default value. Comma or new line separated values supported for checkboxes.</div>",
+              "target": [
+                "#panel-child-content-child-form_fields-4-child-default_value-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-form_fields-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-form_fields-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_form_fields-ADD\">\n            <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>Add Field\n        </button>",
+              "target": [
+                "#id_form_fields-ADD"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ],
+      "ax": "- main:\n  - status:\n    - list:\n      - listitem:\n        - text: \"'Contact Us' was locked by you on Sept. 1, 2023, 5:05 p.m..\"\n        - button \"Unlock\"\n  - 'heading \"Editing Form page: Contact Us\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Contact Us\":\n          - /url: /admin/pages/69/\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - list\n  - button \"Toggle status\"\n  - button \"Toggle preview\"\n  - button \"Toggle checks\"\n  - button \"Toggle comments\"\n  - link \"History\":\n    - /url: /admin/pages/69/history/\n  - link \"Visible to all. Visit the live page\":\n    - /url: /contact-us/\n    - text: Live\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"Title*\":\n          - /url: \"#panel-child-content-title-section\"\n      - listitem:\n        - link \"Form page submissions\":\n          - /url: \"#panel-child-content-form_page_submissions-section\"\n      - listitem:\n        - link \"Image\":\n          - /url: \"#panel-child-content-image-section\"\n      - listitem:\n        - link \"Body*\":\n          - /url: \"#panel-child-content-body-section\"\n      - listitem:\n        - link \"We'd love to hear from…*\":\n          - /url: \"#block-25a48aa0-7b9b-47a9-ac24-bce39baf0a6c-section\"\n      - listitem:\n        - link \"Form fields\":\n          - /url: \"#panel-child-content-form_fields-section\"\n      - listitem:\n        - link \"Field 1\":\n          - /url: \"#inline_child_form_fields-0-panel-section\"\n      - listitem:\n        - link \"Field 2\":\n          - /url: \"#inline_child_form_fields-1-panel-section\"\n      - listitem:\n        - link \"Field 3\":\n          - /url: \"#inline_child_form_fields-2-panel-section\"\n      - listitem:\n        - link \"Field 4\":\n          - /url: \"#inline_child_form_fields-3-panel-section\"\n      - listitem:\n        - link \"Field 5\":\n          - /url: \"#inline_child_form_fields-4-panel-section\"\n      - listitem:\n        - link \"Thank you text\":\n          - /url: \"#panel-child-content-thank_you_text-section\"\n      - listitem:\n        - link \"Email\":\n          - /url: \"#panel-child-content-email-section\"\n  - tablist:\n    - tab \"Content\" [selected]\n    - tab \"Promote\"\n  - tabpanel \"Content\":\n    - region \"Title*\":\n      - heading \"Title*\" [level=2]\n      - text: The page title as you'd like it to be seen by the public\n      - textbox \"Title*\":\n        - /placeholder: Page title*\n        - text: Contact Us\n      - button \"Add comment\"\n    - region \"Form page submissions\":\n      - link \"Form page submissions\":\n        - /url: \"#panel-child-content-form_page_submissions-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Form page submissions\" [level=2]\n      - paragraph:\n        - text: Total submissions\n        - link \"1\":\n          - /url: /admin/forms/submissions/69/\n      - paragraph: Latest submission Feb. 15, 2019, 4:56 p.m.\n    - region \"Image\":\n      - link \"Image\":\n        - /url: \"#panel-child-content-image-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Image\" [level=2]\n      - button \"Choose an image\"\n      - button \"Add comment\"\n    - region \"Body*\":\n      - link \"Body*\":\n        - /url: \"#panel-child-content-body-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Body*\" [level=2]\n      - button \"Insert a block\"\n      - region \"Paragraph block * We'd love to hear from you! Drop us a line to let us know what you li…\":\n        - link \"Paragraph block * We'd love to hear from you! Drop us a line to let us know what you li…\":\n          - /url: \"#block-25a48aa0-7b9b-47a9-ac24-bce39baf0a6c-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Paragraph block * We'd love to hear from you! Drop us a line to let us know what you li…\" [level=2]\n        - button \"Move up\" [disabled]\n        - button \"Move down\" [disabled]\n        - button \"Drag\"\n        - button \"Duplicate\"\n        - button \"Delete\"\n        - textbox\n      - button \"Insert a block\"\n    - region \"Form fields\":\n      - link \"Form fields\":\n        - /url: \"#panel-child-content-form_fields-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Form fields\" [level=2]\n      - region \"Field 1\":\n        - link \"Field 1\":\n          - /url: \"#inline_child_form_fields-0-panel-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Field 1\" [level=2]\n        - button \"Move up\" [disabled]\n        - button \"Move down\"\n        - button \"Drag\"\n        - button \"Delete\"\n        - text: Label* The label of the form field\n        - textbox \"Label*\": Subject\n        - text: Help text\n        - textbox \"Help text\"\n        - text: Required\n        - checkbox \"Required\" [checked]\n        - text: Field type*\n        - combobox \"Field type*\":\n          - option \"---------\"\n          - option \"Single line text\" [selected]\n          - option \"Multi-line text\"\n          - option \"Email\"\n          - option \"Number\"\n          - option \"URL\"\n          - option \"Checkbox\"\n          - option \"Checkboxes\"\n          - option \"Drop down\"\n          - option \"Multiple select\"\n          - option \"Radio buttons\"\n          - option \"Date\"\n          - option \"Date/time\"\n          - option \"Hidden field\"\n        - text: Choices Comma or new line separated list of choices. Only applicable in checkboxes, radio and dropdown.\n        - textbox \"Choices\"\n        - text: Default value Default value. Comma or new line separated values supported for checkboxes.\n        - textbox \"Default value\"\n      - region \"Field 2\":\n        - link \"Field 2\":\n          - /url: \"#inline_child_form_fields-1-panel-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Field 2\" [level=2]\n        - button \"Move up\"\n        - button \"Move down\"\n        - button \"Drag\"\n        - button \"Delete\"\n        - text: Label* The label of the form field\n        - textbox \"Label*\": Your Name\n        - text: Help text\n        - textbox \"Help text\"\n        - text: Required\n        - checkbox \"Required\" [checked]\n        - text: Field type*\n        - combobox \"Field type*\":\n          - option \"---------\"\n          - option \"Single line text\" [selected]\n          - option \"Multi-line text\"\n          - option \"Email\"\n          - option \"Number\"\n          - option \"URL\"\n          - option \"Checkbox\"\n          - option \"Checkboxes\"\n          - option \"Drop down\"\n          - option \"Multiple select\"\n          - option \"Radio buttons\"\n          - option \"Date\"\n          - option \"Date/time\"\n          - option \"Hidden field\"\n        - text: Choices Comma or new line separated list of choices. Only applicable in checkboxes, radio and dropdown.\n        - textbox \"Choices\"\n        - text: Default value Default value. Comma or new line separated values supported for checkboxes.\n        - textbox \"Default value\"\n      - region \"Field 3\":\n        - link \"Field 3\":\n          - /url: \"#inline_child_form_fields-2-panel-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Field 3\" [level=2]\n        - button \"Move up\"\n        - button \"Move down\"\n        - button \"Drag\"\n        - button \"Delete\"\n        - text: Label* The label of the form field\n        - textbox \"Label*\": Your Email\n        - text: Help text\n        - textbox \"Help text\"\n        - text: Required\n        - checkbox \"Required\" [checked]\n        - text: Field type*\n        - combobox \"Field type*\":\n          - option \"---------\"\n          - option \"Single line text\"\n          - option \"Multi-line text\"\n          - option \"Email\" [selected]\n          - option \"Number\"\n          - option \"URL\"\n          - option \"Checkbox\"\n          - option \"Checkboxes\"\n          - option \"Drop down\"\n          - option \"Multiple select\"\n          - option \"Radio buttons\"\n          - option \"Date\"\n          - option \"Date/time\"\n          - option \"Hidden field\"\n        - text: Choices Comma or new line separated list of choices. Only applicable in checkboxes, radio and dropdown.\n        - textbox \"Choices\"\n        - text: Default value Default value. Comma or new line separated values supported for checkboxes.\n        - textbox \"Default value\": you@example.com\n      - region \"Field 4\":\n        - link \"Field 4\":\n          - /url: \"#inline_child_form_fields-3-panel-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Field 4\" [level=2]\n        - button \"Move up\"\n        - button \"Move down\"\n        - button \"Drag\"\n        - button \"Delete\"\n        - text: Label* The label of the form field\n        - textbox \"Label*\": Purpose\n        - text: Help text\n        - textbox \"Help text\"\n        - text: Required\n        - checkbox \"Required\" [checked]\n        - text: Field type*\n        - combobox \"Field type*\":\n          - option \"---------\"\n          - option \"Single line text\"\n          - option \"Multi-line text\"\n          - option \"Email\"\n          - option \"Number\"\n          - option \"URL\"\n          - option \"Checkbox\"\n          - option \"Checkboxes\"\n          - option \"Drop down\" [selected]\n          - option \"Multiple select\"\n          - option \"Radio buttons\"\n          - option \"Date\"\n          - option \"Date/time\"\n          - option \"Hidden field\"\n        - text: Choices Comma or new line separated list of choices. Only applicable in checkboxes, radio and dropdown.\n        - textbox \"Choices\": Comment, Question, Feedback\n        - text: Default value Default value. Comma or new line separated values supported for checkboxes.\n        - textbox \"Default value\"\n      - region \"Field 5\":\n        - link \"Field 5\":\n          - /url: \"#inline_child_form_fields-4-panel-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Field 5\" [level=2]\n        - button \"Move up\"\n        - button \"Move down\" [disabled]\n        - button \"Drag\"\n        - button \"Delete\"\n        - text: Label* The label of the form field\n        - textbox \"Label*\": Body\n        - text: Help text\n        - textbox \"Help text\": What's on your mind?\n        - text: Required\n        - checkbox \"Required\" [checked]\n        - text: Field type*\n        - combobox \"Field type*\":\n          - option \"---------\"\n          - option \"Single line text\"\n          - option \"Multi-line text\" [selected]\n          - option \"Email\"\n          - option \"Number\"\n          - option \"URL\"\n          - option \"Checkbox\"\n          - option \"Checkboxes\"\n          - option \"Drop down\"\n          - option \"Multiple select\"\n          - option \"Radio buttons\"\n          - option \"Date\"\n          - option \"Date/time\"\n          - option \"Hidden field\"\n        - text: Choices Comma or new line separated list of choices. Only applicable in checkboxes, radio and dropdown.\n        - textbox \"Choices\"\n        - text: Default value Default value. Comma or new line separated values supported for checkboxes.\n        - textbox \"Default value\"\n      - button \"Add Field\"\n    - region \"Thank you text\":\n      - link \"Thank you text\":\n        - /url: \"#panel-child-content-thank_you_text-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Thank you text\" [level=2]\n      - textbox\n    - region \"Email\":\n      - link \"Email\":\n        - /url: \"#panel-child-content-email-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Email\" [level=2]\n      - text: From address\n      - textbox \"From address\": you@example.com\n      - button \"Add comment\"\n      - text: To address Optional - form submissions will be emailed to these addresses. Separate multiple addresses by comma.\n      - textbox \"To address\": us@example.com\n      - button \"Add comment\"\n      - text: Subject\n      - textbox \"Subject\": Contact message from Wagtail Demo site\n      - button \"Add comment\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\""
+    },
+    {
+      "kind": "tab",
+      "name": "Promote",
+      "violations": [],
+      "incomplete": [],
+      "ax": "- main:\n  - status:\n    - list:\n      - listitem:\n        - text: \"'Contact Us' was locked by you on Sept. 1, 2023, 5:05 p.m..\"\n        - button \"Unlock\"\n  - 'heading \"Editing Form page: Contact Us\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Contact Us\":\n          - /url: /admin/pages/69/\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - list\n  - button \"Toggle status\"\n  - button \"Toggle preview\"\n  - button \"Toggle checks\"\n  - button \"Toggle comments\"\n  - link \"History\":\n    - /url: /admin/pages/69/history/\n  - link \"Visible to all. Visit the live page\":\n    - /url: /contact-us/\n    - text: Live\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"For search engines\":\n          - /url: \"#panel-child-promote-for_search_engines-section\"\n      - listitem:\n        - link \"For site menus\":\n          - /url: \"#panel-child-promote-for_site_menus-section\"\n  - tablist:\n    - tab \"Content\"\n    - tab \"Promote\" [selected]\n  - tabpanel \"Promote\":\n    - region \"For search engines\":\n      - link \"For search engines\":\n        - /url: \"#panel-child-promote-for_search_engines-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For search engines\" [level=2]\n      - text: Slug* The name of the page as it will appear in URLs e.g http://domain.com/blog/[my-slug]/\n      - textbox \"Slug*\": contact-us\n      - button \"Add comment\"\n      - text: Title tag The name of the page displayed on search engine results as the clickable headline.\n      - textbox \"Title tag\"\n      - button \"Add comment\"\n      - text: Meta description The descriptive text displayed underneath a headline in search engine results.\n      - textbox \"Meta description\"\n      - button \"Add comment\"\n    - region \"For site menus\":\n      - link \"For site menus\":\n        - /url: \"#panel-child-promote-for_site_menus-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For site menus\" [level=2]\n      - text: Show in menus Whether a link to this page will appear in automatically generated menus\n      - checkbox \"Show in menus\" [checked]\n      - button \"Add comment\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\""
+    },
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "kind": "dropdown",
+      "name": "More actions",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "blocked": [
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/editing-sessions/ping/wagtailcore/page/69/331/",
+      "method": "POST"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/editing-sessions/ping/wagtailcore/page/69/331/",
+      "method": "POST"
+    }
+  ],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list:\n      - listitem:\n        - text: \"'Contact Us' was locked by you on Sept. 1, 2023, 5:05 p.m..\"\n        - button \"Unlock\"\n  - 'heading \"Editing Form page: Contact Us\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Contact Us\":\n          - /url: /admin/pages/69/\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - list\n  - button \"Toggle status\"\n  - button \"Toggle preview\"\n  - button \"Toggle checks\"\n  - button \"Toggle comments\"\n  - link \"History\":\n    - /url: /admin/pages/69/history/\n  - link \"Visible to all. Visit the live page\":\n    - /url: /contact-us/\n    - text: Live\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"For search engines\":\n          - /url: \"#panel-child-promote-for_search_engines-section\"\n      - listitem:\n        - link \"For site menus\":\n          - /url: \"#panel-child-promote-for_site_menus-section\"\n  - tablist:\n    - tab \"Content\"\n    - tab \"Promote\" [selected]\n  - tabpanel \"Promote\":\n    - region \"For search engines\":\n      - link \"For search engines\":\n        - /url: \"#panel-child-promote-for_search_engines-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For search engines\" [level=2]\n      - text: Slug* The name of the page as it will appear in URLs e.g http://domain.com/blog/[my-slug]/\n      - textbox \"Slug*\": contact-us\n      - button \"Add comment\"\n      - text: Title tag The name of the page displayed on search engine results as the clickable headline.\n      - textbox \"Title tag\"\n      - button \"Add comment\"\n      - text: Meta description The descriptive text displayed underneath a headline in search engine results.\n      - textbox \"Meta description\"\n      - button \"Add comment\"\n    - region \"For site menus\":\n      - link \"For site menus\":\n        - /url: \"#panel-child-promote-for_site_menus-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For site menus\" [level=2]\n      - text: Show in menus Whether a link to this page will appear in automatically generated menus\n      - checkbox \"Show in menus\" [checked]\n      - button \"Add comment\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\""
+}

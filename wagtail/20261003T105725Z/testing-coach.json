@@ -1,0 +1,40 @@
+{
+  "skill": "testing-coach",
+  "scope": [
+    "docs/contributing/ui_guidelines.md",
+    "docs/contributing/developing.md",
+    "client/tests/integration/expect-axe.js",
+    "client/tests/integration/editor.test.js",
+    "client/tests/integration/images-upload.test.js",
+    "client/tests/integration/documents-upload.test.js",
+    "client/tests/integration/listing.test.js",
+    "client/tests/integration/jest.config.js",
+    "client/tests/integration/PlaywrightEnvironment.js",
+    "package.json",
+    ".github/workflows/test.yml",
+    ".circleci/config.yml"
+  ],
+  "findings": [],
+  "passed": [
+    "Confirmed existing axe matcher, Jest+Playwright integration configuration and CircleCI UI execution; no duplicate framework installation recommended.",
+    "Confirmed project documentation explicitly lists NVDA+Firefox ESR and VoiceOver+Safari accessibility targets."
+  ],
+  "notes": [
+    "Existing Jest/Playwright axe integration is already present; extend client/tests/integration and existing CircleCI UI tests. GitHub test.yml is the backend matrix.",
+    "Run npm run test:unit for focused component/controller tests; run TEST_ORIGIN=http://localhost:8000 npm run test:integration -- --runInBand against disposable writable Django UI fixtures, following docs/contributing/developing.md.",
+    "After fixing Draftail names, remove editor.test.js placeholder exclusion; re-enable chooser tests and remove modal blanket exclusion as chooser fixes land. Do not add broad exclusions to hide findings.",
+    "Manual matrix: NVDA+Firefox ESR on Windows and VoiceOver+Safari on macOS. Record actual announcements, browser/AT versions, exact steps and expected/actual behavior. No audible screen-reader testing was performed in this audit.",
+    "Draftail labels and validation: Extend editor.test.js with a page containing ordinary rich text plus nested/list/StreamField rich text. Assert getByRole(textbox,{name:fieldLabel}) uniquely resolves the visible contenteditable; assert aria-describedby resolves all help/error/counter IDs. Trigger a required/max-length validation error and inspect aria-invalid on the interactive textbox. After fixes remove the global placeholder selector exclusion and rerun axe. With NVDA+Firefox ESR and VoiceOver+Safari, navigate by form controls; each editor announces its label, help, required/error state and error message without navigating to the hidden backing input.",
+    "Tags and submissions: Add a populated tag fixture to image/document/page editors, assert the generated tag-entry textbox has the visible field name. On a submissions listing assert each row checkbox has a meaningful unique name and the select-all checkbox is named. Run axe before and after adding/removing a tag. Enter, select and remove a tag without a pointer; verify label/selection/removal context. Select a submission by its announced record identifier.",
+    "Uploads and status: Extend existing images-upload.test.js and documents-upload.test.js: use getByLabel for file input, assert progress role/name/value during a deliberately delayed upload, inspect a persistent status region for success and invalid-size/type/server failure text. Keep existing didPost=false validation assertion. On a writable disposable backend upload valid and invalid fixtures with NVDA/Firefox and VoiceOver/Safari. Record actual speech for filename/progress/completion/errors; do not require every percentage change to interrupt speech.",
+    "Chooser boundary and name: Re-enable skipped image/page/embed chooser tests in editor.test.js after fixes; include modal content in axe. Assert role=dialog has an accessible name and aria-modal=true, Tab/Shift+Tab stay within it, Escape dismisses from every focus position, focus returns to original chooser trigger. Open and close each chooser with keyboard and screen reader; verify dialog title, background is unavailable, result selection works, final Tab and Shift+Tab never escape.",
+    "Image focal area: Extend image editor coverage with keyboard-only create/move/resize of a focal area and assert resulting coordinates; verify every focused control has a visible rendered indicator. Exercise a pointer alternative that does not require dragging. Create/move/resize/reset focal area without mouse; repeat at zoom and Windows Contrast themes. Check offscreen native radio does not consume focus without a visible indicator.",
+    "Sort and bulk results: Extend listing.test.js and submission fixtures: activate each sortable header, assert current column aria-sort and direction update. Select one/all/zero items and assert a persistent polite status region receives accurate counts. Search an impossible term and verify a zero-result status update. On screen reader, identify current sort and direction from header navigation; operate sort, selection and empty search while focus stays on the initiating control and hear one concise result announcement.",
+    "Field boundaries and metadata contrast: Retest computed field border/background combinations in light/dark modes and enabled/disabled-row metadata states. Assert at least 3:1 for necessary enabled-control boundaries and 4.5:1 for normal informational text; preserve disabled-control exemption. Review empty inputs against surrounding surfaces in light/dark themes and Windows Contrast themes, including controls without placeholder text.",
+    "Editor narrow layout and spacing: Repeat editor toolbar at320 CSS pixels and text-spacing override (line-height1.5, paragraph2em, letter.12em, word.16em). Assert essential Live-page control is reachable without page/container horizontal scrolling where no exception applies. At400% browser zoom, use keyboard to reach all header/actions/side panels; check focus is visible and not obscured by sticky furniture.",
+    "Table blocks and static-asset gaps: Run writable-backend editor fixture containing actual table and typed-table blocks; ensure Handsontable assets load and run keyboard insertion/editing, row/column changes and axe in expanded editors. Verify fileupload validation assets load before upload assertions. Do not interpret static-archive404s as component WCAG failures. Retest unloaded widgets with their real assets and report any residual inability to navigate/edit tables.",
+    "The documented project target is WCAG2.1AA; this requested audit uses2.2AA including dragging alternatives and focus-not-obscured.",
+    "Automated checks and DOM state probes do not verify actual speech or establish complete conformance.",
+    "Use disposable test data on a live backend for saves/uploads/invalid POSTs; no real production mutations were performed."
+  ]
+}

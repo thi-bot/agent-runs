@@ -1,0 +1,769 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/settings/base/genericsettings/1/",
+  "targets": [
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Skip to main content",
+      "width": 166.046875,
+      "height": 42,
+      "x": 16,
+      "y": -16000,
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle sidebar",
+      "width": 35,
+      "height": 35,
+      "x": 149,
+      "y": 8,
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n             "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Dashboard",
+      "width": 110,
+      "height": 110,
+      "x": 45,
+      "y": 51,
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-branding__ic"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Search",
+      "width": 39,
+      "height": 35,
+      "x": 0,
+      "y": 208.5,
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-defa"
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "text": "",
+      "width": 200,
+      "height": 42,
+      "x": 0,
+      "y": 205,
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n         "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Pages",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 247,
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"m"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Breads",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 290.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Images",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 334,
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Bakery Misc",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 377.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery M"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Documents",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 421,
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documen"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Forms",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 464.5,
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Reports",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 508,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><s"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Settings",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 551.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Help",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 595,
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-ex"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Admin",
+      "width": 200,
+      "height": 52,
+      "x": 0,
+      "y": 948,
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n    "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle breadcrumbs",
+      "width": 50,
+      "height": 50,
+      "x": 220,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-flex w-items-center w-justify-center w-box-border w-ml-0 w-mr-2.5 w-w-slim-header w-h-slim-header w-bg-transparent w-text-text-meta w-transition hover:w-scale-110 hover:w-text-text-label w-outline-offset-insid"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Generic settings",
+      "width": 111.703125,
+      "height": 22.40625,
+      "x": 280,
+      "y": 13.796875,
+      "html": "<a class=\"w-flex w-items-center w-text-text-label w-pr-0.5 w-text-14 w-no-underline w-outline-offset-inside w-border-b w-border-b-2 w-border-transparent w-box-content hover:w-border-current hover:w-text-text-label\" href=\"\">\n                "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle preview",
+      "width": 50,
+      "height": 50,
+      "x": 1324,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle preview\" aria-expanded=\"false\" data-controller=\"w-tooltip w-kbd\" data-side-panel-toggle=\"preview\" data-w-kbd-key-value=\"mod+p\" data-w-kbd-scope-value=\"global\" data-w-toolt"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle checks",
+      "width": 50,
+      "height": 50,
+      "x": 1374,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle checks\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"checks\" data-w-tooltip-content-value=\"Checks\" data-w-tooltip-offset-value=\"[0, 0]\">\n    <"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Collapse all",
+      "width": 110,
+      "height": 24.359375,
+      "x": 1290,
+      "y": 71,
+      "html": "<button type=\"button\" aria-expanded=\"true\" class=\"button button-small button-secondary w-minimap__collapse-all w-minimap__collapse-all--floating \"><svg class=\"icon icon-collapse-up\" aria-hidden=\"true\"><use href=\"#icon-collapse-up\"></use></s"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "w-minimap-toggle",
+      "text": "Toggle side panel",
+      "width": 28,
+      "height": 28,
+      "x": 1410,
+      "y": 69,
+      "html": "<button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd\" data-w-kbd-key-value=\"]\"><svg class=\"icon icon-expand-right\" aria-hidden=\"true\"><use href=\"#i"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Social settings",
+      "width": 141.8125,
+      "height": 32,
+      "x": 1410,
+      "y": 121,
+      "html": "<a href=\"#panel-social_settings-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-h"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 150.890625,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-social_settings-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-social_settings-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><use"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 150.890625,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-social_settings-heading\" data-panel-toggle=\"\" aria-controls=\"panel-social_settings-content\" aria-expanded=\"true\">\n                \n           "
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_github_url",
+      "text": "",
+      "width": 840,
+      "height": 42.5,
+      "x": 280,
+      "y": 209.078125,
+      "html": "<input type=\"url\" name=\"github_url\" value=\"https://github.com/wagtail/wagtail\" maxlength=\"200\" id=\"id_github_url\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_mastodon_url",
+      "text": "",
+      "width": 840,
+      "height": 42.5,
+      "x": 280,
+      "y": 309.765625,
+      "html": "<input type=\"url\" name=\"mastodon_url\" value=\"https://fosstodon.org/@wagtail\" maxlength=\"200\" id=\"id_mastodon_url\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_organisation_url",
+      "text": "",
+      "width": 840,
+      "height": 42.5,
+      "x": 280,
+      "y": 410.453125,
+      "html": "<input type=\"url\" name=\"organisation_url\" value=\"https://wagtail.org/\" maxlength=\"200\" id=\"id_organisation_url\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Save",
+      "width": 300,
+      "height": 42,
+      "x": 290,
+      "y": 948,
+      "html": "<button type=\"submit\" class=\"button button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-value=\"mod+s\" data-w-kbd-scope-value=\"global\" data-w-progress-active-value=\"Saving…\" data-w-progress"
+    }
+  ],
+  "keyboard": [
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Skip to main content",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 125, 126)",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "w": 166.046875,
+        "h": 42
+      },
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle sidebar",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 149,
+        "y": 8,
+        "w": 35,
+        "h": 35
+      },
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n                w-items"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Dashboard",
+      "outline": "rgb(0, 126, 126) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 45,
+        "y": 51,
+        "w": 110,
+        "h": 110
+      },
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-branding__icon\n       "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Search",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 208.5,
+        "w": 39,
+        "h": 35
+      },
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-default\n      "
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 0,
+        "y": 205,
+        "w": 200,
+        "h": 42
+      },
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n            !w-bg-t"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Pages",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 247,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"menuitem-la"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Breads",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 290.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</span><svg "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Images",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 334,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Bakery Misc",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 377.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery Misc</span>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Documents",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 421,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documents</span><"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Forms",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 464.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Reports",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 508,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><svg class=\""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Settings",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 551.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><svg class="
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Help",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 595,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"fa"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Admin",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 948,
+        "w": 200,
+        "h": 52
+      },
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n            w-"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle breadcrumbs",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 220,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-flex w-items-center w-justify-center w-box-border w-ml-0 w-mr-2.5 w-w-slim-header w-h-slim-header w-bg-transparent w-text-text-meta w-transition hover:w-scale-110 hover:w-text-text-label w-outline-offset-inside\" aria-la"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Generic settings",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "",
+      "rect": {
+        "x": 280,
+        "y": 13.796875,
+        "w": 111.703125,
+        "h": 22.40625
+      },
+      "html": "<a class=\"w-flex w-items-center w-text-text-label w-pr-0.5 w-text-14 w-no-underline w-outline-offset-inside w-border-b w-border-b-2 w-border-transparent w-box-content hover:w-border-current hover:w-text-text-label\" href=\"\">\n                          "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle preview",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1324,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle preview\" aria-expanded=\"false\" data-controller=\"w-tooltip w-kbd\" data-side-panel-toggle=\"preview\" data-w-kbd-key-value=\"mod+p\" data-w-kbd-scope-value=\"global\" data-w-tooltip-content"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle checks",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1374,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle checks\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"checks\" data-w-tooltip-content-value=\"Checks\" data-w-tooltip-offset-value=\"[0, 0]\" aria-describedby"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Collapse all",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 1290,
+        "y": 71,
+        "w": 110,
+        "h": 24.359375
+      },
+      "html": "<button type=\"button\" aria-expanded=\"true\" class=\"button button-small button-secondary w-minimap__collapse-all w-minimap__collapse-all--floating \"><svg class=\"icon icon-collapse-up\" aria-hidden=\"true\"><use href=\"#icon-collapse-up\"></use></svg>Collaps"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "w-minimap-toggle",
+      "name": "Toggle side panel",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 1410,
+        "y": 69,
+        "w": 28,
+        "h": 28
+      },
+      "html": "<button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd\" data-w-kbd-key-value=\"]\"><svg class=\"icon icon-expand-right\" aria-hidden=\"true\"><use href=\"#icon-expand"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(38, 26, 78)",
+      "rect": {
+        "x": 216,
+        "y": 150.890625,
+        "w": 24,
+        "h": 24
+      },
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-social_settings-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-social_settings-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><use href=\"#ic"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle section",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 240,
+        "y": 150.890625,
+        "w": 24,
+        "h": 24
+      },
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-social_settings-heading\" data-panel-toggle=\"\" aria-controls=\"panel-social_settings-content\" aria-expanded=\"true\">\n                \n                <svg "
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_github_url",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 280,
+        "y": 209.078125,
+        "w": 840,
+        "h": 42.5
+      },
+      "html": "<input type=\"url\" name=\"github_url\" value=\"https://github.com/wagtail/wagtail\" maxlength=\"200\" id=\"id_github_url\">"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_mastodon_url",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 280,
+        "y": 309.765625,
+        "w": 840,
+        "h": 42.5
+      },
+      "html": "<input type=\"url\" name=\"mastodon_url\" value=\"https://fosstodon.org/@wagtail\" maxlength=\"200\" id=\"id_mastodon_url\">"
+    }
+  ],
+  "reflow": {
+    "viewport": 320,
+    "scrollWidth": 320,
+    "bodyWidth": 320,
+    "overflow": [
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "w-minimap ",
+        "text": "Social settings",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<div class=\"w-minimap \"><div class=\"w-minimap__header\"><button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "w-minimap__header",
+        "text": "",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<div class=\"w-minimap__header\"><button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd\" data-w-kbd-key-value=\""
+      },
+      {
+        "tag": "OL",
+        "id": "",
+        "class": "w-minimap__list",
+        "text": "Social settings",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<ol class=\"w-minimap__list\"><li><a href=\"#panel-social_settings-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-curren"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Social settings",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-social_settings-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon ic"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2 w-minimap-item--active ",
+        "text": "Social settings",
+        "x": 300,
+        "width": 125.8125,
+        "right": 425.8125,
+        "html": "<a href=\"#panel-social_settings-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-m"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Social settings",
+        "x": 327,
+        "width": 98.8125,
+        "right": 425.8125,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Social settings</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Social settings",
+        "x": 327,
+        "width": 98.8125,
+        "right": 425.8125,
+        "html": "<span class=\"w-minimap-item__text\">Social settings</span>"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "w-minimap__footer",
+        "text": "",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<div class=\"w-minimap__footer\"></div>"
+      }
+    ]
+  },
+  "textSpacing": {
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "clipped": [
+      {
+        "html": "<label class=\"w-sr-only\" for=\"menu-search-q\">Search</label>",
+        "scrollWidth": 53,
+        "clientWidth": 1,
+        "scrollHeight": 20,
+        "clientHeight": 1
+      },
+      {
+        "html": "<h1 class=\"w-sr-only\">\n                                    Editing: Generic settings\n                                </h1>",
+        "scrollWidth": 309,
+        "clientWidth": 1,
+        "scrollHeight": 31,
+        "clientHeight": 1
+      }
+    ]
+  }
+}

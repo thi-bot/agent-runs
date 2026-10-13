@@ -1,0 +1,58 @@
+{
+  "skill": "aria-specialist",
+  "scope": [
+    "apps/core/templates/**",
+    "apps/frontend/static_src/js/**",
+    "apps/search/templates/**",
+    "Production English article/search runtime and Chromium accessibility tree",
+    "raw/crawl.json (84 pages at review time)",
+    "raw/states.json"
+  ],
+  "findings": [
+    {
+      "rule": "ARIA-THEME-STATE-001",
+      "wcag": "4.1.2 A",
+      "severity": "moderate",
+      "location": "apps/core/templates/components/theme_toggle.html:5",
+      "summary": "The light/dark toggle exposes neither its selected state nor a changing action name.",
+      "fix": "Use a native checkbox or button role=switch with aria-checked, or a toggle button with aria-pressed and stable Dark mode name; synchronize initial and changed state in blocking.js. Alternatively announce the next action with a changing button name.",
+      "evidence": "Chromium AX tree before/after click exposes the same button name Toggle between dark and light theme and no checked/pressed state; body.theme-dark changes false to true. aria-label overrides the CSS-switched inner Light mode/Dark mode text.",
+      "component": "Theme toggle"
+    },
+    {
+      "rule": "ARIA-NAV-CURRENT-001",
+      "wcag": "1.3.1 A",
+      "severity": "moderate",
+      "location": "apps/frontend/static_src/js/active-nav-item/index.js:5",
+      "summary": "The visually highlighted current navigation page is not identified programmatically.",
+      "fix": "When matching the current pathname, set aria-current=page on that link alongside the active class. Ensure exactly the current page link is marked.",
+      "evidence": "On /en/how-to-guides/manage-pages/ the link has class navigation__link active; CSS changes its background and foreground. Its Chromium AX properties contain URL/focusable only, with no current state.",
+      "component": "Primary navigation"
+    },
+    {
+      "rule": "ARIA-MOBILE-POPUP-001",
+      "wcag": "4.1.2 A",
+      "severity": "moderate",
+      "location": "apps/core/templates/components/header.html:26",
+      "summary": "The mobile navigation toggle advertises an ARIA menu popup although its content is ordinary navigation.",
+      "fix": "Remove aria-haspopup=true from this disclosure button; retain the updated aria-expanded state and optionally add aria-controls pointing to an ID on the navigation container. Keep native navigation links instead of adding menu roles.",
+      "evidence": "The toggle has aria-haspopup=true (equivalent to menu), but opens <nav class=primary-nav><ul> with ordinary links rather than a menu widget. mobile-menu/index.js correctly updates aria-expanded.",
+      "component": "Mobile navigation disclosure"
+    }
+  ],
+  "passed": [
+    "Shared controls use native buttons, links and text inputs rather than custom div roles.",
+    "Mobile navigation expanded state is updated on open and close in source and captured runtime.",
+    "Copy and language dropdown triggers initialize aria-expanded=false; Bootstrap dropdown owns state transitions.",
+    "Shared decorative icons use aria-hidden=true with parent text or accessible names.",
+    "No authored broken aria-labelledby/aria-describedby/aria-controls references were found in scoped templates."
+  ],
+  "notes": [
+    "Search modal dialog name/focus behavior and live-region behavior are owned by separate domain specialists and are not duplicated here.",
+    "Duplicate search IDs do not produce an absent Chromium accessible name: placeholder fallback names the modal field. The finding concerns the demonstrably broken explicit label relationship under 1.3.1, not removed WCAG 4.1.1.",
+    "Language names in the selector use hreflang but no lang; adding lang to each localized label improves pronunciation. Single-word language names are not asserted as a clear 3.1.2 failure because that criterion has exceptions for proper names and indeterminate words.",
+    "On-page contents are ordinary native fragment links; no custom tree, tab or menu semantics are needed.",
+    "No screenshots captured or inspected; runtime evidence consists of DOM and Chromium accessibility-tree data.",
+    "Broken modal search label relationship is confirmed in raw/aria-runtime.json and reported by forms-specialist, avoiding duplicate issue counts."
+  ]
+}

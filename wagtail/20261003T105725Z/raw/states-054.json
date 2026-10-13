@@ -1,0 +1,66 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/sites/edit/2/",
+  "states": [
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">If true, this site will handle requests for all other hostnames that do not have a site entry of their own</div>",
+              "target": [
+                "#id_is_default_site-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blocked": [],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list\n  - 'heading \"Editing: Wagtail Bakery [default]\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Wagtail Bakery [default]\":\n          - /url: \"\"\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - heading \"Wagtail Bakery [default]\" [level=2]\n  - list:\n    - listitem:\n      - text: Hostname*\n      - textbox \"Hostname*\": 127.0.0.1\n    - listitem:\n      - text: Port* Set this to something other than 80 if you need a specific port number to appear in URLs (e.g. development on port 8000). Does not affect request handling (so port forwarding still works).\n      - spinbutton \"Port*\": \"8000\"\n    - listitem:\n      - text: Site name Human-readable name for the site.\n      - textbox \"Site name\": Wagtail Bakery\n    - listitem:\n      - text: Root page* Welcome to the Wagtail Bakery!\n      - button \"Actions\"\n    - listitem:\n      - text: Is default site If true, this site will handle requests for all other hostnames that do not have a site entry of their own\n      - checkbox \"Is default site\" [checked]\n  - navigation \"Actions (footer)\":\n    - button \"Save\":\n      - emphasis: Save"
+}

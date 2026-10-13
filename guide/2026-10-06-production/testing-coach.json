@@ -1,0 +1,39 @@
+{
+  "skill": "testing-coach",
+  "scope": [
+    ".github/workflows/ci.yml",
+    "package.json",
+    "pyproject.toml",
+    "apps/core/tests/**",
+    "apps/frontend/static_src/js/**/*.test.js",
+    ".a 11 y-history/2026-10-06-production/*.json",
+    ".a 11 y-history/2026-10-06-production/raw/**"
+  ],
+  "findings": [],
+  "passed": [
+    "Existing CI runs frontend build/lint/Vitest and Django checks/backend coverage with PostgreSQL; mobile-menu tests assert aria-expanded changes.",
+    "Tests cover locale behavior, header content, 404 responses, content rendering and heading fragment-link generation.",
+    "This audit includes source review, production HTML/axe scans, keyboard interaction, Chromium accessibility-tree inspection, mocked feedback submissions, and responsive/theme/accessibility preference checks documented in raw evidence.",
+    "No public authentication, drag-only interaction, checkout, multi-step repeated-entry process, user-facing time limit, or audio/video embed was identified in inspected public guide flows; Wagtail admin features described by documentation are outside the guide website interaction scope."
+  ],
+  "notes": [
+    "Coverage is a site-wide deep inspection of discovered public routes and shared components, not proof of WCAG conformance. Report exact completed crawl and responsive counts from final raw artifacts; do not report discovered, failed or pending addresses as successfully audited.",
+    "The generated numerical score grades this finding set. It is not a percentage of WCAG criteria satisfied, certification, or evidence that unflagged content conforms. List advisory n/a findings separately from conformance failures.",
+    "Native screen-reader speech was not tested. Chromium accessibility-tree output supports role/name/state evidence but cannot establish actual NVDA, JAWS, VoiceOver or TalkBack announcements. Screenshots were explicitly excluded.",
+    "Before closing remediation, test NVDA with Firefox and Chrome on Windows, VoiceOver with Safari on macOS/iOS, and TalkBack with Chrome on Android. Start with home, long Manage pages article, forms guide, a translated article, Arabic RTL home, search results and a translated 404.",
+    "Native screen-reader checklist: announce page title/language and browse headings/landmarks; follow skip link; identify current navigation page; confirm theme checked state; open mobile navigation and search; traverse overlays both directions; close and verify focus return; open search on a full search page; announce search results/no results; activate Copy page/link/prompt and verify success/failure; rate helpfulness, enter feedback and submit; verify outcome announcements and useful focus after removed controls.",
+    "Localization checklist: verify speech switches for real translated passages, RTL reading/focus order, translated control names/error messages, fallback routes and search/404 html lang. Review instructional image alternatives against source screenshots with an editor when visual inspection is permitted. Textual alt presence alone does not establish equivalent information.",
+    "Responsive checks at 320 CSS pixels approximate the reflow width associated with 400% desktop zoom, but do not replace actual browser zoom or 200% text-only zoom. Complete Firefox text-only enlargement and Chromium/Safari 200%/400% zoom checks; also test physical portrait/landscape, mobile browser zoom, focus indicators and target size/spacing.",
+    "Emulated forced-colors and reduced-motion preferences identify rendering differences but do not replace native Windows High Contrast and device tests. No flashing or required time-based task was found; animations and preference support still require review where new content is added.",
+    "Add Django assertions that normal/search/404 HTML has a valid locale language and distinct search-input IDs with correctly associated labels. Extend Vitest behavior tests to theme initial/toggled accessibility state and aria-current, alongside existing menu expanded-state assertions.",
+    "Add Playwright with @axe-core/playwright against a local Django fixture server in CI, after frontend build and database setup. Include WCAG 2.2 AA tags plus supplemental aria-dialog-name; scan initial and open states across home/article/search/404, light/dark and narrow/wide widths. Inject axe using its library with CSP handled explicitly; initial failed script injections are tooling errors, not site accessibility failures.",
+    "Add browser behavioral regressions for keyboard overlay traversal/focus visibility, modal opening on search pages, named dialogs, live count announcements, clipboard success/failure and feedback success/failure. Intercept feedback POSTs so CI and production smoke tests never create genuine feedback records.",
+    "Unit tests alone cannot measure real CSS visibility, overlap, contrast, reflow or accessibility-tree behavior. Browser assertions should verify user-observable outcomes, not just mirror class changes.",
+    "Run a focused re-audit after each remediation group, then repeat the complete discovered-route crawl and state matrix before release. Run shared-component smoke tests on each pull request and full production content scans periodically and after major CMS content/template changes; establish persistent finding IDs for future deltas.",
+    "Applicability requires continued review: WCAG 2.5.7 Dragging Movements, 3.3.7 Redundant Entry and 3.3.8 Accessible Authentication currently have no identified public-guide trigger, rather than being proved universally inapplicable. Public accessibility of admin authentication is a separate scope.",
+    "Cognitive review should emphasize clear labels and instructions under 2.4.6/3.3.2, consistent shared navigation/help under 3.2.3/3.2.6 and understandable feedback/errors. Reading level under 3.1.5 is AAA and should not be presented as an AA failure.",
+    "Clipboard Copy page name mutations may be announced by some assistive technology when focused; the strongest unannounced success evidence is Copy link/prompt changing a different control. Feedback comment success removes the form without visible confirmation: distinguish that absence and focus loss from an existing visible unannounced status message.",
+    "Full criterion-by-criterion coverage matrix saved in raw/wcag-coverage.json: all 55 WCAG 2.2 A/AA criteria, excluding removed 4.1.1. Status distinguishes confirmed failures, no issue found in tested scope, inapplicable public flow, and human verification still required.",
+    "Final validated scope:149 content paths/153 successful HTML addresses,43 HTML errors; dark desktop and 320 px mobile sweep completed for all 153 successful HTML addresses, excluding the plaintext synthetic wrapper."
+  ]
+}

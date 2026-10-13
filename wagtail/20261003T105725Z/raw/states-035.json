@@ -1,0 +1,2613 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+  "states": [
+    {
+      "kind": "tab",
+      "name": "Content",
+      "violations": [
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"id_recipe_headline-length\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"id_recipe_headline-length\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-fotic\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-fotic\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-8cnvh\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-8cnvh\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-3edvv\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-3edvv\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-cjsbm\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-cjsbm\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-7uqj2\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-7uqj2\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-3l3gm\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-3l3gm\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-isaa\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-isaa\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-9tdaj\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-9tdaj\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-5tdr2\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-5tdr2\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-5lnn2\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-5lnn2\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-1jcq6\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-1jcq6\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-3i20n\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-3i20n\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-5gcp7\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-5gcp7\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-9gk2p\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-9gk2p\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=playwright",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-fotic\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-fotic\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-fotic\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-fotic\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-fotic\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-8cnvh\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-8cnvh\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-8cnvh\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-8cnvh\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-8cnvh\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-3edvv\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-3edvv\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-3edvv\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-3edvv\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-3edvv\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-cjsbm\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-cjsbm\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-cjsbm\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-cjsbm\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-cjsbm\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-7uqj2\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-7uqj2\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-7uqj2\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-7uqj2\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-7uqj2\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-3l3gm\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-3l3gm\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-3l3gm\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-3l3gm\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-3l3gm\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-isaa\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-isaa\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-isaa\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-isaa\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-isaa\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-9tdaj\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-9tdaj\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-9tdaj\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-9tdaj\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-9tdaj\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-5tdr2\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-5tdr2\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-5tdr2\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-5tdr2\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-5tdr2\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-5lnn2\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-5lnn2\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-5lnn2\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-5lnn2\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-5lnn2\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-1jcq6\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-1jcq6\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-1jcq6\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-1jcq6\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-1jcq6\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-3i20n\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-3i20n\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-3i20n\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-3i20n\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-3i20n\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-5gcp7\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-5gcp7\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-5gcp7\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-5gcp7\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-5gcp7\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-9gk2p\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-9gk2p\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-9gk2p\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-9gk2p\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-9gk2p\""
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">The recipe’s step-by-step instructions and any other relevant information.</div>",
+              "target": [
+                "#panel-child-content-child-body-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"c-sf-block__type\">Paragraph block</span>",
+              "target": [
+                "#block-432fbbf5-210d-422c-ad4c-4147a205a25a-heading > .c-sf-block__type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"c-sf-block__type\">Ingredients list</span>",
+              "target": [
+                "#block-4effba56-74c6-45a4-b295-a752b3121c96-heading > .c-sf-block__type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"c-sf-block__type\">Paragraph block</span>",
+              "target": [
+                "#block-4544593d-1ab4-49a0-833f-143f0d5434fa-heading > .c-sf-block__type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"c-sf-block__type\">Steps list</span>",
+              "target": [
+                "#block-65daf49f-e92b-4179-b3c3-82dd9309624f-heading > .c-sf-block__type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-8d758f80-4833-4aa0-befd-9a06f6c26575-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-8d758f80-4833-4aa0-befd-9a06f6c26575-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Text<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-8d758f80-4833-4aa0-befd-9a06f6c26575-content > .struct-block > div[data-contentpath=\"text\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-8d758f80-4833-4aa0-befd-9a06f6c26575-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-8d758f80-4833-4aa0-befd-9a06f6c26575-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Difficulty<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-8d758f80-4833-4aa0-befd-9a06f6c26575-content > .struct-block > div[data-contentpath=\"difficulty\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-8d758f80-4833-4aa0-befd-9a06f6c26575-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-8d758f80-4833-4aa0-befd-9a06f6c26575-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-0-value-difficulty_0\"><input type=\"radio\" name=\"body-3-value-0-value-difficulty\" value=\"S\" id=\"body-3-value-0-value-difficulty_0\">\n Small</label>",
+              "target": [
+                "#body-3-value-0-value-difficulty > div:nth-child(1) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-8d758f80-4833-4aa0-befd-9a06f6c26575-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-8d758f80-4833-4aa0-befd-9a06f6c26575-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-0-value-difficulty_1\"><input type=\"radio\" name=\"body-3-value-0-value-difficulty\" value=\"M\" id=\"body-3-value-0-value-difficulty_1\">\n Medium</label>",
+              "target": [
+                "#body-3-value-0-value-difficulty > div:nth-child(2) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-8d758f80-4833-4aa0-befd-9a06f6c26575-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-8d758f80-4833-4aa0-befd-9a06f6c26575-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-0-value-difficulty_2\"><input type=\"radio\" name=\"body-3-value-0-value-difficulty\" value=\"L\" id=\"body-3-value-0-value-difficulty_2\">\n Large</label>",
+              "target": [
+                "#body-3-value-0-value-difficulty > div:nth-child(3) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Text<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content > .struct-block > div[data-contentpath=\"text\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Difficulty<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content > .struct-block > div[data-contentpath=\"difficulty\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-1-value-difficulty_0\"><input type=\"radio\" name=\"body-3-value-1-value-difficulty\" value=\"S\" id=\"body-3-value-1-value-difficulty_0\">\n Small</label>",
+              "target": [
+                "#body-3-value-1-value-difficulty > div:nth-child(1) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-1-value-difficulty_1\"><input type=\"radio\" name=\"body-3-value-1-value-difficulty\" value=\"M\" id=\"body-3-value-1-value-difficulty_1\">\n Medium</label>",
+              "target": [
+                "#body-3-value-1-value-difficulty > div:nth-child(2) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-1-value-difficulty_2\"><input type=\"radio\" name=\"body-3-value-1-value-difficulty\" value=\"L\" id=\"body-3-value-1-value-difficulty_2\">\n Large</label>",
+              "target": [
+                "#body-3-value-1-value-difficulty > div:nth-child(3) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-6cd3c540-a110-4c4c-a194-b9ab60058105-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-6cd3c540-a110-4c4c-a194-b9ab60058105-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Text<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-6cd3c540-a110-4c4c-a194-b9ab60058105-content > .struct-block > div[data-contentpath=\"text\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-6cd3c540-a110-4c4c-a194-b9ab60058105-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-6cd3c540-a110-4c4c-a194-b9ab60058105-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Difficulty<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-6cd3c540-a110-4c4c-a194-b9ab60058105-content > .struct-block > div[data-contentpath=\"difficulty\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-6cd3c540-a110-4c4c-a194-b9ab60058105-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-6cd3c540-a110-4c4c-a194-b9ab60058105-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-2-value-difficulty_0\"><input type=\"radio\" name=\"body-3-value-2-value-difficulty\" value=\"S\" id=\"body-3-value-2-value-difficulty_0\">\n Small</label>",
+              "target": [
+                "#body-3-value-2-value-difficulty > div:nth-child(1) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-6cd3c540-a110-4c4c-a194-b9ab60058105-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-6cd3c540-a110-4c4c-a194-b9ab60058105-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-2-value-difficulty_1\"><input type=\"radio\" name=\"body-3-value-2-value-difficulty\" value=\"M\" id=\"body-3-value-2-value-difficulty_1\">\n Medium</label>",
+              "target": [
+                "#body-3-value-2-value-difficulty > div:nth-child(2) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-6cd3c540-a110-4c4c-a194-b9ab60058105-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-6cd3c540-a110-4c4c-a194-b9ab60058105-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-2-value-difficulty_2\"><input type=\"radio\" name=\"body-3-value-2-value-difficulty\" value=\"L\" id=\"body-3-value-2-value-difficulty_2\">\n Large</label>",
+              "target": [
+                "#body-3-value-2-value-difficulty > div:nth-child(3) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Text<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content > .struct-block > div[data-contentpath=\"text\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Difficulty<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content > .struct-block > div[data-contentpath=\"difficulty\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-3-value-difficulty_0\"><input type=\"radio\" name=\"body-3-value-3-value-difficulty\" value=\"S\" id=\"body-3-value-3-value-difficulty_0\">\n Small</label>",
+              "target": [
+                "#body-3-value-3-value-difficulty > div:nth-child(1) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-3-value-difficulty_1\"><input type=\"radio\" name=\"body-3-value-3-value-difficulty\" value=\"M\" id=\"body-3-value-3-value-difficulty_1\">\n Medium</label>",
+              "target": [
+                "#body-3-value-3-value-difficulty > div:nth-child(2) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-ae73e89f-9674-486e-8df5-5db6fc430eb4-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-3-value-difficulty_2\"><input type=\"radio\" name=\"body-3-value-3-value-difficulty\" value=\"L\" id=\"body-3-value-3-value-difficulty_2\">\n Large</label>",
+              "target": [
+                "#body-3-value-3-value-difficulty > div:nth-child(3) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Text<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content > .struct-block > div[data-contentpath=\"text\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Difficulty<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content > .struct-block > div[data-contentpath=\"difficulty\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-4-value-difficulty_0\"><input type=\"radio\" name=\"body-3-value-4-value-difficulty\" value=\"S\" id=\"body-3-value-4-value-difficulty_0\">\n Small</label>",
+              "target": [
+                "#body-3-value-4-value-difficulty > div:nth-child(1) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-4-value-difficulty_1\"><input type=\"radio\" name=\"body-3-value-4-value-difficulty\" value=\"M\" id=\"body-3-value-4-value-difficulty_1\">\n Medium</label>",
+              "target": [
+                "#body-3-value-4-value-difficulty > div:nth-child(2) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-e0b41ad1-cae5-482d-ae31-f13b35f17830-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-4-value-difficulty_2\"><input type=\"radio\" name=\"body-3-value-4-value-difficulty\" value=\"L\" id=\"body-3-value-4-value-difficulty_2\">\n Large</label>",
+              "target": [
+                "#body-3-value-4-value-difficulty > div:nth-child(3) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Text<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content > .struct-block > div[data-contentpath=\"text\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Difficulty<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content > .struct-block > div[data-contentpath=\"difficulty\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-5-value-difficulty_0\"><input type=\"radio\" name=\"body-3-value-5-value-difficulty\" value=\"S\" id=\"body-3-value-5-value-difficulty_0\">\n Small</label>",
+              "target": [
+                "#body-3-value-5-value-difficulty > div:nth-child(1) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-5-value-difficulty_1\"><input type=\"radio\" name=\"body-3-value-5-value-difficulty\" value=\"M\" id=\"body-3-value-5-value-difficulty_1\">\n Medium</label>",
+              "target": [
+                "#body-3-value-5-value-difficulty > div:nth-child(2) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-5-value-difficulty_2\"><input type=\"radio\" name=\"body-3-value-5-value-difficulty\" value=\"L\" id=\"body-3-value-5-value-difficulty_2\">\n Large</label>",
+              "target": [
+                "#body-3-value-5-value-difficulty > div:nth-child(3) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-5da87d79-5e73-491c-b38a-5422d89786e0-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-5da87d79-5e73-491c-b38a-5422d89786e0-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Text<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-5da87d79-5e73-491c-b38a-5422d89786e0-content > .struct-block > div[data-contentpath=\"text\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-5da87d79-5e73-491c-b38a-5422d89786e0-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-5da87d79-5e73-491c-b38a-5422d89786e0-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Difficulty<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-5da87d79-5e73-491c-b38a-5422d89786e0-content > .struct-block > div[data-contentpath=\"difficulty\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-5da87d79-5e73-491c-b38a-5422d89786e0-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-5da87d79-5e73-491c-b38a-5422d89786e0-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-6-value-difficulty_0\"><input type=\"radio\" name=\"body-3-value-6-value-difficulty\" value=\"S\" id=\"body-3-value-6-value-difficulty_0\">\n Small</label>",
+              "target": [
+                "#body-3-value-6-value-difficulty > div:nth-child(1) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-5da87d79-5e73-491c-b38a-5422d89786e0-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-5da87d79-5e73-491c-b38a-5422d89786e0-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-6-value-difficulty_1\"><input type=\"radio\" name=\"body-3-value-6-value-difficulty\" value=\"M\" id=\"body-3-value-6-value-difficulty_1\">\n Medium</label>",
+              "target": [
+                "#body-3-value-6-value-difficulty > div:nth-child(2) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-5da87d79-5e73-491c-b38a-5422d89786e0-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-5da87d79-5e73-491c-b38a-5422d89786e0-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label for=\"body-3-value-6-value-difficulty_2\"><input type=\"radio\" name=\"body-3-value-6-value-difficulty\" value=\"L\" id=\"body-3-value-6-value-difficulty_2\">\n Large</label>",
+              "target": [
+                "#body-3-value-6-value-difficulty > div:nth-child(3) > label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"c-sf-block__type\">Heading block</span>",
+              "target": [
+                "#block-26e29d41-c99a-4fde-9423-4130089691ba-heading > .c-sf-block__type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-26e29d41-c99a-4fde-9423-4130089691ba-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-26e29d41-c99a-4fde-9423-4130089691ba-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"body-4-value-heading_text\">Heading text<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "label[for=\"body-4-value-heading_text\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-26e29d41-c99a-4fde-9423-4130089691ba-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-26e29d41-c99a-4fde-9423-4130089691ba-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"body-4-value-size\">Size</label>",
+              "target": [
+                "label[for=\"body-4-value-size\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"body-4-value-size\" id=\"body-4-value-size\">\n  <option value=\"\" selected=\"\">Select a header size</option>\n\n  <option value=\"h2\">H2</option>\n\n  <option value=\"h3\">H3</option>\n\n  <option value=\"h4\">H4</option>\n\n</select>",
+                      "target": [
+                        "#body-4-value-size"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"body-4-value-size\" id=\"body-4-value-size\">\n  <option value=\"\" selected=\"\">Select a header size</option>\n\n  <option value=\"h2\">H2</option>\n\n  <option value=\"h3\">H3</option>\n\n  <option value=\"h4\">H4</option>\n\n</select>",
+              "target": [
+                "#body-4-value-size"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"c-sf-block__type\">Paragraph block</span>",
+              "target": [
+                "#block-910c5024-a47a-45b1-a3a3-8f8bb5a8fa70-heading > .c-sf-block__type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-authors-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-authors-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-panel-heading-text=\"\">\n        Author<span data-inline-panel-child-count=\"\"> 1</span>\n    </span>",
+              "target": [
+                "#inline_child_recipe_person_relationship-0-panel-heading > span[data-panel-heading-text=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "shortTextContent",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-authors-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-authors-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element content is too short to determine if it is actual text content"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-inline-panel-child-count=\"\"> 1</span>",
+              "target": [
+                "span[data-inline-panel-child-count=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_recipe_person_relationship-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_recipe_person_relationship-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_recipe_person_relationship-0-person\" id=\"id_recipe_person_relationship-0-person-label\">\n            Person<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_recipe_person_relationship-0-person-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_recipe_person_relationship-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_recipe_person_relationship-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"chooser__title\" data-chooser-title=\"\" id=\"id_recipe_person_relationship-0-person-title\">Roberta Johnson</div>",
+              "target": [
+                "#id_recipe_person_relationship-0-person-title"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-authors-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-authors-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_recipe_person_relationship-OPEN_MODAL\">\n        <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>Add author\n    </button>",
+              "target": [
+                "#id_recipe_person_relationship-OPEN_MODAL"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ],
+      "ax": "- main:\n  - status:\n    - list\n  - 'heading \"Editing Recipe page: Southern Cornbread\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Southern Cornbread\":\n          - /url: /admin/pages/82/\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - list\n  - button \"Toggle status\"\n  - button \"Toggle preview\"\n  - button \"Toggle checks\"\n  - button \"Toggle comments\"\n  - link \"History\":\n    - /url: /admin/pages/82/history/\n  - link \"Visible to all. Visit the live page\":\n    - /url: /recipes/southern-cornbread/\n    - text: Live\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"Title*\":\n          - /url: \"#panel-child-content-title-section\"\n      - listitem:\n        - link \"Date article published\":\n          - /url: \"#panel-child-content-date_published-section\"\n      - listitem:\n        - link \"Subtitle\":\n          - /url: \"#panel-child-content-subtitle-section\"\n      - listitem:\n        - link \"Preface\":\n          - /url: \"#panel-child-content-preface-section\"\n      - listitem:\n        - link \"Body*\":\n          - /url: \"#panel-child-content-body-section\"\n      - listitem:\n        - link \"Ingredients:*\":\n          - /url: \"#block-432fbbf5-210d-422c-ad4c-4147a205a25a-section\"\n      - listitem:\n        - link \"2 cups yellow or white…*\":\n          - /url: \"#block-4effba56-74c6-45a4-b295-a752b3121c96-section\"\n      - listitem:\n        - link \"2 cups yellow or white…*\":\n          - /url: \"#block-af8a3379-357c-4133-9397-66df6ea6fe68-section\"\n      - listitem:\n        - link \"1 large egg*\":\n          - /url: \"#block-cdb5339c-49e0-43dd-ba85-cbb35d17b4a6-section\"\n      - listitem:\n        - link \"1¼–1½ cups buttermilk …*\":\n          - /url: \"#block-b68d5f75-8478-4e34-8fea-4b27fad06e52-section\"\n      - listitem:\n        - link \"¼ cup olive oil or veg…*\":\n          - /url: \"#block-73dcf889-97e7-4abc-b0c1-35e221747702-section\"\n      - listitem:\n        - 'link \"Equipment needed: well…*\"':\n          - /url: \"#block-4544593d-1ab4-49a0-833f-143f0d5434fa-section\"\n      - listitem:\n        - link \"Preheat the oven to 42…\":\n          - /url: \"#block-65daf49f-e92b-4179-b3c3-82dd9309624f-section\"\n      - listitem:\n        - link \"Preheat the oven to 42…\":\n          - /url: \"#block-8d758f80-4833-4aa0-befd-9a06f6c26575-section\"\n      - listitem:\n        - link \"If using non-cast-iron…\":\n          - /url: \"#block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-section\"\n      - listitem:\n        - link \"Beat egg in the bowl. …\":\n          - /url: \"#block-6cd3c540-a110-4c4c-a194-b9ab60058105-section\"\n      - listitem:\n        - link \"Stir in the cornmeal a…\":\n          - /url: \"#block-ae73e89f-9674-486e-8df5-5db6fc430eb4-section\"\n      - listitem:\n        - link \"Pour the batter into t…\":\n          - /url: \"#block-e0b41ad1-cae5-482d-ae31-f13b35f17830-section\"\n      - listitem:\n        - link \"Then, bake until crust…\":\n          - /url: \"#block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-section\"\n      - listitem:\n        - link \"Make sure to let it co…\":\n          - /url: \"#block-5da87d79-5e73-491c-b38a-5422d89786e0-section\"\n      - listitem:\n        - link \"Notes, tips, and varia…\":\n          - /url: \"#block-26e29d41-c99a-4fde-9423-4130089691ba-section\"\n      - listitem:\n        - link \"Any leftover cornbread…*\":\n          - /url: \"#block-910c5024-a47a-45b1-a3a3-8f8bb5a8fa70-section\"\n      - listitem:\n        - link \"Authors\":\n          - /url: \"#panel-child-content-authors-section\"\n      - listitem:\n        - link \"Author 1\":\n          - /url: \"#inline_child_recipe_person_relationship-0-panel-section\"\n  - tablist:\n    - tab \"Content\" [selected]\n    - tab \"Promote\"\n  - tabpanel \"Content\":\n    - region \"Title*\":\n      - heading \"Title*\" [level=2]\n      - text: The page title as you'd like it to be seen by the public\n      - textbox \"Title*\":\n        - /placeholder: Page title*\n        - text: Southern Cornbread\n      - button \"Add comment\"\n    - region \"Date article published\":\n      - link \"Date article published\":\n        - /url: \"#panel-child-content-date_published-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Date article published\" [level=2]\n      - textbox \"Date article published\": 2019-03-21\n      - button \"Add comment\"\n    - region \"Subtitle\":\n      - link \"Subtitle\":\n        - /url: \"#panel-child-content-subtitle-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Subtitle\" [level=2]\n      - textbox \"Subtitle\"\n      - button \"Add comment\"\n    - region \"Preface\":\n      - link \"Preface\":\n        - /url: \"#panel-child-content-preface-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Preface\" [level=2]\n      - group: Refer to keywords analysis and correct international ingredients names to craft the best introduction backstory, and headline.\n      - text: Introduction\n      - textbox \"Introduction\": Southern Cornbread is a hearty, unsweetened variety of cornbread, widely served in the Southeastern United States. It is easy to make and is usually served as the bread portion of lunch or dinner (supper). It is not unusual for some people to occasionally have a simple, quick meal—even breakfast—by crumbling cornbread into a glass of buttermilk and eating it.\n      - button \"Add comment\"\n      - heading \"Backstory\" [level=3]\n      - text: Use only a minimum number of headings and large blocks.\n      - button \"Insert a block\"\n      - text: Recipe headline Keep to a single line\n      - textbox: Write something or type ‘/’ to insert a block\n    - region \"Body\":\n      - link \"Body\":\n        - /url: \"#panel-child-content-body-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Body\" [level=2]\n      - text: The recipe’s step-by-step instructions and any other relevant information.\n      - button \"Insert a block\"\n      - region \"Paragraph block * Ingredients:\":\n        - link \"Paragraph block * Ingredients:\":\n          - /url: \"#block-432fbbf5-210d-422c-ad4c-4147a205a25a-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Paragraph block * Ingredients:\" [level=2]\n        - button \"Move up\" [disabled]\n        - button \"Move down\"\n        - button \"Drag\"\n        - button \"Duplicate\"\n        - button \"Delete\"\n        - textbox\n      - button \"Insert a block\"\n      - region \"Ingredients list 2 cups yellow or white self-rising corn meal, 1 large egg…\":\n        - link \"Ingredients list 2 cups yellow or white self-rising corn meal, 1 large egg…\":\n          - /url: \"#block-4effba56-74c6-45a4-b295-a752b3121c96-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Ingredients list 2 cups yellow or white self-rising corn meal, 1 large egg…\" [level=2]\n        - button \"Move up\"\n        - button \"Move down\"\n        - button \"Drag\"\n        - button \"Duplicate\"\n        - button \"Delete\"\n        - button \"Add\"\n        - region \"* 2 cups yellow or white self-rising corn meal\":\n          - link \"* 2 cups yellow or white self-rising corn meal\":\n            - /url: \"#block-af8a3379-357c-4133-9397-66df6ea6fe68-section\"\n          - button \"Toggle section\" [expanded]\n          - heading \"* 2 cups yellow or white self-rising corn meal\" [level=2]\n          - button \"Move up\" [disabled]\n          - button \"Move down\"\n          - button \"Drag\"\n          - button \"Duplicate\"\n          - button \"Delete\"\n          - textbox:\n            - button \"cups\"\n            - button \"corn meal\"\n        - button \"Add\"\n        - region \"* 1 large egg\":\n          - link \"* 1 large egg\":\n            - /url: \"#block-cdb5339c-49e0-43dd-ba85-cbb35d17b4a6-section\"\n          - button \"Toggle section\" [expanded]\n          - heading \"* 1 large egg\" [level=2]\n          - button \"Move up\"\n          - button \"Move down\"\n          - button \"Drag\"\n          - button \"Duplicate\"\n          - button \"Delete\"\n          - textbox:\n            - button \"egg\"\n        - button \"Add\"\n        - region \"* 1¼–1½ cups buttermilk or whole milk\":\n          - link \"* 1¼–1½ cups buttermilk or whole milk\":\n            - /url: \"#block-b68d5f75-8478-4e34-8fea-4b27fad06e52-section\"\n          - button \"Toggle section\" [expanded]\n          - heading \"* 1¼–1½ cups buttermilk or whole milk\" [level=2]\n          - button \"Move up\"\n          - button \"Move down\"\n          - button \"Drag\"\n          - button \"Duplicate\"\n          - button \"Delete\"\n          - textbox:\n            - button \"buttermilk\"\n            - button \"milk\"\n        - button \"Add\"\n        - region \"* ¼ cup olive oil or vegetable oil\":\n          - link \"* ¼ cup olive oil or vegetable oil\":\n            - /url: \"#block-73dcf889-97e7-4abc-b0c1-35e221747702-section\"\n          - button \"Toggle section\" [expanded]\n          - heading \"* ¼ cup olive oil or vegetable oil\" [level=2]\n          - button \"Move up\"\n          - button \"Move down\" [disabled]\n          - button \"Drag\"\n          - button \"Duplicate\"\n          - button \"Delete\"\n          - textbox:\n            - button \"olive oil\"\n            - button \"vegetable oil\"\n        - button \"Add\"\n      - button \"Insert a block\"\n      - 'region \"Paragraph block * Equipment needed: well-seasoned 8-inch or 10-inch cast-iron skillet (…\"':\n        - 'link \"Paragraph block * Equipment needed: well-seasoned 8-inch or 10-inch cast-iron skillet (…\"':\n          - /url: \"#block-4544593d-1ab4-49a0-833f-143f0d5434fa-section\"\n        - button \"Toggle section\" [expanded]\n        - 'heading \"Paragraph block * Equipment needed: well-seasoned 8-inch or 10-inch cast-iron skillet (…\" [level=2]'\n        - button \"Move up\"\n        - button \"Move down\"\n        - button \"Drag\"\n        - button \"Duplicate\"\n        - button \"Delete\"\n        - textbox:\n          - list:\n            - listitem:\n              - text: well-seasoned 8-inch or 10-inch cast-iron\n              - button \"skillet\"\n              - text: \"(alternately: an ovenproof skillet or an 8x8-inch baking pan)\"\n            - listitem: assorted measuring cups\n            - listitem: medium or large mixing bowl\n      - button \"Insert a block\"\n      - region \"Steps list Preheat the oven to 425°F (220ºC). If using cast-iron skillet, place …\":\n        - link \"Steps list Preheat the oven to 425°F (220ºC). If using cast-iron skillet, place …\":\n          - /url: \"#block-65daf49f-e92b-4179-b3c3-82dd9309624f-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Steps list Preheat the oven to 425°F (220ºC). If using cast-iron skillet, place …\" [level=2]\n        - button \"Move up\"\n        - button \"Move down\"\n        - button \"Drag\"\n        - button \"Duplicate\"\n        - button \"Delete\"\n        - button \"Add\"\n        - region \"Preheat the oven to 425°F (220ºC). If using cast-iron skillet, place …\":\n          - link \"Preheat the oven to 425°F (220ºC). If using cast-iron skillet, place …\":\n            - /url: \"#block-8d758f80-4833-4aa0-befd-9a06f6c26575-section\"\n          - button \"Toggle section\" [expanded]\n          - heading \"Preheat the oven to 425°F (220ºC). If using cast-iron skillet, place …\" [level=2]\n          - button \"Move up\" [disabled]\n          - button \"Move down\"\n          - button \"Drag\"\n          - button \"Duplicate\"\n          - button \"Delete\"\n          - text: Text*\n          - textbox\n          - text: Difficulty*\n          - radio \"Small\" [checked]\n          - text: Small\n          - radio \"Medium\"\n          - text: Medium\n          - radio \"Large\"\n          - text: Large\n          - button \"Add Comment\"\n        - button \"Add\"\n        - region \"If using non-cast-iron skillet or baking pan, coat with a non-stick s…\":\n          - link \"If using non-cast-iron skillet or baking pan, coat with a non-stick s…\":\n            - /url: \"#block-c8845f2f-f1ca-4291-a2f0-2680c47dfd5c-section\"\n          - button \"Toggle section\" [expanded]\n          - heading \"If using non-cast-iron skillet or baking pan, coat with a non-stick s…\" [level=2]\n          - button \"Move up\"\n          - button \"Move down\"\n          - button \"Drag\"\n          - button \"Duplicate\"\n          - button \"Delete\"\n          - text: Text*\n          - textbox\n          - text: Difficulty*\n          - radio \"Small\" [checked]\n          - text: Small\n          - radio \"Medium\"\n          - text: Medium\n          - radio \"Large\"\n          - text: Large\n          - button \"Add Comment\"\n        - button \"Add\"\n        - region \"Beat egg in the bowl. Stir in buttermilk and oil.\":\n          - link \"Beat egg in the bowl. Stir in buttermilk and oil.\":\n            - /url: \"#block-6cd3c540-a110-4c4c-a194-b9ab60058105-section\"\n          - button \"Toggle section\" [expanded]\n          - heading \"Beat egg in the bowl. Stir in buttermilk and oil.\" [level=2]\n          - button \"Move up\"\n          - button \"Move down\"\n          - button \"Drag\"\n          - button \"Duplicate\"\n          - button \"Delete\"\n          - text: Text*\n          - textbox\n          - text: Difficulty*\n          - radio \"Small\"\n          - text: Small\n          - radio \"Medium\" [checked]\n          - text: Medium\n          - radio \"Large\"\n          - text: Large\n          - button \"Add Comment\"\n        - button \"Add\"\n        - region \"Stir in the cornmeal and mix until just moistened. Batter will be som…\":\n          - link \"Stir in the cornmeal and mix until just moistened. Batter will be som…\":\n            - /url: \"#block-ae73e89f-9674-486e-8df5-5db6fc430eb4-section\"\n          - button \"Toggle section\" [expanded]\n          - heading \"Stir in the cornmeal and mix until just moistened. Batter will be som…\" [level=2]\n          - button \"Move up\"\n          - button \"Move down\"\n          - button \"Drag\"\n          - button \"Duplicate\"\n          - button \"Delete\"\n          - text: Text*\n          - textbox\n          - text: Difficulty*\n          - radio \"Small\" [checked]\n          - text: Small\n          - radio \"Medium\"\n          - text: Medium\n          - radio \"Large\"\n          - text: Large\n          - button \"Add Comment\"\n        - button \"Add\"\n        - region \"Pour the batter into the skillet and place in the oven.\":\n          - link \"Pour the batter into the skillet and place in the oven.\":\n            - /url: \"#block-e0b41ad1-cae5-482d-ae31-f13b35f17830-section\"\n          - button \"Toggle section\" [expanded]\n          - heading \"Pour the batter into the skillet and place in the oven.\" [level=2]\n          - button \"Move up\"\n          - button \"Move down\"\n          - button \"Drag\"\n          - button \"Duplicate\"\n          - button \"Delete\"\n          - text: Text*\n          - textbox\n          - text: Difficulty*\n          - radio \"Small\" [checked]\n          - text: Small\n          - radio \"Medium\"\n          - text: Medium\n          - radio \"Large\"\n          - text: Large\n          - button \"Add Comment\"\n        - button \"Add\"\n        - region \"Then, bake until crust is a light golden brown and a toothpick insert…\":\n          - link \"Then, bake until crust is a light golden brown and a toothpick insert…\":\n            - /url: \"#block-7c8a44b1-38af-4d34-ac7e-ea9db44ab090-section\"\n          - button \"Toggle section\" [expanded]\n          - heading \"Then, bake until crust is a light golden brown and a toothpick insert…\" [level=2]\n          - button \"Move up\"\n          - button \"Move down\"\n          - button \"Drag\"\n          - button \"Duplicate\"\n          - button \"Delete\"\n          - text: Text*\n          - textbox\n          - text: Difficulty*\n          - radio \"Small\" [checked]\n          - text: Small\n          - radio \"Medium\"\n          - text: Medium\n          - radio \"Large\"\n          - text: Large\n          - button \"Add Comment\"\n        - button \"Add\"\n        - region \"Make sure to let it cool in the skillet before serving.\":\n          - link \"Make sure to let it cool in the skillet before serving.\":\n            - /url: \"#block-5da87d79-5e73-491c-b38a-5422d89786e0-section\"\n          - button \"Toggle section\" [expanded]\n          - heading \"Make sure to let it cool in the skillet before serving.\" [level=2]\n          - button \"Move up\"\n          - button \"Move down\" [disabled]\n          - button \"Drag\"\n          - button \"Duplicate\"\n          - button \"Delete\"\n          - text: Text*\n          - textbox\n          - text: Difficulty*\n          - radio \"Small\" [checked]\n          - text: Small\n          - radio \"Medium\"\n          - text: Medium\n          - radio \"Large\"\n          - text: Large\n          - button \"Add Comment\"\n        - button \"Add\"\n      - button \"Insert a block\"\n      - region \"Heading block Notes, tips, and variations\":\n        - link \"Heading block Notes, tips, and variations\":\n          - /url: \"#block-26e29d41-c99a-4fde-9423-4130089691ba-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Heading block Notes, tips, and variations\" [level=2]\n        - button \"Move up\"\n        - button \"Move down\"\n        - button \"Drag\"\n        - button \"Duplicate\"\n        - button \"Delete\"\n        - text: Heading text*\n        - textbox \"Heading text*\": Notes, tips, and variations\n        - button \"Add Comment\"\n        - text: Size\n        - combobox \"Size\":\n          - option \"Select a header size\"\n          - option \"H2\" [selected]\n          - option \"H3\"\n          - option \"H4\"\n        - button \"Add Comment\"\n      - button \"Insert a block\"\n      - region \"Paragraph block * Any leftover cornbread can be wrapped in a damp towel (to keep it moi…\":\n        - link \"Paragraph block * Any leftover cornbread can be wrapped in a damp towel (to keep it moi…\":\n          - /url: \"#block-910c5024-a47a-45b1-a3a3-8f8bb5a8fa70-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Paragraph block * Any leftover cornbread can be wrapped in a damp towel (to keep it moi…\" [level=2]\n        - button \"Move up\"\n        - button \"Move down\" [disabled]\n        - button \"Drag\"\n        - button \"Duplicate\"\n        - button \"Delete\"\n        - textbox:\n          - button \"Skillet Cornbread (PDF)\"\n      - button \"Insert a block\"\n    - region \"Authors\":\n      - link \"Authors\":\n        - /url: \"#panel-child-content-authors-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Authors\" [level=2]\n      - text: Select between one and three authors\n      - region \"Author 1\":\n        - link \"Author 1\":\n          - /url: \"#inline_child_recipe_person_relationship-0-panel-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Author 1\" [level=2]\n        - button \"Move up\" [disabled]\n        - button \"Move down\" [disabled]\n        - button \"Drag\"\n        - button \"Delete\"\n        - text: Person* Roberta Johnson\n        - button \"Actions\"\n      - button \"Add author\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\""
+    },
+    {
+      "kind": "tab",
+      "name": "Promote",
+      "violations": [],
+      "incomplete": [],
+      "ax": "- main:\n  - status:\n    - list\n  - 'heading \"Editing Recipe page: Southern Cornbread\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Southern Cornbread\":\n          - /url: /admin/pages/82/\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - list\n  - button \"Toggle status\"\n  - button \"Toggle preview\"\n  - button \"Toggle checks\"\n  - button \"Toggle comments\"\n  - link \"History\":\n    - /url: /admin/pages/82/history/\n  - link \"Visible to all. Visit the live page\":\n    - /url: /recipes/southern-cornbread/\n    - text: Live\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"For search engines\":\n          - /url: \"#panel-child-promote-for_search_engines-section\"\n      - listitem:\n        - link \"For site menus\":\n          - /url: \"#panel-child-promote-for_site_menus-section\"\n  - tablist:\n    - tab \"Content\"\n    - tab \"Promote\" [selected]\n  - tabpanel \"Promote\":\n    - region \"For search engines\":\n      - link \"For search engines\":\n        - /url: \"#panel-child-promote-for_search_engines-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For search engines\" [level=2]\n      - text: Slug* The name of the page as it will appear in URLs e.g http://domain.com/blog/[my-slug]/\n      - textbox \"Slug*\": southern-cornbread\n      - button \"Add comment\"\n      - text: Title tag The name of the page displayed on search engine results as the clickable headline.\n      - textbox \"Title tag\"\n      - button \"Add comment\"\n      - text: Meta description The descriptive text displayed underneath a headline in search engine results.\n      - textbox \"Meta description\"\n      - button \"Add comment\"\n    - region \"For site menus\":\n      - link \"For site menus\":\n        - /url: \"#panel-child-promote-for_site_menus-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For site menus\" [level=2]\n      - text: Show in menus Whether a link to this page will appear in automatically generated menus\n      - checkbox \"Show in menus\"\n      - button \"Add comment\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\""
+    },
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "kind": "dropdown",
+      "name": "More actions",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_show_in_menus\" id=\"id_show_in_menus-label\">\n            Show in menus\n        </label>",
+              "target": [
+                "#id_show_in_menus-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"help\">Whether a link to this page will appear in automatically generated menus</div>",
+              "target": [
+                "#panel-child-promote-child-for_site_menus-child-show_in_menus-helptext > .help"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blocked": [
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/editing-sessions/ping/wagtailcore/page/82/394/",
+      "method": "POST"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/editing-sessions/ping/wagtailcore/page/82/394/",
+      "method": "POST"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/editing-sessions/ping/wagtailcore/page/82/394/",
+      "method": "POST"
+    }
+  ],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list\n  - 'heading \"Editing Recipe page: Southern Cornbread\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Southern Cornbread\":\n          - /url: /admin/pages/82/\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - list\n  - button \"Toggle status\"\n  - button \"Toggle preview\"\n  - button \"Toggle checks\"\n  - button \"Toggle comments\"\n  - link \"History\":\n    - /url: /admin/pages/82/history/\n  - link \"Visible to all. Visit the live page\":\n    - /url: /recipes/southern-cornbread/\n    - text: Live\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"For search engines\":\n          - /url: \"#panel-child-promote-for_search_engines-section\"\n      - listitem:\n        - link \"For site menus\":\n          - /url: \"#panel-child-promote-for_site_menus-section\"\n  - tablist:\n    - tab \"Content\"\n    - tab \"Promote\" [selected]\n  - tabpanel \"Promote\":\n    - region \"For search engines\":\n      - link \"For search engines\":\n        - /url: \"#panel-child-promote-for_search_engines-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For search engines\" [level=2]\n      - text: Slug* The name of the page as it will appear in URLs e.g http://domain.com/blog/[my-slug]/\n      - textbox \"Slug*\": southern-cornbread\n      - button \"Add comment\"\n      - text: Title tag The name of the page displayed on search engine results as the clickable headline.\n      - textbox \"Title tag\"\n      - button \"Add comment\"\n      - text: Meta description The descriptive text displayed underneath a headline in search engine results.\n      - textbox \"Meta description\"\n      - button \"Add comment\"\n    - region \"For site menus\":\n      - link \"For site menus\":\n        - /url: \"#panel-child-promote-for_site_menus-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For site menus\" [level=2]\n      - text: Show in menus Whether a link to this page will appear in automatically generated menus\n      - checkbox \"Show in menus\"\n      - button \"Add comment\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\""
+}

@@ -1,0 +1,38 @@
+{
+  "skill": "forms-specialist",
+  "scope": [
+    "https://guide.wagtail.org/en/search/?query=pages",
+    "https://guide.wagtail.org/en/how-to-guides/manage-pages/",
+    "apps/search/templates/search/search.html",
+    "apps/search/views.py",
+    "apps/core/templates/components/feedback.html",
+    "apps/core/templates/components/search_modal.html",
+    "apps/frontend/static_src/js/feedback/index.js"
+  ],
+  "findings": [
+    {
+      "rule": "FORM-SEARCH-DUPLICATE-LABEL-TARGET",
+      "wcag": "1.3.1 A",
+      "severity": "moderate",
+      "location": "apps/search/templates/search/search.html:11",
+      "summary": "On full search pages, the modal Search label is associated with the main-page input instead of its own input.",
+      "fix": "Use distinct ids such as page-search and modal-search, updating each label for attribute to match its respective input. Preserve the modal data-search-input selector and search query field name.",
+      "evidence": "Live /en/search/?query=pages contains two input#search elements. The main input.labels contains both Search labels; modal input.labels is empty. Opening the modal exposes textbox \"Search\u2026\" from its placeholder instead of its explicit label. See raw/forms-runtime.json.",
+      "component": "Full search page and search modal"
+    }
+  ],
+  "passed": [
+    "Main-page search input and Search submit button are native keyboard-operable controls with accessible names.",
+    "The modal Search input is explicitly labelled on pages without a competing full-page search form.",
+    "Feedback textarea has a programmatically associated Your feedback label; happy and unhappy native buttons expose names within the visible Was this page helpful context.",
+    "Feedback reveal and completion were exercised with every POST intercepted and fulfilled locally; no production feedback was submitted. After the initial buttons are removed, the next Tab reaches the newly revealed textarea; after Submit is removed, the next Tab reaches the following footer link.",
+    "No personal-information fields, authentication, required user-data fields or multi-step repeated-entry process were found in these forms; autocomplete and redundant-entry requirements are not applicable to the search query or free-text comment."
+  ],
+  "notes": [
+    "Duplicate ids are reported for their confirmed label-association consequence under 1.3.1; WCAG 2.2 removed 4.1.1, and the modal textbox still has a placeholder-derived name, so it is not reported as nameless under 4.1.2.",
+    "Feedback controls are removed while focused, causing document.activeElement to become BODY; Chromium preserves the next sequential Tab location. Explicit focus on the newly revealed textarea or a completion message would improve continuity, but this test does not establish a separate 2.4.3 failure.",
+    "Dynamic feedback and search-result announcements are handled by live-region-controller and are not duplicated here.",
+    "Feedback JS catches network errors by logging to the console, and updateFeedback does not inspect HTTP response.ok before deleting the comment interface. Production server validation/error responses were not induced; error identification and recovery remain source-review limitations.",
+    "No screenshots captured. Runtime evidence is saved to raw/forms-runtime.json, including both intercepted mock POST bodies."
+  ]
+}

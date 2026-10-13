@@ -1,0 +1,3449 @@
+{
+  "browser": "Chromium 152.0.7977.82",
+  "playwright": "1.58.2",
+  "axe": "4.13.0",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "viewport": "1440x1000",
+  "colorScheme": "light",
+  "pages": [
+    {
+      "url": "https://www.djangoproject.com/",
+      "status": 200,
+      "metadata": {
+        "title": "The web framework for perfectionists with deadlines | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Meet Django"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 78
+      },
+      "violations": 1,
+      "instances": 76,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 76
+        }
+      ],
+      "passes": 29,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/community/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Community | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Community"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 164
+      },
+      "violations": 1,
+      "instances": 64,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 64
+        }
+      ],
+      "passes": 29,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/conduct/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Code of Conduct | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Django Code of Conduct"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 81
+      },
+      "violations": 1,
+      "instances": 54,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 54
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/diversity/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Community Diversity Statement | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Django Community Diversity Statement"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 57
+      },
+      "violations": 1,
+      "instances": 43,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 43
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/download/",
+      "status": 200,
+      "metadata": {
+        "title": "Download Django | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "How to get Django"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 159
+      },
+      "violations": 1,
+      "instances": 136,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 136
+        }
+      ],
+      "passes": 30,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/",
+      "status": 200,
+      "metadata": {
+        "title": "About the Django Software Foundation | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "About the Django Software Foundation"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 114
+      },
+      "violations": 1,
+      "instances": 104,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 104
+        }
+      ],
+      "passes": 29,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/fundraising/",
+      "status": 200,
+      "metadata": {
+        "title": "Support Django | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Support the Django Software Foundation!"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          },
+          {
+            "action": "https://www.djangoproject.com/fundraising/",
+            "method": "post"
+          }
+        ],
+        "interactive": 277
+      },
+      "violations": 1,
+      "instances": 205,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 205
+        }
+      ],
+      "passes": 33,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/",
+      "status": 200,
+      "metadata": {
+        "title": "Sponsor Django | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Your business runs on Django.\nHelp Django thrive."
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 81
+      },
+      "violations": 1,
+      "instances": 79,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 79
+        }
+      ],
+      "passes": 23,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/start/",
+      "status": 200,
+      "metadata": {
+        "title": "Getting started with Django | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Getting started with Django"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 77
+      },
+      "violations": 1,
+      "instances": 54,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 54
+        }
+      ],
+      "passes": 23,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/contact/foundation/",
+      "status": 200,
+      "metadata": {
+        "title": "Contact the Django Software Foundation | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Contact the Django Software Foundation"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          },
+          {
+            "action": "https://www.djangoproject.com/contact/foundation/",
+            "method": "post"
+          }
+        ],
+        "interactive": 74
+      },
+      "violations": 1,
+      "instances": 69,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 69
+        }
+      ],
+      "passes": 30,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/",
+      "status": 200,
+      "metadata": {
+        "title": "DSF member of the month - Ken Whitesell | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "DSF member of the month - Ken Whitesell"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 355
+      },
+      "violations": 1,
+      "instances": 85,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 85
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/corporate-members/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Software Foundation | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Corporate members"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 101
+      },
+      "violations": 1,
+      "instances": 104,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 104
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/donate/",
+      "status": 200,
+      "metadata": {
+        "title": "Support the Django Software Foundation | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Support the Django Software Foundation"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 91
+      },
+      "violations": 1,
+      "instances": 85,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 85
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/individual-members/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Software Foundation | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Individual members"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 67
+      },
+      "violations": 1,
+      "instances": 70,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 70
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/teams/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Software Foundation | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Teams and Working Groups"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 109
+      },
+      "violations": 1,
+      "instances": 96,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 96
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/community/dsf/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Community | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Django community: RSS"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 164
+      },
+      "violations": 2,
+      "instances": 179,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 178
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "count": 1
+        }
+      ],
+      "passes": 29,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/community/ecosystem/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Community | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Community Ecosystem ¶"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 160
+      },
+      "violations": 1,
+      "instances": 121,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 121
+        }
+      ],
+      "passes": 29,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/conduct/reporting/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Code of Conduct - Reporting Guide | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Django Code of Conduct - Reporting Guide"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 83
+      },
+      "violations": 1,
+      "instances": 53,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 53
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/banner/",
+      "status": 200,
+      "metadata": {
+        "title": "Sponsor Django's website and documentation | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Reach Django developers\nwhere they work."
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          },
+          {
+            "action": "https://www.djangoproject.com/sponsor/banner/#contact",
+            "method": "post"
+          }
+        ],
+        "interactive": 71
+      },
+      "violations": 1,
+      "instances": 53,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 53
+        }
+      ],
+      "passes": 30,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/plans/",
+      "status": 200,
+      "metadata": {
+        "title": "How Investing in Django Makes a Difference | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "How Investing in Django Makes a Difference"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 102
+      },
+      "violations": 1,
+      "instances": 79,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 79
+        }
+      ],
+      "passes": 31,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/",
+      "status": 200,
+      "metadata": {
+        "title": "2007 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "2007 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 373
+      },
+      "violations": 2,
+      "instances": 123,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 122
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "count": 1
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/download/2028/roadmap/",
+      "status": 200,
+      "metadata": {
+        "title": "Django 2028 Roadmap | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Django 2028 Roadmap"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 58
+      },
+      "violations": 1,
+      "instances": 46,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 46
+        }
+      ],
+      "passes": 29,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/",
+      "status": 200,
+      "metadata": {
+        "title": "2010 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "2010 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 373
+      },
+      "violations": 2,
+      "instances": 123,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 122
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "count": 1
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/download/6.2/roadmap/",
+      "status": 200,
+      "metadata": {
+        "title": "Django 6.2 Roadmap | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Django 6.2 Roadmap"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 58
+      },
+      "violations": 1,
+      "instances": 46,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 46
+        }
+      ],
+      "passes": 29,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/community/local/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Community | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Local Django Communities"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 194
+      },
+      "violations": 1,
+      "instances": 119,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 119
+        }
+      ],
+      "passes": 29,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/",
+      "status": 200,
+      "metadata": {
+        "title": "2016 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "2016 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 373
+      },
+      "violations": 2,
+      "instances": 123,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 122
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "count": 1
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/plans/diamond/",
+      "status": 200,
+      "metadata": {
+        "title": "Diamond sponsorship | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Be thanked in every Django release."
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          },
+          {
+            "action": "https://www.djangoproject.com/sponsor/plans/diamond/#contact",
+            "method": "post"
+          }
+        ],
+        "interactive": 76
+      },
+      "violations": 1,
+      "instances": 65,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 65
+        }
+      ],
+      "passes": 30,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/",
+      "status": 200,
+      "metadata": {
+        "title": "2017 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "2017 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 373
+      },
+      "violations": 2,
+      "instances": 123,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 122
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "count": 1
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/plans/platinum/",
+      "status": 200,
+      "metadata": {
+        "title": "Platinum sponsorship | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Put your logo in front of the Django community."
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          },
+          {
+            "action": "https://www.djangoproject.com/sponsor/plans/platinum/#contact",
+            "method": "post"
+          }
+        ],
+        "interactive": 75
+      },
+      "violations": 1,
+      "instances": 64,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 64
+        }
+      ],
+      "passes": 30,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/corporate-membership/",
+      "status": 200,
+      "metadata": {
+        "title": "Corporate membership | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Corporate membership"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 95
+      },
+      "violations": 1,
+      "instances": 89,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 89
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/",
+      "status": 200,
+      "metadata": {
+        "title": "2022 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "2022 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 373
+      },
+      "violations": 2,
+      "instances": 123,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 122
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "count": 1
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/minutes/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Software Foundation | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Meeting minutes archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 70
+      },
+      "violations": 1,
+      "instances": 73,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 73
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2005/nov/",
+      "status": 200,
+      "metadata": {
+        "title": "November 2005 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "November 2005 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 373
+      },
+      "violations": 2,
+      "instances": 123,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 122
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "count": 1
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/prizes/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Software Foundation Prizes | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Django Software Foundation Prizes"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 136
+      },
+      "violations": 1,
+      "instances": 117,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 117
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/apr/",
+      "status": 200,
+      "metadata": {
+        "title": "April 2006 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "April 2006 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 358
+      },
+      "violations": 1,
+      "instances": 94,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 94
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/jan/",
+      "status": 200,
+      "metadata": {
+        "title": "January 2006 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "January 2006 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 358
+      },
+      "violations": 1,
+      "instances": 94,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 94
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/minutes/2025/apr/10/dsf-board-monthly-meeting/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Software Foundation | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "DSF Board monthly meeting, April 10, 2025"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 64
+      },
+      "violations": 1,
+      "instances": 67,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 67
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/may/",
+      "status": 200,
+      "metadata": {
+        "title": "May 2006 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "May 2006 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 366
+      },
+      "violations": 1,
+      "instances": 110,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 110
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/feb/",
+      "status": 200,
+      "metadata": {
+        "title": "February 2007 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "February 2007 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 354
+      },
+      "violations": 1,
+      "instances": 86,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 86
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/mar/",
+      "status": 200,
+      "metadata": {
+        "title": "March 2007 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "March 2007 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 354
+      },
+      "violations": 1,
+      "instances": 86,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 86
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/may/",
+      "status": 200,
+      "metadata": {
+        "title": "May 2007 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "May 2007 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/aug/",
+      "status": 200,
+      "metadata": {
+        "title": "August 2008 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "August 2008 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 360
+      },
+      "violations": 1,
+      "instances": 98,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 98
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/jul/",
+      "status": 200,
+      "metadata": {
+        "title": "July 2008 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "July 2008 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 372
+      },
+      "violations": 1,
+      "instances": 116,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 116
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/nov/",
+      "status": 200,
+      "metadata": {
+        "title": "November 2008 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "November 2008 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2009/jul/",
+      "status": 200,
+      "metadata": {
+        "title": "July 2009 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "July 2009 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 361
+      },
+      "violations": 1,
+      "instances": 99,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 99
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2009/may/",
+      "status": 200,
+      "metadata": {
+        "title": "May 2009 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "May 2009 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 354
+      },
+      "violations": 1,
+      "instances": 86,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 86
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/jan/",
+      "status": 200,
+      "metadata": {
+        "title": "January 2010 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "January 2010 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 357
+      },
+      "violations": 1,
+      "instances": 91,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 91
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/mar/",
+      "status": 200,
+      "metadata": {
+        "title": "March 2010 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "March 2010 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 358
+      },
+      "violations": 1,
+      "instances": 94,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 94
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/sep/",
+      "status": 200,
+      "metadata": {
+        "title": "September 2010 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "September 2010 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 358
+      },
+      "violations": 1,
+      "instances": 94,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 94
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2011/jan/",
+      "status": 200,
+      "metadata": {
+        "title": "January 2011 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "January 2011 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2011/nov/",
+      "status": 200,
+      "metadata": {
+        "title": "November 2011 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "November 2011 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 354
+      },
+      "violations": 1,
+      "instances": 86,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 86
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/aug/",
+      "status": 200,
+      "metadata": {
+        "title": "August 2012 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "August 2012 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 363
+      },
+      "violations": 1,
+      "instances": 101,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 101
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/jul/",
+      "status": 200,
+      "metadata": {
+        "title": "July 2012 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "July 2012 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 362
+      },
+      "violations": 1,
+      "instances": 102,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 102
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/may/",
+      "status": 200,
+      "metadata": {
+        "title": "May 2012 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "May 2012 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 358
+      },
+      "violations": 1,
+      "instances": 94,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 94
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/feb/",
+      "status": 200,
+      "metadata": {
+        "title": "February 2013 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "February 2013 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 362
+      },
+      "violations": 1,
+      "instances": 102,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 102
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/jul/",
+      "status": 200,
+      "metadata": {
+        "title": "July 2013 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "July 2013 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 358
+      },
+      "violations": 1,
+      "instances": 94,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 94
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/nov/",
+      "status": 200,
+      "metadata": {
+        "title": "November 2013 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "November 2013 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/oct/",
+      "status": 200,
+      "metadata": {
+        "title": "October 2013 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "October 2013 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 358
+      },
+      "violations": 1,
+      "instances": 94,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 94
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/aug/",
+      "status": 200,
+      "metadata": {
+        "title": "August 2014 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "August 2014 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 364
+      },
+      "violations": 1,
+      "instances": 106,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 106
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/jul/",
+      "status": 200,
+      "metadata": {
+        "title": "July 2014 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "July 2014 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 354
+      },
+      "violations": 1,
+      "instances": 86,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 86
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/oct/",
+      "status": 200,
+      "metadata": {
+        "title": "October 2014 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "October 2014 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 368
+      },
+      "violations": 1,
+      "instances": 114,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 114
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/feb/",
+      "status": 200,
+      "metadata": {
+        "title": "February 2015 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "February 2015 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 365
+      },
+      "violations": 1,
+      "instances": 107,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 107
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/jul/",
+      "status": 200,
+      "metadata": {
+        "title": "July 2015 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "July 2015 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/may/",
+      "status": 200,
+      "metadata": {
+        "title": "May 2015 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "May 2015 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 365
+      },
+      "violations": 1,
+      "instances": 107,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 107
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/apr/",
+      "status": 200,
+      "metadata": {
+        "title": "April 2016 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "April 2016 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 358
+      },
+      "violations": 1,
+      "instances": 94,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 94
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/jan/",
+      "status": 200,
+      "metadata": {
+        "title": "January 2016 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "January 2016 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/may/",
+      "status": 200,
+      "metadata": {
+        "title": "May 2016 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "May 2016 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/sep/",
+      "status": 200,
+      "metadata": {
+        "title": "September 2016 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "September 2016 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 358
+      },
+      "violations": 1,
+      "instances": 94,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 94
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/aug/",
+      "status": 200,
+      "metadata": {
+        "title": "August 2017 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "August 2017 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/may/",
+      "status": 200,
+      "metadata": {
+        "title": "May 2017 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "May 2017 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 354
+      },
+      "violations": 1,
+      "instances": 86,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 86
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/sep/",
+      "status": 200,
+      "metadata": {
+        "title": "September 2017 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "September 2017 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/dec/",
+      "status": 200,
+      "metadata": {
+        "title": "December 2018 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "December 2018 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 360
+      },
+      "violations": 1,
+      "instances": 98,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 98
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/may/",
+      "status": 200,
+      "metadata": {
+        "title": "May 2018 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "May 2018 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 361
+      },
+      "violations": 1,
+      "instances": 99,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 99
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/oct/",
+      "status": 200,
+      "metadata": {
+        "title": "October 2018 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "October 2018 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 360
+      },
+      "violations": 1,
+      "instances": 98,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 98
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/dec/",
+      "status": 200,
+      "metadata": {
+        "title": "December 2019 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "December 2019 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 362
+      },
+      "violations": 1,
+      "instances": 102,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 102
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/mar/",
+      "status": 200,
+      "metadata": {
+        "title": "March 2019 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "March 2019 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 358
+      },
+      "violations": 1,
+      "instances": 94,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 94
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/oct/",
+      "status": 200,
+      "metadata": {
+        "title": "October 2019 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "October 2019 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 360
+      },
+      "violations": 1,
+      "instances": 98,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 98
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/feb/",
+      "status": 200,
+      "metadata": {
+        "title": "February 2020 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "February 2020 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 354
+      },
+      "violations": 1,
+      "instances": 86,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 86
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/jul/",
+      "status": 200,
+      "metadata": {
+        "title": "July 2020 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "July 2020 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 358
+      },
+      "violations": 1,
+      "instances": 94,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 94
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/oct/",
+      "status": 200,
+      "metadata": {
+        "title": "October 2020 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "October 2020 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/aug/",
+      "status": 200,
+      "metadata": {
+        "title": "August 2021 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "August 2021 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/jul/",
+      "status": 200,
+      "metadata": {
+        "title": "July 2021 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "July 2021 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 354
+      },
+      "violations": 1,
+      "instances": 86,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 86
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/nov/",
+      "status": 200,
+      "metadata": {
+        "title": "November 2021 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "November 2021 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 360
+      },
+      "violations": 1,
+      "instances": 98,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 98
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/apr/",
+      "status": 200,
+      "metadata": {
+        "title": "April 2022 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "April 2022 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 354
+      },
+      "violations": 1,
+      "instances": 86,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 86
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/jul/",
+      "status": 200,
+      "metadata": {
+        "title": "July 2022 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "July 2022 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/nov/",
+      "status": 200,
+      "metadata": {
+        "title": "November 2022 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "November 2022 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 360
+      },
+      "violations": 1,
+      "instances": 98,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 98
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/aug/",
+      "status": 200,
+      "metadata": {
+        "title": "August 2023 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "August 2023 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 354
+      },
+      "violations": 1,
+      "instances": 86,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 86
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/jan/",
+      "status": 200,
+      "metadata": {
+        "title": "January 2023 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "January 2023 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/may/",
+      "status": 200,
+      "metadata": {
+        "title": "May 2023 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "May 2023 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 360
+      },
+      "violations": 1,
+      "instances": 98,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 98
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/sep/",
+      "status": 200,
+      "metadata": {
+        "title": "September 2023 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "September 2023 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 360
+      },
+      "violations": 1,
+      "instances": 98,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 98
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/jan/",
+      "status": 200,
+      "metadata": {
+        "title": "January 2024 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "January 2024 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 366
+      },
+      "violations": 1,
+      "instances": 110,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 110
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/jul/",
+      "status": 200,
+      "metadata": {
+        "title": "July 2024 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "July 2024 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 356
+      },
+      "violations": 1,
+      "instances": 90,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 90
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/may/",
+      "status": 200,
+      "metadata": {
+        "title": "May 2024 | Weblog | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "News & Events",
+          "May 2024 archive"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 366
+      },
+      "violations": 1,
+      "instances": 110,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 110
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/corporate-members/badges/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Software Foundation | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Corporate member badges"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 95
+      },
+      "violations": 2,
+      "instances": 114,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 98
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "count": 16
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/corporate-membership/join/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Software Foundation | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Become a DSF corporate member"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          },
+          {
+            "action": "https://www.djangoproject.com/foundation/corporate-membership/join/",
+            "method": "post"
+          }
+        ],
+        "interactive": 79
+      },
+      "violations": 2,
+      "instances": 75,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 74
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "count": 1
+        }
+      ],
+      "passes": 28,
+      "incomplete": 2
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/faq/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Software Foundation FAQ | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Django Software Foundation FAQ"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 89
+      },
+      "violations": 1,
+      "instances": 83,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 83
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/records/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Software Foundation Public Records | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Django Software Foundation Public Records"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 158
+      },
+      "violations": 1,
+      "instances": 152,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 152
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/conferences/",
+      "status": 200,
+      "metadata": {
+        "title": "So you want to hold a Django event? | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "So you want to hold a Django event?"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 90
+      },
+      "violations": 1,
+      "instances": 84,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 84
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/conduct/faq/",
+      "status": 200,
+      "metadata": {
+        "title": "Django Code of Conduct - FAQ | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Django Code of Conduct - FAQ"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 78
+      },
+      "violations": 1,
+      "instances": 55,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 55
+        }
+      ],
+      "passes": 27,
+      "incomplete": 1
+    },
+    {
+      "url": "https://www.djangoproject.com/start/overview/",
+      "status": 200,
+      "metadata": {
+        "title": "Django overview | Django",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "main": true,
+        "skip": true,
+        "theme": "auto",
+        "h1": [
+          "Why Django?"
+        ],
+        "forms": [
+          {
+            "action": "https://docs.djangoproject.com/en/6.1/search/",
+            "method": "get"
+          }
+        ],
+        "interactive": 64
+      },
+      "violations": 1,
+      "instances": 56,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "count": 56
+        }
+      ],
+      "passes": 25,
+      "incomplete": 1
+    }
+  ]
+}
