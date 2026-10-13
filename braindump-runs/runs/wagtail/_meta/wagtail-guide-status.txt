@@ -1,0 +1,27 @@
+
+Pipeline status for wagtail/guide
+
+┏━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃Stage         ┃ Status    ┃ Details                               ┃ Updated   ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│download      │ done      │ 217 PRs | 374 review comments, 217    │ 6d ago    │
+│              │           │ diffs                                 │           │
+│extract       │ done      │ 330/374 comments → 222 actionable,    │ 6d ago    │
+│              │           │ 108 rejected → 299 generalizations    │           │
+│synthesize    │ done      │ 299 generalizations → 249 in 73       │ 6d ago    │
+│              │           │ clusters, 50 unclustered → 91 rules   │           │
+│              │           │               (similarity ≥ 0.65, min │           │
+│              │           │ cluster size 2, coherence: 0.85)      │           │
+│dedupe        │ done      │ 91 → 81 rules (10 merged)             │ 6d ago    │
+│place         │ done      │ 81 → 71 rules placed (score ≥ 0.5) |  │ 6d ago    │
+│              │           │ agents_md_root: 45, agents_md_dir:    │           │
+│              │           │ 13, file: 12, cross_file: 1           │           │
+│group         │ done      │ 71 rules (score ≥ 0.5) → 2 locations  │ 6d ago    │
+│              │           │ | 59 inline, 0 in topics              │           │
+│generate      │ done      │ 2 AGENTS.md files (39 KB) | root,     │ 6d ago    │
+│              │           │ apps/frontend/static_src/scss         │           │
+└──────────────┴───────────┴───────────────────────────────────────┴───────────┘
+
+All stages complete!
+
+

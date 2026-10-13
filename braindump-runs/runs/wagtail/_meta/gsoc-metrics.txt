@@ -1,0 +1,17 @@
+######################## gsoc ########################
+2-extract    89 comments | actionable 27 (30%) | generalizations 41 | empty 1 | $0.00
+3-synthesize 9 rules | score min/avg/max 0.51/0.71/0.90 | $0.00
+4-dedupe     8 rules | removed 1 | $0.00
+5-place      8 placements | [('agents_md_root', 8)] | $0.00
+6-group      1 locations | 8 placed rules | $0.00
+7-generate   1 files | 4 KB | $0.00
+TOTAL        $0.00
+
+gsoc           n=8 empty=0 bullet=2 meta=0 trivial=1 backticks=7 paths=5 files=2 med_len=230 | ident_rules=3 retention mean=0.89 median=1.00 kept=4 dropped=1
+--- generated files ---
+AGENTS.md  4142 bytes
+--- legacy-convention scan (gsoc) ---
+
+######################## summary ########################
+label             rules md_files md_bytes   legacy
+gsoc                  8        1     4142        0

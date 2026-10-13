@@ -1,0 +1,20 @@
+######################## deps ########################
+2-extract    1197 comments | actionable 726 (61%) | generalizations 1133 | empty 7 | $0.00
+3-synthesize 277 rules | score min/avg/max 0.30/0.58/0.92 | $0.00
+4-dedupe     208 rules | removed 69 | $0.00
+5-place      170 placements | [('agents_md_root', 109), ('agents_md_dir', 52), ('file', 7), ('cross_file', 2)] | $0.00
+6-group      8 locations | 151 placed rules | $0.00
+7-generate   4 files | 108 KB | $0.00
+TOTAL        $0.00
+
+deps           n=170 empty=0 bullet=58 meta=6 trivial=6 backticks=134 paths=80 files=16 med_len=258 | ident_rules=58 retention mean=0.85 median=1.00 kept=182 dropped=27
+--- generated files ---
+agent_docs/documentation-prose-style-and-grammar.md  5394 bytes
+agent_docs/governance-roles-authority-and-scope.md  8891 bytes
+AGENTS.md  68451 bytes
+draft/AGENTS.md  27429 bytes
+--- legacy-convention scan (deps) ---
+
+######################## summary ########################
+label             rules md_files md_bytes   legacy
+deps                208        4   110165        0

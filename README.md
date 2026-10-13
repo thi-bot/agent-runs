@@ -1,10 +1,18 @@
 # Agent Runs
 
-Archived accessibility audit and review reports produced by the
+Archived outputs of coding-agent runs.
+
+Most folders here hold accessibility audit and review reports produced by the
 [Accessibility Agents](https://github.com/Community-Access/accessibility-agents)
 skill set, across several projects. Each top-level folder is the project that
 was audited; inside it, one folder per run. Every run is complete: rendered
 report, machine-readable findings, and the raw evidence the agent collected.
+
+`braindump-runs/` is a separate collection, copied verbatim from its own
+repository: coding-rule sets (`AGENTS.md` files) mined from the PR review
+history of Django and Wagtail repositories with the
+[braindump](https://github.com/pydantic/braindump) pipeline. Its README
+documents the eleven runs and how to reproduce them.
 
 The reports are point-in-time. The code they describe has moved on, so treat
 findings as a record of what was true on the audit date, not as a live status.

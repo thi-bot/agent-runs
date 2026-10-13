@@ -1,0 +1,97 @@
+######################## deepseek ########################
+2-extract    59534 comments | actionable 39255 (66%) | generalizations 57925 | empty 264 | $0.00
+3-synthesize 6444 rules | score min/avg/max 0.00/0.65/0.98 | $0.00
+4-dedupe     2856 rules | removed 3588 | $0.00
+5-place      2303 placements | [('agents_md_root', 1084), ('agents_md_dir', 709), ('file', 405), ('cross_file', 105)] | $0.00
+6-group      259 locations | 1672 placed rules | $0.00
+7-generate   79 files | 1439 KB | $0.00
+TOTAL        $0.00
+
+deepseek       n=2303 empty=0 bullet=837 meta=106 trivial=16 backticks=2086 paths=1292 files=703 med_len=273 | ident_rules=1554 retention mean=0.86 median=1.00 kept=5017 dropped=993
+--- generated files ---
+agent_docs/api-design-and-interfaces.md  11988 bytes
+agent_docs/api-design-and-public-interfaces.md  10884 bytes
+agent_docs/api-design-contracts.md  8312 bytes
+agent_docs/api-design-helper-contracts.md  6810 bytes
+agent_docs/api-design.md  14159 bytes
+agent_docs/api-design-public-interfaces.md  8330 bytes
+agent_docs/code-style-and-cleanliness.md  8714 bytes
+agent_docs/code-style.md  9746 bytes
+agent_docs/code-style-pythonic.md  9284 bytes
+agent_docs/configuration-and-build.md  7707 bytes
+agent_docs/docstrings-and-comments.md  5890 bytes
+agent_docs/documentation-and-comments.md  12093 bytes
+agent_docs/documentation-content-accuracy.md  7856 bytes
+agent_docs/documentation-for-apis-and-features.md  10105 bytes
+agent_docs/documentation-style-and-grammar.md  5872 bytes
+agent_docs/documentation-style.md  6100 bytes
+agent_docs/documentation-writing.md  8350 bytes
+agent_docs/error-handling-and-diagnostics.md  5356 bytes
+agent_docs/error-handling.md  7882 bytes
+agent_docs/error-handling-validation.md  7214 bytes
+agent_docs/exception-handling.md  5031 bytes
+agent_docs/frontend-css-js.md  5753 bytes
+agent_docs/naming-conventions.md  8542 bytes
+agent_docs/public-api-design.md  12011 bytes
+agent_docs/python-code-style-and-idioms.md  7952 bytes
+agent_docs/python-code-style.md  10915 bytes
+agent_docs/python-code-style-readability.md  14373 bytes
+agent_docs/pythonic-idioms.md  8341 bytes
+agent_docs/python-idioms-and-assignment.md  7845 bytes
+agent_docs/python-idioms-and-organization.md  7725 bytes
+agent_docs/string-and-data-handling.md  7145 bytes
+agent_docs/templates-frontend.md  7107 bytes
+agent_docs/test-coverage-and-regression.md  9805 bytes
+agent_docs/testing.md  6325 bytes
+agent_docs/testing-patterns-and-regression.md  17978 bytes
+agent_docs/testing-patterns.md  9674 bytes
+agent_docs/testing-regression-edge-cases.md  6948 bytes
+AGENTS.md  444834 bytes
+django/AGENTS.md  95432 bytes
+django/contrib/admin/AGENTS.md  35356 bytes
+django/contrib/auth/AGENTS.md  8679 bytes
+django/contrib/postgres/AGENTS.md  6253 bytes
+django/core/cache/backends/AGENTS.md  5693 bytes
+django/core/management/AGENTS.md  7337 bytes
+django/core/management/commands/AGENTS.md  12942 bytes
+django/db/AGENTS.md  16495 bytes
+django/db/backends/agent_docs/database-backend-sql-generation.md  6518 bytes
+django/db/backends/AGENTS.md  22468 bytes
+django/db/backends/oracle/AGENTS.md  8490 bytes
+django/db/migrations/AGENTS.md  13550 bytes
+django/db/models/AGENTS.md  47163 bytes
+django/db/models/fields/AGENTS.md  11849 bytes
+django/db/models/sql/AGENTS.md  14724 bytes
+django/forms/AGENTS.md  11839 bytes
+django/http/AGENTS.md  10639 bytes
+django/template/AGENTS.md  8681 bytes
+django/test/AGENTS.md  12733 bytes
+docs/agent_docs/api-reference-conventions.md  10382 bytes
+docs/agent_docs/django-documentation-conventions.md  6794 bytes
+docs/agent_docs/django-orm-database-docs.md  8396 bytes
+docs/agent_docs/documentation-code-examples.md  7043 bytes
+docs/agent_docs/documentation-prose-style.md  8283 bytes
+docs/agent_docs/documentation-structure-and-formatting.md  5710 bytes
+docs/agent_docs/documenting-behavior-accurately.md  7425 bytes
+docs/agent_docs/tutorials-how-to-installation.md  5540 bytes
+docs/AGENTS.md  77178 bytes
+docs/internals/AGENTS.md  7548 bytes
+docs/internals/contributing/AGENTS.md  13849 bytes
+docs/intro/AGENTS.md  4069 bytes
+docs/ref/AGENTS.md  24231 bytes
+docs/ref/models/AGENTS.md  8972 bytes
+docs/releases/AGENTS.md  3310 bytes
+docs/topics/AGENTS.md  19681 bytes
+.github/workflows/AGENTS.md  6257 bytes
+tests/agent_docs/assertion-precision-and-observable-contracts.md  6678 bytes
+tests/agent_docs/orm-and-queryset-tests.md  7412 bytes
+tests/AGENTS.md  99760 bytes
+tests/backends/AGENTS.md  3870 bytes
+tests/staticfiles_tests/AGENTS.md  3849 bytes
+--- legacy-convention scan (django) ---
+
+37 rules of 2303 mention a legacy token
+
+######################## summary ########################
+label             rules md_files md_bytes   legacy
+deepseek           2856       79  1474034       37
