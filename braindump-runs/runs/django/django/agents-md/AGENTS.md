@@ -1473,8 +1473,6 @@ Applies to all ORM aggregate calls in the codebase, not just `tests/expressions/
 - Register RTL languages in both places: set `"bidi": True` in `django/conf/locale/__init__.py` and add the code to `LANGUAGES_BIDI` in `django/conf/global_settings.py` — the two configs are read independently, so a mismatch silently breaks bidirectional text rendering. — These two configuration sites are not linked in code, so an assistant updating one without the other leaves `LANGUAGES_BIDI` out of sync with the locale metadata, which disables RTL layout handling for that language at runtime.
 <!-- rule:4657 -->
 - Keep `exclude_patterns` in `docs/conf.py` as the single source of truth — mirror any changes in `docs/Makefile`, `docs/make.bat`, and the root `Makefile` so every build entry point skips the same dirs — If Sphinx is configured with `.txt` in `source_suffix`, unexcluded dirs like `_ext`, `_static`, or asset folders cause `LICENSE.txt`, `requirements.txt`, and `readme.txt` to be parsed as reST, breaking the build. Prefer `find ... -path './_*' -type d -prune` over hard-coded directory lists so new `_static`/`_ext`/`_theme` dirs are excluded automatically.
-<!-- rule:208 -->
-- Use `@six.add_metaclass(MetaClass)` for classes supporting both Python 2 and 3 — `__metaclass__` is silently ignored on Python 3 — Python 3 removed the `__metaclass__` class attribute; classes written this way lose their metaclass behavior with no error, so dual-support code must use the `six.add_metaclass` decorator to work on both versions.
 <!-- rule:763 -->
 - Declare DISTINCT-aggregate support declaratively — put shared validation in `BaseDatabaseOperations.check_expression_support()` and expose per-backend limits as a class-level `unsupported_distinct_aggregates` attribute on each backend's operations class (`django/db/backends/*/operations.py`) — Keeps backend limitations discoverable and testable rather than buried in per-call checks, so auditing a new aggregate means editing one declarative list instead of tracing imperative branches.
 - Cover every aggregate and its SQL variant, including paired `*_POP`/`*_SAMP` functions like `StdDev`/`Variance` — half-declared pairs silently allow unsupported DISTINCT queries through.
@@ -1846,8 +1844,6 @@ Check these when working in specific areas:
 
 ### `setup.py`
 
-<!-- rule:5796 -->
-- Keep `setup.py` Python 2.7-compatible — it executes before dependency resolution and version checks, so Python 3-only syntax like `.format(*A, *B)` breaks installation. — `setup.py` is read and executed by `pip`/`setuptools` before any declared dependencies or `python_requires` checks are honored. If it uses Python 3-only syntax such as multiple iterable unpacking in a call (`.format(*A, *B)`), the file fails to parse under Python 2.7 and installation aborts before the version guard can produce a useful error — leaving users with an opaque `SyntaxError` instead of a clean upgrade message.
 
 ### `tox.ini`
 
