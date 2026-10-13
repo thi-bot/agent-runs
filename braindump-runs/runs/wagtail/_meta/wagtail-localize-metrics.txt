@@ -1,0 +1,18 @@
+######################## wagtail-localize ########################
+2-extract    505 comments | actionable 270 (53%) | generalizations 400 | empty 0 | $0.00
+3-synthesize 111 rules | score min/avg/max 0.36/0.61/0.87 | $0.00
+4-dedupe     100 rules | removed 11 | $0.00
+5-place      85 placements | [('agents_md_root', 47), ('agents_md_dir', 19), ('file', 15), ('cross_file', 4)] | $0.00
+6-group      11 locations | 85 placed rules | $0.00
+7-generate   2 files | 49 KB | $0.00
+TOTAL        $0.00
+
+wagtail-localize n=85 empty=0 bullet=22 meta=6 trivial=0 backticks=76 paths=37 files=12 med_len=220 | ident_rules=59 retention mean=0.90 median=1.00 kept=149 dropped=20
+--- generated files ---
+AGENTS.md  37429 bytes
+wagtail_localize/AGENTS.md  13181 bytes
+--- legacy-convention scan (wagtail-localize) ---
+
+######################## summary ########################
+label             rules md_files md_bytes   legacy
+wagtail-localize      100        2    50610        0

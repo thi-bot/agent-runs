@@ -1,0 +1,25 @@
+######################## djangoproject.com ########################
+2-extract    2284 comments | actionable 1246 (55%) | generalizations 1830 | empty 14 | $0.00
+3-synthesize 441 rules | score min/avg/max 0.30/0.62/0.95 | $0.00
+4-dedupe     357 rules | removed 84 | $0.00
+5-place      307 placements | [('agents_md_root', 200), ('agents_md_dir', 60), ('file', 39), ('cross_file', 8)] | $0.00
+6-group      37 locations | 297 placed rules | $0.00
+7-generate   9 files | 178 KB | $0.00
+TOTAL        $0.00
+
+djangoproject.com n=307 empty=0 bullet=101 meta=17 trivial=6 backticks=272 paths=139 files=58 med_len=242 | ident_rules=207 retention mean=0.85 median=1.00 kept=610 dropped=114
+--- generated files ---
+agent_docs/documentation-and-copywriting.md  5838 bytes
+AGENTS.md  143406 bytes
+djangoproject/AGENTS.md  5554 bytes
+djangoproject/scss/AGENTS.md  5131 bytes
+djangoproject/static/js/AGENTS.md  2560 bytes
+djangoproject/templates/AGENTS.md  8058 bytes
+docs/AGENTS.md  6589 bytes
+.github/workflows/AGENTS.md  1916 bytes
+tools/AGENTS.md  3455 bytes
+--- legacy-convention scan (djangoproject.com) ---
+
+######################## summary ########################
+label             rules md_files md_bytes   legacy
+djangoproject.com      357        9   182507        0

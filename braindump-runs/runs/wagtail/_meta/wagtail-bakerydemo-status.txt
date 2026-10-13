@@ -1,0 +1,27 @@
+
+Pipeline status for wagtail/bakerydemo
+
+┏━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃Stage         ┃ Status    ┃ Details                               ┃ Updated   ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│download      │ partial   │ 463/464 PRs downloaded | 400 review   │ 12d ago   │
+│              │           │ comments                              │           │
+│extract       │ done      │ 394/400 comments → 216 actionable,    │ 12d ago   │
+│              │           │ 178 rejected → 280 generalizations    │           │
+│synthesize    │ done      │ 280 generalizations → 232 in 66       │ 12d ago   │
+│              │           │ clusters, 48 unclustered → 91 rules   │           │
+│              │           │               (similarity ≥ 0.65, min │           │
+│              │           │ cluster size 2, coherence: 0.84)      │           │
+│dedupe        │ done      │ 91 → 78 rules (13 merged)             │ 12d ago   │
+│place         │ done      │ 78 → 62 rules placed (score ≥ 0.5) |  │ 12d ago   │
+│              │           │ agents_md_root: 40, agents_md_dir: 9, │           │
+│              │           │ file: 9, cross_file: 4                │           │
+│group         │ done      │ 62 rules (score ≥ 0.5) → 2 locations  │ 12d ago   │
+│              │           │ | 53 inline, 0 in topics              │           │
+│generate      │ done      │ 2 AGENTS.md files (23 KB) | root,     │ 11d ago   │
+│              │           │ bakerydemo/templates                  │           │
+└──────────────┴───────────┴───────────────────────────────────────┴───────────┘
+
+Next: resume braindump --repo wagtail/bakerydemo download
+
+

@@ -1,0 +1,17 @@
+######################## draftjs_exporter ########################
+2-extract    129 comments | actionable 66 (51%) | generalizations 110 | empty 1 | $0.00
+3-synthesize 31 rules | score min/avg/max 0.39/0.59/0.77 | $0.00
+4-dedupe     29 rules | removed 2 | $0.00
+5-place      26 placements | [('agents_md_root', 18), ('agents_md_dir', 5), ('file', 2), ('cross_file', 1)] | $0.00
+6-group      3 locations | 26 placed rules | $0.00
+7-generate   1 files | 13 KB | $0.00
+TOTAL        $0.00
+
+draftjs_exporter n=26 empty=0 bullet=8 meta=1 trivial=3 backticks=22 paths=9 files=3 med_len=180 | ident_rules=13 retention mean=0.80 median=1.00 kept=38 dropped=8
+--- generated files ---
+AGENTS.md  13383 bytes
+--- legacy-convention scan (draftjs_exporter) ---
+
+######################## summary ########################
+label             rules md_files md_bytes   legacy
+draftjs_exporter       29        1    13383        0

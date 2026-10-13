@@ -1,0 +1,28 @@
+
+Pipeline status for wagtail/wagtail.org
+
+┏━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃Stage         ┃ Status    ┃ Details                               ┃ Updated   ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│download      │ partial   │ 473/474 PRs downloaded | 1,143 review │ 6d ago    │
+│              │           │ comments                              │           │
+│extract       │ done      │ 1,142/1,143 comments → 596            │ 6d ago    │
+│              │           │ actionable, 546 rejected → 750        │           │
+│              │           │ generalizations                       │           │
+│synthesize    │ done      │ 750 generalizations → 682 in 146      │ 6d ago    │
+│              │           │ clusters, 68 unclustered → 231 rules  │           │
+│              │           │               (similarity ≥ 0.65, min │           │
+│              │           │ cluster size 2, coherence: 0.83)      │           │
+│dedupe        │ done      │ 231 → 188 rules (43 merged)           │ 6d ago    │
+│place         │ done      │ 188 → 161 rules placed (score ≥ 0.5)  │ 6d ago    │
+│              │           │ | agents_md_root: 123, agents_md_dir: │           │
+│              │           │ 22, file: 11, cross_file: 5           │           │
+│group         │ done      │ 161 rules (score ≥ 0.5) → 2 locations │ 6d ago    │
+│              │           │ | 107 inline, 43 in topics            │           │
+│generate      │ done      │ 2 AGENTS.md files, 4 topic docs (92   │ 6d ago    │
+│              │           │ KB) | root, wagtailio/static/sass     │           │
+└──────────────┴───────────┴───────────────────────────────────────┴───────────┘
+
+Next: resume braindump --repo wagtail/wagtail.org download
+
+

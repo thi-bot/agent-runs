@@ -1,0 +1,45 @@
+
+Pipeline status for wagtail/wagtail
+
+┏━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃Stage         ┃ Status    ┃ Details                               ┃ Updated   ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│download      │ done      │ 7,549 PRs | 17,499 review comments    │ 11d ago   │
+│extract       │ done      │ 17,411/17,499 comments → 10,948       │ 10d ago   │
+│              │           │ actionable, 6,463 rejected → 16,023   │           │
+│              │           │ generalizations                       │           │
+│synthesize    │ done      │ 16,023 generalizations → 15,343 in    │ 10d ago   │
+│              │           │ 1,909 clusters, 680 unclustered →     │           │
+│              │           │ 3,093 rules                           │           │
+│              │           │               (similarity ≥ 0.65, min │           │
+│              │           │ cluster size 2, coherence: 0.82)      │           │
+│dedupe        │ done      │ 3,093 → 1,874 rules (1,219 merged)    │ 10d ago   │
+│place         │ done      │ 1,874 → 1,520 rules placed (score ≥   │ 10d ago   │
+│              │           │ 0.5) | agents_md_root: 928,           │           │
+│              │           │ agents_md_dir: 424, file: 136,        │           │
+│              │           │ cross_file: 32                        │           │
+│group         │ done      │ 1,520 rules (score ≥ 0.5) → 22        │ 10d ago   │
+│              │           │ locations | 435 inline, 894 in topics │           │
+│generate      │ done      │ 22 AGENTS.md files, 22 topic docs     │ 9d ago    │
+│              │           │ (778 KB) | .github/workflows, root,   │           │
+│              │           │ client, client/scss,                  │           │
+│              │           │ client/scss/components, client/src,   │           │
+│              │           │ client/src/components,                │           │
+│              │           │ client/src/controllers, docs,         │           │
+│              │           │ docs/contributing, docs/releases,     │           │
+│              │           │ wagtail, wagtail/admin,               │           │
+│              │           │ wagtail/admin/templates/wagtailadmin, │           │
+│              │           │ wagtail/admin/views/generic,          │           │
+│              │           │ wagtail/contrib/redirects,            │           │
+│              │           │ wagtail/core, wagtail/images,         │           │
+│              │           │ wagtail/models,                       │           │
+│              │           │ wagtail/search/backends,              │           │
+│              │           │ wagtail/tests, wagtail/wagtailadmin   │           │
+└──────────────┴───────────┴───────────────────────────────────────┴───────────┘
+
+All stages complete!
+
+tuation.md
+vigation.md
+ology.md
+

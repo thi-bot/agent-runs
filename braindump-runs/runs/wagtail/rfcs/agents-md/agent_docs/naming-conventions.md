@@ -1,0 +1,28 @@
+# Naming Conventions
+
+> Naming for classes, fields, methods, settings, packages, data attributes, and Stimulus identifiers, including inclusive terminology and boolean/permission method conventions.
+
+**When to check**: When introducing or renaming identifiers, models, settings, packages, or frontend events.
+
+## Rules
+
+<!-- rule:101 -->
+- Name settings `WAGTAIL{MODULE}_{SETTING}` with no underscore after `WAGTAIL`; use `WAGTAILADMIN_` for admin-only settings and spec terms (`inline`/`eval` for CSP, `_SOURCES` not `_SOURCE_INSTANCES`) — matches Wagtail's own `WAGTAILSEARCH_BACKENDS` convention so settings are discoverable and scoped, and spec terminology avoids confusion for users who know the underlying standard. — Mirrors Wagtail's `WAGTAILSEARCH_BACKENDS` pattern so settings are instantly recognizable and greppable; the explicit `WAGTAILADMIN_` prefix signals scope, and spec-aligned names (CSP's `inline`/`eval`) map directly to the standards users already know.
+<!-- rule:94 -->
+- Use singular PascalCase for model classes (`RevisionEvent`) and unprefixed field names (`description` on `AbstractImage`, not `image_description`) — the model name already scopes the field, so entity prefixes just stutter. — Keeps Django models idiomatic and tables/related names predictable; prefixed field names duplicate the model's context and read as `image_image_description` in queries and admin.
+<!-- rule:141 -->
+- Don't overload existing terms for new concepts — qualify them (`background task` vs `task`) and separate a definition from its instances (`task` vs `task instance`); define the chosen terminology where it's introduced. Reused names silently shift meaning across docs and APIs, so readers can't tell which concept a term refers to. — Overloaded terminology makes documentation and API names ambiguous: a reader who already associates `task` with one concept will misread references to the new one, and a rule that doesn't distinguish a definition (`task`) from its instantiations (`task instance`) leaves callers guessing whether a parameter or endpoint expects the schema or a single occurrence.
+<!-- rule:136 -->
+- Prefix packages by scope: `django-{name}` for Django-wide, `wagtail-{name}` for Wagtail-specific; name template apps after their domain concept (e.g. `media`, not `assets`). — Scope prefixes make install targets unambiguous and stop Wagtail-only code from being pulled into generic Django projects; domain-named apps like `media` keep imports self-describing, whereas generic names (`assets`, `utils`) collide across projects and hide what the app owns.
+<!-- rule:100 -->
+- Prefix admin JS behavior hooks with `data-wagtail-*` — bare `data-*` attributes collide with user and third-party markup. — The Wagtail admin renders alongside arbitrary user HTML and third-party packages in the same DOM, so generic `data-*` names risk being claimed or overwritten by other code. Namespacing keeps admin widget initialization reliably discoverable. For widgets bound to core Wagtail models, add a `data-wagtail-model` attribute with a namespaced identifier (e.g. `WAGTAIL.IMAGES`) so the front-end can match a widget to the model it edits rather than guessing from markup position or classes.
+<!-- rule:140 -->
+- Name workflow methods after the action they perform (e.g., `start`), not listener-style `on_*` prefixes — `on_*` implies a callback receiving arbitrary events; domain workflow operations have a fixed, known behavior — mislabeling them obscures intent and misleads callers about the method's contract.
+<!-- rule:85 -->
+- Suffix actor/timestamp metadata fields with `_by`/`_at` (e.g., `locked_by`, `locked_at`), not storage types like `_userid`/`_datetime` — field names stay valid when storage types change. — `_by`/`_at` encode the semantic role (who, when), so renaming isn't needed when a column moves from int to UUID or `datetime` to timestamp; type-encoding suffixes like `_userid`/`_datetime` leak implementation details into the API surface and become misleading after any storage migration.
+<!-- rule:144 -->
+- Name boolean-returning methods/properties with an `is_` prefix; use `user_can_<action>` (e.g., `user_can_access_editor`, `user_can_lock`, `user_can_unlock`) for permission predicates — not `is_*_for_user`/`is_*_by_user` — Makes boolean/permission checks obvious at call sites and keeps permission APIs grep-able and consistent across the codebase.
+<!-- rule:179 -->
+- Prefer `allowed_list`/`allowed` and deny-list names over `whitelist`/`blacklist` in all identifiers (modules, classes, symbols) — and when renaming a module like `whitelist.py` → `allowed_list.py`, rename its classes too (`Whitelister` → an `AllowedList`-style name) so the public API doesn't mix old and new terminology. — Keeping inclusive terms consistent across module, class, and symbol names matters because a half-renamed API forces users to learn both spellings and hunt for the old term in autocomplete and imports.
+<!-- rule:212 -->
+- Namespace Stimulus controllers with `w-` and use Stimulus's default `w-<controller>:<event>` event names — custom event schemes break the identifier-to-event mapping consumers expect — Stimulus derives dispatched event names from the controller identifier, so a custom event naming scheme decouples events from their controllers and forces consumers to learn two naming systems. Applying this only to controller-driven events leaves non-Stimulus events free. Enforce the `w-` prefix via linting or a dev-only runtime check rather than auto-registration — auto-registration hides identifier typos that the namespace convention exists to surface.

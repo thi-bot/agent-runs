@@ -1,0 +1,20 @@
+######################## rfcs ########################
+2-extract    947 comments | actionable 509 (54%) | generalizations 870 | empty 12 | $0.00
+3-synthesize 240 rules | score min/avg/max 0.36/0.58/0.95 | $0.00
+4-dedupe     185 rules | removed 55 | $0.00
+5-place      147 placements | [('agents_md_root', 103), ('agents_md_dir', 41), ('file', 3)] | $0.00
+6-group      5 locations | 129 placed rules | $0.00
+7-generate   4 files | 87 KB | $0.00
+TOTAL        $0.00
+
+rfcs           n=147 empty=0 bullet=44 meta=6 trivial=6 backticks=122 paths=81 files=8 med_len=243 | ident_rules=59 retention mean=0.92 median=1.00 kept=179 dropped=21
+--- generated files ---
+agent_docs/api-design-principles.md  6958 bytes
+agent_docs/naming-conventions.md  5661 bytes
+AGENTS.md  54143 bytes
+text/AGENTS.md  21993 bytes
+--- legacy-convention scan (rfcs) ---
+
+######################## summary ########################
+label             rules md_files md_bytes   legacy
+rfcs                185        4    88755        0
