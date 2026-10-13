@@ -5,7 +5,7 @@
 ## Documentation
 
 <!-- rule:1579 -->
-- Write `docs/internals/contributing/*` docs concretely: name the specific process a convention applies to, keep workflow content in its workflow section, and link only the next actionable step — vague or misplaced process references mislead contributors about how current stages actually work. — Unscoped process descriptions and stale references to mechanisms (e.g. stages documented as obsolete when still in use) send contributors down dead ends and cause inconsistent contributor/process documentation across `docs/internals/`.
+- Write `docs/internals/contributing/*` docs concretely: name the specific process a convention applies to, keep workflow content in its workflow section, and link only the next actionable step — vague or misplaced process references mislead contributors about how current stages actually work. — Process documentation that omits the current process, the workflow section it belongs to, or the still-used mechanisms it describes makes contributors follow vague or outdated steps and misapply conventions to the wrong process. That confusion wastes review cycles and lets workflow documentation rot until it no longer matches the codebase.
 <!-- rule:3573 -->
 - Split each policy condition, its term definitions, and examples into separate sentences — A run-on clause blending condition, definitions, and examples can't be parsed or audited clause-by-clause; readers can't tell which part is the rule and which is an illustration.
 <!-- rule:2504 -->
@@ -43,10 +43,10 @@
 <!-- rule:2977 -->
 - Explain preconditions and admonitions clearly in `docs/internals/security.txt` — Triage is volunteer time; vague 'before reporting…' phrasing hides expectations and adds churn.
 <!-- rule:3575 -->
-- In `docs/internals/security.txt`, scope vulnerabilities by whether an external actor can exploit them against a production deployment — framing out-of-scope examples as lacking such a vector, with a caveat that a demonstrated vector still counts. — Attack-vector-based scoping prevents misleading scope claims (e.g., claiming local-only issues are out of scope) and the caveat preserves the ability to reclassify anything with a real exploit path.
+- In `docs/internals/security.txt`, scope vulnerabilities by whether an external actor can exploit them against a production deployment — framing out-of-scope examples as lacking such a vector, with a caveat that a demonstrated vector still counts. — Without an attacker-focused scope criterion and safe framing of out-of-scope examples, the security policy is ambiguous and readers can treat those examples as absolute exclusions. A demonstrated external attack vector against a production deployment can then be dismissed instead of triaged as a vulnerability, leaving the policy inconsistent with its own scope definition.
 <!-- rule:2967 -->
 - In `docs/internals/security.txt`, state that AI-generated insecure code transfers no responsibility to the security team and requires no action from them — sets clear ownership and prevents misplaced escalations. — It prevents the security team from being implicitly tasked with reviewing AI-generated vulnerabilities and removes ambiguity about who owns remediation.
 <!-- rule:3686 -->
-- In `docs/internals/security.txt`, judge PoC validity by whether the scenario can occur in a production Django app via documented public APIs; name the specific reason when marking an example as not a valid security report. — Keeps the bar for valid reports consistent so reporters and triagers agree on what warrants a fix, and prevents invalid examples from being mistaken for accepted vulnerabilities.
+- In `docs/internals/security.txt`, judge PoC validity by whether the scenario can occur in a production Django app via documented public APIs; name the specific reason when marking an example as not a valid security report. — Without precise validity criteria based on production-grade scenarios and documented public APIs, Django's security reporting guidelines receive reports that cannot plausibly occur, wasting maintainer time and leaving reporters unsure why an example is invalid. Explaining the specific reason an invalid example fails makes the underlying security principle clear and keeps future reports consistent with docs/internals/security.txt.
 
 <!-- /braindump -->
