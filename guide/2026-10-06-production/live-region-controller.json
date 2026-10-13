@@ -1,0 +1,57 @@
+{
+  "skill": "live-region-controller",
+  "scope": [
+    "apps/frontend/static_src/js/main.js",
+    "apps/frontend/static_src/js/copy-button.js",
+    "apps/frontend/static_src/js/feedback/index.js",
+    "apps/core/templates/components/search_modal.html",
+    "apps/core/templates/components/feedback.html",
+    "apps/core/templates/components/copy_button.html",
+    ".a11y-history/2026-10-06-production/raw/states.json"
+  ],
+  "findings": [
+    {
+      "rule": "LIVE-001",
+      "wcag": "4.1.3 AA",
+      "severity": "serious",
+      "location": "apps/core/templates/components/search_modal.html:13",
+      "summary": "Asynchronous search result counts and no-results messages are not exposed as status messages.",
+      "fix": "Give the persistent count container role=\"status\" and aria-atomic=\"true\"; update a stable text node after the latest search finishes, announce loading for prolonged requests, and avoid making the entire result list live.",
+      "evidence": "Independent production query page returns 3 results found and 3 anchors; focus stays on #search and live regions are empty. Zero-result states likewise use a plain heading. main.js:28–43 updates counts without status semantics.",
+      "component": "Search modal"
+    },
+    {
+      "rule": "LIVE-002",
+      "wcag": "4.1.3 AA",
+      "severity": "moderate",
+      "location": "apps/frontend/static_src/js/copy-button.js:67",
+      "summary": "Copy-link and copy-prompt success changes a different control’s label without an announced status.",
+      "fix": "Keep copy control names stable and update a persistent role=\"status\" aria-atomic=\"true\" element with a concise translated success message for each copy action; retain focus on the invoking control.",
+      "evidence": "copy-success runtime confirms Copied! appears without live regions. Source handleCopyLink and handleCopyPrompt call showFeedback(this.copyPage), changing a different button from the invoking control for 2000ms.",
+      "component": "Content copy tools"
+    },
+    {
+      "rule": "LIVE-003",
+      "wcag": "4.1.3 AA",
+      "severity": "serious",
+      "location": "apps/frontend/static_src/js/feedback/index.js:44",
+      "summary": "The visible feedback-rating acknowledgement lacks status semantics.",
+      "fix": "Add a persistent status region outside replaceable feedback/form content; announce rating receipt and successful comment submission after checked successful responses, and expose failures with an accessible retry path.",
+      "evidence": "Mocked rating-success runtime confirms a plain Thanks for your feedback! span and no live regions. Source comment submission removes its form at line 67 without a confirmation; this separate outcome omission is a usability concern.",
+      "component": "Page feedback"
+    }
+  ],
+  "passed": [
+    "Search updates are debounced by 150ms rather than firing a request for every immediate keyboard event.",
+    "Search dialog opening moves focus to the labelled search input.",
+    "Search error handling uses a native alert rather than a silent console-only branch; error dialog behavior was reviewed in source only.",
+    "Server-rendered full search pages are navigation results and do not require their initial counts to be live regions."
+  ],
+  "notes": [
+    "Runtime feedback evidence uses browser-routed mocked responses; no production feedback was submitted.",
+    "Native screen reader speech was not tested; findings establish absent required status semantics rather than measured output from a particular screen reader.",
+    "Clipboard and feedback catch branches log errors without user-visible outcomes. Clipboard failure and backend feedback errors were not exercised; add visible accessible error messages and verify error recovery.",
+    "Source search requests have neither cancellation nor a latest-request check; a late response can restore stale counts/results after another query, blanking input, or closing the dialog. Address this alongside status announcements; no standalone WCAG failure is asserted without a reproduced user impact.",
+    "Search loading is a CSS is-loading class with no status text/aria-busy. Include prolonged-loading messaging in the search-status remediation."
+  ]
+}

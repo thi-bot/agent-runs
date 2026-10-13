@@ -1,0 +1,26 @@
+{
+  "skill": "testing-coach",
+  "scope": [
+    ".github/workflows/tests.yml",
+    "pyproject.toml",
+    "djangoproject/tests.py",
+    "djangoproject/test_runner.py"
+  ],
+  "findings": [],
+  "passed": [
+    "CI already installs Chromium and Firefox via Playwright and runs make ci with both browser flags.",
+    "Project has a shared StaticLiveServerTestCase/Playwright browser test harness in djangoproject/tests.py."
+  ],
+  "notes": [
+    "Add meaningful accessibility regressions to the existing browser harness: Tab to /start/ disclosure buttons, press Enter and Space, assert content visibility and aria-expanded; assert both bulk controls work by keyboard.",
+    "At320 viewport open/close the mobile Menu with Enter, assert aria-expanded changes with visible navigation, then Tab through links and back out; retain an obvious focus indicator.",
+    "Select Other amount on /fundraising/ without submitting: assert the numeric input accessible name is Donation amount, instruction is associated, focus moves to it, and document scrollWidth does not exceed clientWidth.",
+    "Scan representative locally rendered pages and revealed states with pinned axe-core, including wcag2a,wcag2aa,wcag21a,wcag21aa,wcag22aa tags; save violations and incomplete checks as CI artifacts; use fake Stripe/captcha data rather than contacting real payment APIs.",
+    "Test invalid forms locally with synthetic data: verify each error is linked to its field and correction guidance is announced; test corporate member select/file accessible names and contact name/email autocomplete tokens.",
+    "Assert every main page has a useful unique title and that template variables do not appear escaped or unresolved in titles; inspect document titles with a screen reader.",
+    "Check badge images manually: informative badge text needs equivalent alt; purely decorative badges use empty alt; linked badges need the link purpose expressed in their accessible name.",
+    "Before sign-off, run NVDA with Firefox or Chrome on Windows and VoiceOver with Safari on macOS/iOS: navigate landmarks/headings, activate disclosures/menu, hear donation amount name/instructions and corporate fields, review error announcements and badge alternatives; record actual announcements and versions.",
+    "The report score and grade are heuristic prioritization measures, not WCAG conformance proof. Automated checks, limited browser states and source inspection leave screen-reader behavior and third-party checkout unverified.",
+    "Re-scan affected pages after each fix; run the representative browser/axe regression set for every PR touching templates, JavaScript or styles, and repeat the scoped production crawl following deployment."
+  ]
+}

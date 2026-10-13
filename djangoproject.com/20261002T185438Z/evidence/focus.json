@@ -1,0 +1,17 @@
+{
+  "afterSkipTab": {
+    "html": "<a href=\"https://www.djangoproject.com/start/overview/\" class=\"cta outline\">Learn more about Django</a>",
+    "insideMain": true
+  },
+  "headingFocus": {
+    "outline": "rgb(29, 145, 92) none 3px",
+    "color": "rgb(29, 145, 92)",
+    "background": "rgba(0, 0, 0, 0)",
+    "text": "Object-relational mapper "
+  },
+  "searchFocus": {
+    "outline": "rgb(12, 75, 51) none 3px",
+    "color": "rgb(12, 75, 51)",
+    "background": "rgba(0, 0, 0, 0)"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "skill": "aria-specialist",
+  "scope": [
+    "djangoproject/templates/blog/blog_pagination.html",
+    "djangoproject/templates/aggregator/feeditem_list.html",
+    "djangoproject/templates/members/corporate_member_badges.html",
+    "djangoproject/templates/members/corporatemember_form.html"
+  ],
+  "findings": [
+    {
+      "rule": "ARIA-PAGINATION-LIST",
+      "wcag": "1.3.1 A",
+      "severity": "serious",
+      "location": "djangoproject/templates/blog/blog_pagination.html:5",
+      "summary": "Pagination overrides the list role with navigation, leaving list items without a list parent.",
+      "fix": "Use <nav aria-label=\"Pagination\"><ul class=\"nav-pagination\">...</ul></nav> in blog and aggregator templates; put the Page x of y text outside the ul or in a li. Preserve native list semantics.",
+      "evidence": "<ul class=\"nav-pagination\" role=\"navigation\">; axe listitem finds .nav-pagination > li on7pages. https://dequeuniversity.com/rules/axe/4.13/listitem?application=axeAPI",
+      "component": "Blog and community pagination"
+    },
+    {
+      "rule": "ALT-001",
+      "wcag": "1.1.1 A",
+      "severity": "serious",
+      "location": "djangoproject/templates/members/corporate_member_badges.html:44",
+      "summary": "Corporate member badge preview images have no text alternatives.",
+      "fix": "Give each informative preview alt text describing membership level and badge variant; use alt=\"\" only if adjacent text conveys all preview information.",
+      "evidence": "Production axe image-alt:16images on badges page; .variant > img lacks alt. https://dequeuniversity.com/rules/axe/4.13/image-alt?application=axeAPI",
+      "component": "Corporate badge previews"
+    },
+    {
+      "rule": "FORM-003",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "djangoproject/templates/members/corporatemember_form.html:18",
+      "summary": "The corporate membership level select has no programmatic accessible name.",
+      "fix": "Render field.label_tag for membership level and other label_fields so the label for attribute refers to its widget ID; associate errors/help text separately.",
+      "evidence": "Production axe select-name flags #id_membership_level; template emits {{ field.label }} as plain text. https://dequeuniversity.com/rules/axe/4.13/select-name?application=axeAPI",
+      "component": "Corporate membership join form"
+    }
+  ],
+  "notes": [
+    "ALT-001 and FORM-003 intentionally correlate existing source specialist findings; parent must deduplicate by rule and source location rather than score twice.",
+    "Native navigation landmark should wrap native list rather than replacing its role.",
+    "Final100pages: pagination7nodes across7pages, image alternatives16nodes on1page, select name1node on1page."
+  ]
+}

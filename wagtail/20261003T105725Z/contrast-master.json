@@ -1,0 +1,64 @@
+{
+  "skill": "contrast-master",
+  "scope": [
+    "client/scss/components/forms/_input-base.scss",
+    "client/src/tokens/colorThemes.js",
+    "client/scss/components/_listing.scss",
+    "client/scss/components/_button.scss",
+    "client/scss/components/_status-tag.scss",
+    "wagtail/contrib/styleguide/templates/wagtailstyleguide/base.html",
+    "wagtail/admin/templates/wagtailadmin/shared/headers/slim_header.html",
+    ".a11y-history/20261003T105725Z/runtime/*.json",
+    ".a11y-history/20261003T105725Z/raw/measure-*.json",
+    "https://static-wagtail-v7-4.netlify.app/admin/users/new/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/69/edit/",
+    "https://static-wagtail-v7-4.netlify.app/admin/account/",
+    "https://static-wagtail-v7-4.netlify.app/admin/reports/site-history/"
+  ],
+  "findings": [
+    {
+      "rule": "CONTRAST-FIELD-BOUNDARY",
+      "wcag": "1.4.11 AA",
+      "severity": "moderate",
+      "location": "client/scss/components/forms/_input-base.scss:12",
+      "summary": "Empty form controls have low-contrast boundaries in both light and dark themes.",
+      "fix": "Increase border-field-default to at least 3:1 against field and surrounding page surfaces in both themes; retain separate inactive styling. Apply to controls whose empty editable extent is identified by their border.",
+      "evidence": "On /admin/users/new/ username, first/last name and password fields: light border #c8c8c8 against white field/content =1.67:1; dark border #5c5c5c against #262626 field/content =2.26:1. Empty fields have no contrasting fill or other extent indicator.",
+      "component": "Default text-input and password boundaries"
+    },
+    {
+      "rule": "CONTRAST-DISABLED-METADATA",
+      "wcag": "1.4.3 AA",
+      "severity": "minor",
+      "location": "client/scss/components/_listing.scss:181",
+      "summary": "The disabled-row style also dims ordinary table metadata to 1.65:1 contrast.",
+      "fix": "Restrict opacity changes to genuinely inactive controls; keep informational table cell text at 4.5:1. Review disabled chooser/listing rows so unavailable choices do not make their identifying metadata unreadable.",
+      "evidence": "/admin/styleguide/: .disabled > td:nth-child(2) and td:nth-child(3) contain static \"Standard TD\", not inactive controls. opacity:.25 yields #c9c9c9 on white (axe1.65:1,12.92px). Inactive choice title is not used as the basis of this finding.",
+      "component": "Disabled listing row metadata"
+    },
+    {
+      "rule": "REFLOW-EDITOR-STATUS-TOOLBAR",
+      "wcag": "1.4.10 AA",
+      "severity": "moderate",
+      "location": "wagtail/admin/templates/wagtailadmin/shared/headers/slim_header.html:110",
+      "summary": "The editor header requires horizontal scrolling to reach the Live-page control at 320 CSS pixels.",
+      "fix": "Allow the header status/action strip to wrap or move secondary actions into an accessible disclosure at narrow widths, so all controls fit within320px without horizontal scrolling.",
+      "evidence": "Settled desktop-to320px resize on /admin/pages/69/edit/: status/action strip clientWidth320,scrollWidth368; Live-page link x306,right360.45. Its text and right edge are outside the viewport until the strip scrolls; document also requires vertical scrolling.",
+      "component": "Editor slim header status/action strip"
+    }
+  ],
+  "passed": [
+    "All100 sampled pages underwent light-theme axe contrast checks; only styleguide disabled-row text was flagged.",
+    "Dark-theme color-contrast axe checks pass on users/new, pages69edit, site-history and account after removing light-theme class and allowing transitions to settle.",
+    "Measured first25 Tab focus outlines throughout100 pages use visible3px green outlines; green #00a885 on white is3.03:1. Separate focal-point offscreen focus defect is owned by keyboard-navigator.",
+    "Rechecked chooser text-spacing candidates using glyph Range bounds: labels remained inside controls; apparent scrollHeight clipping did not remove text.",
+    "Representative200% text-size checks used doubled precomputed font sizes on user creation, form-page editor, site-history and account; no verified content loss.",
+    "Settled320px tests reproduce document/body widths320 on suspect site-history, history and form-editor pages; excess table width stays inside table scrollers and was not counted as reflow failure.",
+    "Dashboard expanded-dropdown target-size flags concern date rectangles partly covered by popup; visible portion still has24px-circle spacing, so no confirmed2.5.8 failure was recorded."
+  ],
+  "notes": [
+    "Source includes forced-colors and increased-contrast adaptations, plus reduced-motion safeguards for selected components; interactive animations were not exhaustively measured and lack of a global reduction rule alone is not an AA failure.",
+    "The editor toolbar reflow finding concerns non-table controls; data-table horizontal scrolling is an allowed two-dimensional-layout exception.",
+    "Automatic text-spacing and overflow candidates were manually triaged using DOM geometry without screenshots."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "open": {
+    "active": "modal fade in",
+    "sidebarAccessible": true,
+    "modal": null
+  },
+  "lastTab": {
+    "active": "<body id=\"wagtail\" class=\"has-messages ready modal-open\">\n        \n            <div data-sprite=\"\"><div hidden=\"\"><svg><defs><symbol id=\"icon-arrow-down\" viewBox=\"0 0 16 16\"><path d=\"M8 11.5a.743.743 0 0 1-.54-.21L3.71 7.54a.723.723 0 0 1 0-1.056.723",
+    "inModal": false
+  },
+  "return": "has-messages ready modal-open",
+  "explorer": [
+    {
+      "label": "Page explorer",
+      "modal": null,
+      "active": "<a class=\"c-page-explorer__header__title\" href=\"/admin/pages/\"><div class=\"c-page-explorer__header__title__inner\"><svg class=\"icon icon-home icon--exp"
+    }
+  ],
+  "explorerClosed": "false"
+}

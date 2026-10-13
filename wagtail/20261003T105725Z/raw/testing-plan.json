@@ -1,0 +1,284 @@
+{
+  "audit_performed": {
+    "target": "WCAG2.2AA",
+    "documents": 100,
+    "expanded_states": 41,
+    "expanded_state_pages": 25,
+    "initial_keyboard_depth": "first25 Tab stops per document",
+    "responsive_checks": "320 CSS pixels and text-spacing overrides across100 documents",
+    "engine": "Chromium152 / axe4.13.0",
+    "audible_screen_reader_testing": false
+  },
+  "existing_setup": {
+    "unit_command": "npm run test:unit",
+    "integration_command": "TEST_ORIGIN=http://localhost:8000 npm run test:integration -- --runInBand",
+    "test_setup": "docs/contributing/developing.md Integration tests: wagtail.test.settings_ui, migrate/createcachetable/create disposable admin/runserver; integration dependencies installed separately.",
+    "matcher": "client/tests/integration/expect-axe.js toPassAxeTests",
+    "ci": ".circleci/config.yml already installs Playwright, starts Django UI test server and runs integration Jest; .github/workflows/test.yml covers backend matrix.",
+    "scope_exclusions": "editor.test.js currently excludes [aria-describedby^=\"placeholder-\"]; chooser cases are it.skip and exclude .modal. Remove narrowly as defects are fixed, rather than silencing new findings."
+  },
+  "test_cases": [
+    {
+      "area": "Draftail labels and validation",
+      "automated": "Extend editor.test.js with a page containing ordinary rich text plus nested/list/StreamField rich text. Assert getByRole(textbox,{name:fieldLabel}) uniquely resolves the visible contenteditable; assert aria-describedby resolves all help/error/counter IDs. Trigger a required/max-length validation error and inspect aria-invalid on the interactive textbox. After fixes remove the global placeholder selector exclusion and rerun axe.",
+      "manual": "With NVDA+Firefox ESR and VoiceOver+Safari, navigate by form controls; each editor announces its label, help, required/error state and error message without navigating to the hidden backing input.",
+      "title": "Draftail labels and validation",
+      "steps": [
+        "Extend editor.test.js with a page containing ordinary rich text plus nested/list/StreamField rich text. Assert getByRole(textbox,{name:fieldLabel}) uniquely resolves the visible contenteditable; assert aria-describedby resolves all help/error/counter IDs. Trigger a required/max-length validation error and inspect aria-invalid on the interactive textbox. After fixes remove the global placeholder selector exclusion and rerun axe.",
+        "With NVDA+Firefox ESR and VoiceOver+Safari, navigate by form controls; each editor announces its label, help, required/error state and error message without navigating to the hidden backing input."
+      ],
+      "paths": [
+        "client/tests/integration/editor.test.js",
+        "client/src/components/Draftail/index.js",
+        "client/src/components/StreamField/blocks/FieldBlock.js"
+      ]
+    },
+    {
+      "area": "Tags and submissions",
+      "automated": "Add a populated tag fixture to image/document/page editors, assert the generated tag-entry textbox has the visible field name. On a submissions listing assert each row checkbox has a meaningful unique name and the select-all checkbox is named. Run axe before and after adding/removing a tag.",
+      "manual": "Enter, select and remove a tag without a pointer; verify label/selection/removal context. Select a submission by its announced record identifier.",
+      "title": "Tags and submissions",
+      "steps": [
+        "Add a populated tag fixture to image/document/page editors, assert the generated tag-entry textbox has the visible field name. On a submissions listing assert each row checkbox has a meaningful unique name and the select-all checkbox is named. Run axe before and after adding/removing a tag.",
+        "Enter, select and remove a tag without a pointer; verify label/selection/removal context. Select a submission by its announced record identifier."
+      ],
+      "paths": [
+        "client/tests/integration/editor.test.js",
+        "client/src/controllers/TagController.ts",
+        "wagtail/contrib/forms/templates/wagtailforms/list_submissions.html"
+      ]
+    },
+    {
+      "area": "Uploads and status",
+      "automated": "Extend existing images-upload.test.js and documents-upload.test.js: use getByLabel for file input, assert progress role/name/value during a deliberately delayed upload, inspect a persistent status region for success and invalid-size/type/server failure text. Keep existing didPost=false validation assertion.",
+      "manual": "On a writable disposable backend upload valid and invalid fixtures with NVDA/Firefox and VoiceOver/Safari. Record actual speech for filename/progress/completion/errors; do not require every percentage change to interrupt speech.",
+      "title": "Uploads and status",
+      "steps": [
+        "Extend existing images-upload.test.js and documents-upload.test.js: use getByLabel for file input, assert progress role/name/value during a deliberately delayed upload, inspect a persistent status region for success and invalid-size/type/server failure text. Keep existing didPost=false validation assertion.",
+        "On a writable disposable backend upload valid and invalid fixtures with NVDA/Firefox and VoiceOver/Safari. Record actual speech for filename/progress/completion/errors; do not require every percentage change to interrupt speech."
+      ],
+      "paths": [
+        "client/tests/integration/images-upload.test.js",
+        "client/tests/integration/documents-upload.test.js"
+      ]
+    },
+    {
+      "area": "Chooser boundary and name",
+      "automated": "Re-enable skipped image/page/embed chooser tests in editor.test.js after fixes; include modal content in axe. Assert role=dialog has an accessible name and aria-modal=true, Tab/Shift+Tab stay within it, Escape dismisses from every focus position, focus returns to original chooser trigger.",
+      "manual": "Open and close each chooser with keyboard and screen reader; verify dialog title, background is unavailable, result selection works, final Tab and Shift+Tab never escape.",
+      "title": "Chooser boundary and name",
+      "steps": [
+        "Re-enable skipped image/page/embed chooser tests in editor.test.js after fixes; include modal content in axe. Assert role=dialog has an accessible name and aria-modal=true, Tab/Shift+Tab stay within it, Escape dismisses from every focus position, focus returns to original chooser trigger.",
+        "Open and close each chooser with keyboard and screen reader; verify dialog title, background is unavailable, result selection works, final Tab and Shift+Tab never escape."
+      ],
+      "paths": [
+        "client/tests/integration/editor.test.js"
+      ]
+    },
+    {
+      "area": "Image focal area",
+      "automated": "Extend image editor coverage with keyboard-only create/move/resize of a focal area and assert resulting coordinates; verify every focused control has a visible rendered indicator. Exercise a pointer alternative that does not require dragging.",
+      "manual": "Create/move/resize/reset focal area without mouse; repeat at zoom and Windows Contrast themes. Check offscreen native radio does not consume focus without a visible indicator.",
+      "title": "Image focal area",
+      "steps": [
+        "Extend image editor coverage with keyboard-only create/move/resize of a focal area and assert resulting coordinates; verify every focused control has a visible rendered indicator. Exercise a pointer alternative that does not require dragging.",
+        "Create/move/resize/reset focal area without mouse; repeat at zoom and Windows Contrast themes. Check offscreen native radio does not consume focus without a visible indicator."
+      ],
+      "paths": [
+        "client/tests/integration/images-upload.test.js",
+        "wagtail/images/templates/wagtailimages/images/edit.html"
+      ]
+    },
+    {
+      "area": "Sort and bulk results",
+      "automated": "Extend listing.test.js and submission fixtures: activate each sortable header, assert current column aria-sort and direction update. Select one/all/zero items and assert a persistent polite status region receives accurate counts. Search an impossible term and verify a zero-result status update.",
+      "manual": "On screen reader, identify current sort and direction from header navigation; operate sort, selection and empty search while focus stays on the initiating control and hear one concise result announcement.",
+      "title": "Sort and bulk results",
+      "steps": [
+        "Extend listing.test.js and submission fixtures: activate each sortable header, assert current column aria-sort and direction update. Select one/all/zero items and assert a persistent polite status region receives accurate counts. Search an impossible term and verify a zero-result status update.",
+        "On screen reader, identify current sort and direction from header navigation; operate sort, selection and empty search while focus stays on the initiating control and hear one concise result announcement."
+      ],
+      "paths": [
+        "client/tests/integration/listing.test.js",
+        "wagtail/admin/templates/wagtailadmin/generic/listing_results.html"
+      ]
+    },
+    {
+      "area": "Field boundaries and metadata contrast",
+      "automated": "Retest computed field border/background combinations in light/dark modes and enabled/disabled-row metadata states. Assert at least 3:1 for necessary enabled-control boundaries and 4.5:1 for normal informational text; preserve disabled-control exemption.",
+      "manual": "Review empty inputs against surrounding surfaces in light/dark themes and Windows Contrast themes, including controls without placeholder text.",
+      "title": "Field boundaries and metadata contrast",
+      "steps": [
+        "Retest computed field border/background combinations in light/dark modes and enabled/disabled-row metadata states. Assert at least 3:1 for necessary enabled-control boundaries and 4.5:1 for normal informational text; preserve disabled-control exemption.",
+        "Review empty inputs against surrounding surfaces in light/dark themes and Windows Contrast themes, including controls without placeholder text."
+      ],
+      "paths": [
+        "client/scss/components/forms/_input-base.scss",
+        "client/scss/components/_listing.scss"
+      ]
+    },
+    {
+      "area": "Editor narrow layout and spacing",
+      "automated": "Repeat editor toolbar at320 CSS pixels and text-spacing override (line-height1.5, paragraph2em, letter.12em, word.16em). Assert essential Live-page control is reachable without page/container horizontal scrolling where no exception applies.",
+      "manual": "At400% browser zoom, use keyboard to reach all header/actions/side panels; check focus is visible and not obscured by sticky furniture.",
+      "title": "Editor narrow layout and spacing",
+      "steps": [
+        "Repeat editor toolbar at320 CSS pixels and text-spacing override (line-height1.5, paragraph2em, letter.12em, word.16em). Assert essential Live-page control is reachable without page/container horizontal scrolling where no exception applies.",
+        "At400% browser zoom, use keyboard to reach all header/actions/side panels; check focus is visible and not obscured by sticky furniture."
+      ],
+      "paths": [
+        "client/tests/integration/editor.test.js"
+      ]
+    },
+    {
+      "area": "Table blocks and static-asset gaps",
+      "automated": "Run writable-backend editor fixture containing actual table and typed-table blocks; ensure Handsontable assets load and run keyboard insertion/editing, row/column changes and axe in expanded editors. Verify fileupload validation assets load before upload assertions.",
+      "manual": "Do not interpret static-archive404s as component WCAG failures. Retest unloaded widgets with their real assets and report any residual inability to navigate/edit tables.",
+      "title": "Table blocks and static-asset gaps",
+      "steps": [
+        "Run writable-backend editor fixture containing actual table and typed-table blocks; ensure Handsontable assets load and run keyboard insertion/editing, row/column changes and axe in expanded editors. Verify fileupload validation assets load before upload assertions.",
+        "Do not interpret static-archive404s as component WCAG failures. Retest unloaded widgets with their real assets and report any residual inability to navigate/edit tables."
+      ],
+      "paths": [
+        "client/tests/integration/editor.test.js"
+      ]
+    }
+  ],
+  "screen_reader_matrix": [
+    "NVDA with Firefox ESR on Windows",
+    "VoiceOver with Safari on macOS"
+  ],
+  "ci_recommendation": "Extend existing integration job and fixture matrix with state-specific assertions and axe after interaction. Keep failure evidence as artifacts and document bounded exceptions with tracking issue/removal condition. Do not add a second browser/axe pipeline solely for this audit.",
+  "limits": [
+    "The documented project target is WCAG2.1AA; this requested audit uses2.2AA including dragging alternatives and focus-not-obscured.",
+    "Automated checks and DOM state probes do not verify actual speech or establish complete conformance.",
+    "Use disposable test data on a live backend for saves/uploads/invalid POSTs; no real production mutations were performed."
+  ],
+  "recommendations": [
+    {
+      "area": "Draftail labels and validation",
+      "automated": "Extend editor.test.js with a page containing ordinary rich text plus nested/list/StreamField rich text. Assert getByRole(textbox,{name:fieldLabel}) uniquely resolves the visible contenteditable; assert aria-describedby resolves all help/error/counter IDs. Trigger a required/max-length validation error and inspect aria-invalid on the interactive textbox. After fixes remove the global placeholder selector exclusion and rerun axe.",
+      "manual": "With NVDA+Firefox ESR and VoiceOver+Safari, navigate by form controls; each editor announces its label, help, required/error state and error message without navigating to the hidden backing input.",
+      "title": "Draftail labels and validation",
+      "steps": [
+        "Extend editor.test.js with a page containing ordinary rich text plus nested/list/StreamField rich text. Assert getByRole(textbox,{name:fieldLabel}) uniquely resolves the visible contenteditable; assert aria-describedby resolves all help/error/counter IDs. Trigger a required/max-length validation error and inspect aria-invalid on the interactive textbox. After fixes remove the global placeholder selector exclusion and rerun axe.",
+        "With NVDA+Firefox ESR and VoiceOver+Safari, navigate by form controls; each editor announces its label, help, required/error state and error message without navigating to the hidden backing input."
+      ],
+      "paths": [
+        "client/tests/integration/editor.test.js",
+        "client/src/components/Draftail/index.js",
+        "client/src/components/StreamField/blocks/FieldBlock.js"
+      ]
+    },
+    {
+      "area": "Tags and submissions",
+      "automated": "Add a populated tag fixture to image/document/page editors, assert the generated tag-entry textbox has the visible field name. On a submissions listing assert each row checkbox has a meaningful unique name and the select-all checkbox is named. Run axe before and after adding/removing a tag.",
+      "manual": "Enter, select and remove a tag without a pointer; verify label/selection/removal context. Select a submission by its announced record identifier.",
+      "title": "Tags and submissions",
+      "steps": [
+        "Add a populated tag fixture to image/document/page editors, assert the generated tag-entry textbox has the visible field name. On a submissions listing assert each row checkbox has a meaningful unique name and the select-all checkbox is named. Run axe before and after adding/removing a tag.",
+        "Enter, select and remove a tag without a pointer; verify label/selection/removal context. Select a submission by its announced record identifier."
+      ],
+      "paths": [
+        "client/tests/integration/editor.test.js",
+        "client/src/controllers/TagController.ts",
+        "wagtail/contrib/forms/templates/wagtailforms/list_submissions.html"
+      ]
+    },
+    {
+      "area": "Uploads and status",
+      "automated": "Extend existing images-upload.test.js and documents-upload.test.js: use getByLabel for file input, assert progress role/name/value during a deliberately delayed upload, inspect a persistent status region for success and invalid-size/type/server failure text. Keep existing didPost=false validation assertion.",
+      "manual": "On a writable disposable backend upload valid and invalid fixtures with NVDA/Firefox and VoiceOver/Safari. Record actual speech for filename/progress/completion/errors; do not require every percentage change to interrupt speech.",
+      "title": "Uploads and status",
+      "steps": [
+        "Extend existing images-upload.test.js and documents-upload.test.js: use getByLabel for file input, assert progress role/name/value during a deliberately delayed upload, inspect a persistent status region for success and invalid-size/type/server failure text. Keep existing didPost=false validation assertion.",
+        "On a writable disposable backend upload valid and invalid fixtures with NVDA/Firefox and VoiceOver/Safari. Record actual speech for filename/progress/completion/errors; do not require every percentage change to interrupt speech."
+      ],
+      "paths": [
+        "client/tests/integration/images-upload.test.js",
+        "client/tests/integration/documents-upload.test.js"
+      ]
+    },
+    {
+      "area": "Chooser boundary and name",
+      "automated": "Re-enable skipped image/page/embed chooser tests in editor.test.js after fixes; include modal content in axe. Assert role=dialog has an accessible name and aria-modal=true, Tab/Shift+Tab stay within it, Escape dismisses from every focus position, focus returns to original chooser trigger.",
+      "manual": "Open and close each chooser with keyboard and screen reader; verify dialog title, background is unavailable, result selection works, final Tab and Shift+Tab never escape.",
+      "title": "Chooser boundary and name",
+      "steps": [
+        "Re-enable skipped image/page/embed chooser tests in editor.test.js after fixes; include modal content in axe. Assert role=dialog has an accessible name and aria-modal=true, Tab/Shift+Tab stay within it, Escape dismisses from every focus position, focus returns to original chooser trigger.",
+        "Open and close each chooser with keyboard and screen reader; verify dialog title, background is unavailable, result selection works, final Tab and Shift+Tab never escape."
+      ],
+      "paths": [
+        "client/tests/integration/editor.test.js"
+      ]
+    },
+    {
+      "area": "Image focal area",
+      "automated": "Extend image editor coverage with keyboard-only create/move/resize of a focal area and assert resulting coordinates; verify every focused control has a visible rendered indicator. Exercise a pointer alternative that does not require dragging.",
+      "manual": "Create/move/resize/reset focal area without mouse; repeat at zoom and Windows Contrast themes. Check offscreen native radio does not consume focus without a visible indicator.",
+      "title": "Image focal area",
+      "steps": [
+        "Extend image editor coverage with keyboard-only create/move/resize of a focal area and assert resulting coordinates; verify every focused control has a visible rendered indicator. Exercise a pointer alternative that does not require dragging.",
+        "Create/move/resize/reset focal area without mouse; repeat at zoom and Windows Contrast themes. Check offscreen native radio does not consume focus without a visible indicator."
+      ],
+      "paths": [
+        "client/tests/integration/images-upload.test.js",
+        "wagtail/images/templates/wagtailimages/images/edit.html"
+      ]
+    },
+    {
+      "area": "Sort and bulk results",
+      "automated": "Extend listing.test.js and submission fixtures: activate each sortable header, assert current column aria-sort and direction update. Select one/all/zero items and assert a persistent polite status region receives accurate counts. Search an impossible term and verify a zero-result status update.",
+      "manual": "On screen reader, identify current sort and direction from header navigation; operate sort, selection and empty search while focus stays on the initiating control and hear one concise result announcement.",
+      "title": "Sort and bulk results",
+      "steps": [
+        "Extend listing.test.js and submission fixtures: activate each sortable header, assert current column aria-sort and direction update. Select one/all/zero items and assert a persistent polite status region receives accurate counts. Search an impossible term and verify a zero-result status update.",
+        "On screen reader, identify current sort and direction from header navigation; operate sort, selection and empty search while focus stays on the initiating control and hear one concise result announcement."
+      ],
+      "paths": [
+        "client/tests/integration/listing.test.js",
+        "wagtail/admin/templates/wagtailadmin/generic/listing_results.html"
+      ]
+    },
+    {
+      "area": "Field boundaries and metadata contrast",
+      "automated": "Retest computed field border/background combinations in light/dark modes and enabled/disabled-row metadata states. Assert at least 3:1 for necessary enabled-control boundaries and 4.5:1 for normal informational text; preserve disabled-control exemption.",
+      "manual": "Review empty inputs against surrounding surfaces in light/dark themes and Windows Contrast themes, including controls without placeholder text.",
+      "title": "Field boundaries and metadata contrast",
+      "steps": [
+        "Retest computed field border/background combinations in light/dark modes and enabled/disabled-row metadata states. Assert at least 3:1 for necessary enabled-control boundaries and 4.5:1 for normal informational text; preserve disabled-control exemption.",
+        "Review empty inputs against surrounding surfaces in light/dark themes and Windows Contrast themes, including controls without placeholder text."
+      ],
+      "paths": [
+        "client/scss/components/forms/_input-base.scss",
+        "client/scss/components/_listing.scss"
+      ]
+    },
+    {
+      "area": "Editor narrow layout and spacing",
+      "automated": "Repeat editor toolbar at320 CSS pixels and text-spacing override (line-height1.5, paragraph2em, letter.12em, word.16em). Assert essential Live-page control is reachable without page/container horizontal scrolling where no exception applies.",
+      "manual": "At400% browser zoom, use keyboard to reach all header/actions/side panels; check focus is visible and not obscured by sticky furniture.",
+      "title": "Editor narrow layout and spacing",
+      "steps": [
+        "Repeat editor toolbar at320 CSS pixels and text-spacing override (line-height1.5, paragraph2em, letter.12em, word.16em). Assert essential Live-page control is reachable without page/container horizontal scrolling where no exception applies.",
+        "At400% browser zoom, use keyboard to reach all header/actions/side panels; check focus is visible and not obscured by sticky furniture."
+      ],
+      "paths": [
+        "client/tests/integration/editor.test.js"
+      ]
+    },
+    {
+      "area": "Table blocks and static-asset gaps",
+      "automated": "Run writable-backend editor fixture containing actual table and typed-table blocks; ensure Handsontable assets load and run keyboard insertion/editing, row/column changes and axe in expanded editors. Verify fileupload validation assets load before upload assertions.",
+      "manual": "Do not interpret static-archive404s as component WCAG failures. Retest unloaded widgets with their real assets and report any residual inability to navigate/edit tables.",
+      "title": "Table blocks and static-asset gaps",
+      "steps": [
+        "Run writable-backend editor fixture containing actual table and typed-table blocks; ensure Handsontable assets load and run keyboard insertion/editing, row/column changes and axe in expanded editors. Verify fileupload validation assets load before upload assertions.",
+        "Do not interpret static-archive404s as component WCAG failures. Retest unloaded widgets with their real assets and report any residual inability to navigate/edit tables."
+      ],
+      "paths": [
+        "client/tests/integration/editor.test.js"
+      ]
+    }
+  ]
+}

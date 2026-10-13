@@ -1,0 +1,713 @@
+{
+  "initialPages": 100,
+  "status200Pages": 100,
+  "initialNodeCandidates": {
+    "list": 1,
+    "listitem": 1,
+    "aria-input-field-name": 26,
+    "color-contrast": 3,
+    "label": 8,
+    "aria-required-parent": 2,
+    "scrollable-region-focusable": 1,
+    "button-name": 1
+  },
+  "initialCandidates": [
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/workflows/list/",
+      "artifact": "runtime/011.json",
+      "axeRule": "list",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/list?application=playwright",
+      "selector": [
+        ".workflow-tasks"
+      ],
+      "html": "<ul class=\"workflow-tasks\">",
+      "canonicalRule": "ARIA-001",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/workflows/list/",
+      "artifact": "runtime/011.json",
+      "axeRule": "listitem",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/listitem?application=playwright",
+      "selector": [
+        ".workflow-tasks__task"
+      ],
+      "html": "<li class=\"workflow-tasks__task\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Step 1: Moderators approval\">\n                    <div class=\"workflow-tasks__step\">Step 1</div>\n                    <h4 class=\"workflow-tasks__name\">Moderators approval</h4>\n                </li>",
+      "canonicalRule": "ARIA-001",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/styleguide/",
+      "artifact": "runtime/027.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        ".notranslate"
+      ],
+      "html": "<div aria-describedby=\"placeholder-451vl\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/styleguide/",
+      "artifact": "runtime/027.json",
+      "axeRule": "color-contrast",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+      "selector": [
+        ".disabled > .title > h2"
+      ],
+      "html": "<h2>Disabled TD with title class</h2>",
+      "canonicalRule": null,
+      "disposition": "excluded-inactive-control"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/styleguide/",
+      "artifact": "runtime/027.json",
+      "axeRule": "color-contrast",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+      "selector": [
+        ".disabled > td:nth-child(2)"
+      ],
+      "html": "<td>Standard TD</td>",
+      "canonicalRule": "CONTRAST-DISABLED-METADATA",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/styleguide/",
+      "artifact": "runtime/027.json",
+      "axeRule": "color-contrast",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+      "selector": [
+        ".disabled > td:nth-child(3)"
+      ],
+      "html": "<td>Standard TD</td>",
+      "canonicalRule": "CONTRAST-DISABLED-METADATA",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"id_recipe_headline-length\"]"
+      ],
+      "html": "<div aria-describedby=\"id_recipe_headline-length\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-bdg69\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-bdg69\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-6fba2\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-6fba2\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-fus0t\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-fus0t\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-8mpvt\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-8mpvt\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-78dvl\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-78dvl\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-usph\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-usph\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-7fvrn\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-7fvrn\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-b2p1g\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-b2p1g\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-fmpec\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-fmpec\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-o8f6\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-o8f6\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-ccoe8\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-ccoe8\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-jiau\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-jiau\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-2sknk\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-2sknk\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "artifact": "runtime/035.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-cqn87\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-cqn87\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/forms/submissions/69/",
+      "artifact": "runtime/043.json",
+      "axeRule": "label",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+      "selector": [
+        "input[data-action=\"w-bulk#toggleAll\"]"
+      ],
+      "html": "<input type=\"checkbox\" data-action=\"w-bulk#toggleAll\" data-w-bulk-target=\"all\">",
+      "canonicalRule": "FORM-SUBMISSION-CHECKBOX-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/forms/submissions/69/",
+      "artifact": "runtime/043.json",
+      "axeRule": "label",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+      "selector": [
+        ".select-submission"
+      ],
+      "html": "<input type=\"checkbox\" name=\"selected-submissions\" class=\"select-submission\" value=\"1\" data-action=\"w-bulk#toggle\" data-w-bulk-target=\"item\">",
+      "canonicalRule": "FORM-SUBMISSION-CHECKBOX-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/users/new/",
+      "artifact": "runtime/044.json",
+      "axeRule": "aria-required-parent",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-required-parent?application=playwright",
+      "selector": [
+        ".w-w-fit"
+      ],
+      "html": "<a href=\"#tab-roles\" class=\"button w-flex w-items-center w-w-fit w-mb-8\" role=\"tab\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" aria-controls=\"tab-roles\">",
+      "canonicalRule": "ARIA-002",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/images/multiple/add/",
+      "artifact": "runtime/055.json",
+      "axeRule": "label",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+      "selector": [
+        "#fileupload"
+      ],
+      "html": "<input id=\"fileupload\" multiple=\"\" accept=\"image/*, image/avif\" name=\"files[]\" type=\"file\" data-accept-file-typ...=\"/\\.(avif|gif|jpg|jpe...\" data-max-file-size=\"10485760\" data-max-title-lengt...=\"255\" data-messages=\"{\"maxFileSize\": \"Thi...\" data-url=\"/admin/images/multip...\">",
+      "canonicalRule": "FORM-MULTIUPLOAD-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/documents/multiple/add/",
+      "artifact": "runtime/056.json",
+      "axeRule": "label",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+      "selector": [
+        "#fileupload"
+      ],
+      "html": "<input id=\"fileupload\" multiple=\"\" name=\"files[]\" type=\"file\" data-max-file-size=\"None\" data-max-title-length=\"255\" data-messages=\"{&quot;maxFileSize&quot;: &quot;This file is too big. Maximum filesize 0&nbsp;bytes.&quot;}\" data-url=\"/admin/documents/multiple/add/\">",
+      "canonicalRule": "FORM-MULTIUPLOAD-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/images/51/",
+      "artifact": "runtime/061.json",
+      "axeRule": "label",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+      "selector": [
+        ".ui-autocomplete-input"
+      ],
+      "html": "<input type=\"text\" class=\"ui-widget-content ui-autocomplete-input\" autocomplete=\"off\">",
+      "canonicalRule": "FORM-TAG-INPUT-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/documents/edit/2/",
+      "artifact": "runtime/066.json",
+      "axeRule": "label",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+      "selector": [
+        ".ui-autocomplete-input"
+      ],
+      "html": "<input type=\"text\" class=\"ui-widget-content ui-autocomplete-input\" autocomplete=\"off\">",
+      "canonicalRule": "FORM-TAG-INPUT-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/images/51/generate_url/",
+      "artifact": "runtime/068.json",
+      "axeRule": "scrollable-region-focusable",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/scrollable-region-focusable?application=playwright",
+      "selector": [
+        ".w-border-2"
+      ],
+      "html": "<div class=\"w-block w-border-2 w-border-border-furniture w-overflow-scroll w-p-4 w-rounded-sm w-max-h-[clamp(25rem,50vh,50rem)]\">\n            <img class=\"preview w-max-w-none\" src=\"/admin/images/51/preview/original/\" alt=\"Preview\">\n        </div>",
+      "canonicalRule": null,
+      "disposition": "disproved-in-Chromium152-implicit-scroll-focusability"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/users/copy/7/",
+      "artifact": "runtime/073.json",
+      "axeRule": "aria-required-parent",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-required-parent?application=playwright",
+      "selector": [
+        ".w-w-fit"
+      ],
+      "html": "<a href=\"#tab-roles\" class=\"button w-flex w-items-center w-w-fit w-mb-8\" role=\"tab\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" aria-controls=\"tab-roles\">",
+      "canonicalRule": "ARIA-002",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/60/revisions/2/revert/",
+      "artifact": "runtime/085.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"id_lead_text-length\"]"
+      ],
+      "html": "<div aria-describedby=\"id_lead_text-length\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/60/revisions/2/revert/",
+      "artifact": "runtime/085.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-f8vsm\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-f8vsm\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/60/edit/",
+      "artifact": "runtime/095.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"id_lead_text-length\"]"
+      ],
+      "html": "<div aria-describedby=\"id_lead_text-length\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/60/edit/",
+      "artifact": "runtime/095.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-3js4p\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-3js4p\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/68/edit/",
+      "artifact": "runtime/096.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-7q734\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-7q734\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/68/edit/",
+      "artifact": "runtime/096.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-f25ql\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-f25ql\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/68/edit/",
+      "artifact": "runtime/096.json",
+      "axeRule": "label",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+      "selector": [
+        ".ui-autocomplete-input"
+      ],
+      "html": "<input type=\"text\" class=\"ui-widget-content ui-autocomplete-input\" autocomplete=\"off\">",
+      "canonicalRule": "FORM-TAG-INPUT-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/69/edit/",
+      "artifact": "runtime/097.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-ebe8u\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-ebe8u\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/69/edit/",
+      "artifact": "runtime/097.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-d545j\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-d545j\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/77/edit/",
+      "artifact": "runtime/099.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-580tv\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-580tv\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/77/edit/",
+      "artifact": "runtime/099.json",
+      "axeRule": "aria-input-field-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+      "selector": [
+        "div[aria-describedby=\"placeholder-8db01\"]"
+      ],
+      "html": "<div aria-describedby=\"placeholder-8db01\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+      "canonicalRule": "FORM-DRAFTAIL-NAME",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/77/edit/",
+      "artifact": "runtime/099.json",
+      "axeRule": "button-name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+      "selector": [
+        ".MediaBlock"
+      ],
+      "html": "<button type=\"button\" tabindex=\"-1\" class=\"MediaBlock\" data-draftail-trigger=\"true\">",
+      "canonicalRule": "ARIA-004",
+      "disposition": "confirmed"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/77/edit/",
+      "artifact": "runtime/099.json",
+      "axeRule": "label",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+      "selector": [
+        ".ui-autocomplete-input"
+      ],
+      "html": "<input type=\"text\" class=\"ui-widget-content ui-autocomplete-input\" autocomplete=\"off\">",
+      "canonicalRule": "FORM-TAG-INPUT-NAME",
+      "disposition": "confirmed"
+    }
+  ],
+  "expandedStatePages": 25,
+  "expandedStates": 41,
+  "expandedCandidates": [
+    {
+      "artifact": "raw/states-000.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/",
+      "state": "Actions",
+      "axeRule": "target-size",
+      "nodes": 1,
+      "disposition": "excluded-popup-overlap-artifact"
+    },
+    {
+      "artifact": "raw/states-000.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/",
+      "state": "Actions",
+      "axeRule": "target-size",
+      "nodes": 2,
+      "disposition": "excluded-popup-overlap-artifact"
+    },
+    {
+      "artifact": "raw/states-000.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/",
+      "state": "Actions",
+      "axeRule": "target-size",
+      "nodes": 3,
+      "disposition": "excluded-popup-overlap-artifact"
+    },
+    {
+      "artifact": "raw/states-035.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/82/edit/",
+      "state": "Content",
+      "axeRule": "aria-input-field-name",
+      "nodes": 15,
+      "disposition": "see-canonical-initial-scan-correlation"
+    },
+    {
+      "artifact": "raw/states-044.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/users/new/",
+      "state": "Account",
+      "axeRule": "aria-required-parent",
+      "nodes": 1,
+      "disposition": "see-canonical-initial-scan-correlation"
+    },
+    {
+      "artifact": "raw/states-066.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/documents/edit/2/",
+      "state": "Actions",
+      "axeRule": "label",
+      "nodes": 1,
+      "disposition": "see-canonical-initial-scan-correlation"
+    },
+    {
+      "artifact": "raw/states-061.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/images/51/",
+      "state": "Actions",
+      "axeRule": "label",
+      "nodes": 1,
+      "disposition": "see-canonical-initial-scan-correlation"
+    },
+    {
+      "artifact": "raw/states-068.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/images/51/generate_url/",
+      "state": "Actions",
+      "axeRule": "scrollable-region-focusable",
+      "nodes": 1,
+      "disposition": "see-canonical-initial-scan-correlation"
+    },
+    {
+      "artifact": "raw/states-095.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/60/edit/",
+      "state": "Content",
+      "axeRule": "aria-input-field-name",
+      "nodes": 2,
+      "disposition": "see-canonical-initial-scan-correlation"
+    },
+    {
+      "artifact": "raw/states-096.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/68/edit/",
+      "state": "Content",
+      "axeRule": "aria-input-field-name",
+      "nodes": 2,
+      "disposition": "see-canonical-initial-scan-correlation"
+    },
+    {
+      "artifact": "raw/states-096.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/68/edit/",
+      "state": "Content",
+      "axeRule": "label",
+      "nodes": 1,
+      "disposition": "see-canonical-initial-scan-correlation"
+    },
+    {
+      "artifact": "raw/states-097.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/69/edit/",
+      "state": "Content",
+      "axeRule": "aria-input-field-name",
+      "nodes": 2,
+      "disposition": "see-canonical-initial-scan-correlation"
+    },
+    {
+      "artifact": "raw/states-099.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/77/edit/",
+      "state": "Content",
+      "axeRule": "aria-input-field-name",
+      "nodes": 2,
+      "disposition": "see-canonical-initial-scan-correlation"
+    },
+    {
+      "artifact": "raw/states-099.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/77/edit/",
+      "state": "Content",
+      "axeRule": "button-name",
+      "nodes": 1,
+      "disposition": "see-canonical-initial-scan-correlation"
+    },
+    {
+      "artifact": "raw/states-099.json",
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/77/edit/",
+      "state": "Content",
+      "axeRule": "label",
+      "nodes": 1,
+      "disposition": "see-canonical-initial-scan-correlation"
+    }
+  ],
+  "axePassingRules": [
+    "aria-allowed-attr",
+    "aria-conditional-attr",
+    "aria-deprecated-role",
+    "aria-hidden-body",
+    "aria-hidden-focus",
+    "aria-prohibited-attr",
+    "aria-required-attr",
+    "aria-required-children",
+    "aria-required-parent",
+    "aria-roles",
+    "aria-valid-attr",
+    "aria-valid-attr-value",
+    "autocomplete-valid",
+    "avoid-inline-spacing",
+    "button-name",
+    "bypass",
+    "color-contrast",
+    "definition-list",
+    "dlitem",
+    "document-title",
+    "duplicate-id-aria",
+    "form-field-multiple-labels",
+    "html-has-lang",
+    "html-lang-valid",
+    "image-alt",
+    "input-button-name",
+    "label",
+    "link-in-text-block",
+    "link-name",
+    "list",
+    "listitem",
+    "meta-viewport",
+    "nested-interactive",
+    "scrollable-region-focusable",
+    "select-name",
+    "target-size",
+    "td-headers-attr",
+    "th-has-data-cells"
+  ],
+  "manualRuntimeCanonicalRules": [
+    "ARIA-003",
+    "MODAL-001",
+    "MODAL-002",
+    "KEYBOARD-FOCAL-CREATE",
+    "KEYBOARD-FOCAL-VISIBLE",
+    "LIVE-BULK-SELECTION-COUNT",
+    "TABLE-001",
+    "CONTRAST-FIELD-BOUNDARY",
+    "REFLOW-EDITOR-STATUS-TOOLBAR"
+  ],
+  "limitations": [
+    "First25Tab sampling is not complete keyboard coverage.",
+    "No screen-reader/audio verification.",
+    "Static mirror GET only: no completed writes/server validation.",
+    "Missing Handsontable and fileupload validation assets and edit-session ping endpoints limit behavior coverage."
+  ]
+}

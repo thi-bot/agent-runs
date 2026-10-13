@@ -1,0 +1,90 @@
+[
+  {
+    "path": "/admin/images/chooser/",
+    "dialog": [
+      {
+        "role": "dialog",
+        "label": null,
+        "labelledby": null,
+        "modal": null,
+        "hidden": "false",
+        "headings": [
+          {
+            "id": "header-title",
+            "text": "Choose an image"
+          },
+          {
+            "id": "",
+            "text": "Latest images"
+          }
+        ],
+        "active": "<div class=\"modal fade in\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"false\" style=\"display: block;\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <button type=\"button\" class=\"button close button--icon text-replace\" data-dismiss=\"",
+        "backgroundHidden": null
+      }
+    ],
+    "tab": "<button type=\"button\" class=\"button close button--icon text-replace\" data-dismiss=\"modal\"><svg class=\"icon icon-cross\" aria-hidden=\"true\"><use href=\"#icon-cross\"></use></svg>Close</button>",
+    "closed": 0,
+    "return": "<body id=\"wagtail\" class=\"editor-view page-is-live ready\">\n        \n            <div data-sprite=\"\"><div hidden=\"\"><svg><defs><symbol id=\"icon-arrow-down\" viewBox=\"0 0 16 16\"><path d=\"M8 11.5a.743.743"
+  },
+  {
+    "path": "/admin/choose-page/",
+    "dialog": [
+      {
+        "role": "dialog",
+        "label": null,
+        "labelledby": null,
+        "modal": null,
+        "hidden": "false",
+        "headings": [
+          {
+            "id": "header-title",
+            "text": "Choose a page Page"
+          }
+        ],
+        "active": "<div class=\"modal fade in\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"false\" style=\"display: block;\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <button type=\"button\" class=\"button close button--icon text-replace\" data-dismiss=\"",
+        "backgroundHidden": null
+      }
+    ],
+    "tab": "<button type=\"button\" class=\"button close button--icon text-replace\" data-dismiss=\"modal\"><svg class=\"icon icon-cross\" aria-hidden=\"true\"><use href=\"#icon-cross\"></use></svg>Close</button>",
+    "closed": 0,
+    "return": "<body id=\"wagtail\" class=\"editor-view page-is-live ready\">\n        \n            <div data-sprite=\"\"><div hidden=\"\"><svg><defs><symbol id=\"icon-arrow-down\" viewBox=\"0 0 16 16\"><path d=\"M8 11.5a.743.743"
+  },
+  {
+    "path": "/admin/documents/chooser/",
+    "dialog": [
+      {
+        "role": "dialog",
+        "label": null,
+        "labelledby": null,
+        "modal": null,
+        "hidden": "false",
+        "headings": [
+          {
+            "id": "header-title",
+            "text": "Choose a document"
+          },
+          {
+            "id": "",
+            "text": "Latest documents"
+          }
+        ],
+        "active": "<div class=\"modal fade in\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"false\" style=\"display: block;\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <button type=\"button\" class=\"button close button--icon text-replace\" data-dismiss=\"",
+        "backgroundHidden": null
+      }
+    ],
+    "tab": "<button type=\"button\" class=\"button close button--icon text-replace\" data-dismiss=\"modal\"><svg class=\"icon icon-cross\" aria-hidden=\"true\"><use href=\"#icon-cross\"></use></svg>Close</button>",
+    "closed": 0,
+    "return": "<body id=\"wagtail\" class=\"editor-view page-is-live ready\">\n        \n            <div data-sprite=\"\"><div hidden=\"\"><svg><defs><symbol id=\"icon-arrow-down\" viewBox=\"0 0 16 16\"><path d=\"M8 11.5a.743.743"
+  },
+  {
+    "privacy": {
+      "role": "dialog",
+      "modal": "true",
+      "label": "title-set-privacy",
+      "active": "<div id=\"set-privacy\" aria-labelledby=\"title-set-privacy\" class=\"w-dialog w-dialog--message\" data-controller=\"w-dialog\" data-action=\"w-dialog:hide-&gt;w-dialog#hide w-dialog:show-&gt;w-dialog#show\" data-url=\"/admin/pages/68/privacy/\" aria-modal=\"true"
+    }
+  },
+  {
+    "privacyclosed": "true"
+  }
+]

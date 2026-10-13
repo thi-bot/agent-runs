@@ -1,0 +1,79 @@
+{
+  "skill": "aria-specialist",
+  "scope": [
+    "client/src/components/Sidebar/menu/SubMenuItem.tsx",
+    "client/src/components/Sidebar/modules/MainMenu.tsx",
+    "client/src/components/Sidebar/menu/PageExplorerMenuItem.tsx",
+    "client/src/components/PageExplorer/PageExplorerPanel.tsx",
+    "client/src/components/ComboBox/ComboBox.tsx",
+    "client/src/components/Draftail/index.js",
+    "client/src/components/ChooserWidget/index.js",
+    "client/src/components/CommentApp/components/CommentHeader/index.tsx",
+    "client/src/controllers/TabsController.ts",
+    "client/src/controllers/DropdownController.ts",
+    "client/src/controllers/DrilldownController.ts",
+    "wagtail/admin/templates/wagtailadmin/shared/panel.html",
+    "wagtail/admin/templates/wagtailadmin/widgets/chooser.html",
+    "wagtail/admin/templates/wagtailadmin/workflows/includes/workflow_tasks_cell.html",
+    "wagtail/users/templates/wagtailusers/users/create.html",
+    "https://static-wagtail-v7-4.netlify.app/admin/",
+    "https://static-wagtail-v7-4.netlify.app/admin/workflows/list/",
+    "https://static-wagtail-v7-4.netlify.app/admin/users/new/",
+    "https://static-wagtail-v7-4.netlify.app/admin/users/copy/7/"
+  ],
+  "findings": [
+    {
+      "rule": "ARIA-001",
+      "wcag": "1.3.1 A",
+      "severity": "moderate",
+      "location": "wagtail/admin/templates/wagtailadmin/workflows/includes/workflow_tasks_cell.html:5",
+      "summary": "Workflow task links wrap list items, breaking the task list structure exposed to assistive technology.",
+      "fix": "Make each li a direct child of ul and place the task link inside its li; move the card styling to the link as needed to preserve its click area. Keep the extra-count li as another direct child.",
+      "evidence": "Runtime 011: axe list and listitem failures on /admin/workflows/list/. Source: <ul class=\"workflow-tasks\"><a href=\"...\"><li class=\"workflow-tasks__task\">...</li></a></ul>.",
+      "component": "Workflow task summary cards"
+    },
+    {
+      "rule": "ARIA-002",
+      "wcag": "4.1.2 A",
+      "severity": "moderate",
+      "location": "wagtail/users/templates/wagtailusers/users/create.html:44",
+      "summary": "The Roles shortcut in user creation and copying is exposed as a tab outside any tablist.",
+      "fix": "Remove role=\"tab\" from the in-panel shortcut and use a link or native button to activate the Roles panel. In TabsController, write aria-selected only on actual tablist tabs, rather than every trigger; retain aria-controls and move focus appropriately.",
+      "evidence": "Runtime 044 and 073: aria-required-parent on a.w-w-fit, role=\"tab\" outside tablist. TabsController:186\u2013193 updates aria-selected on all triggerTargets, including this shortcut.",
+      "component": "User create/copy Roles shortcut"
+    },
+    {
+      "rule": "ARIA-003",
+      "wcag": "4.1.2 A",
+      "severity": "moderate",
+      "location": "client/src/components/Sidebar/menu/SubMenuItem.tsx:106",
+      "summary": "Sidebar navigation and account disclosures announce a menu popup although their opened content has ordinary list/link semantics.",
+      "fix": "Remove aria-haspopup=\"menu\" from SubMenuItem and the account button in MainMenu.tsx:279; retain the accurate aria-expanded disclosure state. Optionally add aria-controls with a stable panel ID. Keep native navigation lists and links.",
+      "evidence": "Captured admin DOM: Settings/Reports/Help buttons have aria-haspopup=\"menu\"; panels contain h2 and ul > li > a without role=\"menu\". Account button likewise opens ul containing ordinary links.",
+      "component": "Sidebar submenu and account disclosures"
+    },
+    {
+      "rule": "ARIA-004",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "client/src/components/Draftail/blocks/MediaBlock.js:110",
+      "summary": "Rich text image and embed preview buttons have no accessible name when a thumbnail is present.",
+      "fix": "Give MediaBlock an explicit localized accessible label identifying its image/embed and action, supplied by ImageBlock/EmbedBlock (for example \u201cEdit image: [alt text]\u201d or \u201cEdit embed: [title]\u201d). Preserve decorative thumbnail alt=\"\" without relying on it for the button name.",
+      "evidence": "Runtime 099 /admin/pages/77/edit/: axe button-name on button.MediaBlock. ImageBlock passes alt=\"\"; EmbedBlock also passes alt=\"\". MediaBlock hides its icon and renders no fallback text when src is present.",
+      "component": "Draftail MediaBlock"
+    }
+  ],
+  "passed": [
+    "Page explorer declares aria-haspopup=\"dialog\" and opens a labelled role=\"dialog\" component; this relationship is consistent in source.",
+    "Sidebar expansion state follows React isOpen/accountSettingsOpen state.",
+    "TabsController validates tab panel IDs and supplies aria-controls, selected-tab tabindex and keyboard navigation handlers.",
+    "DrilldownController updates aria-expanded on matching submenu toggles.",
+    "Chooser choose/clear controls use native buttons; decorative SVG icons in sidebar markup are hidden from assistive technology."
+  ],
+  "notes": [
+    "Draftail accessible-name failures on page 82 edit and styleguide were corroborated in runtime; they are assigned to the forms specialist to avoid duplicate findings.",
+    "Reviewed archived captured DOM and available runtime axe results alongside source; did not independently drive browser interaction or screen readers.",
+    "Static archive cannot validate server-side validation and chooser selection responses.",
+    "ComboBox command-palette mode disables its own search input and delegates typing to the editor; active-descendant announcements and preview-button navigation need interactive screen-reader verification, and are not asserted as confirmed failures here."
+  ]
+}

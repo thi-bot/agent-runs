@@ -1,0 +1,2032 @@
+{
+  "start": "https://www.djangoproject.com/",
+  "maxPages": 100,
+  "pages": [
+    {
+      "url": "https://www.djangoproject.com/",
+      "depth": 0,
+      "final": "https://www.djangoproject.com/",
+      "status": 200,
+      "file": "evidence/page-001.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/community/",
+      "status": 200,
+      "file": "evidence/page-002.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/conduct/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/conduct/",
+      "status": 200,
+      "file": "evidence/page-003.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/diversity/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/diversity/",
+      "status": 200,
+      "file": "evidence/page-004.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/download/",
+      "status": 200,
+      "file": "evidence/page-005.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/foundation/",
+      "status": 200,
+      "file": "evidence/page-006.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/fundraising/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/fundraising/",
+      "status": 200,
+      "file": "evidence/page-007.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/sponsor/",
+      "status": 200,
+      "file": "evidence/page-008.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/start/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/start/",
+      "status": 200,
+      "file": "evidence/page-009.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/contact/foundation/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/contact/foundation/",
+      "status": 200,
+      "file": "evidence/page-010.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/",
+      "status": 200,
+      "file": "evidence/page-011.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/corporate-members/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/foundation/corporate-members/",
+      "status": 200,
+      "file": "evidence/page-012.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/donate/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/foundation/donate/",
+      "status": 200,
+      "file": "evidence/page-013.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/individual-members/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/foundation/individual-members/",
+      "status": 200,
+      "file": "evidence/page-014.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/teams/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/foundation/teams/",
+      "status": 200,
+      "file": "evidence/page-015.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/dsf/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/community/dsf/",
+      "status": 200,
+      "file": "evidence/page-016.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/ecosystem/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/community/ecosystem/",
+      "status": 200,
+      "file": "evidence/page-017.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/conduct/reporting/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/conduct/reporting/",
+      "status": 200,
+      "file": "evidence/page-018.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/banner/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/sponsor/banner/",
+      "status": 200,
+      "file": "evidence/page-019.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/plans/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/sponsor/plans/",
+      "status": 200,
+      "file": "evidence/page-020.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2007/",
+      "status": 200,
+      "file": "evidence/page-021.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/2028/roadmap/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/download/2028/roadmap/",
+      "status": 200,
+      "file": "evidence/page-022.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2010/",
+      "status": 200,
+      "file": "evidence/page-023.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/6.2/roadmap/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/download/6.2/roadmap/",
+      "status": 200,
+      "file": "evidence/page-024.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/local/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/community/local/",
+      "status": 200,
+      "file": "evidence/page-025.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2016/",
+      "status": 200,
+      "file": "evidence/page-026.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/plans/diamond/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/sponsor/plans/diamond/",
+      "status": 200,
+      "file": "evidence/page-027.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2017/",
+      "status": 200,
+      "file": "evidence/page-028.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/plans/platinum/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/sponsor/plans/platinum/",
+      "status": 200,
+      "file": "evidence/page-029.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/corporate-membership/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/foundation/corporate-membership/",
+      "status": 200,
+      "file": "evidence/page-030.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2022/",
+      "status": 200,
+      "file": "evidence/page-031.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/minutes/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/foundation/minutes/",
+      "status": 200,
+      "file": "evidence/page-032.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2005/nov/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2005/nov/",
+      "status": 200,
+      "file": "evidence/page-033.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/prizes/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/foundation/prizes/",
+      "status": 200,
+      "file": "evidence/page-034.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/apr/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2006/apr/",
+      "status": 200,
+      "file": "evidence/page-035.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/jan/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2006/jan/",
+      "status": 200,
+      "file": "evidence/page-036.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/minutes/2025/apr/10/dsf-board-monthly-meeting/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/foundation/minutes/2025/apr/10/dsf-board-monthly-meeting/",
+      "status": 200,
+      "file": "evidence/page-037.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/may/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2006/may/",
+      "status": 200,
+      "file": "evidence/page-038.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/feb/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2007/feb/",
+      "status": 200,
+      "file": "evidence/page-039.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/mar/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2007/mar/",
+      "status": 200,
+      "file": "evidence/page-040.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/may/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2007/may/",
+      "status": 200,
+      "file": "evidence/page-041.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/aug/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2008/aug/",
+      "status": 200,
+      "file": "evidence/page-042.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/jul/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2008/jul/",
+      "status": 200,
+      "file": "evidence/page-043.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/nov/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2008/nov/",
+      "status": 200,
+      "file": "evidence/page-044.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2009/jul/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2009/jul/",
+      "status": 200,
+      "file": "evidence/page-045.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2009/may/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2009/may/",
+      "status": 200,
+      "file": "evidence/page-046.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/jan/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2010/jan/",
+      "status": 200,
+      "file": "evidence/page-047.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/mar/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2010/mar/",
+      "status": 200,
+      "file": "evidence/page-048.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/sep/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2010/sep/",
+      "status": 200,
+      "file": "evidence/page-049.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2011/jan/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2011/jan/",
+      "status": 200,
+      "file": "evidence/page-050.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2011/nov/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2011/nov/",
+      "status": 200,
+      "file": "evidence/page-051.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/aug/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2012/aug/",
+      "status": 200,
+      "file": "evidence/page-052.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/jul/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2012/jul/",
+      "status": 200,
+      "file": "evidence/page-053.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/may/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2012/may/",
+      "status": 200,
+      "file": "evidence/page-054.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/feb/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2013/feb/",
+      "status": 200,
+      "file": "evidence/page-055.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/jul/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2013/jul/",
+      "status": 200,
+      "file": "evidence/page-056.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/nov/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2013/nov/",
+      "status": 200,
+      "file": "evidence/page-057.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/oct/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2013/oct/",
+      "status": 200,
+      "file": "evidence/page-058.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/aug/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2014/aug/",
+      "status": 200,
+      "file": "evidence/page-059.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/jul/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2014/jul/",
+      "status": 200,
+      "file": "evidence/page-060.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/oct/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2014/oct/",
+      "status": 200,
+      "file": "evidence/page-061.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/feb/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2015/feb/",
+      "status": 200,
+      "file": "evidence/page-062.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/jul/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2015/jul/",
+      "status": 200,
+      "file": "evidence/page-063.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/may/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2015/may/",
+      "status": 200,
+      "file": "evidence/page-064.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/apr/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2016/apr/",
+      "status": 200,
+      "file": "evidence/page-065.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/jan/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2016/jan/",
+      "status": 200,
+      "file": "evidence/page-066.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/may/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2016/may/",
+      "status": 200,
+      "file": "evidence/page-067.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/sep/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2016/sep/",
+      "status": 200,
+      "file": "evidence/page-068.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/aug/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2017/aug/",
+      "status": 200,
+      "file": "evidence/page-069.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/may/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2017/may/",
+      "status": 200,
+      "file": "evidence/page-070.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/sep/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2017/sep/",
+      "status": 200,
+      "file": "evidence/page-071.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/dec/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2018/dec/",
+      "status": 200,
+      "file": "evidence/page-072.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/may/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2018/may/",
+      "status": 200,
+      "file": "evidence/page-073.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/oct/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2018/oct/",
+      "status": 200,
+      "file": "evidence/page-074.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/dec/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2019/dec/",
+      "status": 200,
+      "file": "evidence/page-075.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/mar/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2019/mar/",
+      "status": 200,
+      "file": "evidence/page-076.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/oct/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2019/oct/",
+      "status": 200,
+      "file": "evidence/page-077.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/feb/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2020/feb/",
+      "status": 200,
+      "file": "evidence/page-078.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/jul/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2020/jul/",
+      "status": 200,
+      "file": "evidence/page-079.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/oct/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2020/oct/",
+      "status": 200,
+      "file": "evidence/page-080.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/aug/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2021/aug/",
+      "status": 200,
+      "file": "evidence/page-081.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/jul/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2021/jul/",
+      "status": 200,
+      "file": "evidence/page-082.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/nov/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2021/nov/",
+      "status": 200,
+      "file": "evidence/page-083.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/apr/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2022/apr/",
+      "status": 200,
+      "file": "evidence/page-084.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/jul/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2022/jul/",
+      "status": 200,
+      "file": "evidence/page-085.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/nov/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2022/nov/",
+      "status": 200,
+      "file": "evidence/page-086.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/aug/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2023/aug/",
+      "status": 200,
+      "file": "evidence/page-087.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/jan/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2023/jan/",
+      "status": 200,
+      "file": "evidence/page-088.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/may/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2023/may/",
+      "status": 200,
+      "file": "evidence/page-089.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/sep/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2023/sep/",
+      "status": 200,
+      "file": "evidence/page-090.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/jan/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2024/jan/",
+      "status": 200,
+      "file": "evidence/page-091.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/jul/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2024/jul/",
+      "status": 200,
+      "file": "evidence/page-092.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/may/",
+      "depth": 2,
+      "final": "https://www.djangoproject.com/weblog/2024/may/",
+      "status": 200,
+      "file": "evidence/page-093.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/corporate-members/badges/",
+      "depth": 3,
+      "final": "https://www.djangoproject.com/foundation/corporate-members/badges/",
+      "status": 200,
+      "file": "evidence/page-094.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/corporate-membership/join/",
+      "depth": 3,
+      "final": "https://www.djangoproject.com/foundation/corporate-membership/join/",
+      "status": 200,
+      "file": "evidence/page-095.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/faq/",
+      "depth": 3,
+      "final": "https://www.djangoproject.com/foundation/faq/",
+      "status": 200,
+      "file": "evidence/page-096.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/records/",
+      "depth": 3,
+      "final": "https://www.djangoproject.com/foundation/records/",
+      "status": 200,
+      "file": "evidence/page-097.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/conferences/",
+      "depth": 3,
+      "final": "https://www.djangoproject.com/foundation/conferences/",
+      "status": 200,
+      "file": "evidence/page-098.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/conduct/faq/",
+      "depth": 3,
+      "final": "https://www.djangoproject.com/conduct/faq/",
+      "status": 200,
+      "file": "evidence/page-099.html.gz"
+    },
+    {
+      "url": "https://www.djangoproject.com/start/overview/",
+      "depth": 1,
+      "final": "https://www.djangoproject.com/start/overview/",
+      "status": 200,
+      "file": "evidence/page-100.html.gz"
+    }
+  ],
+  "skipped": [
+    {
+      "url": "https://www.djangoproject.com/trademarks/",
+      "depth": 1,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/",
+      "depth": 1,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/rss/weblog/",
+      "depth": 1,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2026/oct/01/nominate-someone-for-the-2026-malcolm-prize/",
+      "depth": 1,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2026/sep/22/new-technical-governance-approved/",
+      "depth": 1,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/start/overview/",
+      "depth": 1,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/badges/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/blogs/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/conduct/changes/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/conduct/faq/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/diversity/changes/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2005/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.0.4/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.0.4/tarball/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.1.4/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.1.4/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.10.8/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.10.8/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.11.29/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.11.29/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.2.7/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.2.7/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.3.7/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.3.7/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.4.22/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.4.22/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.5.12/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.5.12/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.6.11/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.6.11/tarball/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.7.11/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.7.11/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.8.19/checksum/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.8.19/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.9.13/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/1.9.13/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/2.0.13/checksum/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/2.0.13/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/2.1.15/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/2.1.15/tarball/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/2.2.28/checksum/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/2.2.28/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/2029/roadmap/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/3.0.14/checksum/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2009/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/3.0.14/tarball/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/3.1.14/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/3.1.14/tarball/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/3.2.25/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/3.2.25/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/4.0.10/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/4.0.10/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/4.1.13/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/4.1.13/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/4.2.30/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/4.2.30/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/5.0.14/checksum/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/5.0.14/tarball/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/5.1.15/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/5.1.15/tarball/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/5.2.17/checksum/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/5.2.17/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/6.0.8/checksum/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/6.0.8/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/6.1.1/checksum/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/6.1.1/tarball/",
+      "depth": 2,
+      "skip": "non-HTML"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/jobs/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/links/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/logos/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/packages/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2011/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/plans/bronze/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/plans/fellow/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/q-and-a/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/add/blogs/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/add/jobs/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/add/links/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/add/packages/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/community/add/q-and-a/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/plans/gold/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/sponsor/plans/silver/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/cla/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/code-of-conduct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/conferences/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/django_core/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/faq/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2025/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2026/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2005/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2005/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2005/jul/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/records/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/individual-members/faq/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2005/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2005/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/jul/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/foundation/minutes/2025/mar/13/dsf-board-monthly-meeting/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2006/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/jan/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/jul/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2007/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/jan/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/may/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2008/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2009/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2009/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2009/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2009/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2009/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/may/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2010/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2011/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2011/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2011/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2011/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2011/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2011/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2011/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/jan/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2012/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/jan/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/may/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2013/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/jan/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/may/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2014/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/jan/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2015/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/jul/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2016/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/jan/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/jul/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2017/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/jan/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/jul/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2018/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/jan/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/jul/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/may/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2019/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/jan/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/may/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2020/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/jan/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/may/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2021/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/jan/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/may/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2022/sep/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/jul/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2023/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/apr/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/aug/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/dec/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/feb/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/jun/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/mar/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/nov/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.djangoproject.com/weblog/2024/oct/",
+      "depth": 2,
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "remaining": 324,
+  "families": {
+    "": 1,
+    "community": 4,
+    "conduct": 2,
+    "diversity": 1,
+    "download": 3,
+    "foundation": 9,
+    "fundraising": 1,
+    "sponsor": 5,
+    "start": 1,
+    "contact": 1,
+    "weblog": 65
+  }
+}

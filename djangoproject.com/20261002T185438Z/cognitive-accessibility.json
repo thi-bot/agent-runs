@@ -1,0 +1,22 @@
+{
+  "skill": "cognitive-accessibility",
+  "scope": [
+    "djangoproject/templates/registration/login.html",
+    "djangoproject/templates/registration/registration_form.html",
+    "djangoproject/templates/start.html",
+    "djangoproject/static/js/mod/stripe-donation.js",
+    "djangoproject/static/js/djangoproject.js"
+  ],
+  "findings": [],
+  "passed": [
+    "No source-level paste prevention or memory-only authentication puzzle found in reviewed first-party scripts.",
+    "Login includes username/password labels and a password-reset route.",
+    "Getting started content is divided into descriptive sections and code examples."
+  ],
+  "notes": [
+    "Accessible authentication cannot be fully established without checking actual rendered password-manager support and external reCAPTCHA/Stripe flows.",
+    "Technical Django terminology fits developer documentation; jargon alone is not an AA failure.",
+    "No multi-step redundant-entry or timeout failure confirmed within reviewed source.",
+    "Clipboard status timing is captured by live-region-controller rather than duplicated here."
+  ]
+}

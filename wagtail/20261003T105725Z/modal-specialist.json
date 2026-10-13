@@ -1,0 +1,57 @@
+{
+  "skill": "modal-specialist",
+  "scope": [
+    "client/src/entrypoints/admin/modal-workflow.js",
+    "wagtail/admin/static_src/wagtailadmin/js/vendor/bootstrap-modal.js",
+    "client/src/controllers/DialogController.ts",
+    "client/src/entrypoints/admin/privacy-switch.js",
+    "wagtail/admin/templates/wagtailadmin/shared/dialog/dialog.html",
+    "client/src/components/Sidebar/menu/PageExplorerMenuItem.tsx",
+    "client/src/components/PageExplorer/PageExplorerPanel.tsx",
+    "client/src/includes/chooserModal.js",
+    "client/src/components/ChooserWidget/index.js",
+    "https://static-wagtail-v7-4.netlify.app/admin/",
+    "https://static-wagtail-v7-4.netlify.app/admin/pages/68/edit/",
+    "https://static-wagtail-v7-4.netlify.app/admin/images/chooser/",
+    "https://static-wagtail-v7-4.netlify.app/admin/choose-page/",
+    "https://static-wagtail-v7-4.netlify.app/admin/documents/chooser/"
+  ],
+  "findings": [
+    {
+      "rule": "MODAL-001",
+      "wcag": "4.1.2 A",
+      "severity": "serious",
+      "location": "client/src/entrypoints/admin/modal-workflow.js:66",
+      "summary": "Legacy chooser dialogs lack an accessible name and do not expose their modal state, leaving background content exposed to assistive technology.",
+      "fix": "Give the chooser dialog aria-labelledby pointing to its loaded heading (with a unique stable ID) and aria-modal=\"true\", updating the relationship on workflow body replacement. Prefer migrating this Bootstrap branch to the existing labelled a11y-dialog component or native showModal dialog.",
+      "evidence": "Chromium image/page/document chooser probes: role=\"dialog\", aria-hidden=\"false\", aria-label=null, aria-labelledby=null, aria-modal=null, headings #header-title present. No background aria-hidden or inert. raw/modal-runtime.json.",
+      "component": "Legacy ModalWorkflow chooser shell"
+    },
+    {
+      "rule": "MODAL-002",
+      "wcag": "2.4.3 A",
+      "severity": "moderate",
+      "location": "wagtail/admin/static_src/wagtailadmin/js/vendor/bootstrap-modal.js:116",
+      "summary": "Tab past the last chooser control moves focus outside the modal, where Escape no longer dismisses it.",
+      "fix": "Implement explicit Tab and Shift+Tab wrapping between the first and last focusable controls, including document-boundary cases, and handle Escape while the dialog is open. Migrating the shell to the existing a11y-dialog implementation or a native modal dialog can provide these behaviors.",
+      "evidence": "Chromium image chooser: focus final visible button/input/select/textarea/a; Tab gives document.activeElement=body outside .modal. Escape then leaves .modal.in open. Bootstrap enforces only focusin and binds keyup Escape to .modal. raw/modal-focus.json.",
+      "component": "Legacy Bootstrap chooser focus trap"
+    }
+  ],
+  "passed": [
+    "Image, page and document chooser fragments load within the production ModalWorkflow shell and focus initially lands on its dialog container.",
+    "Escape dismisses legacy chooser while focus remains inside; its Close button is named.",
+    "Legacy chooser close reenables and attempts to return focus to the triggering element; verified source callbacks and visible account-trigger probe.",
+    "Privacy dialog uses role=dialog, aria-modal=true and aria-labelledby=title-set-privacy, and closes on Escape in runtime.",
+    "Sidebar page explorer is a labelled nonmodal dialog; runtime opens with focus in the explorer and Escape clears its trigger aria-expanded state.",
+    "Shared dialog template provides a labelled heading and named close button; DialogController delegates focus management to a11y-dialog."
+  ],
+  "notes": [
+    "Runtime evidence saved as raw/modal-runtime.json and raw/modal-focus.json; no screenshots taken.",
+    "Chooser probes invoked the production ModalWorkflow API against actual archived image/page/document fragments, without POST requests or fabricated backend responses.",
+    "Initial page 68 chooser controls and privacy triggers were hidden in the default archived panel state, so chooser opening was probed through its actual JavaScript API; hidden-trigger focus return from that probe is not reported as a defect.",
+    "The focus-boundary probe used a visible sidebar account button as the ModalWorkflow trigger to separate chooser-shell behavior from hidden editor panels.",
+    "Privacy dialog opening was probed using its production show event; server-backed privacy submission, validation, nested workflow replacement, and screen-reader virtual cursor behavior remain unverified.",
+    "No failure is asserted merely because the existing implementation uses div rather than native dialog."
+  ]
+}

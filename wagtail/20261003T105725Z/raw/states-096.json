@@ -1,0 +1,944 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/68/edit/",
+  "states": [
+    {
+      "kind": "tab",
+      "name": "Content",
+      "violations": [
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-fp50k\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-fp50k\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-banmc\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-banmc\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "implicit-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an implicit (wrapped) <label>"
+                },
+                {
+                  "id": "explicit-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an explicit <label>"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "non-empty-placeholder",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no placeholder attribute"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "critical",
+              "html": "<input type=\"text\" class=\"ui-widget-content ui-autocomplete-input\" autocomplete=\"off\">",
+              "target": [
+                ".ui-autocomplete-input"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=playwright",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-fp50k\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-fp50k\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-fp50k\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-fp50k\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-fp50k\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-banmc\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-banmc\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-banmc\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-banmc\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-banmc\""
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"c-sf-block__type\">Paragraph block</span>",
+              "target": [
+                "#block-03f86cc1-3c67-4b94-872e-af9ff708e4e6-heading > .c-sf-block__type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "elmPartiallyObscuring",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it partially overlaps other elements"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-text=\"true\">",
+              "target": [
+                "span[data-offset-key=\"gupgl-0-2\"] > span[data-text=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"c-sf-block__type\">Image block</span>",
+              "target": [
+                "#block-7518f81f-6654-438c-8a4d-f36b3f7c27c9-heading > .c-sf-block__type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-7518f81f-6654-438c-8a4d-f36b3f7c27c9-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-7518f81f-6654-438c-8a4d-f36b3f7c27c9-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Image<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-7518f81f-6654-438c-8a4d-f36b3f7c27c9-content > .struct-block > div[data-contentpath=\"image\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-7518f81f-6654-438c-8a4d-f36b3f7c27c9-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-7518f81f-6654-438c-8a4d-f36b3f7c27c9-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"chooser__title\" data-chooser-title=\"\" id=\"body-1-value-image-title\">Soda Bread</div>",
+              "target": [
+                "#body-1-value-image-title"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-7518f81f-6654-438c-8a4d-f36b3f7c27c9-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-7518f81f-6654-438c-8a4d-f36b3f7c27c9-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"body-1-value-caption\">Caption</label>",
+              "target": [
+                "label[for=\"body-1-value-caption\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-7518f81f-6654-438c-8a4d-f36b3f7c27c9-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-7518f81f-6654-438c-8a4d-f36b3f7c27c9-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"body-1-value-attribution\">Attribution</label>",
+              "target": [
+                "label[for=\"body-1-value-attribution\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"c-sf-block__type\">Paragraph block</span>",
+              "target": [
+                "#block-fed17107-0d58-45e5-8b80-58d1ba188045-heading > .c-sf-block__type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"c-sf-block__type\">Image block</span>",
+              "target": [
+                "#block-a3a480f6-d4e4-4f80-92c1-af97a9ee608d-heading > .c-sf-block__type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-a3a480f6-d4e4-4f80-92c1-af97a9ee608d-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-a3a480f6-d4e4-4f80-92c1-af97a9ee608d-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\">Image<span class=\"w-required-mark\">*</span></label>",
+              "target": [
+                "#block-a3a480f6-d4e4-4f80-92c1-af97a9ee608d-content > .struct-block > div[data-contentpath=\"image\"] > .w-field__label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-a3a480f6-d4e4-4f80-92c1-af97a9ee608d-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-a3a480f6-d4e4-4f80-92c1-af97a9ee608d-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"chooser__title\" data-chooser-title=\"\" id=\"body-3-value-image-title\">Rustic Country Loaf</div>",
+              "target": [
+                "#body-3-value-image-title"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-a3a480f6-d4e4-4f80-92c1-af97a9ee608d-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-a3a480f6-d4e4-4f80-92c1-af97a9ee608d-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"body-3-value-caption\">Caption</label>",
+              "target": [
+                "label[for=\"body-3-value-caption\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"block-a3a480f6-d4e4-4f80-92c1-af97a9ee608d-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#block-a3a480f6-d4e4-4f80-92c1-af97a9ee608d-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"body-3-value-attribution\">Attribution</label>",
+              "target": [
+                "label[for=\"body-3-value-attribution\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-authors-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-authors-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-panel-heading-text=\"\">\n        Author<span data-inline-panel-child-count=\"\"> 1</span>\n    </span>",
+              "target": [
+                "#inline_child_blog_person_relationship-0-panel-heading > span[data-panel-heading-text=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "shortTextContent",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-authors-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-authors-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element content is too short to determine if it is actual text content"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-inline-panel-child-count=\"\"> 1</span>",
+              "target": [
+                "span[data-inline-panel-child-count=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_blog_person_relationship-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_blog_person_relationship-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_blog_person_relationship-0-person\" id=\"id_blog_person_relationship-0-person-label\">\n            Person<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_blog_person_relationship-0-person-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_blog_person_relationship-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_blog_person_relationship-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"chooser__title\" data-chooser-title=\"\" id=\"id_blog_person_relationship-0-person-title\">Olivia Ava</div>",
+              "target": [
+                "#id_blog_person_relationship-0-person-title"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-authors-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-authors-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_blog_person_relationship-OPEN_MODAL\">\n        <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>Add author\n    </button>",
+              "target": [
+                "#id_blog_person_relationship-OPEN_MODAL"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.2pt (16.32px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"tagit-label tag\">baking</span>",
+              "target": [
+                ".tagit-choice.ui-state-default.tagit-choice-editable:nth-child(1) > .tagit-label.tag"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.2pt (16.32px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"tagit-label tag\">fire</span>",
+              "target": [
+                ".tagit-choice.ui-state-default.tagit-choice-editable:nth-child(2) > .tagit-label.tag"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "12.2pt (16.32px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"tagit-label tag\">yeast</span>",
+              "target": [
+                ".tagit-choice.ui-state-default.tagit-choice-editable:nth-child(3) > .tagit-label.tag"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            }
+          ]
+        }
+      ],
+      "ax": "- main:\n  - status:\n    - list\n  - 'heading \"Editing Blog page: Bread and Circuses\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Bread and Circuses\":\n          - /url: /admin/pages/68/\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - list\n  - button \"Toggle status\"\n  - button \"Toggle preview\"\n  - button \"Toggle checks\"\n  - button \"Toggle comments\"\n  - link \"History\":\n    - /url: /admin/pages/68/history/\n  - link \"Visible to all. Visit the live page\":\n    - /url: /blog/bread-circuses/\n    - text: Live\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"Title*\":\n          - /url: \"#panel-child-content-title-section\"\n      - listitem:\n        - link \"Subtitle\":\n          - /url: \"#panel-child-content-subtitle-section\"\n      - listitem:\n        - link \"Introduction\":\n          - /url: \"#panel-child-content-introduction-section\"\n      - listitem:\n        - link \"Image\":\n          - /url: \"#panel-child-content-image-section\"\n      - listitem:\n        - link \"Page body*\":\n          - /url: \"#panel-child-content-body-section\"\n      - listitem:\n        - link \"Heat is gradually tran…*\":\n          - /url: \"#block-03f86cc1-3c67-4b94-872e-af9ff708e4e6-section\"\n      - listitem:\n        - link \"Soda Bread\":\n          - /url: \"#block-7518f81f-6654-438c-8a4d-f36b3f7c27c9-section\"\n      - listitem:\n        - link \"Because of historical …*\":\n          - /url: \"#block-fed17107-0d58-45e5-8b80-58d1ba188045-section\"\n      - listitem:\n        - link \"Rustic Country Loaf\":\n          - /url: \"#block-a3a480f6-d4e4-4f80-92c1-af97a9ee608d-section\"\n      - listitem:\n        - link \"Date article published\":\n          - /url: \"#panel-child-content-date_published-section\"\n      - listitem:\n        - link \"Authors\":\n          - /url: \"#panel-child-content-authors-section\"\n      - listitem:\n        - link \"Author 1\":\n          - /url: \"#inline_child_blog_person_relationship-0-panel-section\"\n      - listitem:\n        - link \"Tags\":\n          - /url: \"#panel-child-content-tags-section\"\n  - tablist:\n    - tab \"Content\" [selected]\n    - tab \"Promote\"\n  - tabpanel \"Content\":\n    - region \"Title*\":\n      - heading \"Title*\" [level=2]\n      - text: The page title as you'd like it to be seen by the public\n      - textbox \"Title*\":\n        - /placeholder: Page title*\n        - text: Bread and Circuses\n      - button \"Add comment\"\n    - region \"Subtitle\":\n      - link \"Subtitle\":\n        - /url: \"#panel-child-content-subtitle-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Subtitle\" [level=2]\n      - textbox \"Subtitle\": The art of baking\n      - button \"Add comment\"\n    - region \"Introduction\":\n      - link \"Introduction\":\n        - /url: \"#panel-child-content-introduction-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Introduction\" [level=2]\n      - text: Text to describe the page\n      - textbox \"Introduction\": Baking is a method of cooking food that uses prolonged dry heat, normally in an oven, but also in hot ashes, or on hot stones. The most common baked item is bread but many other types of foods are baked.\n      - button \"Add comment\"\n    - region \"Image\":\n      - link \"Image\":\n        - /url: \"#panel-child-content-image-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Image\" [level=2]\n      - text: Landscape mode only; horizontal width between 1000px and 3000px. Bedouins\n      - button \"Actions\"\n      - button \"Add comment\"\n    - region \"Page body\":\n      - link \"Page body\":\n        - /url: \"#panel-child-content-body-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Page body\" [level=2]\n      - button \"Insert a block\"\n      - region \"Paragraph block * Heat is gradually transferred \\\"from the surface of cakes, cookies, an…\":\n        - link \"Paragraph block * Heat is gradually transferred \\\"from the surface of cakes, cookies, an…\":\n          - /url: \"#block-03f86cc1-3c67-4b94-872e-af9ff708e4e6-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Paragraph block * Heat is gradually transferred \\\"from the surface of cakes, cookies, an…\" [level=2]\n        - button \"Move up\" [disabled]\n        - button \"Move down\"\n        - button \"Drag\"\n        - button \"Duplicate\"\n        - button \"Delete\"\n        - textbox\n      - button \"Insert a block\"\n      - region \"Image block Soda Bread\":\n        - link \"Image block Soda Bread\":\n          - /url: \"#block-7518f81f-6654-438c-8a4d-f36b3f7c27c9-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Image block Soda Bread\" [level=2]\n        - button \"Move up\"\n        - button \"Move down\"\n        - button \"Drag\"\n        - button \"Duplicate\"\n        - button \"Delete\"\n        - text: Image* Soda Bread\n        - button \"Actions\"\n        - button \"Add Comment\"\n        - text: Caption\n        - textbox \"Caption\": Soda Bread\n        - button \"Add Comment\"\n        - text: Attribution\n        - textbox \"Attribution\": Creative Commons\n        - button \"Add Comment\"\n      - button \"Insert a block\"\n      - region \"Paragraph block * Because of historical social and familial roles, baking has tradition…\":\n        - link \"Paragraph block * Because of historical social and familial roles, baking has tradition…\":\n          - /url: \"#block-fed17107-0d58-45e5-8b80-58d1ba188045-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Paragraph block * Because of historical social and familial roles, baking has tradition…\" [level=2]\n        - button \"Move up\"\n        - button \"Move down\"\n        - button \"Drag\"\n        - button \"Duplicate\"\n        - button \"Delete\"\n        - textbox:\n          - button \"baking\"\n      - button \"Insert a block\"\n      - region \"Image block Rustic Country Loaf\":\n        - link \"Image block Rustic Country Loaf\":\n          - /url: \"#block-a3a480f6-d4e4-4f80-92c1-af97a9ee608d-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Image block Rustic Country Loaf\" [level=2]\n        - button \"Move up\"\n        - button \"Move down\" [disabled]\n        - button \"Drag\"\n        - button \"Duplicate\"\n        - button \"Delete\"\n        - text: Image* Rustic Country Loaf\n        - button \"Actions\"\n        - button \"Add Comment\"\n        - text: Caption\n        - textbox \"Caption\": Sourdough bread\n        - button \"Add Comment\"\n        - text: Attribution\n        - textbox \"Attribution\": Creative Commons\n        - button \"Add Comment\"\n      - button \"Insert a block\"\n    - region \"Date article published\":\n      - link \"Date article published\":\n        - /url: \"#panel-child-content-date_published-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Date article published\" [level=2]\n      - textbox \"Date article published\": 2019-02-14\n      - button \"Add comment\"\n    - region \"Authors\":\n      - link \"Authors\":\n        - /url: \"#panel-child-content-authors-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Authors\" [level=2]\n      - region \"Author 1\":\n        - link \"Author 1\":\n          - /url: \"#inline_child_blog_person_relationship-0-panel-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Author 1\" [level=2]\n        - button \"Move up\" [disabled]\n        - button \"Move down\" [disabled]\n        - button \"Drag\"\n        - button \"Delete\"\n        - text: Person* Olivia Ava\n        - button \"Actions\"\n      - button \"Add author\"\n    - region \"Tags\":\n      - link \"Tags\":\n        - /url: \"#panel-child-content-tags-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Tags\" [level=2]\n      - text: A comma-separated list of tags.\n      - list:\n        - listitem: baking\n        - listitem: fire\n        - listitem: yeast\n        - listitem:\n          - textbox\n      - paragraph: Multi-word tags with spaces will automatically be enclosed in double quotes (\").\n      - button \"Add comment\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\""
+    },
+    {
+      "kind": "tab",
+      "name": "Promote",
+      "violations": [],
+      "incomplete": [],
+      "ax": "- main:\n  - status:\n    - list\n  - 'heading \"Editing Blog page: Bread and Circuses\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Bread and Circuses\":\n          - /url: /admin/pages/68/\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - list\n  - button \"Toggle status\"\n  - button \"Toggle preview\"\n  - button \"Toggle checks\"\n  - button \"Toggle comments\"\n  - link \"History\":\n    - /url: /admin/pages/68/history/\n  - link \"Visible to all. Visit the live page\":\n    - /url: /blog/bread-circuses/\n    - text: Live\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"For search engines\":\n          - /url: \"#panel-child-promote-for_search_engines-section\"\n      - listitem:\n        - link \"For site menus\":\n          - /url: \"#panel-child-promote-for_site_menus-section\"\n  - tablist:\n    - tab \"Content\"\n    - tab \"Promote\" [selected]\n  - tabpanel \"Promote\":\n    - region \"For search engines\":\n      - link \"For search engines\":\n        - /url: \"#panel-child-promote-for_search_engines-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For search engines\" [level=2]\n      - text: Slug* The name of the page as it will appear in URLs e.g http://domain.com/blog/[my-slug]/\n      - textbox \"Slug*\": bread-circuses\n      - button \"Add comment\"\n      - text: Title tag The name of the page displayed on search engine results as the clickable headline.\n      - textbox \"Title tag\"\n      - button \"Add comment\"\n      - text: Meta description The descriptive text displayed underneath a headline in search engine results.\n      - textbox \"Meta description\"\n      - button \"Add comment\"\n    - region \"For site menus\":\n      - link \"For site menus\":\n        - /url: \"#panel-child-promote-for_site_menus-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For site menus\" [level=2]\n      - text: Show in menus Whether a link to this page will appear in automatically generated menus\n      - checkbox \"Show in menus\"\n      - button \"Add comment\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\""
+    },
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "blocked": [
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/editing-sessions/ping/wagtailcore/page/68/449/",
+      "method": "POST"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/editing-sessions/ping/wagtailcore/page/68/449/",
+      "method": "POST"
+    }
+  ],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list\n  - 'heading \"Editing Blog page: Bread and Circuses\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Bread and Circuses\":\n          - /url: /admin/pages/68/\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - list\n  - button \"Toggle status\"\n  - button \"Toggle preview\"\n  - button \"Toggle checks\"\n  - button \"Toggle comments\"\n  - link \"History\":\n    - /url: /admin/pages/68/history/\n  - link \"Visible to all. Visit the live page\":\n    - /url: /blog/bread-circuses/\n    - text: Live\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"For search engines\":\n          - /url: \"#panel-child-promote-for_search_engines-section\"\n      - listitem:\n        - link \"For site menus\":\n          - /url: \"#panel-child-promote-for_site_menus-section\"\n  - tablist:\n    - tab \"Content\"\n    - tab \"Promote\" [selected]\n  - tabpanel \"Promote\":\n    - region \"For search engines\":\n      - link \"For search engines\":\n        - /url: \"#panel-child-promote-for_search_engines-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For search engines\" [level=2]\n      - text: Slug* The name of the page as it will appear in URLs e.g http://domain.com/blog/[my-slug]/\n      - textbox \"Slug*\": bread-circuses\n      - button \"Add comment\"\n      - text: Title tag The name of the page displayed on search engine results as the clickable headline.\n      - textbox \"Title tag\"\n      - button \"Add comment\"\n      - text: Meta description The descriptive text displayed underneath a headline in search engine results.\n      - textbox \"Meta description\"\n      - button \"Add comment\"\n    - region \"For site menus\":\n      - link \"For site menus\":\n        - /url: \"#panel-child-promote-for_site_menus-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For site menus\" [level=2]\n      - text: Show in menus Whether a link to this page will appear in automatically generated menus\n      - checkbox \"Show in menus\"\n      - button \"Add comment\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\"\n- status"
+}

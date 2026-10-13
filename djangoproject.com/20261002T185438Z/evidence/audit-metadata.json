@@ -1,0 +1,20 @@
+{
+  "target": "WCAG 2.2 AA",
+  "framework": "Django",
+  "method": "Production runtime and local source review",
+  "depth": "Deep dive",
+  "host": "www.djangoproject.com",
+  "maxPages": 100,
+  "sourceCommit": "911575b3d8a6e3fb48d116ce6f42cdbcd7dae4bc",
+  "screenshots": false,
+  "notes": [
+    "docs.djangoproject.com not included; source-only review of shared code is not documentation runtime coverage.",
+    "Authenticated donor/account pages and payment/checkout submissions not runtime tested.",
+    "No actual human screen-reader session was performed.",
+    "HTTP429 responses during discovery were recorded and broad crawling stopped; key pages subsequently retrieved at a slower pace.",
+    "Query URLs, non-HTML downloads, administrative/checklist routes and destructive/account-action paths excluded.",
+    "Runtime production CSS and local source have observable differences; production measurements take precedence.",
+    "No source fixes or CI changes applied.",
+    "Heuristic scores are prioritization aids, not WCAG conformance certificates."
+  ]
+}

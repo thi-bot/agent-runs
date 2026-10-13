@@ -1,0 +1,61 @@
+{
+  "skill": "keyboard-navigator",
+  "scope": [
+    "djangoproject/templates/**/*.html",
+    "djangoproject/static/js/main.js",
+    "djangoproject/static/js/djangoproject.js",
+    "djangoproject/static/js/mod/list-collapsing.js"
+  ],
+  "findings": [
+    {
+      "rule": "KEYBOARD-001",
+      "wcag": "2.1.1 A",
+      "severity": "serious",
+      "location": "djangoproject/static/js/mod/list-collapsing.js:18",
+      "summary": "Accordion headings and Expand All / Collapse All cannot be activated by keyboard.",
+      "fix": "Render native buttons inside headings and native Expand All / Collapse All buttons; retain click handling and expose aria-expanded on each disclosure.",
+      "evidence": "Production /start/: focused heading Enter and Space leave li class unchanged; click changes class to active. Expand/Collapse All spans have tabIndex=-1. Source lines18-45. See evidence/behavior.json.",
+      "component": "Collapsing lists"
+    },
+    {
+      "rule": "KEYBOARD-002",
+      "wcag": "2.1.1 A",
+      "severity": "moderate",
+      "location": "djangoproject/static/js/djangoproject.js:107",
+      "summary": "Copy code controls are click-only spans excluded from keyboard navigation.",
+      "fix": "Create button type=button with an accessible Copy code name and preserve the clipboard handler so Enter and Space work.",
+      "evidence": "document.createElement(\"span\") creates .btn-clipboard; only a click handler is registered at line 130.",
+      "component": "Code clipboard"
+    },
+    {
+      "rule": "KEYBOARD-003",
+      "wcag": "2.1.1 A",
+      "severity": "moderate",
+      "location": "djangoproject/templates/base.html:83",
+      "summary": "Message dismissal icons cannot be reached or activated by keyboard.",
+      "fix": "Replace the close icon with button type=button named Dismiss message; hide its decorative icon and preserve click handling.",
+      "evidence": "<i class=\"close icon icon-remove\" title=\"close\"></i>; djangoproject.js:16-23 attaches only click.",
+      "component": "Messages"
+    },
+    {
+      "rule": "KEYBOARD-004",
+      "wcag": "2.1.4 A",
+      "severity": "moderate",
+      "location": "djangoproject/static/js/djangoproject.js:84",
+      "summary": "The global slash shortcut cannot be disabled, remapped, or restricted to a focused component.",
+      "fix": "Keep Ctrl/Command+K, and either remove the unmodified slash shortcut or provide a persistent disable/remap preference; ignore editable content.",
+      "evidence": "Production homepage: pressing / while logo is focused moves focus to #id_q. Source window handler supports unmodified / without disable/remap preference.",
+      "component": "Search keyboard shortcut"
+    }
+  ],
+  "passed": [
+    "Base template contains a skip link to main-content.",
+    "Main navigation menu toggle uses a native button.",
+    "No positive tabindex values found in reviewed templates."
+  ],
+  "notes": [
+    "Runtime keyboard testing and focus contrast measurements are handled by the parent audit.",
+    "Documentation console tabs use display:none radio controls in scss/_console-tabs.scss:11-13; generated production markup requires runtime confirmation.",
+    "Placeholder-only labels and missing aria-expanded are handled in forms or ARIA findings."
+  ]
+}

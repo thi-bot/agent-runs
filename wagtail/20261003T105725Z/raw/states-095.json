@@ -1,0 +1,222 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/60/edit/",
+  "states": [
+    {
+      "kind": "tab",
+      "name": "Content",
+      "violations": [
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"id_lead_text-length\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"id_lead_text-length\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div aria-describedby=\"placeholder-dcrvv\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-dcrvv\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=playwright",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"placeholder-dcrvv\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-dcrvv\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<div aria-describedby=\"placeholder-dcrvv\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;\">",
+              "target": [
+                "div[aria-describedby=\"placeholder-dcrvv\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"placeholder-dcrvv\""
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-child-content-body-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-child-content-body-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"c-sf-block__type\">Paragraph block</span>",
+              "target": [
+                ".c-sf-block__type"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ],
+      "ax": "- main:\n  - status:\n    - list\n  - 'heading \"Editing Home page: Welcome to the Wagtail Bakery!\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Welcome to the Wagtail Bakery!\":\n          - /url: /admin/pages/60/\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - list\n  - button \"Toggle status\"\n  - button \"Toggle preview\"\n  - button \"Toggle checks\"\n  - button \"Toggle comments\": \"2\"\n  - link \"History\":\n    - /url: /admin/pages/60/history/\n  - link \"Visible to all. Visit the live page\":\n    - /url: /\n    - text: Live\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"Title*\":\n          - /url: \"#panel-child-content-title-section\"\n      - listitem:\n        - link \"Hero section\":\n          - /url: \"#panel-child-content-hero_section-section\"\n      - listitem:\n        - link \"Promo section\":\n          - /url: \"#panel-child-content-promo_section-section\"\n      - listitem:\n        - link \"Home content block*\":\n          - /url: \"#panel-child-content-body-section\"\n      - listitem:\n        - link \"Bread is a staple food…*\":\n          - /url: \"#block-712d96a8-1392-41fe-8dae-c790e041e094-section\"\n      - listitem:\n        - link \"Featured homepage sect…\":\n          - /url: \"#panel-child-content-featured_homepage_sections-section\"\n  - tablist:\n    - tab \"Content\" [selected]\n    - tab \"Promote\"\n  - tabpanel \"Content\":\n    - region \"Title*\":\n      - heading \"Title*\" [level=2]\n      - text: The page title as you'd like it to be seen by the public\n      - textbox \"Title*\":\n        - /placeholder: Page title*\n        - text: Welcome to the Wagtail Bakery!\n      - button \"Add comment\"\n    - region \"Hero section\":\n      - link \"Hero section\":\n        - /url: \"#panel-child-content-hero_section-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Hero section\" [level=2]\n      - text: Image Homepage image Dark Rye Sourdough\n      - button \"Actions\"\n      - button \"Add comment\"\n      - text: Hero text* Write an introduction for the bakery\n      - textbox \"Hero text*\": A sample site designed to demonstrate the capabilities of the Wagtail Content Management System.\n      - button \"Add comment\"\n      - text: Hero CTA* Text to display on Call to Action\n      - textbox \"Hero CTA*\": Learn more about Wagtail\n      - button \"Add comment\"\n      - text: Hero CTA link Choose a page to link to for the Call to Action About\n      - button \"Actions\"\n      - button \"Add comment\"\n    - group: Use the sections below to configure the homepage hero, promo, and featured sections.\n    - region \"Promo section\":\n      - link \"Promo section\":\n        - /url: \"#panel-child-content-promo_section-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Promo section\" [level=2]\n      - text: Configure the lead image, title and text for the promotional section. Lead image Promo image Misc Breads\n      - button \"Actions\"\n      - button \"Add comment\"\n      - text: Lead title Title to display above the promo copy\n      - textbox \"Lead title\"\n      - button \"Add comment\"\n      - text: Lead text Write some promotional copy\n      - textbox\n    - region \"Home content block\":\n      - link \"Home content block\":\n        - /url: \"#panel-child-content-body-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Home content block\" [level=2]\n      - button \"Insert a block\"\n      - region \"Paragraph block * Bread is a staple food prepared from a dough of flour and water, usua…\":\n        - link \"Paragraph block * Bread is a staple food prepared from a dough of flour and water, usua…\":\n          - /url: \"#block-712d96a8-1392-41fe-8dae-c790e041e094-section\"\n        - button \"Toggle section\" [expanded]\n        - heading \"Paragraph block * Bread is a staple food prepared from a dough of flour and water, usua…\" [level=2]\n        - button \"Move up\" [disabled]\n        - button \"Move down\" [disabled]\n        - button \"Drag\"\n        - button \"Duplicate\"\n        - button \"Delete\"\n        - textbox:\n          - button \"staple food\"\n          - button \"dough\"\n          - button \"flour\"\n          - button \"water\"\n          - button \"baking\"\n          - button \"agriculture\"\n          - button \"leavened\"\n          - button \"sourdough\"\n      - button \"Insert a block\"\n    - region \"Featured homepage sections\":\n      - link \"Featured homepage sections\":\n        - /url: \"#panel-child-content-featured_homepage_sections-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Featured homepage sections\" [level=2]\n      - text: Featured section 1 title Heading for the first featured section\n      - textbox \"Featured section 1 title\": Breads\n      - button \"Add comment\"\n      - text: Featured section 1 First featured section for the homepage. Will display up to three child items. Breads\n      - button \"Actions\"\n      - button \"Add comment\"\n      - text: Featured section 2 title Heading for the second featured section\n      - textbox \"Featured section 2 title\": Locations\n      - button \"Add comment\"\n      - text: Featured section 2 Second featured section for the homepage. Will display up to three child items. Locations\n      - button \"Actions\"\n      - button \"Add comment\"\n      - text: Featured section 3 title Heading for the third featured section\n      - textbox \"Featured section 3 title\": Blog\n      - button \"Add comment\"\n      - text: Featured section 3 Third featured section for the homepage. Will display up to six child items. Blog\n      - button \"Actions\"\n      - button \"Add comment\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\""
+    },
+    {
+      "kind": "tab",
+      "name": "Promote",
+      "violations": [],
+      "incomplete": [],
+      "ax": "- main:\n  - status:\n    - list\n  - 'heading \"Editing Home page: Welcome to the Wagtail Bakery!\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Welcome to the Wagtail Bakery!\":\n          - /url: /admin/pages/60/\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - list\n  - button \"Toggle status\"\n  - button \"Toggle preview\"\n  - button \"Toggle checks\"\n  - button \"Toggle comments\": \"2\"\n  - link \"History\":\n    - /url: /admin/pages/60/history/\n  - link \"Visible to all. Visit the live page\":\n    - /url: /\n    - text: Live\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"For search engines\":\n          - /url: \"#panel-child-promote-for_search_engines-section\"\n      - listitem:\n        - link \"For site menus\":\n          - /url: \"#panel-child-promote-for_site_menus-section\"\n  - tablist:\n    - tab \"Content\"\n    - tab \"Promote\" [selected]\n  - tabpanel \"Promote\":\n    - region \"For search engines\":\n      - link \"For search engines\":\n        - /url: \"#panel-child-promote-for_search_engines-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For search engines\" [level=2]\n      - text: Slug* The name of the page as it will appear in URLs e.g http://domain.com/blog/[my-slug]/\n      - textbox \"Slug*\": home\n      - button \"Add comment\"\n      - text: Title tag The name of the page displayed on search engine results as the clickable headline.\n      - textbox \"Title tag\": Home\n      - button \"Add comment\"\n      - text: Meta description The descriptive text displayed underneath a headline in search engine results.\n      - textbox \"Meta description\"\n      - button \"Add comment\"\n    - region \"For site menus\":\n      - link \"For site menus\":\n        - /url: \"#panel-child-promote-for_site_menus-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For site menus\" [level=2]\n      - text: Show in menus Whether a link to this page will appear in automatically generated menus\n      - checkbox \"Show in menus\"\n      - button \"Add comment\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\""
+    },
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "blocked": [
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/editing-sessions/ping/wagtailcore/page/60/345/",
+      "method": "POST"
+    },
+    {
+      "url": "https://static-wagtail-v7-4.netlify.app/admin/editing-sessions/ping/wagtailcore/page/60/345/",
+      "method": "POST"
+    }
+  ],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list\n  - 'heading \"Editing Home page: Welcome to the Wagtail Bakery!\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Welcome to the Wagtail Bakery!\":\n          - /url: /admin/pages/60/\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - list\n  - button \"Toggle status\"\n  - button \"Toggle preview\"\n  - button \"Toggle checks\"\n  - button \"Toggle comments\": \"2\"\n  - link \"History\":\n    - /url: /admin/pages/60/history/\n  - link \"Visible to all. Visit the live page\":\n    - /url: /\n    - text: Live\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"For search engines\":\n          - /url: \"#panel-child-promote-for_search_engines-section\"\n      - listitem:\n        - link \"For site menus\":\n          - /url: \"#panel-child-promote-for_site_menus-section\"\n  - tablist:\n    - tab \"Content\"\n    - tab \"Promote\" [selected]\n  - tabpanel \"Promote\":\n    - region \"For search engines\":\n      - link \"For search engines\":\n        - /url: \"#panel-child-promote-for_search_engines-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For search engines\" [level=2]\n      - text: Slug* The name of the page as it will appear in URLs e.g http://domain.com/blog/[my-slug]/\n      - textbox \"Slug*\": home\n      - button \"Add comment\"\n      - text: Title tag The name of the page displayed on search engine results as the clickable headline.\n      - textbox \"Title tag\": Home\n      - button \"Add comment\"\n      - text: Meta description The descriptive text displayed underneath a headline in search engine results.\n      - textbox \"Meta description\"\n      - button \"Add comment\"\n    - region \"For site menus\":\n      - link \"For site menus\":\n        - /url: \"#panel-child-promote-for_site_menus-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"For site menus\" [level=2]\n      - text: Show in menus Whether a link to this page will appear in automatically generated menus\n      - checkbox \"Show in menus\"\n      - button \"Add comment\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\""
+}

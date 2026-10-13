@@ -1,0 +1,25 @@
+{
+  "skill": "tables-data-specialist",
+  "scope": [
+    "apps/core/templates/**",
+    "apps/core/blocks.py",
+    "apps/richtext/**",
+    "content/**",
+    ".a 11 y-history/2026-10-06-production/raw/crawl.json",
+    ".a 11 y-history/2026-10-06-production/raw/*.html",
+    "Final 196 distinct HTML addresses:153 successful plus 43 errors"
+  ],
+  "findings": [],
+  "passed": [
+    "Final inventory inspected 196 distinct HTML addresses (153 successful,43 errors): no data tables or interactive grid/treegrid elements, and no table/list/grid axe violations recorded.",
+    "Parsed all available saved page and state HTML for actual table elements and role=table/grid/treegrid: none found. JavaScript strings inside injected axe scripts were excluded from markup interpretation.",
+    "Source templates and content block definitions contain no data-table, interactive-grid, treegrid, sortable-table or table-pagination implementation.",
+    "Navigation, copy-options and language-options templates use native ul/li list markup; page search results use native ul/li markup.",
+    "Home SectionGridBlock renders heading-and-description cards with CSS layout, not tabular data requiring row/column header associations."
+  ],
+  "notes": [
+    "Table captions, header scope/headers, merged cells, responsive data-table relationships, selection, sorting and virtual-grid keyboard operation are not applicable to the inspected production content.",
+    "Default RichTextBlock and AnnotatedTextBlock are available to editors, but no table block or custom richtext table feature was found; source capability alone does not establish inaccessible live tables.",
+    "Screenshots of Wagtail administrative listings embedded in documentation are images, not live data tables on this site; image accessibility is covered by the relevant specialist."
+  ]
+}

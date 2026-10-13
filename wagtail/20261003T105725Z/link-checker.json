@@ -1,0 +1,34 @@
+{
+  "skill": "link-checker",
+  "scope": [
+    ".a11y-history/20261003T105725Z/raw/*.html",
+    ".a11y-history/20261003T105725Z/raw/states-*.json",
+    "wagtail/admin/templates/wagtailadmin/tables/title_cell.html",
+    "wagtail/admin/templates/wagtailadmin/pages/listing/_navigation_explore.html",
+    "wagtail/admin/templates/wagtailadmin/pages/listing/_page_title_explore.html",
+    "wagtail/admin/templates/wagtailadmin/shared/headers/_history_icon_link.html",
+    "wagtail/admin/templates/wagtailadmin/shared/pagination_nav.html",
+    "wagtail/admin/templates/wagtailadmin/widgets/chooser.html",
+    "wagtail/documents/templates/wagtaildocs/documents/_file_field.html",
+    "client/src/components/PageExplorer/PageExplorerItem.tsx",
+    "client/src/components/Icon/Icon.tsx"
+  ],
+  "findings": [],
+  "passed": [
+    "Reviewed 5,191 anchor elements in 100 captured rendered documents; no link-name or label-content-name-mismatch axe violations across initial100 documents or41 expanded tab/dropdown states.",
+    "Page-list explorer icon links carry specific aria-label values naming their target page. History icon links have explicit translated names.",
+    "PageExplorer icon links are named by the translated title prop rendered as adjacent visually hidden text by Icon.tsx; the SVG itself is correctly hidden.",
+    "Repeated row actions such as Edit and live have programmatically determinable table-row context identifying the affected page or object. AA2.4.4 does not require every link to be unique in an isolated link list.",
+    "Chooser Edit this item links include aria-describedby pointing to the selected item title. Placeholder links are hidden until a real choice exists.",
+    "Pagination links sit within a named Pagination landmark; numbered links identify page targets and current page has aria-current=page. Disabled Previous/Next without href are inert indicators, not inaccessible actionable links.",
+    "Document download/source links use filenames conveying target identity and extension.",
+    "No click-here/read-more/learn-more ambiguity found in scoped admin link-source search."
+  ],
+  "notes": [
+    "New-tab warnings and file size disclosure can improve usability but are not universally required by WCAG2.2AA; their omission is not reported as an automatic failure.",
+    "Equivalent neighboring image/text links and repeated names with adequate table context are not automatically AA failures.",
+    "Archive route availability and HTTP errors were not treated as link-purpose defects.",
+    "Populated tag-it widgets have nonfocusable remove anchors, but keyboard removal has an alternate Backspace/Delete path; keyboard specialist owns that interaction assessment.",
+    "Expanded-state artifacts contain rule results rather than full accessibility snapshots; their link-name and label-content-name-mismatch results were reviewed."
+  ]
+}

@@ -1,0 +1,981 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/workflows/edit/1/",
+  "targets": [
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Skip to main content",
+      "width": 166.046875,
+      "height": 42,
+      "x": 16,
+      "y": -16000,
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle sidebar",
+      "width": 35,
+      "height": 35,
+      "x": 149,
+      "y": 8,
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n             "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Dashboard",
+      "width": 110,
+      "height": 110,
+      "x": 45,
+      "y": 51,
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-branding__ic"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Search",
+      "width": 39,
+      "height": 35,
+      "x": 0,
+      "y": 208.5,
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-defa"
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "text": "",
+      "width": 200,
+      "height": 42,
+      "x": 0,
+      "y": 205,
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n         "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Pages",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 247,
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"m"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Breads",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 290.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Images",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 334,
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Bakery Misc",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 377.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery M"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Documents",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 421,
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documen"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Forms",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 464.5,
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Reports",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 508,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><s"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Settings",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 551.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Help",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 595,
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-ex"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Admin",
+      "width": 200,
+      "height": 52,
+      "x": 0,
+      "y": 948,
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n    "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle breadcrumbs",
+      "width": 50,
+      "height": 50,
+      "x": 220,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-flex w-items-center w-justify-center w-box-border w-ml-0 w-mr-2.5 w-w-slim-header w-h-slim-header w-bg-transparent w-text-text-meta w-transition hover:w-scale-110 hover:w-text-text-label w-outline-offset-insid"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Moderators approval",
+      "width": 140.484375,
+      "height": 22.40625,
+      "x": 280,
+      "y": 13.796875,
+      "html": "<a class=\"w-flex w-items-center w-text-text-label w-pr-0.5 w-text-14 w-no-underline w-outline-offset-inside w-border-b w-border-b-2 w-border-transparent w-box-content hover:w-border-current hover:w-text-text-label\" href=\"\">\n                "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 150.890625,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-name-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-name-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><use href=\"#icon-link\"></u"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 150.890625,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-name-heading\" data-panel-toggle=\"\" aria-controls=\"panel-name-content\" aria-expanded=\"true\">\n                \n                <svg class=\"icon "
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_name",
+      "text": "",
+      "width": 840,
+      "height": 42.5,
+      "x": 280,
+      "y": 188.890625,
+      "html": "<input type=\"text\" name=\"name\" value=\"Moderators approval\" maxlength=\"255\" required=\"\" id=\"id_name\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 275.390625,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-add_tasks_to_your_workflow-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-add_tasks_to_your_workflow-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" a"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 275.390625,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-add_tasks_to_your_workflow-heading\" data-panel-toggle=\"\" aria-controls=\"panel-add_tasks_to_your_workflow-content\" aria-expanded=\"true\">\n      "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 252,
+      "y": 310.390625,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#inline_child_workflow_tasks-0-panel-section\" data-panel-anchor=\"\" aria-labelledby=\"inline_child_workflow_tasks-0-panel-heading\">\n                <svg class=\"icon icon-link w-panel__i"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 276,
+      "y": 310.390625,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"inline_child_workflow_tasks-0-panel-heading\" data-panel-toggle=\"\" aria-controls=\"inline_child_workflow_tasks-0-panel-content\" aria-expanded=\"true\">\n"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move up",
+      "width": 34,
+      "height": 34,
+      "x": 976.65625,
+      "y": 305.390625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-up=\"\" title=\"Move up\" disabled=\"\"><svg class=\"icon icon-arrow-up icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-up\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Move down",
+      "width": 34,
+      "height": 34,
+      "x": 1014.4375,
+      "y": 305.390625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-move-down=\"\" title=\"Move down\" disabled=\"\"><svg class=\"icon icon-arrow-down icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-down\"></use></svg></but"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Drag",
+      "width": 34,
+      "height": 34,
+      "x": 1052.21875,
+      "y": 305.390625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-drag=\"\" title=\"Drag\"><svg class=\"icon icon-grip icon\" aria-hidden=\"true\"><use href=\"#icon-grip\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_workflow_tasks-0-DELETE-button",
+      "text": "Delete",
+      "width": 34,
+      "height": 34,
+      "x": 1090,
+      "y": 305.390625,
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" id=\"id_workflow_tasks-0-DELETE-button\" title=\"Delete\"><svg class=\"icon icon-bin icon\" aria-hidden=\"true\"><use href=\"#icon-bin\"></use></svg></button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 32,
+      "x": 566.265625,
+      "y": 374.578125,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-describedby=\"id_workflow_tasks-0-task-title\" aria-expanded=\"false\">\n        \n        \n            <svg class"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_workflow_tasks-ADD",
+      "text": "Add task",
+      "width": 89.484375,
+      "height": 28,
+      "x": 266,
+      "y": 436.578125,
+      "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_workflow_tasks-ADD\">\n            <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>Add tas"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 544.984375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#workflow-pages-section\" data-panel-anchor=\"\" aria-labelledby=\"workflow-pages-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><use href=\"#icon-l"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 544.984375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"workflow-pages-heading\" data-panel-toggle=\"\" aria-controls=\"workflow-pages-content\" aria-expanded=\"true\">\n                \n                <svg clas"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "the list of the pages",
+      "width": 772,
+      "height": 35.40625,
+      "x": 327.59375,
+      "y": 602.171875,
+      "html": "<a href=\"/admin/workflows/usage/1/\">the list of the pages</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 32,
+      "x": 407.046875,
+      "y": 761.5625,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-describedby=\"id_pages-0-page-title\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon ic"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_pages-0-DELETE-button",
+      "text": "Delete",
+      "width": 61.1875,
+      "height": 24.359375,
+      "x": 850.6875,
+      "y": 765.375,
+      "html": "<button class=\"button button-small no\" type=\"button\" id=\"id_pages-0-DELETE-button\" data-action=\"w-formset#delete\">Delete</button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Choose a page",
+      "width": 129.96875,
+      "height": 28,
+      "x": 292.90625,
+      "y": 825.375,
+      "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-doc-empty-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-doc-empty-inverse\"></use>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_pages-1-DELETE-button",
+      "text": "Delete",
+      "width": 61.1875,
+      "height": 24.359375,
+      "x": 850.6875,
+      "y": 827.390625,
+      "html": "<button class=\"button button-small no\" type=\"button\" id=\"id_pages-1-DELETE-button\" data-action=\"w-formset#delete\">Delete</button>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "id_pages-ADD",
+      "text": "Assign to another page",
+      "width": 214.59375,
+      "height": 42,
+      "x": 280,
+      "y": 893.515625,
+      "html": "<button class=\"button bicolor button--icon\" id=\"id_pages-ADD\" value=\"Add\" type=\"button\" data-action=\"w-formset#add\"><span class=\"icon-wrapper\"><svg class=\"icon icon-plus icon\" aria-hidden=\"true\"><use href=\"#icon-plus\"></use></svg></span>Ass"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 979.515625,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#workflow-content-types-section\" data-panel-anchor=\"\" aria-labelledby=\"workflow-content-types-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><u"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 979.515625,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"workflow-content-types-heading\" data-panel-toggle=\"\" aria-controls=\"workflow-content-types-content\" aria-expanded=\"true\">\n                \n         "
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_content_types_0",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 280,
+      "y": 1019.515625,
+      "html": "<input type=\"checkbox\" name=\"content_types\" value=\"28\" id=\"id_content_types_0\" checked=\"\">"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Save",
+      "width": 268,
+      "height": 42,
+      "x": 290,
+      "y": 948,
+      "html": "<button type=\"submit\" class=\"button button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-value=\"mod+s\" data-w-kbd-scope-value=\"global\" data-w-progress-active-value=\"Saving…\" data-w-progress"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More actions",
+      "width": 32,
+      "height": 42,
+      "x": 558,
+      "y": 948,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle button\" data-w-dropdown-target=\"toggle\" aria-expanded=\"false\">\n        <span class=\"w-sr-only\">More actions</span>\n        \n            <svg class=\"icon icon-arrow-up w-dropdown__toggle-icon\" "
+    }
+  ],
+  "keyboard": [
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Skip to main content",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 125, 126)",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "w": 166.046875,
+        "h": 42
+      },
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle sidebar",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 149,
+        "y": 8,
+        "w": 35,
+        "h": 35
+      },
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n                w-items"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Dashboard",
+      "outline": "rgb(0, 125, 126) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 45,
+        "y": 51,
+        "w": 110,
+        "h": 110
+      },
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-branding__icon\n       "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Search",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 208.5,
+        "w": 39,
+        "h": 35
+      },
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-default\n      "
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 0,
+        "y": 205,
+        "w": 200,
+        "h": 42
+      },
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n            !w-bg-t"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Pages",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 247,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"menuitem-la"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Breads",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 290.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</span><svg "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Images",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 334,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Bakery Misc",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 377.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery Misc</span>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Documents",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 421,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documents</span><"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Forms",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 464.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Reports",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 508,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><svg class=\""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Settings",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 551.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><svg class="
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Help",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 595,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"fa"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Admin",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 948,
+        "w": 200,
+        "h": 52
+      },
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n            w-"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle breadcrumbs",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 220,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-flex w-items-center w-justify-center w-box-border w-ml-0 w-mr-2.5 w-w-slim-header w-h-slim-header w-bg-transparent w-text-text-meta w-transition hover:w-scale-110 hover:w-text-text-label w-outline-offset-inside\" aria-la"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Moderators approval",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "",
+      "rect": {
+        "x": 280,
+        "y": 13.796875,
+        "w": 140.484375,
+        "h": 22.40625
+      },
+      "html": "<a class=\"w-flex w-items-center w-text-text-label w-pr-0.5 w-text-14 w-no-underline w-outline-offset-inside w-border-b w-border-b-2 w-border-transparent w-box-content hover:w-border-current hover:w-text-text-label\" href=\"\">\n                          "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(38, 26, 78)",
+      "rect": {
+        "x": 216,
+        "y": 150.890625,
+        "w": 24,
+        "h": 24
+      },
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-name-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-name-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><use href=\"#icon-link\"></use></svg>\n"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle section",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 240,
+        "y": 150.890625,
+        "w": 24,
+        "h": 24
+      },
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-name-heading\" data-panel-toggle=\"\" aria-controls=\"panel-name-content\" aria-expanded=\"true\">\n                \n                <svg class=\"icon icon-place"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_name",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 280,
+        "y": 188.890625,
+        "w": 840,
+        "h": 42.5
+      },
+      "html": "<input type=\"text\" name=\"name\" value=\"Moderators approval\" maxlength=\"255\" required=\"\" id=\"id_name\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(38, 26, 78)",
+      "rect": {
+        "x": 216,
+        "y": 275.390625,
+        "w": 24,
+        "h": 24
+      },
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-add_tasks_to_your_workflow-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-add_tasks_to_your_workflow-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle section",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 240,
+        "y": 275.390625,
+        "w": 24,
+        "h": 24
+      },
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-add_tasks_to_your_workflow-heading\" data-panel-toggle=\"\" aria-controls=\"panel-add_tasks_to_your_workflow-content\" aria-expanded=\"true\">\n                "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(38, 26, 78)",
+      "rect": {
+        "x": 252,
+        "y": 310.390625,
+        "w": 24,
+        "h": 24
+      },
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#inline_child_workflow_tasks-0-panel-section\" data-panel-anchor=\"\" aria-labelledby=\"inline_child_workflow_tasks-0-panel-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle section",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 276,
+        "y": 310.390625,
+        "w": 24,
+        "h": 24
+      },
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"inline_child_workflow_tasks-0-panel-heading\" data-panel-toggle=\"\" aria-controls=\"inline_child_workflow_tasks-0-panel-content\" aria-expanded=\"true\">\n          "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Drag",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1052.21875,
+        "y": 305.390625,
+        "w": 34,
+        "h": 34
+      },
+      "html": "<button type=\"button\" class=\"button button--icon text-replace white\" data-inline-panel-child-drag=\"\" title=\"Drag\"><svg class=\"icon icon-grip icon\" aria-hidden=\"true\"><use href=\"#icon-grip\"></use></svg></button>"
+    }
+  ],
+  "reflow": {
+    "viewport": 320,
+    "scrollWidth": 320,
+    "bodyWidth": 320,
+    "overflow": [
+      {
+        "tag": "H2",
+        "id": "workflow-pages-heading",
+        "class": "w-panel__heading ",
+        "text": "Assign your workflow to pages",
+        "x": 24,
+        "width": 333.15625,
+        "right": 357.15625,
+        "html": "<h2 class=\"w-panel__heading \" id=\"workflow-pages-heading\" data-panel-heading=\"\">\n                    \n                        <span data-panel-heading-text=\"\">Assign your workflow to pages</span>\n    "
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "",
+        "text": "Assign your workflow to pages",
+        "x": 24,
+        "width": 325.15625,
+        "right": 349.15625,
+        "html": "<span data-panel-heading-text=\"\">Assign your workflow to pages</span>"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-panel__anchor w-panel__anchor--suffix",
+        "text": "",
+        "x": 357.15625,
+        "width": 24,
+        "right": 381.15625,
+        "html": "<a class=\"w-panel__anchor w-panel__anchor--suffix\" href=\"#workflow-pages-section\" aria-labelledby=\"workflow-pages-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\""
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 362.15625,
+        "width": 14,
+        "right": 376.15625,
+        "html": "<svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><use href=\"#icon-link\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 362.68927001953125,
+        "width": 12.912506103515625,
+        "right": 375.6017761230469,
+        "html": "<use href=\"#icon-link\"></use>"
+      },
+      {
+        "tag": "H2",
+        "id": "workflow-content-types-heading",
+        "class": "w-panel__heading ",
+        "text": "Assign your workflow to snippets",
+        "x": 24,
+        "width": 360.046875,
+        "right": 384.046875,
+        "html": "<h2 class=\"w-panel__heading \" id=\"workflow-content-types-heading\" data-panel-heading=\"\">\n                    \n                        <span data-panel-heading-text=\"\">Assign your workflow to snippets<"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "",
+        "text": "Assign your workflow to snippets",
+        "x": 24,
+        "width": 352.046875,
+        "right": 376.046875,
+        "html": "<span data-panel-heading-text=\"\">Assign your workflow to snippets</span>"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-panel__anchor w-panel__anchor--suffix",
+        "text": "",
+        "x": 384.046875,
+        "width": 24,
+        "right": 408.046875,
+        "html": "<a class=\"w-panel__anchor w-panel__anchor--suffix\" href=\"#workflow-content-types-section\" aria-labelledby=\"workflow-content-types-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" ar"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 389.046875,
+        "width": 14,
+        "right": 403.046875,
+        "html": "<svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><use href=\"#icon-link\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 389.57989501953125,
+        "width": 12.912506103515625,
+        "right": 402.4924011230469,
+        "html": "<use href=\"#icon-link\"></use>"
+      }
+    ]
+  },
+  "textSpacing": {
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "clipped": [
+      {
+        "html": "<label class=\"w-sr-only\" for=\"menu-search-q\">Search</label>",
+        "scrollWidth": 53,
+        "clientWidth": 1,
+        "scrollHeight": 20,
+        "clientHeight": 1
+      },
+      {
+        "html": "<h1 class=\"w-sr-only\">\n                                    Editing workflow: Moderators approval\n                                </h1>",
+        "scrollWidth": 478,
+        "clientWidth": 1,
+        "scrollHeight": 31,
+        "clientHeight": 1
+      },
+      {
+        "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_workflow_tasks-ADD\">\n            <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>Add task\n        </button>",
+        "scrollWidth": 103,
+        "clientWidth": 103,
+        "scrollHeight": 30,
+        "clientHeight": 26
+      },
+      {
+        "html": "<label class=\"w-field__label w-sr-only\" for=\"id_pages-0-page\" id=\"id_pages-0-page-label\">\n            Page<span class=\"w-required-mark\">*</span>\n        </label>",
+        "scrollWidth": 51,
+        "clientWidth": 1,
+        "scrollHeight": 21,
+        "clientHeight": 1
+      },
+      {
+        "html": "<label class=\"w-field__label w-sr-only\" for=\"id_pages-1-page\" id=\"id_pages-1-page-label\">\n            Page<span class=\"w-required-mark\">*</span>\n        </label>",
+        "scrollWidth": 51,
+        "clientWidth": 1,
+        "scrollHeight": 21,
+        "clientHeight": 1
+      },
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-doc-empty-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-doc-empty-inverse\"></use></svg>\n            Choose a page\n        </button>",
+        "scrollWidth": 154,
+        "clientWidth": 154,
+        "scrollHeight": 30,
+        "clientHeight": 26
+      },
+      {
+        "html": "<label class=\"w-field__label w-sr-only\">\n            Content types\n        </label>",
+        "scrollWidth": 117,
+        "clientWidth": 1,
+        "scrollHeight": 21,
+        "clientHeight": 1
+      },
+      {
+        "html": "<button type=\"button\" class=\"w-dropdown__toggle button\" data-w-dropdown-target=\"toggle\" aria-expanded=\"false\">\n        <span class=\"w-sr-only\">More actions</span>\n        \n            <svg class=\"icon icon-arrow-up w-dropdown__toggle-icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-up\"></use></svg>\n ",
+        "scrollWidth": 40,
+        "clientWidth": 30,
+        "scrollHeight": 40,
+        "clientHeight": 40
+      }
+    ]
+  }
+}

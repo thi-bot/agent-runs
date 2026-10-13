@@ -1,0 +1,137 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/images/51/generate_url/",
+  "states": [
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag211",
+            "wcag213",
+            "TTv5",
+            "TT4.a",
+            "EN-301-549",
+            "EN-9.2.1.1",
+            "EN-9.2.1.3",
+            "RGAAv4",
+            "RGAA-7.3.2"
+          ],
+          "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+          "help": "Scrollable region must have keyboard access",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/scrollable-region-focusable?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "focusable-content",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element should have focusable content"
+                },
+                {
+                  "id": "focusable-element",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element should be focusable"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"w-block w-border-2 w-border-border-furniture w-overflow-scroll w-p-4 w-rounded-sm w-max-h-[clamp(25rem,50vh,50rem)]\">\n            <img class=\"preview w-max-w-none\" src=\"/admin/images/51/preview/original/\" alt=\"Preview\">\n        </div>",
+              "target": [
+                ".w-border-2"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "messageKey": "complexTextShadows"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's contrast could not be determined because it uses complex text shadows"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"menuitem-label\">Images</span>",
+              "target": [
+                "a[aria-current=\"page\"] > .menuitem > .menuitem-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's contrast could not be determined because it uses complex text shadows"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"filter_method\" id=\"id_filter_method\">",
+                      "target": [
+                        "#id_filter_method"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"filter_method\" id=\"id_filter_method\">",
+              "target": [
+                "#id_filter_method"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blocked": [],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list\n  - 'heading \"Generate URL: Muddy Waters\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - 'link \"Generate URL : Muddy Waters\"':\n          - /url: \"\"\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - text: Filter*\n  - combobox \"Filter*\":\n    - option \"Original size\" [selected]\n    - option \"Resize to width\"\n    - option \"Resize to height\"\n    - option \"Resize to min\"\n    - option \"Resize to max\"\n    - option \"Resize to fill\"\n  - text: Width*\n  - spinbutton \"Width*\" [disabled]: \"611\"\n  - text: Height*\n  - spinbutton \"Height*\" [disabled]: \"672\"\n  - text: Closeness*\n  - spinbutton \"Closeness*\" [disabled]: \"0\"\n  - status:\n    - region \"Preview\":\n      - link \"Preview\":\n        - /url: \"#preview-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Preview\" [level=2]\n      - img \"Preview\"\n    - region \"URL\":\n      - link \"URL\":\n        - /url: \"#url-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"URL\" [level=2]\n      - text: Image URL\n      - textbox \"Image URL\": http://127.0.0.1:8000/images/FVJ-Lj3O48e4SOq5TlFlv1lPEK0=/51/original/\n      - button \"Copy URL\""
+}

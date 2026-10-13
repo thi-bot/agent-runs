@@ -1,0 +1,2355 @@
+{
+  "scanned": 100,
+  "contrast": [
+    {
+      "colors": [
+        "#20aa76",
+        "#f8f8f8",
+        "4.5:1"
+      ],
+      "instances": 3343,
+      "pages": [
+        "https://www.djangoproject.com/",
+        "https://www.djangoproject.com/community/",
+        "https://www.djangoproject.com/community/dsf/",
+        "https://www.djangoproject.com/community/ecosystem/",
+        "https://www.djangoproject.com/community/local/",
+        "https://www.djangoproject.com/conduct/",
+        "https://www.djangoproject.com/conduct/faq/",
+        "https://www.djangoproject.com/conduct/reporting/",
+        "https://www.djangoproject.com/contact/foundation/",
+        "https://www.djangoproject.com/diversity/",
+        "https://www.djangoproject.com/download/",
+        "https://www.djangoproject.com/download/2028/roadmap/",
+        "https://www.djangoproject.com/download/6.2/roadmap/",
+        "https://www.djangoproject.com/foundation/",
+        "https://www.djangoproject.com/foundation/conferences/",
+        "https://www.djangoproject.com/foundation/corporate-members/",
+        "https://www.djangoproject.com/foundation/corporate-members/badges/",
+        "https://www.djangoproject.com/foundation/corporate-membership/",
+        "https://www.djangoproject.com/foundation/corporate-membership/join/",
+        "https://www.djangoproject.com/foundation/donate/",
+        "https://www.djangoproject.com/foundation/faq/",
+        "https://www.djangoproject.com/foundation/individual-members/",
+        "https://www.djangoproject.com/foundation/minutes/",
+        "https://www.djangoproject.com/foundation/minutes/2025/apr/10/dsf-board-monthly-meeting/",
+        "https://www.djangoproject.com/foundation/prizes/",
+        "https://www.djangoproject.com/foundation/records/",
+        "https://www.djangoproject.com/foundation/teams/",
+        "https://www.djangoproject.com/fundraising/",
+        "https://www.djangoproject.com/sponsor/",
+        "https://www.djangoproject.com/sponsor/plans/",
+        "https://www.djangoproject.com/sponsor/plans/diamond/",
+        "https://www.djangoproject.com/sponsor/plans/platinum/",
+        "https://www.djangoproject.com/weblog/2005/nov/",
+        "https://www.djangoproject.com/weblog/2006/apr/",
+        "https://www.djangoproject.com/weblog/2006/jan/",
+        "https://www.djangoproject.com/weblog/2006/may/",
+        "https://www.djangoproject.com/weblog/2007/",
+        "https://www.djangoproject.com/weblog/2007/feb/",
+        "https://www.djangoproject.com/weblog/2007/mar/",
+        "https://www.djangoproject.com/weblog/2007/may/",
+        "https://www.djangoproject.com/weblog/2008/aug/",
+        "https://www.djangoproject.com/weblog/2008/jul/",
+        "https://www.djangoproject.com/weblog/2008/nov/",
+        "https://www.djangoproject.com/weblog/2009/jul/",
+        "https://www.djangoproject.com/weblog/2009/may/",
+        "https://www.djangoproject.com/weblog/2010/",
+        "https://www.djangoproject.com/weblog/2010/jan/",
+        "https://www.djangoproject.com/weblog/2010/mar/",
+        "https://www.djangoproject.com/weblog/2010/sep/",
+        "https://www.djangoproject.com/weblog/2011/jan/",
+        "https://www.djangoproject.com/weblog/2011/nov/",
+        "https://www.djangoproject.com/weblog/2012/aug/",
+        "https://www.djangoproject.com/weblog/2012/jul/",
+        "https://www.djangoproject.com/weblog/2012/may/",
+        "https://www.djangoproject.com/weblog/2013/feb/",
+        "https://www.djangoproject.com/weblog/2013/jul/",
+        "https://www.djangoproject.com/weblog/2013/nov/",
+        "https://www.djangoproject.com/weblog/2013/oct/",
+        "https://www.djangoproject.com/weblog/2014/aug/",
+        "https://www.djangoproject.com/weblog/2014/jul/",
+        "https://www.djangoproject.com/weblog/2014/oct/",
+        "https://www.djangoproject.com/weblog/2015/feb/",
+        "https://www.djangoproject.com/weblog/2015/jul/",
+        "https://www.djangoproject.com/weblog/2015/may/",
+        "https://www.djangoproject.com/weblog/2016/",
+        "https://www.djangoproject.com/weblog/2016/apr/",
+        "https://www.djangoproject.com/weblog/2016/jan/",
+        "https://www.djangoproject.com/weblog/2016/may/",
+        "https://www.djangoproject.com/weblog/2016/sep/",
+        "https://www.djangoproject.com/weblog/2017/",
+        "https://www.djangoproject.com/weblog/2017/aug/",
+        "https://www.djangoproject.com/weblog/2017/may/",
+        "https://www.djangoproject.com/weblog/2017/sep/",
+        "https://www.djangoproject.com/weblog/2018/dec/",
+        "https://www.djangoproject.com/weblog/2018/may/",
+        "https://www.djangoproject.com/weblog/2018/oct/",
+        "https://www.djangoproject.com/weblog/2019/dec/",
+        "https://www.djangoproject.com/weblog/2019/mar/",
+        "https://www.djangoproject.com/weblog/2019/oct/",
+        "https://www.djangoproject.com/weblog/2020/feb/",
+        "https://www.djangoproject.com/weblog/2020/jul/",
+        "https://www.djangoproject.com/weblog/2020/oct/",
+        "https://www.djangoproject.com/weblog/2021/aug/",
+        "https://www.djangoproject.com/weblog/2021/jul/",
+        "https://www.djangoproject.com/weblog/2021/nov/",
+        "https://www.djangoproject.com/weblog/2022/",
+        "https://www.djangoproject.com/weblog/2022/apr/",
+        "https://www.djangoproject.com/weblog/2022/jul/",
+        "https://www.djangoproject.com/weblog/2022/nov/",
+        "https://www.djangoproject.com/weblog/2023/aug/",
+        "https://www.djangoproject.com/weblog/2023/jan/",
+        "https://www.djangoproject.com/weblog/2023/may/",
+        "https://www.djangoproject.com/weblog/2023/sep/",
+        "https://www.djangoproject.com/weblog/2024/jan/",
+        "https://www.djangoproject.com/weblog/2024/jul/",
+        "https://www.djangoproject.com/weblog/2024/may/",
+        "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            ".link-readmore:nth-child(3)"
+          ],
+          "html": "<a href=\"https://docs.djangoproject.com/\" class=\"link-readmore\">Django documentation</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#f8f8f8",
+            "contrastRatio": 2.79,
+            "fontSize": "9.0pt (12px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            ".small-cta > .list-links-small > li > a"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/fundraising/\">\n          Lysi donated to the Django Software Foundation to support Django development. Donate today!\n        </a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#f8f8f8",
+            "contrastRatio": 2.79,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            "li:nth-child(1) > h4 > a"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/weblog/2026/oct/01/nominate-someone-for-the-2026-malcolm-prize/\">Nominate Someone for the 2026 Malcolm Tredinnick Memorial Prize</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#f8f8f8",
+            "contrastRatio": 2.79,
+            "fontSize": "12.0pt (16px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#f1fff7",
+        "#44b78b",
+        "4.5:1"
+      ],
+      "instances": 3000,
+      "pages": [
+        "https://www.djangoproject.com/",
+        "https://www.djangoproject.com/community/",
+        "https://www.djangoproject.com/community/dsf/",
+        "https://www.djangoproject.com/community/ecosystem/",
+        "https://www.djangoproject.com/community/local/",
+        "https://www.djangoproject.com/conduct/",
+        "https://www.djangoproject.com/conduct/faq/",
+        "https://www.djangoproject.com/conduct/reporting/",
+        "https://www.djangoproject.com/contact/foundation/",
+        "https://www.djangoproject.com/diversity/",
+        "https://www.djangoproject.com/download/",
+        "https://www.djangoproject.com/download/2028/roadmap/",
+        "https://www.djangoproject.com/download/6.2/roadmap/",
+        "https://www.djangoproject.com/foundation/",
+        "https://www.djangoproject.com/foundation/conferences/",
+        "https://www.djangoproject.com/foundation/corporate-members/",
+        "https://www.djangoproject.com/foundation/corporate-members/badges/",
+        "https://www.djangoproject.com/foundation/corporate-membership/",
+        "https://www.djangoproject.com/foundation/corporate-membership/join/",
+        "https://www.djangoproject.com/foundation/donate/",
+        "https://www.djangoproject.com/foundation/faq/",
+        "https://www.djangoproject.com/foundation/individual-members/",
+        "https://www.djangoproject.com/foundation/minutes/",
+        "https://www.djangoproject.com/foundation/minutes/2025/apr/10/dsf-board-monthly-meeting/",
+        "https://www.djangoproject.com/foundation/prizes/",
+        "https://www.djangoproject.com/foundation/records/",
+        "https://www.djangoproject.com/foundation/teams/",
+        "https://www.djangoproject.com/fundraising/",
+        "https://www.djangoproject.com/sponsor/",
+        "https://www.djangoproject.com/sponsor/banner/",
+        "https://www.djangoproject.com/sponsor/plans/",
+        "https://www.djangoproject.com/sponsor/plans/diamond/",
+        "https://www.djangoproject.com/sponsor/plans/platinum/",
+        "https://www.djangoproject.com/start/",
+        "https://www.djangoproject.com/weblog/2005/nov/",
+        "https://www.djangoproject.com/weblog/2006/apr/",
+        "https://www.djangoproject.com/weblog/2006/jan/",
+        "https://www.djangoproject.com/weblog/2006/may/",
+        "https://www.djangoproject.com/weblog/2007/",
+        "https://www.djangoproject.com/weblog/2007/feb/",
+        "https://www.djangoproject.com/weblog/2007/mar/",
+        "https://www.djangoproject.com/weblog/2007/may/",
+        "https://www.djangoproject.com/weblog/2008/aug/",
+        "https://www.djangoproject.com/weblog/2008/jul/",
+        "https://www.djangoproject.com/weblog/2008/nov/",
+        "https://www.djangoproject.com/weblog/2009/jul/",
+        "https://www.djangoproject.com/weblog/2009/may/",
+        "https://www.djangoproject.com/weblog/2010/",
+        "https://www.djangoproject.com/weblog/2010/jan/",
+        "https://www.djangoproject.com/weblog/2010/mar/",
+        "https://www.djangoproject.com/weblog/2010/sep/",
+        "https://www.djangoproject.com/weblog/2011/jan/",
+        "https://www.djangoproject.com/weblog/2011/nov/",
+        "https://www.djangoproject.com/weblog/2012/aug/",
+        "https://www.djangoproject.com/weblog/2012/jul/",
+        "https://www.djangoproject.com/weblog/2012/may/",
+        "https://www.djangoproject.com/weblog/2013/feb/",
+        "https://www.djangoproject.com/weblog/2013/jul/",
+        "https://www.djangoproject.com/weblog/2013/nov/",
+        "https://www.djangoproject.com/weblog/2013/oct/",
+        "https://www.djangoproject.com/weblog/2014/aug/",
+        "https://www.djangoproject.com/weblog/2014/jul/",
+        "https://www.djangoproject.com/weblog/2014/oct/",
+        "https://www.djangoproject.com/weblog/2015/feb/",
+        "https://www.djangoproject.com/weblog/2015/jul/",
+        "https://www.djangoproject.com/weblog/2015/may/",
+        "https://www.djangoproject.com/weblog/2016/",
+        "https://www.djangoproject.com/weblog/2016/apr/",
+        "https://www.djangoproject.com/weblog/2016/jan/",
+        "https://www.djangoproject.com/weblog/2016/may/",
+        "https://www.djangoproject.com/weblog/2016/sep/",
+        "https://www.djangoproject.com/weblog/2017/",
+        "https://www.djangoproject.com/weblog/2017/aug/",
+        "https://www.djangoproject.com/weblog/2017/may/",
+        "https://www.djangoproject.com/weblog/2017/sep/",
+        "https://www.djangoproject.com/weblog/2018/dec/",
+        "https://www.djangoproject.com/weblog/2018/may/",
+        "https://www.djangoproject.com/weblog/2018/oct/",
+        "https://www.djangoproject.com/weblog/2019/dec/",
+        "https://www.djangoproject.com/weblog/2019/mar/",
+        "https://www.djangoproject.com/weblog/2019/oct/",
+        "https://www.djangoproject.com/weblog/2020/feb/",
+        "https://www.djangoproject.com/weblog/2020/jul/",
+        "https://www.djangoproject.com/weblog/2020/oct/",
+        "https://www.djangoproject.com/weblog/2021/aug/",
+        "https://www.djangoproject.com/weblog/2021/jul/",
+        "https://www.djangoproject.com/weblog/2021/nov/",
+        "https://www.djangoproject.com/weblog/2022/",
+        "https://www.djangoproject.com/weblog/2022/apr/",
+        "https://www.djangoproject.com/weblog/2022/jul/",
+        "https://www.djangoproject.com/weblog/2022/nov/",
+        "https://www.djangoproject.com/weblog/2023/aug/",
+        "https://www.djangoproject.com/weblog/2023/jan/",
+        "https://www.djangoproject.com/weblog/2023/may/",
+        "https://www.djangoproject.com/weblog/2023/sep/",
+        "https://www.djangoproject.com/weblog/2024/jan/",
+        "https://www.djangoproject.com/weblog/2024/jul/",
+        "https://www.djangoproject.com/weblog/2024/may/",
+        "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/",
+        "https://www.djangoproject.com/start/overview/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            ".col-learn-more > h3"
+          ],
+          "html": "<h3>Learn More</h3>",
+          "data": {
+            "fgColor": "#f1fff7",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.42,
+            "fontSize": "12.0pt (16px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            ".col-learn-more > ul > li:nth-child(1) > a"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/start/overview/\">About Django</a>",
+          "data": {
+            "fgColor": "#f1fff7",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.42,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            ".col-learn-more > ul > li:nth-child(2) > a"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/start/\">Getting Started with Django</a>",
+          "data": {
+            "fgColor": "#f1fff7",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.42,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#20aa76",
+        "#ffffff",
+        "4.5:1"
+      ],
+      "instances": 907,
+      "pages": [
+        "https://www.djangoproject.com/community/dsf/",
+        "https://www.djangoproject.com/community/ecosystem/",
+        "https://www.djangoproject.com/community/local/",
+        "https://www.djangoproject.com/conduct/",
+        "https://www.djangoproject.com/conduct/faq/",
+        "https://www.djangoproject.com/conduct/reporting/",
+        "https://www.djangoproject.com/contact/foundation/",
+        "https://www.djangoproject.com/diversity/",
+        "https://www.djangoproject.com/download/",
+        "https://www.djangoproject.com/download/2028/roadmap/",
+        "https://www.djangoproject.com/download/6.2/roadmap/",
+        "https://www.djangoproject.com/foundation/",
+        "https://www.djangoproject.com/foundation/conferences/",
+        "https://www.djangoproject.com/foundation/corporate-members/",
+        "https://www.djangoproject.com/foundation/corporate-members/badges/",
+        "https://www.djangoproject.com/foundation/corporate-membership/",
+        "https://www.djangoproject.com/foundation/corporate-membership/join/",
+        "https://www.djangoproject.com/foundation/donate/",
+        "https://www.djangoproject.com/foundation/faq/",
+        "https://www.djangoproject.com/foundation/individual-members/",
+        "https://www.djangoproject.com/foundation/minutes/",
+        "https://www.djangoproject.com/foundation/minutes/2025/apr/10/dsf-board-monthly-meeting/",
+        "https://www.djangoproject.com/foundation/prizes/",
+        "https://www.djangoproject.com/foundation/records/",
+        "https://www.djangoproject.com/foundation/teams/",
+        "https://www.djangoproject.com/fundraising/",
+        "https://www.djangoproject.com/sponsor/",
+        "https://www.djangoproject.com/sponsor/banner/",
+        "https://www.djangoproject.com/sponsor/plans/",
+        "https://www.djangoproject.com/sponsor/plans/diamond/",
+        "https://www.djangoproject.com/sponsor/plans/platinum/",
+        "https://www.djangoproject.com/start/",
+        "https://www.djangoproject.com/weblog/2005/nov/",
+        "https://www.djangoproject.com/weblog/2006/apr/",
+        "https://www.djangoproject.com/weblog/2006/jan/",
+        "https://www.djangoproject.com/weblog/2006/may/",
+        "https://www.djangoproject.com/weblog/2007/",
+        "https://www.djangoproject.com/weblog/2007/feb/",
+        "https://www.djangoproject.com/weblog/2007/mar/",
+        "https://www.djangoproject.com/weblog/2007/may/",
+        "https://www.djangoproject.com/weblog/2008/aug/",
+        "https://www.djangoproject.com/weblog/2008/jul/",
+        "https://www.djangoproject.com/weblog/2008/nov/",
+        "https://www.djangoproject.com/weblog/2009/jul/",
+        "https://www.djangoproject.com/weblog/2009/may/",
+        "https://www.djangoproject.com/weblog/2010/",
+        "https://www.djangoproject.com/weblog/2010/jan/",
+        "https://www.djangoproject.com/weblog/2010/mar/",
+        "https://www.djangoproject.com/weblog/2010/sep/",
+        "https://www.djangoproject.com/weblog/2011/jan/",
+        "https://www.djangoproject.com/weblog/2011/nov/",
+        "https://www.djangoproject.com/weblog/2012/aug/",
+        "https://www.djangoproject.com/weblog/2012/jul/",
+        "https://www.djangoproject.com/weblog/2012/may/",
+        "https://www.djangoproject.com/weblog/2013/feb/",
+        "https://www.djangoproject.com/weblog/2013/jul/",
+        "https://www.djangoproject.com/weblog/2013/nov/",
+        "https://www.djangoproject.com/weblog/2013/oct/",
+        "https://www.djangoproject.com/weblog/2014/aug/",
+        "https://www.djangoproject.com/weblog/2014/jul/",
+        "https://www.djangoproject.com/weblog/2014/oct/",
+        "https://www.djangoproject.com/weblog/2015/feb/",
+        "https://www.djangoproject.com/weblog/2015/jul/",
+        "https://www.djangoproject.com/weblog/2015/may/",
+        "https://www.djangoproject.com/weblog/2016/",
+        "https://www.djangoproject.com/weblog/2016/apr/",
+        "https://www.djangoproject.com/weblog/2016/jan/",
+        "https://www.djangoproject.com/weblog/2016/may/",
+        "https://www.djangoproject.com/weblog/2016/sep/",
+        "https://www.djangoproject.com/weblog/2017/",
+        "https://www.djangoproject.com/weblog/2017/aug/",
+        "https://www.djangoproject.com/weblog/2017/may/",
+        "https://www.djangoproject.com/weblog/2017/sep/",
+        "https://www.djangoproject.com/weblog/2018/dec/",
+        "https://www.djangoproject.com/weblog/2018/may/",
+        "https://www.djangoproject.com/weblog/2018/oct/",
+        "https://www.djangoproject.com/weblog/2019/dec/",
+        "https://www.djangoproject.com/weblog/2019/mar/",
+        "https://www.djangoproject.com/weblog/2019/oct/",
+        "https://www.djangoproject.com/weblog/2020/feb/",
+        "https://www.djangoproject.com/weblog/2020/jul/",
+        "https://www.djangoproject.com/weblog/2020/oct/",
+        "https://www.djangoproject.com/weblog/2021/aug/",
+        "https://www.djangoproject.com/weblog/2021/jul/",
+        "https://www.djangoproject.com/weblog/2021/nov/",
+        "https://www.djangoproject.com/weblog/2022/",
+        "https://www.djangoproject.com/weblog/2022/apr/",
+        "https://www.djangoproject.com/weblog/2022/jul/",
+        "https://www.djangoproject.com/weblog/2022/nov/",
+        "https://www.djangoproject.com/weblog/2023/aug/",
+        "https://www.djangoproject.com/weblog/2023/jan/",
+        "https://www.djangoproject.com/weblog/2023/may/",
+        "https://www.djangoproject.com/weblog/2023/sep/",
+        "https://www.djangoproject.com/weblog/2024/jan/",
+        "https://www.djangoproject.com/weblog/2024/jul/",
+        "https://www.djangoproject.com/weblog/2024/may/",
+        "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/",
+        "https://www.djangoproject.com/start/overview/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/conduct/",
+          "selector": [
+            ".simple:nth-child(16) > li:nth-child(5) > a"
+          ],
+          "html": "<a href=\"https://github.com/django/dsf-working-groups/blob/main/active/online-community.md\">Online Community Working Group</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#ffffff",
+            "contrastRatio": 2.96,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/conduct/",
+          "selector": [
+            "p:nth-child(19) > a"
+          ],
+          "html": "<a href=\"https://github.com/django/code-of-conduct/blob/main/reporting-guide.md\"> Reporting Guide</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#ffffff",
+            "contrastRatio": 2.96,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/conduct/",
+          "selector": [
+            "p:nth-child(27) > a"
+          ],
+          "html": "<a href=\"https://github.com/django/code-of-conduct/blob/main/enforcement-ladder.md\"> Enforcement Guide</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#ffffff",
+            "contrastRatio": 2.96,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#2b8c67",
+        "#0c4b33",
+        "4.5:1"
+      ],
+      "instances": 600,
+      "pages": [
+        "https://www.djangoproject.com/",
+        "https://www.djangoproject.com/community/",
+        "https://www.djangoproject.com/community/dsf/",
+        "https://www.djangoproject.com/community/ecosystem/",
+        "https://www.djangoproject.com/community/local/",
+        "https://www.djangoproject.com/conduct/",
+        "https://www.djangoproject.com/conduct/faq/",
+        "https://www.djangoproject.com/conduct/reporting/",
+        "https://www.djangoproject.com/contact/foundation/",
+        "https://www.djangoproject.com/diversity/",
+        "https://www.djangoproject.com/download/",
+        "https://www.djangoproject.com/download/2028/roadmap/",
+        "https://www.djangoproject.com/download/6.2/roadmap/",
+        "https://www.djangoproject.com/foundation/",
+        "https://www.djangoproject.com/foundation/conferences/",
+        "https://www.djangoproject.com/foundation/corporate-members/",
+        "https://www.djangoproject.com/foundation/corporate-members/badges/",
+        "https://www.djangoproject.com/foundation/corporate-membership/",
+        "https://www.djangoproject.com/foundation/corporate-membership/join/",
+        "https://www.djangoproject.com/foundation/donate/",
+        "https://www.djangoproject.com/foundation/faq/",
+        "https://www.djangoproject.com/foundation/individual-members/",
+        "https://www.djangoproject.com/foundation/minutes/",
+        "https://www.djangoproject.com/foundation/minutes/2025/apr/10/dsf-board-monthly-meeting/",
+        "https://www.djangoproject.com/foundation/prizes/",
+        "https://www.djangoproject.com/foundation/records/",
+        "https://www.djangoproject.com/foundation/teams/",
+        "https://www.djangoproject.com/fundraising/",
+        "https://www.djangoproject.com/sponsor/",
+        "https://www.djangoproject.com/sponsor/banner/",
+        "https://www.djangoproject.com/sponsor/plans/",
+        "https://www.djangoproject.com/sponsor/plans/diamond/",
+        "https://www.djangoproject.com/sponsor/plans/platinum/",
+        "https://www.djangoproject.com/start/",
+        "https://www.djangoproject.com/weblog/2005/nov/",
+        "https://www.djangoproject.com/weblog/2006/apr/",
+        "https://www.djangoproject.com/weblog/2006/jan/",
+        "https://www.djangoproject.com/weblog/2006/may/",
+        "https://www.djangoproject.com/weblog/2007/",
+        "https://www.djangoproject.com/weblog/2007/feb/",
+        "https://www.djangoproject.com/weblog/2007/mar/",
+        "https://www.djangoproject.com/weblog/2007/may/",
+        "https://www.djangoproject.com/weblog/2008/aug/",
+        "https://www.djangoproject.com/weblog/2008/jul/",
+        "https://www.djangoproject.com/weblog/2008/nov/",
+        "https://www.djangoproject.com/weblog/2009/jul/",
+        "https://www.djangoproject.com/weblog/2009/may/",
+        "https://www.djangoproject.com/weblog/2010/",
+        "https://www.djangoproject.com/weblog/2010/jan/",
+        "https://www.djangoproject.com/weblog/2010/mar/",
+        "https://www.djangoproject.com/weblog/2010/sep/",
+        "https://www.djangoproject.com/weblog/2011/jan/",
+        "https://www.djangoproject.com/weblog/2011/nov/",
+        "https://www.djangoproject.com/weblog/2012/aug/",
+        "https://www.djangoproject.com/weblog/2012/jul/",
+        "https://www.djangoproject.com/weblog/2012/may/",
+        "https://www.djangoproject.com/weblog/2013/feb/",
+        "https://www.djangoproject.com/weblog/2013/jul/",
+        "https://www.djangoproject.com/weblog/2013/nov/",
+        "https://www.djangoproject.com/weblog/2013/oct/",
+        "https://www.djangoproject.com/weblog/2014/aug/",
+        "https://www.djangoproject.com/weblog/2014/jul/",
+        "https://www.djangoproject.com/weblog/2014/oct/",
+        "https://www.djangoproject.com/weblog/2015/feb/",
+        "https://www.djangoproject.com/weblog/2015/jul/",
+        "https://www.djangoproject.com/weblog/2015/may/",
+        "https://www.djangoproject.com/weblog/2016/",
+        "https://www.djangoproject.com/weblog/2016/apr/",
+        "https://www.djangoproject.com/weblog/2016/jan/",
+        "https://www.djangoproject.com/weblog/2016/may/",
+        "https://www.djangoproject.com/weblog/2016/sep/",
+        "https://www.djangoproject.com/weblog/2017/",
+        "https://www.djangoproject.com/weblog/2017/aug/",
+        "https://www.djangoproject.com/weblog/2017/may/",
+        "https://www.djangoproject.com/weblog/2017/sep/",
+        "https://www.djangoproject.com/weblog/2018/dec/",
+        "https://www.djangoproject.com/weblog/2018/may/",
+        "https://www.djangoproject.com/weblog/2018/oct/",
+        "https://www.djangoproject.com/weblog/2019/dec/",
+        "https://www.djangoproject.com/weblog/2019/mar/",
+        "https://www.djangoproject.com/weblog/2019/oct/",
+        "https://www.djangoproject.com/weblog/2020/feb/",
+        "https://www.djangoproject.com/weblog/2020/jul/",
+        "https://www.djangoproject.com/weblog/2020/oct/",
+        "https://www.djangoproject.com/weblog/2021/aug/",
+        "https://www.djangoproject.com/weblog/2021/jul/",
+        "https://www.djangoproject.com/weblog/2021/nov/",
+        "https://www.djangoproject.com/weblog/2022/",
+        "https://www.djangoproject.com/weblog/2022/apr/",
+        "https://www.djangoproject.com/weblog/2022/jul/",
+        "https://www.djangoproject.com/weblog/2022/nov/",
+        "https://www.djangoproject.com/weblog/2023/aug/",
+        "https://www.djangoproject.com/weblog/2023/jan/",
+        "https://www.djangoproject.com/weblog/2023/may/",
+        "https://www.djangoproject.com/weblog/2023/sep/",
+        "https://www.djangoproject.com/weblog/2024/jan/",
+        "https://www.djangoproject.com/weblog/2024/jul/",
+        "https://www.djangoproject.com/weblog/2024/may/",
+        "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/",
+        "https://www.djangoproject.com/start/overview/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            ".thanks > li:nth-child(1) > span"
+          ],
+          "html": "<span>Hosting by</span>",
+          "data": {
+            "fgColor": "#2b8c67",
+            "bgColor": "#0c4b33",
+            "contrastRatio": 2.43,
+            "fontSize": "9.0pt (12px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            ".in-kind-donors"
+          ],
+          "html": "<a class=\"in-kind-donors\" href=\"https://www.djangoproject.com/fundraising/#in-kind-donors\">In-kind\n            donors</a>",
+          "data": {
+            "fgColor": "#2b8c67",
+            "bgColor": "#0c4b33",
+            "contrastRatio": 2.43,
+            "fontSize": "15.0pt (20px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            ".design > span:nth-child(1)"
+          ],
+          "html": "<span>Design by</span>",
+          "data": {
+            "fgColor": "#2b8c67",
+            "bgColor": "#0c4b33",
+            "contrastRatio": 2.43,
+            "fontSize": "9.0pt (12px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#859d94",
+        "#ffffff",
+        "4.5:1"
+      ],
+      "instances": 524,
+      "pages": [
+        "https://www.djangoproject.com/",
+        "https://www.djangoproject.com/community/dsf/",
+        "https://www.djangoproject.com/foundation/corporate-membership/join/",
+        "https://www.djangoproject.com/fundraising/",
+        "https://www.djangoproject.com/weblog/2005/nov/",
+        "https://www.djangoproject.com/weblog/2006/apr/",
+        "https://www.djangoproject.com/weblog/2006/jan/",
+        "https://www.djangoproject.com/weblog/2006/may/",
+        "https://www.djangoproject.com/weblog/2007/",
+        "https://www.djangoproject.com/weblog/2007/feb/",
+        "https://www.djangoproject.com/weblog/2007/mar/",
+        "https://www.djangoproject.com/weblog/2007/may/",
+        "https://www.djangoproject.com/weblog/2008/aug/",
+        "https://www.djangoproject.com/weblog/2008/jul/",
+        "https://www.djangoproject.com/weblog/2008/nov/",
+        "https://www.djangoproject.com/weblog/2009/jul/",
+        "https://www.djangoproject.com/weblog/2009/may/",
+        "https://www.djangoproject.com/weblog/2010/",
+        "https://www.djangoproject.com/weblog/2010/jan/",
+        "https://www.djangoproject.com/weblog/2010/mar/",
+        "https://www.djangoproject.com/weblog/2010/sep/",
+        "https://www.djangoproject.com/weblog/2011/jan/",
+        "https://www.djangoproject.com/weblog/2011/nov/",
+        "https://www.djangoproject.com/weblog/2012/aug/",
+        "https://www.djangoproject.com/weblog/2012/jul/",
+        "https://www.djangoproject.com/weblog/2012/may/",
+        "https://www.djangoproject.com/weblog/2013/feb/",
+        "https://www.djangoproject.com/weblog/2013/jul/",
+        "https://www.djangoproject.com/weblog/2013/nov/",
+        "https://www.djangoproject.com/weblog/2013/oct/",
+        "https://www.djangoproject.com/weblog/2014/aug/",
+        "https://www.djangoproject.com/weblog/2014/jul/",
+        "https://www.djangoproject.com/weblog/2014/oct/",
+        "https://www.djangoproject.com/weblog/2015/feb/",
+        "https://www.djangoproject.com/weblog/2015/jul/",
+        "https://www.djangoproject.com/weblog/2015/may/",
+        "https://www.djangoproject.com/weblog/2016/",
+        "https://www.djangoproject.com/weblog/2016/apr/",
+        "https://www.djangoproject.com/weblog/2016/jan/",
+        "https://www.djangoproject.com/weblog/2016/may/",
+        "https://www.djangoproject.com/weblog/2016/sep/",
+        "https://www.djangoproject.com/weblog/2017/",
+        "https://www.djangoproject.com/weblog/2017/aug/",
+        "https://www.djangoproject.com/weblog/2017/may/",
+        "https://www.djangoproject.com/weblog/2017/sep/",
+        "https://www.djangoproject.com/weblog/2018/dec/",
+        "https://www.djangoproject.com/weblog/2018/may/",
+        "https://www.djangoproject.com/weblog/2018/oct/",
+        "https://www.djangoproject.com/weblog/2019/dec/",
+        "https://www.djangoproject.com/weblog/2019/mar/",
+        "https://www.djangoproject.com/weblog/2019/oct/",
+        "https://www.djangoproject.com/weblog/2020/feb/",
+        "https://www.djangoproject.com/weblog/2020/jul/",
+        "https://www.djangoproject.com/weblog/2020/oct/",
+        "https://www.djangoproject.com/weblog/2021/aug/",
+        "https://www.djangoproject.com/weblog/2021/jul/",
+        "https://www.djangoproject.com/weblog/2021/nov/",
+        "https://www.djangoproject.com/weblog/2022/",
+        "https://www.djangoproject.com/weblog/2022/apr/",
+        "https://www.djangoproject.com/weblog/2022/jul/",
+        "https://www.djangoproject.com/weblog/2022/nov/",
+        "https://www.djangoproject.com/weblog/2023/aug/",
+        "https://www.djangoproject.com/weblog/2023/jan/",
+        "https://www.djangoproject.com/weblog/2023/may/",
+        "https://www.djangoproject.com/weblog/2023/sep/",
+        "https://www.djangoproject.com/weblog/2024/jan/",
+        "https://www.djangoproject.com/weblog/2024/jul/",
+        "https://www.djangoproject.com/weblog/2024/may/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            ".outline"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/start/overview/\" class=\"cta outline\">Learn more about Django</a>",
+          "data": {
+            "fgColor": "#859d94",
+            "bgColor": "#ffffff",
+            "contrastRatio": 2.89,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/fundraising/",
+          "selector": [
+            ".footnote"
+          ],
+          "html": "<p class=\"footnote\">\n      Your logo will be visible below if you contribute at least US&nbsp;$1,000.00.<br>\n    </p>",
+          "data": {
+            "fgColor": "#859d94",
+            "bgColor": "#ffffff",
+            "contrastRatio": 2.89,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/community/dsf/",
+          "selector": [
+            "li:nth-child(1) > .meta"
+          ],
+          "html": "<span class=\"meta\">Posted on Oct. 1, 2026 at 1:51 p.m. by <a href=\"https://www.djangoproject.com/weblog/\">Django official blog</a> <a class=\"rss\" href=\"https://www.djangoproject.com/rss/weblog/\">RSS</a></span>",
+          "data": {
+            "fgColor": "#859d94",
+            "bgColor": "#ffffff",
+            "contrastRatio": 2.89,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#20aa76",
+        "#ffffff",
+        "3:1"
+      ],
+      "instances": 313,
+      "pages": [
+        "https://www.djangoproject.com/community/dsf/",
+        "https://www.djangoproject.com/conduct/faq/",
+        "https://www.djangoproject.com/foundation/corporate-members/",
+        "https://www.djangoproject.com/fundraising/",
+        "https://www.djangoproject.com/weblog/2005/nov/",
+        "https://www.djangoproject.com/weblog/2006/apr/",
+        "https://www.djangoproject.com/weblog/2006/jan/",
+        "https://www.djangoproject.com/weblog/2006/may/",
+        "https://www.djangoproject.com/weblog/2007/",
+        "https://www.djangoproject.com/weblog/2007/feb/",
+        "https://www.djangoproject.com/weblog/2007/mar/",
+        "https://www.djangoproject.com/weblog/2007/may/",
+        "https://www.djangoproject.com/weblog/2008/aug/",
+        "https://www.djangoproject.com/weblog/2008/jul/",
+        "https://www.djangoproject.com/weblog/2008/nov/",
+        "https://www.djangoproject.com/weblog/2009/jul/",
+        "https://www.djangoproject.com/weblog/2009/may/",
+        "https://www.djangoproject.com/weblog/2010/",
+        "https://www.djangoproject.com/weblog/2010/jan/",
+        "https://www.djangoproject.com/weblog/2010/mar/",
+        "https://www.djangoproject.com/weblog/2010/sep/",
+        "https://www.djangoproject.com/weblog/2011/jan/",
+        "https://www.djangoproject.com/weblog/2011/nov/",
+        "https://www.djangoproject.com/weblog/2012/aug/",
+        "https://www.djangoproject.com/weblog/2012/jul/",
+        "https://www.djangoproject.com/weblog/2012/may/",
+        "https://www.djangoproject.com/weblog/2013/feb/",
+        "https://www.djangoproject.com/weblog/2013/jul/",
+        "https://www.djangoproject.com/weblog/2013/nov/",
+        "https://www.djangoproject.com/weblog/2013/oct/",
+        "https://www.djangoproject.com/weblog/2014/aug/",
+        "https://www.djangoproject.com/weblog/2014/jul/",
+        "https://www.djangoproject.com/weblog/2014/oct/",
+        "https://www.djangoproject.com/weblog/2015/feb/",
+        "https://www.djangoproject.com/weblog/2015/jul/",
+        "https://www.djangoproject.com/weblog/2015/may/",
+        "https://www.djangoproject.com/weblog/2016/",
+        "https://www.djangoproject.com/weblog/2016/apr/",
+        "https://www.djangoproject.com/weblog/2016/jan/",
+        "https://www.djangoproject.com/weblog/2016/may/",
+        "https://www.djangoproject.com/weblog/2016/sep/",
+        "https://www.djangoproject.com/weblog/2017/",
+        "https://www.djangoproject.com/weblog/2017/aug/",
+        "https://www.djangoproject.com/weblog/2017/may/",
+        "https://www.djangoproject.com/weblog/2017/sep/",
+        "https://www.djangoproject.com/weblog/2018/dec/",
+        "https://www.djangoproject.com/weblog/2018/may/",
+        "https://www.djangoproject.com/weblog/2018/oct/",
+        "https://www.djangoproject.com/weblog/2019/dec/",
+        "https://www.djangoproject.com/weblog/2019/mar/",
+        "https://www.djangoproject.com/weblog/2019/oct/",
+        "https://www.djangoproject.com/weblog/2020/feb/",
+        "https://www.djangoproject.com/weblog/2020/jul/",
+        "https://www.djangoproject.com/weblog/2020/oct/",
+        "https://www.djangoproject.com/weblog/2021/aug/",
+        "https://www.djangoproject.com/weblog/2021/jul/",
+        "https://www.djangoproject.com/weblog/2021/nov/",
+        "https://www.djangoproject.com/weblog/2022/",
+        "https://www.djangoproject.com/weblog/2022/apr/",
+        "https://www.djangoproject.com/weblog/2022/jul/",
+        "https://www.djangoproject.com/weblog/2022/nov/",
+        "https://www.djangoproject.com/weblog/2023/aug/",
+        "https://www.djangoproject.com/weblog/2023/jan/",
+        "https://www.djangoproject.com/weblog/2023/may/",
+        "https://www.djangoproject.com/weblog/2023/sep/",
+        "https://www.djangoproject.com/weblog/2024/jan/",
+        "https://www.djangoproject.com/weblog/2024/jul/",
+        "https://www.djangoproject.com/weblog/2024/may/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/fundraising/",
+          "selector": [
+            "#in-kind-donors"
+          ],
+          "html": "<a id=\"in-kind-donors\" href=\"#in-kind-donors\">In-kind donors</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#ffffff",
+            "contrastRatio": 2.96,
+            "fontSize": "15.0pt (20px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "3:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/foundation/corporate-members/",
+          "selector": [
+            "a[href$=\"django/\"]"
+          ],
+          "html": "<a href=\"https://sentry.io/for/django/\">Sentry</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#ffffff",
+            "contrastRatio": 2.96,
+            "fontSize": "15.0pt (20px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "3:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/foundation/corporate-members/",
+          "selector": [
+            "a[href$=\"ybja10\"]"
+          ],
+          "html": "<a href=\"https://jb.gg/ybja10\">JetBrains</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#ffffff",
+            "contrastRatio": 2.96,
+            "fontSize": "15.0pt (20px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "3:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#859d94",
+        "#f8f8f8",
+        "4.5:1"
+      ],
+      "instances": 232,
+      "pages": [
+        "https://www.djangoproject.com/",
+        "https://www.djangoproject.com/contact/foundation/",
+        "https://www.djangoproject.com/foundation/",
+        "https://www.djangoproject.com/foundation/conferences/",
+        "https://www.djangoproject.com/foundation/corporate-members/",
+        "https://www.djangoproject.com/foundation/corporate-members/badges/",
+        "https://www.djangoproject.com/foundation/corporate-membership/",
+        "https://www.djangoproject.com/foundation/corporate-membership/join/",
+        "https://www.djangoproject.com/foundation/donate/",
+        "https://www.djangoproject.com/foundation/faq/",
+        "https://www.djangoproject.com/foundation/individual-members/",
+        "https://www.djangoproject.com/foundation/minutes/",
+        "https://www.djangoproject.com/foundation/minutes/2025/apr/10/dsf-board-monthly-meeting/",
+        "https://www.djangoproject.com/foundation/prizes/",
+        "https://www.djangoproject.com/foundation/records/",
+        "https://www.djangoproject.com/foundation/teams/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            "li:nth-child(1) > .meta"
+          ],
+          "html": "<span class=\"meta\">\n  \n    <span class=\"featured\">Featured</span>\n    <span aria-hidden=\"true\">|</span>\n  \n  Posted by <strong>Abigail Afi Gbadago and Jeff Triplett</strong> on Oct. 1, 2026\n</span>",
+          "data": {
+            "fgColor": "#859d94",
+            "bgColor": "#f8f8f8",
+            "contrastRatio": 2.72,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            ".featured"
+          ],
+          "html": "<span class=\"featured\">Featured</span>",
+          "data": {
+            "fgColor": "#859d94",
+            "bgColor": "#f8f8f8",
+            "contrastRatio": 2.72,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            "li:nth-child(1) > .meta > strong"
+          ],
+          "html": "<strong>Abigail Afi Gbadago and Jeff Triplett</strong>",
+          "data": {
+            "fgColor": "#859d94",
+            "bgColor": "#f8f8f8",
+            "contrastRatio": 2.72,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#c9f0dd",
+        "#44b78b",
+        "3:1"
+      ],
+      "instances": 99,
+      "pages": [
+        "https://www.djangoproject.com/community/",
+        "https://www.djangoproject.com/community/dsf/",
+        "https://www.djangoproject.com/community/ecosystem/",
+        "https://www.djangoproject.com/community/local/",
+        "https://www.djangoproject.com/conduct/",
+        "https://www.djangoproject.com/conduct/faq/",
+        "https://www.djangoproject.com/conduct/reporting/",
+        "https://www.djangoproject.com/contact/foundation/",
+        "https://www.djangoproject.com/diversity/",
+        "https://www.djangoproject.com/download/",
+        "https://www.djangoproject.com/download/2028/roadmap/",
+        "https://www.djangoproject.com/download/6.2/roadmap/",
+        "https://www.djangoproject.com/foundation/",
+        "https://www.djangoproject.com/foundation/conferences/",
+        "https://www.djangoproject.com/foundation/corporate-members/",
+        "https://www.djangoproject.com/foundation/corporate-members/badges/",
+        "https://www.djangoproject.com/foundation/corporate-membership/",
+        "https://www.djangoproject.com/foundation/corporate-membership/join/",
+        "https://www.djangoproject.com/foundation/donate/",
+        "https://www.djangoproject.com/foundation/faq/",
+        "https://www.djangoproject.com/foundation/individual-members/",
+        "https://www.djangoproject.com/foundation/minutes/",
+        "https://www.djangoproject.com/foundation/minutes/2025/apr/10/dsf-board-monthly-meeting/",
+        "https://www.djangoproject.com/foundation/prizes/",
+        "https://www.djangoproject.com/foundation/records/",
+        "https://www.djangoproject.com/foundation/teams/",
+        "https://www.djangoproject.com/fundraising/",
+        "https://www.djangoproject.com/sponsor/",
+        "https://www.djangoproject.com/sponsor/banner/",
+        "https://www.djangoproject.com/sponsor/plans/",
+        "https://www.djangoproject.com/sponsor/plans/diamond/",
+        "https://www.djangoproject.com/sponsor/plans/platinum/",
+        "https://www.djangoproject.com/start/",
+        "https://www.djangoproject.com/weblog/2005/nov/",
+        "https://www.djangoproject.com/weblog/2006/apr/",
+        "https://www.djangoproject.com/weblog/2006/jan/",
+        "https://www.djangoproject.com/weblog/2006/may/",
+        "https://www.djangoproject.com/weblog/2007/",
+        "https://www.djangoproject.com/weblog/2007/feb/",
+        "https://www.djangoproject.com/weblog/2007/mar/",
+        "https://www.djangoproject.com/weblog/2007/may/",
+        "https://www.djangoproject.com/weblog/2008/aug/",
+        "https://www.djangoproject.com/weblog/2008/jul/",
+        "https://www.djangoproject.com/weblog/2008/nov/",
+        "https://www.djangoproject.com/weblog/2009/jul/",
+        "https://www.djangoproject.com/weblog/2009/may/",
+        "https://www.djangoproject.com/weblog/2010/",
+        "https://www.djangoproject.com/weblog/2010/jan/",
+        "https://www.djangoproject.com/weblog/2010/mar/",
+        "https://www.djangoproject.com/weblog/2010/sep/",
+        "https://www.djangoproject.com/weblog/2011/jan/",
+        "https://www.djangoproject.com/weblog/2011/nov/",
+        "https://www.djangoproject.com/weblog/2012/aug/",
+        "https://www.djangoproject.com/weblog/2012/jul/",
+        "https://www.djangoproject.com/weblog/2012/may/",
+        "https://www.djangoproject.com/weblog/2013/feb/",
+        "https://www.djangoproject.com/weblog/2013/jul/",
+        "https://www.djangoproject.com/weblog/2013/nov/",
+        "https://www.djangoproject.com/weblog/2013/oct/",
+        "https://www.djangoproject.com/weblog/2014/aug/",
+        "https://www.djangoproject.com/weblog/2014/jul/",
+        "https://www.djangoproject.com/weblog/2014/oct/",
+        "https://www.djangoproject.com/weblog/2015/feb/",
+        "https://www.djangoproject.com/weblog/2015/jul/",
+        "https://www.djangoproject.com/weblog/2015/may/",
+        "https://www.djangoproject.com/weblog/2016/",
+        "https://www.djangoproject.com/weblog/2016/apr/",
+        "https://www.djangoproject.com/weblog/2016/jan/",
+        "https://www.djangoproject.com/weblog/2016/may/",
+        "https://www.djangoproject.com/weblog/2016/sep/",
+        "https://www.djangoproject.com/weblog/2017/",
+        "https://www.djangoproject.com/weblog/2017/aug/",
+        "https://www.djangoproject.com/weblog/2017/may/",
+        "https://www.djangoproject.com/weblog/2017/sep/",
+        "https://www.djangoproject.com/weblog/2018/dec/",
+        "https://www.djangoproject.com/weblog/2018/may/",
+        "https://www.djangoproject.com/weblog/2018/oct/",
+        "https://www.djangoproject.com/weblog/2019/dec/",
+        "https://www.djangoproject.com/weblog/2019/mar/",
+        "https://www.djangoproject.com/weblog/2019/oct/",
+        "https://www.djangoproject.com/weblog/2020/feb/",
+        "https://www.djangoproject.com/weblog/2020/jul/",
+        "https://www.djangoproject.com/weblog/2020/oct/",
+        "https://www.djangoproject.com/weblog/2021/aug/",
+        "https://www.djangoproject.com/weblog/2021/jul/",
+        "https://www.djangoproject.com/weblog/2021/nov/",
+        "https://www.djangoproject.com/weblog/2022/",
+        "https://www.djangoproject.com/weblog/2022/apr/",
+        "https://www.djangoproject.com/weblog/2022/jul/",
+        "https://www.djangoproject.com/weblog/2022/nov/",
+        "https://www.djangoproject.com/weblog/2023/aug/",
+        "https://www.djangoproject.com/weblog/2023/jan/",
+        "https://www.djangoproject.com/weblog/2023/may/",
+        "https://www.djangoproject.com/weblog/2023/sep/",
+        "https://www.djangoproject.com/weblog/2024/jan/",
+        "https://www.djangoproject.com/weblog/2024/jul/",
+        "https://www.djangoproject.com/weblog/2024/may/",
+        "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/",
+        "https://www.djangoproject.com/start/overview/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/community/",
+          "selector": [
+            "section > .container > p"
+          ],
+          "html": "<p>\n    \n      Building the <em>Django</em> Community for <em>21&nbsp;years, 2&nbsp;months</em>.\n    \n    Come join us!\n  </p>",
+          "data": {
+            "fgColor": "#c9f0dd",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.02,
+            "fontSize": "24.0pt (32px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "3:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/conduct/",
+          "selector": [
+            "section > .container > p"
+          ],
+          "html": "<p>Code of Conduct</p>",
+          "data": {
+            "fgColor": "#c9f0dd",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.02,
+            "fontSize": "24.0pt (32px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "3:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/diversity/",
+          "selector": [
+            "section > .container > p"
+          ],
+          "html": "<p>Community Diversity Statement</p>",
+          "data": {
+            "fgColor": "#c9f0dd",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.02,
+            "fontSize": "24.0pt (32px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "3:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#44b78b",
+        "#0c4b33",
+        "4.5:1"
+      ],
+      "instances": 98,
+      "pages": [
+        "https://www.djangoproject.com/community/",
+        "https://www.djangoproject.com/community/dsf/",
+        "https://www.djangoproject.com/community/ecosystem/",
+        "https://www.djangoproject.com/community/local/",
+        "https://www.djangoproject.com/conduct/",
+        "https://www.djangoproject.com/conduct/faq/",
+        "https://www.djangoproject.com/conduct/reporting/",
+        "https://www.djangoproject.com/contact/foundation/",
+        "https://www.djangoproject.com/download/",
+        "https://www.djangoproject.com/download/2028/roadmap/",
+        "https://www.djangoproject.com/download/6.2/roadmap/",
+        "https://www.djangoproject.com/foundation/",
+        "https://www.djangoproject.com/foundation/conferences/",
+        "https://www.djangoproject.com/foundation/corporate-members/",
+        "https://www.djangoproject.com/foundation/corporate-members/badges/",
+        "https://www.djangoproject.com/foundation/corporate-membership/",
+        "https://www.djangoproject.com/foundation/corporate-membership/join/",
+        "https://www.djangoproject.com/foundation/donate/",
+        "https://www.djangoproject.com/foundation/faq/",
+        "https://www.djangoproject.com/foundation/individual-members/",
+        "https://www.djangoproject.com/foundation/minutes/",
+        "https://www.djangoproject.com/foundation/minutes/2025/apr/10/dsf-board-monthly-meeting/",
+        "https://www.djangoproject.com/foundation/prizes/",
+        "https://www.djangoproject.com/foundation/records/",
+        "https://www.djangoproject.com/foundation/teams/",
+        "https://www.djangoproject.com/fundraising/",
+        "https://www.djangoproject.com/sponsor/",
+        "https://www.djangoproject.com/sponsor/banner/",
+        "https://www.djangoproject.com/sponsor/plans/",
+        "https://www.djangoproject.com/sponsor/plans/diamond/",
+        "https://www.djangoproject.com/sponsor/plans/platinum/",
+        "https://www.djangoproject.com/start/",
+        "https://www.djangoproject.com/weblog/2005/nov/",
+        "https://www.djangoproject.com/weblog/2006/apr/",
+        "https://www.djangoproject.com/weblog/2006/jan/",
+        "https://www.djangoproject.com/weblog/2006/may/",
+        "https://www.djangoproject.com/weblog/2007/",
+        "https://www.djangoproject.com/weblog/2007/feb/",
+        "https://www.djangoproject.com/weblog/2007/mar/",
+        "https://www.djangoproject.com/weblog/2007/may/",
+        "https://www.djangoproject.com/weblog/2008/aug/",
+        "https://www.djangoproject.com/weblog/2008/jul/",
+        "https://www.djangoproject.com/weblog/2008/nov/",
+        "https://www.djangoproject.com/weblog/2009/jul/",
+        "https://www.djangoproject.com/weblog/2009/may/",
+        "https://www.djangoproject.com/weblog/2010/",
+        "https://www.djangoproject.com/weblog/2010/jan/",
+        "https://www.djangoproject.com/weblog/2010/mar/",
+        "https://www.djangoproject.com/weblog/2010/sep/",
+        "https://www.djangoproject.com/weblog/2011/jan/",
+        "https://www.djangoproject.com/weblog/2011/nov/",
+        "https://www.djangoproject.com/weblog/2012/aug/",
+        "https://www.djangoproject.com/weblog/2012/jul/",
+        "https://www.djangoproject.com/weblog/2012/may/",
+        "https://www.djangoproject.com/weblog/2013/feb/",
+        "https://www.djangoproject.com/weblog/2013/jul/",
+        "https://www.djangoproject.com/weblog/2013/nov/",
+        "https://www.djangoproject.com/weblog/2013/oct/",
+        "https://www.djangoproject.com/weblog/2014/aug/",
+        "https://www.djangoproject.com/weblog/2014/jul/",
+        "https://www.djangoproject.com/weblog/2014/oct/",
+        "https://www.djangoproject.com/weblog/2015/feb/",
+        "https://www.djangoproject.com/weblog/2015/jul/",
+        "https://www.djangoproject.com/weblog/2015/may/",
+        "https://www.djangoproject.com/weblog/2016/",
+        "https://www.djangoproject.com/weblog/2016/apr/",
+        "https://www.djangoproject.com/weblog/2016/jan/",
+        "https://www.djangoproject.com/weblog/2016/may/",
+        "https://www.djangoproject.com/weblog/2016/sep/",
+        "https://www.djangoproject.com/weblog/2017/",
+        "https://www.djangoproject.com/weblog/2017/aug/",
+        "https://www.djangoproject.com/weblog/2017/may/",
+        "https://www.djangoproject.com/weblog/2017/sep/",
+        "https://www.djangoproject.com/weblog/2018/dec/",
+        "https://www.djangoproject.com/weblog/2018/may/",
+        "https://www.djangoproject.com/weblog/2018/oct/",
+        "https://www.djangoproject.com/weblog/2019/dec/",
+        "https://www.djangoproject.com/weblog/2019/mar/",
+        "https://www.djangoproject.com/weblog/2019/oct/",
+        "https://www.djangoproject.com/weblog/2020/feb/",
+        "https://www.djangoproject.com/weblog/2020/jul/",
+        "https://www.djangoproject.com/weblog/2020/oct/",
+        "https://www.djangoproject.com/weblog/2021/aug/",
+        "https://www.djangoproject.com/weblog/2021/jul/",
+        "https://www.djangoproject.com/weblog/2021/nov/",
+        "https://www.djangoproject.com/weblog/2022/",
+        "https://www.djangoproject.com/weblog/2022/apr/",
+        "https://www.djangoproject.com/weblog/2022/jul/",
+        "https://www.djangoproject.com/weblog/2022/nov/",
+        "https://www.djangoproject.com/weblog/2023/aug/",
+        "https://www.djangoproject.com/weblog/2023/jan/",
+        "https://www.djangoproject.com/weblog/2023/may/",
+        "https://www.djangoproject.com/weblog/2023/sep/",
+        "https://www.djangoproject.com/weblog/2024/jan/",
+        "https://www.djangoproject.com/weblog/2024/jul/",
+        "https://www.djangoproject.com/weblog/2024/may/",
+        "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/",
+        "https://www.djangoproject.com/start/overview/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/community/",
+          "selector": [
+            ".active > a"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/community/\">Community</a>",
+          "data": {
+            "fgColor": "#44b78b",
+            "bgColor": "#0c4b33",
+            "contrastRatio": 4.05,
+            "fontSize": "9.8pt (13px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/conduct/",
+          "selector": [
+            ".active > a"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/community/\">Community</a>",
+          "data": {
+            "fgColor": "#44b78b",
+            "bgColor": "#0c4b33",
+            "contrastRatio": 4.05,
+            "fontSize": "9.8pt (13px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/download/",
+          "selector": [
+            ".active > a"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/download/\">Download</a>",
+          "data": {
+            "fgColor": "#44b78b",
+            "bgColor": "#0c4b33",
+            "contrastRatio": 4.05,
+            "fontSize": "9.8pt (13px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#20aa76",
+        "#f1fff7",
+        "4.5:1"
+      ],
+      "instances": 75,
+      "pages": [
+        "https://www.djangoproject.com/fundraising/",
+        "https://www.djangoproject.com/sponsor/",
+        "https://www.djangoproject.com/sponsor/banner/",
+        "https://www.djangoproject.com/sponsor/plans/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/fundraising/",
+          "selector": [
+            ".hero-name > a[href$=\"django/\"][rel=\"nofollow\"]"
+          ],
+          "html": "<a href=\"https://sentry.io/for/django/\" rel=\"nofollow\">Sentry</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#f1fff7",
+            "contrastRatio": 2.88,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/fundraising/",
+          "selector": [
+            ".hero-name > a[href$=\"ybja10\"][rel=\"nofollow\"]"
+          ],
+          "html": "<a href=\"https://jb.gg/ybja10\" rel=\"nofollow\">JetBrains</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#f1fff7",
+            "contrastRatio": 2.88,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/fundraising/",
+          "selector": [
+            ".hero-name > a[href$=\"kraken.tech\"][rel=\"nofollow\"]"
+          ],
+          "html": "<a href=\"https://kraken.tech\" rel=\"nofollow\">Kraken Tech</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#f1fff7",
+            "contrastRatio": 2.88,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#798780",
+        "#ffffff",
+        "4.5:1"
+      ],
+      "instances": 50,
+      "pages": [
+        "https://www.djangoproject.com/community/dsf/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/community/dsf/",
+          "selector": [
+            "li:nth-child(1) > .meta > a:nth-child(1)"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/weblog/\">Django official blog</a>",
+          "data": {
+            "fgColor": "#798780",
+            "bgColor": "#ffffff",
+            "contrastRatio": 3.75,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/community/dsf/",
+          "selector": [
+            "li:nth-child(1) > .meta > .rss"
+          ],
+          "html": "<a class=\"rss\" href=\"https://www.djangoproject.com/rss/weblog/\">RSS</a>",
+          "data": {
+            "fgColor": "#798780",
+            "bgColor": "#ffffff",
+            "contrastRatio": 3.75,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/community/dsf/",
+          "selector": [
+            "li:nth-child(2) > .meta > a:nth-child(1)"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/weblog/\">Django official blog</a>",
+          "data": {
+            "fgColor": "#798780",
+            "bgColor": "#ffffff",
+            "contrastRatio": 3.75,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#20aa76",
+        "#cccccc",
+        "4.5:1"
+      ],
+      "instances": 32,
+      "pages": [
+        "https://www.djangoproject.com/foundation/corporate-members/badges/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/foundation/corporate-members/badges/",
+          "selector": [
+            ".badges:nth-child(4) > .variant:nth-child(1) > .links > a:nth-child(1)"
+          ],
+          "html": "<a href=\"https://static.djangoproject.com/img/badges/corporate_members/bronze.982734d94010.svg\">SVG</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#cccccc",
+            "contrastRatio": 1.84,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/foundation/corporate-members/badges/",
+          "selector": [
+            ".badges:nth-child(4) > .variant:nth-child(1) > .links > a:nth-child(2)"
+          ],
+          "html": "<a href=\"https://static.djangoproject.com/img/badges/corporate_members/bronze.f61da6c97c70.png\">PNG</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#cccccc",
+            "contrastRatio": 1.84,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/foundation/corporate-members/badges/",
+          "selector": [
+            ".badges:nth-child(4) > .variant:nth-child(2) > .links > a:nth-child(1)"
+          ],
+          "html": "<a href=\"https://static.djangoproject.com/img/badges/corporate_members/bronze_g.0453fbd5815d.svg\">SVG</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#cccccc",
+            "contrastRatio": 1.84,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#2b8c67",
+        "#ffffff",
+        "4.5:1"
+      ],
+      "instances": 18,
+      "pages": [
+        "https://www.djangoproject.com/sponsor/",
+        "https://www.djangoproject.com/sponsor/banner/",
+        "https://www.djangoproject.com/sponsor/plans/diamond/",
+        "https://www.djangoproject.com/sponsor/plans/platinum/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/sponsor/",
+          "selector": [
+            ".sponsor-intro > .sponsor-eyebrow"
+          ],
+          "html": "<p class=\"sponsor-eyebrow\">Django Software Foundation</p>",
+          "data": {
+            "fgColor": "#2b8c67",
+            "bgColor": "#ffffff",
+            "contrastRatio": 4.15,
+            "fontSize": "9.0pt (12px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/sponsor/",
+          "selector": [
+            "section[aria-label=\"Django in numbers\"] > .sponsor-eyebrow"
+          ],
+          "html": "<p class=\"sponsor-eyebrow\">A global developer community</p>",
+          "data": {
+            "fgColor": "#2b8c67",
+            "bgColor": "#ffffff",
+            "contrastRatio": 4.15,
+            "fontSize": "9.0pt (12px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/sponsor/",
+          "selector": [
+            ".sponsor-section-heading > div > .sponsor-eyebrow"
+          ],
+          "html": "<p class=\"sponsor-eyebrow\">An ongoing investment</p>",
+          "data": {
+            "fgColor": "#2b8c67",
+            "bgColor": "#ffffff",
+            "contrastRatio": 4.15,
+            "fontSize": "9.0pt (12px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#ffffff",
+        "#44b78b",
+        "4.5:1"
+      ],
+      "instances": 14,
+      "pages": [
+        "https://www.djangoproject.com/",
+        "https://www.djangoproject.com/contact/foundation/",
+        "https://www.djangoproject.com/foundation/conferences/",
+        "https://www.djangoproject.com/foundation/corporate-membership/join/",
+        "https://www.djangoproject.com/fundraising/",
+        "https://www.djangoproject.com/sponsor/plans/",
+        "https://www.djangoproject.com/sponsor/plans/diamond/",
+        "https://www.djangoproject.com/sponsor/plans/platinum/",
+        "https://www.djangoproject.com/start/",
+        "https://www.djangoproject.com/start/overview/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            "p:nth-child(2) > .cta"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/start/\" class=\"cta\">Get started with Django</a>",
+          "data": {
+            "fgColor": "#ffffff",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.5,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            "div[role=\"complementary\"] > .cta"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/download/\" class=\"cta\">\n      Download <em>latest release: 6.1.1</em>\n    </a>",
+          "data": {
+            "fgColor": "#ffffff",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.5,
+            "fontSize": "12.0pt (16px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/fundraising/",
+          "selector": [
+            "#donate-button"
+          ],
+          "html": "<input id=\"donate-button\" type=\"submit\" value=\"Donate monthly\" class=\"cta\">",
+          "data": {
+            "fgColor": "#ffffff",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.5,
+            "fontSize": "12.0pt (16px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#f1fff7",
+        "#44b78b",
+        "3:1"
+      ],
+      "instances": 15,
+      "pages": [
+        "https://www.djangoproject.com/community/",
+        "https://www.djangoproject.com/community/dsf/",
+        "https://www.djangoproject.com/community/ecosystem/",
+        "https://www.djangoproject.com/community/local/",
+        "https://www.djangoproject.com/fundraising/",
+        "https://www.djangoproject.com/start/",
+        "https://www.djangoproject.com/start/overview/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/community/",
+          "selector": [
+            "em:nth-child(1)"
+          ],
+          "html": "<em>Django</em>",
+          "data": {
+            "fgColor": "#f1fff7",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.42,
+            "fontSize": "24.0pt (32px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "3:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/community/",
+          "selector": [
+            "em:nth-child(2)"
+          ],
+          "html": "<em>21&nbsp;years, 2&nbsp;months</em>",
+          "data": {
+            "fgColor": "#f1fff7",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.42,
+            "fontSize": "24.0pt (32px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "3:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/fundraising/",
+          "selector": [
+            "em:nth-child(1)"
+          ],
+          "html": "<em>Support Django development</em>",
+          "data": {
+            "fgColor": "#f1fff7",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.42,
+            "fontSize": "24.0pt (32px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "3:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#798780",
+        "#f8f8f8",
+        "4.5:1"
+      ],
+      "instances": 6,
+      "pages": [
+        "https://www.djangoproject.com/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            "dl:nth-child(15) > dd:nth-child(2)"
+          ],
+          "html": "<dd>\n        Report bugs and make feature requests\n      </dd>",
+          "data": {
+            "fgColor": "#798780",
+            "bgColor": "#f8f8f8",
+            "contrastRatio": 3.53,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            "dl:nth-child(15) > dd:nth-child(4)"
+          ],
+          "html": "<dd>\n        see what's currently being worked on\n      </dd>",
+          "data": {
+            "fgColor": "#798780",
+            "bgColor": "#f8f8f8",
+            "contrastRatio": 3.53,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            "dl:nth-child(18) > dd:nth-child(2)"
+          ],
+          "html": "<dd>\n        Join the Django Discord Community\n      </dd>",
+          "data": {
+            "fgColor": "#798780",
+            "bgColor": "#f8f8f8",
+            "contrastRatio": 3.53,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#2b8c67",
+        "#f8f8f8",
+        "4.5:1"
+      ],
+      "instances": 6,
+      "pages": [
+        "https://www.djangoproject.com/sponsor/",
+        "https://www.djangoproject.com/sponsor/plans/diamond/",
+        "https://www.djangoproject.com/sponsor/plans/platinum/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/sponsor/",
+          "selector": [
+            "#banner-sponsorship > div:nth-child(1) > .sponsor-eyebrow"
+          ],
+          "html": "<p class=\"sponsor-eyebrow\">A focused campaign</p>",
+          "data": {
+            "fgColor": "#2b8c67",
+            "bgColor": "#f8f8f8",
+            "contrastRatio": 3.91,
+            "fontSize": "9.0pt (12px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/sponsor/plans/diamond/",
+          "selector": [
+            "aside > .sponsor-eyebrow"
+          ],
+          "html": "<p class=\"sponsor-eyebrow\">Be the first</p>",
+          "data": {
+            "fgColor": "#2b8c67",
+            "bgColor": "#f8f8f8",
+            "contrastRatio": 3.91,
+            "fontSize": "9.0pt (12px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/sponsor/plans/diamond/",
+          "selector": [
+            ".plan-first-sponsor > .sponsor-eyebrow"
+          ],
+          "html": "<p class=\"sponsor-eyebrow\">Be the first</p>",
+          "data": {
+            "fgColor": "#2b8c67",
+            "bgColor": "#f8f8f8",
+            "contrastRatio": 3.91,
+            "fontSize": "12.0pt (16px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#cacfcd",
+        "#ffffff",
+        "4.5:1"
+      ],
+      "instances": 4,
+      "pages": [
+        "https://www.djangoproject.com/community/",
+        "https://www.djangoproject.com/start/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/community/",
+          "selector": [
+            ".expandall"
+          ],
+          "html": "<span class=\"expandall\">Expand All</span>",
+          "data": {
+            "fgColor": "#cacfcd",
+            "bgColor": "#ffffff",
+            "contrastRatio": 1.57,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/community/",
+          "selector": [
+            ".collapseall"
+          ],
+          "html": "<span class=\"collapseall\">Collapse All</span>",
+          "data": {
+            "fgColor": "#cacfcd",
+            "bgColor": "#ffffff",
+            "contrastRatio": 1.57,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/start/",
+          "selector": [
+            ".expandall"
+          ],
+          "html": "<span class=\"expandall\">Expand All</span>",
+          "data": {
+            "fgColor": "#cacfcd",
+            "bgColor": "#ffffff",
+            "contrastRatio": 1.57,
+            "fontSize": "10.5pt (14px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#20aa76",
+        "#c9f0dd",
+        "4.5:1"
+      ],
+      "instances": 3,
+      "pages": [
+        "https://www.djangoproject.com/download/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/download/",
+          "selector": [
+            "tr:nth-child(2) > td:nth-child(1) > a"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/download/6.2/roadmap/\">6.2 LTS</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#c9f0dd",
+            "contrastRatio": 2.4,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/download/",
+          "selector": [
+            "tr:nth-child(3) > td:nth-child(1) > a"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/download/2028/roadmap/\">2028</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#c9f0dd",
+            "contrastRatio": 2.4,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/download/",
+          "selector": [
+            "tr:nth-child(4) > td:nth-child(1) > a"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/download/2029/roadmap/\">2029</a>",
+          "data": {
+            "fgColor": "#20aa76",
+            "bgColor": "#c9f0dd",
+            "contrastRatio": 2.4,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        "#c9f0dd",
+        "#44b78b",
+        "4.5:1"
+      ],
+      "instances": 3,
+      "pages": [
+        "https://www.djangoproject.com/",
+        "https://www.djangoproject.com/start/",
+        "https://www.djangoproject.com/start/overview/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/",
+          "selector": [
+            ".cta > em"
+          ],
+          "html": "<em>latest release: 6.1.1</em>",
+          "data": {
+            "fgColor": "#c9f0dd",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.02,
+            "fontSize": "12.0pt (16px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/start/",
+          "selector": [
+            ".cta"
+          ],
+          "html": "<a href=\"https://www.djangoproject.com/download/\" class=\"cta\">\n        Download <em>version 6.1.1</em>\n      </a>",
+          "data": {
+            "fgColor": "#c9f0dd",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.02,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "normal",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/start/overview/",
+          "selector": [
+            ".cta > em"
+          ],
+          "html": "<em>with Django</em>",
+          "data": {
+            "fgColor": "#c9f0dd",
+            "bgColor": "#44b78b",
+            "contrastRatio": 2.02,
+            "fontSize": "13.5pt (18px)",
+            "fontWeight": "bold",
+            "messageKey": null,
+            "expectedContrastRatio": "4.5:1"
+          }
+        }
+      ]
+    }
+  ],
+  "other": [
+    {
+      "id": "listitem",
+      "help": "<li> elements must be contained in a <ul> or <ol>",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/listitem?application=axeAPI",
+      "impact": "serious",
+      "tags": [
+        "cat.structure",
+        "wcag2a",
+        "wcag131",
+        "EN-301-549",
+        "EN-9.1.3.1",
+        "RGAAv4",
+        "RGAA-9.3.1"
+      ],
+      "count": 7,
+      "pages": [
+        "https://www.djangoproject.com/community/dsf/",
+        "https://www.djangoproject.com/weblog/2005/nov/",
+        "https://www.djangoproject.com/weblog/2007/",
+        "https://www.djangoproject.com/weblog/2010/",
+        "https://www.djangoproject.com/weblog/2016/",
+        "https://www.djangoproject.com/weblog/2017/",
+        "https://www.djangoproject.com/weblog/2022/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/community/dsf/",
+          "node": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": {
+                  "messageKey": "roleNotValid"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item parent element has a role that is not role=\"list\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li><a rel=\"next\" class=\"next\" href=\"?page=2\">\n            <i class=\"icon icon-chevron-right\"></i>\n            <span class=\"visuallyhidden\">Next</span>\n          </a></li>",
+            "target": [
+              ".nav-pagination > li"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item parent element has a role that is not role=\"list\""
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/weblog/2007/",
+          "node": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": {
+                  "messageKey": "roleNotValid"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item parent element has a role that is not role=\"list\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li><a rel=\"next\" class=\"next\" href=\"?page=2\">\n          <i class=\"icon icon-chevron-right\"></i>\n          <span class=\"visuallyhidden\">Next</span>\n        </a></li>",
+            "target": [
+              ".nav-pagination > li"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item parent element has a role that is not role=\"list\""
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/weblog/2010/",
+          "node": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": {
+                  "messageKey": "roleNotValid"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item parent element has a role that is not role=\"list\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li><a rel=\"next\" class=\"next\" href=\"?page=2\">\n          <i class=\"icon icon-chevron-right\"></i>\n          <span class=\"visuallyhidden\">Next</span>\n        </a></li>",
+            "target": [
+              ".nav-pagination > li"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item parent element has a role that is not role=\"list\""
+          }
+        }
+      ]
+    },
+    {
+      "id": "image-alt",
+      "help": "Images must have alternative text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=axeAPI",
+      "impact": "critical",
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "count": 16,
+      "pages": [
+        "https://www.djangoproject.com/foundation/corporate-members/badges/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/foundation/corporate-members/badges/",
+          "node": {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"https://static.djangoproject.com/img/badges/corporate_members/bronze.982734d94010.svg\">",
+            "target": [
+              ".badges:nth-child(4) > .variant:nth-child(1) > img"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/foundation/corporate-members/badges/",
+          "node": {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"https://static.djangoproject.com/img/badges/corporate_members/bronze_g.0453fbd5815d.svg\">",
+            "target": [
+              ".badges:nth-child(4) > .variant:nth-child(2) > img"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "url": "https://www.djangoproject.com/foundation/corporate-members/badges/",
+          "node": {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"https://static.djangoproject.com/img/badges/corporate_members/bronze_b.e5f94d1b7b48.svg\">",
+            "target": [
+              ".badges:nth-child(4) > .variant:nth-child(3) > img"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ]
+    },
+    {
+      "id": "select-name",
+      "help": "Select element must have an accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/select-name?application=axeAPI",
+      "impact": "critical",
+      "tags": [
+        "cat.forms",
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.n",
+        "TTv5",
+        "TT5.c",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "ACT",
+        "RGAAv4",
+        "RGAA-11.1.1"
+      ],
+      "count": 1,
+      "pages": [
+        "https://www.djangoproject.com/foundation/corporate-membership/join/"
+      ],
+      "examples": [
+        {
+          "url": "https://www.djangoproject.com/foundation/corporate-membership/join/",
+          "node": {
+            "any": [
+              {
+                "id": "implicit-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an implicit (wrapped) <label>"
+              },
+              {
+                "id": "explicit-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an explicit <label>"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<select name=\"membership_level\" placeholder=\"Membership level\" required=\"\" id=\"id_membership_level\">",
+            "target": [
+              "#id_membership_level"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ]
+    }
+  ]
+}

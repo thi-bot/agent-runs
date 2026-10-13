@@ -1,0 +1,30 @@
+{
+  "skill": "python-specialist",
+  "scope": [
+    "scripts/run_harbor_campaign.py",
+    "scripts/compare_harbor_runs.py",
+    "tests/test_harbor_campaign.py",
+    "tests/test_compare_harbor_runs.py"
+  ],
+  "findings": [],
+  "passed": [
+    "Initial PY-CAMPAIGN-001 through PY-CAMPAIGN-004 findings resolved on re-review.",
+    "Mixed model and infrastructure failures remain incomplete without regeneration.",
+    "Verifier sidecar errors and missing required verifier/artifact records cannot silently complete a run.",
+    "Regrade selection checks ordered skill-step coverage, artifact manifest source/destination/status, and retained directories.",
+    "Exception timing and verifier result distinguish agent-phase failures from verifier-only failures.",
+    "Nested multistep regrade wrappers preserve classification of their underlying transport failures.",
+    "Native Harbor retries are disabled; at most three campaign attempts are retained in separate job directories.",
+    "A completed accessibility failure stops retries; exactly one selected outcome per task is imported.",
+    "Completed or exhausted round restart does not reset retry allowance.",
+    "Comparison rejects incomplete campaigns and mismatched configurations or prompt coverage.",
+    "Five-run arithmetic mean, median, sample standard deviation and variance use explicit units and preserve ERROR denominators.",
+    ".venv/bin/python -m pytest tests/test_compare_harbor_runs.py tests/test_harbor_campaign.py -q: 39 passed."
+  ],
+  "notes": [
+    "Unknown verifier and infrastructure errors conservatively require review rather than automatic retry.",
+    "Interrupted Harbor jobs are retained and stop the campaign; native resume is intentionally avoided because it can delete unfinished trial directories.",
+    "Raw attempt results retain token/cost evidence; cumulative multistep usage and copied regrade usage must not be summed as independent charges.",
+    "This review exercised deterministic tests and installed Harbor interfaces, without launching new paid agent generations."
+  ]
+}

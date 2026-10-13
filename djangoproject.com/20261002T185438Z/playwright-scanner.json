@@ -1,0 +1,47 @@
+{
+  "skill": "playwright-scanner",
+  "scope": [
+    "https://www.djangoproject.com/",
+    "https://www.djangoproject.com/start/",
+    "https://www.djangoproject.com/fundraising/",
+    "https://www.djangoproject.com/foundation/corporate-membership/join/"
+  ],
+  "findings": [
+    {
+      "rule": "RUNTIME-REFLOW-001",
+      "wcag": "1.4.10 AA",
+      "severity": "moderate",
+      "location": "https://www.djangoproject.com/fundraising/#donate",
+      "summary": "The custom donation amount state creates horizontal page overflow at 320 CSS pixels.",
+      "fix": "Remove the fundraising description minimum width at narrow viewports and size the custom amount input within its container using width:100%, max-width:100%, and box-sizing:border-box.",
+      "evidence": "At320 viewport after Other amount: documentElement.scrollWidth=328; .description width300/right325 and input width303/right328. Other tested pages scrollWidth=320.",
+      "component": "Donation form",
+      "confidence": "medium"
+    },
+    {
+      "rule": "ARIA-EXPANDED-001",
+      "wcag": "4.1.2 A",
+      "severity": "moderate",
+      "location": "djangoproject/templates/includes/header.html:9",
+      "summary": "The mobile Menu button does not expose whether navigation is expanded.",
+      "fix": "Add aria-expanded=false and aria-controls pointing to a navigation ID; update aria-expanded whenever the click handler toggles navigation.",
+      "evidence": "At320 on all four pages, Enter opens nav class=active but .menu-button has neither aria-expanded nor aria-controls; name remains Menu.",
+      "component": "Shared mobile navigation"
+    }
+  ],
+  "passed": [
+    "Production skip link sets the sequential navigation starting point inside main: the next Tab reaches Learn more about Django, even though activeElement is body.",
+    "Mobile Menu button activates with Enter and has a visible 2px solid focus outline.",
+    "No horizontal page overflow on homepage, start or corporate join at widths320,768,1024,1440.",
+    "Measured mobile Menu, search submit and theme buttons exceed24px in both dimensions."
+  ],
+  "notes": [
+    "Runtime corroboration of KEYBOARD-001, KEYBOARD-004, FORM-001 and FORM-003 was added to their existing specialist payloads to avoid duplicate findings.",
+    "Raw behavior evidence is .a11y-history/20261002T185438Z/evidence/behavior.json; skip/focus follow-up is evidence/focus.json.",
+    "Chrome system Chromium via Playwright; no screenshots, form submissions, payments, account changes or checkout openings.",
+    "State axe output includes color contrast results for parent aggregation; duplicate baseline contrast findings are not emitted here.",
+    "Accordion focus changes its text color and suppresses the outline; color difference needs non-text contrast assessment. Search submit focus also suppresses outline; a before/after computed-style comparison is still needed to prove a missing visible indicator.",
+    "Behavior tests do not constitute a full screen-reader test or proof of WCAG conformance.",
+    "Reflow candidate: measured 325px default/328px custom amount document width at320px; verify whether clipped controls require two-dimensional scrolling or cause loss of information/function before treating this as a confirmed1.4.10 failure."
+  ]
+}

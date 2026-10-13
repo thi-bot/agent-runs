@@ -1,0 +1,217 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/images/51/",
+  "states": [
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "implicit-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an implicit (wrapped) <label>"
+                },
+                {
+                  "id": "explicit-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an explicit <label>"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "non-empty-placeholder",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no placeholder attribute"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "critical",
+              "html": "<input type=\"text\" class=\"ui-widget-content ui-autocomplete-input\" autocomplete=\"off\">",
+              "target": [
+                ".ui-autocomplete-input"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=playwright",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-describedby=\"id_file_helptext\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-describedby=\"id_file_helptext\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<input type=\"file\" name=\"file\" data-controller=\"w-sync\" data-action=\"input->w-sync#apply\" data-w-sync-bubbles-...=\"true\" data-w-sync-name-val...=\"wagtail:images-uploa...\" data-w-sync-normaliz...=\"true\" accept=\"image/*, image/avif\" data-w-sync-target-v...=\"#id_title\" id=\"id_file\" ...>",
+              "target": [
+                "#id_file"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-describedby=\"id_file_helptext\""
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "messageKey": "complexTextShadows"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's contrast could not be determined because it uses complex text shadows"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"menuitem-label\">Images</span>",
+              "target": [
+                "a[aria-current=\"page\"] > .menuitem > .menuitem-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's contrast could not be determined because it uses complex text shadows"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"collection\" id=\"id_collection\">\n  <option value=\"1\">Root</option>\n\n  <option value=\"2\">Bakeries</option>\n\n  <option value=\"4\">BreadPage Images</option>\n\n  <option value=\"3\" selected=\"\">Other</option>\n\n  <option value=\"5\">Recipes</option>\n\n</select>",
+                      "target": [
+                        "#id_collection"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"collection\" id=\"id_collection\">\n  <option value=\"1\">Root</option>\n\n  <option value=\"2\">Bakeries</option>\n\n  <option value=\"4\">BreadPage Images</option>\n\n  <option value=\"3\" selected=\"\">Other</option>\n\n  <option value=\"5\">Recipes</option>\n\n</select>",
+              "target": [
+                "#id_collection"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blocked": [],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list\n  - 'heading \"Editing: Muddy Waters\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Muddy Waters\":\n          - /url: \"\"\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - heading \"Muddy Waters\" [level=2]\n  - text: Title*\n  - textbox \"Title*\": Muddy Waters\n  - text: \"File* Supported formats: AVIF, GIF, JPG, JPEG, PNG, WEBP. Maximum filesize: 10.0 MB.\"\n  - link \"muddy_waters_hUPkmSW.jpg\":\n    - /url: /media/images/muddy_waters_hUPkmSW.original.jpg\n  - text: \"(611x672) Change image file:\"\n  - button \"File*\"\n  - text: Description\n  - textbox \"Description\": A man named Muddy Waters wearing a stylish hat and a pair of sunglasses, smiling with his mouth open\n  - text: Collection*\n  - combobox \"Collection*\":\n    - option \"Root\"\n    - option \"Bakeries\"\n    - option \"BreadPage Images\"\n    - option \"Other\" [selected]\n    - option \"Recipes\"\n  - text: Tags\n  - list:\n    - listitem:\n      - textbox\n  - paragraph: Multi-word tags with spaces will automatically be enclosed in double quotes (\").\n  - text: Image focal point\n  - radio \"Image focal point\"\n  - link \"URL Generator\":\n    - /url: /admin/images/51/generate_url/\n  - separator\n  - heading \"Focal point (optional)\" [level=2]\n  - paragraph: To define this image's most important region, drag a box over the image above.\n  - button \"Remove focal area\"\n  - term: Max dimensions\n  - definition: 611x672\n  - term: Filesize\n  - definition: 185.2 KB\n  - term: Usage\n  - definition:\n    - link \"Used 1 time\":\n      - /url: /admin/images/usage/51/\n  - navigation \"Actions (footer)\":\n    - button \"Save\":\n      - emphasis: Save\n- status"
+}

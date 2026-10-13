@@ -1,0 +1,177 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/documents/edit/2/",
+  "states": [
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "implicit-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an implicit (wrapped) <label>"
+                },
+                {
+                  "id": "explicit-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an explicit <label>"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "non-empty-placeholder",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no placeholder attribute"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "critical",
+              "html": "<input type=\"text\" class=\"ui-widget-content ui-autocomplete-input\" autocomplete=\"off\">",
+              "target": [
+                ".ui-autocomplete-input"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "messageKey": "complexTextShadows"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's contrast could not be determined because it uses complex text shadows"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"menuitem-label\">Documents</span>",
+              "target": [
+                "a[aria-current=\"page\"] > .menuitem > .menuitem-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's contrast could not be determined because it uses complex text shadows"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"collection\" id=\"id_collection\">\n  <option value=\"1\">Root</option>\n\n  <option value=\"2\">Bakeries</option>\n\n  <option value=\"4\">BreadPage Images</option>\n\n  <option value=\"3\">Other</option>\n\n  <option value=\"5\" selected=\"\">Recipes</option>\n\n</select>",
+                      "target": [
+                        "#id_collection"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"collection\" id=\"id_collection\">\n  <option value=\"1\">Root</option>\n\n  <option value=\"2\">Bakeries</option>\n\n  <option value=\"4\">BreadPage Images</option>\n\n  <option value=\"3\">Other</option>\n\n  <option value=\"5\" selected=\"\">Recipes</option>\n\n</select>",
+              "target": [
+                "#id_collection"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blocked": [],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list:\n      - listitem:\n        - text: The file could not be found. Please change the source or delete the document.\n        - link \"Delete\":\n          - /url: /admin/documents/delete/2/?next=%2Fadmin%2Fdocuments%2F%3Fordering%3D-title%26p%3D1\n  - 'heading \"Editing: Cookbook: Skillet Cornbread\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - 'link \"Cookbook: Skillet Cornbread\"':\n          - /url: \"\"\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - 'heading \"Cookbook: Skillet Cornbread\" [level=2]'\n  - text: Title*\n  - textbox \"Title*\": \"Cookbook: Skillet Cornbread\"\n  - text: File*\n  - link \"Cookbook_Skillet_Cornbread_CUlyevp.pdf\":\n    - /url: /documents/2/Cookbook_Skillet_Cornbread_CUlyevp.pdf\n  - text: \"Change document:\"\n  - button \"File*\"\n  - text: Collection*\n  - combobox \"Collection*\":\n    - option \"Root\"\n    - option \"Bakeries\"\n    - option \"BreadPage Images\"\n    - option \"Other\"\n    - option \"Recipes\" [selected]\n  - text: Tags\n  - list:\n    - listitem:\n      - textbox\n  - paragraph: Multi-word tags with spaces will automatically be enclosed in double quotes (\").\n  - term: Filesize\n  - definition: 91.7 KB\n  - term: Usage\n  - definition:\n    - link \"Used 1 time\":\n      - /url: /admin/documents/usage/2/\n  - navigation \"Actions (footer)\":\n    - button \"Save\":\n      - emphasis: Save\n- status"
+}

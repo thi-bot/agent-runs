@@ -1,0 +1,67 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/collections/2/",
+  "states": [
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<select name=\"parent\" aria-describedby=\"id_parent-helptext\" required=\"\" id=\"id_parent\">",
+                      "target": [
+                        "#id_parent"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<select name=\"parent\" aria-describedby=\"id_parent-helptext\" required=\"\" id=\"id_parent\">",
+              "target": [
+                "#id_parent"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blocked": [],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list\n  - 'heading \"Editing: Bakeries\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Bakeries\":\n          - /url: \"\"\n  - navigation \"Actions\":\n    - button \"Actions\"\n  - heading \"Bakeries\" [level=2]\n  - text: Privacy\n  - 'button \"Set collection privacy. Current status: Public\"': Public\n  - list:\n    - listitem:\n      - text: Name*\n      - textbox \"Name*\": Bakeries\n    - listitem:\n      - text: \"Parent* Select hierarchical position. Note: a collection cannot become a child of itself or one of its descendants.\"\n      - combobox \"Parent*\":\n        - option \"---------\"\n        - option \"Root\" [selected]\n        - option \"Bakeries\" [disabled]\n        - option \"BreadPage Images\"\n        - option \"Other\"\n        - option \"Recipes\"\n  - navigation \"Actions (footer)\":\n    - button \"Save\":\n      - emphasis: Save"
+}

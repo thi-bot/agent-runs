@@ -1,0 +1,1023 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/pages/80/edit/",
+  "targets": [
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Skip to main content",
+      "width": 166.046875,
+      "height": 42,
+      "x": 16,
+      "y": -16000,
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle sidebar",
+      "width": 35,
+      "height": 35,
+      "x": 149,
+      "y": 8,
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n             "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Dashboard",
+      "width": 110,
+      "height": 110,
+      "x": 45,
+      "y": 51,
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-branding__ic"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Search",
+      "width": 39,
+      "height": 35,
+      "x": 0,
+      "y": 208.5,
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-defa"
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "text": "",
+      "width": 200,
+      "height": 42,
+      "x": 0,
+      "y": 205,
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n         "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Pages",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 247,
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"m"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Breads",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 290.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Images",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 334,
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Bakery Misc",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 377.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery M"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Documents",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 421,
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documen"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Forms",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 464.5,
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Reports",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 508,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><s"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Settings",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 551.5,
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Help",
+      "width": 198,
+      "height": 43.5,
+      "x": 2,
+      "y": 595,
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-ex"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Admin",
+      "width": 200,
+      "height": 52,
+      "x": 0,
+      "y": 948,
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n    "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle breadcrumbs",
+      "width": 50,
+      "height": 50,
+      "x": 220,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-flex w-items-center w-justify-center w-box-border w-ml-0 w-mr-2.5 w-w-slim-header w-h-slim-header w-bg-transparent w-text-text-meta w-transition hover:w-scale-110 hover:w-text-text-label w-outline-offset-insid"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Recipes",
+      "width": 55.703125,
+      "height": 22.40625,
+      "x": 280,
+      "y": 13.796875,
+      "html": "<a class=\"w-flex w-items-center w-text-text-label w-pr-0.5 w-text-14 w-no-underline w-outline-offset-inside w-border-b w-border-b-2 w-border-transparent w-box-content hover:w-border-current hover:w-text-text-label\" href=\"/admin/pages/80/\">\n"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Actions",
+      "width": 32,
+      "height": 50,
+      "x": 362.703125,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon w-h-slim-header\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-drop"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle status",
+      "width": 50,
+      "height": 50,
+      "x": 1107.546875,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle status\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"status\" data-w-tooltip-content-value=\"Status\" data-w-tooltip-offset-value=\"[0, 0]\">\n    <"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle preview",
+      "width": 50,
+      "height": 50,
+      "x": 1157.546875,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle preview\" aria-expanded=\"false\" data-controller=\"w-tooltip w-kbd\" data-side-panel-toggle=\"preview\" data-w-kbd-key-value=\"mod+p\" data-w-kbd-scope-value=\"global\" data-w-toolt"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle checks",
+      "width": 50,
+      "height": 50,
+      "x": 1207.546875,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle checks\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"checks\" data-w-tooltip-content-value=\"Checks\" data-w-tooltip-offset-value=\"[0, 0]\">\n    <"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle comments",
+      "width": 50,
+      "height": 50,
+      "x": 1257.546875,
+      "y": 0,
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle comments\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"comments\" data-w-tooltip-content-value=\"Comments\" data-w-tooltip-offset-value=\"[0, 0]\">"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "History",
+      "width": 50,
+      "height": 50,
+      "x": 1307.546875,
+      "y": 0,
+      "html": "<a href=\"/admin/pages/80/history/\" class=\"w-side-panel-toggle\" aria-label=\"History\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"History\" data-w-tooltip-offset-value=\"[0, 0]\">\n    <svg class=\"icon icon-history w-side-panel-togg"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Visible to all. Visit the live page",
+      "width": 54.453125,
+      "height": 22.40625,
+      "x": 1369.546875,
+      "y": 13.796875,
+      "html": "<a href=\"/recipes/\" target=\"_blank\" rel=\"noreferrer\" class=\"page-status-tag\" aria-label=\"Visible to all. Visit the live page\" data-controller=\"w-tooltip w-zone\" data-action=\"w-privacy:changed@document-&gt;w-zone#switch\" data-w-tooltip-conte"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Collapse all",
+      "width": 110,
+      "height": 24.359375,
+      "x": 1290,
+      "y": 71,
+      "html": "<button type=\"button\" aria-expanded=\"true\" class=\"button button-small button-secondary w-minimap__collapse-all w-minimap__collapse-all--floating \"><svg class=\"icon icon-collapse-up\" aria-hidden=\"true\"><use href=\"#icon-collapse-up\"></use></s"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "w-minimap-toggle",
+      "text": "Toggle side panel",
+      "width": 28,
+      "height": 28,
+      "x": 1410,
+      "y": 69,
+      "html": "<button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd\" data-w-kbd-key-value=\"]\"><svg class=\"icon icon-expand-right\" aria-hidden=\"true\"><use href=\"#i"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Title*",
+      "width": 80.875,
+      "height": 32,
+      "x": 1410,
+      "y": 121,
+      "html": "<a href=\"#panel-child-content-title-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-minus w-minimap-item__placeholder\" ar"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Introduction",
+      "width": 124.65625,
+      "height": 32,
+      "x": 1410,
+      "y": 153,
+      "html": "<a href=\"#panel-child-content-introduction-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon icon-minus w-minimap-item__placehol"
+    },
+    {
+      "tag": "A",
+      "id": "tab-label-content",
+      "text": "Content\n    \n        \n        ()",
+      "width": 49.046875,
+      "height": 50.1875,
+      "x": 280,
+      "y": 54,
+      "html": "<a id=\"tab-label-content\" href=\"#tab-content\" class=\"w-tabs__tab \" role=\"tab\" aria-selected=\"true\" tabindex=\"0\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" aria-controls=\"tab-content\">\n    Content\n    <div class=\"w-tabs"
+    },
+    {
+      "tag": "A",
+      "id": "tab-label-promote",
+      "text": "Promote\n    \n        \n        ()",
+      "width": 52.921875,
+      "height": 50.1875,
+      "x": 353.046875,
+      "y": 54,
+      "html": "<a id=\"tab-label-promote\" href=\"#tab-promote\" class=\"w-tabs__tab \" role=\"tab\" tabindex=\"-1\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" aria-controls=\"tab-promote\">\n    Promote\n    <div class=\"w-tabs__errors\" data-contr"
+    },
+    {
+      "tag": "INPUT",
+      "id": "id_title",
+      "text": "",
+      "width": 840,
+      "height": 53,
+      "x": 274,
+      "y": 150.1875,
+      "html": "<input type=\"text\" name=\"title\" value=\"Recipes\" maxlength=\"255\" data-controller=\"w-sync\" data-w-sync-target-value=\"#id_slug\" placeholder=\"Page title*\" aria-describedby=\"panel-child-content-child-title-helptext\" required=\"\" id=\"id_title\" dat"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add comment",
+      "width": 32,
+      "height": 48,
+      "x": 1120,
+      "y": 152.6875,
+      "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_title-label\">\n                    <svg class=\"icon icon"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "",
+      "width": 24,
+      "height": 24,
+      "x": 216,
+      "y": 267.375,
+      "html": "<a class=\"w-panel__anchor w-panel__anchor--prefix\" href=\"#panel-child-content-introduction-section\" data-panel-anchor=\"\" aria-labelledby=\"panel-child-content-introduction-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" a"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Toggle section",
+      "width": 24,
+      "height": 24,
+      "x": 240,
+      "y": 267.375,
+      "html": "<button class=\"w-panel__toggle\" type=\"button\" aria-label=\"Toggle section\" aria-describedby=\"panel-child-content-introduction-heading\" data-panel-toggle=\"\" aria-controls=\"panel-child-content-introduction-content\" aria-expanded=\"true\">\n      "
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": "id_introduction",
+      "text": "These recipes are sure to impress your friends and family.",
+      "width": 840,
+      "height": 71,
+      "x": 280,
+      "y": 325.5625,
+      "html": "<textarea name=\"introduction\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-introduction-helptext\" id=\"id_introduction\" style=\"overflow: hidden; overflow-wrap: break-wo"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Add comment",
+      "width": 32,
+      "height": 48,
+      "x": 1120,
+      "y": 325.5625,
+      "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_introduction-label\">\n                    <svg class=\"ic"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Save draft",
+      "width": 268,
+      "height": 42,
+      "x": 279.796875,
+      "y": 948,
+      "html": "<button type=\"submit\" class=\"button action-save button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-value=\"mod+s\" data-w-kbd-scope-value=\"global\" data-w-progress-active-value=\"Saving…\" dat"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "More actions",
+      "width": 32,
+      "height": 42,
+      "x": 547.796875,
+      "y": 948,
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle button\" data-w-dropdown-target=\"toggle\" aria-expanded=\"false\">\n        <span class=\"w-sr-only\">More actions</span>\n        \n            <svg class=\"icon icon-arrow-up w-dropdown__toggle-icon\" "
+    }
+  ],
+  "keyboard": [
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Skip to main content",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 125, 126)",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "w": 166.046875,
+        "h": 42
+      },
+      "html": "<a class=\"skiplink button\" href=\"#main\" data-controller=\"w-focus\" data-action=\"w-focus#focus:prevent\">Skip to main content</a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle sidebar",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 149,
+        "y": 8,
+        "w": 35,
+        "h": 35
+      },
+      "html": "<button aria-expanded=\"true\" aria-keyshortcuts=\"[\" aria-label=\"Toggle sidebar\" type=\"button\" class=\"w-mr-4\n                button\n                sidebar__collapse-toggle\n                w-flex\n                w-justify-center\n                w-items"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Dashboard",
+      "outline": "rgb(0, 125, 126) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 125, 126)",
+      "rect": {
+        "x": 45,
+        "y": 51,
+        "w": 110,
+        "h": 110
+      },
+      "html": "<a class=\"sidebar-wagtail-branding w-transition-all w-duration-150\" href=\"/admin/\" aria-label=\"Dashboard\"><div class=\"sidebar-wagtail-branding__icon-wrapper w-transition-all w-duration-150\"><svg class=\"\n         sidebar-wagtail-branding__icon\n       "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Search",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 208.5,
+        "w": 39,
+        "h": 35
+      },
+      "html": "<button class=\"\n          w-pr-0\n          w-w-full\n          w-pl-[23px]\n          w-h-[35px]\n          w-bg-transparent\n          w-outline-offset-inside\n          w-border-0\n          w-rounded-none\n          w-text-text-label-menus-default\n      "
+    },
+    {
+      "tag": "INPUT",
+      "id": "menu-search-q",
+      "name": "",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 0,
+        "y": 205,
+        "w": 200,
+        "h": 42
+      },
+      "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n            !w-bg-t"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Pages",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 247,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link\" aria-haspopup=\"dialog\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-folder-open-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-folder-open-inverse\"></use></svg><span class=\"menuitem-la"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Breads",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 290.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-suitcase icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-suitcase\"></use></svg><span class=\"menuitem-label\">Breads</span><svg "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Images",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 334,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/images/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-image icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Images</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Bakery Misc",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 377.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-utensils icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-utensils\"></use></svg><span class=\"menuitem-label\">Bakery Misc</span>"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Documents",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 421,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/documents/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-doc-full-inverse icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-doc-full-inverse\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Documents</span><"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Forms",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 464.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<a href=\"/admin/forms/\" class=\"sidebar-menu-item__link \"><svg class=\"icon icon-form icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-form\"></use></svg><div class=\"menuitem\"><span class=\"menuitem-label\">Forms</span></div></a>"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Reports",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 508,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-site icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-site\"></use></svg><span class=\"menuitem-label\">Reports</span><svg class=\""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Settings",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 551.5,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"false\" type=\"button\"><svg class=\"icon icon-cogs icon--menuitem\" aria-hidden=\"true\"><use href=\"#icon-cogs\"></use></svg><span class=\"menuitem-label\">Settings</span><svg class="
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Help",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "rect": {
+        "x": 2,
+        "y": 595,
+        "w": 198,
+        "h": 43.5
+      },
+      "html": "<button data-controller=\"w-dismissible\" data-w-dismissible-dismissed-class=\"w-dismissible--dismissed\" data-w-dismissible-id-value=\"help\" data-w-dismissible-dismissed-value=\"true\" class=\"sidebar-menu-item__link \" aria-haspopup=\"menu\" aria-expanded=\"fa"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Admin",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 948,
+        "w": 200,
+        "h": 52
+      },
+      "html": "<button class=\"\n            w-px-5\n            sidebar-footer__account\n            w-bg-surface-menus\n            w-text-text-label-menus-default\n            w-flex\n            w-items-center\n            w-relative\n            w-w-full\n            w-"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle breadcrumbs",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "rect": {
+        "x": 220,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-flex w-items-center w-justify-center w-box-border w-ml-0 w-mr-2.5 w-w-slim-header w-h-slim-header w-bg-transparent w-text-text-meta w-transition hover:w-scale-110 hover:w-text-text-label w-outline-offset-inside\" aria-la"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Recipes",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "",
+      "rect": {
+        "x": 280,
+        "y": 13.796875,
+        "w": 55.703125,
+        "h": 22.40625
+      },
+      "html": "<a class=\"w-flex w-items-center w-text-text-label w-pr-0.5 w-text-14 w-no-underline w-outline-offset-inside w-border-b w-border-b-2 w-border-transparent w-box-content hover:w-border-current hover:w-text-text-label\" href=\"/admin/pages/80/\">\n          "
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Actions",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "2px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 362.703125,
+        "y": 0,
+        "w": 32,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon w-h-slim-header\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-expanded=\"false\" aria-describedby=\"tippy-1\">\n        \n        \n            <svg class=\"icon icon-dots-"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle status",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1107.546875,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle status\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"status\" data-w-tooltip-content-value=\"Status\" data-w-tooltip-offset-value=\"[0, 0]\" aria-describedby"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle preview",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1157.546875,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle preview\" aria-expanded=\"false\" data-controller=\"w-tooltip w-kbd\" data-side-panel-toggle=\"preview\" data-w-kbd-key-value=\"mod+p\" data-w-kbd-scope-value=\"global\" data-w-tooltip-content"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle checks",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1207.546875,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle checks\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"checks\" data-w-tooltip-content-value=\"Checks\" data-w-tooltip-offset-value=\"[0, 0]\" aria-describedby"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Toggle comments",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1257.546875,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<button type=\"button\" class=\"w-side-panel-toggle\" aria-label=\"Toggle comments\" aria-expanded=\"false\" data-controller=\"w-tooltip\" data-side-panel-toggle=\"comments\" data-w-tooltip-content-value=\"Comments\" data-w-tooltip-offset-value=\"[0, 0]\" aria-descr"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "History",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 1307.546875,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "html": "<a href=\"/admin/pages/80/history/\" class=\"w-side-panel-toggle\" aria-label=\"History\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"History\" data-w-tooltip-offset-value=\"[0, 0]\" aria-describedby=\"tippy-8\">\n    <svg class=\"icon icon-history "
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "name": "Visible to all. Visit the live page",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(224, 224, 224)",
+      "rect": {
+        "x": 1369.546875,
+        "y": 13.796875,
+        "w": 54.453125,
+        "h": 22.40625
+      },
+      "html": "<a href=\"/recipes/\" target=\"_blank\" rel=\"noreferrer\" class=\"page-status-tag\" aria-label=\"Visible to all. Visit the live page\" data-controller=\"w-tooltip w-zone\" data-action=\"w-privacy:changed@document-&gt;w-zone#switch\" data-w-tooltip-content-value=\""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "Collapse all",
+      "outline": "rgb(0, 168, 133) solid 3px",
+      "boxShadow": "none",
+      "border": "1px solid rgb(200, 200, 200)",
+      "rect": {
+        "x": 1290,
+        "y": 71,
+        "w": 110,
+        "h": 24.359375
+      },
+      "html": "<button type=\"button\" aria-expanded=\"true\" class=\"button button-small button-secondary w-minimap__collapse-all w-minimap__collapse-all--floating \"><svg class=\"icon icon-collapse-up\" aria-hidden=\"true\"><use href=\"#icon-collapse-up\"></use></svg>Collaps"
+    }
+  ],
+  "reflow": {
+    "viewport": 320,
+    "scrollWidth": 320,
+    "bodyWidth": 320,
+    "overflow": [
+      {
+        "tag": "A",
+        "id": "",
+        "class": "page-status-tag",
+        "text": "Live",
+        "x": 306,
+        "width": 54.453125,
+        "right": 360.453125,
+        "html": "<a href=\"/recipes/\" target=\"_blank\" rel=\"noreferrer\" class=\"page-status-tag\" aria-label=\"Visible to all. Visit the live page\" data-controller=\"w-tooltip w-zone\" data-action=\"w-privacy:changed@document"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 311,
+        "width": 16,
+        "right": 327,
+        "html": "<svg class=\"icon icon-view w-w-4 w-h-4 w-mr-1\" aria-hidden=\"true\"><use href=\"#icon-view\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 311.1185607910156,
+        "width": 15.735870361328125,
+        "right": 326.85443115234375,
+        "html": "<use href=\"#icon-view\"></use>"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "w-minimap ",
+        "text": "Title*Introduction",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<div class=\"w-minimap \"><div class=\"w-minimap__header\"><button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "w-minimap__header",
+        "text": "",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<div class=\"w-minimap__header\"><button id=\"w-minimap-toggle\" type=\"button\" aria-expanded=\"false\" class=\"w-minimap__toggle\" aria-label=\"Toggle side panel\" data-controller=\"w-kbd\" data-w-kbd-key-value=\""
+      },
+      {
+        "tag": "OL",
+        "id": "",
+        "class": "w-minimap__list",
+        "text": "Title*Introduction",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<ol class=\"w-minimap__list\"><li><a href=\"#panel-child-content-title-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-cu"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Title*",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-child-content-title-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"ico"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2 w-minimap-item--active ",
+        "text": "Title*",
+        "x": 300,
+        "width": 62.921875,
+        "right": 362.921875,
+        "html": "<a href=\"#panel-child-content-title-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\"icon ic"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Title*",
+        "x": 327,
+        "width": 35.921875,
+        "right": 362.921875,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Title</span><span class=\"w-required-mark\">*</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Title",
+        "x": 327,
+        "width": 28.53125,
+        "right": 355.53125,
+        "html": "<span class=\"w-minimap-item__text\">Title</span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-required-mark",
+        "text": "*",
+        "x": 357.46875,
+        "width": 5.453125,
+        "right": 362.921875,
+        "html": "<span class=\"w-required-mark\">*</span>"
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "",
+        "text": "Introduction",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<li><a href=\"#panel-child-content-introduction-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg cla"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "w-minimap-item w-minimap-item--h2 w-minimap-item--active ",
+        "text": "Introduction",
+        "x": 300,
+        "width": 108.65625,
+        "right": 408.65625,
+        "html": "<a href=\"#panel-child-content-introduction-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\" aria-describedby=\"w-minimap-toggle\" aria-current=\"true\"><svg class=\""
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__label",
+        "text": "Introduction",
+        "x": 327,
+        "width": 81.65625,
+        "right": 408.65625,
+        "html": "<span class=\"w-minimap-item__label\"><span class=\"w-minimap-item__text\">Introduction</span></span>"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "w-minimap-item__text",
+        "text": "Introduction",
+        "x": 327,
+        "width": 81.65625,
+        "right": 408.65625,
+        "html": "<span class=\"w-minimap-item__text\">Introduction</span>"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "w-minimap__footer",
+        "text": "",
+        "x": 300,
+        "width": 260,
+        "right": 560,
+        "html": "<div class=\"w-minimap__footer\"></div>"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "w-field__comment-button w-field__comment-button--add",
+        "text": "",
+        "x": 300,
+        "width": 32,
+        "right": 332,
+        "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_title-label\">\n "
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 308,
+        "width": 16,
+        "right": 324,
+        "html": "<svg class=\"icon icon-comment-add-reversed icon\" aria-hidden=\"true\"><use href=\"#icon-comment-add-reversed\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 308.48284912109375,
+        "width": 14.987152099609375,
+        "right": 323.4700012207031,
+        "html": "<use href=\"#icon-comment-add-reversed\"></use>"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "w-field__comment-button w-field__comment-button--add",
+        "text": "",
+        "x": 300,
+        "width": 32,
+        "right": 332,
+        "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_introduction-la"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 308,
+        "width": 16,
+        "right": 324,
+        "html": "<svg class=\"icon icon-comment-add-reversed icon\" aria-hidden=\"true\"><use href=\"#icon-comment-add-reversed\"></use></svg>"
+      },
+      {
+        "tag": "use",
+        "id": "",
+        "class": {},
+        "text": "",
+        "x": 308.48284912109375,
+        "width": 14.987152099609375,
+        "right": 323.4700012207031,
+        "html": "<use href=\"#icon-comment-add-reversed\"></use>"
+      }
+    ]
+  },
+  "textSpacing": {
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "clipped": [
+      {
+        "html": "<label class=\"w-sr-only\" for=\"menu-search-q\">Search</label>",
+        "scrollWidth": 53,
+        "clientWidth": 1,
+        "scrollHeight": 20,
+        "clientHeight": 1
+      },
+      {
+        "html": "<h1 class=\"w-sr-only\">\n                                    Editing Recipe index page: Recipes\n                                </h1>",
+        "scrollWidth": 441,
+        "clientWidth": 1,
+        "scrollHeight": 31,
+        "clientHeight": 1
+      },
+      {
+        "html": "<h2 class=\"w-panel__heading w-panel__heading--label\" id=\"panel-child-content-title-heading\" data-panel-heading=\"\">\n                    \n                        <label for=\"id_title\" id=\"id_title-label\"><span data-panel-heading-text=\"\">Title</span><span class=\"w-required-mark\" data-panel-required=\"\">",
+        "scrollWidth": 63,
+        "clientWidth": 8,
+        "scrollHeight": 24,
+        "clientHeight": 24
+      },
+      {
+        "html": "<button type=\"button\" class=\"w-dropdown__toggle button\" data-w-dropdown-target=\"toggle\" aria-expanded=\"false\">\n        <span class=\"w-sr-only\">More actions</span>\n        \n            <svg class=\"icon icon-arrow-up w-dropdown__toggle-icon\" aria-hidden=\"true\"><use href=\"#icon-arrow-up\"></use></svg>\n ",
+        "scrollWidth": 40,
+        "clientWidth": 30,
+        "scrollHeight": 40,
+        "clientHeight": 40
+      }
+    ]
+  }
+}

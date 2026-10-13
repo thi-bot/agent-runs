@@ -1,0 +1,458 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/workflows/edit/1/",
+  "states": [
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-add_tasks_to_your_workflow-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-add_tasks_to_your_workflow-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-panel-heading-text=\"\">\n        Task<span data-inline-panel-child-count=\"\"> 1</span>\n    </span>",
+              "target": [
+                "#inline_child_workflow_tasks-0-panel-heading > span[data-panel-heading-text=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "shortTextContent",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-add_tasks_to_your_workflow-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-add_tasks_to_your_workflow-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element content is too short to determine if it is actual text content"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-inline-panel-child-count=\"\"> 1</span>",
+              "target": [
+                "span[data-inline-panel-child-count=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_workflow_tasks-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_workflow_tasks-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_workflow_tasks-0-task\" id=\"id_workflow_tasks-0-task-label\">\n            Task<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_workflow_tasks-0-task-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_workflow_tasks-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_workflow_tasks-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"chooser__title\" data-chooser-title=\"\" id=\"id_workflow_tasks-0-task-title\">Moderators approval</div>",
+              "target": [
+                "#id_workflow_tasks-0-task-title"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-add_tasks_to_your_workflow-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-add_tasks_to_your_workflow-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_workflow_tasks-ADD\">\n            <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>Add task\n        </button>",
+              "target": [
+                "#id_workflow_tasks-ADD"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-add_tasks_to_your_workflow-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-add_tasks_to_your_workflow-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-panel-heading-text=\"\">\n        Task<span data-inline-panel-child-count=\"\"> 1</span>\n    </span>",
+              "target": [
+                "#inline_child_workflow_tasks-0-panel-heading > span[data-panel-heading-text=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "shortTextContent",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-add_tasks_to_your_workflow-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-add_tasks_to_your_workflow-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element content is too short to determine if it is actual text content"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span data-inline-panel-child-count=\"\"> 1</span>",
+              "target": [
+                "span[data-inline-panel-child-count=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_workflow_tasks-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_workflow_tasks-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<label class=\"w-field__label\" for=\"id_workflow_tasks-0-task\" id=\"id_workflow_tasks-0-task-label\">\n            Task<span class=\"w-required-mark\">*</span>\n        </label>",
+              "target": [
+                "#id_workflow_tasks-0-task-label"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"inline_child_workflow_tasks-0-panel-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#inline_child_workflow_tasks-0-panel-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"chooser__title\" data-chooser-title=\"\" id=\"id_workflow_tasks-0-task-title\">Moderators approval</div>",
+              "target": [
+                "#id_workflow_tasks-0-task-title"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div id=\"panel-add_tasks_to_your_workflow-content\" class=\"w-panel__content\">",
+                      "target": [
+                        "#panel-add_tasks_to_your_workflow-content"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_workflow_tasks-ADD\">\n            <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>Add task\n        </button>",
+              "target": [
+                "#id_workflow_tasks-ADD"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.2pt (13.6px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<p class=\"help-block help-info\">",
+              "target": [
+                "#workflow-pages-content > .help-block.help-info"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "bold",
+                    "messageKey": "elmPartiallyObscuring",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it partially overlaps other elements"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" data-chooser-action-choose=\"\" aria-describedby=\"id_pages-0-page-title\">\n                <svg class=\"icon icon-resubmit icon\" aria-hidden=\"true\"><use href=\"#icon-resubmit\"></use></svg>\n                Choose another page\n            </button>",
+              "target": [
+                "button[aria-describedby=\"id_pages-0-page-title\"][data-chooser-action-choose=\"\"][type=\"button\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "bold",
+                    "messageKey": "elmPartiallyObscuring",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it partially overlaps other elements"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a data-chooser-edit-link=\"\" href=\"/admin/pages/1/edit/\" aria-describedby=\"id_pages-0-page-title\" target=\"_blank\" rel=\"noreferrer\">",
+              "target": [
+                "a[data-chooser-edit-link=\"\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blocked": [],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list\n  - 'heading \"Editing workflow: Moderators approval\" [level=1]'\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - link \"Moderators approval\":\n          - /url: \"\"\n  - heading \"Moderators approval\" [level=2]\n  - region \"Give your workflow a name*\":\n    - link \"Give your workflow a name*\":\n      - /url: \"#panel-name-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Give your workflow a name*\" [level=2]\n    - textbox \"Give your workflow a name*\": Moderators approval\n  - region \"Add tasks to your workflow\":\n    - link \"Add tasks to your workflow\":\n      - /url: \"#panel-add_tasks_to_your_workflow-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Add tasks to your workflow\" [level=2]\n    - region \"Task 1\":\n      - link \"Task 1\":\n        - /url: \"#inline_child_workflow_tasks-0-panel-section\"\n      - button \"Toggle section\" [expanded]\n      - heading \"Task 1\" [level=2]\n      - button \"Move up\" [disabled]\n      - button \"Move down\" [disabled]\n      - button \"Drag\"\n      - button \"Delete\"\n      - text: Task* Moderators approval\n      - button \"Actions\"\n    - button \"Add task\"\n  - region \"Assign your workflow to pages\":\n    - link \"Assign your workflow to pages\":\n      - /url: \"#workflow-pages-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Assign your workflow to pages\" [level=2]\n    - paragraph:\n      - text: Workflows apply to child pages too. If you select a parent page here, its child pages will also use this workflow. See\n      - link \"the list of the pages\":\n        - /url: /admin/workflows/usage/1/\n      - text: your workflow applies to.\n    - heading \"Assigned pages\" [level=2]\n    - table:\n      - rowgroup:\n        - row \"Page Action\":\n          - columnheader \"Page\"\n          - columnheader \"Action\"\n      - rowgroup:\n        - row \"Page* Root Actions Delete\":\n          - cell \"Page* Root Actions\":\n            - text: Page* Root\n            - button \"Actions\"\n          - cell \"Delete\":\n            - button \"Delete\"\n        - row \"Page* Choose a page Delete\":\n          - cell \"Page* Choose a page\":\n            - text: Page*\n            - button \"Choose a page\"\n          - cell \"Delete\":\n            - button \"Delete\"\n    - paragraph:\n      - button \"Assign to another page\"\n  - region \"Assign your workflow to snippets\":\n    - link \"Assign your workflow to snippets\":\n      - /url: \"#workflow-content-types-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Assign your workflow to snippets\" [level=2]\n    - text: Content types\n    - checkbox \"Person\" [checked]\n    - text: Person\n  - navigation \"Actions (footer)\":\n    - button \"Save\":\n      - emphasis: Save\n    - button \"More actions\""
+}

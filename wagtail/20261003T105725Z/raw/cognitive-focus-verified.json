@@ -1,0 +1,62 @@
+[
+  {
+    "path": "users/new/",
+    "tab": 25,
+    "info": {
+      "html": "<a href=\"#tab-roles\" class=\"button w-flex w-items-center w-w-fit w-mb-8\" role=\"tab\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" aria-controls=\"tab-roles\">\n                            Roles\n                            <svg class=\"icon icon-arrow-right default\" aria-hidden=\"true\"><use href=\"#icon-arrow-right\"></use></svg>\n                        </a>",
+      "r": {
+        "x": 280,
+        "y": 670.328125,
+        "width": 97.984375,
+        "height": 42,
+        "top": 670.328125,
+        "right": 377.984375,
+        "bottom": 712.328125,
+        "left": 280
+      },
+      "footer": {
+        "x": 280,
+        "y": 738,
+        "width": 320,
+        "height": 62,
+        "top": 738,
+        "right": 600,
+        "bottom": 800,
+        "left": 280
+      },
+      "point": "<a href=\"#tab-roles\" class=\"button w-flex w-items-center w-w-fit w-mb-8\" role=\"tab\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" aria-controls=\"tab-roles\">\n                            Roles\n                            <svg class=\"icon icon-arrow-right default\" aria-hidden=\"true\">",
+      "scrollY": 0,
+      "scrollMax": 0
+    }
+  },
+  {
+    "path": "workflows/edit/1/",
+    "tab": 32,
+    "info": {
+      "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-describedby=\"id_pages-0-page-title tippy-3\" aria-expanded=\"false\">\n        \n        \n            <svg class=\"icon icon-dots-horizontal w-dropdown__toggle-icon\" aria-hidden=\"true\"><use href=\"#icon-dots-horizontal\"></use></svg>\n        \n        \n    </button>",
+      "r": {
+        "x": 407.046875,
+        "y": 412.5625,
+        "width": 32,
+        "height": 32,
+        "top": 412.5625,
+        "right": 439.046875,
+        "bottom": 444.5625,
+        "left": 407.046875
+      },
+      "footer": {
+        "x": 280,
+        "y": 738,
+        "width": 320,
+        "height": 62,
+        "top": 738,
+        "right": 600,
+        "bottom": 800,
+        "left": 280
+      },
+      "point": "<svg class=\"icon icon-dots-horizontal w-dropdown__toggle-icon\" aria-hidden=\"true\"><use href=\"#icon-dots-horizontal\"></use></svg>",
+      "scrollY": 0,
+      "scrollMax": 0
+    }
+  }
+]

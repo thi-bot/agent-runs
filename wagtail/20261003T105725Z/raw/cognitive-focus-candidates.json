@@ -1,0 +1,611 @@
+[
+  {
+    "path": "pages/69/edit/",
+    "w": 1440,
+    "count": 46,
+    "miss": []
+  },
+  {
+    "path": "pages/69/edit/",
+    "w": 320,
+    "count": 32,
+    "miss": [
+      {
+        "html": "<button class=\"w-field__comment-button w-field__comment-button--add\" type=\"button\" data-component=\"add-comment-button\" data-comment-add=\"\" aria-label=\"Add comment\" aria-describedby=\"id_title-label\">\n                    <",
+        "tag": "BUTTON",
+        "id": "",
+        "r": {
+          "x": 300,
+          "y": 293.9375,
+          "width": 32,
+          "height": 48,
+          "top": 293.9375,
+          "right": 332,
+          "bottom": 341.9375,
+          "left": 300
+        },
+        "visible": [
+          {
+            "within": true,
+            "own": false,
+            "cover": "<a href=\"#panel-child-content-form_page_submissions-section\" class=\"w-minimap-item w-minimap-item--h2 w-minimap-item--active \" tabindex=\"-1\""
+          },
+          {
+            "within": true,
+            "own": false,
+            "cover": "<svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-hidden=\"true\"><use href=\"#icon-minus\"></use></svg>"
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": true,
+            "own": false,
+            "cover": "<svg class=\"icon icon-minus w-minimap-item__placeholder\" aria-hidden=\"true\"><use href=\"#icon-minus\"></use></svg>"
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      },
+      {
+        "html": "<div aria-describedby=\"placeholder-8icig\" aria-multiline=\"true\" class=\"notranslate public-DraftEditor-content\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"true\" style=\"outline: none; user-select: text; white-space:",
+        "tag": "DIV",
+        "id": "",
+        "r": {
+          "x": 45,
+          "y": 758.625,
+          "width": 254,
+          "height": 591.5,
+          "top": 758.625,
+          "right": 299,
+          "bottom": 1350.125,
+          "left": 45
+        },
+        "visible": [
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "users/new/",
+    "w": 1440,
+    "count": 26,
+    "miss": [
+      {
+        "html": "<a href=\"#tab-roles\" class=\"button w-flex w-items-center w-w-fit w-mb-8\" role=\"tab\" data-action=\"w-tabs#select:prevent\" data-w-tabs-target=\"trigger\" aria-controls=\"tab-roles\">\n                            Roles\n          ",
+        "tag": "A",
+        "id": "",
+        "r": {
+          "x": 280,
+          "y": 757.328125,
+          "width": 97.984375,
+          "height": 42,
+          "top": 757.328125,
+          "right": 377.984375,
+          "bottom": 799.328125,
+          "left": 280
+        },
+        "visible": [
+          {
+            "within": true,
+            "own": false,
+            "cover": "<button type=\"submit\" class=\"button button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-"
+          },
+          {
+            "within": true,
+            "own": false,
+            "cover": "<button type=\"submit\" class=\"button button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-"
+          },
+          {
+            "within": true,
+            "own": false,
+            "cover": "<nav class=\"actions actions--primary footer__container\" aria-label=\"Actions (footer)\">\n                    \n                        \n\n      "
+          },
+          {
+            "within": true,
+            "own": false,
+            "cover": "<nav class=\"actions actions--primary footer__container\" aria-label=\"Actions (footer)\">\n                    \n                        \n\n      "
+          },
+          {
+            "within": true,
+            "own": false,
+            "cover": "<button type=\"submit\" class=\"button button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "users/new/",
+    "w": 320,
+    "count": 13,
+    "miss": [
+      {
+        "html": "<input type=\"password\" name=\"password1\" autocomplete=\"new-password\" aria-describedby=\"id_password1-helptext\" required=\"\" id=\"id_password1\">",
+        "tag": "INPUT",
+        "id": "id_password1",
+        "r": {
+          "x": 20,
+          "y": 814.515625,
+          "width": 280,
+          "height": 42.5,
+          "top": 814.515625,
+          "right": 300,
+          "bottom": 857.015625,
+          "left": 20
+        },
+        "visible": [
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      },
+      {
+        "html": "<input type=\"password\" name=\"password2\" autocomplete=\"new-password\" aria-describedby=\"id_password2-helptext\" required=\"\" id=\"id_password2\">",
+        "tag": "INPUT",
+        "id": "id_password2",
+        "r": {
+          "x": 20,
+          "y": 919.578125,
+          "width": 280,
+          "height": 42.5,
+          "top": 919.578125,
+          "right": 300,
+          "bottom": 962.078125,
+          "left": 20
+        },
+        "visible": [
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "workflows/edit/1/",
+    "w": 1440,
+    "count": 41,
+    "miss": [
+      {
+        "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-describedby=\"id_pages-0-page-title tippy-3\" aria-expanded=\"false\">\n        \n        \n   ",
+        "tag": "BUTTON",
+        "id": "",
+        "r": {
+          "x": 407.046875,
+          "y": 759.5625,
+          "width": 32,
+          "height": 32,
+          "top": 759.5625,
+          "right": 439.046875,
+          "bottom": 791.5625,
+          "left": 407.046875
+        },
+        "visible": [
+          {
+            "within": true,
+            "own": false,
+            "cover": "<button type=\"submit\" class=\"button button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-"
+          },
+          {
+            "within": true,
+            "own": false,
+            "cover": "<button type=\"submit\" class=\"button button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-"
+          },
+          {
+            "within": true,
+            "own": false,
+            "cover": "<button type=\"submit\" class=\"button button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-"
+          },
+          {
+            "within": true,
+            "own": false,
+            "cover": "<button type=\"submit\" class=\"button button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-"
+          },
+          {
+            "within": true,
+            "own": false,
+            "cover": "<button type=\"submit\" class=\"button button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "workflows/edit/1/",
+    "w": 320,
+    "count": 28,
+    "miss": [
+      {
+        "html": "<a class=\"w-panel__anchor w-panel__anchor--suffix\" href=\"#workflow-pages-section\" aria-labelledby=\"workflow-pages-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><use href=\"#icon-li",
+        "tag": "A",
+        "id": "",
+        "r": {
+          "x": 354.15625,
+          "y": 598.984375,
+          "width": 24,
+          "height": 24,
+          "top": 598.984375,
+          "right": 378.15625,
+          "bottom": 622.984375,
+          "left": 354.15625
+        },
+        "visible": [
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      },
+      {
+        "html": "<button type=\"button\" class=\"w-dropdown__toggle w-dropdown__toggle--icon\" data-w-dropdown-target=\"toggle\" aria-label=\"Actions\" aria-describedby=\"id_pages-0-page-title tippy-3\" aria-expanded=\"false\">\n        \n        \n   ",
+        "tag": "BUTTON",
+        "id": "",
+        "r": {
+          "x": 135.015625,
+          "y": 876.78125,
+          "width": 32,
+          "height": 32,
+          "top": 876.78125,
+          "right": 167.015625,
+          "bottom": 908.78125,
+          "left": 135.015625
+        },
+        "visible": [
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      },
+      {
+        "html": "<button class=\"button button-small no\" type=\"button\" id=\"id_pages-0-DELETE-button\" data-action=\"w-formset#delete\">Delete</button>",
+        "tag": "BUTTON",
+        "id": "id_pages-0-DELETE-button",
+        "r": {
+          "x": 214.234375,
+          "y": 848.59375,
+          "width": 61.1875,
+          "height": 24.359375,
+          "top": 848.59375,
+          "right": 275.421875,
+          "bottom": 872.953125,
+          "left": 214.234375
+        },
+        "visible": [
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      },
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-doc-empty-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-doc-e",
+        "tag": "BUTTON",
+        "id": "",
+        "r": {
+          "x": 20.875,
+          "y": 906.59375,
+          "width": 129.96875,
+          "height": 28,
+          "top": 906.59375,
+          "right": 150.84375,
+          "bottom": 934.59375,
+          "left": 20.875
+        },
+        "visible": [
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      },
+      {
+        "html": "<button class=\"button button-small no\" type=\"button\" id=\"id_pages-1-DELETE-button\" data-action=\"w-formset#delete\">Delete</button>",
+        "tag": "BUTTON",
+        "id": "id_pages-1-DELETE-button",
+        "r": {
+          "x": 214.234375,
+          "y": 831.609375,
+          "width": 61.1875,
+          "height": 24.359375,
+          "top": 831.609375,
+          "right": 275.421875,
+          "bottom": 855.96875,
+          "left": 214.234375
+        },
+        "visible": [
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      },
+      {
+        "html": "<a class=\"w-panel__anchor w-panel__anchor--suffix\" href=\"#workflow-content-types-section\" aria-labelledby=\"workflow-content-types-heading\">\n                <svg class=\"icon icon-link w-panel__icon\" aria-hidden=\"true\"><us",
+        "tag": "A",
+        "id": "",
+        "r": {
+          "x": 327.046875,
+          "y": 772.234375,
+          "width": 24,
+          "height": 24,
+          "top": 772.234375,
+          "right": 351.046875,
+          "bottom": 796.234375,
+          "left": 327.046875
+        },
+        "visible": [
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      },
+      {
+        "html": "<input type=\"checkbox\" name=\"content_types\" value=\"28\" id=\"id_content_types_0\" checked=\"\">",
+        "tag": "INPUT",
+        "id": "id_content_types_0",
+        "r": {
+          "x": -36,
+          "y": 809.234375,
+          "width": 24,
+          "height": 24,
+          "top": 809.234375,
+          "right": -12,
+          "bottom": 833.234375,
+          "left": -36
+        },
+        "visible": [
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      },
+      {
+        "html": "<button type=\"submit\" class=\"button button-longrunning\" data-controller=\"w-progress w-kbd\" data-action=\"w-progress#activate\" data-w-kbd-key-value=\"mod+s\" data-w-kbd-scope-value=\"global\" data-w-progress-active-value=\"Savi",
+        "tag": "BUTTON",
+        "id": "",
+        "r": {
+          "x": -32,
+          "y": 884.234375,
+          "width": 240,
+          "height": 42,
+          "top": 884.234375,
+          "right": 208,
+          "bottom": 926.234375,
+          "left": -32
+        },
+        "visible": [
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      },
+      {
+        "html": "<button type=\"button\" class=\"w-dropdown__toggle button\" data-w-dropdown-target=\"toggle\" aria-expanded=\"false\">\n        <span class=\"w-sr-only\">More actions</span>\n        \n            <svg class=\"icon icon-arrow-up w-dro",
+        "tag": "BUTTON",
+        "id": "",
+        "r": {
+          "x": 208,
+          "y": 828.234375,
+          "width": 32,
+          "height": 42,
+          "top": 828.234375,
+          "right": 240,
+          "bottom": 870.234375,
+          "left": 208
+        },
+        "visible": [
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          },
+          {
+            "within": false,
+            "own": null
+          }
+        ]
+      }
+    ]
+  }
+]

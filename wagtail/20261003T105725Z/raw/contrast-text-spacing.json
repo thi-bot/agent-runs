@@ -1,0 +1,627 @@
+[
+  {
+    "path": "users/new/",
+    "original": [
+      {
+        "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n            !w-bg-transparent\n            !w-border-0\n            !w-rounded-none\n            !w-text-text-label-menus-default\n            !w-outline-offset-inside\n            !w-leading-none\n            placeholder:!w-text-text-label-menus-default\" type=\"text\" id=\"menu-search-q\" name=\"q\" placeholder=\"Search\" data-w-kbd-target=\"element\">",
+        "border": "0px solid rgb(200, 200, 200)",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgba(255, 255, 255, 0.8)",
+        "opacity": "1",
+        "width": 200,
+        "height": 42,
+        "font": "14px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<input type=\"text\" name=\"username\" maxlength=\"150\" aria-describedby=\"id_username-helptext\" required=\"\" id=\"id_username\">",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 840,
+        "height": 42.5,
+        "font": "19px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<input type=\"text\" name=\"first_name\" required=\"\" id=\"id_first_name\">",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 840,
+        "height": 42.5,
+        "font": "19px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<input type=\"text\" name=\"last_name\" required=\"\" id=\"id_last_name\">",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 840,
+        "height": 42.5,
+        "font": "19px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<input type=\"password\" name=\"password1\" autocomplete=\"new-password\" aria-describedby=\"id_password1-helptext\" required=\"\" id=\"id_password1\">",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 840,
+        "height": 42.5,
+        "font": "19px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<input type=\"password\" name=\"password2\" autocomplete=\"new-password\" aria-describedby=\"id_password2-helptext\" required=\"\" id=\"id_password2\">",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 840,
+        "height": 42.5,
+        "font": "19px",
+        "overflow": "clip"
+      }
+    ],
+    "spacing": []
+  },
+  {
+    "path": "styleguide/",
+    "original": [
+      {
+        "html": "<tr class=\"disabled\">\n                    <td class=\"title\">\n                        <h2>Disabled TD with title class</h2>\n                    </td>\n                    <td>Standard TD</td>\n                    <td>Standard TD</td>\n                </tr>",
+        "border": "",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 1080,
+        "height": 52.65625,
+        "font": "12.92px",
+        "overflow": "visible"
+      }
+    ],
+    "spacing": [
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-doc-empty-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-doc-e",
+        "rect": {
+          "x": 280,
+          "y": 7160.1875,
+          "width": 156.296875,
+          "height": 28,
+          "top": 7160.1875,
+          "right": 436.296875,
+          "bottom": 7188.1875,
+          "left": 280
+        },
+        "text": {
+          "x": 308,
+          "y": 7165.6875,
+          "width": 121.296875,
+          "height": 16,
+          "top": 7165.6875,
+          "right": 429.296875,
+          "bottom": 7181.6875,
+          "left": 308
+        },
+        "style": {
+          "padding": "6px",
+          "font": "14px",
+          "lineHeight": "21px",
+          "overflow": "hidden"
+        }
+      },
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-image icon\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></sv",
+        "rect": {
+          "x": 280,
+          "y": 7249.578125,
+          "width": 174.421875,
+          "height": 28,
+          "top": 7249.578125,
+          "right": 454.421875,
+          "bottom": 7277.578125,
+          "left": 280
+        },
+        "text": {
+          "x": 308,
+          "y": 7255.078125,
+          "width": 139.421875,
+          "height": 16,
+          "top": 7255.078125,
+          "right": 447.421875,
+          "bottom": 7271.078125,
+          "left": 308
+        },
+        "style": {
+          "padding": "6px",
+          "font": "14px",
+          "lineHeight": "21px",
+          "overflow": "hidden"
+        }
+      },
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-doc-full-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-doc-fu",
+        "rect": {
+          "x": 280,
+          "y": 7338.96875,
+          "width": 193.34375,
+          "height": 28,
+          "top": 7338.96875,
+          "right": 473.34375,
+          "bottom": 7366.96875,
+          "left": 280
+        },
+        "text": {
+          "x": 308,
+          "y": 7344.46875,
+          "width": 158.34375,
+          "height": 16,
+          "top": 7344.46875,
+          "right": 466.34375,
+          "bottom": 7360.46875,
+          "left": 308
+        },
+        "style": {
+          "padding": "6px",
+          "font": "14px",
+          "lineHeight": "21px",
+          "overflow": "hidden"
+        }
+      },
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inver",
+        "rect": {
+          "x": 280,
+          "y": 7428.359375,
+          "width": 139.015625,
+          "height": 28,
+          "top": 7428.359375,
+          "right": 419.015625,
+          "bottom": 7456.359375,
+          "left": 280
+        },
+        "text": {
+          "x": 308,
+          "y": 7433.859375,
+          "width": 104.015625,
+          "height": 16,
+          "top": 7433.859375,
+          "right": 412.015625,
+          "bottom": 7449.859375,
+          "left": 308
+        },
+        "style": {
+          "padding": "6px",
+          "font": "14px",
+          "lineHeight": "21px",
+          "overflow": "hidden"
+        }
+      }
+    ]
+  },
+  {
+    "path": "workflows/edit/1/",
+    "original": [
+      {
+        "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n            !w-bg-transparent\n            !w-border-0\n            !w-rounded-none\n            !w-text-text-label-menus-default\n            !w-outline-offset-inside\n            !w-leading-none\n            placeholder:!w-text-text-label-menus-default\" type=\"text\" id=\"menu-search-q\" name=\"q\" placeholder=\"Search\" data-w-kbd-target=\"element\">",
+        "border": "0px solid rgb(200, 200, 200)",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgba(255, 255, 255, 0.8)",
+        "opacity": "1",
+        "width": 200,
+        "height": 42,
+        "font": "14px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<input type=\"text\" name=\"name\" value=\"Moderators approval\" maxlength=\"255\" required=\"\" id=\"id_name\">",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 840,
+        "height": 42.5,
+        "font": "19px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-thumbtack icon\" aria-hidden=\"true\"><use href=\"#icon-thumbtack\"></use></svg>\n            Choose a task\n        </button>",
+        "border": "1px solid rgba(0, 0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 125, 126)",
+        "opacity": "1",
+        "width": 0,
+        "height": 0,
+        "font": "14px",
+        "overflow": "hidden"
+      },
+      {
+        "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_workflow_tasks-ADD\">\n            <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></use></svg>Add task\n        </button>",
+        "border": "1px solid rgba(0, 0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 125, 126)",
+        "opacity": "1",
+        "width": 89.484375,
+        "height": 28,
+        "font": "14px",
+        "overflow": "hidden"
+      },
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-doc-empty-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-doc-empty-inverse\"></use></svg>\n            Choose a page\n        </button>",
+        "border": "1px solid rgba(0, 0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 125, 126)",
+        "opacity": "1",
+        "width": 0,
+        "height": 0,
+        "font": "14px",
+        "overflow": "hidden"
+      },
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-doc-empty-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-doc-empty-inverse\"></use></svg>\n            Choose a page\n        </button>",
+        "border": "1px solid rgba(0, 0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 125, 126)",
+        "opacity": "1",
+        "width": 129.96875,
+        "height": 28,
+        "font": "14px",
+        "overflow": "hidden"
+      }
+    ],
+    "spacing": [
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-thumbtack icon\" aria-hidden=\"true\"><use href=\"#icon-thumbtack\"></",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "text": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "padding": "6px",
+          "font": "14px",
+          "lineHeight": "21px",
+          "overflow": "hidden"
+        }
+      },
+      {
+        "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_workflow_tasks-ADD\">\n            <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"",
+        "rect": {
+          "x": 266,
+          "y": 445.390625,
+          "width": 105.15625,
+          "height": 28,
+          "top": 445.390625,
+          "right": 371.15625,
+          "bottom": 473.390625,
+          "left": 266
+        },
+        "text": {
+          "x": 294,
+          "y": 450.890625,
+          "width": 70.15625,
+          "height": 16,
+          "top": 450.890625,
+          "right": 364.15625,
+          "bottom": 466.890625,
+          "left": 294
+        },
+        "style": {
+          "padding": "6px",
+          "font": "14px",
+          "lineHeight": "21px",
+          "overflow": "hidden"
+        }
+      },
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-doc-empty-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-doc-e",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "text": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "padding": "6px",
+          "font": "14px",
+          "lineHeight": "21px",
+          "overflow": "hidden"
+        }
+      },
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-doc-empty-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-doc-e",
+        "rect": {
+          "x": 292.90625,
+          "y": 849.984375,
+          "width": 156.296875,
+          "height": 28,
+          "top": 849.984375,
+          "right": 449.203125,
+          "bottom": 877.984375,
+          "left": 292.90625
+        },
+        "text": {
+          "x": 320.90625,
+          "y": 855.484375,
+          "width": 121.296875,
+          "height": 16,
+          "top": 855.484375,
+          "right": 442.203125,
+          "bottom": 871.484375,
+          "left": 320.90625
+        },
+        "style": {
+          "padding": "6px",
+          "font": "14px",
+          "lineHeight": "21px",
+          "overflow": "hidden"
+        }
+      }
+    ]
+  },
+  {
+    "path": "pages/69/edit/",
+    "original": [
+      {
+        "html": "<input class=\"\n            \n            !w-pl-[55px]\n            !w-py-[13px]\n            !w-subpixel-antialiased\n            !w-absolute\n            !w-left-0\n            !w-font-normal\n            !w-top-0\n            !w-text-14\n            !w-bg-transparent\n            !w-border-0\n            !w-rounded-none\n            !w-text-text-label-menus-default\n            !w-outline-offset-inside\n            !w-leading-none\n            placeholder:!w-text-text-label-menus-default\" type=\"text\" id=\"menu-search-q\" name=\"q\" placeholder=\"Search\" data-w-kbd-target=\"element\">",
+        "border": "0px solid rgb(200, 200, 200)",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgba(255, 255, 255, 0.8)",
+        "opacity": "1",
+        "width": 200,
+        "height": 42,
+        "font": "14px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<select id=\"id_preview_mode\" name=\"preview_mode\" class=\"w-preview__mode-select\" data-w-preview-target=\"mode\" data-action=\"w-preview#setPreviewMode\">\n                            \n                                <option value=\"form\" selected=\"\">Form</option>\n                            \n                                <option value=\"landing\">Landing page</option>\n                            \n                        </select>",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 0,
+        "height": 0,
+        "font": "19px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<input type=\"text\" name=\"title\" value=\"Contact Us\" maxlength=\"255\" data-controller=\"w-sync\" data-w-sync-target-value=\"#id_slug\" placeholder=\"Page title*\" aria-describedby=\"panel-child-content-child-title-helptext\" required=\"\" id=\"id_title\" data-w-sync-disabled-value=\"false\">",
+        "border": "1px solid rgba(0, 0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 840,
+        "height": 53,
+        "font": "30px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-image icon\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></svg>\n            Choose an image\n        </button>",
+        "border": "1px solid rgba(0, 0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 125, 126)",
+        "opacity": "1",
+        "width": 144.75,
+        "height": 28,
+        "font": "14px",
+        "overflow": "hidden"
+      },
+      {
+        "html": "<input type=\"text\" name=\"form_fields-0-label\" value=\"Subject\" maxlength=\"255\" aria-describedby=\"panel-child-content-child-form_fields-0-child-label-helptext\" id=\"id_form_fields-0-label\">",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 802,
+        "height": 42.5,
+        "font": "19px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<input type=\"text\" name=\"form_fields-0-help_text\" maxlength=\"255\" id=\"id_form_fields-0-help_text\">",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 802,
+        "height": 42.5,
+        "font": "19px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<select name=\"form_fields-0-field_type\" id=\"id_form_fields-0-field_type\">\n  <option value=\"\">---------</option>\n\n  <option value=\"singleline\" selected=\"\">Single line text</option>\n\n  <option value=\"multiline\">Multi-line text</option>\n\n  <option value=\"email\">Email</option>\n\n  <option value=\"number\">Number</option>\n\n  <option value=\"url\">URL</option>\n\n  <option value=\"checkbox\">Checkbox</option>\n\n  <option value=\"checkboxes\">Checkboxes</option>\n\n  <option value=\"dropdown\">Drop down</option>\n\n  <option value=\"multiselect\">Multiple select</option>\n\n  <option value=\"radio\">Radio buttons</option>\n\n  <option value=\"date\">Date</option>\n\n  <option va",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 188,
+        "height": 43.796875,
+        "font": "19px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<textarea name=\"form_fields-0-choices\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-0-child-choices-helptext\" id=\"id_form_fields-0-choices\" style=\"overflow: hidden; overflow-wrap: break-word; text-align: start; height: 71px;\"></textarea>",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 802,
+        "height": 71,
+        "font": "19px",
+        "overflow": "hidden"
+      },
+      {
+        "html": "<textarea name=\"form_fields-0-default_value\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-0-child-default_value-helptext\" id=\"id_form_fields-0-default_value\" style=\"overflow: hidden; overflow-wrap: break-word; text-align: start; height: 71px;\"></textarea>",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 802,
+        "height": 71,
+        "font": "19px",
+        "overflow": "hidden"
+      },
+      {
+        "html": "<input type=\"text\" name=\"form_fields-1-label\" value=\"Your Name\" maxlength=\"255\" aria-describedby=\"panel-child-content-child-form_fields-1-child-label-helptext\" id=\"id_form_fields-1-label\">",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 802,
+        "height": 42.5,
+        "font": "19px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<input type=\"text\" name=\"form_fields-1-help_text\" maxlength=\"255\" id=\"id_form_fields-1-help_text\">",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 802,
+        "height": 42.5,
+        "font": "19px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<select name=\"form_fields-1-field_type\" id=\"id_form_fields-1-field_type\">\n  <option value=\"\">---------</option>\n\n  <option value=\"singleline\" selected=\"\">Single line text</option>\n\n  <option value=\"multiline\">Multi-line text</option>\n\n  <option value=\"email\">Email</option>\n\n  <option value=\"number\">Number</option>\n\n  <option value=\"url\">URL</option>\n\n  <option value=\"checkbox\">Checkbox</option>\n\n  <option value=\"checkboxes\">Checkboxes</option>\n\n  <option value=\"dropdown\">Drop down</option>\n\n  <option value=\"multiselect\">Multiple select</option>\n\n  <option value=\"radio\">Radio buttons</option>\n\n  <option value=\"date\">Date</option>\n\n  <option va",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 188,
+        "height": 43.796875,
+        "font": "19px",
+        "overflow": "clip"
+      },
+      {
+        "html": "<textarea name=\"form_fields-1-choices\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-1-child-choices-helptext\" id=\"id_form_fields-1-choices\" style=\"overflow: hidden; overflow-wrap: break-word; text-align: start; height: 71px;\"></textarea>",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 802,
+        "height": 71,
+        "font": "19px",
+        "overflow": "hidden"
+      },
+      {
+        "html": "<textarea name=\"form_fields-1-default_value\" cols=\"40\" rows=\"1\" data-controller=\"w-autosize\" class=\"w-field__autosize\" aria-describedby=\"panel-child-content-child-form_fields-1-child-default_value-helptext\" id=\"id_form_fields-1-default_value\" style=\"overflow: hidden; overflow-wrap: break-word; text-align: start; height: 71px;\"></textarea>",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 802,
+        "height": 71,
+        "font": "19px",
+        "overflow": "hidden"
+      },
+      {
+        "html": "<input type=\"text\" name=\"form_fields-2-label\" value=\"Your Email\" maxlength=\"255\" aria-describedby=\"panel-child-content-child-form_fields-2-child-label-helptext\" id=\"id_form_fields-2-label\">",
+        "border": "1px solid rgb(200, 200, 200)",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(38, 38, 38)",
+        "opacity": "1",
+        "width": 802,
+        "height": 42.5,
+        "font": "19px",
+        "overflow": "clip"
+      }
+    ],
+    "spacing": [
+      {
+        "html": "<button type=\"button\" data-chooser-action-choose=\"\" class=\"button button-small button-secondary chooser__choose-button\">\n            <svg class=\"icon icon-image icon\" aria-hidden=\"true\"><use href=\"#icon-image\"></use></sv",
+        "rect": {
+          "x": 280,
+          "y": 531.828125,
+          "width": 174.421875,
+          "height": 28,
+          "top": 531.828125,
+          "right": 454.421875,
+          "bottom": 559.828125,
+          "left": 280
+        },
+        "text": {
+          "x": 308,
+          "y": 537.328125,
+          "width": 139.421875,
+          "height": 16,
+          "top": 537.328125,
+          "right": 447.421875,
+          "bottom": 553.328125,
+          "left": 308
+        },
+        "style": {
+          "padding": "6px",
+          "font": "14px",
+          "lineHeight": "21px",
+          "overflow": "hidden"
+        }
+      },
+      {
+        "html": "<button type=\"button\" class=\"button button-small button-secondary chooser__choose-button\" id=\"id_form_fields-ADD\">\n            <svg class=\"icon icon-plus-inverse icon\" aria-hidden=\"true\"><use href=\"#icon-plus-inverse\"></",
+        "rect": {
+          "x": 266,
+          "y": 4800.109375,
+          "width": 111.515625,
+          "height": 28,
+          "top": 4800.109375,
+          "right": 377.515625,
+          "bottom": 4828.109375,
+          "left": 266
+        },
+        "text": {
+          "x": 294,
+          "y": 4805.609375,
+          "width": 76.515625,
+          "height": 16,
+          "top": 4805.609375,
+          "right": 370.515625,
+          "bottom": 4821.609375,
+          "left": 294
+        },
+        "style": {
+          "padding": "6px",
+          "font": "14px",
+          "lineHeight": "21px",
+          "overflow": "hidden"
+        }
+      }
+    ]
+  }
+]

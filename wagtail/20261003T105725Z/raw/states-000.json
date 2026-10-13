@@ -1,0 +1,740 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/",
+  "states": [
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258"
+          ],
+          "description": "Ensure touch targets have sufficient size and space",
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/target-size?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "target-size",
+                  "data": {
+                    "minSize": 24,
+                    "width": 67.5,
+                    "height": 20.4
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Target has insufficient size (67.5px by 20.4px, should be at least 24px by 24px)"
+                },
+                {
+                  "id": "target-offset",
+                  "data": {
+                    "closestOffset": 7.6,
+                    "minOffset": 24
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<a href=\"/admin/pages/82/edit/\">Edit</a>",
+                      "target": [
+                        ".tippy-content[data-state=\"visible\"] > .w-dropdown__content[data-w-dropdown-target=\"content\"] > a[href$=\"edit/\"]"
+                      ]
+                    },
+                    {
+                      "html": "<a href=\"/admin/pages/workflow/preview/82/1/\" target=\"_blank\" rel=\"noreferrer\">Preview</a>",
+                      "target": [
+                        ".tippy-content[data-state=\"visible\"] > .w-dropdown__content[data-w-dropdown-target=\"content\"] > a[target=\"_blank\"][rel=\"noreferrer\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 7.6px instead of at least 24px."
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\" data-w-tooltip-placement-value=\"top\">",
+              "target": [
+                "#objects-in-workflow-content > .listing.listing--dashboard > tbody > tr > td:nth-child(5) > .w-human-readable-date[data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\"][data-w-tooltip-placement-value=\"top\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Target has insufficient size (67.5px by 20.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 7.6px instead of at least 24px."
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=playwright",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-labelledby=\"header-title\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-labelledby=\"header-title\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<section class=\"w-summary\" aria-labelledby=\"header-title\">",
+              "target": [
+                ".w-summary"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-labelledby=\"header-title\""
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.7pt (12.92px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<time class=\"w-human-readable-date__date\" datetime=\"2023-09-01T17:07:42.508000+00:00\">\n        2&nbsp;years ago\n    </time>",
+              "target": [
+                "#objects-in-workflow-content > .listing.listing--dashboard > tbody > tr > td:nth-child(5) > .w-human-readable-date[data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\"][data-w-tooltip-placement-value=\"top\"] > time"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258"
+          ],
+          "description": "Ensure touch targets have sufficient size and space",
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/target-size?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "target-size",
+                  "data": {
+                    "minSize": 24,
+                    "width": 67.5,
+                    "height": 20.4
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Target has insufficient size (67.5px by 20.4px, should be at least 24px by 24px)"
+                },
+                {
+                  "id": "target-offset",
+                  "data": {
+                    "closestOffset": 7.6,
+                    "minOffset": 24
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<button data-workflow-action-url=\"/admin/snippets/base/person/workflow/action/4/approve/3/\" data-launch-modal=\"\">Approve with comment</button>",
+                      "target": [
+                        ".tippy-content[data-state=\"visible\"] > .w-dropdown__content[data-w-dropdown-target=\"content\"] > button[data-launch-modal=\"\"]:nth-child(3)"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 7.6px instead of at least 24px."
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\" data-w-tooltip-placement-value=\"top\">",
+              "target": [
+                "#objects-in-workflow-content > .listing.listing--dashboard > tbody > tr > td:nth-child(5) > .w-human-readable-date[data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\"][data-w-tooltip-placement-value=\"top\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Target has insufficient size (67.5px by 20.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 7.6px instead of at least 24px."
+            },
+            {
+              "any": [
+                {
+                  "id": "target-size",
+                  "data": {
+                    "minSize": 24,
+                    "width": 67.5,
+                    "height": 20.4
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Target has insufficient size (67.5px by 20.4px, should be at least 24px by 24px)"
+                },
+                {
+                  "id": "target-offset",
+                  "data": {
+                    "closestOffset": 7.6,
+                    "minOffset": 24
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<a href=\"/admin/snippets/base/person/history/4/revisions/compare/78...109/\">Compare with previous version</a>",
+                      "target": [
+                        ".tippy-content[data-state=\"visible\"] > .w-dropdown__content[data-w-dropdown-target=\"content\"] > a:nth-child(7)"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 7.6px instead of at least 24px."
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\" data-w-tooltip-placement-value=\"top\">",
+              "target": [
+                "td:nth-child(6) > .w-human-readable-date[data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\"][data-w-tooltip-placement-value=\"top\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Target has insufficient size (67.5px by 20.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 7.6px instead of at least 24px."
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=playwright",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-labelledby=\"header-title\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-labelledby=\"header-title\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<section class=\"w-summary\" aria-labelledby=\"header-title\">",
+              "target": [
+                ".w-summary"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-labelledby=\"header-title\""
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.7pt (12.92px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<time class=\"w-human-readable-date__date\" datetime=\"2023-09-01T17:07:42.508000+00:00\">\n        2&nbsp;years ago\n    </time>",
+              "target": [
+                "#objects-in-workflow-content > .listing.listing--dashboard > tbody > tr > td:nth-child(5) > .w-human-readable-date[data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\"][data-w-tooltip-placement-value=\"top\"] > time"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.7pt (12.92px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<time class=\"w-human-readable-date__date\" datetime=\"2023-09-01T17:07:42.508000+00:00\">\n        2&nbsp;years ago\n    </time>",
+              "target": [
+                "td:nth-child(6) > .w-human-readable-date[data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\"][data-w-tooltip-placement-value=\"top\"] > time"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "bold",
+                    "messageKey": "elmPartiallyObscured",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"tippy-box\" data-state=\"visible\" tabindex=\"-1\" data-theme=\"dropdown\" data-animation=\"fade\" role=\"tooltip\" style=\"max-width: 350px; transition-duration: 300ms;\" data-placement=\"top\">",
+                      "target": [
+                        "div[data-state=\"visible\"][data-placement=\"top\"][data-theme=\"dropdown\"]"
+                      ]
+                    },
+                    {
+                      "html": "<section class=\"w-panel w-panel--dashboard\" id=\"awaiting-review-section\" aria-labelledby=\"awaiting-review-heading\" data-panel=\"\">",
+                      "target": [
+                        "#awaiting-review-section"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it's partially obscured by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a href=\"/admin/snippets/base/person/history/4/revisions/compare/live...109/\">Compare with live version</a>",
+              "target": [
+                ".tippy-content[data-state=\"visible\"] > .w-dropdown__content[data-w-dropdown-target=\"content\"] > a:nth-child(6)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "bold",
+                    "messageKey": "elmPartiallyObscured",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"tippy-box\" data-state=\"visible\" tabindex=\"-1\" data-theme=\"dropdown\" data-animation=\"fade\" role=\"tooltip\" style=\"max-width: 350px; transition-duration: 300ms;\" data-placement=\"top\">",
+                      "target": [
+                        "div[data-state=\"visible\"][data-placement=\"top\"][data-theme=\"dropdown\"]"
+                      ]
+                    },
+                    {
+                      "html": "<section class=\"w-panel w-panel--dashboard\" id=\"awaiting-review-section\" aria-labelledby=\"awaiting-review-heading\" data-panel=\"\">",
+                      "target": [
+                        "#awaiting-review-section"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it's partially obscured by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a href=\"/admin/snippets/base/person/history/4/revisions/compare/78...109/\">Compare with previous version</a>",
+              "target": [
+                ".tippy-content[data-state=\"visible\"] > .w-dropdown__content[data-w-dropdown-target=\"content\"] > a:nth-child(7)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dropdown",
+      "name": "Actions",
+      "violations": [
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258"
+          ],
+          "description": "Ensure touch targets have sufficient size and space",
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/target-size?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "target-size",
+                  "data": {
+                    "minSize": 24,
+                    "width": 67.5,
+                    "height": 20.4
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Target has insufficient size (67.5px by 20.4px, should be at least 24px by 24px)"
+                },
+                {
+                  "id": "target-offset",
+                  "data": {
+                    "closestOffset": 7.6,
+                    "minOffset": 24
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<button data-workflow-action-url=\"/admin/pages/workflow/action/60/reject/1/\" data-launch-modal=\"\">Request changes</button>",
+                      "target": [
+                        ".tippy-content[data-state=\"visible\"] > .w-dropdown__content[data-w-dropdown-target=\"content\"] > button[data-launch-modal=\"\"]:nth-child(1)"
+                      ]
+                    },
+                    {
+                      "html": "<button data-workflow-action-url=\"/admin/pages/workflow/action/60/approve/1/\">Approve</button>",
+                      "target": [
+                        ".tippy-content[data-state=\"visible\"] > .w-dropdown__content[data-w-dropdown-target=\"content\"] > button:nth-child(2)"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 7.6px instead of at least 24px."
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\" data-w-tooltip-placement-value=\"top\">",
+              "target": [
+                "#objects-in-workflow-content > .listing.listing--dashboard > tbody > tr > td:nth-child(5) > .w-human-readable-date[data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\"][data-w-tooltip-placement-value=\"top\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Target has insufficient size (67.5px by 20.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 7.6px instead of at least 24px."
+            },
+            {
+              "any": [
+                {
+                  "id": "target-size",
+                  "data": {
+                    "minSize": 24,
+                    "width": 67.5,
+                    "height": 20.4
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Target has insufficient size (67.5px by 20.4px, should be at least 24px by 24px)"
+                },
+                {
+                  "id": "target-offset",
+                  "data": {
+                    "closestOffset": 7.6,
+                    "minOffset": 24
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<a href=\"/admin/pages/workflow/preview/60/1/\" target=\"_blank\" rel=\"noreferrer\">Preview</a>",
+                      "target": [
+                        ".tippy-content[data-state=\"visible\"] > .w-dropdown__content[data-w-dropdown-target=\"content\"] > a[target=\"_blank\"][rel=\"noreferrer\"]"
+                      ]
+                    },
+                    {
+                      "html": "<a href=\"/admin/pages/60/revisions/compare/live...107/\">Compare with live version</a>",
+                      "target": [
+                        ".tippy-content[data-state=\"visible\"] > .w-dropdown__content[data-w-dropdown-target=\"content\"] > a:nth-child(6)"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 7.6px instead of at least 24px."
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\" data-w-tooltip-placement-value=\"top\">",
+              "target": [
+                "td:nth-child(6) > .w-human-readable-date[data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\"][data-w-tooltip-placement-value=\"top\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Target has insufficient size (67.5px by 20.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 7.6px instead of at least 24px."
+            },
+            {
+              "any": [
+                {
+                  "id": "target-size",
+                  "data": {
+                    "minSize": 24,
+                    "width": 67.5,
+                    "height": 20.4
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Target has insufficient size (67.5px by 20.4px, should be at least 24px by 24px)"
+                },
+                {
+                  "id": "target-offset",
+                  "data": {
+                    "closestOffset": 7.6,
+                    "minOffset": 24
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<a href=\"/admin/pages/60/revisions/compare/2...107/\">Compare with previous version</a>",
+                      "target": [
+                        ".tippy-content[data-state=\"visible\"] > .w-dropdown__content[data-w-dropdown-target=\"content\"] > a:nth-child(7)"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 7.6px instead of at least 24px."
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" class=\"w-human-readable-date\" data-controller=\"w-tooltip\" data-w-tooltip-content-value=\"Sept. 1, 2023, 5:04 p.m.\" data-w-tooltip-placement-value=\"top\">",
+              "target": [
+                "button[data-w-tooltip-content-value=\"Sept. 1, 2023, 5:04 p.m.\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Target has insufficient size (67.5px by 20.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 7.6px instead of at least 24px."
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=playwright",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": {
+                    "messageKey": "noId",
+                    "needsReview": "aria-labelledby=\"header-title\""
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "ARIA attribute element ID does not exist on the page: aria-labelledby=\"header-title\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<section class=\"w-summary\" aria-labelledby=\"header-title\">",
+              "target": [
+                ".w-summary"
+              ],
+              "failureSummary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-labelledby=\"header-title\""
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.7pt (12.92px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<time class=\"w-human-readable-date__date\" datetime=\"2023-09-01T17:07:42.508000+00:00\">\n        2&nbsp;years ago\n    </time>",
+              "target": [
+                "#objects-in-workflow-content > .listing.listing--dashboard > tbody > tr > td:nth-child(5) > .w-human-readable-date[data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\"][data-w-tooltip-placement-value=\"top\"] > time"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.7pt (12.92px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<time class=\"w-human-readable-date__date\" datetime=\"2023-09-01T17:07:42.508000+00:00\">\n        2&nbsp;years ago\n    </time>",
+              "target": [
+                "td:nth-child(6) > .w-human-readable-date[data-w-tooltip-content-value=\"Sept. 1, 2023, 5:07 p.m.\"][data-w-tooltip-placement-value=\"top\"] > time"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.7pt (12.92px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgOverlap",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<time class=\"w-human-readable-date__date\" datetime=\"2023-09-01T17:04:03.544000+00:00\">\n        2&nbsp;years ago\n    </time>",
+              "target": [
+                "button[data-w-tooltip-content-value=\"Sept. 1, 2023, 5:04 p.m.\"] > time"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blocked": [],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list:\n      - listitem: Sorry, you do not have permission to access this area.\n  - paragraph:\n    - strong: Wagtail upgrade available\n  - paragraph:\n    - text: \"Your version:\"\n    - strong: \"7.4\"\n    - text: \". New version:\"\n    - strong: \"8.0\"\n    - text: .\n    - link \"Read the release notes.\":\n      - /url: https://docs.wagtail.org/en/stable/releases/8.0.html\n  - button \"Close\"\n  - heading \"The Wagtail Bakery\" [level=1]\n  - region:\n    - heading \"Site summary\" [level=2]\n    - list:\n      - listitem:\n        - link \"34 Pages created in The Wagtail Bakery\":\n          - /url: /admin/pages/60/\n      - listitem:\n        - link \"39 Images created in The Wagtail Bakery\":\n          - /url: /admin/images/\n      - listitem:\n        - link \"2 Documents created in The Wagtail Bakery\":\n          - /url: /admin/documents/\n  - search:\n    - text: Search term\n    - textbox \"Search term\":\n      - /placeholder: Search all pages…\n    - button \"Search\"\n  - link \"Edit account avatar\":\n    - /url: /admin/account/#avatar-section\n  - heading \"Admin User\" [level=2]\n  - list:\n    - listitem:\n      - link \"Account\":\n        - /url: /admin/account/\n    - listitem:\n      - link \"Wagtail 7.4 editor guide\":\n        - /url: https://guide.wagtail.org/en-7.4.x/\n  - region \"Your pages and snippets in a workflow\":\n    - link \"Your pages and snippets in a workflow\":\n      - /url: \"#objects-in-workflow-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Your pages and snippets in a workflow\" [level=2]\n    - table:\n      - rowgroup:\n        - row \"Title Language Privacy and access Task Task started\":\n          - columnheader \"Title\"\n          - columnheader \"Language\"\n          - columnheader \"Privacy and access\"\n          - columnheader \"Task\"\n          - columnheader \"Task started\"\n      - rowgroup:\n        - row \"Southern Cornbread English Awaiting Moderators approval 2 years ago\":\n          - cell \"Southern Cornbread\":\n            - link \"Southern Cornbread\":\n              - /url: /admin/pages/82/edit/\n          - cell \"English\"\n          - cell\n          - cell \"Awaiting Moderators approval\"\n          - cell \"2 years ago\":\n            - button \"2 years ago\":\n              - time: 2 years ago\n          - cell\n  - region \"Awaiting your review\":\n    - link \"Awaiting your review\":\n      - /url: \"#awaiting-review-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Awaiting your review\" [level=2]\n    - table:\n      - rowgroup:\n        - row \"Title Language Privacy and access Tasks Task submitted by Task started\":\n          - columnheader \"Title\"\n          - columnheader \"Language\"\n          - columnheader \"Privacy and access\"\n          - columnheader \"Tasks\"\n          - columnheader \"Task submitted by\"\n          - columnheader \"Task started\"\n      - rowgroup:\n        - row \"Southern Cornbread English Admin User 2 years ago Actions\":\n          - cell \"Southern Cornbread\":\n            - link \"Southern Cornbread\":\n              - /url: /admin/pages/82/edit/\n          - cell \"English\"\n          - cell\n          - cell\n          - cell \"Admin User\"\n          - cell \"2 years ago\":\n            - button \"2 years ago\":\n              - time: 2 years ago\n          - cell \"Actions\":\n            - list:\n              - listitem:\n                - button \"Actions\"\n        - row \"Muddy Waters Eddy Thorsørensen 2 years ago Actions\":\n          - cell \"Muddy Waters\":\n            - link \"Muddy Waters\":\n              - /url: /admin/snippets/base/person/edit/4/\n          - cell\n          - cell\n          - cell\n          - cell \"Eddy Thorsørensen\"\n          - cell \"2 years ago\":\n            - button \"2 years ago\":\n              - time: 2 years ago\n          - cell \"Actions\":\n            - list:\n              - listitem:\n                - button \"Actions\"\n        - row \"Welcome to the Wagtail Bakery! English Eddy Thorsørensen 2 years ago Actions\":\n          - cell \"Welcome to the Wagtail Bakery!\":\n            - link \"Welcome to the Wagtail Bakery!\":\n              - /url: /admin/pages/60/edit/\n          - cell \"English\"\n          - cell\n          - cell\n          - cell \"Eddy Thorsørensen\"\n          - cell \"2 years ago\":\n            - button \"2 years ago\":\n              - time: 2 years ago\n          - cell \"Actions\":\n            - list:\n              - listitem:\n                - button \"Actions\"\n  - region \"Your most recent edits\":\n    - link \"Your most recent edits\":\n      - /url: \"#recent-edits-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Your most recent edits\" [level=2]\n    - table:\n      - rowgroup:\n        - row \"Title Language Privacy and access Status Date\":\n          - columnheader \"Title\"\n          - columnheader \"Language\"\n          - columnheader \"Privacy and access\"\n          - columnheader \"Status\"\n          - columnheader \"Date\"\n      - rowgroup:\n        - 'row \"Bread and Circuses English Current page status: live + draft 2 years ago Actions\"':\n          - cell \"Bread and Circuses\":\n            - link \"Bread and Circuses\":\n              - /url: /admin/pages/68/edit/\n          - cell \"English\"\n          - cell\n          - 'cell \"Current page status: live + draft\"':\n            - 'link \"Current page status: live + draft\"':\n              - /url: /blog/bread-circuses/\n          - cell \"2 years ago\":\n            - button \"2 years ago\":\n              - time: 2 years ago\n          - cell \"Actions\":\n            - list:\n              - listitem:\n                - button \"Actions\"\n        - 'row \"Southern Cornbread English Current page status: live + in moderation 2 years ago Actions\"':\n          - cell \"Southern Cornbread\":\n            - link \"Southern Cornbread\":\n              - /url: /admin/pages/82/edit/\n          - cell \"English\"\n          - cell\n          - 'cell \"Current page status: live + in moderation\"':\n            - 'link \"Current page status: live + in moderation\"':\n              - /url: /recipes/southern-cornbread/\n          - cell \"2 years ago\":\n            - button \"2 years ago\":\n              - time: 2 years ago\n          - cell \"Actions\":\n            - list:\n              - listitem:\n                - button \"Actions\"\n        - 'row \"Contact Us English Current page status: live 2 years ago Actions\"':\n          - cell \"Contact Us\":\n            - link \"Contact Us\":\n              - /url: /admin/pages/69/edit/\n          - cell \"English\"\n          - cell\n          - 'cell \"Current page status: live\"':\n            - 'link \"Current page status: live\"':\n              - /url: /contact-us/\n          - cell \"2 years ago\":\n            - button \"2 years ago\":\n              - time: 2 years ago\n          - cell \"Actions\":\n            - list:\n              - listitem:\n                - button \"Actions\"\n        - 'row \"Recipes English Current page status: live 2 years ago Actions\"':\n          - cell \"Recipes\":\n            - link \"Recipes\":\n              - /url: /admin/pages/80/edit/\n          - cell \"English\"\n          - cell\n          - 'cell \"Current page status: live\"':\n            - 'link \"Current page status: live\"':\n              - /url: /recipes/\n          - cell \"2 years ago\":\n            - button \"2 years ago\":\n              - time: 2 years ago\n          - cell \"Actions\":\n            - list:\n              - listitem:\n                - button \"Actions\"\n        - 'row \"Desserts with Benefits English Current page status: live 2 years ago Actions\"':\n          - cell \"Desserts with Benefits\":\n            - link \"Desserts with Benefits\":\n              - /url: /admin/pages/77/edit/\n          - cell \"English\"\n          - cell\n          - 'cell \"Current page status: live\"':\n            - 'link \"Current page status: live\"':\n              - /url: /blog/desserts-benefits/\n          - cell \"2 years ago\":\n            - button \"2 years ago\":\n              - time: 2 years ago\n          - cell \"Actions\":\n            - list:\n              - listitem:\n                - button \"Actions\"\n  - region \"Your locked pages\":\n    - link \"Your locked pages\":\n      - /url: \"#locked-pages-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Your locked pages\" [level=2]\n    - table:\n      - rowgroup:\n        - row \"Title Language Privacy and access Status Locked at\":\n          - columnheader \"Title\"\n          - columnheader \"Language\"\n          - columnheader \"Privacy and access\"\n          - columnheader \"Status\"\n          - columnheader \"Locked at\"\n      - rowgroup:\n        - 'row \"Contact Us English Current page status: live 2 years ago Actions\"':\n          - cell \"Contact Us\":\n            - link \"Contact Us\":\n              - /url: /admin/pages/69/edit/\n          - cell \"English\"\n          - cell\n          - 'cell \"Current page status: live\"':\n            - 'link \"Current page status: live\"':\n              - /url: /contact-us/\n          - cell \"2 years ago\":\n            - button \"2 years ago\":\n              - time: 2 years ago\n          - cell \"Actions\":\n            - list:\n              - listitem:\n                - button \"Actions\""
+}

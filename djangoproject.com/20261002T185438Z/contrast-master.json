@@ -1,0 +1,34 @@
+{
+  "skill": "contrast-master",
+  "scope": [
+    "djangoproject/scss/_style.scss",
+    "djangoproject/scss/_utils.scss",
+    "djangoproject/scss/_dark-mode.scss",
+    "djangoproject/templates/fundraising/includes/donation_form_with_heart.html"
+  ],
+  "findings": [
+    {
+      "rule": "MOTION-FUNDRAISING-HEART",
+      "wcag": "2.2.2 A",
+      "severity": "moderate",
+      "location": "djangoproject/scss/_style.scss:3386",
+      "summary": "Fundraising heart pixels pulse indefinitely without a pause or stop control.",
+      "fix": "Make fundraising progress pixels static or stop pulsing within five seconds; respect prefers-reduced-motion. The percentage and static heart convey the progress without animation.",
+      "evidence": "Production fundraising is 47% funded with 15 faded rects; computed animation is pixel-pulse 3s infinite even with reducedMotion=reduce; control inventory contains menu, search, theme and donate, no pause.",
+      "component": "Fundraising progress heart"
+    }
+  ],
+  "passed": [
+    "Theme toggle is explicitly 45 by 45 CSS pixels.",
+    "Both automatic prefers-color-scheme and explicit light/dark theme variants exist.",
+    "Global anchors and buttons have focus outlines, subject to local overrides.",
+    "Dark-theme link-green foreground #93D7B7 against #0e1117 is above 4.5:1; muted text is lightened for dark theme."
+  ],
+  "notes": [
+    "No blanket failure assigned for absent reduced-motion media query: short transitions alone do not fail WCAG AA.",
+    "Target-size assessment for other components needs runtime geometry and spacing exceptions.",
+    "Best practices: short smooth scrolling and transition effects do not adapt to reduced motion; no standalone AA failure assigned.",
+    "Source color recipes verified in production and consolidated into cross-page-analyzer findings; production main background is #ffffff rather than source $white #F1FFF7. Search-filter focus candidate not runtime confirmed and removed from scored findings.",
+    "Production motion finding verified by reduced-motion computed styles and complete visible control inventory; all palette defects are emitted only by cross-page-analyzer to avoid duplicates."
+  ]
+}

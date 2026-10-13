@@ -1,0 +1,75 @@
+{
+  "skill": "link-checker",
+  "scope": [
+    "apps/core/templates/**",
+    "apps/core/templatetags/core_tags.py",
+    "apps/custom_media/image_formats.py",
+    "apps/richtext/**",
+    "content/**",
+    ".a11y-history/2026-10-06-production/raw/crawl.json",
+    "apps/frontend/static_src/js/feedback/**",
+    "apps/core/templates/components/feedback.html"
+  ],
+  "findings": [
+    {
+      "rule": "LINK-001",
+      "wcag": "n/a",
+      "severity": "moderate",
+      "location": "apps/core/templatetags/core_tags.py:78",
+      "summary": "The language selector offers Arabic translations whose unresolved URLs become relative None links and return 404.",
+      "fix": "Restrict language-selector translations to public, routable pages and resolve each URL before rendering; omit unavailable translations or link explicitly to a valid locale landing page. Reuse the existing hreflangs URL-validation approach.",
+      "evidence": "43 distinct crawled successful pages expose an Arabic link with href=\"None\", across English, Icelandic, French and Portuguese. The crawl confirms /en/getting-started/overview/None/ returns 404.",
+      "component": "Language selector"
+    },
+    {
+      "rule": "LINK-002",
+      "wcag": "n/a",
+      "severity": "minor",
+      "location": "content/en/how-to-guides/find-your-way-around.md:62",
+      "summary": "The current-status reference link leads to a removed English URL and returns 404.",
+      "fix": "Update the CMS source and exported Markdown link to the current page-status reference location, and provide a redirect from /en/reference/page-status-definitions/ where practical.",
+      "evidence": "Production /en/how-to-guides/find-your-way-around/ links current status of the page to /en/reference/page-status-definitions/; the crawl records status 404 for that URL.",
+      "component": "Find your way around content"
+    },
+    {
+      "rule": "LINK-003",
+      "wcag": "n/a",
+      "severity": "minor",
+      "location": "https://guide.wagtail.org/fr/",
+      "summary": "The French homepage Guides pratiques card leads to a missing French section and returns 404.",
+      "fix": "Publish the French how-to section or update the CMS card to a valid translated destination; suppress links to unavailable sections until a usable landing page exists.",
+      "evidence": "Production /fr/ exposes a Guides pratiques card linking to https://guide.wagtail.org/fr/how-to-guides/; the live crawl records HTTP 404 for that destination.",
+      "component": "French homepage section card"
+    },
+    {
+      "rule": "TOOLTIP-FEEDBACK-NOT-HOVERABLE",
+      "wcag": "1.4.13 AA",
+      "severity": "moderate",
+      "location": "apps/core/templates/components/feedback.html:8",
+      "summary": "Feedback tooltips disappear when the pointer moves from their button onto the tooltip content.",
+      "fix": "Keep the tooltip visible while the pointer is over either its trigger or tooltip and provide Escape dismissal; consider visible helpful/not helpful labels that remove the need for explanatory hover content.",
+      "evidence": "Live Manage pages: hovering Happy displays This page was helpful. Moving the pointer into the tooltip rectangle (691,387;170\u00d733) removes it within 500ms; Escape while hovering leaves it visible. Keyboard focus alone does not reveal it. See raw/tooltip-runtime.json.",
+      "component": "Feedback tooltips"
+    }
+  ],
+  "passed": [
+    "Crawled link inventory has no empty links without an aria-label, and no standalone click here/read more/learn more links.",
+    "All internal fragment targets referencing crawled pages resolve to recorded heading IDs; #main-content is handled by the skip-link audit.",
+    "Generated pilcrow section links are inside their corresponding heading and inherit programmatically determined heading context; ambiguous standalone names alone do not fail 2.4.4 AA.",
+    "Shared navigation, table-of-contents, section cards and article cross-links use descriptive destination names.",
+    "Content-copy controls correctly use buttons for copying and anchors for navigating to Markdown resources.",
+    "Markdown and llms text links describe the resource format in their visible names."
+  ],
+  "notes": [
+    "Broken links are functional defects reported as n/a, not automatic WCAG 2.4.4 failures; their visible text still conveys intended purpose.",
+    "The None links are language-selector links, not image wrappers. apps/custom_media/image_formats.py only changes the fullwidth rendition filter.",
+    "Language names lack lang attributes despite hreflang on their destinations. Adding lang to each autonym can improve pronunciation; native language names may fall under the proper-name exception, so no unqualified 3.1.2 failure is asserted.",
+    "Shared Markdown-view links open new tabs without warning. Add a consistent visible/accessible new-tab cue as usability guidance; target=_blank alone does not establish an AA violation.",
+    "External destinations, private accounts and GitHub were not fetched.",
+    "Source and crawl inspection establish programmatic link context; native screen-reader link-list output was not tested.",
+    "Final completed crawl and successful-page link inventory reviewed: no unresolved internal heading fragments or standalone click here/read more/learn more/here links found.",
+    "French section link is an additional functional broken destination, separate from unresolved language-selector None URLs.",
+    "Supplemental feedback-tooltip behavior was explicitly requested with this link pass and is included here; it is a pointer-hover content failure under 1.4.13, independent of any missing Escape issue. No feedback request was sent during tooltip tests.",
+    "Happy/Unhappy accessible button names are interpretable with the preceding Was this page helpful question, but matching the explicit tooltip purpose (This page was helpful / This page could be improved) in visible labels and accessible names would reduce ambiguity. This is usability guidance, not a separately scored naming failure."
+  ]
+}

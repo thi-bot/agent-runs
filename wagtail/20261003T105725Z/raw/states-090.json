@@ -1,0 +1,13 @@
+{
+  "url": "https://static-wagtail-v7-4.netlify.app/admin/snippets/breads/breadingredient/add/",
+  "states": [
+    {
+      "kind": "dropdown",
+      "name": "More actions",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "blocked": [],
+  "finalAx": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- complementary \"Sidebar\":\n  - button \"Toggle sidebar\" [expanded]\n  - link \"Dashboard\":\n    - /url: /admin/\n  - search:\n    - button \"Search\"\n    - text: Search\n    - textbox \"Search\"\n  - navigation \"Main menu\":\n    - list:\n      - listitem:\n        - button \"Pages\"\n      - listitem:\n        - button \"Breads\"\n      - listitem:\n        - link \"Images\":\n          - /url: /admin/images/\n      - listitem:\n        - button \"Bakery Misc\"\n      - listitem:\n        - link \"Documents\":\n          - /url: /admin/documents/\n      - listitem:\n        - link \"Forms\":\n          - /url: /admin/forms/\n      - listitem:\n        - button \"Reports\"\n      - listitem:\n        - button \"Settings\"\n      - listitem:\n        - button \"Help\"\n  - button \"Admin\"\n- main:\n  - status:\n    - list\n  - button \"Toggle breadcrumbs\"\n  - navigation \"Breadcrumb\":\n    - list:\n      - listitem:\n        - 'link \"New: Bread ingredient\"':\n          - /url: \"\"\n  - button \"Toggle status\"\n  - complementary \"Minimap\":\n    - button \"Collapse all\" [expanded]\n    - button \"Toggle side panel\"\n    - list:\n      - listitem:\n        - link \"Name*\":\n          - /url: \"#panel-name-section\"\n  - heading \"Bread ingredient\" [level=2]\n  - region \"Name*\":\n    - link \"Name*\":\n      - /url: \"#panel-name-section\"\n    - button \"Toggle section\" [expanded]\n    - heading \"Name*\" [level=2]\n    - textbox \"Name*\"\n  - navigation \"Actions (footer)\":\n    - button \"Save draft\":\n      - emphasis: Save draft\n    - button \"More actions\""
+}

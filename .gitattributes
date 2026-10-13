@@ -1,0 +1,17 @@
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+accessibility-agents/**/runtime/*.json filter=lfs diff=lfs merge=lfs -text
+accessibility-agents/2026-10-06-guide/ACCESSIBILITY-SCAN.json filter=lfs diff=lfs merge=lfs -text
+accessibility-agents/20261002-djangoproject.com/20261002T185438Z/evidence/visual-runtime.json filter=lfs diff=lfs merge=lfs -text
+braindump-runs/runs/**/rules.jsonl filter=lfs diff=lfs merge=lfs -text
+**/runtime/*.json filter=lfs diff=lfs merge=lfs -text
+**/visual-runtime.json filter=lfs diff=lfs merge=lfs -text
+**/ACCESSIBILITY-SCAN.json filter=lfs diff=lfs merge=lfs -text
+**/rules.jsonl filter=lfs diff=lfs merge=lfs -text
