@@ -5,8 +5,9 @@ Archived outputs of coding-agent runs.
 Most folders here hold accessibility audit and review reports produced by the
 [Accessibility Agents](https://github.com/Community-Access/accessibility-agents)
 skill set, across several projects. Each top-level folder is the project that
-was audited; inside it, one folder per run. Every run is complete: rendered
-report, machine-readable findings, and the raw evidence the agent collected.
+was audited; inside it, one folder per run. Most runs include rendered reports,
+machine-readable findings, and raw evidence. Publication subsets document
+their retained evidence and omissions in a run-specific README.
 
 `braindump-runs/` is a separate collection, copied verbatim from its own
 repository: coding-rule sets (`AGENTS.md` files) mined from the PR review
@@ -57,6 +58,25 @@ grade B, fail: 22 findings, 8 blocking.
 - `WEB-ACCESSIBILITY-AUDIT.md` - rendered report; `ACCESSIBILITY-SCAN.md` -
   production scan summary. `20261003T105725Z/` - run history with raw crawled
   HTML, runtime checks, contrast/reflow/theme measurements and merged findings.
+
+### wagtail.org
+
+[Full-site and product strategy PDF audit, 2026-10-16](wagtail.org/2026-10-16-accessibility-audit/README.md),
+against WCAG 2.2 AA. Source checkout: `9fa65385f27c15b83c86a4f6e0e3ac18d4784609`.
+The crawl made 735 same-site URL checks, covering 708 distinct successful HTML
+pages and 14 distinct error-page destinations. The run also reviewed local
+source, representative browser interactions, and all 11 pages of the product
+strategy PDF.
+
+The combined report has 19 grouped findings: 9 serious, 9 moderate and 1 minor.
+Seventeen are WCAG findings; two are separate PDF/UA technical findings.
+Its renderer score is 85/100, grade B, with a failed severity threshold; this
+is not a conformance rating.
+
+This publication subset contains three reports, the findings CSV, supporting
+evidence tables, and the 20 individually referenced screenshots, optimized to
+under 100 KB each. It excludes bulk crawl HTML, raw per-page JSON, and the
+other screenshots. See the run README for limits and the screenshot guide.
 
 ### guide
 
