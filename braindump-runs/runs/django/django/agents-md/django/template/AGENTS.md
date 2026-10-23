@@ -21,7 +21,7 @@
 ## Error Handling
 
 <!-- rule:2206 -->
-- In `django/template`, emit non-fatal authoring/config issues as warnings (`templates.W003`) and reserve errors for conditions that break rendering — sites can run with a misconfigured template instead of crashing. — The rationale explains why the rule matters in the codebase — the bug, incompatibility, or inconsistency it prevents.
+- In `django/template`, emit non-fatal authoring/config issues as warnings (`templates.W003`) and reserve errors for conditions that break rendering — sites can run with a misconfigured template instead of crashing. — Non-fatal template configuration/authoring issues that are raised as errors or hidden behind settings.DEBUG surprise authors when a suspect-but-usable template fails later, and a bare warnings.warn without template name/line context leaves them without a location to fix. Emitting templates.W003-style warnings unconditionally through the template-context warning mechanism keeps diagnostics actionable, while release notes must explain that exact template-name/path branching will not detect templates that extend or override the target.
   - Emit template warnings unconditionally, not gated behind `settings.DEBUG` — config problems still matter in production, where they're hardest to diagnose.
   - Surface template warnings through the template-context warning mechanism so name/line context is attached — a bare `warnings.warn` gives users no location to fix.
   - Document in release notes when exact template-name/path branching won't detect templates that extend or override the target — the silent miss otherwise looks like a bug.
