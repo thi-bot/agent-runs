@@ -37,7 +37,7 @@ Source references for the applicability review: [ACP audit](https://github.com/F
 ## Artifacts
 
 - [Summary CSV](summary.csv) and [summary JSON](summary.json): scores, scored status counts, coverage, timings, conditions and findings.
-- [All findings](findings.json): flattened top-level engine checks; [audit errors](audit-errors.json) is empty.
+- All findings: flattened top-level engine checks, archived in [agent-runs-traces](https://github.com/thi-bot/agent-runs-traces/tree/main/projects/thibaudcolas/agent-lighthouse/baseline/20261114); regenerate with `summarize.py`. [Audit errors](audit-errors.json) is empty.
 - [Manifest](manifest.json), [targets](targets.json), `setup/`, and each `run.json`: exact source/build/configuration, timestamps, command and exit status.
 - Each site directory contains original JSON, HTML and Markdown reports, audit trace, request logs, progress events and terminal output.
 - `run-campaign.py` records the exact orchestration used. It refuses to overwrite existing site directories. Copy it and `targets.json` into a new campaign directory for a new run.

@@ -338,6 +338,8 @@ The shipped scorer uses weights critical=10, serious=5, moderate=2 and minor=1, 
 
 Evidence and reproducibility: [audit history](.a11y-history/2026-10-06-production/), [raw crawl](.a11y-history/2026-10-06-production/raw/crawl.json), [responsive sweep](.a11y-history/2026-10-06-production/raw/responsive.json), [interaction states](.a11y-history/2026-10-06-production/raw/states.json), [runtime inventory](.a11y-history/2026-10-06-production/raw/runtime-inventory.json). Reproduction scripts and settings are saved beside the raw evidence.
 
+The full-page crawl measurements, responsive sweep and interaction-state snapshots (`raw/crawl.json`, `raw/responsive.json`, `raw/states.json`, `raw/state-*.html`) were moved to [agent-runs-traces](https://github.com/thi-bot/agent-runs-traces/tree/main/projects/wagtail/guide/accessibility-audit/2026-10-06-guide) on 2026-11-15 because of their size; the rest of `raw/` remains here.
+
 ## Findings evidence and verification
 
 The source excerpts below show the reviewed implementation. Apply the adjacent remediation in the findings table, then use the verification step to check the result. Content findings require editing the published CMS content as well as any exported source.

@@ -30,7 +30,7 @@ All runs: `--since 2016-01-01` (10-year window), all authors (bots filtered by t
 |---|---|
 | `agents-md/` | The generated `AGENTS.md` files, one per directory placement, plus `agent_docs/` topic files. **This is the deliverable** — drop into the matching repo directories to activate. |
 | `rules.jsonl` | Every deduped rule: `rule_id`, `text`, `category`, `score`, `source_comments` (traceable to PRs), `source_prs`. Includes rules below the placement floor. |
-| `extractions.jsonl.gz` | Per-comment extractions (actionable/non-actionable + generalizations) — the provenance chain between raw comments and rules. |
+| `extractions.jsonl.gz` | Per-comment extractions (actionable/non-actionable + generalizations) — the provenance chain between raw comments and rules. The two largest archives are in agent-runs-traces: [django/django](https://github.com/thi-bot/agent-runs-traces/tree/main/projects/django/django/braindump/20261003) (23 MB) and [wagtail/wagtail](https://github.com/thi-bot/agent-runs-traces/tree/main/projects/wagtail/wagtail/braindump/20261002) (8 MB). |
 
 ## Per-run metrics and reports
 

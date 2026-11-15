@@ -43,8 +43,10 @@ Full web accessibility audit, 2026-10-02, source checkout at `main`, commit
 forms, workflow files, plus a 100-page production crawl evidence bundle).
 Score 68/100, grade D, fail: 28 findings, 18 of them blocking.
 
-- `WEB-ACCESSIBILITY-AUDIT.md` - rendered report; `ACCESSIBILITY-SCAN.md` /
-  `ACCESSIBILITY-SCAN.json` - per-page production scan summary and raw results.
+- `WEB-ACCESSIBILITY-AUDIT.md` - rendered report; `ACCESSIBILITY-SCAN.md` -
+  per-page production scan summary. The 14 MB of raw per-page axe results
+  (`ACCESSIBILITY-SCAN.json`) are archived in
+  [agent-runs-traces](https://github.com/thi-bot/agent-runs-traces/tree/main/projects/django/djangoproject.com/accessibility-audit/20261002).
 - `20261002T185438Z/` - run history: specialist findings JSON, crawl manifest,
   behaviour/focus evidence, and gzipped per-page axe and HTML evidence.
 
@@ -87,9 +89,10 @@ ar locale crawls. Score 84/100, grade B, fail: 21 findings, 8 blocking.
 - `WEB-ACCESSIBILITY-AUDIT.md` - rendered report; `ACCESSIBILITY-SCAN.json` /
   `ACCESSIBILITY-SCAN.md` - production scan results.
 - `2026-10-06-production/` - run history: specialist findings, runtime JSON,
-  crawled pages, state snapshots (modals, search, forms) and crawl evidence.
-  The two largest evidence files (`raw/crawl.json`, `raw/responsive.json`,
-  roughly 85MB and 100MB) are full-page measurements kept verbatim.
+  crawled pages and crawl evidence. The full-page measurements and rendered
+  state snapshots (`raw/crawl.json`, `raw/responsive.json`, `raw/states.json`,
+  `raw/state-*.html`, roughly 200MB) are archived in
+  [agent-runs-traces](https://github.com/thi-bot/agent-runs-traces/tree/main/projects/wagtail/guide/accessibility-audit/2026-10-06-guide).
 
 ### a11y-llm-eval
 
@@ -104,6 +107,19 @@ review.
 - `harbor-migration/`, `reproducibility/`, and the four timestamped
   `*-review/` / `*-final/` folders each hold a rendered report plus findings
   JSON.
+
+## Large files
+
+Screenshots, compressed archives and the largest machine-readable evidence are
+stored with [Git LFS](.gitattributes): `*.png`, `*.jpg`, `*.gif`, `*.webp`,
+`*.gz`, `*.zip`, `*.pdf`, `*.mp4`, plus the per-page runtime dumps and rule
+sets listed in [`.gitattributes`](.gitattributes). Run `git lfs pull` after
+cloning to replace pointer files with content.
+
+Evidence too large to keep here at all is archived in
+[agent-runs-traces](https://github.com/thi-bot/agent-runs-traces): about 250 MB
+of raw crawl, state, scan, extraction and findings data moved on 2026-11-15.
+Each archive records provenance, per-file checksums and sizes.
 
 ## How these were produced
 
