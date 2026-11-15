@@ -1,0 +1,20 @@
+{
+  "score": 84,
+  "grade": "B",
+  "counts": {
+    "critical": 0,
+    "serious": 8,
+    "moderate": 9,
+    "minor": 4
+  },
+  "findings": 21,
+  "wcagFindings": 16,
+  "advisories": 5,
+  "htmlAddresses": 196,
+  "successful": 153,
+  "contentPaths": 149,
+  "errors": 43,
+  "responsive": 153,
+  "states": 11,
+  "axeRuns": 513
+}

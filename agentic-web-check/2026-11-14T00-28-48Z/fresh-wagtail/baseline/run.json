@@ -1,0 +1,40 @@
+{
+  "target": {
+    "id": "fresh-wagtail",
+    "url": "https://wagtail.org/",
+    "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/fresh-wagtail/targets.json",
+    "original_sample_urls": [
+      "https://wagtail.org/",
+      "https://wagtail.org/features/",
+      "https://wagtail.org/blog/wagtail-8-1/",
+      "https://wagtail.org/search/?query=sustainability",
+      "https://wagtail.org/sustainability/",
+      "https://wagtail.org/privacy/",
+      "https://wagtail.org/contact/"
+    ]
+  },
+  "command": [
+    "node",
+    "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+    "scan",
+    "https://wagtail.org/",
+    "--pages",
+    "1",
+    "--timeout",
+    "30000",
+    "--tasks",
+    "default",
+    "--agent",
+    "baseline",
+    "--out",
+    "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/fresh-wagtail/baseline",
+    "--no-color",
+    "--verbose"
+  ],
+  "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+  "started_at": "2026-11-14T00:30:49.022129+00:00",
+  "timeout_seconds": 480,
+  "exit_code": 0,
+  "finished_at": "2026-11-14T00:31:09.258155+00:00",
+  "results_present": true
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "tate",
+    "score": 52,
+    "deterministic": 74,
+    "tasks": {
+      "PASS": 0,
+      "FAIL": 0,
+      "BLOCKED": 3,
+      "INCONCLUSIVE": 0
+    }
+  },
+  {
+    "id": "nhs",
+    "score": 85,
+    "deterministic": 93,
+    "tasks": {
+      "PASS": 2,
+      "FAIL": 0,
+      "BLOCKED": 1,
+      "INCONCLUSIVE": 0
+    }
+  },
+  {
+    "id": "google-blog",
+    "score": 70,
+    "deterministic": 87,
+    "tasks": {
+      "PASS": 1,
+      "FAIL": 2,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    }
+  },
+  {
+    "id": "w3c",
+    "score": 91,
+    "deterministic": 88,
+    "tasks": {
+      "PASS": 3,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    }
+  },
+  {
+    "id": "lowtech",
+    "score": 84,
+    "deterministic": 92,
+    "tasks": {
+      "PASS": 2,
+      "FAIL": 1,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    }
+  },
+  {
+    "id": "fresh-guide",
+    "score": 88,
+    "deterministic": 97,
+    "tasks": {
+      "PASS": 2,
+      "FAIL": 1,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    }
+  },
+  {
+    "id": "fresh-wagtail",
+    "score": 92,
+    "deterministic": 89,
+    "tasks": {
+      "PASS": 3,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    }
+  },
+  {
+    "id": "docs-wagtail",
+    "score": 97,
+    "deterministic": 95,
+    "tasks": {
+      "PASS": 3,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    }
+  },
+  {
+    "id": "draftjs-exporter",
+    "score": 80,
+    "deterministic": 85,
+    "tasks": {
+      "PASS": 2,
+      "FAIL": 1,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    }
+  }
+]

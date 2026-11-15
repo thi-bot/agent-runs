@@ -1,0 +1,28 @@
+{
+  "tool": "agentic-web-check",
+  "revision": "35ec1e1e61f1ca962228846d13a855eaa74f9876",
+  "version": "0.1.0",
+  "modes": [
+    "deterministic scan with baseline behavioural tasks"
+  ],
+  "pages": 1,
+  "tasks": "default",
+  "agent": "baseline",
+  "task_max_steps": 12,
+  "llm_status": "Not run: supported provider environment variables unset",
+  "safety": "Built-in read-only tasks; no form or consequential-action opt-in",
+  "paired_lighthouse_campaign": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+  "created_at": "2026-11-14T00:28:48.662141+00:00",
+  "finished_at": "2026-11-14T00:31:55.477410+00:00",
+  "status": "complete",
+  "successful_cli_runs": 9,
+  "task_verdicts": {
+    "PASS": 18,
+    "FAIL": 5,
+    "BLOCKED": 4,
+    "INCONCLUSIVE": 0
+  },
+  "browser_versions": [
+    "153.0.8010.12"
+  ]
+}

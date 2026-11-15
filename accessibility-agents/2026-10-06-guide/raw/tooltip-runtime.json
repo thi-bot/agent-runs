@@ -1,0 +1,20 @@
+{
+  "initial": 1,
+  "text": "This page was helpful",
+  "style": {
+    "pointerEvents": "auto",
+    "rect": {
+      "x": 691,
+      "y": 387,
+      "width": 170.34375,
+      "height": 32.625,
+      "top": 387,
+      "right": 861.34375,
+      "bottom": 419.625,
+      "left": 691
+    }
+  },
+  "afterEscape": 1,
+  "afterHoverTooltip": 0,
+  "keyboardFocusTooltip": 0
+}

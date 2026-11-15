@@ -1,0 +1,265 @@
+{"type":"scan:start","url":"https://solar.lowtechmagazine.com/","fraction":0,"elapsedMs":0}
+{"type":"phase:start","phase":"fetch-root","totalUnits":29,"fraction":0,"elapsedMs":1}
+{"type":"unit:done","phase":"fetch-root","completed":1,"total":29,"label":"/robots.txt","fraction":0.01206896551724138,"elapsedMs":279}
+{"type":"unit:done","phase":"fetch-root","completed":2,"total":29,"label":"/llms.txt","fraction":0.02413793103448276,"elapsedMs":379}
+{"type":"unit:done","phase":"fetch-root","completed":3,"total":29,"label":"/llms-full.txt","fraction":0.036206896551724134,"elapsedMs":424}
+{"type":"unit:done","phase":"fetch-root","completed":4,"total":29,"label":"/agents.md","fraction":0.04827586206896552,"elapsedMs":425}
+{"type":"unit:done","phase":"fetch-root","completed":5,"total":29,"label":"/sitemap.xml","fraction":0.0603448275862069,"elapsedMs":426}
+{"type":"unit:done","phase":"fetch-root","completed":6,"total":29,"label":"/sitemap-index.xml","fraction":0.07241379310344827,"elapsedMs":426}
+{"type":"unit:done","phase":"fetch-root","completed":7,"total":29,"label":"/feed.xml","fraction":0.08448275862068966,"elapsedMs":469}
+{"type":"unit:done","phase":"fetch-root","completed":8,"total":29,"label":"/openapi.json","fraction":0.09655172413793103,"elapsedMs":470}
+{"type":"unit:done","phase":"fetch-root","completed":9,"total":29,"label":"/openapi.yaml","fraction":0.10862068965517241,"elapsedMs":470}
+{"type":"unit:done","phase":"fetch-root","completed":10,"total":29,"label":"/.well-known/api-catalog","fraction":0.1206896551724138,"elapsedMs":471}
+{"type":"unit:done","phase":"fetch-root","completed":11,"total":29,"label":"/.well-known/ai-catalog.json","fraction":0.13275862068965516,"elapsedMs":471}
+{"type":"unit:done","phase":"fetch-root","completed":12,"total":29,"label":"/.well-known/ard.json","fraction":0.14482758620689654,"elapsedMs":513}
+{"type":"unit:done","phase":"fetch-root","completed":13,"total":29,"label":"/.well-known/mcp/servers.json","fraction":0.1568965517241379,"elapsedMs":513}
+{"type":"unit:done","phase":"fetch-root","completed":14,"total":29,"label":"/.well-known/ucp","fraction":0.16896551724137931,"elapsedMs":514}
+{"type":"unit:done","phase":"fetch-root","completed":15,"total":29,"label":"/.well-known/agents.json","fraction":0.1810344827586207,"elapsedMs":514}
+{"type":"unit:done","phase":"fetch-root","completed":16,"total":29,"label":"/.well-known/agent-card.json","fraction":0.19310344827586207,"elapsedMs":514}
+{"type":"unit:done","phase":"fetch-root","completed":17,"total":29,"label":"/.well-known/agent.json","fraction":0.20517241379310341,"elapsedMs":515}
+{"type":"unit:done","phase":"fetch-root","completed":18,"total":29,"label":"/.well-known/ai-plugin.json","fraction":0.21724137931034482,"elapsedMs":516}
+{"type":"unit:done","phase":"fetch-root","completed":19,"total":29,"label":"/.well-known/security.txt","fraction":0.2293103448275862,"elapsedMs":517}
+{"type":"unit:done","phase":"fetch-root","completed":20,"total":29,"label":"/.well-known/tdmrep.json","fraction":0.2413793103448276,"elapsedMs":518}
+{"type":"unit:done","phase":"fetch-root","completed":21,"total":29,"label":"/navigation.json","fraction":0.253448275862069,"elapsedMs":519}
+{"type":"unit:done","phase":"fetch-root","completed":22,"total":29,"label":"/about/","fraction":0.2655172413793103,"elapsedMs":520}
+{"type":"unit:done","phase":"fetch-root","completed":23,"total":29,"label":"/about-us/","fraction":0.2775862068965517,"elapsedMs":520}
+{"type":"unit:done","phase":"fetch-root","completed":24,"total":29,"label":"/about","fraction":0.28965517241379307,"elapsedMs":522}
+{"type":"unit:done","phase":"fetch-root","completed":25,"total":29,"label":"/pages/about","fraction":0.3017241379310344,"elapsedMs":561}
+{"type":"unit:done","phase":"fetch-root","completed":26,"total":29,"label":"/pages/about-us","fraction":0.3137931034482758,"elapsedMs":561}
+{"type":"unit:done","phase":"fetch-root","completed":27,"total":29,"label":"/pages/our-story","fraction":0.3258620689655172,"elapsedMs":562}
+{"type":"unit:done","phase":"fetch-root","completed":28,"total":29,"label":"/our-story","fraction":0.33793103448275863,"elapsedMs":562}
+{"type":"unit:done","phase":"fetch-root","completed":29,"total":29,"label":"/rss.xml","fraction":0.35,"elapsedMs":564}
+{"type":"phase:done","phase":"fetch-root","durationMs":563,"fraction":0.35,"elapsedMs":564}
+{"type":"phase:start","phase":"fetch-pages","totalUnits":1,"fraction":0.35,"elapsedMs":565}
+{"type":"unit:done","phase":"fetch-pages","completed":1,"total":1,"label":"https://solar.lowtechmagazine.com/","fraction":0.55,"elapsedMs":565}
+{"type":"phase:done","phase":"fetch-pages","durationMs":27,"fraction":0.55,"elapsedMs":591}
+{"type":"phase:start","phase":"analyze","totalUnits":1,"fraction":0.55,"elapsedMs":592}
+{"type":"unit:done","phase":"analyze","completed":1,"total":1,"label":"https://solar.lowtechmagazine.com/","fraction":0.65,"elapsedMs":592}
+{"type":"phase:done","phase":"analyze","durationMs":526,"fraction":0.65,"elapsedMs":1117}
+{"type":"phase:start","phase":"audits","totalUnits":221,"fraction":0.65,"elapsedMs":1126}
+{"type":"unit:done","phase":"audits","completed":1,"total":221,"label":"content-extraction/article-element <article> used for content","fraction":0.6513574660633484,"elapsedMs":1127}
+{"type":"unit:done","phase":"audits","completed":2,"total":221,"label":"structured-data/article-schema Article schema","fraction":0.6527149321266968,"elapsedMs":1127}
+{"type":"unit:done","phase":"audits","completed":3,"total":221,"label":"structured-data/speakable-schema Speakable schema","fraction":0.6540723981900453,"elapsedMs":1127}
+{"type":"unit:done","phase":"audits","completed":4,"total":221,"label":"structured-data/author-schema Author schema with credentials","fraction":0.6554298642533937,"elapsedMs":1127}
+{"type":"unit:done","phase":"audits","completed":5,"total":221,"label":"structured-data/advanced-product-details Advanced product details","fraction":0.6567873303167421,"elapsedMs":1128}
+{"type":"unit:done","phase":"audits","completed":6,"total":221,"label":"answer-readiness/first-paragraph-answers First paragraph answers primary question","fraction":0.6581447963800905,"elapsedMs":1128}
+{"type":"unit:done","phase":"audits","completed":7,"total":221,"label":"answer-readiness/dates-on-content Dates on article pages","fraction":0.6595022624434389,"elapsedMs":1128}
+{"type":"unit:done","phase":"audits","completed":8,"total":221,"label":"answer-readiness/named-author Named author attribution","fraction":0.6608597285067873,"elapsedMs":1128}
+{"type":"unit:done","phase":"audits","completed":9,"total":221,"label":"answer-readiness/author-same-as Author schema with sameAs","fraction":0.6622171945701357,"elapsedMs":1128}
+{"type":"unit:done","phase":"audits","completed":10,"total":221,"label":"answer-readiness/author-page Author page exists","fraction":0.6635746606334841,"elapsedMs":1128}
+{"type":"unit:done","phase":"audits","completed":11,"total":221,"label":"answer-readiness/publication-date Publication date visible","fraction":0.6649321266968325,"elapsedMs":1128}
+{"type":"unit:done","phase":"audits","completed":12,"total":221,"label":"answer-readiness/last-modified-schema Last modified date in schema","fraction":0.6662895927601811,"elapsedMs":1128}
+{"type":"unit:done","phase":"audits","completed":13,"total":221,"label":"agentic-commerce/offer-schema Offer schema on pricing pages","fraction":0.6676470588235295,"elapsedMs":1128}
+{"type":"unit:done","phase":"audits","completed":14,"total":221,"label":"agentic-commerce/product-identifiers Product identifiers (GTIN/UPC/MPN)","fraction":0.6690045248868779,"elapsedMs":1128}
+{"type":"unit:done","phase":"audits","completed":15,"total":221,"label":"agentic-commerce/product-transaction-certainty Product transactional certainty","fraction":0.6703619909502263,"elapsedMs":1129}
+{"type":"unit:done","phase":"audits","completed":16,"total":221,"label":"agentic-commerce/landed-cost-and-returns Landed-cost and returns machine readability","fraction":0.6717194570135747,"elapsedMs":1129}
+{"type":"unit:done","phase":"audits","completed":17,"total":221,"label":"agentic-commerce/checkout-offer-field-mapping Checkout-eligible offer field mapping","fraction":0.6730769230769231,"elapsedMs":1129}
+{"type":"unit:done","phase":"audits","completed":18,"total":221,"label":"agentic-commerce/buyable-variant-resolution Buyable Variant Resolution","fraction":0.6744343891402715,"elapsedMs":1129}
+{"type":"unit:done","phase":"audits","completed":19,"total":221,"label":"agentic-commerce/offer-truth-consistency Offer Truth Consistency","fraction":0.67579185520362,"elapsedMs":1129}
+{"type":"unit:done","phase":"audits","completed":20,"total":221,"label":"operability-safety/url-addressable-state-and-pagination-fallback Listings walkable by URL: pagination and facet fallback","fraction":0.6771493212669684,"elapsedMs":1129}
+{"type":"unit:done","phase":"audits","completed":21,"total":221,"label":"access-crawl-control/content-signals Content Signals choices and optional setup","fraction":0.6785067873303168,"elapsedMs":1148}
+{"type":"unit:done","phase":"audits","completed":22,"total":221,"label":"access-crawl-control/no-nofollow Page-level nofollow directives","fraction":0.6798642533936652,"elapsedMs":1148}
+{"type":"unit:done","phase":"audits","completed":23,"total":221,"label":"access-crawl-control/no-redirect-chains No redirect chains","fraction":0.6812217194570136,"elapsedMs":1148}
+{"type":"unit:done","phase":"audits","completed":24,"total":221,"label":"access-crawl-control/canonical Canonical URLs point at the right page","fraction":0.682579185520362,"elapsedMs":1148}
+{"type":"unit:done","phase":"audits","completed":25,"total":221,"label":"access-crawl-control/gptbot GPTBot allowed","fraction":0.6839366515837104,"elapsedMs":1148}
+{"type":"unit:done","phase":"audits","completed":26,"total":221,"label":"access-crawl-control/google-extended Google-Extended allowed","fraction":0.6852941176470588,"elapsedMs":1148}
+{"type":"unit:done","phase":"audits","completed":27,"total":221,"label":"access-crawl-control/anthropic-ai ClaudeBot crawl access","fraction":0.6866515837104072,"elapsedMs":1148}
+{"type":"unit:done","phase":"audits","completed":28,"total":221,"label":"access-crawl-control/perplexitybot PerplexityBot allowed","fraction":0.6880090497737557,"elapsedMs":1148}
+{"type":"unit:done","phase":"audits","completed":29,"total":221,"label":"access-crawl-control/applebot-extended Applebot-Extended allowed","fraction":0.6893665158371041,"elapsedMs":1148}
+{"type":"unit:done","phase":"audits","completed":30,"total":221,"label":"access-crawl-control/ccbot CCBot allowed","fraction":0.6907239819004525,"elapsedMs":1149}
+{"type":"unit:done","phase":"audits","completed":31,"total":221,"label":"access-crawl-control/meta-external-agent Meta-ExternalAgent allowed","fraction":0.6920814479638009,"elapsedMs":1149}
+{"type":"unit:done","phase":"audits","completed":32,"total":221,"label":"access-crawl-control/amazonbot Amazonbot allowed","fraction":0.6934389140271493,"elapsedMs":1149}
+{"type":"unit:done","phase":"audits","completed":33,"total":221,"label":"access-crawl-control/ai-bot-directives Documented AI bots allowed by robots.txt","fraction":0.6947963800904977,"elapsedMs":1149}
+{"type":"unit:done","phase":"audits","completed":34,"total":221,"label":"access-crawl-control/chatgpt-user ChatGPT-User robots.txt group (may not apply)","fraction":0.6961538461538461,"elapsedMs":1149}
+{"type":"unit:done","phase":"audits","completed":35,"total":221,"label":"access-crawl-control/claude-user Claude-User allowed","fraction":0.6975113122171945,"elapsedMs":1149}
+{"type":"unit:done","phase":"audits","completed":36,"total":221,"label":"access-crawl-control/oai-searchbot OAI-SearchBot allowed","fraction":0.6988687782805431,"elapsedMs":1149}
+{"type":"unit:done","phase":"audits","completed":37,"total":221,"label":"access-crawl-control/meta-external-fetcher Meta-ExternalFetcher allowed","fraction":0.7002262443438915,"elapsedMs":1149}
+{"type":"unit:done","phase":"audits","completed":38,"total":221,"label":"access-crawl-control/bravebot Bravebot robots.txt group (unread)","fraction":0.7015837104072399,"elapsedMs":1149}
+{"type":"unit:done","phase":"audits","completed":39,"total":221,"label":"access-crawl-control/duckassistbot DuckAssistBot allowed","fraction":0.7029411764705883,"elapsedMs":1149}
+{"type":"unit:done","phase":"audits","completed":40,"total":221,"label":"access-crawl-control/mistralai-user MistralAI-User allowed","fraction":0.7042986425339367,"elapsedMs":1149}
+{"type":"unit:done","phase":"audits","completed":41,"total":221,"label":"access-crawl-control/claude-searchbot Claude-SearchBot allowed","fraction":0.7056561085972851,"elapsedMs":1164}
+{"type":"unit:done","phase":"audits","completed":42,"total":221,"label":"access-crawl-control/no-blanket-block No blanket AI block","fraction":0.7070135746606335,"elapsedMs":1164}
+{"type":"unit:done","phase":"audits","completed":43,"total":221,"label":"access-crawl-control/crawl-delay Crawl-delay is reasonable","fraction":0.7083710407239819,"elapsedMs":1164}
+{"type":"unit:done","phase":"audits","completed":44,"total":221,"label":"access-crawl-control/robots-directives Robots directives do not block AI indexing","fraction":0.7097285067873303,"elapsedMs":1164}
+{"type":"unit:done","phase":"audits","completed":45,"total":221,"label":"access-crawl-control/no-bot-detection No aggressive bot-detection blocking agents","fraction":0.7110859728506788,"elapsedMs":1164}
+{"type":"unit:done","phase":"audits","completed":46,"total":221,"label":"access-crawl-control/tdm-rep TDM-Rep declaration","fraction":0.7124434389140272,"elapsedMs":1164}
+{"type":"unit:done","phase":"audits","completed":47,"total":221,"label":"access-crawl-control/agent-governance AI crawler vs conversational agent separation","fraction":0.7138009049773756,"elapsedMs":1164}
+{"type":"unit:done","phase":"audits","completed":48,"total":221,"label":"access-crawl-control/https-enabled HTTPS enabled","fraction":0.715158371040724,"elapsedMs":1165}
+{"type":"unit:done","phase":"audits","completed":49,"total":221,"label":"access-crawl-control/robots-ai-group-shadowing robots.txt AI group shadowing","fraction":0.7165158371040724,"elapsedMs":1165}
+{"type":"unit:done","phase":"audits","completed":50,"total":221,"label":"access-crawl-control/ai-usage-signal-coherence-across-channels AI usage signals agree across every channel that carries them","fraction":0.7178733031674208,"elapsedMs":1165}
+{"type":"unit:done","phase":"audits","completed":51,"total":221,"label":"access-crawl-control/aipref-content-usage-declaration-validity AIPREF Content-Usage declarations are valid and can be read","fraction":0.7192307692307692,"elapsedMs":1165}
+{"type":"unit:done","phase":"audits","completed":52,"total":221,"label":"content-extraction/server-responsiveness Server responsiveness","fraction":0.7205882352941176,"elapsedMs":1165}
+{"type":"unit:done","phase":"audits","completed":53,"total":221,"label":"content-extraction/language-attribute Language attribute","fraction":0.721945701357466,"elapsedMs":1165}
+{"type":"unit:done","phase":"audits","completed":54,"total":221,"label":"access-crawl-control/rsl-licensing-terms-conformance RSL licensing terms are discoverable and conformant","fraction":0.7233031674208145,"elapsedMs":1373}
+{"type":"unit:done","phase":"audits","completed":55,"total":221,"label":"access-crawl-control/web-bot-auth-request-tolerance A signed agent request is not rejected for being signed","fraction":0.7246606334841629,"elapsedMs":1374}
+{"type":"unit:done","phase":"audits","completed":56,"total":221,"label":"content-extraction/markdown-alternate Markdown alternate: resolvable, faithful, cheaper","fraction":0.7260180995475113,"elapsedMs":1376}
+{"type":"unit:done","phase":"audits","completed":57,"total":221,"label":"access-crawl-control/sensitive-paths Low-value URLs excluded from AI crawls","fraction":0.7273755656108598,"elapsedMs":2261}
+{"type":"unit:done","phase":"audits","completed":58,"total":221,"label":"access-crawl-control/bot-content-delta-declared Content served to AI crawler User-Agents matches the browser, or is declared","fraction":0.7287330316742082,"elapsedMs":3647}
+{"type":"unit:done","phase":"audits","completed":59,"total":221,"label":"access-crawl-control/ai-crawler-edge-parity Requests naming an AI crawler get the same edge response as a browser","fraction":0.7300904977375566,"elapsedMs":5148}
+{"type":"unit:done","phase":"audits","completed":60,"total":221,"label":"access-crawl-control/machine-actionable-402-paid-access A 402 tells a crawler how to pay","fraction":0.731447963800905,"elapsedMs":5305}
+{"type":"unit:done","phase":"audits","completed":61,"total":221,"label":"content-extraction/single-h1 Single h1 per page","fraction":0.7328054298642535,"elapsedMs":5872}
+{"type":"unit:done","phase":"audits","completed":62,"total":221,"label":"content-extraction/sequential-headings Sequential heading hierarchy","fraction":0.7341628959276019,"elapsedMs":5873}
+{"type":"unit:done","phase":"audits","completed":63,"total":221,"label":"content-extraction/main-element <main> element present","fraction":0.7355203619909503,"elapsedMs":5873}
+{"type":"unit:done","phase":"audits","completed":64,"total":221,"label":"content-extraction/header-footer <header> and <footer> landmarks","fraction":0.7368778280542987,"elapsedMs":5874}
+{"type":"unit:done","phase":"audits","completed":65,"total":221,"label":"content-extraction/aside-element <aside> for supplementary content","fraction":0.7382352941176471,"elapsedMs":5874}
+{"type":"unit:done","phase":"audits","completed":66,"total":221,"label":"content-extraction/section-headings <section> elements have headings or labels","fraction":0.7395927601809955,"elapsedMs":5874}
+{"type":"unit:done","phase":"audits","completed":67,"total":221,"label":"content-extraction/semantic-lists Semantic list usage","fraction":0.7409502262443439,"elapsedMs":5874}
+{"type":"unit:done","phase":"audits","completed":68,"total":221,"label":"content-extraction/data-tables Data tables properly structured","fraction":0.7423076923076923,"elapsedMs":5874}
+{"type":"unit:done","phase":"audits","completed":69,"total":221,"label":"content-extraction/code-language Code blocks have language annotations","fraction":0.7436651583710407,"elapsedMs":5874}
+{"type":"unit:done","phase":"audits","completed":70,"total":221,"label":"content-extraction/time-element Machine-readable time markup","fraction":0.7450226244343892,"elapsedMs":5874}
+{"type":"unit:done","phase":"audits","completed":71,"total":221,"label":"content-extraction/content-depth Sufficient content depth","fraction":0.7463800904977376,"elapsedMs":5874}
+{"type":"unit:done","phase":"audits","completed":72,"total":221,"label":"content-extraction/image-alt-text Image text-alternative coverage","fraction":0.747737556561086,"elapsedMs":5874}
+{"type":"unit:done","phase":"audits","completed":73,"total":221,"label":"content-extraction/figure-figcaption <figure> + <figcaption> usage","fraction":0.7490950226244344,"elapsedMs":5874}
+{"type":"unit:done","phase":"audits","completed":74,"total":221,"label":"content-extraction/svg-bloat SVGs not bloating agent context","fraction":0.7504524886877828,"elapsedMs":5875}
+{"type":"unit:done","phase":"audits","completed":75,"total":221,"label":"content-extraction/token-ratio Lean token-to-content ratio","fraction":0.7518099547511312,"elapsedMs":5875}
+{"type":"unit:done","phase":"audits","completed":76,"total":221,"label":"content-extraction/fake-headings No fake headings","fraction":0.7531674208144796,"elapsedMs":5875}
+{"type":"unit:done","phase":"audits","completed":77,"total":221,"label":"content-extraction/server-rendered Server-rendered content","fraction":0.754524886877828,"elapsedMs":5875}
+{"type":"unit:done","phase":"audits","completed":78,"total":221,"label":"content-extraction/hydration-payload-share Inlined hydration-state payload share","fraction":0.7558823529411764,"elapsedMs":5876}
+{"type":"unit:done","phase":"audits","completed":79,"total":221,"label":"content-extraction/preamble-tax Preamble tax: tokens before the first content token","fraction":0.7572398190045249,"elapsedMs":5876}
+{"type":"unit:done","phase":"audits","completed":80,"total":221,"label":"content-extraction/css-hidden-ghost-content Ghost content: CSS-hidden text ingested as visible","fraction":0.7585972850678733,"elapsedMs":5948}
+{"type":"unit:done","phase":"audits","completed":81,"total":221,"label":"content-extraction/boilerplate-tax Boilerplate tax across the crawl (unique tokens per fetch)","fraction":0.7599547511312217,"elapsedMs":6266}
+{"type":"unit:done","phase":"audits","completed":82,"total":221,"label":"content-extraction/extraction-determinism Extraction determinism (multi-extractor agreement)","fraction":0.7613122171945702,"elapsedMs":6266}
+{"type":"unit:done","phase":"audits","completed":83,"total":221,"label":"content-extraction/json-ld-duplication-mass JSON-LD duplication mass","fraction":0.7626696832579185,"elapsedMs":6267}
+{"type":"unit:done","phase":"audits","completed":84,"total":221,"label":"machine-discovery/llms-txt-exists llms.txt exists","fraction":0.7640271493212669,"elapsedMs":6267}
+{"type":"unit:done","phase":"audits","completed":85,"total":221,"label":"machine-discovery/llms-txt-structure llms.txt is well-formed","fraction":0.7653846153846154,"elapsedMs":6267}
+{"type":"unit:done","phase":"audits","completed":86,"total":221,"label":"machine-discovery/llms-txt-link-descriptions llms.txt links include descriptions","fraction":0.7667420814479639,"elapsedMs":6267}
+{"type":"unit:done","phase":"audits","completed":87,"total":221,"label":"machine-discovery/llms-txt-links-valid llms.txt links are valid","fraction":0.7680995475113123,"elapsedMs":6267}
+{"type":"unit:done","phase":"audits","completed":88,"total":221,"label":"machine-discovery/llms-full-txt llms-full.txt present","fraction":0.7694570135746607,"elapsedMs":6267}
+{"type":"unit:done","phase":"audits","completed":89,"total":221,"label":"machine-discovery/in-content-links In-content internal links","fraction":0.7708144796380091,"elapsedMs":6268}
+{"type":"unit:done","phase":"audits","completed":90,"total":221,"label":"machine-discovery/cors-ai-files CORS on AI files","fraction":0.7721719457013575,"elapsedMs":6268}
+{"type":"unit:done","phase":"audits","completed":91,"total":221,"label":"machine-discovery/ai-file-delivery AI files are delivered correctly","fraction":0.7735294117647059,"elapsedMs":6268}
+{"type":"unit:done","phase":"audits","completed":92,"total":221,"label":"machine-discovery/no-broken-ai-endpoints No broken AI endpoints","fraction":0.7748868778280543,"elapsedMs":6268}
+{"type":"unit:done","phase":"audits","completed":93,"total":221,"label":"machine-discovery/ai-crawler-surface-reachability AI crawlers can reach the discovery surfaces the site advertises","fraction":0.7762443438914027,"elapsedMs":6269}
+{"type":"unit:done","phase":"audits","completed":94,"total":221,"label":"machine-discovery/discovery-index-coverage Pages are covered by a discovery index","fraction":0.7776018099547511,"elapsedMs":6269}
+{"type":"unit:done","phase":"audits","completed":95,"total":221,"label":"machine-discovery/sitemap-exists sitemap.xml exists","fraction":0.7789592760180996,"elapsedMs":6270}
+{"type":"unit:done","phase":"audits","completed":96,"total":221,"label":"machine-discovery/sitemap-absolute-urls Sitemap uses absolute URLs","fraction":0.780316742081448,"elapsedMs":6270}
+{"type":"unit:done","phase":"audits","completed":97,"total":221,"label":"machine-discovery/sitemap-lastmod Sitemap has lastmod dates","fraction":0.7816742081447964,"elapsedMs":6270}
+{"type":"unit:done","phase":"audits","completed":98,"total":221,"label":"machine-discovery/no-broken-links No broken internal links","fraction":0.7830316742081448,"elapsedMs":6482}
+{"type":"unit:done","phase":"audits","completed":99,"total":221,"label":"machine-discovery/rss-feed RSS/Atom feed link present","fraction":0.7843891402714932,"elapsedMs":6637}
+{"type":"unit:done","phase":"audits","completed":100,"total":221,"label":"machine-discovery/rss-feed-content RSS feed content complete","fraction":0.7857466063348416,"elapsedMs":6637}
+{"type":"unit:done","phase":"audits","completed":101,"total":221,"label":"structured-data/json-ld-present JSON-LD present","fraction":0.78710407239819,"elapsedMs":6670}
+{"type":"unit:done","phase":"audits","completed":102,"total":221,"label":"structured-data/schema-validation Schema validation","fraction":0.7884615384615385,"elapsedMs":6670}
+{"type":"unit:done","phase":"audits","completed":103,"total":221,"label":"structured-data/organization-schema Organization schema","fraction":0.789819004524887,"elapsedMs":6670}
+{"type":"unit:done","phase":"audits","completed":104,"total":221,"label":"structured-data/breadcrumb-schema BreadcrumbList schema","fraction":0.7911764705882354,"elapsedMs":6671}
+{"type":"unit:done","phase":"audits","completed":105,"total":221,"label":"structured-data/faqpage-schema FAQPage schema (retired rich result)","fraction":0.7925339366515838,"elapsedMs":6671}
+{"type":"unit:done","phase":"audits","completed":106,"total":221,"label":"structured-data/service-schema Service schema","fraction":0.7938914027149322,"elapsedMs":6671}
+{"type":"unit:done","phase":"audits","completed":107,"total":221,"label":"structured-data/howto-schema HowTo schema (retired rich result)","fraction":0.7952488687782806,"elapsedMs":6671}
+{"type":"unit:done","phase":"audits","completed":108,"total":221,"label":"structured-data/local-business-schema LocalBusiness/ProfessionalService schema","fraction":0.796606334841629,"elapsedMs":6673}
+{"type":"unit:done","phase":"audits","completed":109,"total":221,"label":"structured-data/review-schema Review/AggregateRating schema","fraction":0.7979638009049774,"elapsedMs":6673}
+{"type":"unit:done","phase":"audits","completed":110,"total":221,"label":"structured-data/claimreview-advisory ClaimReview investment advisory","fraction":0.7993212669683258,"elapsedMs":6674}
+{"type":"unit:done","phase":"audits","completed":111,"total":221,"label":"answer-readiness/meta-description Meta description quality","fraction":0.8006787330316743,"elapsedMs":6674}
+{"type":"unit:done","phase":"audits","completed":112,"total":221,"label":"answer-readiness/meta-author Meta author tag (no AI reader)","fraction":0.8020361990950227,"elapsedMs":6674}
+{"type":"unit:done","phase":"audits","completed":113,"total":221,"label":"answer-readiness/unique-meta Unique meta per page","fraction":0.8033936651583711,"elapsedMs":6674}
+{"type":"unit:done","phase":"audits","completed":114,"total":221,"label":"machine-discovery/websub-hub-advertisement Feeds that advertise a WebSub hub carry exactly one absolute self link","fraction":0.8047511312217195,"elapsedMs":6678}
+{"type":"unit:done","phase":"audits","completed":115,"total":221,"label":"machine-discovery/root-text-file-resolution-integrity The origin serves and correctly 404s root-level .txt resources","fraction":0.8061085972850679,"elapsedMs":6959}
+{"type":"unit:done","phase":"audits","completed":116,"total":221,"label":"machine-discovery/sitemap-lastmod-verifiability Sitemap lastmod values are verifiable against the pages","fraction":0.8074660633484163,"elapsedMs":7208}
+{"type":"unit:done","phase":"audits","completed":117,"total":221,"label":"machine-discovery/feed-entry-identity-and-canonical-integrity Feed entries have stable identities that resolve to their canonical pages","fraction":0.8088235294117647,"elapsedMs":7216}
+{"type":"unit:done","phase":"audits","completed":118,"total":221,"label":"machine-discovery/three-way-freshness-lag The sitemap and the feed are as fresh as the site itself","fraction":0.8101809954751131,"elapsedMs":7229}
+{"type":"unit:done","phase":"audits","completed":119,"total":221,"label":"machine-discovery/agent-commerce-feed-parity Product pages carry the fields an agent-commerce feed needs","fraction":0.8115384615384615,"elapsedMs":7335}
+{"type":"unit:done","phase":"audits","completed":120,"total":221,"label":"machine-discovery/conditional-request-support Discovery surfaces answer conditional requests","fraction":0.81289592760181,"elapsedMs":9533}
+{"type":"unit:done","phase":"audits","completed":121,"total":221,"label":"answer-readiness/core-open-graph Core Open Graph tags","fraction":0.8142533936651584,"elapsedMs":9735}
+{"type":"unit:done","phase":"audits","completed":122,"total":221,"label":"answer-readiness/og-type og:type set and appropriate","fraction":0.8156108597285068,"elapsedMs":9735}
+{"type":"unit:done","phase":"audits","completed":123,"total":221,"label":"answer-readiness/og-image-alt og:image:alt present","fraction":0.8169683257918552,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":124,"total":221,"label":"answer-readiness/faq-sections FAQ sections present","fraction":0.8183257918552036,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":125,"total":221,"label":"answer-readiness/question-headings Question-formatted headings","fraction":0.819683257918552,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":126,"total":221,"label":"answer-readiness/direct-definitions Definition markup on definitional pages","fraction":0.8210407239819004,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":127,"total":221,"label":"answer-readiness/comparison-tables Comparison tables present","fraction":0.8223981900452488,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":128,"total":221,"label":"answer-readiness/specific-numbers Specific numbers and data points","fraction":0.8237556561085974,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":129,"total":221,"label":"answer-readiness/content-without-clickthrough Content answers without click-through","fraction":0.8251131221719458,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":130,"total":221,"label":"answer-readiness/about-credentials About page with credentials","fraction":0.8264705882352942,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":131,"total":221,"label":"answer-readiness/external-citations External content links","fraction":0.8278280542986426,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":132,"total":221,"label":"answer-readiness/brand-name Brand name in body text","fraction":0.829185520361991,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":133,"total":221,"label":"answer-readiness/trust-signals Trust and evidence signals on homepage","fraction":0.8305429864253394,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":134,"total":221,"label":"answer-readiness/review-signals Review/testimonial signals","fraction":0.8319004524886878,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":135,"total":221,"label":"answer-readiness/unique-data Statistics in research context","fraction":0.8332579185520362,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":136,"total":221,"label":"answer-readiness/descriptive-urls Descriptive URL slugs","fraction":0.8346153846153846,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":137,"total":221,"label":"answer-readiness/snippet-gate-coverage Snippet-gate coverage analysis","fraction":0.8359728506787331,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":138,"total":221,"label":"answer-readiness/text-fragment-addressability Text-fragment citation addressability","fraction":0.8373303167420815,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":139,"total":221,"label":"answer-readiness/chunk-boundary-referent-integrity Chunk-boundary referent integrity","fraction":0.8386877828054299,"elapsedMs":9736}
+{"type":"unit:done","phase":"audits","completed":140,"total":221,"label":"answer-readiness/extractor-survival-recall Extractor survival recall","fraction":0.8400452488687783,"elapsedMs":9737}
+{"type":"unit:done","phase":"audits","completed":141,"total":221,"label":"answer-readiness/section-split-risk-profile Section split-risk profile","fraction":0.8414027149321267,"elapsedMs":9905}
+{"type":"unit:done","phase":"audits","completed":142,"total":221,"label":"answer-readiness/site-wide-passage-uniqueness-ratio Site-wide passage uniqueness ratio","fraction":0.8427601809954751,"elapsedMs":9906}
+{"type":"unit:done","phase":"audits","completed":143,"total":221,"label":"answer-readiness/table-markdown-round-trip-loss Tables survive conversion to markdown","fraction":0.8441176470588235,"elapsedMs":9906}
+{"type":"unit:done","phase":"audits","completed":144,"total":221,"label":"agent-interfaces/openapi-exists API description discoverable","fraction":0.8454751131221719,"elapsedMs":9906}
+{"type":"unit:done","phase":"audits","completed":145,"total":221,"label":"agent-interfaces/openapi-endpoints OpenAPI has endpoints","fraction":0.8468325791855204,"elapsedMs":9906}
+{"type":"unit:done","phase":"audits","completed":146,"total":221,"label":"agent-interfaces/openapi-operation-ids OpenAPI has operationIds","fraction":0.8481900452488688,"elapsedMs":9906}
+{"type":"unit:done","phase":"audits","completed":147,"total":221,"label":"agent-interfaces/openapi-servers OpenAPI servers array valid","fraction":0.8495475113122172,"elapsedMs":9906}
+{"type":"unit:done","phase":"audits","completed":148,"total":221,"label":"agent-interfaces/openapi-schemas OpenAPI request/response schemas","fraction":0.8509049773755656,"elapsedMs":9906}
+{"type":"unit:done","phase":"audits","completed":149,"total":221,"label":"agent-interfaces/ai-catalog-exists AI Catalog exists","fraction":0.8522624434389141,"elapsedMs":9906}
+{"type":"unit:done","phase":"audits","completed":150,"total":221,"label":"agent-interfaces/ai-catalog-metadata AI Catalog complete metadata","fraction":0.8536199095022625,"elapsedMs":9906}
+{"type":"unit:done","phase":"audits","completed":151,"total":221,"label":"agent-interfaces/ai-catalog-urls AI Catalog entry URLs valid","fraction":0.8549773755656109,"elapsedMs":9907}
+{"type":"unit:done","phase":"audits","completed":152,"total":221,"label":"agent-interfaces/agents-json agents.json at /.well-known/agents.json (obsolete)","fraction":0.8563348416289593,"elapsedMs":9907}
+{"type":"unit:done","phase":"audits","completed":153,"total":221,"label":"agent-interfaces/mcp-discovery MCP servers.json discovery file (obsolete)","fraction":0.8576923076923078,"elapsedMs":9907}
+{"type":"unit:done","phase":"audits","completed":154,"total":221,"label":"agent-interfaces/search-endpoint WebSite SearchAction markup (retired)","fraction":0.8590497737556562,"elapsedMs":9907}
+{"type":"unit:done","phase":"audits","completed":155,"total":221,"label":"agent-interfaces/webmcp-declarative-forms WebMCP declarative form tools","fraction":0.8604072398190046,"elapsedMs":9907}
+{"type":"unit:done","phase":"audits","completed":156,"total":221,"label":"agent-interfaces/openapi-description-quality OpenAPI description quality for tool-calling","fraction":0.861764705882353,"elapsedMs":9907}
+{"type":"unit:done","phase":"audits","completed":157,"total":221,"label":"agent-interfaces/cors-api-routes CORS on declared API routes","fraction":0.8631221719457014,"elapsedMs":9907}
+{"type":"unit:done","phase":"audits","completed":158,"total":221,"label":"agent-interfaces/mcp-endpoint MCP endpoint functional","fraction":0.8644796380090498,"elapsedMs":9908}
+{"type":"unit:done","phase":"audits","completed":159,"total":221,"label":"agent-interfaces/mcp-modern-era-reachability Modern-Era Reachability Probe (server/discover)","fraction":0.8658371040723982,"elapsedMs":9908}
+{"type":"unit:done","phase":"audits","completed":160,"total":221,"label":"agent-interfaces/mcp-oauth-discovery-chain OAuth Discovery Chain Integrity (RFC 9728 → RFC 8414)","fraction":0.8671945701357466,"elapsedMs":9908}
+{"type":"unit:done","phase":"audits","completed":161,"total":221,"label":"agent-interfaces/a2a-agent-card A2A Agent Card is readable","fraction":0.868552036199095,"elapsedMs":9943}
+{"type":"unit:done","phase":"audits","completed":162,"total":221,"label":"agent-interfaces/ai-plugin-json ChatGPT plugin manifest (retired)","fraction":0.8699095022624435,"elapsedMs":9943}
+{"type":"unit:done","phase":"audits","completed":163,"total":221,"label":"agentic-commerce/ucp-profile UCP business profile is readable","fraction":0.8712669683257919,"elapsedMs":9943}
+{"type":"unit:done","phase":"audits","completed":164,"total":221,"label":"agentic-commerce/ucp-profile-conformance UCP capability and payment declarations conform","fraction":0.8726244343891403,"elapsedMs":9943}
+{"type":"unit:done","phase":"audits","completed":165,"total":221,"label":"operability-safety/contact-form Contact/lead form endpoint","fraction":0.8739819004524887,"elapsedMs":9943}
+{"type":"unit:done","phase":"audits","completed":166,"total":221,"label":"operability-safety/no-blocking-captcha Forms don't use blocking CAPTCHA","fraction":0.8753393665158371,"elapsedMs":9943}
+{"type":"unit:done","phase":"audits","completed":167,"total":221,"label":"operability-safety/forms-no-js Forms work without JavaScript","fraction":0.8766968325791855,"elapsedMs":9943}
+{"type":"unit:done","phase":"audits","completed":168,"total":221,"label":"operability-safety/form-actionability Form backend actionability","fraction":0.8780542986425339,"elapsedMs":9944}
+{"type":"unit:done","phase":"audits","completed":169,"total":221,"label":"operability-safety/aria-landmarks ARIA landmarks complete","fraction":0.8794117647058823,"elapsedMs":9944}
+{"type":"unit:done","phase":"audits","completed":170,"total":221,"label":"operability-safety/landmark-unique Landmarks are uniquely identifiable","fraction":0.8807692307692307,"elapsedMs":9944}
+{"type":"unit:done","phase":"audits","completed":171,"total":221,"label":"agent-interfaces/mcp-tool-contract-validity Tool Contract Validity and Silent-Drop Risk","fraction":0.8821266968325792,"elapsedMs":9945}
+{"type":"unit:done","phase":"audits","completed":172,"total":221,"label":"agent-interfaces/mcp-tools-list-determinism tools/list Determinism and Cache-Hint Compliance","fraction":0.8834841628959276,"elapsedMs":9946}
+{"type":"unit:done","phase":"audits","completed":173,"total":221,"label":"agent-interfaces/mcp-version-downgrade Version Downgrade Recoverability","fraction":0.884841628959276,"elapsedMs":9946}
+{"type":"unit:done","phase":"audits","completed":174,"total":221,"label":"agent-interfaces/mcp-origin-validation-cors The MCP endpoint validates Origin and its CORS policy matches its auth posture","fraction":0.8861990950226244,"elapsedMs":9946}
+{"type":"unit:done","phase":"audits","completed":175,"total":221,"label":"agent-interfaces/mcp-registry-listing-ownership The MCP server is listed in the official registry under a namespace this domain owns","fraction":0.8875565610859728,"elapsedMs":9946}
+{"type":"unit:done","phase":"audits","completed":176,"total":221,"label":"agent-interfaces/mcp-tool-description-coverage Tool Self-Description Coverage","fraction":0.8889140271493212,"elapsedMs":9946}
+{"type":"unit:done","phase":"audits","completed":177,"total":221,"label":"agent-interfaces/mcp-tool-annotation-coverage MCP tool behaviour hints present","fraction":0.8902714932126697,"elapsedMs":9947}
+{"type":"unit:done","phase":"audits","completed":178,"total":221,"label":"agentic-commerce/acp-policy-link-surface ACP link-surface completeness","fraction":0.8916289592760182,"elapsedMs":10075}
+{"type":"unit:done","phase":"audits","completed":179,"total":221,"label":"agentic-commerce/cart-handoff-reachability Cart Handoff Reachability","fraction":0.8929864253393666,"elapsedMs":10175}
+{"type":"unit:done","phase":"audits","completed":180,"total":221,"label":"agentic-commerce/agent-ua-commerce-parity Commerce paths answer shopping-agent User-Agents the way they answer a browser","fraction":0.894343891402715,"elapsedMs":10306}
+{"type":"unit:done","phase":"audits","completed":181,"total":221,"label":"operability-safety/label Form inputs have associated labels","fraction":0.8957013574660634,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":182,"total":221,"label":"operability-safety/form-error-messages Form fields wired to their validation messages","fraction":0.8970588235294118,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":183,"total":221,"label":"operability-safety/accessible-names Buttons and links have accessible names","fraction":0.8984162895927602,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":184,"total":221,"label":"operability-safety/dialog-name Dialogs have accessible names","fraction":0.8997737556561086,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":185,"total":221,"label":"operability-safety/aria-hidden-body Page exposed to the accessibility tree","fraction":0.901131221719457,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":186,"total":221,"label":"operability-safety/aria-roles Valid ARIA roles","fraction":0.9024886877828054,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":187,"total":221,"label":"operability-safety/aria-attributes Valid ARIA attributes","fraction":0.9038461538461539,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":188,"total":221,"label":"operability-safety/aria-relationships Complete ARIA relationships","fraction":0.9052036199095023,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":189,"total":221,"label":"operability-safety/duplicate-id Unique IDs for ARIA references","fraction":0.9065610859728507,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":190,"total":221,"label":"operability-safety/autocomplete Form fields use valid autocomplete tokens","fraction":0.9079185520361992,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":191,"total":221,"label":"operability-safety/nested-interactive No nested interactive controls","fraction":0.9092760180995476,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":192,"total":221,"label":"operability-safety/table-headers Data tables have header associations","fraction":0.910633484162896,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":193,"total":221,"label":"operability-safety/document-title Page has a non-empty <title>","fraction":0.9119909502262444,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":194,"total":221,"label":"operability-safety/frame-title Frames are titled","fraction":0.9133484162895928,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":195,"total":221,"label":"operability-safety/meta-refresh No time-based auto-refresh/redirect","fraction":0.9147058823529413,"elapsedMs":10315}
+{"type":"unit:done","phase":"audits","completed":196,"total":221,"label":"operability-safety/tabindex No positive tabindex (logical focus order)","fraction":0.9160633484162897,"elapsedMs":10316}
+{"type":"unit:done","phase":"audits","completed":197,"total":221,"label":"operability-safety/presentation-conflict No presentation-role conflicts","fraction":0.9174208144796381,"elapsedMs":10316}
+{"type":"unit:done","phase":"audits","completed":198,"total":221,"label":"operability-safety/security-header-hygiene security.txt (RFC 9116)","fraction":0.9187782805429865,"elapsedMs":10316}
+{"type":"unit:done","phase":"audits","completed":199,"total":221,"label":"operability-safety/form-autofill-token-coverage Form Autofill Token Coverage","fraction":0.9201357466063349,"elapsedMs":10316}
+{"type":"unit:done","phase":"audits","completed":200,"total":221,"label":"operability-safety/profile-autofill-token-coverage Profile Autofill Token Coverage","fraction":0.9214932126696833,"elapsedMs":10316}
+{"type":"unit:done","phase":"audits","completed":201,"total":221,"label":"operability-safety/native-control-substitution Native Control Substitution Index","fraction":0.9228506787330317,"elapsedMs":10388}
+{"type":"unit:done","phase":"audits","completed":202,"total":221,"label":"operability-safety/aria-layer-injection-scan Accessibility-Layer Injection Scan","fraction":0.9242081447963801,"elapsedMs":10389}
+{"type":"unit:done","phase":"audits","completed":203,"total":221,"label":"operability-safety/drag-and-slider-dependency Gesture-only controls with no discrete alternative","fraction":0.9255656108597285,"elapsedMs":10389}
+{"type":"unit:done","phase":"audits","completed":204,"total":221,"label":"operability-safety/first-contact-consent-gate-operability First-contact consent gate: cost to get past it","fraction":0.926923076923077,"elapsedMs":10389}
+{"type":"unit:done","phase":"audits","completed":205,"total":221,"label":"operability-safety/unicode-covert-channel-scan Invisible codepoints carrying hidden text","fraction":0.9282805429864254,"elapsedMs":10390}
+{"type":"unit:done","phase":"audits","completed":206,"total":221,"label":"operability-safety/third-party-dom-write-blast-radius Third-party DOM-write blast radius","fraction":0.9296380090497738,"elapsedMs":10390}
+{"type":"unit:done","phase":"audits","completed":207,"total":221,"label":"operability-safety/unsafe-agent-triggerable-affordances State-changing links an agent can trigger by fetching them","fraction":0.9309954751131222,"elapsedMs":10390}
+{"type":"unit:done","phase":"audits","completed":208,"total":221,"label":"operability-safety/ugc-trust-boundary-markers UGC Trust-Boundary Markers","fraction":0.9323529411764706,"elapsedMs":10390}
+{"type":"unit:done","phase":"audits","completed":209,"total":221,"label":"operability-safety/organization-identifier-registry-resolution The organization identifier resolves in the authoritative registry","fraction":0.933710407239819,"elapsedMs":10390}
+{"type":"unit:done","phase":"audits","completed":210,"total":221,"label":"operability-safety/wikidata-round-trip-verification The Wikidata entity this site claims points back at this site","fraction":0.9350678733031674,"elapsedMs":10390}
+{"type":"unit:done","phase":"audits","completed":211,"total":221,"label":"operability-safety/invisible-instruction-scan Invisible Instruction Payload Scan","fraction":0.9364253393665158,"elapsedMs":10427}
+{"type":"unit:done","phase":"audits","completed":212,"total":221,"label":"operability-safety/ghost-clickable-element-ratio Ghost-clickable elements: click targets an agent cannot address","fraction":0.9377828054298643,"elapsedMs":10490}
+{"type":"unit:done","phase":"audits","completed":213,"total":221,"label":"operability-safety/stateful-control-introspectability Stateful controls: current state readable by an agent","fraction":0.9391402714932127,"elapsedMs":10524}
+{"type":"unit:done","phase":"audits","completed":214,"total":221,"label":"operability-safety/hover-only-content-and-navigation Hover-only navigation and content","fraction":0.9404977375565611,"elapsedMs":10541}
+{"type":"unit:done","phase":"audits","completed":215,"total":221,"label":"operability-safety/c2pa-signer-trust-status Content Credentials are signed by a certificate that can be trusted","fraction":0.9418552036199095,"elapsedMs":10614}
+{"type":"unit:done","phase":"audits","completed":216,"total":221,"label":"operability-safety/synthetic-media-disclosure-validity AI-generated-image disclosure is machine-readable and self-consistent","fraction":0.9432126696832579,"elapsedMs":10614}
+{"type":"unit:done","phase":"audits","completed":217,"total":221,"label":"operability-safety/c2pa-manifest-survives-delivery Content Credentials survive the image delivery pipeline","fraction":0.9445701357466063,"elapsedMs":10614}
+{"type":"unit:done","phase":"audits","completed":218,"total":221,"label":"operability-safety/agent-ua-content-divergence-diff Agent-UA Content Divergence Diff","fraction":0.9459276018099547,"elapsedMs":10746}
+{"type":"unit:done","phase":"audits","completed":219,"total":221,"label":"operability-safety/trust-txt-reciprocity-coherence trust.txt associations are reciprocated and agree with robots.txt","fraction":0.9472850678733031,"elapsedMs":10818}
+{"type":"unit:done","phase":"audits","completed":220,"total":221,"label":"operability-safety/reflected-parameter-injection-canary Reflected-Parameter Injection Canary","fraction":0.9486425339366515,"elapsedMs":10943}
+{"type":"unit:done","phase":"audits","completed":221,"total":221,"label":"operability-safety/change-password-url Change-password URL redirects to the form","fraction":0.95,"elapsedMs":10944}
+{"type":"phase:done","phase":"audits","durationMs":9820,"fraction":0.95,"elapsedMs":10946}
+{"type":"phase:start","phase":"report","totalUnits":1,"fraction":0.95,"elapsedMs":10946}
+{"type":"unit:done","phase":"report","completed":1,"total":1,"fraction":1,"elapsedMs":10950}
+{"type":"phase:done","phase":"report","durationMs":4,"fraction":1,"elapsedMs":10950}
+{"type":"scan:done","durationMs":10951,"score":79,"fraction":1,"elapsedMs":10951}

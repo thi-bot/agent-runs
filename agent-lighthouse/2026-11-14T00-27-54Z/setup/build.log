@@ -1,0 +1,79 @@
+Scope: 4 of 8 workspace projects
+packages/core build$ tsup && tsc -p tsconfig.build.json
+packages/core build: CLI Building entry: src/contracts.ts, src/index.ts, src/schemas.ts
+packages/core build: CLI Using tsconfig: tsconfig.json
+packages/core build: CLI tsup v9.0.0
+packages/core build: CLI Using tsup config: /home/thibaudcolas/dev/agent-lighthouse/packages/core/tsup.config.ts
+packages/core build: CLI Target: es2022
+packages/core build: CLI Cleaning output folder
+packages/core build: CJS Build start
+packages/core build: ESM Build start
+packages/core build: CJS dist/contracts.js          2.19 KB
+packages/core build: CJS dist/chunk-XVNUD2MJ.js     6.11 KB
+packages/core build: CJS dist/schemas.js            2.25 KB
+packages/core build: CJS dist/chunk-GMK63G3V.js     20.93 KB
+packages/core build: CJS dist/contracts.js.map      589.00 B
+packages/core build: CJS dist/schemas.js.map        548.00 B
+packages/core build: CJS dist/chunk-XVNUD2MJ.js.map 27.68 KB
+packages/core build: CJS dist/chunk-GMK63G3V.js.map 48.87 KB
+packages/core build: CJS dist/index.js              2.03 MB
+packages/core build: CJS dist/index.js.map          3.19 MB
+packages/core build: CJS ⚡️ Build success in 1295ms
+packages/core build: ESM dist/schemas.mjs            1.47 KB
+packages/core build: ESM dist/contracts.mjs          1.29 KB
+packages/core build: ESM dist/chunk-AAND2CBI.mjs     17.68 KB
+packages/core build: ESM dist/chunk-5BWKAGPE.mjs     5.25 KB
+packages/core build: ESM dist/schemas.mjs.map        71.00 B
+packages/core build: ESM dist/contracts.mjs.map      71.00 B
+packages/core build: ESM dist/chunk-AAND2CBI.mjs.map 39.23 KB
+packages/core build: ESM dist/chunk-5BWKAGPE.mjs.map 25.87 KB
+packages/core build: ESM dist/index.mjs              1.89 MB
+packages/core build: ESM dist/index.mjs.map          3.75 MB
+packages/core build: ESM ⚡️ Build success in 1295ms
+packages/core build: Done
+packages/report build$ tsup && tsc -p tsconfig.build.json
+packages/server build$ tsup && tsc -p tsconfig.build.json
+packages/report build: CLI Building entry: src/index.ts
+packages/report build: CLI Using tsconfig: tsconfig.json
+packages/report build: CLI tsup v9.0.0
+packages/report build: CLI Using tsup config: /home/thibaudcolas/dev/agent-lighthouse/packages/report/tsup.config.ts
+packages/server build: CLI Building entry: {"index":"src/index.ts"}
+packages/server build: CLI Using tsconfig: tsconfig.json
+packages/server build: CLI tsup v9.0.0
+packages/server build: CLI Using tsup config: /home/thibaudcolas/dev/agent-lighthouse/packages/server/tsup.config.ts
+packages/report build: CLI Target: es2022
+packages/report build: CLI Cleaning output folder
+packages/server build: CLI Target: es2022
+packages/report build: CJS Build start
+packages/report build: ESM Build start
+packages/server build: CLI Cleaning output folder
+packages/server build: CJS Build start
+packages/server build: ESM Build start
+packages/server build: ESM dist/index.mjs     33.89 KB
+packages/server build: ESM dist/index.mjs.map 75.50 KB
+packages/server build: ESM ⚡️ Build success in 48ms
+packages/server build: CJS dist/index.js     36.10 KB
+packages/server build: CJS dist/index.js.map 76.26 KB
+packages/server build: CJS ⚡️ Build success in 48ms
+packages/report build: ESM dist/index.mjs     60.51 KB
+packages/report build: ESM dist/index.mjs.map 108.50 KB
+packages/report build: ESM ⚡️ Build success in 56ms
+packages/report build: CJS dist/index.js     64.26 KB
+packages/report build: CJS dist/index.js.map 109.15 KB
+packages/report build: CJS ⚡️ Build success in 56ms
+packages/report build: Done
+packages/server build: Done
+packages/cli build$ tsup && tsc -p tsconfig.build.json
+packages/cli build: CLI Building entry: src/bin.ts, src/main.ts
+packages/cli build: CLI Using tsconfig: tsconfig.json
+packages/cli build: CLI tsup v9.0.0
+packages/cli build: CLI Using tsup config: /home/thibaudcolas/dev/agent-lighthouse/packages/cli/tsup.config.ts
+packages/cli build: CLI Target: es2022
+packages/cli build: CLI Cleaning output folder
+packages/cli build: CJS Build start
+packages/cli build: CJS dist/bin.js      1.27 KB
+packages/cli build: CJS dist/main.js     40.12 KB
+packages/cli build: CJS dist/bin.js.map  493.00 B
+packages/cli build: CJS dist/main.js.map 72.62 KB
+packages/cli build: CJS ⚡️ Build success in 15ms
+packages/cli build: Done

@@ -1,0 +1,18 @@
+START tate https://www.tate.org.uk/
+START nhs https://www.nhs.uk/
+START google-blog https://blog.google/
+DONE nhs exit= 0 score= 89 seconds= 18.167
+START w3c https://www.w3.org/
+DONE w3c exit= 0 score= 82 seconds= 7.639
+START lowtech https://solar.lowtechmagazine.com/
+DONE lowtech exit= 0 score= 79 seconds= 12.16
+START fresh-guide https://guide.wagtail.org/en/
+DONE google-blog exit= 0 score= 84 seconds= 41.587
+START fresh-wagtail https://wagtail.org/
+DONE fresh-guide exit= 0 score= 85 seconds= 20.395
+START docs-wagtail https://docs.wagtail.org/en/stable/
+DONE fresh-wagtail exit= 0 score= 86 seconds= 22.394
+START draftjs-exporter https://wagtail.github.io/draftjs_exporter/
+DONE draftjs-exporter exit= 0 score= 79 seconds= 12.715
+DONE tate exit= 0 score= 80 seconds= 81.349
+DONE docs-wagtail exit= 0 score= 81 seconds= 27.952

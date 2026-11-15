@@ -1,0 +1,8 @@
+› loading https://solar.lowtechmagazine.com/
+› loaded https://solar.lowtechmagazine.com/ (HTTP 200, 143 nodes)
+› probing robots.txt, sitemap, llms.txt, well-known manifests
+› running 43 checks
+› running 3 tasks with the baseline agent
+› task contact: FAIL (1 steps) no control matched keywords [contact, contact us, get in touch, support, email, phone, contacto, address] on https://solar.lowtechmagazine.com/
+› task legal-policy: PASS (1 steps) success criteria satisfied after 1 actions
+› task help-or-about: PASS (1 steps) success criteria satisfied after 1 actions

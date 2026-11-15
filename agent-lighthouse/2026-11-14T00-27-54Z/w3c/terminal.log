@@ -1,0 +1,39 @@
+
+[1m[36m🗼 Agent Lighthouse[0m [90mv10.6.0[0m
+[90mThe Open-Source Lighthouse for the Agentic Web[0m
+
+Auditing [1mhttps://www.w3.org/[0m ...
+
+[1m────────────────────────────────────────────────────────────────────────[0m
+[1mOVERALL AGENT READINESS:[0m [1m82/100[0m (PARTIALLY-READY)
+Target: https://www.w3.org/ | Pages: 1 | Duration: 6.0s
+Conditions: Page: [1mhomepage[0m (declared) | Origin: [1mfresh[0m | Coverage: [1m69.4/132.2[0m mass (52%) | Unscored: [1m138[0m (58 advisory, 0 gated)
+[1m────────────────────────────────────────────────────────────────────────[0m
+
+Page scope
+Detected page types express uncertainty. Type-specific findings on detected pages are advisory.
+https://www.w3.org/: homepage (declared, strong)
+  Signals: declared:homepage
+Fetch: https://www.w3.org/ — read, HTTP 200; homepage (declared)
+0 additional advisory populations. Use --debug-audit <id> for URLs and findings.
+
+[1m📊 CATEGORIES:[0m
+
+  [1mAgentic Readiness[0m [90m—[0m 89/100
+    [32m•[0m Access & Crawl Control               : [32m 98/100[0m  [90m(23✓ 1! 0✗)[0m
+    [34m•[0m Machine Discovery                    : [34m 73/100[0m  [90m(4✓ 1! 1✗)[0m
+    [90m•[0m Agent Interfaces                     : [90mnot assessed[0m  [90m(0✓ 0! 1✗ 1 advisory)[0m
+    [31m•[0m Agentic Commerce                     : [31m 25/100[0m  [90m(0✓ 1! 1✗)[0m
+
+  [1mAI Search Optimization[0m [90m—[0m 65/100
+    [34m•[0m Content Extraction                   : [34m 75/100[0m  [90m(12✓ 3! 3✗ 1 advisory)[0m
+    [31m•[0m Structured Data                      : [31m  0/100[0m  [90m(0✓ 0! 3✗)[0m
+    [34m•[0m Answer Readiness                     : [34m 73/100[0m  [90m(9✓ 2! 6✗ 6 advisory)[0m
+
+  [1mTechnical Foundation[0m [90m—[0m 94/100
+    [32m•[0m Agent Operability & Safety           : [32m 94/100[0m  [90m(17✓ 3! 0✗)[0m
+
+  [90m• JSON Report:[0m    /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/w3c/agent-lighthouse-report.json
+  [90m• HTML Report:[0m    /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/w3c/agent-lighthouse-report.html
+  [90m• Markdown Report:[0m /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/w3c/agent-lighthouse-report.md
+  [90m• Audit trace:[0m    /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/w3c/audit-trace.ndjson

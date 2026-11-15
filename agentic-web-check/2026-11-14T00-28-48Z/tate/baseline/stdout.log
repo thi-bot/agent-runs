@@ -1,0 +1,147 @@
+
+AGENTIC WEB CHECK  v0.1.0 · methodology v1
+https://www.tate.org.uk/
+Behavioural verification (3 tasks, baseline agent)
+
+Agent Readiness   52/100
+3 of 3 behavioural tasks did not pass (3 BLOCKED)
+
+PERCEPTION           77   5 pass · 3 warn · 1 fail · 9 of 9 checks scored
+NAVIGATION           73   4 pass · 1 warn · 1 fail · 6 of 7 checks scored
+INTERACTION          65   6 pass · 2 warn · 1 fail · 9 of 9 checks scored
+MACHINE INTERFACES   78   2 pass · 1 warn · 1 fail · 4 of 6 checks scored
+RELIABILITY          65   3 pass · 1 warn · 1 fail · 5 of 5 checks scored
+SAFETY               87   3 pass · 1 warn · 0 fail · 4 of 7 checks scored
+TASK SUCCESS          0   0 pass · 0 warn · 3 fail · 3 of 3 tasks scored
+
+23 passed  9 warnings  5 failures  6 not applicable/info
+
+FAIL
+  ✗ No bot challenge blocks automated browsers [challenge-or-bot-wall, reliability, weight 10]
+    The browser hit a bot challenge or access denial.
+    · observed: browser: g-recaptcha, recaptcha · expected: page content
+    · observed: plain fetch: g-recaptcha, recaptcha · expected: same content as the browser
+  ✗ No overlay blocks the page at load [overlay-interference, interaction, weight 10]
+    1 overlays block the page without an accessible dismiss control.
+    · div#didomi-tate-overlay · observed: overlay covering 100% of the viewport with no named dismiss control · expected: named Accept/Close/Reject button
+  ✗ Visible labels are part of accessible names [label-in-name, perception, weight 3]
+    15 controls whose accessible name does not contain their visible label.
+    · <a href="/visit/tate-britain" aria-label="Tate Britain" data-gtm-name="card_link_title" data-gtm-destination=""> · observed: label-content-name-mismatch · expected: Elements must have their visible text as part of their 
+    · <a href="/visit/tate-modern" aria-label="Tate Modern" data-gtm-name="card_link_title" data-gtm-destination=""> · observed: label-content-name-mismatch · expected: Elements must have their visible text as part of their ac
+    · <a href="/visit/tate-liverpool" aria-label="Tate Liverpool + RIBA North" data-gtm-name="card_link_title" data-gtm-destination=""> · observed: label-content-name-mismatch · expected: Elements must have their visible text 
+    · <a href="/visit/tate-st-ives" aria-label="Tate St Ives" data-gtm-name="card_link_title" data-gtm-destination=""> · observed: label-content-name-mismatch · expected: Elements must have their visible text as part of their 
+    · <a href="https://www.tate.org.uk/whats-on/tate-modern/julio-le-parc" aria-label="Julio Le Parc" data-gtm-name="card_link_title" data-gtm-destination=""> · observed: label-content-name-mismatch · expected: Elements must h
+    · <a href="https://www.tate.org.uk/whats-on/tate-modern/frida-kahlo-the-making-of-an-icon" aria-label="Frida: The Making of an Icon" data-gtm-name="card_link_titl · observed: label-content-name-mismatch · expected: Element
+    · <a href="https://www.tate.org.uk/whats-on/tate-britain/zineb-sedira" aria-label="Zineb Sedira" data-gtm-name="card_link_title" data-gtm-destination=""> · observed: label-content-name-mismatch · expected: Elements must ha
+    · <a href="https://www.tate.org.uk/whats-on/tate-modern/ana-mendieta" aria-label="Ana Mendieta" data-gtm-name="card_link_title" data-gtm-destination=""> · observed: label-content-name-mismatch · expected: Elements must hav
+  ✗ Menus do not depend on hover [hover-only-menus, navigation, weight 3]
+    31 navigation links are only revealed on hover.
+    · observed: 31 nav links hidden until hover · expected: submenu behind a button with aria-expanded, or always rendered
+  ✗ Structured data (JSON-LD) describes the page [structured-data, machine-interfaces, weight 3]
+    No JSON-LD found.
+    · observed: types: none · expected: Organization, WebSite, WebPage, Product, Offer, FAQPage
+
+WARNING
+  ! Clickable elements are real controls, not generic elements [fake-interactive-elements, perception, weight 7]
+    5 clickable elements without a control role (8% of clickables).
+    · <li> "Art Discover Art Artists Artworks Stories Stories Watch, lis" · observed: click listener · expected: semantic control
+    · <li> "Learn Schools Tate Kids Research Activities and workshops Ta" · observed: click listener · expected: semantic control
+    · <div> "Exhibitions Julio Le Parc: Light. Colour. Action. Discover s" · observed: click listener · expected: semantic control
+    · <div> "Books Treat your bookshelf to titles on art, artists, cultur" · observed: click listener · expected: semantic control
+    · <div> "Discover Art Explore highlights from our collection Search t" · observed: click listener · expected: semantic control
+  ! Navigation links are named and resolvable [navigation-links-usable, navigation, weight 7]
+    2 of 23 navigation links are unnamed or have no real URL.
+    · link "Art " [ref=e32] → # [cursor=pointer] · observed: href # · expected: named link with a real URL
+    · link "Learn " [ref=e34] → # [cursor=pointer] · observed: href # · expected: named link with a real URL
+  ! Controls are native or complete ARIA widgets [native-controls, interaction, weight 7]
+    2 custom ARIA widgets and 0 drag-only elements.
+    · role=menu · observed: ARIA widget without native control · expected: native control or complete ARIA pattern
+    · role=menu · observed: ARIA widget without native control · expected: native control or complete ARIA pattern
+  ! Consequential actions require confirmation [consequential-actions-guarded, safety, weight 7]
+    1 of 1 consequential actions execute without a visible confirmation step.
+    · link "book now" → /whats-on/tate-modern/frida-kahlo-the-making-of-an-icon · observed: immediate action without confirmation signal · expected: confirmation dialog or review step
+  ! No runtime errors during load [console-errors, reliability, weight 3]
+    1 runtime errors or failed scripts.
+    · observed: requestStorageAccess: Permission denied. · expected: no uncaught errors
+  ! Pages have a descriptive title and a language [document-title-lang, perception, weight 3]
+    1 title/language problems across 1 pages.
+    · observed: title "Tate" · expected: descriptive, page-specific title
+  ! Headings form a usable outline [heading-structure, perception, weight 3]
+    1 heading problems across 1 pages.
+    · h5 "Stories" · observed: skips from h2 to h5 · expected: no skipped heading levels
+  ! Controls are keyboard operable [keyboard-operability, interaction, weight 3]
+    2 keyboard operability problems.
+    · observed: 1 elements with positive tabindex · expected: tabindex 0 or -1 only
+    · <a href="#content" class="skip-to-content__link" title="Skip to main content" tabindex="1">Skip navigation</a> · observed: tabindex · expected: Elements should not have tabindex greater than zero
+  ! llms.txt is published and well-formed [llms-txt, machine-interfaces, weight 3]
+    No llms.txt published.
+    · observed: HTTP 404 · expected: markdown file with H1
+
+PASS
+  ✓ Page loads successfully [page-load] HTTP 200 in 3483 ms.
+  ✓ Interactive controls have accessible names [control-accessible-name] 0 of 60 interactive controls (0%) have no accessible name.
+  ✓ Form fields have labels and names [form-fields-labelled] 3 form fields are labelled and named.
+  ✓ No hidden instructions aimed at AI agents [hidden-instructions] No instruction-like hidden text (24 hidden blocks inspected).
+  ✓ The DOM settles after load [dom-stability] Worst page: 0 late mutations, CLS 0.025.
+  ✓ ARIA attributes and roles are valid [aria-validity] No ARIA validity violations.
+  ✓ Page regions are exposed as landmarks [landmarks] Main and navigation landmarks present.
+  ✓ robots.txt lets user-triggered agents fetch the page [robots-agent-access] User-triggered agents may fetch this page.
+  ✓ Content is available without executing JavaScript [server-rendered-content] 94% of rendered text is present without JavaScript.
+  ✓ Forms submit safely [forms-safe-transport] 2 forms submit to the same origin over HTTPS.
+  ✓ Network activity settles [network-settles] Network idle reached on all pages.
+  ✓ Control names are specific, not repeated or generic [ambiguous-control-names] Control names are specific.
+  ✓ Images carry alternative text [image-alt] Images have alternative text.
+  ✓ Accessibility snapshot fits an agent context budget [snapshot-budget] Largest snapshot: 22,554 chars.
+  ✓ Common destinations are discoverable from the start page [key-pages-discoverable] Found contact, about, privacy, terms, search; missing help.
+  ✓ A sitemap is published [sitemap] Sitemap found.
+  ✓ Required fields are marked programmatically [required-fields-marked] Required fields are marked programmatically.
+  ✓ Controls are not confined to cross-origin iframes [cross-origin-iframe-controls] No controls confined to cross-origin iframes.
+  ✓ No controls hidden in closed shadow roots [closed-shadow-roots] No closed shadow roots.
+  ✓ The UI is not rendered only on canvas [canvas-only-ui] No canvas-only UI.
+  ✓ No secret-looking tokens in page source [exposed-secrets] No secret-looking tokens found.
+  ✓ Site search is exposed [search-available] Search exposed via search landmark/input.
+  ✓ Targets are large enough [target-size] Targets meet the minimum size.
+
+NOT APPLICABLE / INFO
+  · Inner pages expose breadcrumbs [breadcrumbs] No pages deeper than one level were scanned; breadcrumbs not expected.
+  · WebMCP tools are exposed [webmcp] No WebMCP tools detected.
+  · Agent manifests (agent-card, UCP, ARD) are published [agent-manifests] No agent manifests (optional).
+  · WebMCP tools declare safety annotations [webmcp-tool-annotations] No WebMCP tools.
+  · Authentication boundaries are clearly signalled [auth-boundary-signalled] No authentication forms on the scanned pages.
+  · Downloads and new windows are announced [download-and-popup-links] No download or new-window links.
+
+BEHAVIOURAL TESTS
+  Find the company's contact information (an email address or phone n…: BLOCKED (0 steps, 3.4 s)
+    captcha: g-recaptcha, recaptcha
+  Find the page describing the privacy policy or terms of service.: BLOCKED (0 steps, 3.0 s)
+    captcha: g-recaptcha, recaptcha
+  Find a page that explains what the company or product does (about, …: BLOCKED (0 steps, 4.0 s)
+    captcha: g-recaptcha, recaptcha
+
+Suggested fixes
+  1. No bot challenge blocks automated browsers [challenge-or-bot-wall, weight 10]
+     Exempt well-behaved agents (honest UA, Web Bot Auth signatures) from challenges on public
+     pages, or serve a machine-readable alternative.
+  2. No overlay blocks the page at load [overlay-interference, weight 10]
+     Avoid full-page overlays at load; if a consent dialog is required, make it a role="dialog"
+     with a clearly named Accept/Reject button and let the rest of the page work beneath it.
+  3. Visible labels are part of accessible names [label-in-name, weight 3]
+     Ensure the accessible name (aria-label) contains the visible text of the control.
+  4. Menus do not depend on hover [hover-only-menus, weight 3]
+     Expose submenus through a <button aria-expanded> toggle, or render submenu links in the
+     page (footer sitemap) so they are reachable without hover.
+  5. Structured data (JSON-LD) describes the page [structured-data, weight 3]
+     Add JSON-LD for Organization/WebSite on the home page and Product/Offer, FAQPage,
+     ContactPoint or BreadcrumbList on inner pages.
+  6. Clickable elements are real controls, not generic elements [fake-interactive-elements, weight 7]
+     Use <button> or <a href> for actions and navigation. If a custom element must stay, add
+     role="button", tabindex="0", a name and keyboard handlers.
+  7. Navigation links are named and resolvable [navigation-links-usable, weight 7]
+     Use real URLs in href for navigation items; name every nav link; if JavaScript handles
+     navigation, keep a working href as fallback.
+  8. Controls are native or complete ARIA widgets [native-controls, weight 7]
+     Prefer native <select>, <input type="date|range|number">; when custom widgets are
+     unavoidable, implement the full ARIA pattern (roles, states such as
+     aria-valuenow/aria-expanded, keyboard support).
+
+1 pages · 20.7 s · chromium 153.0.8010.12 · 2026-11-14T00:30:03.691Z

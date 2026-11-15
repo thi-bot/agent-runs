@@ -1,0 +1,299 @@
+[
+  {
+    "id": "tate",
+    "url": "https://www.tate.org.uk/",
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agent-lighthouse/packages/cli/dist/bin.js",
+      "https://www.tate.org.uk/",
+      "--config",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/config.json",
+      "--trace",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/audit-trace.ndjson",
+      "--log-file",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/scan-log.jsonl",
+      "--progress-json"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+    "started_at": "2026-11-14T00:29:12.323648+00:00",
+    "output_directory": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate",
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:30:33.672884+00:00",
+    "elapsed_seconds": 81.349,
+    "overall_score": 80,
+    "scan_validity": {
+      "judgeable": true,
+      "evidence": {
+        "origin-reachable": true,
+        "unblocked-fetches": true,
+        "rendered-body": true,
+        "sample-adequate": true
+      },
+      "reasons": {}
+    }
+  },
+  {
+    "id": "nhs",
+    "url": "https://www.nhs.uk/",
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agent-lighthouse/packages/cli/dist/bin.js",
+      "https://www.nhs.uk/",
+      "--config",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/nhs/config.json",
+      "--trace",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/nhs/audit-trace.ndjson",
+      "--log-file",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/nhs/scan-log.jsonl",
+      "--progress-json"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+    "started_at": "2026-11-14T00:29:12.323902+00:00",
+    "output_directory": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/nhs",
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:29:30.491127+00:00",
+    "elapsed_seconds": 18.167,
+    "overall_score": 89,
+    "scan_validity": {
+      "judgeable": true,
+      "evidence": {
+        "origin-reachable": true,
+        "unblocked-fetches": true,
+        "rendered-body": true,
+        "sample-adequate": true
+      },
+      "reasons": {}
+    }
+  },
+  {
+    "id": "google-blog",
+    "url": "https://blog.google/",
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agent-lighthouse/packages/cli/dist/bin.js",
+      "https://blog.google/",
+      "--config",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/google-blog/config.json",
+      "--trace",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/google-blog/audit-trace.ndjson",
+      "--log-file",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/google-blog/scan-log.jsonl",
+      "--progress-json"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+    "started_at": "2026-11-14T00:29:12.324238+00:00",
+    "output_directory": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/google-blog",
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:29:53.911212+00:00",
+    "elapsed_seconds": 41.587,
+    "overall_score": 84,
+    "scan_validity": {
+      "judgeable": true,
+      "evidence": {
+        "origin-reachable": true,
+        "unblocked-fetches": true,
+        "rendered-body": true,
+        "sample-adequate": true
+      },
+      "reasons": {}
+    }
+  },
+  {
+    "id": "w3c",
+    "url": "https://www.w3.org/",
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agent-lighthouse/packages/cli/dist/bin.js",
+      "https://www.w3.org/",
+      "--config",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/w3c/config.json",
+      "--trace",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/w3c/audit-trace.ndjson",
+      "--log-file",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/w3c/scan-log.jsonl",
+      "--progress-json"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+    "started_at": "2026-11-14T00:29:30.499707+00:00",
+    "output_directory": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/w3c",
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:29:38.138698+00:00",
+    "elapsed_seconds": 7.639,
+    "overall_score": 82,
+    "scan_validity": {
+      "judgeable": true,
+      "evidence": {
+        "origin-reachable": true,
+        "unblocked-fetches": true,
+        "rendered-body": true,
+        "sample-adequate": true
+      },
+      "reasons": {}
+    }
+  },
+  {
+    "id": "lowtech",
+    "url": "https://solar.lowtechmagazine.com/",
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agent-lighthouse/packages/cli/dist/bin.js",
+      "https://solar.lowtechmagazine.com/",
+      "--config",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/lowtech/config.json",
+      "--trace",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/lowtech/audit-trace.ndjson",
+      "--log-file",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/lowtech/scan-log.jsonl",
+      "--progress-json"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+    "started_at": "2026-11-14T00:29:38.143947+00:00",
+    "output_directory": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/lowtech",
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:29:50.304183+00:00",
+    "elapsed_seconds": 12.16,
+    "overall_score": 79,
+    "scan_validity": {
+      "judgeable": true,
+      "evidence": {
+        "origin-reachable": true,
+        "unblocked-fetches": true,
+        "rendered-body": true,
+        "sample-adequate": true
+      },
+      "reasons": {}
+    }
+  },
+  {
+    "id": "fresh-guide",
+    "url": "https://guide.wagtail.org/en/",
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agent-lighthouse/packages/cli/dist/bin.js",
+      "https://guide.wagtail.org/en/",
+      "--config",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-guide/config.json",
+      "--trace",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-guide/audit-trace.ndjson",
+      "--log-file",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-guide/scan-log.jsonl",
+      "--progress-json"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+    "started_at": "2026-11-14T00:29:50.316159+00:00",
+    "output_directory": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-guide",
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:30:10.711002+00:00",
+    "elapsed_seconds": 20.395,
+    "overall_score": 85,
+    "scan_validity": {
+      "judgeable": true,
+      "evidence": {
+        "origin-reachable": true,
+        "unblocked-fetches": true,
+        "rendered-body": true,
+        "sample-adequate": true
+      },
+      "reasons": {}
+    }
+  },
+  {
+    "id": "fresh-wagtail",
+    "url": "https://wagtail.org/",
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agent-lighthouse/packages/cli/dist/bin.js",
+      "https://wagtail.org/",
+      "--config",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/config.json",
+      "--trace",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/audit-trace.ndjson",
+      "--log-file",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/scan-log.jsonl",
+      "--progress-json"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+    "started_at": "2026-11-14T00:29:53.923078+00:00",
+    "output_directory": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail",
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:30:16.317230+00:00",
+    "elapsed_seconds": 22.394,
+    "overall_score": 86,
+    "scan_validity": {
+      "judgeable": true,
+      "evidence": {
+        "origin-reachable": true,
+        "unblocked-fetches": true,
+        "rendered-body": true,
+        "sample-adequate": true
+      },
+      "reasons": {}
+    }
+  },
+  {
+    "id": "docs-wagtail",
+    "url": "https://docs.wagtail.org/en/stable/",
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agent-lighthouse/packages/cli/dist/bin.js",
+      "https://docs.wagtail.org/en/stable/",
+      "--config",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/docs-wagtail/config.json",
+      "--trace",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/docs-wagtail/audit-trace.ndjson",
+      "--log-file",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/docs-wagtail/scan-log.jsonl",
+      "--progress-json"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+    "started_at": "2026-11-14T00:30:10.721546+00:00",
+    "output_directory": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/docs-wagtail",
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:30:38.673416+00:00",
+    "elapsed_seconds": 27.952,
+    "overall_score": 81,
+    "scan_validity": {
+      "judgeable": true,
+      "evidence": {
+        "origin-reachable": true,
+        "unblocked-fetches": true,
+        "rendered-body": true,
+        "sample-adequate": true
+      },
+      "reasons": {}
+    }
+  },
+  {
+    "id": "draftjs-exporter",
+    "url": "https://wagtail.github.io/draftjs_exporter/",
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agent-lighthouse/packages/cli/dist/bin.js",
+      "https://wagtail.github.io/draftjs_exporter/",
+      "--config",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/draftjs-exporter/config.json",
+      "--trace",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/draftjs-exporter/audit-trace.ndjson",
+      "--log-file",
+      "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/draftjs-exporter/scan-log.jsonl",
+      "--progress-json"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+    "started_at": "2026-11-14T00:30:16.337130+00:00",
+    "output_directory": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/draftjs-exporter",
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:30:29.052677+00:00",
+    "elapsed_seconds": 12.715,
+    "overall_score": 79,
+    "scan_validity": {
+      "judgeable": true,
+      "evidence": {
+        "origin-reachable": true,
+        "unblocked-fetches": true,
+        "rendered-body": true,
+        "sample-adequate": true
+      },
+      "reasons": {}
+    }
+  }
+]

@@ -1,0 +1,851 @@
+[
+  {
+    "name": "light",
+    "dom": {
+      "theme": "<button id=\"wagtail-theme\" class=\"theme-toggle__button\" type=\"button\" aria-label=\"Toggle between dark and light theme\">\n        <span class=\"dark-only u-sr-only\">Light mode</span>\n        <span class=\"light-only u-sr-only\">Dark mode</span>\n    </button>",
+      "dark": false,
+      "active": [
+        "<a href=\"/en/how-to-guides/manage-pages/\" class=\"navigation__link active\" dir=\"auto\">Manage pages</a>"
+      ],
+      "inputs": [
+        {
+          "outerHTML": "<input type=\"text\" id=\"search\" name=\"query\" data-search-input=\"\" placeholder=\"Search…\" class=\"search__input\">",
+          "labels": [
+            "<label for=\"search\" class=\"u-sr-only\">Search</label>"
+          ]
+        }
+      ],
+      "mobile": "<button class=\"burger\" data-mobile-menu-toggle=\"\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-label=\"Mobile menu toggle\">\n                    <span class=\"burger__line\"></span>\n                    <span class=\"burger__line\"></span>\n                    <span class=\"burger__line\"></span>\n                    <span class=\"burger__line\"></span>\n                </button>"
+    },
+    "ax": [
+      {
+        "role": "button",
+        "name": "Toggle between dark and light theme",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Happy",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Unhappy",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Copy page",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Toggle options",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "expanded",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": false
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "English",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "expanded",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": false
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Toggle the search form",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "link",
+        "name": "Manage pages",
+        "properties": [
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "url",
+            "value": {
+              "type": "string",
+              "value": "https://guide.wagtail.org/en/how-to-guides/manage-pages/"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dark",
+    "dom": {
+      "theme": "<button id=\"wagtail-theme\" class=\"theme-toggle__button\" type=\"button\" aria-label=\"Toggle between dark and light theme\">\n        <span class=\"dark-only u-sr-only\">Light mode</span>\n        <span class=\"light-only u-sr-only\">Dark mode</span>\n    </button>",
+      "dark": true,
+      "active": [
+        "<a href=\"/en/how-to-guides/manage-pages/\" class=\"navigation__link active\" dir=\"auto\">Manage pages</a>"
+      ],
+      "inputs": [
+        {
+          "outerHTML": "<input type=\"text\" id=\"search\" name=\"query\" data-search-input=\"\" placeholder=\"Search…\" class=\"search__input\">",
+          "labels": [
+            "<label for=\"search\" class=\"u-sr-only\">Search</label>"
+          ]
+        }
+      ],
+      "mobile": "<button class=\"burger\" data-mobile-menu-toggle=\"\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-label=\"Mobile menu toggle\">\n                    <span class=\"burger__line\"></span>\n                    <span class=\"burger__line\"></span>\n                    <span class=\"burger__line\"></span>\n                    <span class=\"burger__line\"></span>\n                </button>"
+    },
+    "ax": [
+      {
+        "role": "button",
+        "name": "Toggle between dark and light theme",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "focused",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Happy",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Unhappy",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Copy page",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Toggle options",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "expanded",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": false
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "English",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "expanded",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": false
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Toggle the search form",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "link",
+        "name": "Manage pages",
+        "properties": [
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "url",
+            "value": {
+              "type": "string",
+              "value": "https://guide.wagtail.org/en/how-to-guides/manage-pages/"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "search-page",
+    "dom": {
+      "theme": "<button id=\"wagtail-theme\" class=\"theme-toggle__button\" type=\"button\" aria-label=\"Toggle between dark and light theme\">\n        <span class=\"dark-only u-sr-only\">Light mode</span>\n        <span class=\"light-only u-sr-only\">Dark mode</span>\n    </button>",
+      "dark": true,
+      "active": [],
+      "inputs": [
+        {
+          "outerHTML": "<input type=\"text\" id=\"search\" name=\"query\" value=\"pages\">",
+          "labels": [
+            "<label for=\"search\" class=\"u-sr-only\">Search</label>",
+            "<label for=\"search\" class=\"u-sr-only\">Search</label>"
+          ]
+        },
+        {
+          "outerHTML": "<input type=\"text\" id=\"search\" name=\"query\" data-search-input=\"\" placeholder=\"Search…\" class=\"search__input\">",
+          "labels": []
+        }
+      ],
+      "mobile": "<button class=\"burger\" data-mobile-menu-toggle=\"\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-label=\"Mobile menu toggle\">\n                    <span class=\"burger__line\"></span>\n                    <span class=\"burger__line\"></span>\n                    <span class=\"burger__line\"></span>\n                    <span class=\"burger__line\"></span>\n                </button>"
+    },
+    "ax": [
+      {
+        "role": "button",
+        "name": "Toggle between dark and light theme",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "textbox",
+        "name": "Search",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "editable",
+            "value": {
+              "type": "token",
+              "value": "plaintext"
+            }
+          },
+          {
+            "name": "settable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "multiline",
+            "value": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          {
+            "name": "readonly",
+            "value": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          {
+            "name": "required",
+            "value": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          {
+            "name": "labelledby",
+            "value": {
+              "type": "nodeList",
+              "relatedNodes": [
+                {
+                  "backendDOMNodeId": 1585,
+                  "text": "Search"
+                },
+                {
+                  "backendDOMNodeId": 1665,
+                  "text": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Search",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Toggle the search form",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "link",
+        "name": "Manage pages",
+        "properties": [
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "url",
+            "value": {
+              "type": "string",
+              "value": "https://guide.wagtail.org/en/how-to-guides/manage-pages/"
+            }
+          }
+        ]
+      },
+      {
+        "role": "link",
+        "name": "Manage pages",
+        "properties": [
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "url",
+            "value": {
+              "type": "string",
+              "value": "https://guide.wagtail.org/en/how-to-guides/manage-pages/"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "search-page-modal",
+    "dom": {
+      "theme": "<button id=\"wagtail-theme\" class=\"theme-toggle__button\" type=\"button\" aria-label=\"Toggle between dark and light theme\">\n        <span class=\"dark-only u-sr-only\">Light mode</span>\n        <span class=\"light-only u-sr-only\">Dark mode</span>\n    </button>",
+      "dark": true,
+      "active": [],
+      "inputs": [
+        {
+          "outerHTML": "<input type=\"text\" id=\"search\" name=\"query\" value=\"pages\">",
+          "labels": [
+            "<label for=\"search\" class=\"u-sr-only\">Search</label>",
+            "<label for=\"search\" class=\"u-sr-only\">Search</label>"
+          ]
+        },
+        {
+          "outerHTML": "<input type=\"text\" id=\"search\" name=\"query\" data-search-input=\"\" placeholder=\"Search…\" class=\"search__input\">",
+          "labels": []
+        }
+      ],
+      "mobile": "<button class=\"burger\" data-mobile-menu-toggle=\"\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-label=\"Mobile menu toggle\">\n                    <span class=\"burger__line\"></span>\n                    <span class=\"burger__line\"></span>\n                    <span class=\"burger__line\"></span>\n                    <span class=\"burger__line\"></span>\n                </button>"
+    },
+    "ax": [
+      {
+        "role": "button",
+        "name": "Toggle between dark and light theme",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "textbox",
+        "name": "Search Search",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "editable",
+            "value": {
+              "type": "token",
+              "value": "plaintext"
+            }
+          },
+          {
+            "name": "settable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "multiline",
+            "value": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          {
+            "name": "readonly",
+            "value": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          {
+            "name": "required",
+            "value": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          {
+            "name": "labelledby",
+            "value": {
+              "type": "nodeList",
+              "relatedNodes": [
+                {
+                  "backendDOMNodeId": 1585,
+                  "text": "Search"
+                },
+                {
+                  "backendDOMNodeId": 1665,
+                  "text": "Search"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Search",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "button",
+        "name": "Toggle the search form",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "role": "link",
+        "name": "Manage pages",
+        "properties": [
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "url",
+            "value": {
+              "type": "string",
+              "value": "https://guide.wagtail.org/en/how-to-guides/manage-pages/"
+            }
+          }
+        ]
+      },
+      {
+        "role": "textbox",
+        "name": "Search…",
+        "properties": [
+          {
+            "name": "invalid",
+            "value": {
+              "type": "token",
+              "value": "false"
+            }
+          },
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "focused",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "editable",
+            "value": {
+              "type": "token",
+              "value": "plaintext"
+            }
+          },
+          {
+            "name": "settable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "multiline",
+            "value": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          {
+            "name": "readonly",
+            "value": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          {
+            "name": "required",
+            "value": {
+              "type": "boolean",
+              "value": false
+            }
+          }
+        ]
+      },
+      {
+        "role": "link",
+        "name": "Manage pages",
+        "properties": [
+          {
+            "name": "focusable",
+            "value": {
+              "type": "booleanOrUndefined",
+              "value": true
+            }
+          },
+          {
+            "name": "url",
+            "value": {
+              "type": "string",
+              "value": "https://guide.wagtail.org/en/how-to-guides/manage-pages/"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

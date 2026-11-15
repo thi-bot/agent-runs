@@ -1,0 +1,45 @@
+{
+  "url": "https://guide.wagtail.org/en/how-to-guides/manage-pages/",
+  ".copy-button__toggle": {
+    "tag": "BUTTON",
+    "text": "Copy Markdown link",
+    "cls": "dropdown-item"
+  },
+  ".copy-button__toggleEscape": {
+    "tag": "BUTTON",
+    "text": "",
+    "cls": "copy-button__toggle dropdown-toggle"
+  },
+  ".language-selector__toggle": {
+    "tag": "A",
+    "text": "Íslenska",
+    "cls": "language-selector__dropdown-item dropdown-item"
+  },
+  ".language-selector__toggleEscape": {
+    "tag": "BUTTON",
+    "text": "English",
+    "cls": "language-selector__toggle dropdown-toggle"
+  },
+  "copy": {
+    "tag": "BUTTON",
+    "text": "Copied!",
+    "cls": "copy-button__btn"
+  },
+  "clipboardLength": 16140,
+  "toc": 14,
+  "afterToc": {
+    "tag": "A",
+    "text": "snippets",
+    "cls": ""
+  },
+  "feedback": {
+    "tag": "BUTTON",
+    "text": "",
+    "cls": "feedback__button"
+  },
+  "nextFeedback": {
+    "tag": "BUTTON",
+    "text": "",
+    "cls": "feedback__button"
+  }
+}

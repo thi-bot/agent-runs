@@ -1,0 +1,8 @@
+› loading https://docs.wagtail.org/en/stable/
+› loaded https://docs.wagtail.org/en/stable/ (HTTP 200, 840 nodes)
+› probing robots.txt, sitemap, llms.txt, well-known manifests
+› running 43 checks
+› running 3 tasks with the baseline agent
+› task contact: PASS (1 steps) success criteria satisfied after 1 actions
+› task legal-policy: PASS (2 steps) success criteria satisfied after 2 actions
+› task help-or-about: PASS (1 steps) success criteria satisfied after 1 actions

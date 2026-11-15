@@ -1,0 +1,33 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://guide.wagtail.org/api/v3-preview/pages/",
+      "item": [
+        {
+          "href": "https://guide.wagtail.org/api/v3-preview/pages/"
+        }
+      ],
+      "service-desc": [
+        {
+          "href": "https://guide.wagtail.org/api/v3-preview/openapi.json",
+          "type": "application/vnd.oai.openapi+json;version=3.1"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://guide.wagtail.org/api/v3-preview/docs/",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "anchor": "https://guide.wagtail.org/mcp",
+      "service-doc": [
+        {
+          "href": "https://guide.wagtail.org/en/about/documentation-formats/",
+          "type": "text/html"
+        }
+      ]
+    }
+  ]
+}

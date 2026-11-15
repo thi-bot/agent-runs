@@ -1,0 +1,39 @@
+{
+  "status": 400,
+  "request": {
+    "jsonrpc": "2.0",
+    "id": "downgrade-correct-method",
+    "method": "server/discover",
+    "params": {
+      "_meta": {
+        "io.modelcontextprotocol/protocolVersion": "1900-01-01",
+        "io.modelcontextprotocol/clientInfo": {
+          "name": "guide-readiness-review",
+          "version": "1.0"
+        },
+        "io.modelcontextprotocol/clientCapabilities": {}
+      }
+    }
+  },
+  "request_headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json, text/event-stream",
+    "MCP-Protocol-Version": "1900-01-01",
+    "User-Agent": "GuideReadinessReview/1.0",
+    "MCP-Method": "server/discover"
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": "downgrade-correct-method",
+    "error": {
+      "code": -32022,
+      "message": "Unsupported protocol version",
+      "data": {
+        "supported": [
+          "2026-07-28"
+        ],
+        "requested": "1900-01-01"
+      }
+    }
+  }
+}

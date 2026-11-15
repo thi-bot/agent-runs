@@ -1,0 +1,2085 @@
+[
+  {
+    "id": "tate",
+    "url": "https://www.tate.org.uk/",
+    "exit_code": 0,
+    "elapsed_seconds": 81.349,
+    "report_json": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/agent-lighthouse-report.json",
+    "report_html": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/agent-lighthouse-report.html",
+    "overall_score": 80,
+    "score_tier": "partially-ready",
+    "judgeable": true,
+    "unscored_reason": null,
+    "scanned_at": "2026-11-14T00:30:33.419Z",
+    "pages_scanned": 1,
+    "page_attempts": [
+      {
+        "url": "https://www.tate.org.uk/",
+        "pageType": "homepage",
+        "source": "declared",
+        "outcome": "read",
+        "status": 200
+      }
+    ],
+    "declared_page_type": "homepage",
+    "scored_status_counts": {
+      "pass": 69,
+      "na": 68,
+      "warn": 10,
+      "fail": 16
+    },
+    "trace_outcomes": {
+      "skipped": 20,
+      "ran": 201
+    },
+    "coverage": {
+      "registryMass": 132.2,
+      "assessedMass": 81.8,
+      "pageMass": 88.4,
+      "originMass": 43.8,
+      "gatedMass": 0
+    },
+    "budget": {
+      "limitMs": 180000,
+      "elapsedMs": 79407,
+      "exhausted": false,
+      "skippedCount": 0
+    },
+    "request_stop": {
+      "stopped": false,
+      "reason": null,
+      "unsentCount": 0,
+      "affectedAuditCount": 0,
+      "affectedMass": 0
+    },
+    "category_scores": {
+      "access-crawl-control": 98,
+      "content-extraction": 74,
+      "machine-discovery": 86,
+      "structured-data": 50,
+      "answer-readiness": 69,
+      "agent-interfaces": null,
+      "agentic-commerce": 50,
+      "operability-safety": 73
+    },
+    "failure": null,
+    "scored_issues": [
+      {
+        "id": "operability-safety/aria-relationships",
+        "status": "fail",
+        "weight": 1,
+        "title": "Incomplete ARIA role relationships",
+        "display_value": "Failing element(s): div#site-menu__dropdown-nav--3; div#site-menu__dropdown-nav--4; a; a; a",
+        "explanation": "Incomplete ARIA role relationships \u2014 accessibility violations found."
+      },
+      {
+        "id": "operability-safety/dialog-name",
+        "status": "fail",
+        "weight": 1,
+        "title": "Dialogs without accessible names",
+        "display_value": "Failing element(s): div.Tate-lightbox__strip.TateUI-lightbox; div.Tate-lightbox__strip.TateUI-lightbox; div.Tate-lightbox__strip.TateUI-lightbox; div.Tate-lightbox__strip.TateUI-lightbox; div#Tate-lightbox",
+        "explanation": "Dialogs without accessible names \u2014 accessibility violations found."
+      },
+      {
+        "id": "operability-safety/form-error-messages",
+        "status": "fail",
+        "weight": 1,
+        "title": "Form fields wired to their validation messages",
+        "display_value": "0 of 1 required field(s) reference a message element",
+        "explanation": "None of the 1 required field(s) carry a resolvable aria-errormessage or aria-describedby, so an agent has no way to read why a submission was rejected."
+      },
+      {
+        "id": "operability-safety/native-control-substitution",
+        "status": "fail",
+        "weight": 1,
+        "title": "Native Control Substitution Index",
+        "display_value": "2 substituted control(s), weighted index 2; 0 native",
+        "explanation": "2 of 2 custom control(s) replace a native element without a usable contract: the widget declares no aria-expanded, so an agent cannot tell whether its list is open. An agent has no single-call primitive for the control and no reliable way to open and read its options."
+      },
+      {
+        "id": "structured-data/json-ld-present",
+        "status": "fail",
+        "weight": 1,
+        "title": "JSON-LD present",
+        "display_value": "None",
+        "explanation": "No JSON-LD structured data found on any page."
+      },
+      {
+        "id": "access-crawl-control/ai-crawler-edge-parity",
+        "status": "warn",
+        "weight": 1,
+        "title": "The edge answers differently when the User-Agent names an AI crawler robots.txt admits",
+        "display_value": "3 URL(s) probed with 8 crawler UA(s) from the scanner's address; GPTBot: 3/3 answered differently; OAI-SearchBot: 3/3 answered differently; ChatGPT-User: 3/3 answered differently; ClaudeBot: 0/3 answered differently; Claude-User: 0/3 answered differently; PerplexityBot: 0/3 answered differently; Perplexity-User: 0/3 answered differently; MistralAI-User: 0/3 answered differently",
+        "explanation": "When the User-Agent names these crawlers, the edge answers differently: 3 crawler User-Agent(s) (GPTBot, OAI-SearchBot, ChatGPT-User) at https://www.tate.org.uk/: opaque-403 (HTTP 403 with no challenge header); 3 crawler User-Agent(s) (GPTBot, OAI-SearchBot, ChatGPT-User) at https://www.tate.org.uk/about-us: opaque-403 (HTTP 403 with no challenge header); 3 crawler User-Agent(s) (GPTBot, OAI-SearchBot, ChatGPT-User) at https://www.tate.org.uk/about-us/projects/transforming-artist-books/five-artist-book-summaries/edward-ruscha-twentysix-gasoline-stations-1963: opaque-403 (HTTP 403 with no challenge header). The scanner sends the crawler User-Agent from its own address, without the crawler's published IP range or Web Bot Auth signature, so a challenge, a 403, a 429 or another refusal can be the edge's defence against an unverified request naming the crawler, and the real crawler may be answered differently. Confirm against the edge logs before changing anything."
+      },
+      {
+        "id": "agentic-commerce/acp-policy-link-surface",
+        "status": "warn",
+        "weight": 1,
+        "title": "ACP link-surface completeness",
+        "display_value": "5/8 ACP link types resolve; terms_of_use=https://www.tate.org.uk/about-us/policies-and-procedures privacy_policy=https://www.tate.org.uk/about-us/policies-and-procedures/tate-privacy-notice contact_us=https://www.tate.org.uk/about-us/contact-us about_us=https://www.tate.org.uk/art/stories support=https://www.tate.org.uk/join-support/support-tate-liverpool",
+        "explanation": "5 of 8 ACP link types resolve. Both hard gates are satisfied, so checkout eligibility is intact, but the CheckoutSession response cannot carry a complete links array: return_policy has no link anywhere on the scanned pages; shipping_policy has no link anywhere on the scanned pages; faq has no link anywhere on the scanned pages."
+      },
+      {
+        "id": "agentic-commerce/agent-ua-commerce-parity",
+        "status": "warn",
+        "weight": 1,
+        "title": "Commerce paths answer differently when the User-Agent names a shopping agent, or robots.txt turns it away",
+        "display_value": "4 commerce target(s) probed from the scanner's address with the ChatGPT-User and OAI-SearchBot User-Agents; 6 comparable probe(s); 0 finding(s); 6 ambiguous refusal(s); 0 not assessed",
+        "explanation": "A request naming ChatGPT-User gets HTTP 403 where a browser got 200 at https://www.tate.org.uk/; A request naming OAI-SearchBot gets HTTP 403 where a browser got 200 at https://www.tate.org.uk/; A request naming ChatGPT-User gets HTTP 403 where a browser got 200 at https://www.tate.org.uk/about-us/policies-and-procedures; A request naming OAI-SearchBot gets HTTP 403 where a browser got 200 at https://www.tate.org.uk/about-us/policies-and-procedures (2 more). These probes come from the scanner's address, not OpenAI's published ranges, so they show how the site answers a request that names the agent, not what the real agent receives. A challenge, a 403, a 429 or another refusal can be the edge's defence against an unverified request naming the agent, and the real agent, from OpenAI's published ranges, may be answered differently. Confirm against the edge logs before changing anything. Allowlist the published address ranges from https://openai.com/searchbot.json and https://openai.com/chatgpt-user.json rather than trusting the User-Agent string."
+      },
+      {
+        "id": "content-extraction/image-alt-text",
+        "status": "warn",
+        "weight": 1,
+        "title": "Images with no text alternative",
+        "display_value": "13/14 images with a text alternative (93%) \u2014 worst: https://www.tate.org.uk/ (13/14)",
+        "explanation": "13/14 image(s) that need a text alternative have one (93%)."
+      },
+      {
+        "id": "machine-discovery/sitemap-lastmod-verifiability",
+        "status": "warn",
+        "weight": 1,
+        "title": "Sitemap lastmod values contradict the pages they describe",
+        "display_value": "6 sampled URL(s) of 499 with lastmod; 0 corroborated, 0 divergent, 6 unverifiable, 0 not read; 0 malformed; 0 future-dated",
+        "explanation": "6 of 6 read sample URLs (100%) publish no modification time at all, so their lastmod cannot be verified \u2014 add dateModified to the page's JSON-LD."
+      },
+      {
+        "id": "operability-safety/aria-layer-injection-scan",
+        "status": "warn",
+        "weight": 1,
+        "title": "Accessibility-Layer Injection Scan",
+        "display_value": "14 anomalous value(s) across 150 scanned",
+        "explanation": "14 aria-label(s) share under 30% of their element's own visible tokens. Neither matches an instruction pattern, but both are the slot a payload is smuggled in and both are already accessibility defects."
+      },
+      {
+        "id": "operability-safety/no-blocking-captcha",
+        "status": "warn",
+        "weight": 1,
+        "title": "Forms don't use blocking CAPTCHA",
+        "display_value": "CAPTCHA: recaptcha on https://www.tate.org.uk/",
+        "explanation": "Blocking CAPTCHA detected: recaptcha. This may prevent AI agents from submitting forms."
+      },
+      {
+        "id": "structured-data/organization-schema",
+        "status": "warn",
+        "weight": 1,
+        "title": "Organization schema",
+        "display_value": "Organization schema missing name, logo",
+        "explanation": "Organization schema found but missing: name, logo."
+      },
+      {
+        "id": "answer-readiness/extractor-survival-recall",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Facts on this page do not survive the extractors that read it",
+        "display_value": "20% of facts survive",
+        "explanation": "22 of 25 key spans do not survive the extractors an agent uses."
+      },
+      {
+        "id": "answer-readiness/og-type",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "og:type set and appropriate",
+        "display_value": "Not found",
+        "explanation": "og:type is missing."
+      },
+      {
+        "id": "answer-readiness/review-signals",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Review/testimonial signals",
+        "display_value": "Not found",
+        "explanation": "No review or testimonial signals found."
+      },
+      {
+        "id": "answer-readiness/trust-signals",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Trust and evidence signals on homepage",
+        "display_value": "None found",
+        "explanation": "Homepage carries neither of the GEO-measured trust factors."
+      },
+      {
+        "id": "content-extraction/extraction-determinism",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "What an agent reads from this page depends on which extractor it uses",
+        "display_value": "0.20 worst-pair agreement",
+        "explanation": "Two extractors read this page as different articles (0.20 overlap)."
+      },
+      {
+        "id": "content-extraction/semantic-lists",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Semantic list usage",
+        "display_value": "0 semantic list(s) vs 1 pseudo-list(s); 0 definition element(s); 0 step list(s)",
+        "explanation": "1 of 1 content list(s) are div stacks or numbered prose rather than list markup."
+      },
+      {
+        "id": "content-extraction/sequential-headings",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Sequential heading hierarchy",
+        "display_value": "https://www.tate.org.uk/: h2 -> h5 (skipped h3)",
+        "explanation": "1/1 page(s) have heading level skips."
+      },
+      {
+        "id": "content-extraction/token-ratio",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Lean token-to-content ratio",
+        "display_value": "0.4% content (100 of 25256 o200k tokens, extracted by readability)",
+        "explanation": "Homepage is only 0.4% content by token weight \u2014 the page is almost entirely markup noise."
+      },
+      {
+        "id": "machine-discovery/conditional-request-support",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Every poll of this site\u2019s discovery files downloads the whole file again",
+        "display_value": "1/5 surfaces revalidate",
+        "explanation": "4 discovery surface problem(s): a crawler cannot ask this site what changed."
+      },
+      {
+        "id": "operability-safety/reflected-parameter-injection-canary",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "URL input is reflected into fields agents read as the page speaking",
+        "display_value": "Reflected into rendered text across 5 probes; no angle bracket from the canary reached the response",
+        "explanation": "URL input is reflected into the rendered text of an indexable page."
+      },
+      {
+        "id": "operability-safety/third-party-dom-write-blast-radius",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Third-party DOM-write blast radius",
+        "display_value": "2 third-party script origin(s) [1-3]: abtasty.com, google.com; CSP from none, not constraining; runtime-injected tags not counted",
+        "explanation": "2 third-party origin(s) can write into the DOM an agent reads, with no Content-Security-Policy that constrains what runs and 2 of them unpinned by `integrity`: abtasty.com, google.com. Each is a separate host, and a separate supply chain, with the site's own authority over what an agent believes."
+      },
+      {
+        "id": "operability-safety/ghost-clickable-element-ratio",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Ghost-clickable elements: click targets an agent cannot address",
+        "display_value": "ratio 0.94 \u2014 7 ghost of 122 click target(s) (no accessible name; no role)",
+        "explanation": "7 of 122 click target(s) never reach an agent's snapshot. The page stays above the 0.90 floor, but each ghost is a control no agent can click. First: <div.Tate-lightbox__strip.TateUI-lightbox.container__fullvh> (no accessible name)."
+      },
+      {
+        "id": "operability-safety/hover-only-content-and-navigation",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Hover-only navigation and content",
+        "display_value": "5 title-only string(s)",
+        "explanation": "Navigation is reachable, but 5 piece(s) of information are drawn only on hover, so an agent never reads them. First: \"Skip to main content\"."
+      }
+    ]
+  },
+  {
+    "id": "nhs",
+    "url": "https://www.nhs.uk/",
+    "exit_code": 0,
+    "elapsed_seconds": 18.167,
+    "report_json": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/nhs/agent-lighthouse-report.json",
+    "report_html": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/nhs/agent-lighthouse-report.html",
+    "overall_score": 89,
+    "score_tier": "partially-ready",
+    "judgeable": true,
+    "unscored_reason": null,
+    "scanned_at": "2026-11-14T00:29:30.395Z",
+    "pages_scanned": 1,
+    "page_attempts": [
+      {
+        "url": "https://www.nhs.uk/",
+        "pageType": "homepage",
+        "source": "declared",
+        "outcome": "read",
+        "status": 200
+      }
+    ],
+    "declared_page_type": "homepage",
+    "scored_status_counts": {
+      "pass": 79,
+      "na": 71,
+      "fail": 10,
+      "warn": 3
+    },
+    "trace_outcomes": {
+      "skipped": 20,
+      "ran": 201
+    },
+    "coverage": {
+      "registryMass": 132.2,
+      "assessedMass": 77.6,
+      "pageMass": 88.4,
+      "originMass": 43.8,
+      "gatedMass": 0
+    },
+    "budget": {
+      "limitMs": 180000,
+      "elapsedMs": 16287,
+      "exhausted": false,
+      "skippedCount": 0
+    },
+    "request_stop": {
+      "stopped": false,
+      "reason": null,
+      "unsentCount": 0,
+      "affectedAuditCount": 0,
+      "affectedMass": 0
+    },
+    "category_scores": {
+      "access-crawl-control": 100,
+      "content-extraction": 90,
+      "machine-discovery": 93,
+      "structured-data": 0,
+      "answer-readiness": 73,
+      "agent-interfaces": null,
+      "agentic-commerce": 50,
+      "operability-safety": 97
+    },
+    "failure": null,
+    "scored_issues": [
+      {
+        "id": "agentic-commerce/acp-policy-link-surface",
+        "status": "fail",
+        "weight": 1,
+        "title": "ACP link-surface completeness",
+        "display_value": "2/8 ACP link types resolve; about_us=https://www.nhs.uk/using-the-nhs/about-the-nhs/ support=https://www.nhs.uk/social-care-and-support/",
+        "explanation": "A hard-gate policy link is unusable, so is_eligible_checkout cannot be set and the catalogue is excluded from Instant Checkout: terms_of_use has no link anywhere on the scanned pages; privacy_policy has no link anywhere on the scanned pages."
+      },
+      {
+        "id": "structured-data/json-ld-present",
+        "status": "fail",
+        "weight": 1,
+        "title": "JSON-LD present",
+        "display_value": "None",
+        "explanation": "No JSON-LD structured data found on any page."
+      },
+      {
+        "id": "structured-data/organization-schema",
+        "status": "fail",
+        "weight": 1,
+        "title": "Organization schema",
+        "display_value": "None",
+        "explanation": "No Organization schema found."
+      },
+      {
+        "id": "structured-data/schema-validation",
+        "status": "fail",
+        "weight": 1,
+        "title": "Schema validation",
+        "display_value": "No JSON-LD blocks found.",
+        "explanation": "No JSON-LD blocks to validate."
+      },
+      {
+        "id": "answer-readiness/extractor-survival-recall",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Facts on this page do not survive the extractors that read it",
+        "display_value": "71% of facts survive",
+        "explanation": "5 of 17 key spans do not survive the extractors an agent uses."
+      },
+      {
+        "id": "answer-readiness/review-signals",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Review/testimonial signals",
+        "display_value": "Not found",
+        "explanation": "No review or testimonial signals found."
+      },
+      {
+        "id": "answer-readiness/trust-signals",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Trust and evidence signals on homepage",
+        "display_value": "None found",
+        "explanation": "Homepage carries neither of the GEO-measured trust factors."
+      },
+      {
+        "id": "content-extraction/token-ratio",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Lean token-to-content ratio",
+        "display_value": "2.7% content (261 of 9800 o200k tokens, extracted by readability)",
+        "explanation": "Homepage is only 2.7% content by token weight \u2014 the page is almost entirely markup noise."
+      },
+      {
+        "id": "machine-discovery/conditional-request-support",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Every poll of this site\u2019s discovery files downloads the whole file again",
+        "display_value": "4/4 surfaces revalidate",
+        "explanation": "4 discovery surface problem(s): a crawler cannot ask this site what changed."
+      },
+      {
+        "id": "operability-safety/third-party-dom-write-blast-radius",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Third-party DOM-write blast radius",
+        "display_value": "1 third-party script origin(s) [1-3]: adobedtm.com; CSP from none, not constraining; runtime-injected tags not counted",
+        "explanation": "1 third-party origin(s) can write into the DOM an agent reads, with no Content-Security-Policy that constrains what runs and 1 of them unpinned by `integrity`: adobedtm.com. Each is a separate host, and a separate supply chain, with the site's own authority over what an agent believes."
+      },
+      {
+        "id": "answer-readiness/chunk-boundary-referent-integrity",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Sections stop making sense once retrieved on their own",
+        "display_value": "94% self-contained",
+        "explanation": "1 of 17 sections lose their referent when retrieved alone."
+      },
+      {
+        "id": "content-extraction/extraction-determinism",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "What an agent reads from this page depends on which extractor it uses",
+        "display_value": "0.61 worst-pair agreement",
+        "explanation": "The extractors partly disagree about what this page says (0.61 overlap)."
+      },
+      {
+        "id": "content-extraction/preamble-tax",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "The answer sits behind thousands of tokens of preamble",
+        "display_value": "3338 tokens of preamble",
+        "explanation": "An agent streams 3338 tokens before reaching your content."
+      }
+    ]
+  },
+  {
+    "id": "google-blog",
+    "url": "https://blog.google/",
+    "exit_code": 0,
+    "elapsed_seconds": 41.587,
+    "report_json": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/google-blog/agent-lighthouse-report.json",
+    "report_html": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/google-blog/agent-lighthouse-report.html",
+    "overall_score": 84,
+    "score_tier": "partially-ready",
+    "judgeable": true,
+    "unscored_reason": null,
+    "scanned_at": "2026-11-14T00:29:53.744Z",
+    "pages_scanned": 1,
+    "page_attempts": [
+      {
+        "url": "https://blog.google/",
+        "pageType": "homepage",
+        "source": "declared",
+        "outcome": "read",
+        "status": 200
+      }
+    ],
+    "declared_page_type": "homepage",
+    "scored_status_counts": {
+      "pass": 76,
+      "na": 65,
+      "fail": 17,
+      "warn": 5
+    },
+    "trace_outcomes": {
+      "skipped": 20,
+      "ran": 201
+    },
+    "coverage": {
+      "registryMass": 132.2,
+      "assessedMass": 82,
+      "pageMass": 88.4,
+      "originMass": 43.8,
+      "gatedMass": 0
+    },
+    "budget": {
+      "limitMs": 180000,
+      "elapsedMs": 39676,
+      "exhausted": false,
+      "skippedCount": 0
+    },
+    "request_stop": {
+      "stopped": false,
+      "reason": null,
+      "unsentCount": 0,
+      "affectedAuditCount": 0,
+      "affectedMass": 0
+    },
+    "category_scores": {
+      "access-crawl-control": 100,
+      "content-extraction": 71,
+      "machine-discovery": 93,
+      "structured-data": 67,
+      "answer-readiness": 60,
+      "agent-interfaces": null,
+      "agentic-commerce": 50,
+      "operability-safety": 85
+    },
+    "failure": null,
+    "scored_issues": [
+      {
+        "id": "agentic-commerce/acp-policy-link-surface",
+        "status": "fail",
+        "weight": 1,
+        "title": "ACP link-surface completeness",
+        "display_value": "2/8 ACP link types resolve; privacy_policy=https://policies.google.com/privacy support=https://support.google.com/mail",
+        "explanation": "A hard-gate policy link is unusable, so is_eligible_checkout cannot be set and the catalogue is excluded from Instant Checkout: terms_of_use has no link anywhere on the scanned pages."
+      },
+      {
+        "id": "answer-readiness/text-fragment-addressability",
+        "status": "fail",
+        "weight": 1,
+        "title": "Text-fragment citation addressability",
+        "display_value": "10/14 answer span(s) addressable; e.g. https://blog.google/#:~:text=Sign%20up%20for%20our%20newsletters%20with%20product%20updates%2C%20event%20information%2C%20special%20offers%2C%20and%20more. https://blog.google/#:~:text=Use%20Gemini%20in%20Chrome%20to%20get%20the%20answers%20you%20need%20without%20opening%20another%20tab. https://blog.google/#:~:text=Meet%20TPU%208tx%20and%20TPU%208i%20Max.",
+        "explanation": "4 of 14 answer span(s) cannot be reached by a text fragment, so a citation link degrades to page-top. Example \u2014 first sentence after \"Innovation & AI\": the span occurs more than once and its block offers no prefix or suffix to disambiguate it: \"See all in Innovation & AI\"."
+      },
+      {
+        "id": "operability-safety/aria-attributes",
+        "status": "fail",
+        "weight": 1,
+        "title": "Invalid ARIA attributes or values",
+        "display_value": "Failing element(s): uni-cta; uni-cta; uni-cta; uni-cta; uni-cta",
+        "explanation": "Invalid ARIA attributes or values \u2014 accessibility violations found."
+      },
+      {
+        "id": "structured-data/organization-schema",
+        "status": "fail",
+        "weight": 1,
+        "title": "Organization schema",
+        "display_value": "None",
+        "explanation": "No Organization schema found."
+      },
+      {
+        "id": "operability-safety/aria-layer-injection-scan",
+        "status": "warn",
+        "weight": 1,
+        "title": "Accessibility-Layer Injection Scan",
+        "display_value": "2 anomalous value(s) across 285 scanned",
+        "explanation": "2 aria-label(s) share under 30% of their element's own visible tokens. Neither matches an instruction pattern, but both are the slot a payload is smuggled in and both are already accessibility defects."
+      },
+      {
+        "id": "answer-readiness/chunk-boundary-referent-integrity",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Sections stop making sense once retrieved on their own",
+        "display_value": "50% self-contained",
+        "explanation": "6 of 12 sections do not stand on their own when retrieved."
+      },
+      {
+        "id": "answer-readiness/review-signals",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Review/testimonial signals",
+        "display_value": "Not found",
+        "explanation": "No review or testimonial signals found."
+      },
+      {
+        "id": "answer-readiness/section-split-risk-profile",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Sections are longer than the window that will chunk them",
+        "display_value": "51% inside the window",
+        "explanation": "49% of this page's text will arrive as chunks with no heading."
+      },
+      {
+        "id": "content-extraction/aside-element",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "<aside> for supplementary content",
+        "display_value": "0 marked, 1 unmarked \u2014 <section uni-landing-newsletter>",
+        "explanation": "1 supplementary block(s) are in bare containers with no <aside> or role=\"complementary\" anywhere: <section uni-landing-newsletter>."
+      },
+      {
+        "id": "content-extraction/preamble-tax",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "The answer sits behind thousands of tokens of preamble",
+        "display_value": "94243 tokens of preamble",
+        "explanation": "An agent streams 94243 tokens before reaching your content."
+      },
+      {
+        "id": "content-extraction/section-headings",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "<section> elements have headings or labels",
+        "display_value": "8/20 labeled sections; 1 empty section(s) skipped",
+        "explanation": "8/20 <section> element(s) have a heading or label."
+      },
+      {
+        "id": "content-extraction/sequential-headings",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Sequential heading hierarchy",
+        "display_value": "https://blog.google/: h1 -> h3 (skipped h2)",
+        "explanation": "1/1 page(s) have heading level skips."
+      },
+      {
+        "id": "content-extraction/single-h1",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Single h1 per page",
+        "display_value": "0/1 pages with exactly one <h1>. Affected pages: https://blog.google/: 6 <h1> element(s)",
+        "explanation": "Page has 6 <h1> element(s); expected exactly 1."
+      },
+      {
+        "id": "content-extraction/svg-bloat",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Large inline SVGs bloating agent context",
+        "display_value": "86 SVG(s) total, 1 unhidden, 165B unhidden bytes across 1 page(s). 31 inlined base64 payload(s) cost 20377 tokens (largest: image/svg+xml); a real URL plus alt text costs about 15.",
+        "explanation": "86 SVG(s) total, 1 unhidden, 165B unhidden bytes across 1 page(s). 31 inlined base64 payload(s) cost 20377 tokens (largest: image/svg+xml); a real URL plus alt text costs about 15. Inlined base64 assets alone cost 20377 tokens of agent context."
+      },
+      {
+        "id": "content-extraction/token-ratio",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Lean token-to-content ratio",
+        "display_value": "1.2% content (1373 of 118394 o200k tokens, extracted by readability)",
+        "explanation": "Homepage is only 1.2% content by token weight \u2014 the page is almost entirely markup noise."
+      },
+      {
+        "id": "machine-discovery/conditional-request-support",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Every poll of this site\u2019s discovery files downloads the whole file again",
+        "display_value": "0/4 surfaces revalidate",
+        "explanation": "4 discovery surface problem(s): a crawler cannot ask this site what changed."
+      },
+      {
+        "id": "operability-safety/reflected-parameter-injection-canary",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "URL input is reflected into fields agents read as the page speaking",
+        "display_value": "Reflected into rendered text across 5 probes; no angle bracket from the canary reached the response",
+        "explanation": "URL input is reflected into the rendered text of an indexable page."
+      },
+      {
+        "id": "operability-safety/stateful-control-introspectability",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Stateful controls: current state readable by an agent",
+        "display_value": "ratio 0.63 \u2014 10 opaque of 27 state-bearing control(s)",
+        "explanation": "10 of 27 state-bearing control(s) hold their state where no snapshot can read it, so an agent cannot verify that its click did anything. Missing: aria-expanded. First: <button.uni-nav-link.uni-nav-link--expand.uni-nav-link--full-width.uni-nav-mobile-subnav__sublist-trigger.font-body-xl>."
+      },
+      {
+        "id": "answer-readiness/og-type",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "og:type set and appropriate",
+        "display_value": "website",
+        "explanation": "Blog page has og:type=\"website\" instead of \"article\"."
+      },
+      {
+        "id": "answer-readiness/trust-signals",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Trust and evidence signals on homepage",
+        "display_value": "evidence-backed claims (10 outbound citation host(s): deepmind.google, research.google, developers.googleblog.com)",
+        "explanation": "Homepage carries only 1 of the 2 GEO-measured trust factor(s)."
+      },
+      {
+        "id": "operability-safety/ghost-clickable-element-ratio",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Ghost-clickable elements: click targets an agent cannot address",
+        "display_value": "ratio 0.94 \u2014 13 ghost of 235 click target(s) (no accessible name; no role)",
+        "explanation": "13 of 235 click target(s) never reach an agent's snapshot. The page stays above the 0.90 floor, but each ghost is a control no agent can click. First: <svg> (no accessible name)."
+      },
+      {
+        "id": "operability-safety/hover-only-content-and-navigation",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Hover-only navigation and content",
+        "display_value": "10 title-only string(s)",
+        "explanation": "Navigation is reachable, but 10 piece(s) of information are drawn only on hover, so an agent never reads them. First: \"See all Models & Research articles\"."
+      }
+    ]
+  },
+  {
+    "id": "w3c",
+    "url": "https://www.w3.org/",
+    "exit_code": 0,
+    "elapsed_seconds": 7.639,
+    "report_json": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/w3c/agent-lighthouse-report.json",
+    "report_html": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/w3c/agent-lighthouse-report.html",
+    "overall_score": 82,
+    "score_tier": "partially-ready",
+    "judgeable": true,
+    "unscored_reason": null,
+    "scanned_at": "2026-11-14T00:29:38.048Z",
+    "pages_scanned": 1,
+    "page_attempts": [
+      {
+        "url": "https://www.w3.org/",
+        "pageType": "homepage",
+        "source": "declared",
+        "outcome": "read",
+        "status": 200
+      }
+    ],
+    "declared_page_type": "homepage",
+    "scored_status_counts": {
+      "pass": 62,
+      "na": 80,
+      "warn": 10,
+      "fail": 11
+    },
+    "trace_outcomes": {
+      "skipped": 20,
+      "ran": 201
+    },
+    "coverage": {
+      "registryMass": 132.2,
+      "assessedMass": 69.4,
+      "pageMass": 88.4,
+      "originMass": 43.8,
+      "gatedMass": 0
+    },
+    "budget": {
+      "limitMs": 180000,
+      "elapsedMs": 6045,
+      "exhausted": false,
+      "skippedCount": 0
+    },
+    "request_stop": {
+      "stopped": false,
+      "reason": null,
+      "unsentCount": 0,
+      "affectedAuditCount": 0,
+      "affectedMass": 0
+    },
+    "category_scores": {
+      "access-crawl-control": 98,
+      "content-extraction": 75,
+      "machine-discovery": 73,
+      "structured-data": 0,
+      "answer-readiness": 73,
+      "agent-interfaces": null,
+      "agentic-commerce": 25,
+      "operability-safety": 94
+    },
+    "failure": null,
+    "scored_issues": [
+      {
+        "id": "agentic-commerce/acp-policy-link-surface",
+        "status": "fail",
+        "weight": 1,
+        "title": "ACP link-surface completeness",
+        "display_value": "4/8 ACP link types resolve; privacy_policy=https://www.w3.org/mission/privacy/ contact_us=https://www.w3.org/contact/ about_us=https://www.w3.org/standards/about/ support=https://www.w3.org/support-us/",
+        "explanation": "A hard-gate policy link is unusable, so is_eligible_checkout cannot be set and the catalogue is excluded from Instant Checkout: terms_of_use has no link anywhere on the scanned pages."
+      },
+      {
+        "id": "content-extraction/css-hidden-ghost-content",
+        "status": "fail",
+        "weight": 1,
+        "title": "Ghost content: CSS-hidden text ingested as visible",
+        "display_value": "779 est. tokens hidden by CSS class across 6 block(s), 58.1% of page text",
+        "explanation": "779 est. tokens (58.1% of page text) are hidden only by stylesheet rules, which no non-rendering extractor evaluates. Largest: \".skip-link, .skip-to-comments, .skip-to-comment-form, #cookie-banner, [role=status], .banner, #lang-nav, .logo-link .visuallyhidden, .heading-anchor, [data-trigger], [data-toggle], #global-nav ul, #breadcrumb, .translations, .toc, .component--video, .calendar-link, .listing .lead, .listing .filters, .listing .browse, .listing form, .progress-list, .autocomplete__wrapper svg, .date-location img, .card--group dl, .card--group .l-cluster, .card--user .icon, .card--post .icon, .card--post .tag, .post .rss .icon, .comments, .pre-footer, .pagination, .crosslinks, .global-footer__links\" (display:none). 1 block(s) carry prices, availability or dated claims that can contradict the visible copy."
+      },
+      {
+        "id": "machine-discovery/sitemap-exists",
+        "status": "fail",
+        "weight": 1,
+        "title": "sitemap.xml exists",
+        "display_value": "No sitemap found for this site",
+        "explanation": "No XML sitemap found for this site in robots.txt or at the conventional sitemap paths."
+      },
+      {
+        "id": "structured-data/json-ld-present",
+        "status": "fail",
+        "weight": 1,
+        "title": "JSON-LD present",
+        "display_value": "None",
+        "explanation": "No JSON-LD structured data found on any page."
+      },
+      {
+        "id": "structured-data/organization-schema",
+        "status": "fail",
+        "weight": 1,
+        "title": "Organization schema",
+        "display_value": "None",
+        "explanation": "No Organization schema found."
+      },
+      {
+        "id": "structured-data/schema-validation",
+        "status": "fail",
+        "weight": 1,
+        "title": "Schema validation",
+        "display_value": "No JSON-LD blocks found.",
+        "explanation": "No JSON-LD blocks to validate."
+      },
+      {
+        "id": "access-crawl-control/ai-crawler-edge-parity",
+        "status": "warn",
+        "weight": 1,
+        "title": "The edge answers differently when the User-Agent names an AI crawler robots.txt admits",
+        "display_value": "1 URL(s) probed with 8 crawler UA(s) from the scanner's address; GPTBot: 0/1 answered differently; OAI-SearchBot: 1/1 answered differently; ChatGPT-User: 0/1 answered differently; ClaudeBot: 0/1 answered differently; Claude-User: 0/1 answered differently; PerplexityBot: 0/1 answered differently; Perplexity-User: 0/1 answered differently; MistralAI-User: 0/1 answered differently",
+        "explanation": "When the User-Agent names these crawlers, the edge answers differently: 1 crawler User-Agent(s) (OAI-SearchBot) at https://www.w3.org/: Cloudflare challenge (cf-mitigated: challenge). The scanner sends the crawler User-Agent from its own address, without the crawler's published IP range or Web Bot Auth signature, so a challenge, a 403, a 429 or another refusal can be the edge's defence against an unverified request naming the crawler, and the real crawler may be answered differently. Confirm against the edge logs before changing anything."
+      },
+      {
+        "id": "agentic-commerce/agent-ua-commerce-parity",
+        "status": "warn",
+        "weight": 1,
+        "title": "Commerce paths answer differently when the User-Agent names a shopping agent, or robots.txt turns it away",
+        "display_value": "3 commerce target(s) probed from the scanner's address with the ChatGPT-User and OAI-SearchBot User-Agents; 4 comparable probe(s); 0 finding(s); 2 ambiguous refusal(s); 0 not assessed",
+        "explanation": "A request naming OAI-SearchBot gets a Cloudflare challenge (cf-mitigated: challenge) at https://www.w3.org/; A request naming OAI-SearchBot gets a Cloudflare challenge (cf-mitigated: challenge) at https://www.w3.org/mission/privacy/. These probes come from the scanner's address, not OpenAI's published ranges, so they show how the site answers a request that names the agent, not what the real agent receives. A challenge, a 403, a 429 or another refusal can be the edge's defence against an unverified request naming the agent, and the real agent, from OpenAI's published ranges, may be answered differently. Confirm against the edge logs before changing anything. Allowlist the published address ranges from https://openai.com/searchbot.json and https://openai.com/chatgpt-user.json rather than trusting the User-Agent string."
+      },
+      {
+        "id": "operability-safety/invisible-instruction-scan",
+        "status": "warn",
+        "weight": 1,
+        "title": "Invisible Instruction Payload Scan",
+        "display_value": "2 unexplained hidden payload(s)",
+        "explanation": "2 block(s) of text over 200 characters are hidden from a human by hidden ancestor and match no instruction pattern \u2014 an unexplained payload an agent still ingests."
+      },
+      {
+        "id": "answer-readiness/extractor-survival-recall",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Facts on this page do not survive the extractors that read it",
+        "display_value": "40% of facts survive",
+        "explanation": "6 of 10 key spans do not survive the extractors an agent uses."
+      },
+      {
+        "id": "answer-readiness/review-signals",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Review/testimonial signals",
+        "display_value": "Not found",
+        "explanation": "No review or testimonial signals found."
+      },
+      {
+        "id": "answer-readiness/specific-numbers",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Specific numbers and data points",
+        "display_value": "Not found",
+        "explanation": "No specific numbers, percentages, or dollar amounts found in content."
+      },
+      {
+        "id": "content-extraction/content-depth",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Sufficient content depth",
+        "display_value": "0/1 pages above threshold",
+        "explanation": "0/1 page(s) have >300 words. Lowest: 297 words."
+      },
+      {
+        "id": "content-extraction/token-ratio",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Lean token-to-content ratio",
+        "display_value": "2.5% content (314 of 12441 o200k tokens, extracted by readability)",
+        "explanation": "Homepage is only 2.5% content by token weight \u2014 the page is almost entirely markup noise."
+      },
+      {
+        "id": "answer-readiness/trust-signals",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Trust and evidence signals on homepage",
+        "display_value": "evidence-backed claims (3 outbound citation host(s): status.w3.org, w3c.social, github.com)",
+        "explanation": "Homepage carries only 1 of the 2 GEO-measured trust factor(s)."
+      },
+      {
+        "id": "content-extraction/aside-element",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "<aside> for supplementary content",
+        "display_value": "1 marked, 1 unmarked \u2014 <div l-sidebar>",
+        "explanation": "1 supplementary block(s) are not marked as complementary: <div l-sidebar>."
+      },
+      {
+        "id": "content-extraction/extraction-determinism",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "What an agent reads from this page depends on which extractor it uses",
+        "display_value": "0.79 worst-pair agreement",
+        "explanation": "The extractors partly disagree about what this page says (0.79 overlap)."
+      },
+      {
+        "id": "content-extraction/preamble-tax",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "The answer sits behind thousands of tokens of preamble",
+        "display_value": "9276 tokens of preamble",
+        "explanation": "An agent streams 9276 tokens before reaching your content."
+      },
+      {
+        "id": "machine-discovery/discovery-index-coverage",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Pages are covered by a discovery index",
+        "display_value": "No discovery index entries found",
+        "explanation": "No sitemap URLs or llms.txt links to compare the scanned pages against."
+      },
+      {
+        "id": "operability-safety/ghost-clickable-element-ratio",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Ghost-clickable elements: click targets an agent cannot address",
+        "display_value": "ratio 0.97 \u2014 3 ghost of 104 click target(s) (no accessible name)",
+        "explanation": "3 of 104 click target(s) never reach an agent's snapshot. The page stays above the 0.90 floor, but each ghost is a control no agent can click. First: <span> (no accessible name)."
+      },
+      {
+        "id": "operability-safety/hover-only-content-and-navigation",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Hover-only navigation and content",
+        "display_value": "1 title-only string(s)",
+        "explanation": "Navigation is reachable, but 1 piece(s) of information are drawn only on hover, so an agent never reads them. First: \"W3C Document License\"."
+      }
+    ]
+  },
+  {
+    "id": "lowtech",
+    "url": "https://solar.lowtechmagazine.com/",
+    "exit_code": 0,
+    "elapsed_seconds": 12.16,
+    "report_json": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/lowtech/agent-lighthouse-report.json",
+    "report_html": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/lowtech/agent-lighthouse-report.html",
+    "overall_score": 79,
+    "score_tier": "partially-ready",
+    "judgeable": true,
+    "unscored_reason": null,
+    "scanned_at": "2026-11-14T00:29:50.208Z",
+    "pages_scanned": 1,
+    "page_attempts": [
+      {
+        "url": "https://solar.lowtechmagazine.com/",
+        "pageType": "homepage",
+        "source": "declared",
+        "outcome": "read",
+        "status": 200
+      }
+    ],
+    "declared_page_type": "homepage",
+    "scored_status_counts": {
+      "pass": 62,
+      "na": 77,
+      "fail": 16,
+      "warn": 8
+    },
+    "trace_outcomes": {
+      "skipped": 20,
+      "ran": 201
+    },
+    "coverage": {
+      "registryMass": 132.2,
+      "assessedMass": 70.4,
+      "pageMass": 88.4,
+      "originMass": 43.8,
+      "gatedMass": 0
+    },
+    "budget": {
+      "limitMs": 180000,
+      "elapsedMs": 10946,
+      "exhausted": false,
+      "skippedCount": 0
+    },
+    "request_stop": {
+      "stopped": false,
+      "reason": null,
+      "unsentCount": 0,
+      "affectedAuditCount": 0,
+      "affectedMass": 0
+    },
+    "category_scores": {
+      "access-crawl-control": 100,
+      "content-extraction": 79,
+      "machine-discovery": 83,
+      "structured-data": 0,
+      "answer-readiness": 55,
+      "agent-interfaces": null,
+      "agentic-commerce": 50,
+      "operability-safety": 74
+    },
+    "failure": null,
+    "scored_issues": [
+      {
+        "id": "agentic-commerce/acp-policy-link-surface",
+        "status": "fail",
+        "weight": 1,
+        "title": "ACP link-surface completeness",
+        "display_value": "2/8 ACP link types resolve; privacy_policy=https://solar.lowtechmagazine.com/privacy/ about_us=https://solar.lowtechmagazine.com/about/",
+        "explanation": "A hard-gate policy link is unusable, so is_eligible_checkout cannot be set and the catalogue is excluded from Instant Checkout: terms_of_use has no link anywhere on the scanned pages."
+      },
+      {
+        "id": "operability-safety/accessible-names",
+        "status": "fail",
+        "weight": 1,
+        "title": "Buttons or links without accessible names",
+        "display_value": "Failing element(s): a; a; a; a; a",
+        "explanation": "Buttons or links without accessible names \u2014 accessibility violations found."
+      },
+      {
+        "id": "operability-safety/landmark-unique",
+        "status": "fail",
+        "weight": 1,
+        "title": "Duplicate landmarks without distinguishing labels",
+        "display_value": "Failing element(s): nav#menu",
+        "explanation": "Duplicate landmarks without distinguishing labels \u2014 accessibility violations found."
+      },
+      {
+        "id": "structured-data/json-ld-present",
+        "status": "fail",
+        "weight": 1,
+        "title": "JSON-LD present",
+        "display_value": "None",
+        "explanation": "No JSON-LD structured data found on any page."
+      },
+      {
+        "id": "structured-data/organization-schema",
+        "status": "fail",
+        "weight": 1,
+        "title": "Organization schema",
+        "display_value": "None",
+        "explanation": "No Organization schema found."
+      },
+      {
+        "id": "structured-data/schema-validation",
+        "status": "fail",
+        "weight": 1,
+        "title": "Schema validation",
+        "display_value": "No JSON-LD blocks found.",
+        "explanation": "No JSON-LD blocks to validate."
+      },
+      {
+        "id": "answer-readiness/text-fragment-addressability",
+        "status": "warn",
+        "weight": 1,
+        "title": "Text-fragment citation addressability",
+        "display_value": "15/15 answer span(s) addressable; e.g. https://solar.lowtechmagazine.com/#:~:text=The%20newest%20Low%2Dtech%20Magazine%20book%20collects%20twenty%20articles%20and%20guides%20published%20between%202022%20and%202026. https://solar.lowtechmagazine.com/#:~:text=A%20pleasure%20to%20drive%2C%20Low%2Dtech%20Magazine%E2%80%99s%20handcart%20demonstrates%20the%20advantages%20of%20slow%2C%20human%2Dpowered%20transportation. https://solar.lowtechmagazine.com/#:~:text=Low%2Dtech%20Magazine%E2%80%99s%20original%20book%20series%20is%20available%20again%2C%20redesigned%20and%20based%20on%20the%20edits%20made%20for%20the%20compressed%20edition.",
+        "explanation": "3 answer span(s) carry a normalization hazard \u2014 smart quote \u2014 which the matcher compares literally, so a fragment copied from rendered text can miss. Example: \"A pleasure to drive, Low-tech Magazine\u2019s handcart demonstrates the advantages of slow, human-powered transportation.\"."
+      },
+      {
+        "id": "content-extraction/css-hidden-ghost-content",
+        "status": "warn",
+        "weight": 1,
+        "title": "Ghost content: CSS-hidden text ingested as visible",
+        "display_value": "33 est. tokens hidden by CSS class across 4 block(s), 4.3% of page text",
+        "explanation": "33 est. tokens (4.3% of page text) are hidden only by stylesheet rules, below the 15% and 1000-token thresholds but still ingested. Largest: \"#languages\" (display:none)."
+      },
+      {
+        "id": "machine-discovery/sitemap-lastmod-verifiability",
+        "status": "warn",
+        "weight": 1,
+        "title": "Sitemap lastmod values contradict the pages they describe",
+        "display_value": "6 sampled URL(s) of 472 with lastmod; 2 corroborated, 0 divergent, 4 unverifiable, 0 not read; 0 malformed; 0 future-dated",
+        "explanation": "4 of 6 read sample URLs (67%) publish no modification time at all, so their lastmod cannot be verified \u2014 add dateModified to the page's JSON-LD."
+      },
+      {
+        "id": "answer-readiness/extractor-survival-recall",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Facts on this page do not survive the extractors that read it",
+        "display_value": "13% of facts survive",
+        "explanation": "14 of 16 key spans do not survive the extractors an agent uses."
+      },
+      {
+        "id": "answer-readiness/review-signals",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Review/testimonial signals",
+        "display_value": "Not found",
+        "explanation": "No review or testimonial signals found."
+      },
+      {
+        "id": "answer-readiness/section-split-risk-profile",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Sections are longer than the window that will chunk them",
+        "display_value": "0% inside the window",
+        "explanation": "The page has no headings to cut on, so every chunk after the first arrives without one."
+      },
+      {
+        "id": "answer-readiness/specific-numbers",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Specific numbers and data points",
+        "display_value": "Not found",
+        "explanation": "No specific numbers, percentages, or dollar amounts found in content."
+      },
+      {
+        "id": "content-extraction/extraction-determinism",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "What an agent reads from this page depends on which extractor it uses",
+        "display_value": "readability returned 158 characters, below the 500-character threshold at which it reports a document as readerable.",
+        "explanation": "Readability extracted 158 characters, under its own 500-character threshold."
+      },
+      {
+        "id": "content-extraction/semantic-lists",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Semantic list usage",
+        "display_value": "0 semantic list(s) vs 1 pseudo-list(s); 0 definition element(s); 0 step list(s)",
+        "explanation": "1 of 1 content list(s) are div stacks or numbered prose rather than list markup."
+      },
+      {
+        "id": "content-extraction/token-ratio",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Lean token-to-content ratio",
+        "display_value": "0.5% content (36 of 7462 o200k tokens, extracted by readability)",
+        "explanation": "Homepage is only 0.5% content by token weight \u2014 the page is almost entirely markup noise."
+      },
+      {
+        "id": "machine-discovery/conditional-request-support",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Every poll of this site\u2019s discovery files downloads the whole file again",
+        "display_value": "6/7 surfaces revalidate",
+        "explanation": "1 discovery surface problem(s): a crawler cannot ask this site what changed."
+      },
+      {
+        "id": "machine-discovery/three-way-freshness-lag",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "This site\u2019s sitemap or feed trails what the site actually publishes",
+        "display_value": "51 days behind",
+        "explanation": "The sitemap's newest lastmod is 2026-09-24, 51 days behind the newest page date 2026-11-14"
+      },
+      {
+        "id": "operability-safety/third-party-dom-write-blast-radius",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Third-party DOM-write blast radius",
+        "display_value": "1 third-party script origin(s) [1-3]: plausible.io; CSP from none, not constraining; runtime-injected tags not counted",
+        "explanation": "1 third-party origin(s) can write into the DOM an agent reads, with no Content-Security-Policy that constrains what runs and 1 of them unpinned by `integrity`: plausible.io. Each is a separate host, and a separate supply chain, with the site's own authority over what an agent believes."
+      },
+      {
+        "id": "answer-readiness/chunk-boundary-referent-integrity",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Sections stop making sense once retrieved on their own",
+        "display_value": "85% self-contained",
+        "explanation": "2 of 13 sections lose their referent when retrieved alone."
+      },
+      {
+        "id": "answer-readiness/meta-description",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Meta description quality",
+        "display_value": "Description: \"This is a solar-powered website, which means it sometimes goes offline\" \u00b7 Page subject: \"LOW\u2190TECH MAGAZINE LOW\u2190TECH MAGAZINE\"",
+        "explanation": "Meta description does not describe this page \u2014 it shares no term with the title or H1."
+      },
+      {
+        "id": "answer-readiness/trust-signals",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Trust and evidence signals on homepage",
+        "display_value": "evidence-backed claims (3 outbound citation host(s): www.notechmagazine.com, d69baa34.sibforms.com, www.patreon.com)",
+        "explanation": "Homepage carries only 1 of the 2 GEO-measured trust factor(s)."
+      },
+      {
+        "id": "operability-safety/ghost-clickable-element-ratio",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Ghost-clickable elements: click targets an agent cannot address",
+        "display_value": "ratio 0.98 \u2014 1 ghost of 52 click target(s) (no role)",
+        "explanation": "1 of 52 click target(s) never reach an agent's snapshot. The page stays above the 0.90 floor, but each ghost is a control no agent can click. First: <div#lang-menu> (no role)."
+      },
+      {
+        "id": "operability-safety/hover-only-content-and-navigation",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Hover-only navigation and content",
+        "display_value": "3 title-only string(s)",
+        "explanation": "Navigation is reachable, but 3 piece(s) of information are drawn only on hover, so an agent never reads them. First: \"Power\"."
+      }
+    ]
+  },
+  {
+    "id": "fresh-guide",
+    "url": "https://guide.wagtail.org/en/",
+    "exit_code": 0,
+    "elapsed_seconds": 20.395,
+    "report_json": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-guide/agent-lighthouse-report.json",
+    "report_html": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-guide/agent-lighthouse-report.html",
+    "overall_score": 85,
+    "score_tier": "partially-ready",
+    "judgeable": true,
+    "unscored_reason": null,
+    "scanned_at": "2026-11-14T00:30:10.568Z",
+    "pages_scanned": 1,
+    "page_attempts": [
+      {
+        "url": "https://guide.wagtail.org/en/",
+        "pageType": "homepage",
+        "source": "declared",
+        "outcome": "read",
+        "status": 200
+      }
+    ],
+    "declared_page_type": "homepage",
+    "scored_status_counts": {
+      "pass": 85,
+      "na": 59,
+      "fail": 15,
+      "warn": 4
+    },
+    "trace_outcomes": {
+      "skipped": 20,
+      "ran": 201
+    },
+    "coverage": {
+      "registryMass": 132.2,
+      "assessedMass": 86,
+      "pageMass": 88.4,
+      "originMass": 43.8,
+      "gatedMass": 0
+    },
+    "budget": {
+      "limitMs": 180000,
+      "elapsedMs": 18692,
+      "exhausted": false,
+      "skippedCount": 0
+    },
+    "request_stop": {
+      "stopped": false,
+      "reason": null,
+      "unsentCount": 0,
+      "affectedAuditCount": 0,
+      "affectedMass": 0
+    },
+    "category_scores": {
+      "access-crawl-control": 100,
+      "content-extraction": 62,
+      "machine-discovery": 100,
+      "structured-data": 100,
+      "answer-readiness": 73,
+      "agent-interfaces": 50,
+      "agentic-commerce": 50,
+      "operability-safety": 93
+    },
+    "failure": null,
+    "scored_issues": [
+      {
+        "id": "agent-interfaces/mcp-modern-era-reachability",
+        "status": "fail",
+        "weight": 1,
+        "title": "Modern-Era Reachability Probe (server/discover)",
+        "display_value": "https://guide.wagtail.org/mcp (declared in ai-catalog); era=unusable",
+        "explanation": "https://guide.wagtail.org/mcp answered neither a modern server/discover (HTTP 400: JSON-RPC error -32020: mcp-method header does not match the request body's method) nor a legacy `initialize` handshake, so no MCP client of any era can use it."
+      },
+      {
+        "id": "agent-interfaces/mcp-version-downgrade",
+        "status": "fail",
+        "weight": 1,
+        "title": "Version Downgrade Recoverability",
+        "display_value": "https://guide.wagtail.org/mcp; probe A HTTP 400 / -32020; probe B HTTP 400; probe C HTTP 200; supported not advertised in the rejection",
+        "explanation": "The downgrade path is broken: it rejected `1900-01-01` with HTTP 400 and JSON-RPC -32020 rather than -32022, which leaves the client nothing to downgrade to."
+      },
+      {
+        "id": "agent-interfaces/openapi-description-quality",
+        "status": "fail",
+        "weight": 1,
+        "title": "OpenAPI descriptions too thin for tool-calling",
+        "display_value": "2/208 described (1%)",
+        "explanation": "Only 2/208 operation/parameter description(s) are verbose enough: GET /api/v3-preview/pages/ (operation); GET /api/v3-preview/pages/ param 'type'; GET /api/v3-preview/pages/ param 'ancestor_of'; GET /api/v3-preview/pages/ param 'child_of'; GET /api/v3-preview/pages/ param 'descendant_of'; GET /api/v3-preview/pages/ param 'translation_of'; GET /api/v3-preview/pages/ param 'locale'; GET /api/v3-preview/pages/ param 'site'; GET /api/v3-preview/pages/ param 'order'; GET /api/v3-preview/pages/ param 'search'; ... and 196 more"
+      },
+      {
+        "id": "agentic-commerce/acp-policy-link-surface",
+        "status": "fail",
+        "weight": 1,
+        "title": "ACP link-surface completeness",
+        "display_value": "3/8 ACP link types resolve; privacy_policy=https://guide.wagtail.org/en/about/privacy-policy/ about_us=https://guide.wagtail.org/en/about/ support=https://guide.wagtail.org/en/getting-started/",
+        "explanation": "A hard-gate policy link is unusable, so is_eligible_checkout cannot be set and the catalogue is excluded from Instant Checkout: terms_of_use has no link anywhere on the scanned pages."
+      },
+      {
+        "id": "content-extraction/css-hidden-ghost-content",
+        "status": "fail",
+        "weight": 1,
+        "title": "Ghost content: CSS-hidden text ingested as visible",
+        "display_value": "295 est. tokens hidden by CSS class across 2 block(s), 51.4% of page text",
+        "explanation": "295 est. tokens (51.4% of page text) are hidden only by stylesheet rules, which no non-rendering extractor evaluates. Largest: \".primary-nav\" (display:none)."
+      },
+      {
+        "id": "content-extraction/markdown-alternate",
+        "status": "fail",
+        "weight": 1,
+        "title": "The markdown alternate this site serves is not usable",
+        "display_value": "Found via declared link. Missing headings: Getting started | How-to | Concepts | Reference | About this guide | Help improve this guide | Wagtail. 358 tokens against 28926 for the HTML \u2014 99% fewer tokens.",
+        "explanation": "The alternate has drifted from the page: 38% of its prose and 13% of its headings survive."
+      },
+      {
+        "id": "operability-safety/landmark-unique",
+        "status": "fail",
+        "weight": 1,
+        "title": "Duplicate landmarks without distinguishing labels",
+        "display_value": "Failing element(s): nav.skip-link",
+        "explanation": "Duplicate landmarks without distinguishing labels \u2014 accessibility violations found."
+      },
+      {
+        "id": "agent-interfaces/mcp-registry-listing-ownership",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "This site\u2019s MCP server is missing from the registry, or listed under a namespace it does not own",
+        "display_value": "0 first-party listing(s)",
+        "explanation": "No registry listing names a server on wagtail.org, so a client resolving \"the MCP server for wagtail.org\" finds nothing"
+      },
+      {
+        "id": "answer-readiness/extractor-survival-recall",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Facts on this page do not survive the extractors that read it",
+        "display_value": "13% of facts survive",
+        "explanation": "7 of 8 key spans do not survive the extractors an agent uses."
+      },
+      {
+        "id": "answer-readiness/review-signals",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Review/testimonial signals",
+        "display_value": "Not found",
+        "explanation": "No review or testimonial signals found."
+      },
+      {
+        "id": "answer-readiness/specific-numbers",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Specific numbers and data points",
+        "display_value": "Not found",
+        "explanation": "No specific numbers, percentages, or dollar amounts found in content."
+      },
+      {
+        "id": "content-extraction/content-depth",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Sufficient content depth",
+        "display_value": "0/1 pages above threshold",
+        "explanation": "0/1 page(s) have >300 words. Lowest: 129 words."
+      },
+      {
+        "id": "content-extraction/extraction-determinism",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "What an agent reads from this page depends on which extractor it uses",
+        "display_value": "readability returned 270 characters, below the 500-character threshold at which it reports a document as readerable.",
+        "explanation": "Readability extracted 270 characters, under its own 500-character threshold."
+      },
+      {
+        "id": "content-extraction/semantic-lists",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Semantic list usage",
+        "display_value": "0 semantic list(s) vs 1 pseudo-list(s); 0 definition element(s); 0 step list(s)",
+        "explanation": "1 of 1 content list(s) are div stacks or numbered prose rather than list markup."
+      },
+      {
+        "id": "content-extraction/token-ratio",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Lean token-to-content ratio",
+        "display_value": "0.2% content (63 of 28926 o200k tokens, extracted by readability)",
+        "explanation": "Homepage is only 0.2% content by token weight \u2014 the page is almost entirely markup noise."
+      },
+      {
+        "id": "agent-interfaces/ai-catalog-metadata",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "AI Catalog complete metadata",
+        "display_value": "2/3 entries carry description + tags/capabilities/representativeQueries; 1/3 entries with updatedAt, trustManifest",
+        "explanation": "1 of 3 catalog entries are too thin for a consumer to match on: urn:air:guide.wagtail.org:mcp:wagtail-guide."
+      },
+      {
+        "id": "agent-interfaces/openapi-schemas",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "OpenAPI request/response schemas",
+        "display_value": "59/67 response, 24/34 request",
+        "explanation": "Partial schema coverage: 59/67 response schemas, 24/34 request schemas."
+      },
+      {
+        "id": "answer-readiness/trust-signals",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Trust and evidence signals on homepage",
+        "display_value": "evidence-backed claims (3 outbound citation host(s): wagtail.org, github.com, creativecommons.org)",
+        "explanation": "Homepage carries only 1 of the 2 GEO-measured trust factor(s)."
+      },
+      {
+        "id": "operability-safety/ghost-clickable-element-ratio",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Ghost-clickable elements: click targets an agent cannot address",
+        "display_value": "ratio 0.96 \u2014 4 ghost of 94 click target(s) (no role)",
+        "explanation": "4 of 94 click target(s) never reach an agent's snapshot. The page stays above the 0.90 floor, but each ghost is a control no agent can click. First: <span.theme-toggle__label> (no role)."
+      }
+    ]
+  },
+  {
+    "id": "fresh-wagtail",
+    "url": "https://wagtail.org/",
+    "exit_code": 0,
+    "elapsed_seconds": 22.394,
+    "report_json": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/agent-lighthouse-report.json",
+    "report_html": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/agent-lighthouse-report.html",
+    "overall_score": 86,
+    "score_tier": "partially-ready",
+    "judgeable": true,
+    "unscored_reason": null,
+    "scanned_at": "2026-11-14T00:30:16.116Z",
+    "pages_scanned": 1,
+    "page_attempts": [
+      {
+        "url": "https://wagtail.org/",
+        "pageType": "homepage",
+        "source": "declared",
+        "outcome": "read",
+        "status": 200
+      }
+    ],
+    "declared_page_type": "homepage",
+    "scored_status_counts": {
+      "pass": 81,
+      "na": 64,
+      "warn": 6,
+      "fail": 12
+    },
+    "trace_outcomes": {
+      "skipped": 20,
+      "ran": 201
+    },
+    "coverage": {
+      "registryMass": 132.2,
+      "assessedMass": 83,
+      "pageMass": 88.4,
+      "originMass": 43.8,
+      "gatedMass": 0
+    },
+    "budget": {
+      "limitMs": 180000,
+      "elapsedMs": 20445,
+      "exhausted": false,
+      "skippedCount": 0
+    },
+    "request_stop": {
+      "stopped": false,
+      "reason": null,
+      "unsentCount": 0,
+      "affectedAuditCount": 0,
+      "affectedMass": 0
+    },
+    "category_scores": {
+      "access-crawl-control": 100,
+      "content-extraction": 72,
+      "machine-discovery": 100,
+      "structured-data": 100,
+      "answer-readiness": 70,
+      "agent-interfaces": null,
+      "agentic-commerce": 50,
+      "operability-safety": 79
+    },
+    "failure": null,
+    "scored_issues": [
+      {
+        "id": "agentic-commerce/acp-policy-link-surface",
+        "status": "fail",
+        "weight": 1,
+        "title": "ACP link-surface completeness",
+        "display_value": "5/8 ACP link types resolve; privacy_policy=https://wagtail.org/privacy/ contact_us=https://wagtail.org/contact/ about_us=https://wagtail.org/about-wagtail/ faq=https://wagtail.org/faqs/ support=https://wagtail.org/sponsor/",
+        "explanation": "A hard-gate policy link is unusable, so is_eligible_checkout cannot be set and the catalogue is excluded from Instant Checkout: terms_of_use has no link anywhere on the scanned pages."
+      },
+      {
+        "id": "answer-readiness/text-fragment-addressability",
+        "status": "fail",
+        "weight": 1,
+        "title": "Text-fragment citation addressability",
+        "display_value": "22/25 answer span(s) addressable; e.g. https://wagtail.org/#:~:text=Read%20the%20docs.,-Learn%20the%20code. https://wagtail.org/#:~:text=A%20CMS%20trusted%20by%20organisations%20you%20know https://wagtail.org/#:~:text=Meet%20Nicolas%20Leung%20from%20M%2B%20in%20Hong%20Kong%20and%20discover%20how%20they%20used%20headless%20Wagtail%20to%20build%20a%20solid%20digital%20foundation%20for%20their%20museum.",
+        "explanation": "3 of 25 answer span(s) cannot be reached by a text fragment, so a citation link degrades to page-top. Example \u2014 first sentence after \"Give Wagtail a go\": the span occurs more than once and its block offers no prefix or suffix to disambiguate it: \"You can deploy a working Wagtail site in as little as 15 minutes.\"."
+      },
+      {
+        "id": "content-extraction/css-hidden-ghost-content",
+        "status": "fail",
+        "weight": 1,
+        "title": "Ghost content: CSS-hidden text ingested as visible",
+        "display_value": "1499 est. tokens hidden by CSS class across 29 block(s), 55.3% of page text",
+        "explanation": "1499 est. tokens (55.3% of page text) are hidden only by stylesheet rules, which no non-rendering extractor evaluates. Largest: \".header__nav--mobile\" (display:none). 1 block(s) duplicate text that is already visible, so the agent reads the same copy twice."
+      },
+      {
+        "id": "operability-safety/form-error-messages",
+        "status": "fail",
+        "weight": 1,
+        "title": "Form fields wired to their validation messages",
+        "display_value": "0 of 1 required field(s) reference a message element",
+        "explanation": "None of the 1 required field(s) carry a resolvable aria-errormessage or aria-describedby, so an agent has no way to read why a submission was rejected."
+      },
+      {
+        "id": "operability-safety/landmark-unique",
+        "status": "fail",
+        "weight": 1,
+        "title": "Duplicate landmarks without distinguishing labels",
+        "display_value": "Failing element(s): nav.primary-nav",
+        "explanation": "Duplicate landmarks without distinguishing labels \u2014 accessibility violations found."
+      },
+      {
+        "id": "operability-safety/aria-layer-injection-scan",
+        "status": "warn",
+        "weight": 1,
+        "title": "Accessibility-Layer Injection Scan",
+        "display_value": "1 anomalous value(s) across 216 scanned",
+        "explanation": "1 aria-label(s) share under 30% of their element's own visible tokens. Neither matches an instruction pattern, but both are the slot a payload is smuggled in and both are already accessibility defects."
+      },
+      {
+        "id": "operability-safety/form-actionability",
+        "status": "warn",
+        "weight": 1,
+        "title": "Form backend actionability",
+        "display_value": "2/3 fields actionable (67%). Non-actionable: form #0 input[name=\"query\" type=\"search\"]: missing autocomplete (identity field, expected token like \"tel\")",
+        "explanation": "2/3 form fields are fully actionable \u2014 agents will struggle with the rest."
+      },
+      {
+        "id": "answer-readiness/extractor-survival-recall",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Facts on this page do not survive the extractors that read it",
+        "display_value": "25% of facts survive",
+        "explanation": "56 of 75 key spans do not survive the extractors an agent uses."
+      },
+      {
+        "id": "answer-readiness/review-signals",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Review/testimonial signals",
+        "display_value": "2 unattributed pull-quote(s), no attribution",
+        "explanation": "No review or testimonial signals found. Attribution is what separates a testimonial from decoration."
+      },
+      {
+        "id": "content-extraction/fake-headings",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Fake headings detected",
+        "display_value": "https://wagtail.org/: <p class=\"hero__subheading intro-big\"> \"Wagtail is the leading open-source Python CMS\"; https://wagtail.org/: <p class=\"headline__subheading intro-big\"> \"A CMS trusted by organisations you know\"; https://wagtail.org/: <p class=\"headline__subheading intro-big\"> \"Make your editors happy. And your developers too.\"; https://wagtail.org/: <span class=\"highlight__meta-text heading-four\"> \"StreamField\"; https://wagtail.org/: <p class=\"headline__subheading intro-big\"> \"Wagtail helps your whole team do their best work\"",
+        "explanation": "Found 9 fake heading(s) \u2014 generic elements styled to look like headings instead of <h1>-<h6> tags."
+      },
+      {
+        "id": "content-extraction/svg-bloat",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Large inline SVGs bloating agent context",
+        "display_value": "267 SVG(s) total, 195 unhidden, 89.5KB unhidden bytes across 1 page(s). Top offenders:\n67.9KB at https://wagtail.org/: <svg xmlns=\"http://www.w3.org/2000/svg\" style=\"display: none;\"> <symbol id=\"arrow\" fill=\"currentColor\" viewBox=\"0 0 256 ...",
+        "explanation": "267 SVG(s) total, 195 unhidden, 89.5KB unhidden bytes across 1 page(s). Severe SVG context bloat detected \u2014 largest unhidden SVG is 67.9KB."
+      },
+      {
+        "id": "content-extraction/token-ratio",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Lean token-to-content ratio",
+        "display_value": "0.8% content (586 of 77951 o200k tokens, extracted by readability)",
+        "explanation": "Homepage is only 0.8% content by token weight \u2014 the page is almost entirely markup noise."
+      },
+      {
+        "id": "operability-safety/stateful-control-introspectability",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Stateful controls: current state readable by an agent",
+        "display_value": "ratio 0.86 \u2014 1 opaque of 7 state-bearing control(s)",
+        "explanation": "1 of 7 state-bearing control(s) hold their state where no snapshot can read it, so an agent cannot verify that its click did anything. Missing: aria-expanded. First: <button.header__button.header__button--search.u-desktop-only>."
+      },
+      {
+        "id": "operability-safety/third-party-dom-write-blast-radius",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Third-party DOM-write blast radius",
+        "display_value": "1 third-party script origin(s) [1-3]: plausible.io; CSP from none, not constraining; runtime-injected tags not counted",
+        "explanation": "1 third-party origin(s) can write into the DOM an agent reads, with no Content-Security-Policy that constrains what runs and 1 of them unpinned by `integrity`: plausible.io. Each is a separate host, and a separate supply chain, with the site's own authority over what an agent believes."
+      },
+      {
+        "id": "answer-readiness/trust-signals",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Trust and evidence signals on homepage",
+        "display_value": "evidence-backed claims (4 outbound citation host(s): docs.wagtail.org, github.com, guide.wagtail.org)",
+        "explanation": "Homepage carries only 1 of the 2 GEO-measured trust factor(s)."
+      },
+      {
+        "id": "content-extraction/extraction-determinism",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "What an agent reads from this page depends on which extractor it uses",
+        "display_value": "0.66 worst-pair agreement",
+        "explanation": "The extractors partly disagree about what this page says (0.66 overlap)."
+      },
+      {
+        "id": "content-extraction/semantic-lists",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Semantic list usage",
+        "display_value": "4 semantic list(s) vs 2 pseudo-list(s); 0 definition element(s); 0 step list(s)",
+        "explanation": "2 of 6 content list(s) are div stacks or numbered prose rather than list markup."
+      },
+      {
+        "id": "operability-safety/ghost-clickable-element-ratio",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Ghost-clickable elements: click targets an agent cannot address",
+        "display_value": "ratio 0.98 \u2014 5 ghost of 213 click target(s) (no role)",
+        "explanation": "5 of 213 click target(s) never reach an agent's snapshot. The page stays above the 0.90 floor, but each ghost is a control no agent can click. First: <div.headline__button-wrap> (no role)."
+      }
+    ]
+  },
+  {
+    "id": "docs-wagtail",
+    "url": "https://docs.wagtail.org/en/stable/",
+    "exit_code": 0,
+    "elapsed_seconds": 27.952,
+    "report_json": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/docs-wagtail/agent-lighthouse-report.json",
+    "report_html": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/docs-wagtail/agent-lighthouse-report.html",
+    "overall_score": 81,
+    "score_tier": "partially-ready",
+    "judgeable": true,
+    "unscored_reason": null,
+    "scanned_at": "2026-11-14T00:30:38.481Z",
+    "pages_scanned": 1,
+    "page_attempts": [
+      {
+        "url": "https://docs.wagtail.org/en/stable/",
+        "pageType": "homepage",
+        "source": "declared",
+        "outcome": "read",
+        "status": 200
+      }
+    ],
+    "declared_page_type": "homepage",
+    "scored_status_counts": {
+      "pass": 74,
+      "na": 68,
+      "fail": 17,
+      "warn": 4
+    },
+    "trace_outcomes": {
+      "skipped": 20,
+      "ran": 201
+    },
+    "coverage": {
+      "registryMass": 132.2,
+      "assessedMass": 79.4,
+      "pageMass": 88.4,
+      "originMass": 43.8,
+      "gatedMass": 0
+    },
+    "budget": {
+      "limitMs": 180000,
+      "elapsedMs": 25421,
+      "exhausted": false,
+      "skippedCount": 0
+    },
+    "request_stop": {
+      "stopped": false,
+      "reason": null,
+      "unsentCount": 0,
+      "affectedAuditCount": 0,
+      "affectedMass": 0
+    },
+    "category_scores": {
+      "access-crawl-control": 100,
+      "content-extraction": 77,
+      "machine-discovery": 95,
+      "structured-data": 0,
+      "answer-readiness": 34,
+      "agent-interfaces": null,
+      "agentic-commerce": 50,
+      "operability-safety": 91
+    },
+    "failure": null,
+    "scored_issues": [
+      {
+        "id": "agentic-commerce/acp-policy-link-surface",
+        "status": "fail",
+        "weight": 1,
+        "title": "ACP link-surface completeness",
+        "display_value": "4/8 ACP link types resolve; privacy_policy=https://docs.wagtail.org/en/stable/advanced_topics/privacy.html contact_us=https://docs.wagtail.org/en/stable/tutorial/create_contact_page.html about_us=https://docs.wagtail.org/en/stable/advanced_topics/boundblocks_and_values.html support=https://docs.wagtail.org/en/stable/advanced_topics/images/animated_gifs.html",
+        "explanation": "A hard-gate policy link is unusable, so is_eligible_checkout cannot be set and the catalogue is excluded from Instant Checkout: terms_of_use has no link anywhere on the scanned pages."
+      },
+      {
+        "id": "answer-readiness/core-open-graph",
+        "status": "fail",
+        "weight": 1,
+        "title": "Core Open Graph tags",
+        "display_value": "None found\nog:site_name: not found\n\nTwitter Card tags (informational \u2014 not scored):\n  twitter:card: absent \u2014 no og:type to fall back to\n  twitter:title: absent \u2014 no og:title to fall back to\n  twitter:description: absent \u2014 no og:description to fall back to\n  twitter:image: absent \u2014 no og:image to fall back to",
+        "explanation": "Missing OG tags: og:title, og:description, og:image, og:url."
+      },
+      {
+        "id": "content-extraction/css-hidden-ghost-content",
+        "status": "fail",
+        "weight": 1,
+        "title": "Ghost content: CSS-hidden text ingested as visible",
+        "display_value": "2572 est. tokens hidden by CSS class across 6 block(s), 51.2% of page text",
+        "explanation": "2572 est. tokens (51.2% of page text) are hidden only by stylesheet rules, which no non-rendering extractor evaluates. Largest: \".collapse:not(.show)\" (display:none). 1 block(s) duplicate text that is already visible, so the agent reads the same copy twice. 1 block(s) carry prices, availability or dated claims that can contradict the visible copy."
+      },
+      {
+        "id": "content-extraction/markdown-alternate",
+        "status": "fail",
+        "weight": 1,
+        "title": "The markdown alternate this site serves is not usable",
+        "display_value": "Found via declared link. Missing headings: Welcome to Wagtail\u2019s documentation\u00b6 | Index\u00b6. 7682 tokens against 34840 for the HTML \u2014 78% fewer tokens.",
+        "explanation": "The alternate has drifted from the page: 84% of its prose and 0% of its headings survive."
+      },
+      {
+        "id": "operability-safety/landmark-unique",
+        "status": "fail",
+        "weight": 1,
+        "title": "Duplicate landmarks without distinguishing labels",
+        "display_value": "Failing element(s): header.container-fluid.bg-primary",
+        "explanation": "Duplicate landmarks without distinguishing labels \u2014 accessibility violations found."
+      },
+      {
+        "id": "structured-data/breadcrumb-schema",
+        "status": "fail",
+        "weight": 1,
+        "title": "BreadcrumbList schema",
+        "display_value": "0/1 breadcrumb-bearing pages have BreadcrumbList",
+        "explanation": "No BreadcrumbList markup found for observed breadcrumb trails."
+      },
+      {
+        "id": "structured-data/json-ld-present",
+        "status": "fail",
+        "weight": 1,
+        "title": "JSON-LD present",
+        "display_value": "None",
+        "explanation": "No JSON-LD structured data found on any page."
+      },
+      {
+        "id": "structured-data/organization-schema",
+        "status": "fail",
+        "weight": 1,
+        "title": "Organization schema",
+        "display_value": "None",
+        "explanation": "No Organization schema found."
+      },
+      {
+        "id": "structured-data/schema-validation",
+        "status": "fail",
+        "weight": 1,
+        "title": "Schema validation",
+        "display_value": "No JSON-LD blocks found.",
+        "explanation": "No JSON-LD blocks to validate."
+      },
+      {
+        "id": "machine-discovery/no-broken-ai-endpoints",
+        "status": "warn",
+        "weight": 1,
+        "title": "No broken AI endpoints",
+        "display_value": "No URLs to validate",
+        "explanation": "No AI endpoint URLs found in ai-catalog.json, llms.txt, or navigation.json to validate."
+      },
+      {
+        "id": "answer-readiness/extractor-survival-recall",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Facts on this page do not survive the extractors that read it",
+        "display_value": "50% of facts survive",
+        "explanation": "1 of 2 key spans do not survive the extractors an agent uses."
+      },
+      {
+        "id": "answer-readiness/meta-description",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Meta description quality",
+        "display_value": "Not found",
+        "explanation": "Meta description is missing."
+      },
+      {
+        "id": "answer-readiness/og-type",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "og:type set and appropriate",
+        "display_value": "Not found",
+        "explanation": "og:type is missing."
+      },
+      {
+        "id": "answer-readiness/review-signals",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Review/testimonial signals",
+        "display_value": "Not found",
+        "explanation": "No review or testimonial signals found."
+      },
+      {
+        "id": "answer-readiness/section-split-risk-profile",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Sections are longer than the window that will chunk them",
+        "display_value": "0% inside the window",
+        "explanation": "The page has no headings to cut on, so every chunk after the first arrives without one."
+      },
+      {
+        "id": "answer-readiness/specific-numbers",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Specific numbers and data points",
+        "display_value": "Not found",
+        "explanation": "No specific numbers, percentages, or dollar amounts found in content."
+      },
+      {
+        "id": "content-extraction/extraction-determinism",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "What an agent reads from this page depends on which extractor it uses",
+        "display_value": "readability returned 180 characters, below the 500-character threshold at which it reports a document as readerable.",
+        "explanation": "Readability extracted 180 characters, under its own 500-character threshold."
+      },
+      {
+        "id": "content-extraction/token-ratio",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Lean token-to-content ratio",
+        "display_value": "0.1% content (48 of 34840 o200k tokens, extracted by readability)",
+        "explanation": "Homepage is only 0.1% content by token weight \u2014 the page is almost entirely markup noise."
+      },
+      {
+        "id": "answer-readiness/trust-signals",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Trust and evidence signals on homepage",
+        "display_value": "evidence-backed claims (9 outbound citation host(s): github.com, www.python.org, www.djangoproject.com)",
+        "explanation": "Homepage carries only 1 of the 2 GEO-measured trust factor(s)."
+      },
+      {
+        "id": "operability-safety/ghost-clickable-element-ratio",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Ghost-clickable elements: click targets an agent cannot address",
+        "display_value": "ratio 1.00 \u2014 2 ghost of 771 click target(s) (no accessible name)",
+        "explanation": "2 of 771 click target(s) never reach an agent's snapshot. The page stays above the 0.90 floor, but each ghost is a control no agent can click. First: <div#searchbox.searchbox.mb-6.px-1> (no accessible name)."
+      },
+      {
+        "id": "operability-safety/hover-only-content-and-navigation",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Hover-only navigation and content",
+        "display_value": "3 title-only string(s)",
+        "explanation": "Navigation is reachable, but 3 piece(s) of information are drawn only on hover, so an agent never reads them. First: \"Link to this heading\"."
+      }
+    ]
+  },
+  {
+    "id": "draftjs-exporter",
+    "url": "https://wagtail.github.io/draftjs_exporter/",
+    "exit_code": 0,
+    "elapsed_seconds": 12.715,
+    "report_json": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/draftjs-exporter/agent-lighthouse-report.json",
+    "report_html": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/draftjs-exporter/agent-lighthouse-report.html",
+    "overall_score": 79,
+    "score_tier": "partially-ready",
+    "judgeable": true,
+    "unscored_reason": null,
+    "scanned_at": "2026-11-14T00:30:28.863Z",
+    "pages_scanned": 1,
+    "page_attempts": [
+      {
+        "url": "https://wagtail.github.io/draftjs_exporter/",
+        "pageType": "homepage",
+        "source": "declared",
+        "outcome": "read",
+        "status": 200
+      }
+    ],
+    "declared_page_type": "homepage",
+    "scored_status_counts": {
+      "pass": 61,
+      "na": 81,
+      "warn": 8,
+      "fail": 13
+    },
+    "trace_outcomes": {
+      "skipped": 20,
+      "ran": 201
+    },
+    "coverage": {
+      "registryMass": 132.2,
+      "assessedMass": 68,
+      "pageMass": 88.4,
+      "originMass": 43.8,
+      "gatedMass": 0
+    },
+    "budget": {
+      "limitMs": 180000,
+      "elapsedMs": 10002,
+      "exhausted": false,
+      "skippedCount": 0
+    },
+    "request_stop": {
+      "stopped": false,
+      "reason": null,
+      "unsentCount": 0,
+      "affectedAuditCount": 0,
+      "affectedMass": 0
+    },
+    "category_scores": {
+      "access-crawl-control": 96,
+      "content-extraction": 82,
+      "machine-discovery": 90,
+      "structured-data": 0,
+      "answer-readiness": 79,
+      "agent-interfaces": null,
+      "agentic-commerce": 50,
+      "operability-safety": 79
+    },
+    "failure": null,
+    "scored_issues": [
+      {
+        "id": "agentic-commerce/acp-policy-link-surface",
+        "status": "fail",
+        "weight": 1,
+        "title": "ACP link-surface completeness",
+        "display_value": "1/8 ACP link types resolve; support=https://wagtail.github.io/draftjs_exporter/markdown/",
+        "explanation": "A hard-gate policy link is unusable, so is_eligible_checkout cannot be set and the catalogue is excluded from Instant Checkout: terms_of_use has no link anywhere on the scanned pages; privacy_policy has no link anywhere on the scanned pages."
+      },
+      {
+        "id": "content-extraction/css-hidden-ghost-content",
+        "status": "fail",
+        "weight": 1,
+        "title": "Ghost content: CSS-hidden text ingested as visible",
+        "display_value": "169 est. tokens hidden by CSS class across 4 block(s), 15.7% of page text",
+        "explanation": "169 est. tokens (15.7% of page text) are hidden only by stylesheet rules, which no non-rendering extractor evaluates. Largest: \".md-search__inner,.md-search__scrollwrap,.md-sidebar__scrollwrap\" (visibility:hidden)."
+      },
+      {
+        "id": "content-extraction/markdown-alternate",
+        "status": "fail",
+        "weight": 1,
+        "title": "The markdown alternate this site serves is not usable",
+        "display_value": "Found via declared link. Missing headings: Draft.js exporter\u00b6 | Features\u00b6 | When to use the exporter\u00b6 | Where to go next\u00b6 | Contributing\u00b6 | Credits\u00b6. 1022 tokens against 9169 for the HTML \u2014 89% fewer tokens.",
+        "explanation": "The alternate has drifted from the page: 88% of its prose and 0% of its headings survive."
+      },
+      {
+        "id": "operability-safety/dialog-name",
+        "status": "fail",
+        "weight": 1,
+        "title": "Dialogs without accessible names",
+        "display_value": "Failing element(s): div.md-search",
+        "explanation": "Dialogs without accessible names \u2014 accessibility violations found."
+      },
+      {
+        "id": "operability-safety/form-error-messages",
+        "status": "fail",
+        "weight": 1,
+        "title": "Form fields wired to their validation messages",
+        "display_value": "0 of 1 required field(s) reference a message element",
+        "explanation": "None of the 1 required field(s) carry a resolvable aria-errormessage or aria-describedby, so an agent has no way to read why a submission was rejected."
+      },
+      {
+        "id": "operability-safety/label",
+        "status": "fail",
+        "weight": 1,
+        "title": "Form inputs lack associated labels",
+        "display_value": "Failing element(s): input#__search",
+        "explanation": "Form inputs lack associated labels \u2014 accessibility violations found."
+      },
+      {
+        "id": "operability-safety/landmark-unique",
+        "status": "fail",
+        "weight": 1,
+        "title": "Duplicate landmarks without distinguishing labels",
+        "display_value": "Failing element(s): nav.md-nav.md-nav--secondary",
+        "explanation": "Duplicate landmarks without distinguishing labels \u2014 accessibility violations found."
+      },
+      {
+        "id": "structured-data/json-ld-present",
+        "status": "fail",
+        "weight": 1,
+        "title": "JSON-LD present",
+        "display_value": "None",
+        "explanation": "No JSON-LD structured data found on any page."
+      },
+      {
+        "id": "structured-data/organization-schema",
+        "status": "fail",
+        "weight": 1,
+        "title": "Organization schema",
+        "display_value": "None",
+        "explanation": "No Organization schema found."
+      },
+      {
+        "id": "structured-data/schema-validation",
+        "status": "fail",
+        "weight": 1,
+        "title": "Schema validation",
+        "display_value": "No JSON-LD blocks found.",
+        "explanation": "No JSON-LD blocks to validate."
+      },
+      {
+        "id": "machine-discovery/sitemap-lastmod-verifiability",
+        "status": "warn",
+        "weight": 1,
+        "title": "Sitemap lastmod values contradict the pages they describe",
+        "display_value": "6 sampled URL(s) of 24 with lastmod; 0 corroborated, 0 divergent, 6 unverifiable, 0 not read; 0 malformed; 0 future-dated",
+        "explanation": "6 of 6 read sample URLs (100%) publish no modification time at all, so their lastmod cannot be verified \u2014 add dateModified to the page's JSON-LD."
+      },
+      {
+        "id": "answer-readiness/review-signals",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Review/testimonial signals",
+        "display_value": "1 unattributed pull-quote(s), no attribution",
+        "explanation": "No review or testimonial signals found. Attribution is what separates a testimonial from decoration."
+      },
+      {
+        "id": "answer-readiness/specific-numbers",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Specific numbers and data points",
+        "display_value": "Not found",
+        "explanation": "No specific numbers, percentages, or dollar amounts found in content."
+      },
+      {
+        "id": "operability-safety/stateful-control-introspectability",
+        "status": "fail",
+        "weight": 0.6,
+        "title": "Stateful controls: current state readable by an agent",
+        "display_value": "ratio 0.75 \u2014 2 opaque of 8 state-bearing control(s) (state in class \"md-nav__link--active\" only)",
+        "explanation": "2 of 8 state-bearing control(s) hold their state where no snapshot can read it, so an agent cannot verify that its click did anything. Missing: aria-pressed, aria-checked, aria-selected or aria-current. First: <label.md-nav__link.md-nav__link--active>."
+      },
+      {
+        "id": "access-crawl-control/no-blanket-block",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "No blanket AI block",
+        "display_value": "No robots.txt found",
+        "explanation": "No robots.txt found \u2014 cannot verify crawler permissions."
+      },
+      {
+        "id": "answer-readiness/chunk-boundary-referent-integrity",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Sections stop making sense once retrieved on their own",
+        "display_value": "80% self-contained",
+        "explanation": "1 of 5 sections lose their referent when retrieved alone."
+      },
+      {
+        "id": "answer-readiness/trust-signals",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Trust and evidence signals on homepage",
+        "display_value": "evidence-backed claims (10 outbound citation host(s): github.com, pypi.org, semver.org)",
+        "explanation": "Homepage carries only 1 of the 2 GEO-measured trust factor(s)."
+      },
+      {
+        "id": "content-extraction/aside-element",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "<aside> for supplementary content",
+        "display_value": "1 marked, 2 unmarked \u2014 <div md-sidebar>",
+        "explanation": "2 supplementary block(s) are not marked as complementary: <div md-sidebar>."
+      },
+      {
+        "id": "content-extraction/token-ratio",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Lean token-to-content ratio",
+        "display_value": "5.9% content (538 of 9169 o200k tokens, extracted by readability)",
+        "explanation": "Homepage is only 5.9% content by token weight \u2014 agents spend most of their context on markup noise."
+      },
+      {
+        "id": "machine-discovery/root-text-file-resolution-integrity",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "This origin answers 200 for root .txt paths that do not exist",
+        "display_value": "Probes unreliable",
+        "explanation": "The random .txt probes resolved correctly, but /robots.txt answered HTTP 404, so the positive control did not run."
+      },
+      {
+        "id": "operability-safety/hover-only-content-and-navigation",
+        "status": "warn",
+        "weight": 0.6,
+        "title": "Hover-only navigation and content",
+        "display_value": "12 title-only string(s)",
+        "explanation": "Navigation is reachable, but 12 piece(s) of information are drawn only on hover, so an agent never reads them. First: \"Go to repository\"."
+      }
+    ]
+  }
+]

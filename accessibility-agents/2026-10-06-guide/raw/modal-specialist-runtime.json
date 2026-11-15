@@ -1,0 +1,36 @@
+{
+  "rule": {
+    "ruleId": "aria-dialog-name",
+    "description": "Ensure every ARIA dialog and alertdialog node has an accessible name",
+    "help": "ARIA dialog and alertdialog nodes should have an accessible name",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/aria-dialog-name?application=axeAPI",
+    "tags": [
+      "cat.aria",
+      "best-practice"
+    ]
+  },
+  "axe": {
+    "violations": [
+      {
+        "id": "aria-dialog-name",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<div class=\"search modal fade show\" id=\"search-modal\" tabindex=\"-1\" aria-modal=\"true\" role=\"dialog\" style=\"display: block;\">",
+            "target": [
+              "#search-modal"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ariaSnapshot": "- dialog:\n  - text: Search\n  - textbox \"Search\":\n    - /placeholder: Search…",
+  "initialFocus": "<input type=\"text\" id=\"search\" name=\"query\" data-search-input=\"\" placeholder=\"Search…\" class=\"search__input\">",
+  "reverseTab": "<input type=\"text\" id=\"search\" name=\"query\" data-search-input=\"\" placeholder=\"Search…\" class=\"search__input\">",
+  "forwardTab": "<body class=\"app modal-open\" style=\"overflow: hidden; padding-right: 0px;\">\n\n        \n        <script src=\"/static/blocking-Cnb9KfqH.ad978dad23b4.js\"></script>\n\n        \n\n<nav class=\"skip-link\">\n    <",
+  "backdropClose": {
+    "display": "none",
+    "focus": "<button type=\"button\" aria-label=\"Toggle the search form\" data-search-icon-button=\"\" class=\"header__search-toggle\" data-bs-toggle=\"modal\" data-bs-target=\"#search-modal\">\n                    <svg class=\"header__search-icon\" width=\"21\" height"
+  }
+}

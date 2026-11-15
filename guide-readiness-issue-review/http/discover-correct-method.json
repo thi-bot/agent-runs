@@ -1,0 +1,58 @@
+{
+  "status": 200,
+  "request": {
+    "jsonrpc": "2.0",
+    "id": "discover-correct-method",
+    "method": "server/discover",
+    "params": {
+      "_meta": {
+        "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+        "io.modelcontextprotocol/clientInfo": {
+          "name": "guide-readiness-review",
+          "version": "1.0"
+        },
+        "io.modelcontextprotocol/clientCapabilities": {}
+      }
+    }
+  },
+  "request_headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json, text/event-stream",
+    "MCP-Protocol-Version": "2026-07-28",
+    "User-Agent": "GuideReadinessReview/1.0",
+    "MCP-Method": "server/discover"
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": "discover-correct-method",
+    "result": {
+      "cacheScope": "private",
+      "capabilities": {
+        "prompts": {
+          "listChanged": false
+        },
+        "resources": {
+          "listChanged": false,
+          "subscribe": false
+        },
+        "tools": {
+          "listChanged": false
+        }
+      },
+      "instructions": "The Wagtail user guide, for editors, moderators and administrators of Wagtail CMS sites. Search it with search_docs, then read pages with fetch_docs_page, citing their URLs. For developer questions, refer to https://docs.wagtail.org/ instead.",
+      "resultType": "complete",
+      "supportedVersions": [
+        "2026-07-28"
+      ],
+      "ttlMs": 0,
+      "_meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "wagtail-guide",
+          "title": "Wagtail Guide",
+          "version": "1.0.0",
+          "websiteUrl": "https://guide.wagtail.org/"
+        }
+      }
+    }
+  }
+}

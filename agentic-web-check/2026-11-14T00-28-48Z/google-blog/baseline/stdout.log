@@ -1,0 +1,169 @@
+
+AGENTIC WEB CHECK  v0.1.0 · methodology v1
+https://blog.google/
+Behavioural verification (3 tasks, baseline agent)
+
+Agent Readiness   70/100
+2 of 3 behavioural tasks did not pass (2 FAIL)
+
+PERCEPTION           62   3 pass · 5 warn · 1 fail · 9 of 9 checks scored
+NAVIGATION          100   6 pass · 0 warn · 0 fail · 6 of 7 checks scored
+INTERACTION          88   8 pass · 1 warn · 0 fail · 9 of 9 checks scored
+MACHINE INTERFACES   93   3 pass · 1 warn · 0 fail · 4 of 6 checks scored
+RELIABILITY         100   5 pass · 0 warn · 0 fail · 5 of 5 checks scored
+SAFETY               86   3 pass · 2 warn · 0 fail · 5 of 7 checks scored
+TASK SUCCESS         33   1 pass · 0 warn · 2 fail · 3 of 3 tasks scored
+
+28 passed  9 warnings  1 failures  5 not applicable/info
+
+FAIL
+  ✗ Control names are specific, not repeated or generic [ambiguous-control-names, perception, weight 3]
+    11 generic names and 0 names reused for different destinations.
+    · button "Read more" [ref=e229] [cursor=pointer] · observed: generic name · expected: name describing destination or action
+    · button "Read more" [ref=e251] [cursor=pointer] · observed: generic name · expected: name describing destination or action
+    · button "Read more" [ref=e270] [cursor=pointer] · observed: generic name · expected: name describing destination or action
+    · button "Read more" [ref=e289] [cursor=pointer] · observed: generic name · expected: name describing destination or action
+    · button "Read more" [ref=e317] [cursor=pointer] · observed: generic name · expected: name describing destination or action
+    · button "Read more" [ref=e341] [cursor=pointer] · observed: generic name · expected: name describing destination or action
+    · button "Read more" [ref=e364] [cursor=pointer] · observed: generic name · expected: name describing destination or action
+    · button "Read more" [ref=e382] [cursor=pointer] · observed: generic name · expected: name describing destination or action
+    · … 3 more in JSON/HTML report
+
+WARNING
+  ! Interactive controls have accessible names [control-accessible-name, perception, weight 10]
+    4 of 120 interactive controls (3%) have no accessible name.
+    · link [ref=e176] → https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/ [cursor=pointer] · observed: no accessible name · expected: link with a name
+    · link [ref=e218] → https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/ [cursor=pointer] · observed: no accessible name · expected: link with a name
+    · link [ref=e278] → https://www.youtube.com/watch?v=jJ7r6p9Qjes [cursor=pointer] · observed: no accessible name · expected: link with a name
+    · link [ref=e372] → https://cloud.google.com/blog/topics/public-sector/google-cloud-and-nasa-testing-robotic-systems-for-deep-space-missions?e=48754805 [cursor=pointer] · observed: no accessible name · expected: link with 
+  ! Form fields have labels and names [form-fields-labelled, interaction, weight 10]
+    0 label violations and 1 unnamed fields (20%).
+    · div > nav > div:nth-of-type(5) > uni-search-bar > div:nth-of-type(2) > form · observed: 1 fields without name attribute · expected: name on every field
+  ! Clickable elements are real controls, not generic elements [fake-interactive-elements, perception, weight 7]
+    14 clickable elements without a control role (10% of clickables).
+    · generic "Amin Vadhat explains our newest TPU systems" [ref=e239] [cursor=pointer] · observed: generic element with pointer cursor · expected: button or link role
+    · generic "Sketch to app with Gemini demo" [ref=e257] [cursor=pointer] · observed: generic element with pointer cursor · expected: button or link role
+    · generic "Video showcasing the design of the new Fitbit Edge" [ref=e299] [cursor=pointer] · observed: generic element with pointer cursor · expected: button or link role
+    · generic "Security Checkup" [ref=e327] [cursor=pointer] · observed: generic element with pointer cursor · expected: button or link role
+    · generic "woman using gemini to update resume" [ref=e351] [cursor=pointer] · observed: generic element with pointer cursor · expected: button or link role
+    · generic "A man in a hat smiling and looking direct to camera" [ref=e431] [cursor=pointer] · observed: generic element with pointer cursor · expected: button or link role
+    · <div> "" · observed: click listener · expected: semantic control
+    · <div> "Innovation & AI Innovation & AI See all in Innovation & AI M" · observed: click listener · expected: semantic control
+    · … 6 more in JSON/HTML report
+  ! Consequential actions require confirmation [consequential-actions-guarded, safety, weight 7]
+    3 of 4 consequential actions execute without a visible confirmation step.
+    · submit "subscribe" · observed: immediate action without confirmation signal · expected: confirmation dialog or review step
+    · link "when to buy guide" → https://storage.googleapis.com/gweb-uniblog-publish-prod/documents/GoogleWhentoBuy2026.pdf · observed: immediate action without confirmation signal · expected: confirmation dialog or review ste
+    · link "check out this year’s buzziest halloween trends" · observed: guarded: navigates to a page (no immediate effect)
+    · link "google pay" → https://blog.google/products-and-platforms/platforms/google-pay/ · observed: immediate action without confirmation signal · expected: confirmation dialog or review step
+  ! Headings form a usable outline [heading-structure, perception, weight 3]
+    1 heading problems across 1 pages.
+    · h3 "More updates" · observed: skips from h1 to h3 · expected: no skipped heading levels
+    · <h3 class="uni-nup__headline font-h3">More updates</h3> · observed: heading-order · expected: Heading levels should only increase by one
+  ! Images carry alternative text [image-alt, perception, weight 3]
+    1 images without alternative text.
+    · <svg role="img">
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" href="/static/blogv2/images/icons.svg?version=pr20261029-2131#news-from-google-logo"></use>
+< · observed: svg-img-alt · expected: <svg> elements with an 
+  ! Accessibility snapshot fits an agent context budget [snapshot-budget, perception, weight 3]
+    Largest snapshot: 40,683 chars.
+    · observed: 40683 chars, 524 nodes · expected: < 40,000 chars
+  ! llms.txt is published and well-formed [llms-txt, machine-interfaces, weight 3]
+    No llms.txt published.
+    · observed: HTTP 404 · expected: markdown file with H1
+  ! Downloads and new windows are announced [download-and-popup-links, safety, weight 1]
+    33 of 41 download/new-window links are not announced.
+    · link "Google DeepMind blog" → https://deepmind.google/blog/ · observed: opens new window without saying so · expected: name mentions download / new tab
+    · link "Google Research blog" → https://research.google/blog/ · observed: opens new window without saying so · expected: name mentions download / new tab
+    · link "Google Developers blog" → https://developers.googleblog.com/ · observed: opens new window without saying so · expected: name mentions download / new tab
+    · link "Google Cloud blog" → https://cloud.google.com/blog · observed: opens new window without saying so · expected: name mentions download / new tab
+    · link "Google DeepMind blog" → https://deepmind.google/blog/ · observed: opens new window without saying so · expected: name mentions download / new tab
+    · link "Google Research blog" → https://research.google/blog/ · observed: opens new window without saying so · expected: name mentions download / new tab
+    · link "Google Developers blog" → https://developers.googleblog.com/ · observed: opens new window without saying so · expected: name mentions download / new tab
+    · link "Google Cloud blog" → https://cloud.google.com/blog · observed: opens new window without saying so · expected: name mentions download / new tab
+    · … 12 more in JSON/HTML report
+
+PASS
+  ✓ Page loads successfully [page-load] HTTP 200 in 5463 ms.
+  ✓ No bot challenge blocks automated browsers [challenge-or-bot-wall] No bot challenge detected.
+  ✓ No overlay blocks the page at load [overlay-interference] No blocking overlays at load.
+  ✓ No hidden instructions aimed at AI agents [hidden-instructions] No instruction-like hidden text (102 hidden blocks inspected).
+  ✓ The DOM settles after load [dom-stability] Worst page: 0 late mutations, CLS 0.01.
+  ✓ ARIA attributes and roles are valid [aria-validity] No ARIA validity violations.
+  ✓ Page regions are exposed as landmarks [landmarks] Main and navigation landmarks present.
+  ✓ Navigation links are named and resolvable [navigation-links-usable] 2 navigation links are named and resolvable.
+  ✓ Controls are native or complete ARIA widgets [native-controls] No custom-only widgets detected.
+  ✓ robots.txt lets user-triggered agents fetch the page [robots-agent-access] User-triggered agents may fetch this page.
+  ✓ Content is available without executing JavaScript [server-rendered-content] 100% of rendered text is present without JavaScript.
+  ✓ Forms submit safely [forms-safe-transport] 2 forms submit to the same origin over HTTPS.
+  ✓ Network activity settles [network-settles] Network idle reached on all pages.
+  ✓ No runtime errors during load [console-errors] No runtime errors.
+  ✓ Visible labels are part of accessible names [label-in-name] Visible labels match accessible names.
+  ✓ Pages have a descriptive title and a language [document-title-lang] Titles and language are set.
+  ✓ Menus do not depend on hover [hover-only-menus] No hover-only navigation detected.
+  ✓ Common destinations are discoverable from the start page [key-pages-discoverable] Found about, help, privacy, terms, search; missing contact.
+  ✓ A sitemap is published [sitemap] Sitemap found (declared in robots.txt).
+  ✓ Required fields are marked programmatically [required-fields-marked] Required fields are marked programmatically.
+  ✓ Controls are keyboard operable [keyboard-operability] No keyboard operability problems detected.
+  ✓ Controls are not confined to cross-origin iframes [cross-origin-iframe-controls] No controls confined to cross-origin iframes.
+  ✓ No controls hidden in closed shadow roots [closed-shadow-roots] No closed shadow roots.
+  ✓ The UI is not rendered only on canvas [canvas-only-ui] No canvas-only UI.
+  ✓ Structured data (JSON-LD) describes the page [structured-data] 1 JSON-LD blocks (0 invalid), relevant types: WebSite.
+  ✓ No secret-looking tokens in page source [exposed-secrets] No secret-looking tokens found.
+  ✓ Site search is exposed [search-available] Search exposed via search landmark/input.
+  ✓ Targets are large enough [target-size] Targets meet the minimum size.
+
+NOT APPLICABLE / INFO
+  · Inner pages expose breadcrumbs [breadcrumbs] No pages deeper than one level were scanned; breadcrumbs not expected.
+  · WebMCP tools are exposed [webmcp] No WebMCP tools detected.
+  · Agent manifests (agent-card, UCP, ARD) are published [agent-manifests] No agent manifests (optional).
+  · WebMCP tools declare safety annotations [webmcp-tool-annotations] No WebMCP tools.
+  · Authentication boundaries are clearly signalled [auth-boundary-signalled] No authentication forms on the scanned pages.
+
+BEHAVIOURAL TESTS
+  Find the company's contact information (an email address or phone n…: FAIL (3 steps, 10.7 s)
+    no control matched keywords [contact, contact us, get in touch, support, email, phone, contacto, address] on https://blog.google/
+    1. click {"ref":"e381"} → clicked link "supporting the future of space exploration"
+    2. click {"ref":"e340"} → clicked link "Gmail Help Center"
+    3. scroll {"direction":"down"} → scrolled down (no visible change)
+  Find the page describing the privacy policy or terms of service.: FAIL (3 steps, 18.1 s)
+    page state unchanged after three actions (controls had no visible effect or opened new tabs)
+    1. click {"ref":"e207"} → clicked link "Google's privacy policy." (opened a new tab to https://policies.google.com/privacy (ou
+    2. click {"ref":"e634"} → clicked button "Privacy" (opened a new tab to https://policies.google.com/privacy (outside https://b
+    3. click {"ref":"e637"} → clicked button "Terms" (opened a new tab to https://policies.google.com/terms (outside https://blog.
+  Find a page that explains what the company or product does (about, …: PASS (6 steps, 17.2 s)
+    success criteria satisfied after 6 actions
+    1. click {"ref":"e4"} → clicked link "Learn more about how Google uses cookies. Opens in a new tab." (opened a new tab to ht
+    2. click {"ref":"e240"} → clicked button "Play video: What to know about our newest TPUs"
+    3. click {"ref":"e293"} → clicked link "Raising awareness about lung cancer on YouTube"
+    4. click {"ref":"e640"} → clicked button "Help" (opened a new tab to https://www.youtube.com/watch?v=jJ7r6p9Qjes (outside http
+    5. click {"ref":"e340"} → clicked link "Gmail Help Center" (opened a new tab to https://support.google.com/ (outside https://b
+    6. click {"ref":"e610"} → clicked link "Scientists are using Google AI to help restore giant kelp forests."
+
+Suggested fixes
+  1. Control names are specific, not repeated or generic [ambiguous-control-names, weight 3]
+     Make link and button text describe the destination or action ("Read the return policy",
+     "Add Trail Bike to cart"). Avoid "Click here"/"Read more"; use aria-label to disambiguate
+     when visual text must stay short.
+  2. Interactive controls have accessible names [control-accessible-name, weight 10]
+     Give every button, link and form control a visible text label or an
+     aria-label/aria-labelledby. For icon buttons use aria-label; for inputs use <label for>.
+  3. Form fields have labels and names [form-fields-labelled, weight 10]
+     Associate every input/select/textarea with a <label for>, give fields a name attribute,
+     and use autocomplete tokens for common data.
+  4. Clickable elements are real controls, not generic elements [fake-interactive-elements, weight 7]
+     Use <button> or <a href> for actions and navigation. If a custom element must stay, add
+     role="button", tabindex="0", a name and keyboard handlers.
+  5. Consequential actions require confirmation [consequential-actions-guarded, weight 7]
+     Put consequential actions behind a confirmation dialog (aria-haspopup="dialog" + <dialog>)
+     or a review step; never auto-submit them.
+  6. Headings form a usable outline [heading-structure, weight 3]
+     One h1 per page naming the page; nest h2/h3 without skipping levels; no empty headings.
+  7. Images carry alternative text [image-alt, weight 3]
+     Add alt text to informative images (alt="" for decorative ones); name SVG icons with
+     aria-label or <title>.
+  8. Accessibility snapshot fits an agent context budget [snapshot-budget, weight 3]
+     Reduce DOM size on key pages: paginate long lists, lazy-render off-screen sections, remove
+     duplicated hidden menus.
+
+1 pages · 60.3 s · chromium 153.0.8010.12 · 2026-11-14T00:31:01.155Z

@@ -1,0 +1,9 @@
+› loading https://wagtail.github.io/draftjs_exporter/
+› loaded https://wagtail.github.io/draftjs_exporter/ (HTTP 200, 215 nodes)
+› probing robots.txt, sitemap, llms.txt, well-known manifests
+› running 43 checks
+› running 3 tasks with the baseline agent
+› task contact: PASS (1 steps) success criteria satisfied after 1 actions
+› baseline: click failed on f1e2: locator.click: Timeout 8000ms exceeded.
+› task legal-policy: FAIL (5 steps) no control matched keywords [privacy, privacy policy, terms, legal, privacidade, policy, policies, conditions] on https://wagtail.github.io/draftjs_exporter/SECURITY/#security-policy
+› task help-or-about: PASS (2 steps) success criteria satisfied after 2 actions

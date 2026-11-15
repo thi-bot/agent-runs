@@ -1,0 +1,88 @@
+from django.conf import settings
+from django.conf.urls.i18n import i18n_patterns
+from django.contrib import admin
+from django.urls import include, path, re_path
+from django.views.generic import RedirectView, TemplateView
+from django.views.i18n import JavaScriptCatalog
+from wagtail import urls as wagtail_urls
+from wagtail.admin import urls as wagtailadmin_urls
+from wagtail.api.v3.urls import api as wagtail_api_v3
+from wagtail.contrib.sitemaps.views import sitemap
+from wagtail.documents import urls as wagtaildocs_urls
+
+from apps.core import views as core_views
+from apps.core.views import preview_page_not_found
+from apps.guide.api import api_router
+from apps.llms_txt import views as llms_txt_views
+from apps.search import views as search_views
+
+urlpatterns = [
+    path("django-admin/", admin.site.urls),
+    path("admin/", include(wagtailadmin_urls)),
+    path("documents/", include(wagtaildocs_urls)),
+    path("api/v2/", api_router.urls),
+    path("api/v3-preview/", wagtail_api_v3.urls),
+    path(
+        "openapi.json",
+        RedirectView.as_view(
+            url="https://guide.wagtail.org/api/v3-preview/openapi.json",
+            permanent=False,
+        ),
+        name="openapi_schema",
+    ),
+    path("sitemap.xml", sitemap),
+    path(
+        ".well-known/api-catalog",
+        core_views.api_catalog,
+        name="api_catalog",
+    ),
+    path("llms.txt", llms_txt_views.llms_txt_view, name="llms_txt"),
+    path("llms-full.txt", llms_txt_views.llms_full_txt_view, name="llms_full_txt"),
+    path(
+        ".well-known/agent-skills/index.json",
+        llms_txt_views.agent_skills_index_view,
+        name="agent_skills_index",
+    ),
+    path(
+        ".well-known/agent-skills/wagtail-guide-support/SKILL.md",
+        llms_txt_views.agent_skill_view,
+        name="agent_skill",
+    ),
+    path("", include("apps.mcp_server.urls")),
+]
+
+
+if settings.DEBUG:
+    from django.conf.urls.static import static
+    from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
+    # Serve static and media files from development server
+    urlpatterns += staticfiles_urlpatterns()
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+    urlpatterns += [
+        # Add a view for testing the 500 template
+        path(
+            "test500/",
+            TemplateView.as_view(template_name="500.html"),
+        ),
+    ]
+
+    # DEBUG shows Django's technical 404 page instead of the 404 handler, so
+    # render the handler directly. Language-prefixed like real 404s, so it gets
+    # the same locale and content negotiation, e.g. `Accept: text/markdown`.
+    # The rest of the URL is the missing page path, e.g.
+    # `/de/test404/some-english-only-page/` lists fallback pages.
+    urlpatterns += i18n_patterns(
+        re_path(r"^test404/(?P<path>.*)$", preview_page_not_found),
+    )
+
+urlpatterns += i18n_patterns(
+    path("search/", search_views.search, name="search"),
+    path("search_json/", search_views.search_json, name="search_json"),
+    path("jsi18n/", JavaScriptCatalog.as_view(), name="javascript-catalog"),
+    path("", include(wagtail_urls)),
+)
+
+
+handler404 = "apps.core.views.page_not_found"

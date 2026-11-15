@@ -1,0 +1,42 @@
+{
+  "target": {
+    "id": "docs-wagtail",
+    "url": "https://docs.wagtail.org/en/stable/",
+    "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/docs-wagtail/targets.json",
+    "original_sample_urls": [
+      "https://docs.wagtail.org/en/stable/",
+      "https://docs.wagtail.org/en/stable/getting_started/tutorial.html",
+      "https://docs.wagtail.org/en/stable/topics/images.html",
+      "https://docs.wagtail.org/en/stable/reference/pages/queryset_reference.html",
+      "https://docs.wagtail.org/en/stable/search.html?q=images",
+      "https://docs.wagtail.org/en/stable/advanced_topics/performance.html",
+      "https://docs.wagtail.org/en/stable/advanced_topics/sustainability_considerations.html",
+      "https://docs.wagtail.org/en/stable/contributing/documentation_guidelines.html",
+      "https://docs.wagtail.org/en/stable/releases/8.0.html"
+    ]
+  },
+  "command": [
+    "node",
+    "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+    "scan",
+    "https://docs.wagtail.org/en/stable/",
+    "--pages",
+    "1",
+    "--timeout",
+    "30000",
+    "--tasks",
+    "default",
+    "--agent",
+    "baseline",
+    "--out",
+    "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/docs-wagtail/baseline",
+    "--no-color",
+    "--verbose"
+  ],
+  "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+  "started_at": "2026-11-14T00:31:01.307074+00:00",
+  "timeout_seconds": 480,
+  "exit_code": 0,
+  "finished_at": "2026-11-14T00:31:20.166539+00:00",
+  "results_present": true
+}

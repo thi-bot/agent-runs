@@ -1,0 +1,111 @@
+
+AGENTIC WEB CHECK  v0.1.0 · methodology v1
+https://www.nhs.uk/
+Behavioural verification (3 tasks, baseline agent)
+
+Agent Readiness   85/100
+1 of 3 behavioural tasks did not pass (1 BLOCKED)
+
+PERCEPTION          100   9 pass · 0 warn · 0 fail · 9 of 9 checks scored
+NAVIGATION          100   6 pass · 0 warn · 0 fail · 6 of 7 checks scored
+INTERACTION          92   8 pass · 1 warn · 0 fail · 9 of 9 checks scored
+MACHINE INTERFACES   78   2 pass · 1 warn · 1 fail · 4 of 6 checks scored
+RELIABILITY          79   4 pass · 0 warn · 1 fail · 5 of 5 checks scored
+SAFETY              100   3 pass · 0 warn · 0 fail · 3 of 7 checks scored
+TASK SUCCESS         67   2 pass · 0 warn · 1 fail · 3 of 3 tasks scored
+
+32 passed  2 warnings  2 failures  7 not applicable/info
+
+FAIL
+  ✗ The DOM settles after load [dom-stability, reliability, weight 7]
+    Worst page: 0 late mutations, CLS 0.257.
+    · observed: 0 mutations in the 2 s after settle, CLS 0.257 · expected: < 50 mutations, CLS < 0.1
+  ✗ Structured data (JSON-LD) describes the page [structured-data, machine-interfaces, weight 3]
+    No JSON-LD found.
+    · observed: types: none · expected: Organization, WebSite, WebPage, Product, Offer, FAQPage
+
+WARNING
+  ! Controls are native or complete ARIA widgets [native-controls, interaction, weight 7]
+    1 custom ARIA widgets and 0 drag-only elements.
+    · role=listbox · observed: ARIA widget without native control · expected: native control or complete ARIA pattern
+  ! llms.txt is published and well-formed [llms-txt, machine-interfaces, weight 3]
+    No llms.txt published.
+    · observed: HTTP 404 · expected: markdown file with H1
+
+PASS
+  ✓ Page loads successfully [page-load] HTTP 200 in 1272 ms.
+  ✓ No bot challenge blocks automated browsers [challenge-or-bot-wall] No bot challenge detected.
+  ✓ Interactive controls have accessible names [control-accessible-name] 0 of 51 interactive controls (0%) have no accessible name.
+  ✓ Form fields have labels and names [form-fields-labelled] 1 form fields are labelled and named.
+  ✓ No overlay blocks the page at load [overlay-interference] No blocking overlays at load.
+  ✓ No hidden instructions aimed at AI agents [hidden-instructions] No instruction-like hidden text (6 hidden blocks inspected).
+  ✓ Clickable elements are real controls, not generic elements [fake-interactive-elements] All clickable elements expose a control role.
+  ✓ ARIA attributes and roles are valid [aria-validity] No ARIA validity violations.
+  ✓ Page regions are exposed as landmarks [landmarks] Main and navigation landmarks present.
+  ✓ Navigation links are named and resolvable [navigation-links-usable] 6 navigation links are named and resolvable.
+  ✓ robots.txt lets user-triggered agents fetch the page [robots-agent-access] User-triggered agents may fetch this page.
+  ✓ Content is available without executing JavaScript [server-rendered-content] 90% of rendered text is present without JavaScript.
+  ✓ Forms submit safely [forms-safe-transport] 1 forms submit to the same origin over HTTPS.
+  ✓ Network activity settles [network-settles] Network idle reached on all pages.
+  ✓ No runtime errors during load [console-errors] No runtime errors.
+  ✓ Control names are specific, not repeated or generic [ambiguous-control-names] Control names are specific.
+  ✓ Visible labels are part of accessible names [label-in-name] Visible labels match accessible names.
+  ✓ Pages have a descriptive title and a language [document-title-lang] Titles and language are set.
+  ✓ Headings form a usable outline [heading-structure] Heading outline is sound.
+  ✓ Images carry alternative text [image-alt] Images have alternative text.
+  ✓ Accessibility snapshot fits an agent context budget [snapshot-budget] Largest snapshot: 12,170 chars.
+  ✓ Menus do not depend on hover [hover-only-menus] No hover-only navigation detected.
+  ✓ Common destinations are discoverable from the start page [key-pages-discoverable] Found about, help, search; missing contact, privacy, terms.
+  ✓ A sitemap is published [sitemap] Sitemap found (declared in robots.txt).
+  ✓ Required fields are marked programmatically [required-fields-marked] Required fields are marked programmatically.
+  ✓ Controls are keyboard operable [keyboard-operability] No keyboard operability problems detected.
+  ✓ Controls are not confined to cross-origin iframes [cross-origin-iframe-controls] No controls confined to cross-origin iframes.
+  ✓ No controls hidden in closed shadow roots [closed-shadow-roots] No closed shadow roots.
+  ✓ The UI is not rendered only on canvas [canvas-only-ui] No canvas-only UI.
+  ✓ No secret-looking tokens in page source [exposed-secrets] No secret-looking tokens found.
+  ✓ Site search is exposed [search-available] Search exposed via search landmark/input.
+  ✓ Targets are large enough [target-size] Targets meet the minimum size.
+
+NOT APPLICABLE / INFO
+  · Inner pages expose breadcrumbs [breadcrumbs] No pages deeper than one level were scanned; breadcrumbs not expected.
+  · WebMCP tools are exposed [webmcp] No WebMCP tools detected.
+  · Agent manifests (agent-card, UCP, ARD) are published [agent-manifests] No agent manifests (optional).
+  · Consequential actions require confirmation [consequential-actions-guarded] No consequential actions found on the scanned pages.
+  · WebMCP tools declare safety annotations [webmcp-tool-annotations] No WebMCP tools.
+  · Authentication boundaries are clearly signalled [auth-boundary-signalled] No authentication forms on the scanned pages.
+  · Downloads and new windows are announced [download-and-popup-links] No download or new-window links.
+
+BEHAVIOURAL TESTS
+  Find the company's contact information (an email address or phone n…: BLOCKED (7 steps, 7.6 s)
+    captcha: g-recaptcha, recaptcha
+    1. click {"ref":"e49"} → clicked link "Care and support"
+    2. click {"ref":"f1e68"} → clicked link "Introduction to care and support"
+    3. click {"ref":"f2e112"} → clicked link "care and support you can get for free"
+    4. click {"ref":"f3e130"} → clicked link "care to support recovery after leaving hospital, or after a fall, injury or illness"
+    5. click {"ref":"f4e59"} → clicked link "Care after a hospital stay"
+    6. click {"ref":"f5e68"} → clicked link "Planning to leave hospital"
+    7. click {"ref":"f6e126"} → clicked link "Find out more about how to complain about NHS services on the NHS England website"
+  Find the page describing the privacy policy or terms of service.: PASS (2 steps, 2.5 s)
+    success criteria satisfied after 2 actions
+    1. click {"ref":"e258"} → clicked link "Our policies"
+    2. click {"ref":"f1e69"} → clicked link "Terms and conditions"
+  Find a page that explains what the company or product does (about, …: PASS (1 steps, 1.7 s)
+    success criteria satisfied after 1 actions
+    1. click {"ref":"e252"} → clicked link "About us"
+
+Suggested fixes
+  1. The DOM settles after load [dom-stability, weight 7]
+     Finish rendering before load, avoid late-inserted banners/ads, reserve space for async
+     content, stop polling updates when idle.
+  2. Structured data (JSON-LD) describes the page [structured-data, weight 3]
+     Add JSON-LD for Organization/WebSite on the home page and Product/Offer, FAQPage,
+     ContactPoint or BreadcrumbList on inner pages.
+  3. Controls are native or complete ARIA widgets [native-controls, weight 7]
+     Prefer native <select>, <input type="date|range|number">; when custom widgets are
+     unavoidable, implement the full ARIA pattern (roles, states such as
+     aria-valuenow/aria-expanded, keyboard support).
+  4. llms.txt is published and well-formed [llms-txt, weight 3]
+     Publish /llms.txt with an H1, a one-paragraph blockquote and H2 sections of markdown links
+     to the most useful pages.
+
+1 pages · 16.9 s · chromium 153.0.8010.12 · 2026-11-14T00:29:59.839Z

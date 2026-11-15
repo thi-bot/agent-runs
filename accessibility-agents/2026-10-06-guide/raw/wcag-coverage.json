@@ -1,0 +1,344 @@
+{
+  "target": "WCAG 2.2 Level AA",
+  "coverage_is_not_conformance": true,
+  "criteria_count": 55,
+  "scope": {
+    "content_paths": 149,
+    "successful_html_addresses": 153,
+    "html_error_addresses": 43,
+    "excluded_plaintext_resources": 1,
+    "dark_desktop_and_320px_mobile_addresses": 153
+  },
+  "criteria": [
+    {
+      "criterion": "1.1.1",
+      "name": "Non-text Content",
+      "status": "requires human verification",
+      "evidence": "425 image instances have alt attributes;32 empty alternatives require contextual equivalence review. No pixel-level inspection; see alt-text-headings notes."
+    },
+    {
+      "criterion": "1.2.1",
+      "name": "Audio-only and Video-only (Prerecorded)",
+      "status": "not applicable",
+      "evidence": "Final HTML inventory contains no audio/video/embed content; administrative screenshots are images."
+    },
+    {
+      "criterion": "1.2.2",
+      "name": "Captions (Prerecorded)",
+      "status": "not applicable",
+      "evidence": "No prerecorded synchronized media found."
+    },
+    {
+      "criterion": "1.2.3",
+      "name": "Audio Description or Media Alternative (Prerecorded)",
+      "status": "not applicable",
+      "evidence": "No prerecorded synchronized media found."
+    },
+    {
+      "criterion": "1.2.4",
+      "name": "Captions (Live)",
+      "status": "not applicable",
+      "evidence": "No live synchronized media found."
+    },
+    {
+      "criterion": "1.2.5",
+      "name": "Audio Description (Prerecorded)",
+      "status": "not applicable",
+      "evidence": "No prerecorded video found."
+    },
+    {
+      "criterion": "1.3.1",
+      "name": "Info and Relationships",
+      "status": "confirmed failure",
+      "evidence": "FORM-SEARCH-DUPLICATE-LABEL-TARGET; ARIA-NAV-CURRENT-001. Browser label associations and accessibility-tree properties verified."
+    },
+    {
+      "criterion": "1.3.2",
+      "name": "Meaningful Sequence",
+      "status": "no issue found in tested scope",
+      "evidence": "Source and rendered heading/main/list order reviewed across 149 content paths; no visual reorder defect identified. Native RTL screen-reader reading remains recommended."
+    },
+    {
+      "criterion": "1.3.3",
+      "name": "Sensory Characteristics",
+      "status": "no issue found in tested scope",
+      "evidence": "Source/content instructions and shared control text inspected; no instruction relying only on shape, position, colour or sound was established."
+    },
+    {
+      "criterion": "1.3.4",
+      "name": "Orientation",
+      "status": "requires human verification",
+      "evidence": "Narrow/wide viewport inspection completed; physical device rotation/orientation restrictions were not explicitly verified."
+    },
+    {
+      "criterion": "1.3.5",
+      "name": "Identify Input Purpose",
+      "status": "not applicable",
+      "evidence": "Public inputs are search queries and free-text feedback, not fields collecting enumerated personal-information purposes."
+    },
+    {
+      "criterion": "1.4.1",
+      "name": "Use of Color",
+      "status": "requires human verification",
+      "evidence": "Contrast and state styling reviewed; current navigation information is already captured under 1.3.1. Comprehensive independent colour-only content review remains required."
+    },
+    {
+      "criterion": "1.4.2",
+      "name": "Audio Control",
+      "status": "not applicable",
+      "evidence": "No automatically playing audio found."
+    },
+    {
+      "criterion": "1.4.3",
+      "name": "Contrast (Minimum)",
+      "status": "confirmed failure",
+      "evidence": "CONTRAST-001 and CONTRAST-002: measured light-theme version-badge/panel link contrast below 4.5:1; light/dark axe sweeps complete."
+    },
+    {
+      "criterion": "1.4.4",
+      "name": "Resize Text",
+      "status": "requires human verification",
+      "evidence": "Responsive viewport inspection is not actual 200% text-only enlargement/browser zoom; native zoom remains pending."
+    },
+    {
+      "criterion": "1.4.5",
+      "name": "Images of Text",
+      "status": "requires human verification",
+      "evidence": "Instructional CMS screenshots depict the interface under discussion; no nonessential images-of-text failure established, but pixel-level/content-equivalence review excluded."
+    },
+    {
+      "criterion": "1.4.10",
+      "name": "Reflow",
+      "status": "confirmed failure",
+      "evidence": "REFLOW-001: long unbreakable translated release heading causes horizontal scrolling at 320 CSSpx. See playwright-scanner responsive evidence."
+    },
+    {
+      "criterion": "1.4.11",
+      "name": "Non-text Contrast",
+      "status": "confirmed failure",
+      "evidence": "CONTRAST-003: theme switch boundary/thumb disappear in Chromium forced-colors emulation; native Windows High Contrast follow-up required."
+    },
+    {
+      "criterion": "1.4.12",
+      "name": "Text Spacing",
+      "status": "requires human verification",
+      "evidence": "Text-spacing override sweep completed on 153 successful HTML addresses. Overflow retained as supporting reflow evidence; clipping/content-loss interpretation and native browser confirmation remain required."
+    },
+    {
+      "criterion": "1.4.13",
+      "name": "Content on Hover or Focus",
+      "status": "confirmed failure",
+      "evidence": "TOOLTIP-FEEDBACK-NOT-HOVERABLE: pointer cannot move into feedback tooltip without its dismissal; runtime pointer sequence confirmed."
+    },
+    {
+      "criterion": "2.1.1",
+      "name": "Keyboard",
+      "status": "no issue found in tested scope",
+      "evidence": "Keyboard navigator exercised skip link, navigation, theme, copy/language dropdowns, search, contents links and feedback controls. No keyboard-inoperable control found in tested sequences."
+    },
+    {
+      "criterion": "2.1.2",
+      "name": "No Keyboard Trap",
+      "status": "no issue found in tested scope",
+      "evidence": "Native links and dropdowns remain escapable; search Escape exits and restores trigger. Mobile overlay obscures focus but does not create an inescapable keyboard trap."
+    },
+    {
+      "criterion": "2.1.4",
+      "name": "Character Key Shortcuts",
+      "status": "not applicable",
+      "evidence": "No global single-character guide-site shortcuts found; shortcuts described in documentation belong to the Wagtail admin, outside this website flow."
+    },
+    {
+      "criterion": "2.2.1",
+      "name": "Timing Adjustable",
+      "status": "not applicable",
+      "evidence": "No public task time limit found; debounce and result-animation delays do not impose a user completion deadline."
+    },
+    {
+      "criterion": "2.2.2",
+      "name": "Pause, Stop, Hide",
+      "status": "not applicable",
+      "evidence": "No identified automatically moving/blinking/scrolling content continuing beyond five seconds or recurring automatic updates requiring controls."
+    },
+    {
+      "criterion": "2.3.1",
+      "name": "Three Flashes or Below Threshold",
+      "status": "no issue found in tested scope",
+      "evidence": "Scoped source and interactive preference checks identified no flashing content; no flash-frequency measurement was necessary for identified content."
+    },
+    {
+      "criterion": "2.4.1",
+      "name": "Bypass Blocks",
+      "status": "no issue found in tested scope",
+      "evidence": "First Tab exposes skip link; activating it and pressing Tab proceeds to main-content link in Chromium."
+    },
+    {
+      "criterion": "2.4.2",
+      "name": "Page Titled",
+      "status": "no issue found in tested scope",
+      "evidence": "All 153 successful HTML URLs have descriptive topic titles; localized copies sharing a topic title are not automatically failures. Search/404 titles also identify purpose."
+    },
+    {
+      "criterion": "2.4.3",
+      "name": "Focus Order",
+      "status": "no issue found in tested scope",
+      "evidence": "Keyboard and mocked feedback sequences preserve useful next sequential destinations; removal temporarily puts activeElement onBODY but a separate order failure was not established."
+    },
+    {
+      "criterion": "2.4.4",
+      "name": "Link Purpose (In Context)",
+      "status": "no issue found in tested scope",
+      "evidence": "Final link inventory reviewed; contents/heading context supplies section-link purpose. Broken destinations are functional advisory findings, not automatic purpose failures."
+    },
+    {
+      "criterion": "2.4.5",
+      "name": "Multiple Ways",
+      "status": "no issue found in tested scope",
+      "evidence": "Public documentation is discoverable through shared navigation, section listings, search and article cross-links."
+    },
+    {
+      "criterion": "2.4.6",
+      "name": "Headings and Labels",
+      "status": "no issue found in tested scope",
+      "evidence": "Topics/headings and form/control names identify their purpose; skip levels or Happy/Unhappy wording were not automatically classified as AA failures."
+    },
+    {
+      "criterion": "2.4.7",
+      "name": "Focus Visible",
+      "status": "no issue found in tested scope",
+      "evidence": "Inspected keyboard targets receive 2 px solid focus outlines. Mobile focus obscuration is separately confirmed under 2.4.11."
+    },
+    {
+      "criterion": "2.4.11",
+      "name": "Focus Not Obscured (Minimum)",
+      "status": "confirmed failure",
+      "evidence": "KEYBOARD-MOBILE-OVERLAY-FOCUS: open mobile navigation completely covers focused background theme/copy/language controls."
+    },
+    {
+      "criterion": "2.5.1",
+      "name": "Pointer Gestures",
+      "status": "not applicable",
+      "evidence": "No multipoint/path-based gesture needed for guide-site tasks."
+    },
+    {
+      "criterion": "2.5.2",
+      "name": "Pointer Cancellation",
+      "status": "no issue found in tested scope",
+      "evidence": "Scoped source uses native click activation for links/buttons; no essential action triggered solely on pointerdown was found."
+    },
+    {
+      "criterion": "2.5.3",
+      "name": "Label in Name",
+      "status": "no issue found in tested scope",
+      "evidence": "Native text buttons/links derive names from labels; image-only feedback/search buttons have names. No definite visible-text/name mismatch identified."
+    },
+    {
+      "criterion": "2.5.4",
+      "name": "Motion Actuation",
+      "status": "not applicable",
+      "evidence": "No guide-site feature requires device or user motion."
+    },
+    {
+      "criterion": "2.5.7",
+      "name": "Dragging Movements",
+      "status": "not applicable",
+      "evidence": "No drag operation required in public guide controls; dragging instructions concern separate Wagtail admin functionality."
+    },
+    {
+      "criterion": "2.5.8",
+      "name": "Target Size (Minimum)",
+      "status": "requires human verification",
+      "evidence": "Full 320 px axe sweep found no target-size violation, but every target/spacing and exception was not manually measured; automated absence alone is insufficient."
+    },
+    {
+      "criterion": "3.1.1",
+      "name": "Language of Page",
+      "status": "confirmed failure",
+      "evidence": "LANG-SHARED-001: search and discovered 404 documents render empty lang because page locale is unavailable."
+    },
+    {
+      "criterion": "3.1.2",
+      "name": "Language of Parts",
+      "status": "confirmed failure",
+      "evidence": "LANG-UNTRANSLATED-PARTS-001: substantial English fallback paragraphs inherit French/Icelandic/Portuguese/Arabic document language without lang=en."
+    },
+    {
+      "criterion": "3.2.1",
+      "name": "On Focus",
+      "status": "no issue found in tested scope",
+      "evidence": "Inspected focus sequences do not navigate/submit/change context merely on focus."
+    },
+    {
+      "criterion": "3.2.2",
+      "name": "On Input",
+      "status": "no issue found in tested scope",
+      "evidence": "Typing search updates local results; submission uses Enter/button. Theme state changes do not navigate to another context."
+    },
+    {
+      "criterion": "3.2.3",
+      "name": "Consistent Navigation",
+      "status": "no issue found in tested scope",
+      "evidence": "Shared header/navigation source and cross-page inventory retain recurring navigation relative order within each locale."
+    },
+    {
+      "criterion": "3.2.4",
+      "name": "Consistent Identification",
+      "status": "no issue found in tested scope",
+      "evidence": "Recurring search, copy, theme and feedback functions use shared templates and naming within locales."
+    },
+    {
+      "criterion": "3.2.6",
+      "name": "Consistent Help",
+      "status": "no issue found in tested scope",
+      "evidence": "Shared footer help/improvement resources and feedback appear in consistent relative positions on applicable pages."
+    },
+    {
+      "criterion": "3.3.1",
+      "name": "Error Identification",
+      "status": "requires human verification",
+      "evidence": "Feedback success mocked safely; production validation/error responses not induced. JS console-only catches and unchecked HTTP response need failure-path verification."
+    },
+    {
+      "criterion": "3.3.2",
+      "name": "Labels or Instructions",
+      "status": "no issue found in tested scope",
+      "evidence": "Search/feedback expose purpose labels; no additional required-field instructions identified. Broken explicit label association is already reported under 1.3.1."
+    },
+    {
+      "criterion": "3.3.3",
+      "name": "Error Suggestion",
+      "status": "requires human verification",
+      "evidence": "Search/feedback error recovery and actionable suggestions need controlled failure-path tests; production failures were not deliberately induced."
+    },
+    {
+      "criterion": "3.3.4",
+      "name": "Error Prevention (Legal, Financial, Data)",
+      "status": "not applicable",
+      "evidence": "No legal/financial commitment, test submission or exposed deletion/modification of previously stored personal user data found in public flows."
+    },
+    {
+      "criterion": "3.3.7",
+      "name": "Redundant Entry",
+      "status": "not applicable",
+      "evidence": "No multistep process requiring repeat entry of previously supplied information identified."
+    },
+    {
+      "criterion": "3.3.8",
+      "name": "Accessible Authentication (Minimum)",
+      "status": "not applicable",
+      "evidence": "No public guide authentication flow included; admin authentication requires a separately scoped audit."
+    },
+    {
+      "criterion": "4.1.2",
+      "name": "Name, Role, Value",
+      "status": "confirmed failure",
+      "evidence": "MODAL-ACCESSIBLE-NAME; ARIA-THEME-STATE-001; ARIA-MOBILE-POPUP-001. DOM and Chromium accessibility-tree evidence support missing/misleading semantics."
+    },
+    {
+      "criterion": "4.1.3",
+      "name": "Status Messages",
+      "status": "confirmed failure",
+      "evidence": "LIVE-001, LIVE-002 and LIVE-003: search counts, clipboard options success and feedback acknowledgement lack status semantics; native spoken announcements remain untested."
+    }
+  ]
+}

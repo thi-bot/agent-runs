@@ -1,0 +1,38 @@
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +102
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 102, reused 64, downloaded 21, added 85
+Progress: resolved 102, reused 64, downloaded 29, added 92
+Progress: resolved 102, reused 64, downloaded 30, added 94
+Progress: resolved 102, reused 64, downloaded 32, added 96
+Progress: resolved 102, reused 64, downloaded 35, added 99
+Progress: resolved 102, reused 64, downloaded 36, added 99
+Progress: resolved 102, reused 64, downloaded 36, added 100
+Progress: resolved 102, reused 64, downloaded 37, added 100
+Progress: resolved 102, reused 64, downloaded 38, added 102, done
+
+dependencies:
++ @axe-core/playwright 4.13.0
++ axe-core 4.13.0
++ commander 15.0.0
++ picocolors 1.1.1
++ playwright 1.63.0
++ yaml 2.9.1
+
+devDependencies:
++ @biomejs/biome 2.5.15
++ @types/node 22.20.5
++ tsup 8.5.1
++ tsx 4.23.15
++ typescript 5.9.3
++ vitest 4.1.11
+
+╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: esbuild@0.27.7, esbuild@0.28.2.                     │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+Done in 10.6s using pnpm v10.34.6

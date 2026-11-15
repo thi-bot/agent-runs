@@ -1,0 +1,40 @@
+{
+  "target": {
+    "id": "draftjs-exporter",
+    "url": "https://wagtail.github.io/draftjs_exporter/",
+    "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/draftjs-exporter/targets.json",
+    "original_sample_urls": [
+      "https://wagtail.github.io/draftjs_exporter/",
+      "https://wagtail.github.io/draftjs_exporter/getting-started/",
+      "https://wagtail.github.io/draftjs_exporter/content-state/",
+      "https://wagtail.github.io/draftjs_exporter/reference/configuration/",
+      "https://wagtail.github.io/draftjs_exporter/reference/api/",
+      "https://wagtail.github.io/draftjs_exporter/guides/alternative-engines/",
+      "https://wagtail.github.io/draftjs_exporter/migration-guide/"
+    ]
+  },
+  "command": [
+    "node",
+    "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+    "scan",
+    "https://wagtail.github.io/draftjs_exporter/",
+    "--pages",
+    "1",
+    "--timeout",
+    "30000",
+    "--tasks",
+    "default",
+    "--agent",
+    "baseline",
+    "--out",
+    "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/draftjs-exporter/baseline",
+    "--no-color",
+    "--verbose"
+  ],
+  "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+  "started_at": "2026-11-14T00:31:09.258643+00:00",
+  "timeout_seconds": 480,
+  "exit_code": 0,
+  "finished_at": "2026-11-14T00:31:31.091555+00:00",
+  "results_present": true
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "url": "https://guide.wagtail.org/en/getting-started/overview/",
+    "theme": "light",
+    "badges": []
+  },
+  {
+    "url": "https://guide.wagtail.org/en/getting-started/overview/",
+    "theme": "dark",
+    "badges": []
+  },
+  {
+    "url": "https://guide.wagtail.org/en/getting-started/overview/",
+    "spacing": {
+      "width": 320,
+      "scroll": 320,
+      "off": []
+    }
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-pages/",
+    "theme": "light",
+    "badges": [
+      {
+        "text": "\n    \n        Added in Wagtail 7.3\n    \n",
+        "color": "rgb(0, 125, 126)",
+        "bg": "rgb(224, 239, 240)",
+        "size": "14.4px"
+      },
+      {
+        "text": "\n    \n        Added in Wagtail 6.4\n    \n",
+        "color": "rgb(0, 125, 126)",
+        "bg": "rgb(224, 239, 240)",
+        "size": "14.4px"
+      }
+    ]
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-pages/",
+    "theme": "dark",
+    "badges": [
+      {
+        "text": "\n    \n        Added in Wagtail 7.3\n    \n",
+        "color": "rgb(128, 215, 216)",
+        "bg": "rgba(128, 215, 216, 0.12)",
+        "size": "14.4px"
+      },
+      {
+        "text": "\n    \n        Added in Wagtail 6.4\n    \n",
+        "color": "rgb(128, 215, 216)",
+        "bg": "rgba(128, 215, 216, 0.12)",
+        "size": "14.4px"
+      }
+    ]
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-pages/",
+    "spacing": {
+      "width": 320,
+      "scroll": 320,
+      "off": []
+    }
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-pages/create-a-page/",
+    "theme": "light",
+    "badges": []
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-pages/create-a-page/",
+    "theme": "dark",
+    "badges": []
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-pages/create-a-page/",
+    "spacing": {
+      "width": 320,
+      "scroll": 320,
+      "off": []
+    }
+  },
+  {
+    "url": "https://guide.wagtail.org/en/reference/",
+    "theme": "light",
+    "badges": []
+  },
+  {
+    "url": "https://guide.wagtail.org/en/reference/",
+    "theme": "dark",
+    "badges": []
+  },
+  {
+    "url": "https://guide.wagtail.org/en/reference/",
+    "spacing": {
+      "width": 320,
+      "scroll": 320,
+      "off": []
+    }
+  },
+  {
+    "forced": {
+      "bg": "rgb(255, 255, 255)",
+      "before": "rgb(255, 255, 255)",
+      "after": "rgb(255, 255, 255)",
+      "border": "0px none rgb(0, 0, 0)",
+      "outline": "rgb(0, 0, 0) none 3px"
+    }
+  },
+  {
+    "reduced": "0.25s"
+  }
+]

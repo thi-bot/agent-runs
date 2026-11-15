@@ -1,0 +1,12 @@
+{
+  "url": "https://wagtail.org/",
+  "pageType": "homepage",
+  "timeout": 180,
+  "output": [
+    "terminal",
+    "html",
+    "json",
+    "md"
+  ],
+  "outputDir": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "fresh-wagtail",
+  "url": "https://wagtail.org/",
+  "command": [
+    "node",
+    "/home/thibaudcolas/dev/agent-lighthouse/packages/cli/dist/bin.js",
+    "https://wagtail.org/",
+    "--config",
+    "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/config.json",
+    "--trace",
+    "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/audit-trace.ndjson",
+    "--log-file",
+    "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/scan-log.jsonl",
+    "--progress-json"
+  ],
+  "cwd": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+  "started_at": "2026-11-14T00:29:53.923078+00:00",
+  "output_directory": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail",
+  "exit_code": 0,
+  "finished_at": "2026-11-14T00:30:16.317230+00:00",
+  "elapsed_seconds": 22.394,
+  "overall_score": 86,
+  "scan_validity": {
+    "judgeable": true,
+    "evidence": {
+      "origin-reachable": true,
+      "unblocked-fetches": true,
+      "rendered-body": true,
+      "sample-adequate": true
+    },
+    "reasons": {}
+  }
+}

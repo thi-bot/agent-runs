@@ -1,0 +1,105 @@
+
+AGENTIC WEB CHECK  v0.1.0 · methodology v1
+https://docs.wagtail.org/en/stable/
+Behavioural verification (3 tasks, baseline agent)
+
+Agent Readiness   97/100
+
+PERCEPTION           93   7 pass · 2 warn · 0 fail · 9 of 9 checks scored
+NAVIGATION           86   6 pass · 1 warn · 0 fail · 7 of 7 checks scored
+INTERACTION         100   9 pass · 0 warn · 0 fail · 9 of 9 checks scored
+MACHINE INTERFACES   85   3 pass · 0 warn · 1 fail · 4 of 6 checks scored
+RELIABILITY         100   5 pass · 0 warn · 0 fail · 5 of 5 checks scored
+SAFETY              100   3 pass · 0 warn · 0 fail · 3 of 7 checks scored
+TASK SUCCESS        100   3 pass · 0 warn · 0 fail · 3 of 3 tasks scored
+
+33 passed  3 warnings  1 failures  6 not applicable/info
+
+FAIL
+  ✗ Structured data (JSON-LD) describes the page [structured-data, machine-interfaces, weight 3]
+    No JSON-LD found.
+    · observed: types: none · expected: Organization, WebSite, WebPage, Product, Offer, FAQPage
+
+WARNING
+  ! Navigation links are named and resolvable [navigation-links-usable, navigation, weight 7]
+    1 of 20 navigation links are unnamed or have no real URL.
+    · link "Docs" [ref=e68] → # [cursor=pointer] · observed: href # · expected: named link with a real URL
+  ! Control names are specific, not repeated or generic [ambiguous-control-names, perception, weight 3]
+    0 generic names and 2 names reused for different destinations.
+    · link "packages" · observed: same name points to 2 different URLs · expected: distinct names for distinct destinations
+    · link "permissions" · observed: same name points to 2 different URLs · expected: distinct names for distinct destinations
+  ! Accessibility snapshot fits an agent context budget [snapshot-budget, perception, weight 3]
+    Largest snapshot: 71,976 chars.
+    · observed: 71976 chars, 840 nodes · expected: < 40,000 chars
+
+PASS
+  ✓ Page loads successfully [page-load] HTTP 200 in 1874 ms.
+  ✓ No bot challenge blocks automated browsers [challenge-or-bot-wall] No bot challenge detected.
+  ✓ Interactive controls have accessible names [control-accessible-name] 0 of 386 interactive controls (0%) have no accessible name.
+  ✓ Form fields have labels and names [form-fields-labelled] 1 form fields are labelled and named.
+  ✓ No overlay blocks the page at load [overlay-interference] No blocking overlays at load.
+  ✓ No hidden instructions aimed at AI agents [hidden-instructions] No instruction-like hidden text (200 hidden blocks inspected).
+  ✓ The DOM settles after load [dom-stability] Worst page: 0 late mutations, CLS 0.
+  ✓ Clickable elements are real controls, not generic elements [fake-interactive-elements] All clickable elements expose a control role.
+  ✓ ARIA attributes and roles are valid [aria-validity] No ARIA validity violations.
+  ✓ Page regions are exposed as landmarks [landmarks] Main and navigation landmarks present.
+  ✓ Controls are native or complete ARIA widgets [native-controls] No custom-only widgets detected.
+  ✓ robots.txt lets user-triggered agents fetch the page [robots-agent-access] User-triggered agents may fetch this page.
+  ✓ Content is available without executing JavaScript [server-rendered-content] 100% of rendered text is present without JavaScript.
+  ✓ Forms submit safely [forms-safe-transport] 1 forms submit to the same origin over HTTPS.
+  ✓ Network activity settles [network-settles] Network idle reached on all pages.
+  ✓ No runtime errors during load [console-errors] No runtime errors.
+  ✓ Visible labels are part of accessible names [label-in-name] Visible labels match accessible names.
+  ✓ Pages have a descriptive title and a language [document-title-lang] Titles and language are set.
+  ✓ Headings form a usable outline [heading-structure] Heading outline is sound.
+  ✓ Images carry alternative text [image-alt] Images have alternative text.
+  ✓ Menus do not depend on hover [hover-only-menus] No hover-only navigation detected.
+  ✓ Common destinations are discoverable from the start page [key-pages-discoverable] Found contact, about, help, search; missing privacy, terms.
+  ✓ A sitemap is published [sitemap] Sitemap found (declared in robots.txt).
+  ✓ Required fields are marked programmatically [required-fields-marked] Required fields are marked programmatically.
+  ✓ Controls are keyboard operable [keyboard-operability] No keyboard operability problems detected.
+  ✓ Controls are not confined to cross-origin iframes [cross-origin-iframe-controls] No controls confined to cross-origin iframes.
+  ✓ No controls hidden in closed shadow roots [closed-shadow-roots] No closed shadow roots.
+  ✓ The UI is not rendered only on canvas [canvas-only-ui] No canvas-only UI.
+  ✓ llms.txt is published and well-formed [llms-txt] llms.txt published with 404 links (agent usage not verified).
+  ✓ No secret-looking tokens in page source [exposed-secrets] No secret-looking tokens found.
+  ✓ Site search is exposed [search-available] Search exposed via search landmark/input, named search box.
+  ✓ Inner pages expose breadcrumbs [breadcrumbs] 1 of 1 inner pages have breadcrumbs.
+  ✓ Targets are large enough [target-size] Targets meet the minimum size.
+
+NOT APPLICABLE / INFO
+  · WebMCP tools are exposed [webmcp] No WebMCP tools detected.
+  · Agent manifests (agent-card, UCP, ARD) are published [agent-manifests] No agent manifests (optional).
+  · Consequential actions require confirmation [consequential-actions-guarded] No consequential actions found on the scanned pages.
+  · WebMCP tools declare safety annotations [webmcp-tool-annotations] No WebMCP tools.
+  · Authentication boundaries are clearly signalled [auth-boundary-signalled] No authentication forms on the scanned pages.
+  · Downloads and new windows are announced [download-and-popup-links] No download or new-window links.
+
+BEHAVIOURAL TESTS
+  Find the company's contact information (an email address or phone n…: PASS (1 steps, 2.6 s)
+    success criteria satisfied after 1 actions
+    1. click {"ref":"e173"} → clicked link "Create contact page"
+  Find the page describing the privacy policy or terms of service.: PASS (2 steps, 4.6 s)
+    success criteria satisfied after 2 actions
+    1. click {"ref":"e841"} → clicked link "Services"
+    2. click {"ref":"f1e378"} → clicked link "Privacy policy"
+  Find a page that explains what the company or product does (about, …: PASS (1 steps, 2.4 s)
+    success criteria satisfied after 1 actions
+    1. click {"ref":"e839"} → clicked link "About Wagtail"
+
+Suggested fixes
+  1. Structured data (JSON-LD) describes the page [structured-data, weight 3]
+     Add JSON-LD for Organization/WebSite on the home page and Product/Offer, FAQPage,
+     ContactPoint or BreadcrumbList on inner pages.
+  2. Navigation links are named and resolvable [navigation-links-usable, weight 7]
+     Use real URLs in href for navigation items; name every nav link; if JavaScript handles
+     navigation, keep a working href as fallback.
+  3. Control names are specific, not repeated or generic [ambiguous-control-names, weight 3]
+     Make link and button text describe the destination or action ("Read the return policy",
+     "Add Trail Bike to cart"). Avoid "Click here"/"Read more"; use aria-label to disambiguate
+     when visual text must stay short.
+  4. Accessibility snapshot fits an agent context budget [snapshot-budget, weight 3]
+     Reduce DOM size on key pages: paginate long lists, lazy-render off-screen sections, remove
+     duplicated hidden menus.
+
+1 pages · 17.9 s · chromium 153.0.8010.12 · 2026-11-14T00:31:20.073Z

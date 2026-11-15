@@ -1,0 +1,31 @@
+{
+  "url": "https://guide.wagtail.org/en/markdown/",
+  "final_url": "https://guide.wagtail.org/en/markdown/",
+  "status": 200,
+  "headers": {
+    "Date": "Sat, 14 Nov 2026 02:15:30 GMT",
+    "Content-Type": "text/markdown;charset=utf-8",
+    "Content-Length": "1538",
+    "Connection": "close",
+    "CF-Ray": "a5a282411a433efb-LHR",
+    "CF-Cache-Status": "HIT",
+    "Accept-Ranges": "bytes",
+    "Age": "6335",
+    "Content-Language": "en",
+    "Last-Modified": "Sat, 14 Nov 2026 00:29:55 GMT",
+    "Server": "cloudflare",
+    "Strict-Transport-Security": "max-age=15552000; includeSubDomains",
+    "Via": "2.0 heroku-router",
+    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'report-sample'; style-src 'self' 'report-sample'; img-src 'self' data: www.gravatar.com guide-media.wagtail.org; connect-src 'self' releases.wagtail.org; report-uri https://o4504043711037440.ingest.us.sentry.io/api/4504043711037440/security/?sentry_key=8660a4ef016e4bda918d7b1fe943daa3",
+    "cross-origin-opener-policy": "same-origin",
+    "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+    "permissions-policy": "accelerometer=(), ambient-light-sensor=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), interest-cohort=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()",
+    "referrer-policy": "same-origin",
+    "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=ok1zkGn%2FwnHrXJpoFO%2BzSNCWWLlKyHn7KEQv1E3yxcQ%3D\\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\\u0026ts=1794616195\"}],\"max_age\":3600}",
+    "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=ok1zkGn%2FwnHrXJpoFO%2BzSNCWWLlKyHn7KEQv1E3yxcQ%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1794616195\"",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-markdown-tokens": "382",
+    "Vary": "accept-encoding"
+  }
+}

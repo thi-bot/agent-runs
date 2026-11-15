@@ -1,0 +1,362 @@
+[
+  {
+    "target": {
+      "id": "tate",
+      "url": "https://www.tate.org.uk/",
+      "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/tate/targets.json",
+      "original_sample_urls": [
+        "https://www.tate.org.uk/",
+        "https://www.tate.org.uk/visit/tate-modern",
+        "https://www.tate.org.uk/whats-on",
+        "https://www.tate.org.uk/whats-on/tate-modern/julio-le-parc",
+        "https://www.tate.org.uk/art/stories",
+        "https://www.tate.org.uk/about-us/digital/green-website",
+        "https://www.tate.org.uk/about-us/policies-and-procedures/website-terms-use/cookie-policy"
+      ]
+    },
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+      "scan",
+      "https://www.tate.org.uk/",
+      "--pages",
+      "1",
+      "--timeout",
+      "30000",
+      "--tasks",
+      "default",
+      "--agent",
+      "baseline",
+      "--out",
+      "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/tate/baseline",
+      "--no-color",
+      "--verbose"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+    "started_at": "2026-11-14T00:29:42.045735+00:00",
+    "timeout_seconds": 480,
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:30:03.837548+00:00",
+    "results_present": true
+  },
+  {
+    "target": {
+      "id": "nhs",
+      "url": "https://www.nhs.uk/",
+      "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/nhs/targets.json",
+      "original_sample_urls": [
+        "https://www.nhs.uk/",
+        "https://www.nhs.uk/live-well/",
+        "https://www.nhs.uk/live-well/exercise/",
+        "https://www.nhs.uk/live-well/exercise/walking-for-health/",
+        "https://www.nhs.uk/live-well/exercise/strength-and-flex-exercise-plan-how-to-videos/",
+        "https://www.nhs.uk/our-policies/choose-your-cookie-settings/",
+        "https://www.nhs.uk/our-policies/content-policy/"
+      ]
+    },
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+      "scan",
+      "https://www.nhs.uk/",
+      "--pages",
+      "1",
+      "--timeout",
+      "30000",
+      "--tasks",
+      "default",
+      "--agent",
+      "baseline",
+      "--out",
+      "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/nhs/baseline",
+      "--no-color",
+      "--verbose"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+    "started_at": "2026-11-14T00:29:42.045872+00:00",
+    "timeout_seconds": 480,
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:30:00.038122+00:00",
+    "results_present": true
+  },
+  {
+    "target": {
+      "id": "google-blog",
+      "url": "https://blog.google/",
+      "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/google-blog/targets.json",
+      "original_sample_urls": [
+        "https://blog.google/",
+        "https://blog.google/company-news/outreach-and-initiatives/sustainability/",
+        "https://blog.google/company-news/outreach-and-initiatives/sustainability/google-stegra-green-steel/",
+        "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge-on-shelves-now/",
+        "https://blog.google/newsletter-subscribe/",
+        "https://blog.google/about/"
+      ]
+    },
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+      "scan",
+      "https://blog.google/",
+      "--pages",
+      "1",
+      "--timeout",
+      "30000",
+      "--tasks",
+      "default",
+      "--agent",
+      "baseline",
+      "--out",
+      "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/google-blog/baseline",
+      "--no-color",
+      "--verbose"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+    "started_at": "2026-11-14T00:30:00.038832+00:00",
+    "timeout_seconds": 480,
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:31:01.306544+00:00",
+    "results_present": true
+  },
+  {
+    "target": {
+      "id": "w3c",
+      "url": "https://www.w3.org/",
+      "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/w3c/targets.json",
+      "original_sample_urls": [
+        "https://www.w3.org/",
+        "https://www.w3.org/TR/",
+        "https://www.w3.org/TR/WCAG22/",
+        "https://www.w3.org/WAI/fundamentals/",
+        "https://www.w3.org/WAI/tutorials/images/",
+        "https://www.w3.org/mission/sustainability/",
+        "https://www.w3.org/contact/"
+      ]
+    },
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+      "scan",
+      "https://www.w3.org/",
+      "--pages",
+      "1",
+      "--timeout",
+      "30000",
+      "--tasks",
+      "default",
+      "--agent",
+      "baseline",
+      "--out",
+      "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/w3c/baseline",
+      "--no-color",
+      "--verbose"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+    "started_at": "2026-11-14T00:30:03.838762+00:00",
+    "timeout_seconds": 480,
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:30:20.938844+00:00",
+    "results_present": true
+  },
+  {
+    "target": {
+      "id": "lowtech",
+      "url": "https://solar.lowtechmagazine.com/",
+      "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/lowtech/targets.json",
+      "original_sample_urls": [
+        "https://solar.lowtechmagazine.com/",
+        "https://solar.lowtechmagazine.com/archives/",
+        "https://solar.lowtechmagazine.com/about/the-solar-website/",
+        "https://solar.lowtechmagazine.com/power/",
+        "https://solar.lowtechmagazine.com/offline-reading/",
+        "https://solar.lowtechmagazine.com/2025/10/how-to-build-a-solar-powered-electric-oven/",
+        "https://solar.lowtechmagazine.com/privacy/"
+      ]
+    },
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+      "scan",
+      "https://solar.lowtechmagazine.com/",
+      "--pages",
+      "1",
+      "--timeout",
+      "30000",
+      "--tasks",
+      "default",
+      "--agent",
+      "baseline",
+      "--out",
+      "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/lowtech/baseline",
+      "--no-color",
+      "--verbose"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+    "started_at": "2026-11-14T00:30:20.939557+00:00",
+    "timeout_seconds": 480,
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:30:36.959193+00:00",
+    "results_present": true
+  },
+  {
+    "target": {
+      "id": "fresh-guide",
+      "url": "https://guide.wagtail.org/en/",
+      "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/fresh-guide/targets.json",
+      "original_sample_urls": [
+        "https://guide.wagtail.org/en/",
+        "https://guide.wagtail.org/en/getting-started/overview/",
+        "https://guide.wagtail.org/en/how-to-guides/manage-images/",
+        "https://guide.wagtail.org/en/search/?query=images",
+        "https://guide.wagtail.org/en/releases/new-in-wagtail-8-1/",
+        "https://guide.wagtail.org/en/about/"
+      ]
+    },
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+      "scan",
+      "https://guide.wagtail.org/en/",
+      "--pages",
+      "1",
+      "--timeout",
+      "30000",
+      "--tasks",
+      "default",
+      "--agent",
+      "baseline",
+      "--out",
+      "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/fresh-guide/baseline",
+      "--no-color",
+      "--verbose"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+    "started_at": "2026-11-14T00:30:36.960173+00:00",
+    "timeout_seconds": 480,
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:30:49.021661+00:00",
+    "results_present": true
+  },
+  {
+    "target": {
+      "id": "fresh-wagtail",
+      "url": "https://wagtail.org/",
+      "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/fresh-wagtail/targets.json",
+      "original_sample_urls": [
+        "https://wagtail.org/",
+        "https://wagtail.org/features/",
+        "https://wagtail.org/blog/wagtail-8-1/",
+        "https://wagtail.org/search/?query=sustainability",
+        "https://wagtail.org/sustainability/",
+        "https://wagtail.org/privacy/",
+        "https://wagtail.org/contact/"
+      ]
+    },
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+      "scan",
+      "https://wagtail.org/",
+      "--pages",
+      "1",
+      "--timeout",
+      "30000",
+      "--tasks",
+      "default",
+      "--agent",
+      "baseline",
+      "--out",
+      "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/fresh-wagtail/baseline",
+      "--no-color",
+      "--verbose"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+    "started_at": "2026-11-14T00:30:49.022129+00:00",
+    "timeout_seconds": 480,
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:31:09.258155+00:00",
+    "results_present": true
+  },
+  {
+    "target": {
+      "id": "docs-wagtail",
+      "url": "https://docs.wagtail.org/en/stable/",
+      "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/docs-wagtail/targets.json",
+      "original_sample_urls": [
+        "https://docs.wagtail.org/en/stable/",
+        "https://docs.wagtail.org/en/stable/getting_started/tutorial.html",
+        "https://docs.wagtail.org/en/stable/topics/images.html",
+        "https://docs.wagtail.org/en/stable/reference/pages/queryset_reference.html",
+        "https://docs.wagtail.org/en/stable/search.html?q=images",
+        "https://docs.wagtail.org/en/stable/advanced_topics/performance.html",
+        "https://docs.wagtail.org/en/stable/advanced_topics/sustainability_considerations.html",
+        "https://docs.wagtail.org/en/stable/contributing/documentation_guidelines.html",
+        "https://docs.wagtail.org/en/stable/releases/8.0.html"
+      ]
+    },
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+      "scan",
+      "https://docs.wagtail.org/en/stable/",
+      "--pages",
+      "1",
+      "--timeout",
+      "30000",
+      "--tasks",
+      "default",
+      "--agent",
+      "baseline",
+      "--out",
+      "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/docs-wagtail/baseline",
+      "--no-color",
+      "--verbose"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+    "started_at": "2026-11-14T00:31:01.307074+00:00",
+    "timeout_seconds": 480,
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:31:20.166539+00:00",
+    "results_present": true
+  },
+  {
+    "target": {
+      "id": "draftjs-exporter",
+      "url": "https://wagtail.github.io/draftjs_exporter/",
+      "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/draftjs-exporter/targets.json",
+      "original_sample_urls": [
+        "https://wagtail.github.io/draftjs_exporter/",
+        "https://wagtail.github.io/draftjs_exporter/getting-started/",
+        "https://wagtail.github.io/draftjs_exporter/content-state/",
+        "https://wagtail.github.io/draftjs_exporter/reference/configuration/",
+        "https://wagtail.github.io/draftjs_exporter/reference/api/",
+        "https://wagtail.github.io/draftjs_exporter/guides/alternative-engines/",
+        "https://wagtail.github.io/draftjs_exporter/migration-guide/"
+      ]
+    },
+    "command": [
+      "node",
+      "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+      "scan",
+      "https://wagtail.github.io/draftjs_exporter/",
+      "--pages",
+      "1",
+      "--timeout",
+      "30000",
+      "--tasks",
+      "default",
+      "--agent",
+      "baseline",
+      "--out",
+      "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/draftjs-exporter/baseline",
+      "--no-color",
+      "--verbose"
+    ],
+    "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+    "started_at": "2026-11-14T00:31:09.258643+00:00",
+    "timeout_seconds": 480,
+    "exit_code": 0,
+    "finished_at": "2026-11-14T00:31:31.091555+00:00",
+    "results_present": true
+  }
+]

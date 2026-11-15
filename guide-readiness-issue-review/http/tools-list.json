@@ -1,0 +1,158 @@
+{
+  "status": 200,
+  "request": {
+    "jsonrpc": "2.0",
+    "id": "tools-list",
+    "method": "tools/list",
+    "params": {
+      "_meta": {
+        "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+        "io.modelcontextprotocol/clientInfo": {
+          "name": "guide-readiness-review",
+          "version": "1.0"
+        },
+        "io.modelcontextprotocol/clientCapabilities": {}
+      }
+    }
+  },
+  "request_headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json, text/event-stream",
+    "MCP-Protocol-Version": "2026-07-28",
+    "User-Agent": "GuideReadinessReview/1.0",
+    "MCP-Method": "tools/list"
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": "tools-list",
+    "result": {
+      "cacheScope": "public",
+      "resultType": "complete",
+      "tools": [
+        {
+          "annotations": {
+            "openWorldHint": false,
+            "readOnlyHint": true
+          },
+          "description": "Search the Wagtail user guide. Returns matching pages with title, description, URL and parent section. Use whole words, as search terms aren't matched by prefix.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "query": {
+                "maxLength": 200,
+                "minLength": 1,
+                "title": "Query",
+                "type": "string"
+              },
+              "limit": {
+                "default": 5,
+                "maximum": 20,
+                "minimum": 1,
+                "title": "Limit",
+                "type": "integer"
+              },
+              "locale": {
+                "anyOf": [
+                  {
+                    "maxLength": 10,
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Language code of the guide translation to use, such as 'en' or 'fr'. Defaults to English.",
+                "title": "Locale"
+              }
+            },
+            "required": [
+              "query"
+            ],
+            "title": "search_docsArguments"
+          },
+          "name": "search_docs",
+          "outputSchema": {
+            "$defs": {
+              "SearchResult": {
+                "properties": {
+                  "title": {
+                    "title": "Title",
+                    "type": "string"
+                  },
+                  "search_description": {
+                    "title": "Search Description",
+                    "type": "string"
+                  },
+                  "full_url": {
+                    "title": "Full Url",
+                    "type": "string"
+                  },
+                  "parent_section": {
+                    "title": "Parent Section",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "title",
+                  "search_description",
+                  "full_url",
+                  "parent_section"
+                ],
+                "title": "SearchResult",
+                "type": "object"
+              }
+            },
+            "properties": {
+              "result": {
+                "items": {
+                  "$ref": "#/$defs/SearchResult"
+                },
+                "title": "Result",
+                "type": "array"
+              }
+            },
+            "required": [
+              "result"
+            ],
+            "title": "search_docsOutput",
+            "type": "object"
+          }
+        },
+        {
+          "annotations": {
+            "openWorldHint": false,
+            "readOnlyHint": true
+          },
+          "description": "Fetch a page of the Wagtail user guide as Markdown, including its title, description and canonical URL.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "description": "URL or path of a guide page, such as a search_docs result.",
+                "maxLength": 500,
+                "minLength": 1,
+                "title": "Url",
+                "type": "string"
+              }
+            },
+            "required": [
+              "url"
+            ],
+            "title": "fetch_docs_pageArguments"
+          },
+          "name": "fetch_docs_page"
+        }
+      ],
+      "ttlMs": 3600000,
+      "_meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "wagtail-guide",
+          "title": "Wagtail Guide",
+          "version": "1.0.0",
+          "websiteUrl": "https://guide.wagtail.org/"
+        }
+      }
+    }
+  }
+}

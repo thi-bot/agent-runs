@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-14T02:16:59.436Z",
+  "page": "https://guide.wagtail.org/en/",
+  "mobileNavDisplay": "block",
+  "menuExpanded": "true",
+  "markdownLink": "/en/concepts/wagtail-api/markdown/",
+  "headAlternate": "https://guide.wagtail.org/en/markdown/",
+  "snapshot": "- text: Dark\n- button \"Toggle between dark and light theme\": Dark mode\n- text: Light\n- group \"Content copy tools\":\n  - button \"Copy page\"\n  - button \"Toggle options\" [expanded]\n  - list:\n    - listitem:\n      - button \"Copy Markdown link\"\n    - listitem:\n      - link \"View page Markdown\":\n        - /url: /en/concepts/wagtail-api/markdown/\n    - listitem:\n      - link \"View llms.txt\":\n        - /url: /llms.txt\n    - listitem:\n      - link \"View llms-full.txt\":\n        - /url: /llms-full.txt\n    - listitem:\n      - button \"Copy prompt\"\n- button \"English\""
+}

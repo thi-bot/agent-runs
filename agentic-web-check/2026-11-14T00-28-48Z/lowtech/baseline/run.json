@@ -1,0 +1,40 @@
+{
+  "target": {
+    "id": "lowtech",
+    "url": "https://solar.lowtechmagazine.com/",
+    "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/lowtech/targets.json",
+    "original_sample_urls": [
+      "https://solar.lowtechmagazine.com/",
+      "https://solar.lowtechmagazine.com/archives/",
+      "https://solar.lowtechmagazine.com/about/the-solar-website/",
+      "https://solar.lowtechmagazine.com/power/",
+      "https://solar.lowtechmagazine.com/offline-reading/",
+      "https://solar.lowtechmagazine.com/2025/10/how-to-build-a-solar-powered-electric-oven/",
+      "https://solar.lowtechmagazine.com/privacy/"
+    ]
+  },
+  "command": [
+    "node",
+    "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+    "scan",
+    "https://solar.lowtechmagazine.com/",
+    "--pages",
+    "1",
+    "--timeout",
+    "30000",
+    "--tasks",
+    "default",
+    "--agent",
+    "baseline",
+    "--out",
+    "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/lowtech/baseline",
+    "--no-color",
+    "--verbose"
+  ],
+  "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+  "started_at": "2026-11-14T00:30:20.939557+00:00",
+  "timeout_seconds": 480,
+  "exit_code": 0,
+  "finished_at": "2026-11-14T00:30:36.959193+00:00",
+  "results_present": true
+}

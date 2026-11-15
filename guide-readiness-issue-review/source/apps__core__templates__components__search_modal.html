@@ -1,0 +1,18 @@
+{% load manifest i18n %}
+
+<div class="search modal fade" id="search-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <form action="{% url 'search' %}" method="get" toolname="search" tooldescription="Search the Wagtail documentation site. Submits the query and returns the full search results page.">
+                <div class="search__container modal-body">
+                    <label for="search" class="u-sr-only">{% trans 'Search' %}</label>
+                    <input type="text" id="search" name="query" data-search-input placeholder="{% trans 'Search' %}…" class="search__input" toolparamdescription="Search query.">
+                </div>
+            </form>
+            <div class="autocomplete">
+                <div data-results-count-container></div>
+                <div class="autocomplete__container" data-results></div>
+            </div>
+        </div>
+    </div>
+</div>

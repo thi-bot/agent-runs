@@ -1,0 +1,126 @@
+{
+  "provenance": "Derived from this run's captured checks via pinned tool computeScores(checks, []); not a separate scan.",
+  "source": "results.json",
+  "overall": 85,
+  "dimensions": [
+    {
+      "dimension": "perception",
+      "label": "PERCEPTION",
+      "score": 96,
+      "weight": 20,
+      "checks": [
+        "control-accessible-name",
+        "fake-interactive-elements",
+        "aria-validity",
+        "ambiguous-control-names",
+        "label-in-name",
+        "document-title-lang",
+        "heading-structure",
+        "image-alt",
+        "snapshot-budget"
+      ],
+      "passed": 8,
+      "warned": 1,
+      "failed": 0
+    },
+    {
+      "dimension": "navigation",
+      "label": "NAVIGATION",
+      "score": 69,
+      "weight": 15,
+      "checks": [
+        "landmarks",
+        "navigation-links-usable",
+        "hover-only-menus",
+        "key-pages-discoverable",
+        "search-available",
+        "sitemap",
+        "breadcrumbs"
+      ],
+      "passed": 3,
+      "warned": 1,
+      "failed": 2
+    },
+    {
+      "dimension": "interaction",
+      "label": "INTERACTION",
+      "score": 77,
+      "weight": 20,
+      "checks": [
+        "form-fields-labelled",
+        "overlay-interference",
+        "native-controls",
+        "required-fields-marked",
+        "keyboard-operability",
+        "cross-origin-iframe-controls",
+        "closed-shadow-roots",
+        "canvas-only-ui",
+        "target-size"
+      ],
+      "passed": 8,
+      "warned": 0,
+      "failed": 1
+    },
+    {
+      "dimension": "machine-interfaces",
+      "label": "MACHINE INTERFACES",
+      "score": 78,
+      "weight": 10,
+      "checks": [
+        "robots-agent-access",
+        "server-rendered-content",
+        "structured-data",
+        "llms-txt",
+        "webmcp",
+        "agent-manifests"
+      ],
+      "passed": 2,
+      "warned": 1,
+      "failed": 1
+    },
+    {
+      "dimension": "reliability",
+      "label": "RELIABILITY",
+      "score": 100,
+      "weight": 15,
+      "checks": [
+        "page-load",
+        "challenge-or-bot-wall",
+        "dom-stability",
+        "network-settles",
+        "console-errors"
+      ],
+      "passed": 5,
+      "warned": 0,
+      "failed": 0
+    },
+    {
+      "dimension": "safety",
+      "label": "SAFETY",
+      "score": 86,
+      "weight": 20,
+      "checks": [
+        "hidden-instructions",
+        "consequential-actions-guarded",
+        "forms-safe-transport",
+        "webmcp-tool-annotations",
+        "auth-boundary-signalled",
+        "exposed-secrets",
+        "download-and-popup-links"
+      ],
+      "passed": 3,
+      "warned": 2,
+      "failed": 0
+    },
+    {
+      "dimension": "task-success",
+      "label": "TASK SUCCESS",
+      "score": null,
+      "weight": 30,
+      "checks": [],
+      "passed": 0,
+      "warned": 0,
+      "failed": 0
+    }
+  ]
+}

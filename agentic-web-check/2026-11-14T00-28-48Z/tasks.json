@@ -1,0 +1,130 @@
+[
+  {
+    "name": "contact",
+    "goal": "Find the company's contact information (an email address or phone number).",
+    "hints": [
+      "contact",
+      "contact us",
+      "get in touch",
+      "support"
+    ],
+    "safety": "read-only",
+    "max_steps": 12,
+    "success": [
+      {
+        "navigated": true
+      },
+      {
+        "any_of": [
+          {
+            "url": {
+              "regex": "(^|/)(contact|contact-us|contacto|contactos|support|kontakt)(/|\\.|$|\\?)"
+            }
+          },
+          {
+            "element": {
+              "role": "link",
+              "url": "mailto:"
+            }
+          },
+          {
+            "element": {
+              "role": "link",
+              "url": "tel:"
+            }
+          },
+          {
+            "element": {
+              "role": "heading",
+              "name": "contact"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "legal-policy",
+    "goal": "Find the page describing the privacy policy or terms of service.",
+    "hints": [
+      "privacy",
+      "privacy policy",
+      "terms",
+      "legal"
+    ],
+    "safety": "read-only",
+    "max_steps": 12,
+    "success": [
+      {
+        "navigated": true
+      },
+      {
+        "any_of": [
+          {
+            "url": {
+              "regex": "(^|/)(privacy|privacy-policy|terms|terms-of-service|terms-conditions|legal|privacidade|termos)(/|\\.|$|\\?)"
+            }
+          },
+          {
+            "element": {
+              "role": "heading",
+              "name": "privacy"
+            }
+          },
+          {
+            "element": {
+              "role": "heading",
+              "name": "terms"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "help-or-about",
+    "goal": "Find a page that explains what the company or product does (about, help or documentation).",
+    "hints": [
+      "about",
+      "about us",
+      "help",
+      "docs",
+      "documentation",
+      "faq"
+    ],
+    "safety": "read-only",
+    "max_steps": 12,
+    "success": [
+      {
+        "navigated": true
+      },
+      {
+        "any_of": [
+          {
+            "url": {
+              "regex": "(^|/)(about|about-us|help|docs|documentation|faq|support|sobre|ajuda)(/|\\.|$|\\?)"
+            }
+          },
+          {
+            "element": {
+              "role": "heading",
+              "name": "about"
+            }
+          },
+          {
+            "element": {
+              "role": "heading",
+              "name": "help"
+            }
+          },
+          {
+            "element": {
+              "role": "heading",
+              "name": "faq"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

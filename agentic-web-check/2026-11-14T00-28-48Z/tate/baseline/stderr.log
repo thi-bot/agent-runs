@@ -1,0 +1,8 @@
+› loading https://www.tate.org.uk/
+› loaded https://www.tate.org.uk/ (HTTP 200, 354 nodes)
+› probing robots.txt, sitemap, llms.txt, well-known manifests
+› running 43 checks
+› running 3 tasks with the baseline agent
+› task contact: BLOCKED (0 steps) captcha: g-recaptcha, recaptcha
+› task legal-policy: BLOCKED (0 steps) captcha: g-recaptcha, recaptcha
+› task help-or-about: BLOCKED (0 steps) captcha: g-recaptcha, recaptcha

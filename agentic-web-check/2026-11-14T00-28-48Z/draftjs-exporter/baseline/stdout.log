@@ -1,0 +1,131 @@
+
+AGENTIC WEB CHECK  v0.1.0 · methodology v1
+https://wagtail.github.io/draftjs_exporter/
+Behavioural verification (3 tasks, baseline agent)
+
+Agent Readiness   80/100
+1 of 3 behavioural tasks did not pass (1 FAIL)
+
+PERCEPTION           96   8 pass · 1 warn · 0 fail · 9 of 9 checks scored
+NAVIGATION           69   3 pass · 1 warn · 2 fail · 6 of 7 checks scored
+INTERACTION          77   8 pass · 0 warn · 1 fail · 9 of 9 checks scored
+MACHINE INTERFACES   78   2 pass · 1 warn · 1 fail · 4 of 6 checks scored
+RELIABILITY         100   5 pass · 0 warn · 0 fail · 5 of 5 checks scored
+SAFETY               86   3 pass · 2 warn · 0 fail · 5 of 7 checks scored
+TASK SUCCESS         67   2 pass · 0 warn · 1 fail · 3 of 3 tasks scored
+
+29 passed  5 warnings  4 failures  5 not applicable/info
+
+FAIL
+  ✗ Form fields have labels and names [form-fields-labelled, interaction, weight 10]
+    0 label violations and 6 unnamed fields (86%).
+    · observed: 6 fields outside any <form> without a name attribute · expected: fields inside a <form> with name attributes
+  ✗ Menus do not depend on hover [hover-only-menus, navigation, weight 3]
+    7 navigation links are only revealed on hover.
+    · observed: 7 nav links hidden until hover · expected: submenu behind a button with aria-expanded, or always rendered
+  ✗ A sitemap is published [sitemap, navigation, weight 3]
+    No sitemap.xml and no Sitemap directive in robots.txt.
+    · observed: HTTP 404 · expected: urlset/sitemapindex XML
+  ✗ Structured data (JSON-LD) describes the page [structured-data, machine-interfaces, weight 3]
+    No JSON-LD found.
+    · observed: types: none · expected: Organization, WebSite, WebPage, Product, Offer, FAQPage
+
+WARNING
+  ! Consequential actions require confirmation [consequential-actions-guarded, safety, weight 7]
+    1 of 1 consequential actions execute without a visible confirmation step.
+    · link "introductory blog post" → https://www.draftail.org/blog/2018/03/13/rethinking-rich-text-pipelines-with-draft-js · observed: immediate action without confirmation signal · expected: confirmation dialog or review ste
+  ! Control names are specific, not repeated or generic [ambiguous-control-names, perception, weight 3]
+    0 generic names and 2 names reused for different destinations.
+    · link "draft.js exporter" · observed: same name points to 2 different URLs · expected: distinct names for distinct destinations
+    · link "¶" · observed: same name points to 6 different URLs · expected: distinct names for distinct destinations
+  ! Common destinations are discoverable from the start page [key-pages-discoverable, navigation, weight 3]
+    Found help, search; missing contact, about, privacy, terms.
+    · observed: discoverable: help, search · expected: contact, help, privacy/terms, about, search
+  ! llms.txt is published and well-formed [llms-txt, machine-interfaces, weight 3]
+    No llms.txt published.
+    · observed: HTTP 404 · expected: markdown file with H1
+  ! Downloads and new windows are announced [download-and-popup-links, safety, weight 1]
+    1 of 1 download/new-window links are not announced.
+    · link "Material for MkDocs" → https://squidfunk.github.io/mkdocs-material/ · observed: opens new window without saying so · expected: name mentions download / new tab
+
+PASS
+  ✓ Page loads successfully [page-load] HTTP 200 in 1968 ms.
+  ✓ No bot challenge blocks automated browsers [challenge-or-bot-wall] No bot challenge detected.
+  ✓ Interactive controls have accessible names [control-accessible-name] 0 of 51 interactive controls (0%) have no accessible name.
+  ✓ No overlay blocks the page at load [overlay-interference] No blocking overlays at load.
+  ✓ No hidden instructions aimed at AI agents [hidden-instructions] No instruction-like hidden text (20 hidden blocks inspected).
+  ✓ The DOM settles after load [dom-stability] Worst page: 0 late mutations, CLS 0.
+  ✓ Clickable elements are real controls, not generic elements [fake-interactive-elements] All clickable elements expose a control role.
+  ✓ ARIA attributes and roles are valid [aria-validity] No ARIA validity violations.
+  ✓ Page regions are exposed as landmarks [landmarks] Main and navigation landmarks present.
+  ✓ Navigation links are named and resolvable [navigation-links-usable] 18 navigation links are named and resolvable.
+  ✓ Controls are native or complete ARIA widgets [native-controls] No custom-only widgets detected.
+  ✓ robots.txt lets user-triggered agents fetch the page [robots-agent-access] No robots.txt (everything allowed by default).
+  ✓ Content is available without executing JavaScript [server-rendered-content] 100% of rendered text is present without JavaScript.
+  ✓ Forms submit safely [forms-safe-transport] 1 forms submit to the same origin over HTTPS.
+  ✓ Network activity settles [network-settles] Network idle reached on all pages.
+  ✓ No runtime errors during load [console-errors] No runtime errors.
+  ✓ Visible labels are part of accessible names [label-in-name] Visible labels match accessible names.
+  ✓ Pages have a descriptive title and a language [document-title-lang] Titles and language are set.
+  ✓ Headings form a usable outline [heading-structure] Heading outline is sound.
+  ✓ Images carry alternative text [image-alt] Images have alternative text.
+  ✓ Accessibility snapshot fits an agent context budget [snapshot-budget] Largest snapshot: 13,054 chars.
+  ✓ Required fields are marked programmatically [required-fields-marked] Required fields are marked programmatically.
+  ✓ Controls are keyboard operable [keyboard-operability] No keyboard operability problems detected.
+  ✓ Controls are not confined to cross-origin iframes [cross-origin-iframe-controls] No controls confined to cross-origin iframes.
+  ✓ No controls hidden in closed shadow roots [closed-shadow-roots] No closed shadow roots.
+  ✓ The UI is not rendered only on canvas [canvas-only-ui] No canvas-only UI.
+  ✓ No secret-looking tokens in page source [exposed-secrets] No secret-looking tokens found.
+  ✓ Site search is exposed [search-available] Search exposed via search landmark/input, named search box.
+  ✓ Targets are large enough [target-size] Targets meet the minimum size.
+
+NOT APPLICABLE / INFO
+  · Inner pages expose breadcrumbs [breadcrumbs] No pages deeper than one level were scanned; breadcrumbs not expected.
+  · WebMCP tools are exposed [webmcp] No WebMCP tools detected.
+  · Agent manifests (agent-card, UCP, ARD) are published [agent-manifests] No agent manifests (optional).
+  · WebMCP tools declare safety annotations [webmcp-tool-annotations] No WebMCP tools.
+  · Authentication boundaries are clearly signalled [auth-boundary-signalled] No authentication forms on the scanned pages.
+
+BEHAVIOURAL TESTS
+  Find the company's contact information (an email address or phone n…: PASS (1 steps, 1.6 s)
+    success criteria satisfied after 1 actions
+    1. click {"ref":"e79"} → clicked link "Support"
+  Find the page describing the privacy policy or terms of service.: FAIL (5 steps, 11.0 s)
+    no control matched keywords [privacy, privacy policy, terms, legal, privacidade, policy, policies, conditions] on https://wagtail.github.io/draftjs_exporter/SECURITY/#security-policy
+    1. click {"ref":"e73"} → clicked link "Security policy"
+    2. click {"ref":"f1e111"} → clicked link "Denial of service"
+    3. click {"ref":"f1e2"} → error: locator.click: Timeout 8000ms exceeded.
+    4. click {"ref":"f1e122"} → clicked link "¶"
+    5. scroll {"direction":"down"} → scrolled down
+  Find a page that explains what the company or product does (about, …: PASS (2 steps, 2.8 s)
+    success criteria satisfied after 2 actions
+    1. click {"ref":"e200"} → clicked link "Material for MkDocs" (opened a new tab to https://squidfunk.github.io/mkdocs-material/
+    2. click {"ref":"e79"} → clicked link "Support"
+
+Suggested fixes
+  1. Form fields have labels and names [form-fields-labelled, weight 10]
+     Associate every input/select/textarea with a <label for>, give fields a name attribute,
+     and use autocomplete tokens for common data.
+  2. Menus do not depend on hover [hover-only-menus, weight 3]
+     Expose submenus through a <button aria-expanded> toggle, or render submenu links in the
+     page (footer sitemap) so they are reachable without hover.
+  3. A sitemap is published [sitemap, weight 3]
+     Publish /sitemap.xml and reference it with a Sitemap: line in robots.txt.
+  4. Structured data (JSON-LD) describes the page [structured-data, weight 3]
+     Add JSON-LD for Organization/WebSite on the home page and Product/Offer, FAQPage,
+     ContactPoint or BreadcrumbList on inner pages.
+  5. Consequential actions require confirmation [consequential-actions-guarded, weight 7]
+     Put consequential actions behind a confirmation dialog (aria-haspopup="dialog" + <dialog>)
+     or a review step; never auto-submit them.
+  6. Control names are specific, not repeated or generic [ambiguous-control-names, weight 3]
+     Make link and button text describe the destination or action ("Read the return policy",
+     "Add Trail Bike to cart"). Avoid "Click here"/"Read more"; use aria-label to disambiguate
+     when visual text must stay short.
+  7. Common destinations are discoverable from the start page [key-pages-discoverable, weight 3]
+     Link contact, help/FAQ, privacy/terms, and search from the header or footer with their
+     conventional names.
+  8. llms.txt is published and well-formed [llms-txt, weight 3]
+     Publish /llms.txt with an H1, a one-paragraph blockquote and H2 sections of markdown links
+     to the most useful pages.
+
+1 pages · 21.1 s · chromium 153.0.8010.12 · 2026-11-14T00:31:30.981Z

@@ -1,0 +1,46 @@
+Scope: all 8 workspace projects
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +562
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+   ╭──────────────────────────────────────────╮
+   │                                          │
+   │   Update available! 10.34.6 → 12.18.0.   │
+   │   Changelog: https://pnpm.io/v/12.18.0   │
+   │     To update, run: pnpm self-update     │
+   │                                          │
+   ╰──────────────────────────────────────────╯
+
+Progress: resolved 562, reused 24, downloaded 45, added 69
+Progress: resolved 562, reused 24, downloaded 131, added 154
+Progress: resolved 562, reused 24, downloaded 173, added 196
+Progress: resolved 562, reused 24, downloaded 230, added 254
+Progress: resolved 562, reused 24, downloaded 362, added 386
+Progress: resolved 562, reused 24, downloaded 411, added 433
+Progress: resolved 562, reused 24, downloaded 475, added 498
+Progress: resolved 562, reused 24, downloaded 526, added 550
+Progress: resolved 562, reused 24, downloaded 532, added 556
+Progress: resolved 562, reused 24, downloaded 534, added 558
+Progress: resolved 562, reused 24, downloaded 535, added 559
+Progress: resolved 562, reused 24, downloaded 537, added 561
+Progress: resolved 562, reused 24, downloaded 538, added 561
+Progress: resolved 562, reused 24, downloaded 538, added 562, done
+.../esbuild@0.28.2/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.28.2/node_modules/esbuild postinstall: Done
+
+devDependencies:
++ @arethetypeswrong/cli 0.18.5
++ @changesets/cli 3.0.3
++ @types/node 22.20.5
++ @vitest/coverage-v8 5.0.5
++ knip 6.43.0
++ oxlint 1.89.0
++ oxlint-tsgolint 7.0.2005
++ prettier 3.9.10
++ tsx 4.23.15
++ typescript 7.0.2
++ typescript-api <- typescript 6.0.3
++ vitest 5.0.5
+
+Done in 19.5s using pnpm v10.34.6

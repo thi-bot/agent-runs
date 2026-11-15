@@ -1,0 +1,10 @@
+id,url,overall_score,judgeable,pages_scanned,elapsed_seconds,exit_code,scored_pass,scored_warn,scored_fail,scored_na,audit_errors,budget_exhausted,requests_stopped,unscored_reason,report_html
+tate,https://www.tate.org.uk/,80,True,1,81.349,0,69,10,16,68,0,False,False,,/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/agent-lighthouse-report.html
+nhs,https://www.nhs.uk/,89,True,1,18.167,0,79,3,10,71,0,False,False,,/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/nhs/agent-lighthouse-report.html
+google-blog,https://blog.google/,84,True,1,41.587,0,76,5,17,65,0,False,False,,/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/google-blog/agent-lighthouse-report.html
+w3c,https://www.w3.org/,82,True,1,7.639,0,62,10,11,80,0,False,False,,/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/w3c/agent-lighthouse-report.html
+lowtech,https://solar.lowtechmagazine.com/,79,True,1,12.16,0,62,8,16,77,0,False,False,,/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/lowtech/agent-lighthouse-report.html
+fresh-guide,https://guide.wagtail.org/en/,85,True,1,20.395,0,85,4,15,59,0,False,False,,/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-guide/agent-lighthouse-report.html
+fresh-wagtail,https://wagtail.org/,86,True,1,22.394,0,81,6,12,64,0,False,False,,/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/agent-lighthouse-report.html
+docs-wagtail,https://docs.wagtail.org/en/stable/,81,True,1,27.952,0,74,4,17,68,0,False,False,,/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/docs-wagtail/agent-lighthouse-report.html
+draftjs-exporter,https://wagtail.github.io/draftjs_exporter/,79,True,1,12.715,0,61,8,13,81,0,False,False,,/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/draftjs-exporter/agent-lighthouse-report.html

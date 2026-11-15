@@ -1,0 +1,44 @@
+
+[1m[36m🗼 Agent Lighthouse[0m [90mv10.6.0[0m
+[90mThe Open-Source Lighthouse for the Agentic Web[0m
+
+Auditing [1mhttps://www.tate.org.uk/[0m ...
+
+[1m────────────────────────────────────────────────────────────────────────[0m
+[1mOVERALL AGENT READINESS:[0m [1m80/100[0m (PARTIALLY-READY)
+Target: https://www.tate.org.uk/ | Pages: 1 | Duration: 79.4s
+Conditions: Page: [1mhomepage[0m (declared) | Origin: [1mfresh[0m | Coverage: [1m81.8/132.2[0m mass (62%) | Unscored: [1m126[0m (58 advisory, 0 gated)
+[1m────────────────────────────────────────────────────────────────────────[0m
+
+Page scope
+Detected page types express uncertainty. Type-specific findings on detected pages are advisory.
+https://www.tate.org.uk/: homepage (declared, strong)
+  Signals: declared:homepage
+Fetch: https://www.tate.org.uk/ — read, HTTP 200; homepage (declared)
+0 additional advisory populations. Use --debug-audit <id> for URLs and findings.
+
+[1m📊 CATEGORIES:[0m
+
+  [1mAgentic Readiness[0m [90m—[0m 93/100
+    [32m•[0m Access & Crawl Control               : [32m 98/100[0m  [90m(26✓ 1! 0✗)[0m
+    [34m•[0m Machine Discovery                    : [34m 86/100[0m  [90m(8✓ 1! 1✗ 1 advisory)[0m
+    [90m•[0m Agent Interfaces                     : [90mnot assessed[0m  [90m(0✓ 0! 1✗ 1 advisory)[0m
+    [33m•[0m Agentic Commerce                     : [33m 50/100[0m  [90m(0✓ 2! 0✗)[0m
+
+  [1mAI Search Optimization[0m [90m—[0m 69/100
+    [34m•[0m Content Extraction                   : [34m 74/100[0m  [90m(10✓ 2! 5✗ 2 advisory)[0m
+    [33m•[0m Structured Data                      : [33m 50/100[0m  [90m(1✓ 1! 1✗)[0m
+    [33m•[0m Answer Readiness                     : [33m 69/100[0m  [90m(11✓ 0! 7✗ 7 advisory)[0m
+
+  [1mTechnical Foundation[0m [90m—[0m 73/100
+    [34m•[0m Agent Operability & Safety           : [34m 73/100[0m  [90m(22✓ 4! 6✗ 4 advisory)[0m
+
+[1mℹ  No AI vendor reads this:[0m
+    [33m![0m Meta author tag (no AI reader)
+      No AI vendor documents reading the meta author tag, and Google ignores meta tags it does not support, author among them. It does no harm. Instead: A visible byline and schema.org author markup on the article (structured-data/author-schema, answer-readiness/named-author).
+      [90mhttps://developers.google.com/search/docs/crawling-indexing/special-tags[0m
+
+  [90m• JSON Report:[0m    /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/agent-lighthouse-report.json
+  [90m• HTML Report:[0m    /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/agent-lighthouse-report.html
+  [90m• Markdown Report:[0m /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/agent-lighthouse-report.md
+  [90m• Audit trace:[0m    /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/audit-trace.ndjson

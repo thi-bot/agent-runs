@@ -1,0 +1,40 @@
+{
+  "target": {
+    "id": "w3c",
+    "url": "https://www.w3.org/",
+    "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/w3c/targets.json",
+    "original_sample_urls": [
+      "https://www.w3.org/",
+      "https://www.w3.org/TR/",
+      "https://www.w3.org/TR/WCAG22/",
+      "https://www.w3.org/WAI/fundamentals/",
+      "https://www.w3.org/WAI/tutorials/images/",
+      "https://www.w3.org/mission/sustainability/",
+      "https://www.w3.org/contact/"
+    ]
+  },
+  "command": [
+    "node",
+    "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+    "scan",
+    "https://www.w3.org/",
+    "--pages",
+    "1",
+    "--timeout",
+    "30000",
+    "--tasks",
+    "default",
+    "--agent",
+    "baseline",
+    "--out",
+    "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/w3c/baseline",
+    "--no-color",
+    "--verbose"
+  ],
+  "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+  "started_at": "2026-11-14T00:30:03.838762+00:00",
+  "timeout_seconds": 480,
+  "exit_code": 0,
+  "finished_at": "2026-11-14T00:30:20.938844+00:00",
+  "results_present": true
+}

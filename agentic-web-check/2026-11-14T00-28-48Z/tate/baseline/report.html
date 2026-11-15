@@ -1,0 +1,909 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="agentic-web-check 0.1.0">
+<title>Agentic Web Check report: https://www.tate.org.uk/</title>
+<style>
+:root{--bg:#fff;--fg:#1c1f23;--muted:#5f6670;--line:#dfe3e8;--panel:#f6f7f9;--link:#0b5fad;--green:#1f7a3d;--lime:#5f8f1f;--amber:#b36b00;--red:#b3261e;--grey:#6b7280;--on:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--fg:#e6e8eb;--muted:#9aa3ad;--line:#2f353c;--panel:#1d2126;--link:#6cb2ff;--green:#3fa964;--lime:#8fbf3a;--amber:#d99a2b;--red:#e5534b;--grey:#8a929b;--on:#0f1113}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:24px 16px 48px}
+a{color:var(--link)}
+code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.9em}
+pre{background:var(--panel);border:1px solid var(--line);padding:12px;overflow:auto;border-radius:4px}
+h1,h2,h3,h4{line-height:1.25;margin:0}
+h1{font-size:1.5rem;font-weight:600;word-break:break-all}
+h1 a{color:inherit;text-decoration:none}
+h2{font-size:1.15rem;font-weight:600;display:inline}
+h3{font-size:1.02rem;font-weight:600}
+h4{font-size:.85rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:16px 0 6px}
+.muted{color:var(--muted)}
+.head{border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:20px}
+.tool{margin:0 0 4px;font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+dl.meta{display:grid;grid-template-columns:max-content 1fr;gap:2px 16px;margin:12px 0 0;font-size:.9rem}
+dl.meta dt{color:var(--muted)}
+dl.meta dd,dl.kv dd{margin:0;overflow-wrap:anywhere}
+.score{display:grid;grid-template-columns:200px 1fr;gap:20px;align-items:start;margin-bottom:28px}
+.overall{border:2px solid var(--grey);border-radius:6px;padding:16px;text-align:center}
+.overall .label{margin:0;font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.overall .big{margin:4px 0 0;font-size:4rem;font-weight:700;line-height:1}
+.overall .denom{font-size:1.1rem;font-weight:400;color:var(--muted);margin-left:2px}
+.overall.b-green{border-color:var(--green);color:var(--green)}
+.overall.b-lime{border-color:var(--lime);color:var(--lime)}
+.overall.b-amber{border-color:var(--amber);color:var(--amber)}
+.overall.b-red{border-color:var(--red);color:var(--red)}
+.overall.na{color:var(--grey)}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{text-align:left;vertical-align:top;padding:5px 8px;border-bottom:1px solid var(--line)}
+th{font-weight:600;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+td.num,th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.dims th[scope=row]{color:var(--fg);text-transform:none;font-size:.88rem}
+.pill{display:inline-block;min-width:3em;text-align:center;padding:1px 8px;border-radius:999px;color:var(--on);font-weight:600}
+.pill.b-green{background:var(--green)}.pill.b-lime{background:var(--lime)}.pill.b-amber{background:var(--amber)}.pill.b-red{background:var(--red)}.pill.na{background:var(--grey)}
+.pass-c{color:var(--green)}.warn-c{color:var(--amber)}.fail-c{color:var(--red)}
+details.section{border-top:1px solid var(--line);padding:12px 0 8px}
+details.section>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:10px}
+details.section>summary::-webkit-details-marker{display:none}
+details.section>summary::before{content:"";width:0;height:0;border:6px solid transparent;border-left:9px solid var(--muted);display:inline-block;transition:transform .12s}
+details.section[open]>summary::before{transform:rotate(90deg)}
+.section-body{padding:12px 0 4px}
+.check,.task{border:1px solid var(--line);border-radius:6px;padding:12px 14px;margin:0 0 12px;background:var(--panel)}
+.check-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 12px}
+.ids{font-size:.82rem;color:var(--muted)}
+.badge{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.05em;padding:2px 8px;border-radius:3px;color:var(--on);background:var(--grey);align-self:center}
+.badge.pass{background:var(--green)}.badge.warn{background:var(--amber)}.badge.fail{background:var(--red)}
+.badge.na,.badge.info,.badge.inconclusive{background:var(--grey)}.badge.blocked{background:var(--amber)}
+.summary{margin:8px 0 6px;font-size:.98rem}
+.error{color:var(--red);margin:4px 0}
+.chips{margin:4px 0 8px;display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-block;font-size:.78rem;background:var(--bg);border:1px solid var(--line);border-radius:3px;padding:1px 7px}
+.chip b{font-weight:600;color:var(--muted)}
+dl.kv{display:grid;grid-template-columns:max-content 1fr;gap:3px 14px;margin:6px 0 8px;font-size:.9rem}
+dl.kv dt{color:var(--muted)}
+ul.refs{margin:0;padding-left:18px}
+.evidence,.assertions,.pages{margin-top:8px;background:var(--bg)}
+.evidence td,.assertions td,.pages td{overflow-wrap:anywhere;max-width:28em}
+td.ok{color:var(--green);white-space:nowrap}td.bad{color:var(--red);white-space:nowrap}
+ol.steps{margin:0;padding-left:26px}
+ol.steps li{margin:0 0 6px}
+.step{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline}
+.step-tool{font-weight:600}
+.step .args{color:var(--muted);overflow-wrap:anywhere}
+.flag{font-size:.8rem;font-weight:600}
+.step-result{font-size:.88rem;color:var(--muted);overflow-wrap:anywhere}
+ul.shots{margin:0;padding-left:18px;font-size:.9rem;overflow-wrap:anywhere}
+ol.fixes li{margin:0 0 10px}
+ul.weights{columns:2;margin:0 0 12px}
+.foot{border-top:1px solid var(--line);margin-top:24px;padding-top:12px;font-size:.9rem}
+.foot summary{cursor:pointer}
+@media (max-width:720px){.score{grid-template-columns:1fr}.overall{max-width:200px}ul.weights{columns:1}dl.meta,dl.kv{grid-template-columns:1fr}dl.meta dt,dl.kv dt{margin-top:4px}}
+@media print{body{font-size:11pt}.wrap{max-width:none;padding:0}.check,.task{break-inside:avoid;background:none}details.section>summary::before{display:none}a{color:inherit;text-decoration:none}.pill,.badge{-webkit-print-color-adjust:exact;print-color-adjust:exact}.overall .big{font-size:3rem}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="head">
+<p class="tool">Agentic Web Check</p>
+<h1><a href="https://www.tate.org.uk/">https://www.tate.org.uk/</a></h1>
+<dl class="meta">
+<dt>Mode</dt><dd>Behavioural verification (3 tasks, agent baseline)</dd>
+<dt>Scanned</dt><dd>2026-11-14 00:29:42 UTC (20.7 s)</dd>
+<dt>Tool version</dt><dd>0.1.0</dd>
+<dt>Methodology</dt><dd>v1</dd>
+<dt>Browser</dt><dd>chromium 153.0.8010.12</dd>
+<dt>Node</dt><dd>v26.8.1</dd>
+
+</dl>
+</header>
+<section class="score" aria-labelledby="overall">
+<div class="overall b-amber">
+<p class="label" id="overall">Overall</p>
+<p class="big">52<span class="denom">/100</span></p>
+</div>
+<table class="dims">
+<thead><tr><th>Dimension</th><th class="num">Score</th><th class="num">Weight</th><th class="num">Pass</th><th class="num">Warn</th><th class="num">Fail</th><th class="num" title="scored checks / checks in the dimension">Scored</th></tr></thead>
+<tbody><tr><th scope="row">PERCEPTION</th><td class="num"><span class="pill b-lime">77</span></td><td class="num">14</td><td class="num pass-c">5</td><td class="num warn-c">3</td><td class="num fail-c">1</td><td class="num muted">9/9</td></tr><tr><th scope="row">NAVIGATION</th><td class="num"><span class="pill b-lime">73</span></td><td class="num">10.5</td><td class="num pass-c">4</td><td class="num warn-c">1</td><td class="num fail-c">1</td><td class="num muted">6/7</td></tr><tr><th scope="row">INTERACTION</th><td class="num"><span class="pill b-amber">65</span></td><td class="num">14</td><td class="num pass-c">6</td><td class="num warn-c">2</td><td class="num fail-c">1</td><td class="num muted">9/9</td></tr><tr><th scope="row">MACHINE INTERFACES</th><td class="num"><span class="pill b-lime">78</span></td><td class="num">7</td><td class="num pass-c">2</td><td class="num warn-c">1</td><td class="num fail-c">1</td><td class="num muted">4/6</td></tr><tr><th scope="row">RELIABILITY</th><td class="num"><span class="pill b-amber">65</span></td><td class="num">10.5</td><td class="num pass-c">3</td><td class="num warn-c">1</td><td class="num fail-c">1</td><td class="num muted">5/5</td></tr><tr><th scope="row">SAFETY</th><td class="num"><span class="pill b-lime">87</span></td><td class="num">14</td><td class="num pass-c">3</td><td class="num warn-c">1</td><td class="num muted">0</td><td class="num muted">4/7</td></tr><tr><th scope="row">TASK SUCCESS</th><td class="num"><span class="pill b-red">0</span></td><td class="num">30</td><td class="num muted">0</td><td class="num muted">0</td><td class="num fail-c">3</td><td class="num muted">3/3</td></tr></tbody>
+</table>
+</section>
+<details class="section" id="failures" open>
+<summary><h2>Failures (5)</h2></summary>
+<div class="section-body"><article class="check" id="check-challenge-or-bot-wall">
+<header class="check-head">
+<span class="badge fail">FAIL</span>
+<h3>No bot challenge blocks automated browsers</h3>
+<span class="ids"><code>challenge-or-bot-wall</code> &middot; reliability &middot; weight 10</span>
+</header>
+<p class="summary">The browser hit a bot challenge or access denial.</p>
+
+<p class="chips"><span class="chip"><b>browserChallenge</b>: true</span><span class="chip"><b>fetchChallenge</b>: true</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Access errors, CAPTCHAs and loading failures are the largest failure class for agents on live sites (Online-Mind2Web: 51%). A challenge page is a hard stop for every agent.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 3.3.8 Accessible Authentication</li><li>Online-Mind2Web error analysis</li><li>Web Bot Auth drafts (research/02 §14)</li></ul></dd><dt>Remediation</dt><dd>Exempt well-behaved agents (honest UA, Web Bot Auth signatures) from challenges on public pages, or serve a machine-readable alternative.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>browser: g-recaptcha, recaptcha</td><td>page content</td><td></td></tr><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>plain fetch: g-recaptcha, recaptcha</td><td>same content as the browser</td><td>UA-parity probe with the tool&#39;s own user agent</td></tr></tbody></table>
+</article><article class="check" id="check-overlay-interference">
+<header class="check-head">
+<span class="badge fail">FAIL</span>
+<h3>No overlay blocks the page at load</h3>
+<span class="ids"><code>overlay-interference</code> &middot; interaction &middot; weight 10</span>
+</header>
+<p class="summary">1 overlays block the page without an accessible dismiss control.</p>
+
+<p class="chips"><span class="chip"><b>blocking</b>: 1</span><span class="chip"><b>dismissable</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Consent banners and modals intercept clicks; agents whose click lands on the overlay loop or fail. A dismiss control with a clear name is the minimum for recovery.</dd>
+<dt>References</dt><dd><ul class="refs"><li>agent-browser README: clicks fail under consent banners</li><li>BrowserArena / GUI-Robust: pop-up and cookie-consent anomalies</li></ul></dd><dt>Remediation</dt><dd>Avoid full-page overlays at load; if a consent dialog is required, make it a role=&quot;dialog&quot; with a clearly named Accept/Reject button and let the rest of the page work beneath it.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td>div#didomi-tate-overlay</td><td></td><td>overlay covering 100% of the viewport with no named dismiss control</td><td>named Accept/Close/Reject button</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-hover-only-menus">
+<header class="check-head">
+<span class="badge fail">FAIL</span>
+<h3>Menus do not depend on hover</h3>
+<span class="ids"><code>hover-only-menus</code> &middot; navigation &middot; weight 3</span>
+</header>
+<p class="summary">31 navigation links are only revealed on hover.</p>
+
+<p class="chips"><span class="chip"><b>hoverOnlyLinks</b>: 31</span><span class="chip"><b>hiddenButTogglable</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Hover-revealed submenus are absent from the accessibility snapshot until a pointer hovers; text-first agents never see them (INFERENCE heuristic: nav links in the DOM but not in the snapshot, with no toggle button).</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 1.4.13 Content on Hover or Focus</li><li>Agent tooling docs: hover-only menus listed as a failure mode</li></ul></dd><dt>Remediation</dt><dd>Expose submenus through a &lt;button aria-expanded&gt; toggle, or render submenu links in the page (footer sitemap) so they are reachable without hover.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>31 nav links hidden until hover</td><td>submenu behind a button with aria-expanded, or always rendered</td><td>Discover Art, Artists, Artworks, Stories</td></tr></tbody></table>
+</article><article class="check" id="check-label-in-name">
+<header class="check-head">
+<span class="badge fail">FAIL</span>
+<h3>Visible labels are part of accessible names</h3>
+<span class="ids"><code>label-in-name</code> &middot; perception &middot; weight 3</span>
+</header>
+<p class="summary">15 controls whose accessible name does not contain their visible label.</p>
+
+<p class="chips"><span class="chip"><b>mismatches</b>: 15</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Vision-based agents read the visible label and tree-based agents read the accessible name; when they differ, agents fail to agree on which control to use.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 2.5.3 Label in Name</li><li>axe-core label-content-name-mismatch</li></ul></dd><dt>Remediation</dt><dd>Ensure the accessible name (aria-label) contains the visible text of the control.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td>a[aria-label=&quot;Tate Britain&quot;]</td><td>&lt;a href=&quot;/visit/tate-britain&quot; aria-label=&quot;Tate Britain&quot; data-gtm-name=&quot;card_link_title&quot; data-gtm-destination=&quot;&quot;&gt;</td><td>label-content-name-mismatch</td><td>Elements must have their visible text as part of their accessible name</td><td>  Text inside the element is not included in the accessible name</td></tr><tr><td>https://www.tate.org.uk/</td><td>a[aria-label=&quot;Tate Modern&quot;]</td><td>&lt;a href=&quot;/visit/tate-modern&quot; aria-label=&quot;Tate Modern&quot; data-gtm-name=&quot;card_link_title&quot; data-gtm-destination=&quot;&quot;&gt;</td><td>label-content-name-mismatch</td><td>Elements must have their visible text as part of their accessible name</td><td>  Text inside the element is not included in the accessible name</td></tr><tr><td>https://www.tate.org.uk/</td><td>a[aria-label=&quot;Tate Liverpool + RIBA North&quot;]</td><td title="&lt;a href=&quot;/visit/tate-liverpool&quot; aria-label=&quot;Tate Liverpool + RIBA North&quot; data-gtm-name=&quot;card_link_title&quot; data-gtm-destination=&quot;&quot;&gt;">&lt;a href=&quot;/visit/tate-liverpool&quot; aria-label=&quot;Tate Liverpool + RIBA North&quot; data-gtm-name=&quot;card_link_title&quot; data-gtm-desti…</td><td>label-content-name-mismatch</td><td>Elements must have their visible text as part of their accessible name</td><td>  Text inside the element is not included in the accessible name</td></tr><tr><td>https://www.tate.org.uk/</td><td>a[aria-label=&quot;Tate St Ives&quot;]</td><td>&lt;a href=&quot;/visit/tate-st-ives&quot; aria-label=&quot;Tate St Ives&quot; data-gtm-name=&quot;card_link_title&quot; data-gtm-destination=&quot;&quot;&gt;</td><td>label-content-name-mismatch</td><td>Elements must have their visible text as part of their accessible name</td><td>  Text inside the element is not included in the accessible name</td></tr><tr><td>https://www.tate.org.uk/</td><td>a[aria-label=&quot;Julio Le Parc&quot;]</td><td title="&lt;a href=&quot;https://www.tate.org.uk/whats-on/tate-modern/julio-le-parc&quot; aria-label=&quot;Julio Le Parc&quot; data-gtm-name=&quot;card_link_title&quot; data-gtm-destination=&quot;&quot;&gt;">&lt;a href=&quot;https://www.tate.org.uk/whats-on/tate-modern/julio-le-parc&quot; aria-label=&quot;Julio Le Parc&quot; data-gtm-name=&quot;card_lin…</td><td>label-content-name-mismatch</td><td>Elements must have their visible text as part of their accessible name</td><td>  Text inside the element is not included in the accessible name</td></tr><tr><td>https://www.tate.org.uk/</td><td title=".card--event.card &gt; a[aria-label=&quot;Frida: The Making of an Icon&quot;][data-gtm-name=&quot;card_link_title&quot;][data-gtm-destination=&quot;&quot;]">.card--event.card &gt; a[aria-label=&quot;Frida: The Making of an Icon&quot;][data-gtm-name=&quot;card_link_title&quot;][data-gtm-destination=…</td><td title="&lt;a href=&quot;https://www.tate.org.uk/whats-on/tate-modern/frida-kahlo-the-making-of-an-icon&quot; aria-label=&quot;Frida: The Making of an Icon&quot; data-gtm-name=&quot;card_link_titl">&lt;a href=&quot;https://www.tate.org.uk/whats-on/tate-modern/frida-kahlo-the-making-of-an-icon&quot; aria-label=&quot;Frida: The Making …</td><td>label-content-name-mismatch</td><td>Elements must have their visible text as part of their accessible name</td><td>  Text inside the element is not included in the accessible name</td></tr><tr><td>https://www.tate.org.uk/</td><td>a[aria-label=&quot;Zineb Sedira&quot;]</td><td title="&lt;a href=&quot;https://www.tate.org.uk/whats-on/tate-britain/zineb-sedira&quot; aria-label=&quot;Zineb Sedira&quot; data-gtm-name=&quot;card_link_title&quot; data-gtm-destination=&quot;&quot;&gt;">&lt;a href=&quot;https://www.tate.org.uk/whats-on/tate-britain/zineb-sedira&quot; aria-label=&quot;Zineb Sedira&quot; data-gtm-name=&quot;card_link…</td><td>label-content-name-mismatch</td><td>Elements must have their visible text as part of their accessible name</td><td>  Text inside the element is not included in the accessible name</td></tr><tr><td>https://www.tate.org.uk/</td><td>a[aria-label=&quot;Ana Mendieta&quot;]</td><td title="&lt;a href=&quot;https://www.tate.org.uk/whats-on/tate-modern/ana-mendieta&quot; aria-label=&quot;Ana Mendieta&quot; data-gtm-name=&quot;card_link_title&quot; data-gtm-destination=&quot;&quot;&gt;">&lt;a href=&quot;https://www.tate.org.uk/whats-on/tate-modern/ana-mendieta&quot; aria-label=&quot;Ana Mendieta&quot; data-gtm-name=&quot;card_link_…</td><td>label-content-name-mismatch</td><td>Elements must have their visible text as part of their accessible name</td><td>  Text inside the element is not included in the accessible name</td></tr></tbody></table>
+</article><article class="check" id="check-structured-data">
+<header class="check-head">
+<span class="badge fail">FAIL</span>
+<h3>Structured data (JSON-LD) describes the page</h3>
+<span class="ids"><code>structured-data</code> &middot; machine-interfaces &middot; weight 3</span>
+</header>
+<p class="summary">No JSON-LD found.</p>
+
+<p class="chips"><span class="chip"><b>blocks</b>: 0</span><span class="chip"><b>invalid</b>: 0</span><span class="chip"><b>relevantTypes</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>schema.org JSON-LD gives fetch-based agents entities (organisation, products, offers, contact points, FAQs) without parsing the layout.</dd>
+<dt>References</dt><dd><ul class="refs"><li>schema.org</li><li>Google structured data guidelines</li></ul></dd><dt>Remediation</dt><dd>Add JSON-LD for Organization/WebSite on the home page and Product/Offer, FAQPage, ContactPoint or BreadcrumbList on inner pages.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td></td><td></td><td></td><td>types: none</td><td>Organization, WebSite, WebPage, Product, Offer, FAQPage</td><td></td></tr></tbody></table>
+</article></div>
+</details>
+<details class="section" id="warnings" open>
+<summary><h2>Warnings (9)</h2></summary>
+<div class="section-body"><article class="check" id="check-consequential-actions-guarded">
+<header class="check-head">
+<span class="badge warn">WARN</span>
+<h3>Consequential actions require confirmation</h3>
+<span class="ids"><code>consequential-actions-guarded</code> &middot; safety &middot; weight 7</span>
+</header>
+<p class="summary">1 of 1 consequential actions execute without a visible confirmation step.</p>
+
+<p class="chips"><span class="chip"><b>consequential</b>: 1</span><span class="chip"><b>unguarded</b>: 1</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Vendors converge on a taxonomy of actions that need human confirmation (purchase, pay, transfer, send, delete, cancel, grant). A site that executes them on a single click gives an agent no safe stopping point.</dd>
+<dt>References</dt><dd><ul class="refs"><li>OWASP LLM01 mitigation: human approval for high-risk operations</li><li>OpenAI Operator / Anthropic Claude for Chrome confirmation policies</li><li>WebMCP consequentialHint</li></ul></dd><dt>Remediation</dt><dd>Put consequential actions behind a confirmation dialog (aria-haspopup=&quot;dialog&quot; + &lt;dialog&gt;) or a review step; never auto-submit them.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td>div:nth-of-type(1) &gt; div &gt; div &gt; div:nth-of-type(1) &gt; div:nth-of-type(2) &gt; a:nth-of-type(1)</td><td>link &quot;book now&quot; → /whats-on/tate-modern/frida-kahlo-the-making-of-an-icon</td><td>immediate action without confirmation signal</td><td>confirmation dialog or review step</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-fake-interactive-elements">
+<header class="check-head">
+<span class="badge warn">WARN</span>
+<h3>Clickable elements are real controls, not generic elements</h3>
+<span class="ids"><code>fake-interactive-elements</code> &middot; perception &middot; weight 7</span>
+</header>
+<p class="summary">5 clickable elements without a control role (8% of clickables).</p>
+
+<p class="chips"><span class="chip"><b>semanticControls</b>: 60</span><span class="chip"><b>nonSemanticClickables</b>: 5</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>A div/span with a click handler appears in the accessibility tree as &quot;generic&quot; (at best with cursor=pointer). Tree-based agents list controls by role, so such elements are invisible or ambiguous to them.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 4.1.2</li><li>Playwright aria snapshot [cursor=pointer] marker</li><li>agent-browser interactive-role filter</li></ul></dd><dt>Remediation</dt><dd>Use &lt;button&gt; or &lt;a href&gt; for actions and navigation. If a custom element must stay, add role=&quot;button&quot;, tabindex=&quot;0&quot;, a name and keyboard handlers.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td>li#site-menu-item-3</td><td>&lt;li&gt; &quot;Art Discover Art Artists Artworks Stories Stories Watch, lis&quot;</td><td>click listener</td><td>semantic control</td><td></td></tr><tr><td>https://www.tate.org.uk/</td><td>li#site-menu-item-4</td><td>&lt;li&gt; &quot;Learn Schools Tate Kids Research Activities and workshops Ta&quot;</td><td>click listener</td><td>semantic control</td><td></td></tr><tr><td>https://www.tate.org.uk/</td><td>div#whats-on-across-tate &gt; div:nth-of-type(1) &gt; div &gt; div:nth-of-type(2) &gt; div</td><td>&lt;div&gt; &quot;Exhibitions Julio Le Parc: Light. Colour. Action. Discover s&quot;</td><td>click listener</td><td>semantic control</td><td></td></tr><tr><td>https://www.tate.org.uk/</td><td>div#shop &gt; div:nth-of-type(1) &gt; div &gt; div:nth-of-type(2) &gt; div</td><td>&lt;div&gt; &quot;Books Treat your bookshelf to titles on art, artists, cultur&quot;</td><td>click listener</td><td>semantic control</td><td></td></tr><tr><td>https://www.tate.org.uk/</td><td>div#explore-online &gt; div:nth-of-type(1) &gt; div &gt; div:nth-of-type(2) &gt; div</td><td>&lt;div&gt; &quot;Discover Art Explore highlights from our collection Search t&quot;</td><td>click listener</td><td>semantic control</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-native-controls">
+<header class="check-head">
+<span class="badge warn">WARN</span>
+<h3>Controls are native or complete ARIA widgets</h3>
+<span class="ids"><code>native-controls</code> &middot; interaction &middot; weight 7</span>
+</header>
+<p class="summary">2 custom ARIA widgets and 0 drag-only elements.</p>
+
+<p class="chips"><span class="chip"><b>customWidgets</b>: 2</span><span class="chip"><b>draggables</b>: 0</span><span class="chip"><b>interactive</b>: 60</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Custom sliders, date pickers, drag-and-drop and div-based dropdowns are the controls agents fail on most (WILBUR, WebGames); native inputs are operable through standard actions.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WAI-ARIA Authoring Practices</li><li>WebGames / WILBUR failure analyses: sliders, date pickers, drag-drop</li></ul></dd><dt>Remediation</dt><dd>Prefer native &lt;select&gt;, &lt;input type=&quot;date|range|number&quot;&gt;; when custom widgets are unavoidable, implement the full ARIA pattern (roles, states such as aria-valuenow/aria-expanded, keyboard support).</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td>div#site-menu__dropdown-nav--3</td><td>role=menu</td><td>ARIA widget without native control</td><td>native control or complete ARIA pattern</td><td></td></tr><tr><td>https://www.tate.org.uk/</td><td>div#site-menu__dropdown-nav--4</td><td>role=menu</td><td>ARIA widget without native control</td><td>native control or complete ARIA pattern</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-navigation-links-usable">
+<header class="check-head">
+<span class="badge warn">WARN</span>
+<h3>Navigation links are named and resolvable</h3>
+<span class="ids"><code>navigation-links-usable</code> &middot; navigation &middot; weight 7</span>
+</header>
+<p class="summary">2 of 23 navigation links are unnamed or have no real URL.</p>
+
+<p class="chips"><span class="chip"><b>navLinks</b>: 23</span><span class="chip"><b>bad</b>: 2</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Agents prefer navigating by following named links or by URL; nav links with href=&quot;#&quot; or javascript: cannot be followed by URL and unnamed ones cannot be chosen.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 2.4.4 Link Purpose</li><li>WebVoyager error analysis: navigation stuck 44%</li></ul></dd><dt>Remediation</dt><dd>Use real URLs in href for navigation items; name every nav link; if JavaScript handles navigation, keep a working href as fallback.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td>e32</td><td>link &quot;Art &quot; [ref=e32] → # [cursor=pointer]</td><td>href #</td><td>named link with a real URL</td><td></td></tr><tr><td>https://www.tate.org.uk/</td><td>e34</td><td>link &quot;Learn &quot; [ref=e34] → # [cursor=pointer]</td><td>href #</td><td>named link with a real URL</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-console-errors">
+<header class="check-head">
+<span class="badge warn">WARN</span>
+<h3>No runtime errors during load</h3>
+<span class="ids"><code>console-errors</code> &middot; reliability &middot; weight 3</span>
+</header>
+<p class="summary">1 runtime errors or failed scripts.</p>
+
+<p class="chips"><span class="chip"><b>errors</b>: 1</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Uncaught exceptions and failed script loads correlate with controls that do nothing when activated (INFERENCE).</dd>
+<dt>References</dt><dd><ul class="refs"><li>Lighthouse errors-in-console</li></ul></dd><dt>Remediation</dt><dd>Fix uncaught exceptions and failed script requests reported during load.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>requestStorageAccess: Permission denied.</td><td>no uncaught errors</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-document-title-lang">
+<header class="check-head">
+<span class="badge warn">WARN</span>
+<h3>Pages have a descriptive title and a language</h3>
+<span class="ids"><code>document-title-lang</code> &middot; perception &middot; weight 3</span>
+</header>
+<p class="summary">1 title/language problems across 1 pages.</p>
+
+<p class="chips"><span class="chip"><b>problems</b>: 1</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Agents use the title to confirm navigation succeeded and the language to interpret content; generic titles (&quot;Home&quot;) make URL/title-based verification unreliable.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 2.4.2 Page Titled</li><li>WCAG 2.2 SC 3.1.1 Language of Page</li><li>Lighthouse document-title, html-has-lang</li></ul></dd><dt>Remediation</dt><dd>Set a unique, descriptive &lt;title&gt; per page (&quot;Return policy – Northwind Bikes&quot;) and &lt;html lang=&quot;…&quot;&gt;.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>title &quot;Tate&quot;</td><td>descriptive, page-specific title</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-heading-structure">
+<header class="check-head">
+<span class="badge warn">WARN</span>
+<h3>Headings form a usable outline</h3>
+<span class="ids"><code>heading-structure</code> &middot; perception &middot; weight 3</span>
+</header>
+<p class="summary">1 heading problems across 1 pages.</p>
+
+<p class="chips"><span class="chip"><b>problems</b>: 1</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Agents and screen readers navigate by headings; a missing h1 or skipped levels hide the page structure.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 2.4.6 Headings and Labels</li><li>WCAG 2.2 SC 1.3.1</li><li>axe-core page-has-heading-one, heading-order, empty-heading</li></ul></dd><dt>Remediation</dt><dd>One h1 per page naming the page; nest h2/h3 without skipping levels; no empty headings.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td>h5 &quot;Stories&quot;</td><td>skips from h2 to h5</td><td>no skipped heading levels</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-keyboard-operability">
+<header class="check-head">
+<span class="badge warn">WARN</span>
+<h3>Controls are keyboard operable</h3>
+<span class="ids"><code>keyboard-operability</code> &middot; interaction &middot; weight 3</span>
+</header>
+<p class="summary">2 keyboard operability problems.</p>
+
+<p class="chips"><span class="chip"><b>problems</b>: 2</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Agents press keys to submit forms and operate menus; positive tabindex and unfocusable controls break that sequence.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 2.1.1 Keyboard</li><li>Lighthouse tabindex</li></ul></dd><dt>Remediation</dt><dd>Remove positive tabindex values; make custom controls focusable with tabindex=&quot;0&quot; and handle Enter/Space.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>1 elements with positive tabindex</td><td>tabindex 0 or -1 only</td><td></td></tr><tr><td>https://www.tate.org.uk/</td><td>.skip-to-content__link</td><td>&lt;a href=&quot;#content&quot; class=&quot;skip-to-content__link&quot; title=&quot;Skip to main content&quot; tabindex=&quot;1&quot;&gt;Skip navigation&lt;/a&gt;</td><td>tabindex</td><td>Elements should not have tabindex greater than zero</td><td>  Element has a tabindex greater than 0</td></tr></tbody></table>
+</article><article class="check" id="check-llms-txt">
+<header class="check-head">
+<span class="badge warn">WARN</span>
+<h3>llms.txt is published and well-formed</h3>
+<span class="ids"><code>llms-txt</code> &middot; machine-interfaces &middot; weight 3</span>
+</header>
+<p class="summary">No llms.txt published.</p>
+
+<p class="chips"><span class="chip"><b>present</b>: false</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>llms.txt is a proposed index of a site for language models. Publication is cheap and checked by Lighthouse; actual consumption by agents is UNVERIFIED (Ahrefs: 97% of files get no requests), hence the low weight.</dd>
+<dt>References</dt><dd><ul class="refs"><li>llmstxt.org specification</li><li>Lighthouse llms-txt audit</li><li>research/02 §10 adoption evidence</li></ul></dd><dt>Remediation</dt><dd>Publish /llms.txt with an H1, a one-paragraph blockquote and H2 sections of markdown links to the most useful pages.</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/llms.txt</td><td></td><td></td><td>HTTP 404</td><td>markdown file with H1</td><td></td></tr></tbody></table>
+</article></div>
+</details>
+<details class="section" id="tasks" open>
+<summary><h2>Behavioural tests (3)</h2></summary>
+<div class="section-body"><article class="task" id="task-contact">
+<header class="check-head">
+<span class="badge blocked">BLOCKED</span>
+<h3>contact</h3>
+<span class="ids">baseline &middot; read-only &middot; 3.4 s</span>
+</header>
+<p class="summary">Find the company&#39;s contact information (an email address or phone number).</p>
+<dl class="kv">
+<dt>Verdict</dt><dd>BLOCKED: captcha: g-recaptcha, recaptcha</dd>
+<dt>Route</dt><dd>https://www.tate.org.uk/ → https://www.tate.org.uk/ (Tate)</dd>
+<dt>Blocker</dt><dd>captcha</dd>
+
+</dl>
+<h4>Steps (0)</h4>
+<p class="muted">No actions were needed.</p>
+<h4>Assertions</h4><table class="assertions"><thead><tr><th>Assertion</th><th>Holds</th><th>Observed</th></tr></thead><tbody><tr><td><code>{&quot;navigated&quot;:true}</code></td><td class="bad">&#10007; no</td><td>still on start URL https://www.tate.org.uk/</td></tr><tr><td title="{&quot;any_of&quot;:[{&quot;url&quot;:{&quot;regex&quot;:&quot;(^|/)(contact|contact-us|contacto|contactos|support|kontakt)(/|\\.|$|\\?)&quot;}},{&quot;element&quot;:{&quot;role&quot;:&quot;link&quot;,&quot;url&quot;:&quot;mailto:&quot;}},{&quot;element&quot;:{&quot;role&quot;:&quot;link&quot;,&quot;url&quot;:&quot;tel:&quot;}},{&quot;element&quot;:{&quot;role&quot;:&quot;heading&quot;,&quot;name&quot;:&quot;contact&quot;}}]}"><code>{&quot;any_of&quot;:[{&quot;url&quot;:{&quot;regex&quot;:&quot;(^|/)(contact|contact-us|contacto|contactos|support|kontakt)(/|\\.|$|\\?)&quot;}},{&quot;element&quot;:{&quot;role&quot;:&quot;link&quot;,&quot;url&quot;:&quot;mailto:&quot;}},{&quot;element&quot;…</code></td><td class="bad">&#10007; no</td><td>url=https://www.tate.org.uk/ | no link | no link | no heading named &quot;contact&quot;</td></tr></tbody></table>
+<h4>Screenshots</h4><ul class="shots"><li>start: <a href="screenshots/contact-start.png">screenshots/contact-start.png</a></li><li>failure: <a href="screenshots/contact-failure.png">screenshots/contact-failure.png</a></li></ul>
+</article><article class="task" id="task-legal-policy">
+<header class="check-head">
+<span class="badge blocked">BLOCKED</span>
+<h3>legal-policy</h3>
+<span class="ids">baseline &middot; read-only &middot; 3.0 s</span>
+</header>
+<p class="summary">Find the page describing the privacy policy or terms of service.</p>
+<dl class="kv">
+<dt>Verdict</dt><dd>BLOCKED: captcha: g-recaptcha, recaptcha</dd>
+<dt>Route</dt><dd>https://www.tate.org.uk/ → https://www.tate.org.uk/ (Tate)</dd>
+<dt>Blocker</dt><dd>captcha</dd>
+
+</dl>
+<h4>Steps (0)</h4>
+<p class="muted">No actions were needed.</p>
+<h4>Assertions</h4><table class="assertions"><thead><tr><th>Assertion</th><th>Holds</th><th>Observed</th></tr></thead><tbody><tr><td><code>{&quot;navigated&quot;:true}</code></td><td class="bad">&#10007; no</td><td>still on start URL https://www.tate.org.uk/</td></tr><tr><td title="{&quot;any_of&quot;:[{&quot;url&quot;:{&quot;regex&quot;:&quot;(^|/)(privacy|privacy-policy|terms|terms-of-service|terms-conditions|legal|privacidade|termos)(/|\\.|$|\\?)&quot;}},{&quot;element&quot;:{&quot;role&quot;:&quot;heading&quot;,&quot;name&quot;:&quot;privacy&quot;}},{&quot;element&quot;:{&quot;role&quot;:&quot;heading&quot;,&quot;name&quot;:&quot;terms&quot;}}]}"><code>{&quot;any_of&quot;:[{&quot;url&quot;:{&quot;regex&quot;:&quot;(^|/)(privacy|privacy-policy|terms|terms-of-service|terms-conditions|legal|privacidade|termos)(/|\\.|$|\\?)&quot;}},{&quot;element&quot;:{&quot;role&quot;:&quot;…</code></td><td class="bad">&#10007; no</td><td>url=https://www.tate.org.uk/ | no heading named &quot;privacy&quot; | no heading named &quot;terms&quot;</td></tr></tbody></table>
+<h4>Screenshots</h4><ul class="shots"><li>start: <a href="screenshots/legal-policy-start.png">screenshots/legal-policy-start.png</a></li><li>failure: <a href="screenshots/legal-policy-failure.png">screenshots/legal-policy-failure.png</a></li></ul>
+</article><article class="task" id="task-help-or-about">
+<header class="check-head">
+<span class="badge blocked">BLOCKED</span>
+<h3>help-or-about</h3>
+<span class="ids">baseline &middot; read-only &middot; 4.0 s</span>
+</header>
+<p class="summary">Find a page that explains what the company or product does (about, help or documentation).</p>
+<dl class="kv">
+<dt>Verdict</dt><dd>BLOCKED: captcha: g-recaptcha, recaptcha</dd>
+<dt>Route</dt><dd>https://www.tate.org.uk/ → https://www.tate.org.uk/ (Tate)</dd>
+<dt>Blocker</dt><dd>captcha</dd>
+
+</dl>
+<h4>Steps (0)</h4>
+<p class="muted">No actions were needed.</p>
+<h4>Assertions</h4><table class="assertions"><thead><tr><th>Assertion</th><th>Holds</th><th>Observed</th></tr></thead><tbody><tr><td><code>{&quot;navigated&quot;:true}</code></td><td class="bad">&#10007; no</td><td>still on start URL https://www.tate.org.uk/</td></tr><tr><td title="{&quot;any_of&quot;:[{&quot;url&quot;:{&quot;regex&quot;:&quot;(^|/)(about|about-us|help|docs|documentation|faq|support|sobre|ajuda)(/|\\.|$|\\?)&quot;}},{&quot;element&quot;:{&quot;role&quot;:&quot;heading&quot;,&quot;name&quot;:&quot;about&quot;}},{&quot;element&quot;:{&quot;role&quot;:&quot;heading&quot;,&quot;name&quot;:&quot;help&quot;}},{&quot;element&quot;:{&quot;role&quot;:&quot;heading&quot;,&quot;name&quot;:&quot;faq&quot;}}]}"><code>{&quot;any_of&quot;:[{&quot;url&quot;:{&quot;regex&quot;:&quot;(^|/)(about|about-us|help|docs|documentation|faq|support|sobre|ajuda)(/|\\.|$|\\?)&quot;}},{&quot;element&quot;:{&quot;role&quot;:&quot;heading&quot;,&quot;name&quot;:&quot;about&quot;}}…</code></td><td class="ok">&#10003; yes</td><td>url=https://www.tate.org.uk/ | 1 matching heading | no heading named &quot;help&quot; | no heading named &quot;faq&quot;</td></tr></tbody></table>
+<h4>Screenshots</h4><ul class="shots"><li>start: <a href="screenshots/help-or-about-start.png">screenshots/help-or-about-start.png</a></li><li>failure: <a href="screenshots/help-or-about-failure.png">screenshots/help-or-about-failure.png</a></li></ul>
+</article></div>
+</details>
+<details class="section" id="passed">
+<summary><h2>Passed checks (23)</h2></summary>
+<div class="section-body"><article class="check" id="check-control-accessible-name">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Interactive controls have accessible names</h3>
+<span class="ids"><code>control-accessible-name</code> &middot; perception &middot; weight 10</span>
+</header>
+<p class="summary">0 of 60 interactive controls (0%) have no accessible name.</p>
+
+<p class="chips"><span class="chip"><b>interactive</b>: 60</span><span class="chip"><b>unnamed</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Accessibility-tree agents (Playwright MCP, Chrome DevTools MCP, agent-browser) select controls by role and accessible name; an unnamed control is unselectable and grounding errors are a top failure cause in WebVoyager/Online-Mind2Web.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 4.1.2 Name, Role, Value</li><li>Lighthouse agent-accessibility-tree (button-name, link-name, label, select-name)</li></ul></dd><dt>Remediation</dt><dd>Give every button, link and form control a visible text label or an aria-label/aria-labelledby. For icon buttons use aria-label; for inputs use &lt;label for&gt;.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article><article class="check" id="check-form-fields-labelled">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Form fields have labels and names</h3>
+<span class="ids"><code>form-fields-labelled</code> &middot; interaction &middot; weight 10</span>
+</header>
+<p class="summary">3 form fields are labelled and named.</p>
+
+<p class="chips"><span class="chip"><b>fields</b>: 3</span><span class="chip"><b>labelViolations</b>: 0</span><span class="chip"><b>unnamedFields</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Agents fill forms by matching field labels to the data they hold; unlabelled fields force guessing and write tasks already succeed far less often than read tasks in benchmarks.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 3.3.2 Labels or Instructions</li><li>WCAG 2.2 SC 4.1.2</li><li>Lighthouse label, select-name</li><li>Web Bench: write tasks 46.6% vs read &gt;70%</li></ul></dd><dt>Remediation</dt><dd>Associate every input/select/textarea with a &lt;label for&gt;, give fields a name attribute, and use autocomplete tokens for common data.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article><article class="check" id="check-hidden-instructions">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>No hidden instructions aimed at AI agents</h3>
+<span class="ids"><code>hidden-instructions</code> &middot; safety &middot; weight 10</span>
+</header>
+<p class="summary">No instruction-like hidden text (24 hidden blocks inspected).</p>
+
+<p class="chips"><span class="chip"><b>injectionHits</b>: 0</span><span class="chip"><b>hiddenBlocks</b>: 24</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Indirect prompt injection through hidden page text is the top LLM application risk and has been demonstrated against browser agents (Brave/Comet). Text humans cannot see but agents receive is the attack surface.</dd>
+<dt>References</dt><dd><ul class="refs"><li>OWASP Top 10 for LLM Applications 2025: LLM01 Prompt Injection</li><li>Brave Research on Perplexity Comet (2025-08)</li><li>WebMCP untrustedContentHint</li></ul></dd><dt>Remediation</dt><dd>Remove hidden text that addresses AI systems; keep hidden content limited to layout helpers; do not place instructions in HTML comments or aria-hidden text.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article><article class="check" id="check-page-load">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Page loads successfully</h3>
+<span class="ids"><code>page-load</code> &middot; reliability &middot; weight 10</span>
+</header>
+<p class="summary">HTTP 200 in 3483 ms.</p>
+
+<p class="chips"><span class="chip"><b>status</b>: 200</span><span class="chip"><b>loadMs</b>: 3483</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Prerequisite for everything else: a 2xx response and a load event within the budget.</dd>
+<dt>References</dt><dd><ul class="refs"><li>HTTP semantics (RFC 9110)</li></ul></dd><dt>Remediation</dt><dd>Fix the HTTP error or slow load; make the page reach load within the timeout.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>HTTP 200, load 3483 ms</td><td>2xx within 10 s</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-aria-validity">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>ARIA attributes and roles are valid</h3>
+<span class="ids"><code>aria-validity</code> &middot; perception &middot; weight 7</span>
+</header>
+<p class="summary">No ARIA validity violations.</p>
+
+<p class="chips"><span class="chip"><b>violations</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Invalid ARIA produces a misleading tree: wrong roles, missing required children, hidden-but-focusable nodes. Lighthouse&#39;s agent tree audit fails on these rules.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 4.1.2</li><li>axe-core aria-* rules</li><li>Lighthouse agent-accessibility-tree</li></ul></dd><dt>Remediation</dt><dd>Fix the reported ARIA usage: valid roles, required attributes/children, no aria-hidden on focusable content.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article><article class="check" id="check-dom-stability">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>The DOM settles after load</h3>
+<span class="ids"><code>dom-stability</code> &middot; reliability &middot; weight 7</span>
+</header>
+<p class="summary">Worst page: 0 late mutations, CLS 0.025.</p>
+
+<p class="chips"><span class="chip"><b>maxLateMutations</b>: 0</span><span class="chip"><b>maxCls</b>: 0.025</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Agents act on a snapshot; if the DOM keeps mutating or shifting, refs go stale and clicks land on moved elements (documented for Playwright MCP and agent-browser).</dd>
+<dt>References</dt><dd><ul class="refs"><li>Playwright MCP stale-ref semantics</li><li>Lighthouse cumulative-layout-shift in Agentic Browsing</li><li>INFERENCE thresholds: 50/300 mutations in 2 s, CLS 0.1/0.25</li></ul></dd><dt>Remediation</dt><dd>Finish rendering before load, avoid late-inserted banners/ads, reserve space for async content, stop polling updates when idle.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>0 mutations in the 2 s after settle, CLS 0.025</td><td>&lt; 50 mutations, CLS &lt; 0.1</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-forms-safe-transport">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Forms submit safely</h3>
+<span class="ids"><code>forms-safe-transport</code> &middot; safety &middot; weight 7</span>
+</header>
+<p class="summary">2 forms submit to the same origin over HTTPS.</p>
+
+<p class="chips"><span class="chip"><b>forms</b>: 2</span><span class="chip"><b>problems</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>An agent filling a form that posts over plain HTTP or to a third-party origin leaks data it was trusted with.</dd>
+<dt>References</dt><dd><ul class="refs"><li>OWASP ASVS V3/V9 (transport)</li><li>HTML form action/method semantics</li></ul></dd><dt>Remediation</dt><dd>Serve pages over HTTPS, post forms to the same origin over HTTPS, and never send passwords with method=&quot;get&quot;.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article><article class="check" id="check-landmarks">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Page regions are exposed as landmarks</h3>
+<span class="ids"><code>landmarks</code> &middot; navigation &middot; weight 7</span>
+</header>
+<p class="summary">Main and navigation landmarks present.</p>
+
+<p class="chips"><span class="chip"><b>problems</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>A single main landmark and a navigation landmark let an agent skip chrome and find content; agent snapshots group nodes by landmark.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 1.3.1 Info and Relationships</li><li>WCAG 2.2 SC 2.4.1 Bypass Blocks</li><li>axe-core landmark-one-main, bypass, region</li></ul></dd><dt>Remediation</dt><dd>Wrap primary content in &lt;main&gt;, site navigation in &lt;nav aria-label=&quot;…&quot;&gt;, and header/footer in &lt;header&gt;/&lt;footer&gt;.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td>#text &gt; p</td><td>&lt;p&gt;</td><td>region</td><td>All page content should be contained by landmarks</td><td>  Some page content is not contained by landmarks</td></tr></tbody></table>
+</article><article class="check" id="check-robots-agent-access">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>robots.txt lets user-triggered agents fetch the page</h3>
+<span class="ids"><code>robots-agent-access</code> &middot; machine-interfaces &middot; weight 7</span>
+</header>
+<p class="summary">User-triggered agents may fetch this page.</p>
+
+<p class="chips"><span class="chip"><b>present</b>: true</span><span class="chip"><b>starAllowed</b>: true</span><span class="chip"><b>blockedUserAgents</b>: 0</span><span class="chip"><b>blockedTrainers</b>: 0</span><span class="chip"><b>contentSignal</b>: </span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>User-triggered agent fetchers (ChatGPT-User, Claude-User, search bots) honour robots.txt; disallowing them makes the site unusable to those agents regardless of its UI. Training crawler policy is a separate owner choice and is reported as info.</dd>
+<dt>References</dt><dd><ul class="refs"><li>RFC 9309 Robots Exclusion Protocol</li><li>OpenAI/Anthropic/Perplexity crawler documentation (research/02 §12)</li><li>Cloudflare Content-Signal robots.txt extension</li></ul></dd><dt>Remediation</dt><dd>Allow the user-triggered agent tokens (or at least * for public pages). Keep training-crawler rules separate: User-agent: GPTBot / ClaudeBot groups.</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/robots.txt</td><td></td><td></td><td>* allowed for /</td><td>allowed</td><td></td></tr><tr><td></td><td></td><td></td><td>user-triggered agents blocked: none</td><td>none blocked</td><td></td></tr><tr><td></td><td></td><td></td><td>training crawlers blocked: none</td><td></td><td>informational: training policy is the owner&#39;s choice</td></tr></tbody></table>
+</article><article class="check" id="check-server-rendered-content">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Content is available without executing JavaScript</h3>
+<span class="ids"><code>server-rendered-content</code> &middot; machine-interfaces &middot; weight 7</span>
+</header>
+<p class="summary">94% of rendered text is present without JavaScript.</p>
+
+<p class="chips"><span class="chip"><b>rawTextChars</b>: 3518</span><span class="chip"><b>renderedTextChars</b>: 3762</span><span class="chip"><b>ratio</b>: 0.94</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Fetch-based agents and most AI crawlers read the HTML response without running scripts (INFERENCE from vendor documentation); a client-only app is empty to them.</dd>
+<dt>References</dt><dd><ul class="refs"><li>Vendor crawler documentation (research/02)</li><li>Lighthouse agentic-browsing rationale</li></ul></dd><dt>Remediation</dt><dd>Server-render or pre-render the primary content; keep key text, links and forms in the initial HTML.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>3518 chars of text in raw HTML vs 3762 rendered (94%)</td><td>≥ 50% of the rendered text present in HTML</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-ambiguous-control-names">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Control names are specific, not repeated or generic</h3>
+<span class="ids"><code>ambiguous-control-names</code> &middot; perception &middot; weight 3</span>
+</header>
+<p class="summary">Control names are specific.</p>
+
+<p class="chips"><span class="chip"><b>controls</b>: 59</span><span class="chip"><b>generic</b>: 0</span><span class="chip"><b>duplicateNames</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Several links named &quot;Read more&quot; leading to different pages, or buttons all named &quot;Submit&quot;, force an agent to guess; benchmarks attribute many wrong clicks to such ambiguity.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 2.4.4 Link Purpose (In Context)</li><li>WCAG 2.2 SC 2.4.9 Link Purpose (Link Only)</li></ul></dd><dt>Remediation</dt><dd>Make link and button text describe the destination or action (&quot;Read the return policy&quot;, &quot;Add Trail Bike to cart&quot;). Avoid &quot;Click here&quot;/&quot;Read more&quot;; use aria-label to disambiguate when visual text must stay short.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article><article class="check" id="check-canvas-only-ui">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>The UI is not rendered only on canvas</h3>
+<span class="ids"><code>canvas-only-ui</code> &middot; interaction &middot; weight 3</span>
+</header>
+<p class="summary">No canvas-only UI.</p>
+
+<p class="chips"><span class="chip"><b>maxCanvasCoverage</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Canvas/WebGL interfaces expose no accessibility tree, so tree-based agents see nothing to act on.</dd>
+<dt>References</dt><dd><ul class="refs"><li>Research/01 §14: canvas/SVG without text</li><li>WCAG 2.2 SC 1.1.1</li></ul></dd><dt>Remediation</dt><dd>Provide DOM equivalents (fallback content, ARIA, or a parallel HTML UI) for canvas-rendered controls.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article><article class="check" id="check-closed-shadow-roots">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>No controls hidden in closed shadow roots</h3>
+<span class="ids"><code>closed-shadow-roots</code> &middot; interaction &middot; weight 3</span>
+</header>
+<p class="summary">No closed shadow roots.</p>
+
+<p class="chips"><span class="chip"><b>closedShadowRoots</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Closed shadow roots are not traversable by DOM-based agents; some tree agents cannot act on their content.</dd>
+<dt>References</dt><dd><ul class="refs"><li>Research/01 §14: closed shadow DOM failure mode</li><li>DOM Standard: attachShadow mode</li></ul></dd><dt>Remediation</dt><dd>Use open shadow roots for components that contain controls.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article><article class="check" id="check-cross-origin-iframe-controls">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Controls are not confined to cross-origin iframes</h3>
+<span class="ids"><code>cross-origin-iframe-controls</code> &middot; interaction &middot; weight 3</span>
+</header>
+<p class="summary">No controls confined to cross-origin iframes.</p>
+
+<p class="chips"><span class="chip"><b>controlsInCrossOriginFrames</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Several agents cannot act inside cross-origin iframes (documented for Comet; refs are frame-scoped in Playwright), so controls there are unreachable.</dd>
+<dt>References</dt><dd><ul class="refs"><li>Research/01 §13: Comet cannot act in cross-origin iframes</li><li>Playwright aria-ref frame prefix semantics</li></ul></dd><dt>Remediation</dt><dd>Keep primary actions (search, checkout, contact) in the top document; if an embedded widget is required, offer an equivalent same-origin path.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article><article class="check" id="check-exposed-secrets">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>No secret-looking tokens in page source</h3>
+<span class="ids"><code>exposed-secrets</code> &middot; safety &middot; weight 3</span>
+</header>
+<p class="summary">No secret-looking tokens found.</p>
+
+<p class="chips"><span class="chip"><b>hits</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>An agent that reads the page source can be led to use or leak embedded credentials; patterns for common providers are detected and redacted.</dd>
+<dt>References</dt><dd><ul class="refs"><li>OWASP LLM02:2025 Sensitive Information Disclosure</li><li>Common secret patterns (AWS, GitHub, Stripe, OpenAI, Anthropic, Slack, private keys)</li></ul></dd><dt>Remediation</dt><dd>Remove secrets from HTML and inline scripts; use server-side proxies or short-lived scoped tokens.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article><article class="check" id="check-image-alt">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Images carry alternative text</h3>
+<span class="ids"><code>image-alt</code> &middot; perception &middot; weight 3</span>
+</header>
+<p class="summary">Images have alternative text.</p>
+
+<p class="chips"><span class="chip"><b>missingAlt</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Tree-based agents only know an image by its alt text; images inside links/buttons without alt leave the control unnamed.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 1.1.1 Non-text Content</li><li>Lighthouse image-alt</li></ul></dd><dt>Remediation</dt><dd>Add alt text to informative images (alt=&quot;&quot; for decorative ones); name SVG icons with aria-label or &lt;title&gt;.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article><article class="check" id="check-key-pages-discoverable">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Common destinations are discoverable from the start page</h3>
+<span class="ids"><code>key-pages-discoverable</code> &middot; navigation &middot; weight 3</span>
+</header>
+<p class="summary">Found contact, about, privacy, terms, search; missing help.</p>
+
+<p class="chips"><span class="chip"><b>found</b>: 5</span><span class="chip"><b>missing</b>: 1</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>The most common agent goals on a site (contact, help, policies, search, pricing) should be reachable through recognisably named links from the entry page.</dd>
+<dt>References</dt><dd><ul class="refs"><li>Benchmark task archetypes (WebVoyager, Mind2Web): find contact/policy/help pages</li></ul></dd><dt>Remediation</dt><dd>Link contact, help/FAQ, privacy/terms, and search from the header or footer with their conventional names.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>discoverable: contact, about, privacy, terms, search</td><td>contact, help, privacy/terms, about, search</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-network-settles">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Network activity settles</h3>
+<span class="ids"><code>network-settles</code> &middot; reliability &middot; weight 3</span>
+</header>
+<p class="summary">Network idle reached on all pages.</p>
+
+<p class="chips"><span class="chip"><b>pagesNotIdle</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Agent harnesses wait for network idle; pages that never go idle (polling, SSE, WebSockets) hang or time out those waits.</dd>
+<dt>References</dt><dd><ul class="refs"><li>agent-browser README: networkidle hangs on SSE/WebSockets</li><li>Playwright waitForLoadState(&quot;networkidle&quot;)</li></ul></dd><dt>Remediation</dt><dd>Defer long-polling/streaming connections until after first interaction, or keep them off the initial load.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>network idle reached</td><td>idle within 10 s</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-required-fields-marked">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Required fields are marked programmatically</h3>
+<span class="ids"><code>required-fields-marked</code> &middot; interaction &middot; weight 3</span>
+</header>
+<p class="summary">Required fields are marked programmatically.</p>
+
+<p class="chips"><span class="chip"><b>forms</b>: 2</span><span class="chip"><b>unmarkedRequired</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>An asterisk in the label is invisible to tree agents; required/aria-required tells them which fields must be filled before submitting.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 3.3.2 Labels or Instructions</li></ul></dd><dt>Remediation</dt><dd>Add the required attribute (or aria-required=&quot;true&quot;) to mandatory fields.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article><article class="check" id="check-sitemap">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>A sitemap is published</h3>
+<span class="ids"><code>sitemap</code> &middot; navigation &middot; weight 3</span>
+</header>
+<p class="summary">Sitemap found.</p>
+
+<p class="chips"><span class="chip"><b>status</b>: 200</span><span class="chip"><b>robotsDirective</b>: false</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Crawling agents discover pages through sitemap.xml; it is the cheapest structural map of a site.</dd>
+<dt>References</dt><dd><ul class="refs"><li>sitemaps.org protocol</li><li>RFC 9309 Sitemap directive</li></ul></dd><dt>Remediation</dt><dd>Publish /sitemap.xml and reference it with a Sitemap: line in robots.txt.</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/sitemap.xml</td><td></td><td></td><td>HTTP 200</td><td>urlset/sitemapindex XML</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-snapshot-budget">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Accessibility snapshot fits an agent context budget</h3>
+<span class="ids"><code>snapshot-budget</code> &middot; perception &middot; weight 3</span>
+</header>
+<p class="summary">Largest snapshot: 22,554 chars.</p>
+
+<p class="chips"><span class="chip"><b>maxSnapshotChars</b>: 22554</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Agent harnesses truncate or reject very large accessibility trees; pages above roughly 10k tokens are partially invisible to the agent.</dd>
+<dt>References</dt><dd><ul class="refs"><li>Playwright MCP / agent-browser snapshot filtering docs</li><li>INFERENCE: thresholds 40k/100k chars</li></ul></dd><dt>Remediation</dt><dd>Reduce DOM size on key pages: paginate long lists, lazy-render off-screen sections, remove duplicated hidden menus.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>22554 chars, 354 nodes</td><td>&lt; 40,000 chars</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-search-available">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Site search is exposed</h3>
+<span class="ids"><code>search-available</code> &middot; navigation &middot; weight 1</span>
+</header>
+<p class="summary">Search exposed via search landmark/input.</p>
+
+<p class="chips"><span class="chip"><b>searchAction</b>: false</span><span class="chip"><b>searchbox</b>: false</span><span class="chip"><b>landmark</b>: true</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>A labelled search box (or a schema.org SearchAction) is the fastest route for an agent to locate content on larger sites.</dd>
+<dt>References</dt><dd><ul class="refs"><li>ARIA search landmark</li><li>schema.org WebSite potentialAction SearchAction</li></ul></dd><dt>Remediation</dt><dd>Expose search as &lt;form role=&quot;search&quot;&gt; with a labelled &lt;input type=&quot;search&quot;&gt;, and declare a SearchAction in WebSite JSON-LD.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td></td><td></td><td>search available</td><td>role=search form or SearchAction</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-target-size">
+<header class="check-head">
+<span class="badge pass">PASS</span>
+<h3>Targets are large enough</h3>
+<span class="ids"><code>target-size</code> &middot; interaction &middot; weight 1</span>
+</header>
+<p class="summary">Targets meet the minimum size.</p>
+
+<p class="chips"><span class="chip"><b>undersized</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Vision-based agents (screenshot + coordinates) miss tiny targets; documented in computer-use guidance.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 2.5.8 Target Size (Minimum)</li><li>axe-core target-size</li></ul></dd><dt>Remediation</dt><dd>Make interactive targets at least 24×24 CSS px with spacing.</dd>
+<dt>Pages</dt><dd>https://www.tate.org.uk/</dd>
+
+</dl>
+
+</article></div>
+</details>
+<details class="section" id="other">
+<summary><h2>Not applicable / info (6)</h2></summary>
+<div class="section-body"><article class="check" id="check-auth-boundary-signalled">
+<header class="check-head">
+<span class="badge na">NA</span>
+<h3>Authentication boundaries are clearly signalled</h3>
+<span class="ids"><code>auth-boundary-signalled</code> &middot; safety &middot; weight 3</span>
+</header>
+<p class="summary">No authentication forms on the scanned pages.</p>
+
+
+<dl class="kv">
+<dt>Rationale</dt><dd>Agents must recognise a login wall to stop and ask the user; an unlabelled password field or a credential input outside a form hides that boundary.</dd>
+<dt>References</dt><dd><ul class="refs"><li>GUI-Robust anomaly taxonomy: login page</li><li>WCAG 2.2 SC 3.3.8</li><li>HTML autocomplete tokens username/current-password</li></ul></dd><dt>Remediation</dt><dd>Place credentials in a &lt;form&gt; with labelled fields, autocomplete=&quot;username&quot;/&quot;current-password&quot;, a named submit button and a heading such as &quot;Sign in&quot;.</dd>
+
+</dl>
+
+</article><article class="check" id="check-webmcp">
+<header class="check-head">
+<span class="badge info">INFO</span>
+<h3>WebMCP tools are exposed</h3>
+<span class="ids"><code>webmcp</code> &middot; machine-interfaces &middot; weight 3</span>
+</header>
+<p class="summary">No WebMCP tools detected.</p>
+
+<p class="chips"><span class="chip"><b>tools</b>: 0</span><span class="chip"><b>declarativeForms</b>: 0</span><span class="chip"><b>polyfill</b>: false</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>WebMCP (W3C WebML Community Group draft, Chrome origin trial) lets a page register typed tools for agents. It is early, so absence is informational; presence is a strong signal of agent intent.</dd>
+<dt>References</dt><dd><ul class="refs"><li>W3C WebML CG WebMCP explainer/spec (document.modelContext.registerTool, form[toolname])</li><li>Lighthouse webmcp-registered-tools / webmcp-form-coverage</li></ul></dd><dt>Remediation</dt><dd>Optional: register tools via document.modelContext.registerTool({ name, description, inputSchema, execute, annotations }) or annotate forms with toolname/tooldescription.</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td></td><td></td><td></td><td>no document.modelContext.registerTool calls, no form[toolname]</td><td></td><td>WebMCP is an origin trial; absence is not penalised</td></tr></tbody></table>
+</article><article class="check" id="check-webmcp-tool-annotations">
+<header class="check-head">
+<span class="badge na">NA</span>
+<h3>WebMCP tools declare safety annotations</h3>
+<span class="ids"><code>webmcp-tool-annotations</code> &middot; safety &middot; weight 3</span>
+</header>
+<p class="summary">No WebMCP tools.</p>
+
+
+<dl class="kv">
+<dt>Rationale</dt><dd>The WebMCP draft defines readOnlyHint, consequentialHint and untrustedContentHint so agents can ask for confirmation; a mutating tool without consequentialHint, or a declarative form with toolautosubmit on a consequential action, removes that safeguard.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WebMCP spec: Security and Privacy considerations, ToolAnnotations</li><li>WebMCP declarative API toolautosubmit</li></ul></dd><dt>Remediation</dt><dd>Add annotations: { readOnlyHint: true } for read tools and { consequentialHint: true } for mutating tools; do not use toolautosubmit on consequential forms.</dd>
+
+</dl>
+
+</article><article class="check" id="check-agent-manifests">
+<header class="check-head">
+<span class="badge info">INFO</span>
+<h3>Agent manifests (agent-card, UCP, ARD) are published</h3>
+<span class="ids"><code>agent-manifests</code> &middot; machine-interfaces &middot; weight 1</span>
+</header>
+<p class="summary">No agent manifests (optional).</p>
+
+<p class="chips"><span class="chip"><b>found</b>: 0</span></p>
+<dl class="kv">
+<dt>Rationale</dt><dd>Emerging discovery files: A2A agent-card.json, Universal Commerce Protocol /.well-known/ucp, Agentic Resource Discovery ai-catalog.json. All are early; presence is informational.</dd>
+<dt>References</dt><dd><ul class="refs"><li>A2A protocol agent card</li><li>UCP (Google/Shopify) /.well-known/ucp</li><li>Lighthouse ard-schema audit</li></ul></dd><dt>Remediation</dt><dd>Optional: publish the manifest relevant to your domain (commerce: UCP; agent services: A2A agent card).</dd>
+
+</dl>
+<table class="evidence"><thead><tr><th>URL</th><th>Ref / selector</th><th>Element</th><th>Observed</th><th>Expected</th><th>Note</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/.well-known/agent-card.json</td><td></td><td></td><td>HTTP 404</td><td>optional JSON manifest</td><td></td></tr><tr><td>https://www.tate.org.uk/.well-known/ucp</td><td></td><td></td><td>HTTP 404</td><td>optional JSON manifest</td><td></td></tr><tr><td>https://www.tate.org.uk/ai-catalog.json</td><td></td><td></td><td>HTTP 404</td><td>optional JSON manifest</td><td></td></tr></tbody></table>
+</article><article class="check" id="check-breadcrumbs">
+<header class="check-head">
+<span class="badge na">NA</span>
+<h3>Inner pages expose breadcrumbs</h3>
+<span class="ids"><code>breadcrumbs</code> &middot; navigation &middot; weight 1</span>
+</header>
+<p class="summary">No pages deeper than one level were scanned; breadcrumbs not expected.</p>
+
+
+<dl class="kv">
+<dt>Rationale</dt><dd>Breadcrumbs tell an agent where it is in the hierarchy and how to go up; schema.org BreadcrumbList does the same for fetch-based agents.</dd>
+<dt>References</dt><dd><ul class="refs"><li>WCAG 2.2 SC 2.4.8 Location</li><li>schema.org BreadcrumbList</li></ul></dd><dt>Remediation</dt><dd>Add &lt;nav aria-label=&quot;Breadcrumb&quot;&gt; with links on inner pages and BreadcrumbList JSON-LD.</dd>
+
+</dl>
+
+</article><article class="check" id="check-download-and-popup-links">
+<header class="check-head">
+<span class="badge na">NA</span>
+<h3>Downloads and new windows are announced</h3>
+<span class="ids"><code>download-and-popup-links</code> &middot; safety &middot; weight 1</span>
+</header>
+<p class="summary">No download or new-window links.</p>
+
+
+<dl class="kv">
+<dt>Rationale</dt><dd>Unexpected downloads and new windows break the single-tab model most browser agents run with; naming them lets the agent decide.</dd>
+<dt>References</dt><dd><ul class="refs"><li>agent-browser / Playwright MCP tab model</li><li>WCAG 2.2 G201 (advance warning for new windows)</li></ul></dd><dt>Remediation</dt><dd>Say &quot;(PDF)&quot;, &quot;(download)&quot; or &quot;(opens in new tab)&quot; in the link text or aria-label.</dd>
+
+</dl>
+
+</article></div>
+</details>
+<details class="section" id="fixes" open>
+<summary><h2>Suggested fixes</h2></summary>
+<div class="section-body"><ol class="fixes"><li><b>No bot challenge blocks automated browsers</b> <span class="ids">(<a href="#check-challenge-or-bot-wall"><code>challenge-or-bot-wall</code></a>, weight 10)</span><br>Exempt well-behaved agents (honest UA, Web Bot Auth signatures) from challenges on public pages, or serve a machine-readable alternative.</li><li><b>No overlay blocks the page at load</b> <span class="ids">(<a href="#check-overlay-interference"><code>overlay-interference</code></a>, weight 10)</span><br>Avoid full-page overlays at load; if a consent dialog is required, make it a role=&quot;dialog&quot; with a clearly named Accept/Reject button and let the rest of the page work beneath it.</li><li><b>Visible labels are part of accessible names</b> <span class="ids">(<a href="#check-label-in-name"><code>label-in-name</code></a>, weight 3)</span><br>Ensure the accessible name (aria-label) contains the visible text of the control.</li><li><b>Menus do not depend on hover</b> <span class="ids">(<a href="#check-hover-only-menus"><code>hover-only-menus</code></a>, weight 3)</span><br>Expose submenus through a &lt;button aria-expanded&gt; toggle, or render submenu links in the page (footer sitemap) so they are reachable without hover.</li><li><b>Structured data (JSON-LD) describes the page</b> <span class="ids">(<a href="#check-structured-data"><code>structured-data</code></a>, weight 3)</span><br>Add JSON-LD for Organization/WebSite on the home page and Product/Offer, FAQPage, ContactPoint or BreadcrumbList on inner pages.</li><li><b>Clickable elements are real controls, not generic elements</b> <span class="ids">(<a href="#check-fake-interactive-elements"><code>fake-interactive-elements</code></a>, weight 7)</span><br>Use &lt;button&gt; or &lt;a href&gt; for actions and navigation. If a custom element must stay, add role=&quot;button&quot;, tabindex=&quot;0&quot;, a name and keyboard handlers.</li><li><b>Navigation links are named and resolvable</b> <span class="ids">(<a href="#check-navigation-links-usable"><code>navigation-links-usable</code></a>, weight 7)</span><br>Use real URLs in href for navigation items; name every nav link; if JavaScript handles navigation, keep a working href as fallback.</li><li><b>Controls are native or complete ARIA widgets</b> <span class="ids">(<a href="#check-native-controls"><code>native-controls</code></a>, weight 7)</span><br>Prefer native &lt;select&gt;, &lt;input type=&quot;date|range|number&quot;&gt;; when custom widgets are unavoidable, implement the full ARIA pattern (roles, states such as aria-valuenow/aria-expanded, keyboard support).</li></ol></div>
+</details>
+<details class="section" id="pages" open>
+<summary><h2>Pages scanned (1)</h2></summary>
+<div class="section-body"><table class="pages"><thead><tr><th>URL</th><th class="num">Status</th><th>Title</th><th class="num">Load</th><th class="num">Interactive</th><th class="num">Snapshot chars</th><th class="num">Console errors</th><th>Error</th></tr></thead><tbody><tr><td>https://www.tate.org.uk/</td><td class="num">200</td><td>Tate</td><td class="num">3.5 s</td><td class="num">60</td><td class="num">22554</td><td class="num">1</td><td></td></tr></tbody></table></div>
+</details>
+<details class="section" id="methodology" open>
+<summary><h2>Methodology</h2></summary>
+<div class="section-body"><p>Every check has a status (<b>pass</b> = 1, <b>warn</b> = 0.5, <b>fail</b> = 0; <b>na</b> and <b>info</b> are not scored) and a weight that follows the Lighthouse accessibility scale: <b>10</b> critical, <b>7</b> serious, <b>3</b> moderate, <b>1</b> minor. A dimension score is round(100 &times; &Sigma;(score &times; weight) / &Sigma;(weight)) over its scorable checks; a dimension with none is n/a and excluded.</p>
+<p>The overall score is the weighted mean of the available dimensions. Dimension weights (scaled by 0.7 because behavioural tasks were run):</p>
+<ul class="weights"><li>perception: 20 &times; 0.7 = 14</li><li>navigation: 15 &times; 0.7 = 10.5</li><li>interaction: 20 &times; 0.7 = 14</li><li>machine-interfaces: 10 &times; 0.7 = 7</li><li>reliability: 15 &times; 0.7 = 10.5</li><li>safety: 20 &times; 0.7 = 14</li><li>task-success: 30</li></ul>
+<p>Task success = 100 &times; PASS / (PASS + FAIL + BLOCKED); INCONCLUSIVE runs are excluded, as is a task with <code>safety: consequential</code> that was BLOCKED only because the run had no <code>--allow-consequential</code>. A dimension score is only as broad as its scorable checks (the Scored column). Methodology version 1; see docs/SCORING.md in the project for the full catalogue.</p></div>
+</details>
+<footer class="foot">
+<details><summary>Scan metadata (JSON)</summary><pre>{
+  &quot;tool&quot;: &quot;agentic-web-check&quot;,
+  &quot;version&quot;: &quot;0.1.0&quot;,
+  &quot;methodology&quot;: &quot;1&quot;,
+  &quot;schema&quot;: &quot;1&quot;,
+  &quot;mode&quot;: &quot;behavioural&quot;,
+  &quot;startedAt&quot;: &quot;2026-11-14T00:29:42.956Z&quot;,
+  &quot;finishedAt&quot;: &quot;2026-11-14T00:30:03.691Z&quot;,
+  &quot;durationMs&quot;: 20735,
+  &quot;url&quot;: &quot;https://www.tate.org.uk/&quot;,
+  &quot;browser&quot;: {
+    &quot;name&quot;: &quot;chromium&quot;,
+    &quot;version&quot;: &quot;153.0.8010.12&quot;,
+    &quot;userAgent&quot;: &quot;Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36 AgenticWebCheck/0.1.0&quot;
+  },
+  &quot;options&quot;: {
+    &quot;pages&quot;: 1,
+    &quot;timeoutMs&quot;: 30000,
+    &quot;agent&quot;: &quot;baseline&quot;,
+    &quot;model&quot;: null,
+    &quot;tasks&quot;: 3,
+    &quot;allowForms&quot;: false,
+    &quot;allowConsequential&quot;: false
+  },
+  &quot;node&quot;: &quot;v26.8.1&quot;
+}</pre></details>
+<p class="muted">Generated by agentic-web-check 0.1.0 on 2026-11-14 00:30:03 UTC.</p>
+</footer>
+</main>
+<script>(function(){var open=[];window.addEventListener('beforeprint',function(){open=[];document.querySelectorAll('details').forEach(function(d){if(!d.open){open.push(d);d.open=true;}});});window.addEventListener('afterprint',function(){open.forEach(function(d){d.open=false;});open=[];});})();</script>
+</body>
+</html>

@@ -1,0 +1,2015 @@
+[
+  {
+    "id": "tate",
+    "url": "https://www.tate.org.uk/",
+    "exit_code": 0,
+    "overall_with_tasks": 52,
+    "deterministic_only_derived": 74,
+    "check_status_counts": {
+      "pass": 23,
+      "warn": 9,
+      "fail": 5,
+      "na": 4,
+      "info": 2
+    },
+    "task_verdict_counts": {
+      "PASS": 0,
+      "FAIL": 0,
+      "BLOCKED": 3,
+      "INCONCLUSIVE": 0
+    },
+    "tasks": [
+      {
+        "name": "contact",
+        "verdict": "BLOCKED",
+        "reason": "captcha: g-recaptcha, recaptcha",
+        "steps": 0,
+        "final_url": "https://www.tate.org.uk/",
+        "blocker": "captcha",
+        "off_origin_final": false
+      },
+      {
+        "name": "legal-policy",
+        "verdict": "BLOCKED",
+        "reason": "captcha: g-recaptcha, recaptcha",
+        "steps": 0,
+        "final_url": "https://www.tate.org.uk/",
+        "blocker": "captcha",
+        "off_origin_final": false
+      },
+      {
+        "name": "help-or-about",
+        "verdict": "BLOCKED",
+        "reason": "captcha: g-recaptcha, recaptcha",
+        "steps": 0,
+        "final_url": "https://www.tate.org.uk/",
+        "blocker": "captcha",
+        "off_origin_final": false
+      }
+    ],
+    "failed_checks": [
+      {
+        "id": "challenge-or-bot-wall",
+        "summary": "The browser hit a bot challenge or access denial."
+      },
+      {
+        "id": "label-in-name",
+        "summary": "15 controls whose accessible name does not contain their visible label."
+      },
+      {
+        "id": "hover-only-menus",
+        "summary": "31 navigation links are only revealed on hover."
+      },
+      {
+        "id": "overlay-interference",
+        "summary": "1 overlays block the page without an accessible dismiss control."
+      },
+      {
+        "id": "structured-data",
+        "summary": "No JSON-LD found."
+      }
+    ],
+    "warned_checks": [
+      {
+        "id": "console-errors",
+        "summary": "1 runtime errors or failed scripts."
+      },
+      {
+        "id": "fake-interactive-elements",
+        "summary": "5 clickable elements without a control role (8% of clickables)."
+      },
+      {
+        "id": "document-title-lang",
+        "summary": "1 title/language problems across 1 pages."
+      },
+      {
+        "id": "heading-structure",
+        "summary": "1 heading problems across 1 pages."
+      },
+      {
+        "id": "navigation-links-usable",
+        "summary": "2 of 23 navigation links are unnamed or have no real URL."
+      },
+      {
+        "id": "native-controls",
+        "summary": "2 custom ARIA widgets and 0 drag-only elements."
+      },
+      {
+        "id": "keyboard-operability",
+        "summary": "2 keyboard operability problems."
+      },
+      {
+        "id": "llms-txt",
+        "summary": "No llms.txt published."
+      },
+      {
+        "id": "consequential-actions-guarded",
+        "summary": "1 of 1 consequential actions execute without a visible confirmation step."
+      }
+    ],
+    "dimensions": [
+      {
+        "dimension": "perception",
+        "label": "PERCEPTION",
+        "score": 77,
+        "weight": 14,
+        "checks": [
+          "control-accessible-name",
+          "fake-interactive-elements",
+          "aria-validity",
+          "ambiguous-control-names",
+          "label-in-name",
+          "document-title-lang",
+          "heading-structure",
+          "image-alt",
+          "snapshot-budget"
+        ],
+        "passed": 5,
+        "warned": 3,
+        "failed": 1
+      },
+      {
+        "dimension": "navigation",
+        "label": "NAVIGATION",
+        "score": 73,
+        "weight": 10.5,
+        "checks": [
+          "landmarks",
+          "navigation-links-usable",
+          "hover-only-menus",
+          "key-pages-discoverable",
+          "search-available",
+          "sitemap",
+          "breadcrumbs"
+        ],
+        "passed": 4,
+        "warned": 1,
+        "failed": 1
+      },
+      {
+        "dimension": "interaction",
+        "label": "INTERACTION",
+        "score": 65,
+        "weight": 14,
+        "checks": [
+          "form-fields-labelled",
+          "overlay-interference",
+          "native-controls",
+          "required-fields-marked",
+          "keyboard-operability",
+          "cross-origin-iframe-controls",
+          "closed-shadow-roots",
+          "canvas-only-ui",
+          "target-size"
+        ],
+        "passed": 6,
+        "warned": 2,
+        "failed": 1
+      },
+      {
+        "dimension": "machine-interfaces",
+        "label": "MACHINE INTERFACES",
+        "score": 78,
+        "weight": 7,
+        "checks": [
+          "robots-agent-access",
+          "server-rendered-content",
+          "structured-data",
+          "llms-txt",
+          "webmcp",
+          "agent-manifests"
+        ],
+        "passed": 2,
+        "warned": 1,
+        "failed": 1
+      },
+      {
+        "dimension": "reliability",
+        "label": "RELIABILITY",
+        "score": 65,
+        "weight": 10.5,
+        "checks": [
+          "page-load",
+          "challenge-or-bot-wall",
+          "dom-stability",
+          "network-settles",
+          "console-errors"
+        ],
+        "passed": 3,
+        "warned": 1,
+        "failed": 1
+      },
+      {
+        "dimension": "safety",
+        "label": "SAFETY",
+        "score": 87,
+        "weight": 14,
+        "checks": [
+          "hidden-instructions",
+          "consequential-actions-guarded",
+          "forms-safe-transport",
+          "webmcp-tool-annotations",
+          "auth-boundary-signalled",
+          "exposed-secrets",
+          "download-and-popup-links"
+        ],
+        "passed": 3,
+        "warned": 1,
+        "failed": 0
+      },
+      {
+        "dimension": "task-success",
+        "label": "TASK SUCCESS",
+        "score": 0,
+        "weight": 30,
+        "checks": [
+          "task:contact",
+          "task:legal-policy",
+          "task:help-or-about"
+        ],
+        "passed": 0,
+        "warned": 0,
+        "failed": 3
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://www.tate.org.uk/",
+        "finalUrl": "https://www.tate.org.uk/",
+        "status": 200,
+        "title": "Tate",
+        "loadMs": 3483,
+        "interactiveCount": 60,
+        "snapshotChars": 22554,
+        "consoleErrors": 1
+      }
+    ],
+    "elapsed_seconds": 20.7,
+    "browser": "153.0.8010.12",
+    "report": "tate/baseline/report.html",
+    "results": "tate/baseline/results.json"
+  },
+  {
+    "id": "nhs",
+    "url": "https://www.nhs.uk/",
+    "exit_code": 0,
+    "overall_with_tasks": 85,
+    "deterministic_only_derived": 93,
+    "check_status_counts": {
+      "pass": 32,
+      "warn": 2,
+      "fail": 2,
+      "na": 5,
+      "info": 2
+    },
+    "task_verdict_counts": {
+      "PASS": 2,
+      "FAIL": 0,
+      "BLOCKED": 1,
+      "INCONCLUSIVE": 0
+    },
+    "tasks": [
+      {
+        "name": "contact",
+        "verdict": "BLOCKED",
+        "reason": "captcha: g-recaptcha, recaptcha",
+        "steps": 7,
+        "final_url": "https://www.england.nhs.uk/contact-us/feedback-and-complaints/complaint/",
+        "blocker": "captcha",
+        "off_origin_final": true
+      },
+      {
+        "name": "legal-policy",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 2 actions",
+        "steps": 2,
+        "final_url": "https://www.nhs.uk/our-policies/terms-and-conditions/",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "help-or-about",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://www.nhs.uk/about-us/",
+        "blocker": null,
+        "off_origin_final": false
+      }
+    ],
+    "failed_checks": [
+      {
+        "id": "dom-stability",
+        "summary": "Worst page: 0 late mutations, CLS 0.257."
+      },
+      {
+        "id": "structured-data",
+        "summary": "No JSON-LD found."
+      }
+    ],
+    "warned_checks": [
+      {
+        "id": "native-controls",
+        "summary": "1 custom ARIA widgets and 0 drag-only elements."
+      },
+      {
+        "id": "llms-txt",
+        "summary": "No llms.txt published."
+      }
+    ],
+    "dimensions": [
+      {
+        "dimension": "perception",
+        "label": "PERCEPTION",
+        "score": 100,
+        "weight": 14,
+        "checks": [
+          "control-accessible-name",
+          "fake-interactive-elements",
+          "aria-validity",
+          "ambiguous-control-names",
+          "label-in-name",
+          "document-title-lang",
+          "heading-structure",
+          "image-alt",
+          "snapshot-budget"
+        ],
+        "passed": 9,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "navigation",
+        "label": "NAVIGATION",
+        "score": 100,
+        "weight": 10.5,
+        "checks": [
+          "landmarks",
+          "navigation-links-usable",
+          "hover-only-menus",
+          "key-pages-discoverable",
+          "search-available",
+          "sitemap",
+          "breadcrumbs"
+        ],
+        "passed": 6,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "interaction",
+        "label": "INTERACTION",
+        "score": 92,
+        "weight": 14,
+        "checks": [
+          "form-fields-labelled",
+          "overlay-interference",
+          "native-controls",
+          "required-fields-marked",
+          "keyboard-operability",
+          "cross-origin-iframe-controls",
+          "closed-shadow-roots",
+          "canvas-only-ui",
+          "target-size"
+        ],
+        "passed": 8,
+        "warned": 1,
+        "failed": 0
+      },
+      {
+        "dimension": "machine-interfaces",
+        "label": "MACHINE INTERFACES",
+        "score": 78,
+        "weight": 7,
+        "checks": [
+          "robots-agent-access",
+          "server-rendered-content",
+          "structured-data",
+          "llms-txt",
+          "webmcp",
+          "agent-manifests"
+        ],
+        "passed": 2,
+        "warned": 1,
+        "failed": 1
+      },
+      {
+        "dimension": "reliability",
+        "label": "RELIABILITY",
+        "score": 79,
+        "weight": 10.5,
+        "checks": [
+          "page-load",
+          "challenge-or-bot-wall",
+          "dom-stability",
+          "network-settles",
+          "console-errors"
+        ],
+        "passed": 4,
+        "warned": 0,
+        "failed": 1
+      },
+      {
+        "dimension": "safety",
+        "label": "SAFETY",
+        "score": 100,
+        "weight": 14,
+        "checks": [
+          "hidden-instructions",
+          "consequential-actions-guarded",
+          "forms-safe-transport",
+          "webmcp-tool-annotations",
+          "auth-boundary-signalled",
+          "exposed-secrets",
+          "download-and-popup-links"
+        ],
+        "passed": 3,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "task-success",
+        "label": "TASK SUCCESS",
+        "score": 67,
+        "weight": 30,
+        "checks": [
+          "task:contact",
+          "task:legal-policy",
+          "task:help-or-about"
+        ],
+        "passed": 2,
+        "warned": 0,
+        "failed": 1
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://www.nhs.uk/",
+        "finalUrl": "https://www.nhs.uk/",
+        "status": 200,
+        "title": "NHS website for England - NHS",
+        "loadMs": 1272,
+        "interactiveCount": 51,
+        "snapshotChars": 12170,
+        "consoleErrors": 0
+      }
+    ],
+    "elapsed_seconds": 16.9,
+    "browser": "153.0.8010.12",
+    "report": "nhs/baseline/report.html",
+    "results": "nhs/baseline/results.json"
+  },
+  {
+    "id": "google-blog",
+    "url": "https://blog.google/",
+    "exit_code": 0,
+    "overall_with_tasks": 70,
+    "deterministic_only_derived": 87,
+    "check_status_counts": {
+      "pass": 28,
+      "warn": 9,
+      "fail": 1,
+      "na": 3,
+      "info": 2
+    },
+    "task_verdict_counts": {
+      "PASS": 1,
+      "FAIL": 2,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    },
+    "tasks": [
+      {
+        "name": "contact",
+        "verdict": "FAIL",
+        "reason": "no control matched keywords [contact, contact us, get in touch, support, email, phone, contacto, address] on https://blog.google/",
+        "steps": 3,
+        "final_url": "https://blog.google/",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "legal-policy",
+        "verdict": "FAIL",
+        "reason": "page state unchanged after three actions (controls had no visible effect or opened new tabs)",
+        "steps": 3,
+        "final_url": "https://blog.google/",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "help-or-about",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 6 actions",
+        "steps": 6,
+        "final_url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/saving-giant-kelp-australia/",
+        "blocker": null,
+        "off_origin_final": false
+      }
+    ],
+    "failed_checks": [
+      {
+        "id": "ambiguous-control-names",
+        "summary": "11 generic names and 0 names reused for different destinations."
+      }
+    ],
+    "warned_checks": [
+      {
+        "id": "control-accessible-name",
+        "summary": "4 of 120 interactive controls (3%) have no accessible name."
+      },
+      {
+        "id": "fake-interactive-elements",
+        "summary": "14 clickable elements without a control role (10% of clickables)."
+      },
+      {
+        "id": "heading-structure",
+        "summary": "1 heading problems across 1 pages."
+      },
+      {
+        "id": "image-alt",
+        "summary": "1 images without alternative text."
+      },
+      {
+        "id": "snapshot-budget",
+        "summary": "Largest snapshot: 40,683 chars."
+      },
+      {
+        "id": "form-fields-labelled",
+        "summary": "0 label violations and 1 unnamed fields (20%)."
+      },
+      {
+        "id": "llms-txt",
+        "summary": "No llms.txt published."
+      },
+      {
+        "id": "consequential-actions-guarded",
+        "summary": "3 of 4 consequential actions execute without a visible confirmation step."
+      },
+      {
+        "id": "download-and-popup-links",
+        "summary": "33 of 41 download/new-window links are not announced."
+      }
+    ],
+    "dimensions": [
+      {
+        "dimension": "perception",
+        "label": "PERCEPTION",
+        "score": 62,
+        "weight": 14,
+        "checks": [
+          "control-accessible-name",
+          "fake-interactive-elements",
+          "aria-validity",
+          "ambiguous-control-names",
+          "label-in-name",
+          "document-title-lang",
+          "heading-structure",
+          "image-alt",
+          "snapshot-budget"
+        ],
+        "passed": 3,
+        "warned": 5,
+        "failed": 1
+      },
+      {
+        "dimension": "navigation",
+        "label": "NAVIGATION",
+        "score": 100,
+        "weight": 10.5,
+        "checks": [
+          "landmarks",
+          "navigation-links-usable",
+          "hover-only-menus",
+          "key-pages-discoverable",
+          "search-available",
+          "sitemap",
+          "breadcrumbs"
+        ],
+        "passed": 6,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "interaction",
+        "label": "INTERACTION",
+        "score": 88,
+        "weight": 14,
+        "checks": [
+          "form-fields-labelled",
+          "overlay-interference",
+          "native-controls",
+          "required-fields-marked",
+          "keyboard-operability",
+          "cross-origin-iframe-controls",
+          "closed-shadow-roots",
+          "canvas-only-ui",
+          "target-size"
+        ],
+        "passed": 8,
+        "warned": 1,
+        "failed": 0
+      },
+      {
+        "dimension": "machine-interfaces",
+        "label": "MACHINE INTERFACES",
+        "score": 93,
+        "weight": 7,
+        "checks": [
+          "robots-agent-access",
+          "server-rendered-content",
+          "structured-data",
+          "llms-txt",
+          "webmcp",
+          "agent-manifests"
+        ],
+        "passed": 3,
+        "warned": 1,
+        "failed": 0
+      },
+      {
+        "dimension": "reliability",
+        "label": "RELIABILITY",
+        "score": 100,
+        "weight": 10.5,
+        "checks": [
+          "page-load",
+          "challenge-or-bot-wall",
+          "dom-stability",
+          "network-settles",
+          "console-errors"
+        ],
+        "passed": 5,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "safety",
+        "label": "SAFETY",
+        "score": 86,
+        "weight": 14,
+        "checks": [
+          "hidden-instructions",
+          "consequential-actions-guarded",
+          "forms-safe-transport",
+          "webmcp-tool-annotations",
+          "auth-boundary-signalled",
+          "exposed-secrets",
+          "download-and-popup-links"
+        ],
+        "passed": 3,
+        "warned": 2,
+        "failed": 0
+      },
+      {
+        "dimension": "task-success",
+        "label": "TASK SUCCESS",
+        "score": 33,
+        "weight": 30,
+        "checks": [
+          "task:contact",
+          "task:legal-policy",
+          "task:help-or-about"
+        ],
+        "passed": 1,
+        "warned": 0,
+        "failed": 2
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://blog.google/",
+        "finalUrl": "https://blog.google/",
+        "status": 200,
+        "title": "News from Google | Google Product and Technology News and Stories",
+        "loadMs": 5463,
+        "interactiveCount": 120,
+        "snapshotChars": 40683,
+        "consoleErrors": 0
+      }
+    ],
+    "elapsed_seconds": 60.3,
+    "browser": "153.0.8010.12",
+    "report": "google-blog/baseline/report.html",
+    "results": "google-blog/baseline/results.json"
+  },
+  {
+    "id": "w3c",
+    "url": "https://www.w3.org/",
+    "exit_code": 0,
+    "overall_with_tasks": 91,
+    "deterministic_only_derived": 88,
+    "check_status_counts": {
+      "pass": 25,
+      "warn": 5,
+      "fail": 3,
+      "na": 8,
+      "info": 2
+    },
+    "task_verdict_counts": {
+      "PASS": 3,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    },
+    "tasks": [
+      {
+        "name": "contact",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://www.w3.org/contact/",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "legal-policy",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://www.w3.org/mission/privacy/",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "help-or-about",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 2 actions",
+        "steps": 2,
+        "final_url": "https://www.w3.org/about/",
+        "blocker": null,
+        "off_origin_final": false
+      }
+    ],
+    "failed_checks": [
+      {
+        "id": "hover-only-menus",
+        "summary": "53 navigation links are only revealed on hover."
+      },
+      {
+        "id": "sitemap",
+        "summary": "No sitemap.xml and no Sitemap directive in robots.txt."
+      },
+      {
+        "id": "structured-data",
+        "summary": "No JSON-LD found."
+      }
+    ],
+    "warned_checks": [
+      {
+        "id": "control-accessible-name",
+        "summary": "1 of 48 interactive controls (2%) have no accessible name."
+      },
+      {
+        "id": "fake-interactive-elements",
+        "summary": "8 clickable elements without a control role (14% of clickables)."
+      },
+      {
+        "id": "navigation-links-usable",
+        "summary": "1 of 5 navigation links are unnamed or have no real URL."
+      },
+      {
+        "id": "search-available",
+        "summary": "No search control or SearchAction found on the start page."
+      },
+      {
+        "id": "llms-txt",
+        "summary": "No llms.txt published."
+      }
+    ],
+    "dimensions": [
+      {
+        "dimension": "perception",
+        "label": "PERCEPTION",
+        "score": 80,
+        "weight": 14,
+        "checks": [
+          "control-accessible-name",
+          "fake-interactive-elements",
+          "aria-validity",
+          "ambiguous-control-names",
+          "label-in-name",
+          "document-title-lang",
+          "heading-structure",
+          "image-alt",
+          "snapshot-budget"
+        ],
+        "passed": 7,
+        "warned": 2,
+        "failed": 0
+      },
+      {
+        "dimension": "navigation",
+        "label": "NAVIGATION",
+        "score": 58,
+        "weight": 10.5,
+        "checks": [
+          "landmarks",
+          "navigation-links-usable",
+          "hover-only-menus",
+          "key-pages-discoverable",
+          "search-available",
+          "sitemap",
+          "breadcrumbs"
+        ],
+        "passed": 2,
+        "warned": 2,
+        "failed": 2
+      },
+      {
+        "dimension": "interaction",
+        "label": "INTERACTION",
+        "score": 100,
+        "weight": 14,
+        "checks": [
+          "form-fields-labelled",
+          "overlay-interference",
+          "native-controls",
+          "required-fields-marked",
+          "keyboard-operability",
+          "cross-origin-iframe-controls",
+          "closed-shadow-roots",
+          "canvas-only-ui",
+          "target-size"
+        ],
+        "passed": 7,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "machine-interfaces",
+        "label": "MACHINE INTERFACES",
+        "score": 78,
+        "weight": 7,
+        "checks": [
+          "robots-agent-access",
+          "server-rendered-content",
+          "structured-data",
+          "llms-txt",
+          "webmcp",
+          "agent-manifests"
+        ],
+        "passed": 2,
+        "warned": 1,
+        "failed": 1
+      },
+      {
+        "dimension": "reliability",
+        "label": "RELIABILITY",
+        "score": 100,
+        "weight": 10.5,
+        "checks": [
+          "page-load",
+          "challenge-or-bot-wall",
+          "dom-stability",
+          "network-settles",
+          "console-errors"
+        ],
+        "passed": 5,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "safety",
+        "label": "SAFETY",
+        "score": 100,
+        "weight": 14,
+        "checks": [
+          "hidden-instructions",
+          "consequential-actions-guarded",
+          "forms-safe-transport",
+          "webmcp-tool-annotations",
+          "auth-boundary-signalled",
+          "exposed-secrets",
+          "download-and-popup-links"
+        ],
+        "passed": 2,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "task-success",
+        "label": "TASK SUCCESS",
+        "score": 100,
+        "weight": 30,
+        "checks": [
+          "task:contact",
+          "task:legal-policy",
+          "task:help-or-about"
+        ],
+        "passed": 3,
+        "warned": 0,
+        "failed": 0
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://www.w3.org/",
+        "finalUrl": "https://www.w3.org/",
+        "status": 200,
+        "title": "W3C",
+        "loadMs": 1321,
+        "interactiveCount": 48,
+        "snapshotChars": 11539,
+        "consoleErrors": 0
+      }
+    ],
+    "elapsed_seconds": 16.1,
+    "browser": "153.0.8010.12",
+    "report": "w3c/baseline/report.html",
+    "results": "w3c/baseline/results.json"
+  },
+  {
+    "id": "lowtech",
+    "url": "https://solar.lowtechmagazine.com/",
+    "exit_code": 0,
+    "overall_with_tasks": 84,
+    "deterministic_only_derived": 92,
+    "check_status_counts": {
+      "pass": 25,
+      "warn": 6,
+      "fail": 3,
+      "na": 7,
+      "info": 2
+    },
+    "task_verdict_counts": {
+      "PASS": 2,
+      "FAIL": 1,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    },
+    "tasks": [
+      {
+        "name": "contact",
+        "verdict": "FAIL",
+        "reason": "no control matched keywords [contact, contact us, get in touch, support, email, phone, contacto, address] on https://solar.lowtechmagazine.com/",
+        "steps": 1,
+        "final_url": "https://solar.lowtechmagazine.com/",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "legal-policy",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://solar.lowtechmagazine.com/privacy/",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "help-or-about",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://solar.lowtechmagazine.com/about/",
+        "blocker": null,
+        "off_origin_final": false
+      }
+    ],
+    "failed_checks": [
+      {
+        "id": "hover-only-menus",
+        "summary": "12 navigation links are only revealed on hover."
+      },
+      {
+        "id": "target-size",
+        "summary": "8 undersized targets."
+      },
+      {
+        "id": "structured-data",
+        "summary": "No JSON-LD found."
+      }
+    ],
+    "warned_checks": [
+      {
+        "id": "console-errors",
+        "summary": "1 runtime errors or failed scripts."
+      },
+      {
+        "id": "ambiguous-control-names",
+        "summary": "0 generic names and 2 names reused for different destinations."
+      },
+      {
+        "id": "key-pages-discoverable",
+        "summary": "Found about, privacy; missing contact, help, terms, search."
+      },
+      {
+        "id": "search-available",
+        "summary": "No search control or SearchAction found on the start page."
+      },
+      {
+        "id": "llms-txt",
+        "summary": "No llms.txt published."
+      },
+      {
+        "id": "download-and-popup-links",
+        "summary": "8 of 8 download/new-window links are not announced."
+      }
+    ],
+    "dimensions": [
+      {
+        "dimension": "perception",
+        "label": "PERCEPTION",
+        "score": 96,
+        "weight": 14,
+        "checks": [
+          "control-accessible-name",
+          "fake-interactive-elements",
+          "aria-validity",
+          "ambiguous-control-names",
+          "label-in-name",
+          "document-title-lang",
+          "heading-structure",
+          "image-alt",
+          "snapshot-budget"
+        ],
+        "passed": 8,
+        "warned": 1,
+        "failed": 0
+      },
+      {
+        "dimension": "navigation",
+        "label": "NAVIGATION",
+        "score": 79,
+        "weight": 10.5,
+        "checks": [
+          "landmarks",
+          "navigation-links-usable",
+          "hover-only-menus",
+          "key-pages-discoverable",
+          "search-available",
+          "sitemap",
+          "breadcrumbs"
+        ],
+        "passed": 3,
+        "warned": 2,
+        "failed": 1
+      },
+      {
+        "dimension": "interaction",
+        "label": "INTERACTION",
+        "score": 97,
+        "weight": 14,
+        "checks": [
+          "form-fields-labelled",
+          "overlay-interference",
+          "native-controls",
+          "required-fields-marked",
+          "keyboard-operability",
+          "cross-origin-iframe-controls",
+          "closed-shadow-roots",
+          "canvas-only-ui",
+          "target-size"
+        ],
+        "passed": 6,
+        "warned": 0,
+        "failed": 1
+      },
+      {
+        "dimension": "machine-interfaces",
+        "label": "MACHINE INTERFACES",
+        "score": 78,
+        "weight": 7,
+        "checks": [
+          "robots-agent-access",
+          "server-rendered-content",
+          "structured-data",
+          "llms-txt",
+          "webmcp",
+          "agent-manifests"
+        ],
+        "passed": 2,
+        "warned": 1,
+        "failed": 1
+      },
+      {
+        "dimension": "reliability",
+        "label": "RELIABILITY",
+        "score": 95,
+        "weight": 10.5,
+        "checks": [
+          "page-load",
+          "challenge-or-bot-wall",
+          "dom-stability",
+          "network-settles",
+          "console-errors"
+        ],
+        "passed": 4,
+        "warned": 1,
+        "failed": 0
+      },
+      {
+        "dimension": "safety",
+        "label": "SAFETY",
+        "score": 96,
+        "weight": 14,
+        "checks": [
+          "hidden-instructions",
+          "consequential-actions-guarded",
+          "forms-safe-transport",
+          "webmcp-tool-annotations",
+          "auth-boundary-signalled",
+          "exposed-secrets",
+          "download-and-popup-links"
+        ],
+        "passed": 2,
+        "warned": 1,
+        "failed": 0
+      },
+      {
+        "dimension": "task-success",
+        "label": "TASK SUCCESS",
+        "score": 67,
+        "weight": 30,
+        "checks": [
+          "task:contact",
+          "task:legal-policy",
+          "task:help-or-about"
+        ],
+        "passed": 2,
+        "warned": 0,
+        "failed": 1
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://solar.lowtechmagazine.com/",
+        "finalUrl": "https://solar.lowtechmagazine.com/",
+        "status": 200,
+        "title": "LOW←TECH MAGAZINE",
+        "loadMs": 1419,
+        "interactiveCount": 39,
+        "snapshotChars": 11336,
+        "consoleErrors": 1
+      }
+    ],
+    "elapsed_seconds": 14.7,
+    "browser": "153.0.8010.12",
+    "report": "lowtech/baseline/report.html",
+    "results": "lowtech/baseline/results.json"
+  },
+  {
+    "id": "fresh-guide",
+    "url": "https://guide.wagtail.org/en/",
+    "exit_code": 0,
+    "overall_with_tasks": 88,
+    "deterministic_only_derived": 97,
+    "check_status_counts": {
+      "pass": 35,
+      "warn": 4,
+      "fail": 0,
+      "na": 3,
+      "info": 1
+    },
+    "task_verdict_counts": {
+      "PASS": 2,
+      "FAIL": 1,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    },
+    "tasks": [
+      {
+        "name": "contact",
+        "verdict": "FAIL",
+        "reason": "no control matched keywords [contact, contact us, get in touch, support, email, phone, contacto, address] on https://guide.wagtail.org/en/",
+        "steps": 1,
+        "final_url": "https://guide.wagtail.org/en/",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "legal-policy",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://guide.wagtail.org/en/about/privacy-policy/",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "help-or-about",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://guide.wagtail.org/en/about/",
+        "blocker": null,
+        "off_origin_final": false
+      }
+    ],
+    "failed_checks": [],
+    "warned_checks": [
+      {
+        "id": "hover-only-menus",
+        "summary": "3 navigation links are only revealed on hover."
+      },
+      {
+        "id": "search-available",
+        "summary": "No search control or SearchAction found on the start page."
+      },
+      {
+        "id": "webmcp-tool-annotations",
+        "summary": "1 of 5 WebMCP tools lack safety annotations."
+      },
+      {
+        "id": "download-and-popup-links",
+        "summary": "6 of 6 download/new-window links are not announced."
+      }
+    ],
+    "dimensions": [
+      {
+        "dimension": "perception",
+        "label": "PERCEPTION",
+        "score": 100,
+        "weight": 14,
+        "checks": [
+          "control-accessible-name",
+          "fake-interactive-elements",
+          "aria-validity",
+          "ambiguous-control-names",
+          "label-in-name",
+          "document-title-lang",
+          "heading-structure",
+          "image-alt",
+          "snapshot-budget"
+        ],
+        "passed": 9,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "navigation",
+        "label": "NAVIGATION",
+        "score": 92,
+        "weight": 10.5,
+        "checks": [
+          "landmarks",
+          "navigation-links-usable",
+          "hover-only-menus",
+          "key-pages-discoverable",
+          "search-available",
+          "sitemap",
+          "breadcrumbs"
+        ],
+        "passed": 4,
+        "warned": 2,
+        "failed": 0
+      },
+      {
+        "dimension": "interaction",
+        "label": "INTERACTION",
+        "score": 100,
+        "weight": 14,
+        "checks": [
+          "form-fields-labelled",
+          "overlay-interference",
+          "native-controls",
+          "required-fields-marked",
+          "keyboard-operability",
+          "cross-origin-iframe-controls",
+          "closed-shadow-roots",
+          "canvas-only-ui",
+          "target-size"
+        ],
+        "passed": 9,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "machine-interfaces",
+        "label": "MACHINE INTERFACES",
+        "score": 100,
+        "weight": 7,
+        "checks": [
+          "robots-agent-access",
+          "server-rendered-content",
+          "structured-data",
+          "llms-txt",
+          "webmcp",
+          "agent-manifests"
+        ],
+        "passed": 5,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "reliability",
+        "label": "RELIABILITY",
+        "score": 100,
+        "weight": 10.5,
+        "checks": [
+          "page-load",
+          "challenge-or-bot-wall",
+          "dom-stability",
+          "network-settles",
+          "console-errors"
+        ],
+        "passed": 5,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "safety",
+        "label": "SAFETY",
+        "score": 92,
+        "weight": 14,
+        "checks": [
+          "hidden-instructions",
+          "consequential-actions-guarded",
+          "forms-safe-transport",
+          "webmcp-tool-annotations",
+          "auth-boundary-signalled",
+          "exposed-secrets",
+          "download-and-popup-links"
+        ],
+        "passed": 3,
+        "warned": 2,
+        "failed": 0
+      },
+      {
+        "dimension": "task-success",
+        "label": "TASK SUCCESS",
+        "score": 67,
+        "weight": 30,
+        "checks": [
+          "task:contact",
+          "task:legal-policy",
+          "task:help-or-about"
+        ],
+        "passed": 2,
+        "warned": 0,
+        "failed": 1
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://guide.wagtail.org/en/",
+        "finalUrl": "https://guide.wagtail.org/en/",
+        "status": 200,
+        "title": "Wagtail user guide - Wagtail Guide",
+        "loadMs": 1030,
+        "interactiveCount": 68,
+        "snapshotChars": 13352,
+        "consoleErrors": 0
+      }
+    ],
+    "elapsed_seconds": 10.8,
+    "browser": "153.0.8010.12",
+    "report": "fresh-guide/baseline/report.html",
+    "results": "fresh-guide/baseline/results.json"
+  },
+  {
+    "id": "fresh-wagtail",
+    "url": "https://wagtail.org/",
+    "exit_code": 0,
+    "overall_with_tasks": 92,
+    "deterministic_only_derived": 89,
+    "check_status_counts": {
+      "pass": 31,
+      "warn": 3,
+      "fail": 2,
+      "na": 5,
+      "info": 2
+    },
+    "task_verdict_counts": {
+      "PASS": 3,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    },
+    "tasks": [
+      {
+        "name": "contact",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://wagtail.org/contact/",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "legal-policy",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://wagtail.org/privacy/",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "help-or-about",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://docs.wagtail.org/en/stable/topics/streamfield.html",
+        "blocker": null,
+        "off_origin_final": true
+      }
+    ],
+    "failed_checks": [
+      {
+        "id": "hover-only-menus",
+        "summary": "86 navigation links are only revealed on hover."
+      },
+      {
+        "id": "forms-safe-transport",
+        "summary": "1 forms or credential fields submit unsafely."
+      }
+    ],
+    "warned_checks": [
+      {
+        "id": "console-errors",
+        "summary": "2 runtime errors or failed scripts."
+      },
+      {
+        "id": "ambiguous-control-names",
+        "summary": "0 generic names and 1 names reused for different destinations."
+      },
+      {
+        "id": "heading-structure",
+        "summary": "1 heading problems across 1 pages."
+      }
+    ],
+    "dimensions": [
+      {
+        "dimension": "perception",
+        "label": "PERCEPTION",
+        "score": 93,
+        "weight": 14,
+        "checks": [
+          "control-accessible-name",
+          "fake-interactive-elements",
+          "aria-validity",
+          "ambiguous-control-names",
+          "label-in-name",
+          "document-title-lang",
+          "heading-structure",
+          "image-alt",
+          "snapshot-budget"
+        ],
+        "passed": 7,
+        "warned": 2,
+        "failed": 0
+      },
+      {
+        "dimension": "navigation",
+        "label": "NAVIGATION",
+        "score": 88,
+        "weight": 10.5,
+        "checks": [
+          "landmarks",
+          "navigation-links-usable",
+          "hover-only-menus",
+          "key-pages-discoverable",
+          "search-available",
+          "sitemap",
+          "breadcrumbs"
+        ],
+        "passed": 5,
+        "warned": 0,
+        "failed": 1
+      },
+      {
+        "dimension": "interaction",
+        "label": "INTERACTION",
+        "score": 100,
+        "weight": 14,
+        "checks": [
+          "form-fields-labelled",
+          "overlay-interference",
+          "native-controls",
+          "required-fields-marked",
+          "keyboard-operability",
+          "cross-origin-iframe-controls",
+          "closed-shadow-roots",
+          "canvas-only-ui",
+          "target-size"
+        ],
+        "passed": 9,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "machine-interfaces",
+        "label": "MACHINE INTERFACES",
+        "score": 100,
+        "weight": 7,
+        "checks": [
+          "robots-agent-access",
+          "server-rendered-content",
+          "structured-data",
+          "llms-txt",
+          "webmcp",
+          "agent-manifests"
+        ],
+        "passed": 4,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "reliability",
+        "label": "RELIABILITY",
+        "score": 95,
+        "weight": 10.5,
+        "checks": [
+          "page-load",
+          "challenge-or-bot-wall",
+          "dom-stability",
+          "network-settles",
+          "console-errors"
+        ],
+        "passed": 4,
+        "warned": 1,
+        "failed": 0
+      },
+      {
+        "dimension": "safety",
+        "label": "SAFETY",
+        "score": 65,
+        "weight": 14,
+        "checks": [
+          "hidden-instructions",
+          "consequential-actions-guarded",
+          "forms-safe-transport",
+          "webmcp-tool-annotations",
+          "auth-boundary-signalled",
+          "exposed-secrets",
+          "download-and-popup-links"
+        ],
+        "passed": 2,
+        "warned": 0,
+        "failed": 1
+      },
+      {
+        "dimension": "task-success",
+        "label": "TASK SUCCESS",
+        "score": 100,
+        "weight": 30,
+        "checks": [
+          "task:contact",
+          "task:legal-policy",
+          "task:help-or-about"
+        ],
+        "passed": 3,
+        "warned": 0,
+        "failed": 0
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://wagtail.org/",
+        "finalUrl": "https://wagtail.org/",
+        "status": 200,
+        "title": "Wagtail CMS - Django Content Management System",
+        "loadMs": 1838,
+        "interactiveCount": 86,
+        "snapshotChars": 24530,
+        "consoleErrors": 0
+      }
+    ],
+    "elapsed_seconds": 19.6,
+    "browser": "153.0.8010.12",
+    "report": "fresh-wagtail/baseline/report.html",
+    "results": "fresh-wagtail/baseline/results.json"
+  },
+  {
+    "id": "docs-wagtail",
+    "url": "https://docs.wagtail.org/en/stable/",
+    "exit_code": 0,
+    "overall_with_tasks": 97,
+    "deterministic_only_derived": 95,
+    "check_status_counts": {
+      "pass": 33,
+      "warn": 3,
+      "fail": 1,
+      "na": 4,
+      "info": 2
+    },
+    "task_verdict_counts": {
+      "PASS": 3,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    },
+    "tasks": [
+      {
+        "name": "contact",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://docs.wagtail.org/en/stable/tutorial/create_contact_page.html",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "legal-policy",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 2 actions",
+        "steps": 2,
+        "final_url": "https://wagtail.org/privacy/",
+        "blocker": null,
+        "off_origin_final": true
+      },
+      {
+        "name": "help-or-about",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://wagtail.org/about-wagtail/",
+        "blocker": null,
+        "off_origin_final": true
+      }
+    ],
+    "failed_checks": [
+      {
+        "id": "structured-data",
+        "summary": "No JSON-LD found."
+      }
+    ],
+    "warned_checks": [
+      {
+        "id": "ambiguous-control-names",
+        "summary": "0 generic names and 2 names reused for different destinations."
+      },
+      {
+        "id": "snapshot-budget",
+        "summary": "Largest snapshot: 71,976 chars."
+      },
+      {
+        "id": "navigation-links-usable",
+        "summary": "1 of 20 navigation links are unnamed or have no real URL."
+      }
+    ],
+    "dimensions": [
+      {
+        "dimension": "perception",
+        "label": "PERCEPTION",
+        "score": 93,
+        "weight": 14,
+        "checks": [
+          "control-accessible-name",
+          "fake-interactive-elements",
+          "aria-validity",
+          "ambiguous-control-names",
+          "label-in-name",
+          "document-title-lang",
+          "heading-structure",
+          "image-alt",
+          "snapshot-budget"
+        ],
+        "passed": 7,
+        "warned": 2,
+        "failed": 0
+      },
+      {
+        "dimension": "navigation",
+        "label": "NAVIGATION",
+        "score": 86,
+        "weight": 10.5,
+        "checks": [
+          "landmarks",
+          "navigation-links-usable",
+          "hover-only-menus",
+          "key-pages-discoverable",
+          "search-available",
+          "sitemap",
+          "breadcrumbs"
+        ],
+        "passed": 6,
+        "warned": 1,
+        "failed": 0
+      },
+      {
+        "dimension": "interaction",
+        "label": "INTERACTION",
+        "score": 100,
+        "weight": 14,
+        "checks": [
+          "form-fields-labelled",
+          "overlay-interference",
+          "native-controls",
+          "required-fields-marked",
+          "keyboard-operability",
+          "cross-origin-iframe-controls",
+          "closed-shadow-roots",
+          "canvas-only-ui",
+          "target-size"
+        ],
+        "passed": 9,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "machine-interfaces",
+        "label": "MACHINE INTERFACES",
+        "score": 85,
+        "weight": 7,
+        "checks": [
+          "robots-agent-access",
+          "server-rendered-content",
+          "structured-data",
+          "llms-txt",
+          "webmcp",
+          "agent-manifests"
+        ],
+        "passed": 3,
+        "warned": 0,
+        "failed": 1
+      },
+      {
+        "dimension": "reliability",
+        "label": "RELIABILITY",
+        "score": 100,
+        "weight": 10.5,
+        "checks": [
+          "page-load",
+          "challenge-or-bot-wall",
+          "dom-stability",
+          "network-settles",
+          "console-errors"
+        ],
+        "passed": 5,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "safety",
+        "label": "SAFETY",
+        "score": 100,
+        "weight": 14,
+        "checks": [
+          "hidden-instructions",
+          "consequential-actions-guarded",
+          "forms-safe-transport",
+          "webmcp-tool-annotations",
+          "auth-boundary-signalled",
+          "exposed-secrets",
+          "download-and-popup-links"
+        ],
+        "passed": 3,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "task-success",
+        "label": "TASK SUCCESS",
+        "score": 100,
+        "weight": 30,
+        "checks": [
+          "task:contact",
+          "task:legal-policy",
+          "task:help-or-about"
+        ],
+        "passed": 3,
+        "warned": 0,
+        "failed": 0
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://docs.wagtail.org/en/stable/",
+        "finalUrl": "https://docs.wagtail.org/en/stable/",
+        "status": 200,
+        "title": "Welcome to Wagtail’s documentation — Wagtail Documentation 8.1 documentation",
+        "loadMs": 1874,
+        "interactiveCount": 386,
+        "snapshotChars": 71976,
+        "consoleErrors": 0
+      }
+    ],
+    "elapsed_seconds": 17.9,
+    "browser": "153.0.8010.12",
+    "report": "docs-wagtail/baseline/report.html",
+    "results": "docs-wagtail/baseline/results.json"
+  },
+  {
+    "id": "draftjs-exporter",
+    "url": "https://wagtail.github.io/draftjs_exporter/",
+    "exit_code": 0,
+    "overall_with_tasks": 80,
+    "deterministic_only_derived": 85,
+    "check_status_counts": {
+      "pass": 29,
+      "warn": 5,
+      "fail": 4,
+      "na": 3,
+      "info": 2
+    },
+    "task_verdict_counts": {
+      "PASS": 2,
+      "FAIL": 1,
+      "BLOCKED": 0,
+      "INCONCLUSIVE": 0
+    },
+    "tasks": [
+      {
+        "name": "contact",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 1 actions",
+        "steps": 1,
+        "final_url": "https://wagtail.github.io/draftjs_exporter/SUPPORT/",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "legal-policy",
+        "verdict": "FAIL",
+        "reason": "no control matched keywords [privacy, privacy policy, terms, legal, privacidade, policy, policies, conditions] on https://wagtail.github.io/draftjs_exporter/SECURITY/#security-policy",
+        "steps": 5,
+        "final_url": "https://wagtail.github.io/draftjs_exporter/SECURITY/#security-policy",
+        "blocker": null,
+        "off_origin_final": false
+      },
+      {
+        "name": "help-or-about",
+        "verdict": "PASS",
+        "reason": "success criteria satisfied after 2 actions",
+        "steps": 2,
+        "final_url": "https://wagtail.github.io/draftjs_exporter/SUPPORT/",
+        "blocker": null,
+        "off_origin_final": false
+      }
+    ],
+    "failed_checks": [
+      {
+        "id": "hover-only-menus",
+        "summary": "7 navigation links are only revealed on hover."
+      },
+      {
+        "id": "sitemap",
+        "summary": "No sitemap.xml and no Sitemap directive in robots.txt."
+      },
+      {
+        "id": "form-fields-labelled",
+        "summary": "0 label violations and 6 unnamed fields (86%)."
+      },
+      {
+        "id": "structured-data",
+        "summary": "No JSON-LD found."
+      }
+    ],
+    "warned_checks": [
+      {
+        "id": "ambiguous-control-names",
+        "summary": "0 generic names and 2 names reused for different destinations."
+      },
+      {
+        "id": "key-pages-discoverable",
+        "summary": "Found help, search; missing contact, about, privacy, terms."
+      },
+      {
+        "id": "llms-txt",
+        "summary": "No llms.txt published."
+      },
+      {
+        "id": "consequential-actions-guarded",
+        "summary": "1 of 1 consequential actions execute without a visible confirmation step."
+      },
+      {
+        "id": "download-and-popup-links",
+        "summary": "1 of 1 download/new-window links are not announced."
+      }
+    ],
+    "dimensions": [
+      {
+        "dimension": "perception",
+        "label": "PERCEPTION",
+        "score": 96,
+        "weight": 14,
+        "checks": [
+          "control-accessible-name",
+          "fake-interactive-elements",
+          "aria-validity",
+          "ambiguous-control-names",
+          "label-in-name",
+          "document-title-lang",
+          "heading-structure",
+          "image-alt",
+          "snapshot-budget"
+        ],
+        "passed": 8,
+        "warned": 1,
+        "failed": 0
+      },
+      {
+        "dimension": "navigation",
+        "label": "NAVIGATION",
+        "score": 69,
+        "weight": 10.5,
+        "checks": [
+          "landmarks",
+          "navigation-links-usable",
+          "hover-only-menus",
+          "key-pages-discoverable",
+          "search-available",
+          "sitemap",
+          "breadcrumbs"
+        ],
+        "passed": 3,
+        "warned": 1,
+        "failed": 2
+      },
+      {
+        "dimension": "interaction",
+        "label": "INTERACTION",
+        "score": 77,
+        "weight": 14,
+        "checks": [
+          "form-fields-labelled",
+          "overlay-interference",
+          "native-controls",
+          "required-fields-marked",
+          "keyboard-operability",
+          "cross-origin-iframe-controls",
+          "closed-shadow-roots",
+          "canvas-only-ui",
+          "target-size"
+        ],
+        "passed": 8,
+        "warned": 0,
+        "failed": 1
+      },
+      {
+        "dimension": "machine-interfaces",
+        "label": "MACHINE INTERFACES",
+        "score": 78,
+        "weight": 7,
+        "checks": [
+          "robots-agent-access",
+          "server-rendered-content",
+          "structured-data",
+          "llms-txt",
+          "webmcp",
+          "agent-manifests"
+        ],
+        "passed": 2,
+        "warned": 1,
+        "failed": 1
+      },
+      {
+        "dimension": "reliability",
+        "label": "RELIABILITY",
+        "score": 100,
+        "weight": 10.5,
+        "checks": [
+          "page-load",
+          "challenge-or-bot-wall",
+          "dom-stability",
+          "network-settles",
+          "console-errors"
+        ],
+        "passed": 5,
+        "warned": 0,
+        "failed": 0
+      },
+      {
+        "dimension": "safety",
+        "label": "SAFETY",
+        "score": 86,
+        "weight": 14,
+        "checks": [
+          "hidden-instructions",
+          "consequential-actions-guarded",
+          "forms-safe-transport",
+          "webmcp-tool-annotations",
+          "auth-boundary-signalled",
+          "exposed-secrets",
+          "download-and-popup-links"
+        ],
+        "passed": 3,
+        "warned": 2,
+        "failed": 0
+      },
+      {
+        "dimension": "task-success",
+        "label": "TASK SUCCESS",
+        "score": 67,
+        "weight": 30,
+        "checks": [
+          "task:contact",
+          "task:legal-policy",
+          "task:help-or-about"
+        ],
+        "passed": 2,
+        "warned": 0,
+        "failed": 1
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://wagtail.github.io/draftjs_exporter/",
+        "finalUrl": "https://wagtail.github.io/draftjs_exporter/",
+        "status": 200,
+        "title": "Draft.js exporter for Python (draftjs_exporter)",
+        "loadMs": 1968,
+        "interactiveCount": 51,
+        "snapshotChars": 13054,
+        "consoleErrors": 0
+      }
+    ],
+    "elapsed_seconds": 21.1,
+    "browser": "153.0.8010.12",
+    "report": "draftjs-exporter/baseline/report.html",
+    "results": "draftjs-exporter/baseline/results.json"
+  }
+]

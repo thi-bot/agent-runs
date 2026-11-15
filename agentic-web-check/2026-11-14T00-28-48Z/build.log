@@ -1,0 +1,19 @@
+
+> agentic-web-check@0.1.0 build /home/thibaudcolas/dev/agentic-web-check
+> tsup
+
+CLI Building entry: {"index":"src/index.ts","cli":"src/cli.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI tsup v8.5.1
+CLI Using tsup config: /home/thibaudcolas/dev/agentic-web-check/tsup.config.ts
+CLI Target: node20
+CLI Cleaning output folder
+ESM Build start
+ESM dist/index.js     212.18 KB
+ESM dist/cli.js       230.06 KB
+ESM dist/index.js.map 381.53 KB
+ESM dist/cli.js.map   397.15 KB
+ESM ⚡️ Build success in 72ms
+DTS Build start
+DTS ⚡️ Build success in 3065ms
+DTS dist/index.d.ts 17.11 KB

@@ -1,0 +1,1397 @@
+{
+  "pages": 196,
+  "status200": 153,
+  "status404": 43,
+  "responsivePages": 153,
+  "versionAliases": [
+    "https://guide.wagtail.org/en/concepts/page-status/?target_version=latest",
+    "https://guide.wagtail.org/en/how-to-guides/find-your-way-around/?target_version=latest",
+    "https://guide.wagtail.org/en/concepts/wagtail-interfaces/?target_version=latest",
+    "https://guide.wagtail.org/en/how-to-guides/promote-search-results/?target_version=latest"
+  ],
+  "uniqueSuccessfulContentRoutes": 149,
+  "byLocale": {
+    "en": 64,
+    "is": 64,
+    "fr": 25,
+    "pt-br": 40,
+    "ar": 3
+  },
+  "rules": {
+    "CONTRAST-001": {
+      "pages": 10,
+      "nodes": 32,
+      "states": [
+        "light-desktop",
+        "light-320px"
+      ]
+    },
+    "CONTRAST-002": {
+      "pages": 5,
+      "nodes": 10,
+      "states": [
+        "light-desktop",
+        "light-320px"
+      ]
+    },
+    "LANG-SHARED-001": {
+      "pages": 43,
+      "nodes": 43,
+      "states": [
+        "light-desktop"
+      ]
+    }
+  },
+  "responsiveOverflow": [
+    {
+      "url": "https://guide.wagtail.org/is/",
+      "width": 320,
+      "mobileScrollWidth": 347,
+      "textSpacingScrollWidth": 414
+    },
+    {
+      "url": "https://guide.wagtail.org/is/tutorials/getting-started/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 325
+    },
+    {
+      "url": "https://guide.wagtail.org/is/how-to/finding-your-way-around/",
+      "width": 320,
+      "mobileScrollWidth": 323,
+      "textSpacingScrollWidth": 395
+    },
+    {
+      "url": "https://guide.wagtail.org/is/how-to/manage-forms/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 335
+    },
+    {
+      "url": "https://guide.wagtail.org/is/how-to/managing-users-and-roles/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 381
+    },
+    {
+      "url": "https://guide.wagtail.org/is/how-to/how-to-promote-search-results/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 389
+    },
+    {
+      "url": "https://guide.wagtail.org/is/concepts/wagtail-interfaces/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 349
+    },
+    {
+      "url": "https://guide.wagtail.org/fr/fonctionnalites-d-accessibilite/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 342
+    },
+    {
+      "url": "https://guide.wagtail.org/is/reference/browser-issues/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 322
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/reference/browser-compatibility/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 355
+    },
+    {
+      "url": "https://guide.wagtail.org/is/releases/new-in-wagtail-6-1/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 336
+    },
+    {
+      "url": "https://guide.wagtail.org/is/releases/new-in-wagtail-5-2/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 391
+    },
+    {
+      "url": "https://guide.wagtail.org/is/about/",
+      "width": 320,
+      "mobileScrollWidth": 352,
+      "textSpacingScrollWidth": 424
+    },
+    {
+      "url": "https://guide.wagtail.org/is/accessibility-features/browser-level-user-interface-settings/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 329
+    },
+    {
+      "url": "https://guide.wagtail.org/is/accessibility-features/user-account-preferences/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 377
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/accessibility-features/browser-level-user-interface-settings/",
+      "width": 320,
+      "mobileScrollWidth": 320,
+      "textSpacingScrollWidth": 325
+    }
+  ],
+  "incidences": [
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/manage-pages/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(6)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 7.3\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(35)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.4\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/manage-snippets/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-002",
+      "nodes": [
+        {
+          "target": [
+            "p[data-block-key=\"mxiab\"] > a"
+          ],
+          "html": "<a href=\"/en/concepts/wagtail-interfaces/\">edit screen</a>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 3.92 (foreground color: #007d7e, background color: #e6e3f1, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/manage-users-and-roles/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-002",
+      "nodes": [
+        {
+          "target": [
+            "p[data-block-key=\"w4rx2\"] > a"
+          ],
+          "html": "<a href=\"/en/concepts/wagtail-interfaces/\">Admin interface</a>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/promote-search-results/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-002",
+      "nodes": [
+        {
+          "target": [
+            "p[data-block-key=\"hw6ku\"] > a"
+          ],
+          "html": "<a href=\"https://docs.wagtail.org/en/stable/reference/contrib/searchpromotions.html#module-wagtail.contrib.search_promotions\">Promoted search results</a>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/concepts/reports/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(20)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.0\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(25)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.4\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/reference/content-checks/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(4)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(16)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 7.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/reference/account-settings/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.3\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/getting-started/overview/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/find-your-way-around/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/reference/page-status-definitions/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/manage-pages/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/manage-documents/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/manage-images/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/how-to/how-to-promote-search-results/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-002",
+      "nodes": [
+        {
+          "target": [
+            "p[data-block-key=\"hw6ku\"] > a"
+          ],
+          "html": "<a href=\"https://docs.wagtail.org/en/stable/reference/contrib/searchpromotions.html#module-wagtail.contrib.search_promotions\">hér</a>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/concepts/wagtail-interfaces/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/concepts/pages/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/concepts/reports/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/concepts/users-status/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/reference/browser-compatibility/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/reference/content-checks/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(4)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(16)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 7.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/fr/reference/content-checks/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(4)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(16)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 7.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/reference/content-checks/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(4)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(16)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 7.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/reference/account-settings/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.3\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/fr/reference/account-settings/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.3\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/reference/account-settings/",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.3\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-7-1/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-7-0/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-6-4/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-6-3/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/fr/how-to-guides/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/tutorials/getting-started/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/getting-started/overview/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/how-to/finding-your-way-around/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/how-to-guides/find-your-way-around/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/how-to/creating-and-editing-pages/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/how-to/managing-documents/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/how-to/managing-images/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/concepts/wagtail-interfaces/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/concepts/wagtail-interfaces/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/concepts/pages/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/concepts/reports/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/concepts/users-status/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/reference/browser-issues/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/reference/browser-compatibility/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/releases/new-in-wagtail-7-1/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/fr/releases/new-in-wagtail-7-1/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/releases/new-in-wagtail-7-1/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/releases/new-in-wagtail-7-0/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/fr/releases/new-in-wagtail-7-0/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/releases/new-in-wagtail-7-0/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/releases/new-in-wagtail-6-4/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/fr/releases/new-in-wagtail-6-4/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/promote-search-results/?target_version=latest",
+      "status": 200,
+      "state": "light-desktop",
+      "id": "color-contrast",
+      "rule": "CONTRAST-002",
+      "nodes": [
+        {
+          "target": [
+            "p[data-block-key=\"hw6ku\"] > a"
+          ],
+          "html": "<a href=\"https://docs.wagtail.org/en/stable/reference/contrib/searchpromotions.html#module-wagtail.contrib.search_promotions\">Promoted search results</a>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/releases/new-in-wagtail-6-4/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/releases/new-in-wagtail-6-3/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/fr/releases/new-in-wagtail-6-3/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/releases/new-in-wagtail-6-3/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"ltr\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/ar/about/None/",
+      "status": 404,
+      "state": "light-desktop",
+      "id": "html-has-lang",
+      "rule": "LANG-SHARED-001",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "html": "<html lang=\"\" dir=\"rtl\" class=\"\">",
+          "evidence": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/manage-pages/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(6)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 7.3\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(35)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.4\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/manage-snippets/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-002",
+      "nodes": [
+        {
+          "target": [
+            "p[data-block-key=\"mxiab\"] > a"
+          ],
+          "html": "<a href=\"/en/concepts/wagtail-interfaces/\">edit screen</a>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 3.92 (foreground color: #007d7e, background color: #e6e3f1, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/manage-users-and-roles/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-002",
+      "nodes": [
+        {
+          "target": [
+            "p[data-block-key=\"w4rx2\"] > a"
+          ],
+          "html": "<a href=\"/en/concepts/wagtail-interfaces/\">Admin interface</a>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/promote-search-results/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-002",
+      "nodes": [
+        {
+          "target": [
+            "p[data-block-key=\"hw6ku\"] > a"
+          ],
+          "html": "<a href=\"https://docs.wagtail.org/en/stable/reference/contrib/searchpromotions.html#module-wagtail.contrib.search_promotions\">Promoted search results</a>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/concepts/reports/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(20)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.0\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(25)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.4\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/reference/content-checks/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(4)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(16)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 7.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/reference/account-settings/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.3\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/how-to/how-to-promote-search-results/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-002",
+      "nodes": [
+        {
+          "target": [
+            "p[data-block-key=\"hw6ku\"] > a"
+          ],
+          "html": "<a href=\"https://docs.wagtail.org/en/stable/reference/contrib/searchpromotions.html#module-wagtail.contrib.search_promotions\">hér</a>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/reference/content-checks/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(4)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(16)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 7.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/fr/reference/content-checks/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(4)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(16)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 7.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/reference/content-checks/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(4)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".version-badge.version-badge--added:nth-child(16)"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 7.2\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/is/reference/account-settings/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.3\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/fr/reference/account-settings/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.3\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/pt-br/reference/account-settings/",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-001",
+      "nodes": [
+        {
+          "target": [
+            ".version-badge"
+          ],
+          "html": "<span class=\"version-badge version-badge--added\">\n    \n        Added in Wagtail 6.3\n    \n</span>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "url": "https://guide.wagtail.org/en/how-to-guides/promote-search-results/?target_version=latest",
+      "status": 200,
+      "state": "light-320px",
+      "id": "color-contrast",
+      "rule": "CONTRAST-002",
+      "nodes": [
+        {
+          "target": [
+            "p[data-block-key=\"hw6ku\"] > a"
+          ],
+          "html": "<a href=\"https://docs.wagtail.org/en/stable/reference/contrib/searchpromotions.html#module-wagtail.contrib.search_promotions\">Promoted search results</a>",
+          "evidence": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #007d7e, background color: #e0eff0, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ]
+}

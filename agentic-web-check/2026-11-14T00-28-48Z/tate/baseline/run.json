@@ -1,0 +1,40 @@
+{
+  "target": {
+    "id": "tate",
+    "url": "https://www.tate.org.uk/",
+    "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/tate/targets.json",
+    "original_sample_urls": [
+      "https://www.tate.org.uk/",
+      "https://www.tate.org.uk/visit/tate-modern",
+      "https://www.tate.org.uk/whats-on",
+      "https://www.tate.org.uk/whats-on/tate-modern/julio-le-parc",
+      "https://www.tate.org.uk/art/stories",
+      "https://www.tate.org.uk/about-us/digital/green-website",
+      "https://www.tate.org.uk/about-us/policies-and-procedures/website-terms-use/cookie-policy"
+    ]
+  },
+  "command": [
+    "node",
+    "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+    "scan",
+    "https://www.tate.org.uk/",
+    "--pages",
+    "1",
+    "--timeout",
+    "30000",
+    "--tasks",
+    "default",
+    "--agent",
+    "baseline",
+    "--out",
+    "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/tate/baseline",
+    "--no-color",
+    "--verbose"
+  ],
+  "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+  "started_at": "2026-11-14T00:29:42.045735+00:00",
+  "timeout_seconds": 480,
+  "exit_code": 0,
+  "finished_at": "2026-11-14T00:30:03.837548+00:00",
+  "results_present": true
+}

@@ -1,0 +1,8 @@
+› loading https://blog.google/
+› loaded https://blog.google/ (HTTP 200, 524 nodes)
+› probing robots.txt, sitemap, llms.txt, well-known manifests
+› running 43 checks
+› running 3 tasks with the baseline agent
+› task contact: FAIL (3 steps) no control matched keywords [contact, contact us, get in touch, support, email, phone, contacto, address] on https://blog.google/
+› task legal-policy: FAIL (3 steps) page state unchanged after three actions (controls had no visible effect or opened new tabs)
+› task help-or-about: PASS (6 steps) success criteria satisfied after 6 actions

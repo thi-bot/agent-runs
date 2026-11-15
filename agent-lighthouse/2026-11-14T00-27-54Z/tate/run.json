@@ -1,0 +1,33 @@
+{
+  "id": "tate",
+  "url": "https://www.tate.org.uk/",
+  "command": [
+    "node",
+    "/home/thibaudcolas/dev/agent-lighthouse/packages/cli/dist/bin.js",
+    "https://www.tate.org.uk/",
+    "--config",
+    "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/config.json",
+    "--trace",
+    "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/audit-trace.ndjson",
+    "--log-file",
+    "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate/scan-log.jsonl",
+    "--progress-json"
+  ],
+  "cwd": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+  "started_at": "2026-11-14T00:29:12.323648+00:00",
+  "output_directory": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/tate",
+  "exit_code": 0,
+  "finished_at": "2026-11-14T00:30:33.672884+00:00",
+  "elapsed_seconds": 81.349,
+  "overall_score": 80,
+  "scan_validity": {
+    "judgeable": true,
+    "evidence": {
+      "origin-reachable": true,
+      "unblocked-fetches": true,
+      "rendered-body": true,
+      "sample-adequate": true
+    },
+    "reasons": {}
+  }
+}

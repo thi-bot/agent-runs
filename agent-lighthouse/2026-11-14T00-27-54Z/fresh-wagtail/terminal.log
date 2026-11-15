@@ -1,0 +1,59 @@
+
+[1m[36m🗼 Agent Lighthouse[0m [90mv10.6.0[0m
+[90mThe Open-Source Lighthouse for the Agentic Web[0m
+
+Auditing [1mhttps://wagtail.org/[0m ...
+
+[1m────────────────────────────────────────────────────────────────────────[0m
+[1mOVERALL AGENT READINESS:[0m [1m86/100[0m (PARTIALLY-READY)
+Target: https://wagtail.org/ | Pages: 1 | Duration: 20.4s
+Conditions: Page: [1mhomepage[0m (declared) | Origin: [1mfresh[0m | Coverage: [1m83/132.2[0m mass (63%) | Unscored: [1m122[0m (58 advisory, 0 gated)
+[1m────────────────────────────────────────────────────────────────────────[0m
+
+Page scope
+Detected page types express uncertainty. Type-specific findings on detected pages are advisory.
+https://wagtail.org/: homepage (declared, strong)
+  Signals: declared:homepage
+Fetch: https://wagtail.org/ — read, HTTP 200; homepage (declared)
+0 additional advisory populations. Use --debug-audit <id> for URLs and findings.
+
+[1m📊 CATEGORIES:[0m
+
+  [1mAgentic Readiness[0m [90m—[0m 97/100
+    [32m•[0m Access & Crawl Control               : [32m100/100[0m  [90m(26✓ 0! 0✗)[0m
+    [32m•[0m Machine Discovery                    : [32m100/100[0m  [90m(21✓ 0! 0✗ 7 advisory)[0m
+    [90m•[0m Agent Interfaces                     : [90mnot assessed[0m  [90m(0✓ 0! 1✗ 1 advisory)[0m
+    [33m•[0m Agentic Commerce                     : [33m 50/100[0m  [90m(1✓ 0! 1✗)[0m
+
+  [1mAI Search Optimization[0m [90m—[0m 75/100
+    [34m•[0m Content Extraction                   : [34m 72/100[0m  [90m(12✓ 3! 5✗ 3 advisory)[0m
+    [32m•[0m Structured Data                      : [32m100/100[0m  [90m(3✓ 0! 0✗)[0m
+    [34m•[0m Answer Readiness                     : [34m 70/100[0m  [90m(13✓ 1! 6✗ 8 advisory)[0m
+
+  [1mTechnical Foundation[0m [90m—[0m 79/100
+    [34m•[0m Agent Operability & Safety           : [34m 79/100[0m  [90m(21✓ 3! 4✗ 3 advisory)[0m
+
+[1mℹ  No AI vendor reads this:[0m
+    [33m![0m llms.txt exists
+      No AI vendor documents reading llms.txt or llms-full.txt from a website. In a 137,210-domain study, 97% of llms.txt files received no requests in a month, and AI tools never requested a missing one.
+      [90mhttps://ahrefs.com/blog/llmstxt-study/[0m
+    [33m![0m llms.txt is well-formed
+      No AI vendor documents reading llms.txt or llms-full.txt from a website. In a 137,210-domain study, 97% of llms.txt files received no requests in a month, and AI tools never requested a missing one.
+      [90mhttps://ahrefs.com/blog/llmstxt-study/[0m
+    [33m![0m llms.txt links include descriptions
+      No AI vendor documents reading llms.txt or llms-full.txt from a website. In a 137,210-domain study, 97% of llms.txt files received no requests in a month, and AI tools never requested a missing one.
+      [90mhttps://ahrefs.com/blog/llmstxt-study/[0m
+    [33m![0m llms.txt links are valid
+      No AI vendor documents reading llms.txt or llms-full.txt from a website. In a 137,210-domain study, 97% of llms.txt files received no requests in a month, and AI tools never requested a missing one.
+      [90mhttps://ahrefs.com/blog/llmstxt-study/[0m
+    [33m![0m RSS feed content complete
+      No search engine or AI vendor documents reading full article text from a feed. Documented consumers take URLs from feeds and fetch the article page itself. Instead: Keep the feed for URL discovery (machine-discovery/rss-feed). Excerpt feeds are valid.
+      [90mhttps://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap[0m
+    [33m![0m CORS on AI files
+      No AI crawler or assistant documents reading these files from a browser. They fetch them from servers, where CORS does not apply, so CORS headers on them are not needed.
+      [90mhttps://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS[0m
+
+  [90m• JSON Report:[0m    /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/agent-lighthouse-report.json
+  [90m• HTML Report:[0m    /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/agent-lighthouse-report.html
+  [90m• Markdown Report:[0m /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/agent-lighthouse-report.md
+  [90m• Audit trace:[0m    /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/fresh-wagtail/audit-trace.ndjson

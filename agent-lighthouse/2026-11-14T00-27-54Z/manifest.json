@@ -1,0 +1,25 @@
+{
+  "tool": "ForkPoint/agent-lighthouse",
+  "repository": "/home/thibaudcolas/dev/agent-lighthouse",
+  "remote": "https://github.com/ForkPoint/agent-lighthouse",
+  "revision": "6f8097bb883ab2c9af6e3e4c1b0c64502c262603",
+  "cli_version": "10.6.0",
+  "node_version": "v26.8.1",
+  "pnpm_version": "10.34.6",
+  "install_command": "npx --yes pnpm@10.34.6 install --frozen-lockfile",
+  "build_command": "npx --yes pnpm@10.34.6 --filter @forkpoint/agent-lighthouse... build",
+  "mode": "HTTP baseline; no browser snapshot supplied; no LLM or agent journeys",
+  "scope": "One declared entry homepage per site plus engine built-in root-file and sitemap probes; original sustainability sample pages are not declared in this baseline.",
+  "settings": {
+    "timeout_seconds": 180,
+    "experimental": false,
+    "categories": "all default",
+    "pageType": "homepage"
+  },
+  "classification_reason": "Each target is the homepage of its site or documentation subsite, even when its entry URL has a language/version/project path. Shared-host and origin-level checks may reflect the hosting origin rather than the subsite.",
+  "original_targets": "targets.json",
+  "finished_at": "2026-11-14T00:30:38.673416+00:00",
+  "site_count": 9,
+  "scan_parallelism": 3,
+  "source_lockfile_sha256": "ee6f321ffaed066f5f202e7c55be5db8999dc2ed5780956b1393973bb308bad4"
+}

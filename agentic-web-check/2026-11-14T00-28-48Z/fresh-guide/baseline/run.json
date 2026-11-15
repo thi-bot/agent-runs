@@ -1,0 +1,39 @@
+{
+  "target": {
+    "id": "fresh-guide",
+    "url": "https://guide.wagtail.org/en/",
+    "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/fresh-guide/targets.json",
+    "original_sample_urls": [
+      "https://guide.wagtail.org/en/",
+      "https://guide.wagtail.org/en/getting-started/overview/",
+      "https://guide.wagtail.org/en/how-to-guides/manage-images/",
+      "https://guide.wagtail.org/en/search/?query=images",
+      "https://guide.wagtail.org/en/releases/new-in-wagtail-8-1/",
+      "https://guide.wagtail.org/en/about/"
+    ]
+  },
+  "command": [
+    "node",
+    "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+    "scan",
+    "https://guide.wagtail.org/en/",
+    "--pages",
+    "1",
+    "--timeout",
+    "30000",
+    "--tasks",
+    "default",
+    "--agent",
+    "baseline",
+    "--out",
+    "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/fresh-guide/baseline",
+    "--no-color",
+    "--verbose"
+  ],
+  "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+  "started_at": "2026-11-14T00:30:36.960173+00:00",
+  "timeout_seconds": 480,
+  "exit_code": 0,
+  "finished_at": "2026-11-14T00:30:49.021661+00:00",
+  "results_present": true
+}

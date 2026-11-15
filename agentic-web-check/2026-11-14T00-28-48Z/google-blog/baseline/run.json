@@ -1,0 +1,39 @@
+{
+  "target": {
+    "id": "google-blog",
+    "url": "https://blog.google/",
+    "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/google-blog/targets.json",
+    "original_sample_urls": [
+      "https://blog.google/",
+      "https://blog.google/company-news/outreach-and-initiatives/sustainability/",
+      "https://blog.google/company-news/outreach-and-initiatives/sustainability/google-stegra-green-steel/",
+      "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge-on-shelves-now/",
+      "https://blog.google/newsletter-subscribe/",
+      "https://blog.google/about/"
+    ]
+  },
+  "command": [
+    "node",
+    "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+    "scan",
+    "https://blog.google/",
+    "--pages",
+    "1",
+    "--timeout",
+    "30000",
+    "--tasks",
+    "default",
+    "--agent",
+    "baseline",
+    "--out",
+    "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/google-blog/baseline",
+    "--no-color",
+    "--verbose"
+  ],
+  "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+  "started_at": "2026-11-14T00:30:00.038832+00:00",
+  "timeout_seconds": 480,
+  "exit_code": 0,
+  "finished_at": "2026-11-14T00:31:01.306544+00:00",
+  "results_present": true
+}

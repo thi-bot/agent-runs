@@ -1,0 +1,130 @@
+
+AGENTIC WEB CHECK  v0.1.0 · methodology v1
+https://www.w3.org/
+Behavioural verification (3 tasks, baseline agent)
+
+Agent Readiness   91/100
+
+PERCEPTION           80   7 pass · 2 warn · 0 fail · 9 of 9 checks scored
+NAVIGATION           58   2 pass · 2 warn · 2 fail · 6 of 7 checks scored
+INTERACTION         100   7 pass · 0 warn · 0 fail · 7 of 9 checks scored
+MACHINE INTERFACES   78   2 pass · 1 warn · 1 fail · 4 of 6 checks scored
+RELIABILITY         100   5 pass · 0 warn · 0 fail · 5 of 5 checks scored
+SAFETY              100   2 pass · 0 warn · 0 fail · 2 of 7 checks scored
+TASK SUCCESS        100   3 pass · 0 warn · 0 fail · 3 of 3 tasks scored
+
+25 passed  5 warnings  3 failures  10 not applicable/info
+
+FAIL
+  ✗ Menus do not depend on hover [hover-only-menus, navigation, weight 3]
+    53 navigation links are only revealed on hover.
+    · observed: 53 nav links hidden until hover · expected: submenu behind a button with aria-expanded, or always rendered
+  ✗ A sitemap is published [sitemap, navigation, weight 3]
+    No sitemap.xml and no Sitemap directive in robots.txt.
+    · observed: HTTP 404 · expected: urlset/sitemapindex XML
+  ✗ Structured data (JSON-LD) describes the page [structured-data, machine-interfaces, weight 3]
+    No JSON-LD found.
+    · observed: types: none · expected: Organization, WebSite, WebPage, Product, Offer, FAQPage
+
+WARNING
+  ! Interactive controls have accessible names [control-accessible-name, perception, weight 10]
+    1 of 48 interactive controls (2%) have no accessible name.
+    · link [ref=e39] → https://auth.w3.org/?url=https://www.w3.org/ [cursor=pointer] · observed: no accessible name · expected: link with a name
+  ! Clickable elements are real controls, not generic elements [fake-interactive-elements, perception, weight 7]
+    8 clickable elements without a control role (14% of clickables).
+    · generic [ref=e124] [cursor=pointer] · observed: generic element with pointer cursor · expected: button or link role
+    · generic [ref=e130] [cursor=pointer] · observed: generic element with pointer cursor · expected: button or link role
+    · generic [ref=e136] [cursor=pointer] · observed: generic element with pointer cursor · expected: button or link role
+    · generic [ref=e142] [cursor=pointer] · observed: generic element with pointer cursor · expected: button or link role
+    · <div> "The multiplier effect: How authoring tools can transform web" · observed: click listener · expected: semantic control
+    · <p> "Blog" · observed: cursor:pointer · expected: semantic control
+    · <div> "W3C Newsletter - October 2026 W3C President and Interim CEO " · observed: click listener · expected: semantic control
+    · <p> "Blog" · observed: cursor:pointer · expected: semantic control
+    · … 4 more in JSON/HTML report
+  ! Navigation links are named and resolvable [navigation-links-usable, navigation, weight 7]
+    1 of 5 navigation links are unnamed or have no real URL.
+    · link [ref=e39] → https://auth.w3.org/?url=https://www.w3.org/ [cursor=pointer] · observed: unnamed nav link · expected: named link with a real URL
+  ! llms.txt is published and well-formed [llms-txt, machine-interfaces, weight 3]
+    No llms.txt published.
+    · observed: HTTP 404 · expected: markdown file with H1
+  ! Site search is exposed [search-available, navigation, weight 1]
+    No search control or SearchAction found on the start page.
+    · observed: no search found · expected: role=search form or SearchAction
+
+PASS
+  ✓ Page loads successfully [page-load] HTTP 200 in 1321 ms.
+  ✓ No bot challenge blocks automated browsers [challenge-or-bot-wall] No bot challenge detected.
+  ✓ No overlay blocks the page at load [overlay-interference] No blocking overlays at load.
+  ✓ No hidden instructions aimed at AI agents [hidden-instructions] No instruction-like hidden text (41 hidden blocks inspected).
+  ✓ The DOM settles after load [dom-stability] Worst page: 0 late mutations, CLS 0.074.
+  ✓ ARIA attributes and roles are valid [aria-validity] No ARIA validity violations.
+  ✓ Page regions are exposed as landmarks [landmarks] Main and navigation landmarks present.
+  ✓ Controls are native or complete ARIA widgets [native-controls] No custom-only widgets detected.
+  ✓ robots.txt lets user-triggered agents fetch the page [robots-agent-access] User-triggered agents may fetch this page.
+  ✓ Content is available without executing JavaScript [server-rendered-content] 100% of rendered text is present without JavaScript.
+  ✓ Network activity settles [network-settles] Network idle reached on all pages.
+  ✓ No runtime errors during load [console-errors] No runtime errors.
+  ✓ Control names are specific, not repeated or generic [ambiguous-control-names] Control names are specific.
+  ✓ Visible labels are part of accessible names [label-in-name] Visible labels match accessible names.
+  ✓ Pages have a descriptive title and a language [document-title-lang] Titles and language are set.
+  ✓ Headings form a usable outline [heading-structure] Heading outline is sound.
+  ✓ Images carry alternative text [image-alt] Images have alternative text.
+  ✓ Accessibility snapshot fits an agent context budget [snapshot-budget] Largest snapshot: 11,539 chars.
+  ✓ Common destinations are discoverable from the start page [key-pages-discoverable] Found contact, about, help, privacy, terms, search; missing none.
+  ✓ Controls are keyboard operable [keyboard-operability] No keyboard operability problems detected.
+  ✓ Controls are not confined to cross-origin iframes [cross-origin-iframe-controls] No controls confined to cross-origin iframes.
+  ✓ No controls hidden in closed shadow roots [closed-shadow-roots] No closed shadow roots.
+  ✓ The UI is not rendered only on canvas [canvas-only-ui] No canvas-only UI.
+  ✓ No secret-looking tokens in page source [exposed-secrets] No secret-looking tokens found.
+  ✓ Targets are large enough [target-size] Targets meet the minimum size.
+
+NOT APPLICABLE / INFO
+  · Inner pages expose breadcrumbs [breadcrumbs] No pages deeper than one level were scanned; breadcrumbs not expected.
+  · Form fields have labels and names [form-fields-labelled] No form fields on the scanned pages.
+  · Required fields are marked programmatically [required-fields-marked] No forms on the scanned pages.
+  · WebMCP tools are exposed [webmcp] No WebMCP tools detected.
+  · Agent manifests (agent-card, UCP, ARD) are published [agent-manifests] No agent manifests (optional).
+  · Consequential actions require confirmation [consequential-actions-guarded] No consequential actions found on the scanned pages.
+  · Forms submit safely [forms-safe-transport] No forms on the scanned pages.
+  · WebMCP tools declare safety annotations [webmcp-tool-annotations] No WebMCP tools.
+  · Authentication boundaries are clearly signalled [auth-boundary-signalled] No authentication forms on the scanned pages.
+  · Downloads and new windows are announced [download-and-popup-links] No download or new-window links.
+
+BEHAVIOURAL TESTS
+  Find the company's contact information (an email address or phone n…: PASS (1 steps, 2.7 s)
+    success criteria satisfied after 1 actions
+    1. click {"ref":"e155"} → clicked link "Contact"
+  Find the page describing the privacy policy or terms of service.: PASS (1 steps, 4.0 s)
+    success criteria satisfied after 1 actions
+    1. click {"ref":"e54"} → clicked link "privacy"
+  Find a page that explains what the company or product does (about, …: PASS (2 steps, 3.0 s)
+    success criteria satisfied after 2 actions
+    1. click {"ref":"e33"} → clicked button "About"
+    2. click {"ref":"e188"} → clicked link "Find out more about us"
+
+Suggested fixes
+  1. Menus do not depend on hover [hover-only-menus, weight 3]
+     Expose submenus through a <button aria-expanded> toggle, or render submenu links in the
+     page (footer sitemap) so they are reachable without hover.
+  2. A sitemap is published [sitemap, weight 3]
+     Publish /sitemap.xml and reference it with a Sitemap: line in robots.txt.
+  3. Structured data (JSON-LD) describes the page [structured-data, weight 3]
+     Add JSON-LD for Organization/WebSite on the home page and Product/Offer, FAQPage,
+     ContactPoint or BreadcrumbList on inner pages.
+  4. Interactive controls have accessible names [control-accessible-name, weight 10]
+     Give every button, link and form control a visible text label or an
+     aria-label/aria-labelledby. For icon buttons use aria-label; for inputs use <label for>.
+  5. Clickable elements are real controls, not generic elements [fake-interactive-elements, weight 7]
+     Use <button> or <a href> for actions and navigation. If a custom element must stay, add
+     role="button", tabindex="0", a name and keyboard handlers.
+  6. Navigation links are named and resolvable [navigation-links-usable, weight 7]
+     Use real URLs in href for navigation items; name every nav link; if JavaScript handles
+     navigation, keep a working href as fallback.
+  7. llms.txt is published and well-formed [llms-txt, weight 3]
+     Publish /llms.txt with an H1, a one-paragraph blockquote and H2 sections of markdown links
+     to the most useful pages.
+  8. Site search is exposed [search-available, weight 1]
+     Expose search as <form role="search"> with a labelled <input type="search">, and declare a
+     SearchAction in WebSite JSON-LD.
+
+1 pages · 16.1 s · chromium 153.0.8010.12 · 2026-11-14T00:30:20.783Z

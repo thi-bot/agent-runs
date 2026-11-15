@@ -1,0 +1,33 @@
+{
+  "id": "lowtech",
+  "url": "https://solar.lowtechmagazine.com/",
+  "command": [
+    "node",
+    "/home/thibaudcolas/dev/agent-lighthouse/packages/cli/dist/bin.js",
+    "https://solar.lowtechmagazine.com/",
+    "--config",
+    "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/lowtech/config.json",
+    "--trace",
+    "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/lowtech/audit-trace.ndjson",
+    "--log-file",
+    "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/lowtech/scan-log.jsonl",
+    "--progress-json"
+  ],
+  "cwd": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z",
+  "started_at": "2026-11-14T00:29:38.143947+00:00",
+  "output_directory": "/home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/lowtech",
+  "exit_code": 0,
+  "finished_at": "2026-11-14T00:29:50.304183+00:00",
+  "elapsed_seconds": 12.16,
+  "overall_score": 79,
+  "scan_validity": {
+    "judgeable": true,
+    "evidence": {
+      "origin-reachable": true,
+      "unblocked-fetches": true,
+      "rendered-body": true,
+      "sample-adequate": true
+    },
+    "reasons": {}
+  }
+}

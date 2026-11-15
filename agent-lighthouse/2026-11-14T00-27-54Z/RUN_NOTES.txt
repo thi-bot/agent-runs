@@ -1,0 +1,26 @@
+Agent Lighthouse baseline campaign
+
+Local checkout: /home/thibaudcolas/dev/agent-lighthouse
+Revision: 6f8097bb883ab2c9af6e3e4c1b0c64502c262603
+CLI/core version: 10.6.0
+
+Scope: nine example-site entry pages from web-sustainability-agents. Each is explicitly declared homepage of the site/subsite. HTTP evidence only, plus engine built-in root-file and sitemap probes. No browser DOM supplied, no LLM, no agent task execution, no target source-code review.
+
+Scores describe this engine, population and time, not site-wide or cross-tool readiness. A missing score remains null. Scored-status counts exclude zero-weight/informative checks; category scores with no assessed mass remain null. Original sustainability samples differ from this baseline.
+
+For guide.wagtail.org/en/, docs.wagtail.org/en/stable/, and wagtail.github.io/draftjs_exporter/, the entry is a documentation subsite homepage. Origin/root-file checks can describe the host rather than that subsite, especially on shared GitHub Pages hosting.
+
+Site | Score | Pages | Audit errors | Budget exhausted | Request stop
+tate | 80 | 1 | 0 | False | None
+nhs | 89 | 1 | 0 | False | None
+google-blog | 84 | 1 | 0 | False | None
+w3c | 82 | 1 | 0 | False | None
+lowtech | 79 | 1 | 0 | False | None
+fresh-guide | 85 | 1 | 0 | False | None
+fresh-wagtail | 86 | 1 | 0 | False | None
+docs-wagtail | 81 | 1 | 0 | False | None
+draftjs-exporter | 79 | 1 | 0 | False | None
+
+Artifacts: summary.json and summary.csv aggregate the saved reports; findings.json flattens all top-level checks; audit-errors.json preserves scanner audit errors. Each site directory includes unmodified engine reports, full request log, audit trace, progress events, terminal output, exact config and invocation with timestamps/exit status. manifest.json and setup/ record checkout/build provenance. targets.json preserves original source sample URLs but does not claim they were all scanned.
+
+No target files were changed. No forms or transactions were submitted. Findings are unreviewed scanner findings; inspect evidence before adopting recommendations.

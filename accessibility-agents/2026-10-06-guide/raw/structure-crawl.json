@@ -1,0 +1,4146 @@
+[
+  {
+    "url": "https://guide.wagtail.org/en/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Wagtail user guide"
+      },
+      {
+        "level": 2,
+        "text": "Getting started"
+      },
+      {
+        "level": 2,
+        "text": "How-to"
+      },
+      {
+        "level": 2,
+        "text": "Concepts"
+      },
+      {
+        "level": 2,
+        "text": "Reference"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Wagtail user guide\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/getting-started/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Getting started"
+      },
+      {
+        "level": 2,
+        "text": "In this section"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Getting started\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/getting-started/overview/",
+    "images": [
+      {
+        "alt": "Screenshot of \"Sign in to Wagtail\" screen, with username, password, \"Remember me\" fields, a \"Forgotten password?\" link, and a submit button. Shows the Wagtail logo at the bottom, and has a gradient background from teal to indigo",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Screenshot_of_22Sign_in_to_Wagtail22_screen_wi.width-900_zfnbcw5.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Overview"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "The Wagtail demo site"
+      },
+      {
+        "level": 2,
+        "text": "Log in to the admin interface"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Overview\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "How-to guides"
+      },
+      {
+        "level": 2,
+        "text": "In this section"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "How-to guides\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/find-your-way-around/",
+    "images": [
+      {
+        "alt": "Wagtail dashboard with new Things in Wagtail 4 have changed banner",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Wagtail_dashboard_with_new_Things_in_Wagtail_4.width-900_RFwEK1H.png",
+        "width": "900"
+      },
+      {
+        "alt": "Screenshot of Wagtails dashboard with sidebar header summary metrics and listing for pages in different states",
+        "class": "richtext-image full-width",
+        "height": "773",
+        "src": "https://guide-media.wagtail.org/images/Screenshot_of_Wagtails_dashboard_with_sidebar_.width-900_QlyJUwJ.png",
+        "width": "900"
+      },
+      {
+        "alt": "Listing of pages with highlight on the arrow of a child page Blog when hovered over",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Listing_of_pages_with_highlight_on_the_arrow_o.width-900_uCnVcoL.png",
+        "width": "900"
+      },
+      {
+        "alt": "The page listing with checkboxes in the first column two of which are checked At the bottom is an actions menu with different buttons and a 2 pages selected label",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/The_page_listing_with_checkboxes_in_the_first_.width-900_XMD8r5A.png",
+        "width": "900"
+      },
+      {
+        "alt": "Close-up of the pages breadcrumb with icon buttons next to it The breadcrumb reads Root  Welcome to the Wagtail bakery  Breads",
+        "class": "richtext-image full-width",
+        "height": "59",
+        "src": "https://guide-media.wagtail.org/images/Close-up_of_the_pages_breadcrumb_with_icon_but.width-900_ajJ67se.png",
+        "width": "900"
+      },
+      {
+        "alt": "Breads page listing with expanded three dots Actions menu in the header showing 7 different page actions One Add child page is highlighted in red",
+        "class": "richtext-image full-width",
+        "height": "351",
+        "src": "https://guide-media.wagtail.org/images/Breads_page_listing_with_expanded_three_dots_A.width-900_9Cddamn.png",
+        "width": "900"
+      },
+      {
+        "alt": "Search screen with bread typed in focused field and There are 6 matching pages underneath The results show filters and sorting options and four results rows are visible underneath",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Search_screen_with_bread_typed_in_focused_fiel.width-900_c6bO1hD.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Find your way around"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "The Dashboard"
+      },
+      {
+        "level": 3,
+        "text": "How to reach the Dashboard"
+      },
+      {
+        "level": 3,
+        "text": "The Dashboard panels"
+      },
+      {
+        "level": 3,
+        "text": "The dashboard panels"
+      },
+      {
+        "level": 4,
+        "text": "Your pages in a workflow"
+      },
+      {
+        "level": 4,
+        "text": "Awaiting your review"
+      },
+      {
+        "level": 4,
+        "text": "Your most recent edits"
+      },
+      {
+        "level": 4,
+        "text": "Your locked pages"
+      },
+      {
+        "level": 3,
+        "text": "The Sidebar"
+      },
+      {
+        "level": 3,
+        "text": "The Explorer page"
+      },
+      {
+        "level": 3,
+        "text": "Search Wagtail"
+      },
+      {
+        "level": 3,
+        "text": "Adjust Wagtail's settings"
+      },
+      {
+        "level": 3,
+        "text": "Get help"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Find your way around\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-pages/",
+    "images": [
+      {
+        "alt": "Breads page listing with expanded three dots Actions menu in the header showing 7 different page actions One Add child page is highlighted in red",
+        "class": "richtext-image full-width",
+        "height": "351",
+        "src": "https://guide-media.wagtail.org/images/Breads_page_listing_with_expanded_three_dots_A.width-900_9Cddamn.png",
+        "width": "900"
+      },
+      {
+        "alt": "Autosave indicator in page editor, saved status",
+        "class": "richtext-image full-width",
+        "height": "459",
+        "src": "https://guide-media.wagtail.org/images/Autosave_indicator_-_saved.original.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Page editor for Bread and Circuses page The form to the left and to the right the Preview side panel is expanded showing the page as it would appear to users on Mobile devices",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Page_editor_for_Bread_and_Circuses_page_The_fo.width-900_cb8HY0Q.png",
+        "width": "900"
+      },
+      {
+        "alt": "Validation error message on page publish with go to first error shortcut button",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Validation_error_message_on_page_publish_with_.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Close-up of a rich text block with a text paragraph and then a thumbnail with a video Play symbol in the top right",
+        "class": "richtext-image full-width",
+        "height": "800",
+        "src": "https://guide-media.wagtail.org/images/Close-up_of_a_rich_text_block_with_a_text_para.width-900.png",
+        "width": "838"
+      },
+      {
+        "alt": "Authors block with two Authors child items each containing a People field The first blocks controls to the right are highlighted in red",
+        "class": "richtext-image full-width",
+        "height": "294",
+        "src": "https://guide-media.wagtail.org/images/Authors_block_with_two_Authors_child_items_eac.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Block chooser in StreamField, with a block being previewed",
+        "class": "richtext-image full-width",
+        "height": "450",
+        "src": "https://guide-media.wagtail.org/images/block_chooser_and_preview_focus.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Screenshot of a Subtitle form field with a comment button next to it highlighted in red",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Screenshot_of_a_Subtitle_form_field_with_a_com.width-900_debqfyS.png",
+        "width": "900"
+      },
+      {
+        "alt": "Two form fields with a comment pop-up off to the right side",
+        "class": "richtext-image full-width",
+        "height": "197",
+        "src": "https://guide-media.wagtail.org/images/Two_form_fields_with_a_comment_pop-up_off_to_t.width-900_wlOeHj8.png",
+        "width": "900"
+      },
+      {
+        "alt": "\"Heat is gradually\" text selection within a rich text editor. Above the selection, the inline toolbar shows, with a \"bubble\" icon comment button to the right in teal",
+        "class": "richtext-image full-width",
+        "height": "114",
+        "src": "https://guide-media.wagtail.org/images/22Heat_is_gradually22_text_selection_within_a_.width-900_cemT3h0.png",
+        "width": "600"
+      },
+      {
+        "alt": "A comment pop-up, with its three dots \"actions\" menu expanded, with Edit, Delete, Resolve options",
+        "class": "richtext-image full-width",
+        "height": "167",
+        "src": "https://guide-media.wagtail.org/images/A_comment_pop-up_with_its_three_dots_22actions.width-900_SlOlf6V.png",
+        "width": "316"
+      },
+      {
+        "alt": "Wide screenshot of the page editors tabs and the comment notifications switch off to the right",
+        "class": "richtext-image full-width",
+        "height": "47",
+        "src": "https://guide-media.wagtail.org/images/Wide_screenshot_of_the_page_editors_tabs_and_t.width-900_yxd4W35.png",
+        "width": "900"
+      },
+      {
+        "alt": "Concurrent editing warning dialog to prevent unintentional overrides",
+        "class": "richtext-image full-width",
+        "height": "675",
+        "src": "https://guide-media.wagtail.org/images/Concurrent_editing_warning_dialog_to_prevent_u.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Concurrent editing overwrite confirmation dialog",
+        "class": "richtext-image full-width",
+        "height": "375",
+        "src": "https://guide-media.wagtail.org/images/overwrite_confirmation_dialog.width-900.png",
+        "width": "650"
+      },
+      {
+        "alt": "Page history for Breads and circuses with a listing of actions and a filtering form to the right",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Page_history_for_Breads_and_circuses_with_a_li.width-900_h1DdDZJ.png",
+        "width": "900"
+      },
+      {
+        "alt": "page history replace current draft",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/page_history_replace_current_draft_neqsiyo.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "The page editing form with its Info side panel opened to the right with a highlight on page workflow metadata",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/The_page_editing_form_with_its_Info_side_panel.width-900_IDKppPB.png",
+        "width": "900"
+      },
+      {
+        "alt": "Copy action available when hovering over a page in an explorer page",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Copy_action_available_when_hovering_over_a_pag.width-900_UEKIsmm.png",
+        "width": "900"
+      },
+      {
+        "alt": "Copy page form with the options to change the title slug parent page published status and option to create an alias",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Copy_page_form_with_the_options_to_change_the_.width-900_nri0WYZ.png",
+        "width": "900"
+      },
+      {
+        "alt": "Clicking the change button during the copy page form in order to change the parent of the copied page",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Clicking_the_change_button_during_the_copy_pag.width-900_0wwrJ40.png",
+        "width": "900"
+      },
+      {
+        "alt": "Clicking on the Copy this page button to confirm aliasing",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Clicking_on_the_Copy_this_page_button_to_confi.width-900_sIikjIn.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Manage pages"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Create new pages"
+      },
+      {
+        "level": 3,
+        "text": "Autosave"
+      },
+      {
+        "level": 2,
+        "text": "Edit existing pages"
+      },
+      {
+        "level": 2,
+        "text": "Validation errors"
+      },
+      {
+        "level": 2,
+        "text": "Available actions"
+      },
+      {
+        "level": 2,
+        "text": "Edit block content"
+      },
+      {
+        "level": 3,
+        "text": "Block chooser"
+      },
+      {
+        "level": 2,
+        "text": "Create and edit comments"
+      },
+      {
+        "level": 2,
+        "text": "Concurrent editing notifications"
+      },
+      {
+        "level": 2,
+        "text": "Manage page privacy"
+      },
+      {
+        "level": 2,
+        "text": "Manage page history"
+      },
+      {
+        "level": 2,
+        "text": "Workflow"
+      },
+      {
+        "level": 2,
+        "text": "Copy pages"
+      },
+      {
+        "level": 2,
+        "text": "Alias pages"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Manage pages\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-documents/",
+    "images": [
+      {
+        "alt": "Documents listing with Search field in header Add document button and a Collections dropdown Underneath are 2 rows of documents with a header row above",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Documents_listing_with_Search_field_in_header_.width-900_2st99KC.png",
+        "width": "900"
+      },
+      {
+        "alt": "Documents listing with two items one of which is selected with their left-hand checkbox Underneath an action menu shows different actions and the text 1 document selected",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Documents_listing_with_two_items_one_of_which_.width-900_2mroCAB.png",
+        "width": "900"
+      },
+      {
+        "alt": "Document editing form for a Cookbook Skillet Cornbread Document To the right we see the file size of 130 KB and a Usage Used 0 times label",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Document_editing_form_for_a_Cookbook_Skillet_C.width-900_7iyqe53.png",
+        "width": "900"
+      },
+      {
+        "alt": "Screenshot of the document interface with a document selected and the Delete button in the action bar highlighted",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Screenshot_of_the_document_interface_with_a_do.width-900_ExAbYK2.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Manage documents"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Manage documents\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-images/",
+    "images": [
+      {
+        "alt": "Images listing with header and images grid",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Images_listing_with_header_and_images_grid_OFs.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Images listing with checkboxes shown next to images Five images are selected and a bottom menu shows different actions as well as a 5 images selected label",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Images_listing_with_checkboxes_shown_next_to_i.width-900_uduIqfm.png",
+        "width": "900"
+      },
+      {
+        "alt": "Images listing with header and images list",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Images_listing_with_header_and_images_list.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Image editing form for Olivia Ava image To the right of the form is an image preview focal point controls and metadata about the image",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Image_editing_form_for_Olivia_Ava_image_To_the.width-900_T2JPY0c.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Manage images"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Add, edit, and remove images"
+      },
+      {
+        "level": 2,
+        "text": "List layout"
+      },
+      {
+        "level": 2,
+        "text": "Image alt text"
+      },
+      {
+        "level": 2,
+        "text": "Set the focal area of an image"
+      },
+      {
+        "level": 2,
+        "text": "Image format requirements"
+      },
+      {
+        "level": 3,
+        "text": "File size requirements"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Manage images\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-snippets/",
+    "images": [
+      {
+        "alt": "Snippets listing for countries",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Snippets_listing_for_countries.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Snippets listing for countries with manual reordering support",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Snippets_listing_for_countries_with_manual_reo.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Snippets listing, with five rows. For each row, we show the snippets name and number of instances",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Snippets_listing_with_five_rows._For_each_row_.width-900_rsCGlq7.png",
+        "width": "900"
+      },
+      {
+        "alt": "Snippet editing form for a People snippet instance. To the right of the form is a \"Usage Used n times\" label",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Snippet_editing_form_for_a_People_snippet_inst.width-900.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Manage snippets"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "The use of snippets"
+      },
+      {
+        "level": 2,
+        "text": "The Snippets menu"
+      },
+      {
+        "level": 2,
+        "text": "Viewing snippets"
+      },
+      {
+        "level": 2,
+        "text": "Adding and editing"
+      },
+      {
+        "level": 2,
+        "text": "Add snippets while editing a page"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Manage snippets\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-forms/",
+    "images": [
+      {
+        "alt": "wagtail multi-line text field required",
+        "class": "richtext-image full-width",
+        "height": "750",
+        "src": "https://guide-media.wagtail.org/images/wagtail_multi-line_text_field_required.width-900.png",
+        "width": "860"
+      },
+      {
+        "alt": "wagtail forms data - contact us submissions listing",
+        "class": "richtext-image full-width",
+        "height": "499",
+        "src": "https://guide-media.wagtail.org/images/wagtail_forms_data_-_contact_us_submissions_li.width-900.png",
+        "width": "740"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Manage forms"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Set up and access the form builder"
+      },
+      {
+        "level": 2,
+        "text": "Build your form fields"
+      },
+      {
+        "level": 2,
+        "text": "Configure submission and thank-you settings"
+      },
+      {
+        "level": 2,
+        "text": "Manage and export submissions"
+      },
+      {
+        "level": 2,
+        "text": "Accessibility tips for forms"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Manage forms\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-collections/",
+    "images": [
+      {
+        "alt": "Collections listing with three rows Bakeries BreadPage Images Other",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Collections_listing_with_three_rows_Bakeries_B.width-900_wfcKD0D.png",
+        "width": "900"
+      },
+      {
+        "alt": "Form to create a collection with a Name text field and Parent dropdown field",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Form_to_create_a_collection_with_a_Name_text_f.width-900_AjTrT2Z.png",
+        "width": "900"
+      },
+      {
+        "alt": "Screenshot of the Add Images page with a drag-and-drop zone with the Collection dropdown field highlighted in red",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Screenshot_of_the_Add_Images_page_with_a_drag-.width-900_7O96bkj.png",
+        "width": "900"
+      },
+      {
+        "alt": "Screenshot of the image editing form for an image titled Olivia Ava with the Collection field highlighted in red",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Screenshot_of_the_image_editing_form_for_an_im.width-900_wUGdfde.png",
+        "width": "900"
+      },
+      {
+        "alt": "The collection editing form for BreadPage Images with a red highlight around the Privacy public form control",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/The_collection_editing_form_for_BreadPage_Imag.width-900_aUsWz8h.png",
+        "width": "900"
+      },
+      {
+        "alt": "Change privacy modal dialog, with four options as radio buttons",
+        "class": "richtext-image full-width",
+        "height": "414",
+        "src": "https://guide-media.wagtail.org/images/Change_privacy_modal_dialog_with_four_options_.width-900_KDRvPGs.png",
+        "width": "600"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Manage collections"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Add a collection"
+      },
+      {
+        "level": 2,
+        "text": "Add images or documents to a collection"
+      },
+      {
+        "level": 2,
+        "text": "Privacy settings"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Manage collections\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-redirects/",
+    "images": [
+      {
+        "alt": "Redirects listing with a search field in the header buttons to add and import redirects and rows of existing underneath",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Redirects_listing_with_a_search_field_in_the_h.width-900_v4iFdpb.png",
+        "width": "900"
+      },
+      {
+        "alt": "Editing form for a redirect with from fields Site field permanent checkbox and destination fields for page and URL options",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Editing_form_for_a_redirect_with_from_fields_S.width-900_HxQifuJ.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Manage redirects"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "About redirects"
+      },
+      {
+        "level": 2,
+        "text": "Configure redirects"
+      },
+      {
+        "level": 2,
+        "text": "Add redirects"
+      },
+      {
+        "level": 2,
+        "text": "Edit redirects"
+      },
+      {
+        "level": 2,
+        "text": "Delete redirects"
+      },
+      {
+        "level": 2,
+        "text": "Import and export redirects"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Manage redirects\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/manage-users-and-roles/",
+    "images": [
+      {
+        "alt": "The users listing with search and a CTA to add users This shows three rows with users Olivia Ava Admin User and Muddy Waters",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/The_users_listing_with_search_and_a_CTA_to_add.width-900_HrsMly9.png",
+        "width": "900"
+      },
+      {
+        "alt": "The users listing with checkboxes in the first column The checkbox for the Admin user row has been checked and a footer with different actions shows at the bottom of the screen",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/The_users_listing_with_checkboxes_in_the_first.width-900_j4UH2pO.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Manage users and roles"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Administrator"
+      },
+      {
+        "level": 2,
+        "text": "Moderator"
+      },
+      {
+        "level": 2,
+        "text": "Editor"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Manage users and roles\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/configure-workflows-for-moderation/",
+    "images": [
+      {
+        "alt": "Listing of workflows with a single Moderators approval workflow shown that has a single step",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Listing_of_workflows_with_a_single_Moderators_.width-900_BfEuku6.png",
+        "width": "900"
+      },
+      {
+        "alt": "Screenshot of the workflow editing interface with fields to change the workflow name tasks and assigned pages",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Screenshot_of_the_workflow_editing_interface_w.width-900_MbZ7ac3.png",
+        "width": "900"
+      },
+      {
+        "alt": "Tasks listing with a single item",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Tasks_listing_with_a_single_item_MvFdm6B.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Tasks creation form with Name field and Groups checkboxes with two Moderators and Editors options",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Tasks_creation_form_with_Name_field_and_Groups.width-900_Sf0WPeH.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Configure workflows for moderation"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "About workflows"
+      },
+      {
+        "level": 2,
+        "text": "Edit workflows"
+      },
+      {
+        "level": 2,
+        "text": "Create and edit tasks"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Configure workflows for moderation\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/how-to-guides/promote-search-results/",
+    "images": [
+      {
+        "alt": "Promoted results listing with search field Add button and four results listed under as rows",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Promoted_results_listing_with_search_field_Add.width-900_WUMaHh9.png",
+        "width": "900"
+      },
+      {
+        "alt": "Popular search terms modal dialog with close button search fields and a table showing multiple terms with their respective Views",
+        "class": "richtext-image full-width",
+        "height": "462",
+        "src": "https://guide-media.wagtail.org/images/Popular_search_terms_modal_dialog_with_close_b.width-900_1CVXDKo.png",
+        "width": "900"
+      },
+      {
+        "alt": "Promoted result editing form with search term field and associated pages",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Promoted_result_editing_form_with_search_term_.width-900_SnsILeD.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Promote search results"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Promote search results\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/concepts/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Concepts"
+      },
+      {
+        "level": 2,
+        "text": "In this section"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Concepts\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/concepts/wagtail-interfaces/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Wagtail interfaces"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Admin interface"
+      },
+      {
+        "level": 2,
+        "text": "Image interface"
+      },
+      {
+        "level": 2,
+        "text": "Documents interface"
+      },
+      {
+        "level": 2,
+        "text": "Snippets interface"
+      },
+      {
+        "level": 2,
+        "text": "Collections interface"
+      },
+      {
+        "level": 2,
+        "text": "Redirects interface"
+      },
+      {
+        "level": 2,
+        "text": "Users interface"
+      },
+      {
+        "level": 2,
+        "text": "Workflow interface"
+      },
+      {
+        "level": 2,
+        "text": "Tasks interface"
+      },
+      {
+        "level": 2,
+        "text": "Edit screen"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Wagtail interfaces\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/concepts/pages/",
+    "images": [
+      {
+        "alt": "The page explorer with the home page highlighted",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/The_page_explorer_with_the_home_page_highlight.width-900_fOh4v2u.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Pages"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail page tree structure"
+      },
+      {
+        "level": 3,
+        "text": "Nature of the relationship between Wagtail pages"
+      },
+      {
+        "level": 2,
+        "text": "Page types"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Pages\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/concepts/reports/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Reports"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Locked pages report"
+      },
+      {
+        "level": 2,
+        "text": "Workflows report"
+      },
+      {
+        "level": 2,
+        "text": "Workflow tasks report"
+      },
+      {
+        "level": 2,
+        "text": "Site history report"
+      },
+      {
+        "level": 2,
+        "text": "Aging pages report"
+      },
+      {
+        "level": 2,
+        "text": "Page types usage report"
+      },
+      {
+        "level": 2,
+        "text": "Search terms report"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Reports\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/concepts/users-status/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Users status"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Active status"
+      },
+      {
+        "level": 2,
+        "text": "Inactive status"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Users status\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/concepts/page-status/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Page status"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Draft"
+      },
+      {
+        "level": 2,
+        "text": "In moderation"
+      },
+      {
+        "level": 2,
+        "text": "Scheduled"
+      },
+      {
+        "level": 2,
+        "text": "Expired"
+      },
+      {
+        "level": 2,
+        "text": "Live"
+      },
+      {
+        "level": 2,
+        "text": "Live + Draft"
+      },
+      {
+        "level": 2,
+        "text": "Live + (another status)"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Page status\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/concepts/accessibility-features/",
+    "images": [
+      {
+        "alt": "Wagtail dashboard with the skip link",
+        "class": "richtext-image full-width",
+        "height": "351",
+        "src": "https://guide-media.wagtail.org/images/Wagtail_dashboard_with_the_skip_link_VKexAHG.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Page editor for Breads and Circuses blog page with sections toggle button and anchor links highlighted",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Page_editor_for_Breads_and_Circuses_blog_page_.width-900_QWaiZGW.png",
+        "width": "900"
+      },
+      {
+        "alt": "Page editor for Breads and Circuses blog page with the collapse expand all having been clicked",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Page_editor_for_Breads_and_Circuses_blog_page_.width-900_LfZLMSq.png",
+        "width": "900"
+      },
+      {
+        "alt": "Keyboard shortcuts dialog",
+        "class": "richtext-image full-width",
+        "height": "800",
+        "src": "https://guide-media.wagtail.org/images/Keyboard_shortcuts_dialog_tWoC6ww.width-900.png",
+        "width": "800"
+      },
+      {
+        "alt": "Page editor for Breads and Circuses blog page with the minimap opened to the right focused on the toggle",
+        "class": "richtext-image full-width",
+        "height": "351",
+        "src": "https://guide-media.wagtail.org/images/Page_editor_for_Breads_and_Circuses_blog_page_.width-900_Ve7MRSW.png",
+        "width": "900"
+      },
+      {
+        "alt": "The Wagtail sidebar with its minimize control highlighted",
+        "class": "richtext-image full-width",
+        "height": "500",
+        "src": "https://guide-media.wagtail.org/images/The_Wagtail_sidebar_with_its_minimize_control_.width-900_EMtj2DT.png",
+        "width": "200"
+      },
+      {
+        "alt": "Pin toolbar",
+        "class": "richtext-image full-width",
+        "height": "250",
+        "src": "https://guide-media.wagtail.org/images/Pin_toolbar.width-900.png",
+        "width": "740"
+      },
+      {
+        "alt": "Page editor for Breads and Circuses blog page with the minimap opened to the right focused on the toggle",
+        "class": "richtext-image full-width",
+        "height": "351",
+        "src": "https://guide-media.wagtail.org/images/Page_editor_for_Breads_and_Circuses_blog_page_.width-900_Ve7MRSW.png",
+        "width": "900"
+      },
+      {
+        "alt": "The page editing form with its Info side panel opened to the right and the Info side panel toggle highlighted",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/The_page_editing_form_with_its_Info_side_panel.width-900_RDgRFkj.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Accessibility features"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Global navigation"
+      },
+      {
+        "level": 3,
+        "text": "Skip link"
+      },
+      {
+        "level": 3,
+        "text": "Collapsible sections"
+      },
+      {
+        "level": 3,
+        "text": "Session time limit"
+      },
+      {
+        "level": 3,
+        "text": "Text search"
+      },
+      {
+        "level": 2,
+        "text": "Keyboard shortcuts"
+      },
+      {
+        "level": 3,
+        "text": "Page-level keyboard shortcuts"
+      },
+      {
+        "level": 3,
+        "text": "Rich text keyboard shortcuts"
+      },
+      {
+        "level": 3,
+        "text": "Bulk selection shortcut"
+      },
+      {
+        "level": 2,
+        "text": "Edit screen features"
+      },
+      {
+        "level": 3,
+        "text": "Mini-map"
+      },
+      {
+        "level": 3,
+        "text": "Editing of headings and elements nesting in rich text fields"
+      },
+      {
+        "level": 3,
+        "text": "Live preview"
+      },
+      {
+        "level": 3,
+        "text": "Command palette"
+      },
+      {
+        "level": 2,
+        "text": "User account preferences"
+      },
+      {
+        "level": 2,
+        "text": "Browser-level user interface settings"
+      },
+      {
+        "level": 3,
+        "text": "Sidebar expanded/collapsed"
+      },
+      {
+        "level": 3,
+        "text": "Rich text toolbar pinned/unpinned"
+      },
+      {
+        "level": 3,
+        "text": "Mini-map expanded/collapsed"
+      },
+      {
+        "level": 3,
+        "text": "Side panel"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Accessibility features\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/concepts/scheduled-publishing/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Scheduled publishing"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Scheduling content updates"
+      },
+      {
+        "level": 2,
+        "text": "Scheduled unpublishing"
+      },
+      {
+        "level": 2,
+        "text": "Scheduling frequency"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Scheduled publishing\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/reference/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Reference"
+      },
+      {
+        "level": 2,
+        "text": "In this section"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Reference\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/reference/browser-compatibility/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Browser compatibility"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Supported browsers"
+      },
+      {
+        "level": 2,
+        "text": "IE11"
+      },
+      {
+        "level": 2,
+        "text": "Assistive technologies"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Browser compatibility\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/reference/content-checks/",
+    "images": [
+      {
+        "alt": "Page editor for \"Bread and Circuses\" page. The form to the left, and to the right the Checks side panel is expanded, showing different metrics about the page",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Page_editor_for_22Bread_and_Circuses22_page._T.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Accessibility checker showing one error with a heading hierarchy issue",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Accessibility_checker_showing_one_error_with_a.width-900.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Content checks"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Content metrics"
+      },
+      {
+        "level": 3,
+        "text": "Words"
+      },
+      {
+        "level": 3,
+        "text": "Reading time"
+      },
+      {
+        "level": 3,
+        "text": "Readability"
+      },
+      {
+        "level": 2,
+        "text": "Content checker"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Content checks\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/reference/account-settings/",
+    "images": [
+      {
+        "alt": "User profile locale and theme settings",
+        "class": "richtext-image full-width",
+        "height": "800",
+        "src": "https://guide-media.wagtail.org/images/User_profile_locale_and_theme_settings_QLvDMRH.width-900.png",
+        "width": "800"
+      },
+      {
+        "alt": "User profile notification settings",
+        "class": "richtext-image full-width",
+        "height": "800",
+        "src": "https://guide-media.wagtail.org/images/User_profile_notification_settings_tOttJ7P.width-900.png",
+        "width": "800"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Account settings"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Profile settings"
+      },
+      {
+        "level": 3,
+        "text": "Name and email"
+      },
+      {
+        "level": 3,
+        "text": "Profile picture"
+      },
+      {
+        "level": 3,
+        "text": "Locale"
+      },
+      {
+        "level": 4,
+        "text": "Preferred language"
+      },
+      {
+        "level": 4,
+        "text": "Current time zone"
+      },
+      {
+        "level": 3,
+        "text": "Theme preferences"
+      },
+      {
+        "level": 4,
+        "text": "Admin theme"
+      },
+      {
+        "level": 4,
+        "text": "Contrast theme"
+      },
+      {
+        "level": 4,
+        "text": "Density"
+      },
+      {
+        "level": 2,
+        "text": "Password"
+      },
+      {
+        "level": 2,
+        "text": "Notification settings"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Account settings\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Releases"
+      },
+      {
+        "level": 2,
+        "text": "In this section"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "Releases\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-8-0/",
+    "images": [
+      {
+        "alt": "Preview of the Wagtail v3 API documentation showing an OpenAPI schema generated from a site&#x27;s models, with a list of pages endpoints and example request and response",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Wagtail_API_v3_schema_docs_viewer_with_pages_o.width-900.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 8.0"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Manage content with the new v3 API"
+      },
+      {
+        "level": 2,
+        "text": "Permission policies"
+      },
+      {
+        "level": 2,
+        "text": "Guide website improvements"
+      },
+      {
+        "level": 2,
+        "text": "Automated dependency management"
+      },
+      {
+        "level": 2,
+        "text": "Other UI improvements"
+      },
+      {
+        "level": 2,
+        "text": "Let us know what you think"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 8.0\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-7-4/",
+    "images": [
+      {
+        "alt": "Network error message while editing a page in Wagtail CMS",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Autosave_error_message_modal_-_a_network_error.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Wagtail page editor with live preview to the side, with a content checker annotation for a heading hierarchy issue",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Content_checker_inline_error_highlight.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Page editor with content checker issue reported for an empty meta description",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Content_checker_meta_description_empty.width-900.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 7.4"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Autosave refinements"
+      },
+      {
+        "level": 2,
+        "text": "Save drafts of blocks without filling every field"
+      },
+      {
+        "level": 2,
+        "text": "Customizable page listings"
+      },
+      {
+        "level": 2,
+        "text": "Search improvements"
+      },
+      {
+        "level": 2,
+        "text": "Content quality checker enhancements"
+      },
+      {
+        "level": 2,
+        "text": "Other UI improvements"
+      },
+      {
+        "level": 2,
+        "text": "Security and audit follow-ups"
+      },
+      {
+        "level": 2,
+        "text": "Feedback requests"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 7.4\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-7-3/",
+    "images": [
+      {
+        "alt": "Autosave indicator in page editor, saved status",
+        "class": "richtext-image full-width",
+        "height": "459",
+        "src": "https://guide-media.wagtail.org/images/Autosave_indicator_-_saved.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Autosave indicator in page editor, paused status with warning icon",
+        "class": "richtext-image full-width",
+        "height": "459",
+        "src": "https://guide-media.wagtail.org/images/Autosave_indicator_-_paused.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "llms.txt screenshot in code editor",
+        "class": "richtext-image full-width",
+        "height": "586",
+        "src": "https://guide-media.wagtail.org/images/carbon.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Collage of 6 identical images of an Egyptian temple, with different encoding settings",
+        "class": "richtext-image full-width",
+        "height": "533",
+        "src": "https://guide-media.wagtail.org/images/high-vs-low.width-800.width-900.png",
+        "width": "800"
+      },
+      {
+        "alt": "Screenshot of two custom checks in the page editor side panel",
+        "class": "richtext-image full-width",
+        "height": "703",
+        "src": "https://guide-media.wagtail.org/images/Custom_content_checks.width-900.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 7.3"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Autosave for pages and snippets"
+      },
+      {
+        "level": 2,
+        "text": "Custom editing layouts for block-based content"
+      },
+      {
+        "level": 2,
+        "text": "llms.txt for docs"
+      },
+      {
+        "level": 2,
+        "text": "Improved image performance by default"
+      },
+      {
+        "level": 2,
+        "text": "Custom content quality checks"
+      },
+      {
+        "level": 2,
+        "text": "Other improvements you may notice"
+      },
+      {
+        "level": 2,
+        "text": "Feedback requests"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 7.3\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-7-2/",
+    "images": [
+      {
+        "alt": "Snippets listing for countries with manual reordering support",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Snippets_listing_for_countries_with_manual_reo.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Images listing with header and images list",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Images_listing_with_header_and_images_list_dsC.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Page editor for \"Bread and Circuses\" page. The form to the left, and to the right the Checks side panel is expanded, showing different metrics about the page",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Page_editor_for_22Bread_and_Circuses22_page._T.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Validation error message on page publish with go to first error shortcut button",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Validation_error_message_on_page_publish_with_.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Keyboard shortcuts dialog",
+        "class": "richtext-image full-width",
+        "height": "800",
+        "src": "https://guide-media.wagtail.org/images/Keyboard_shortcuts_dialog_tWoC6ww.width-900.png",
+        "width": "800"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 7.2"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Reordering support for snippets"
+      },
+      {
+        "level": 2,
+        "text": "Media listings improvements"
+      },
+      {
+        "level": 2,
+        "text": "Readability score metric"
+      },
+      {
+        "level": 2,
+        "text": "Quick access to first validation error"
+      },
+      {
+        "level": 2,
+        "text": "Keyboard shortcuts improvements"
+      },
+      {
+        "level": 2,
+        "text": "Other UI improvements"
+      },
+      {
+        "level": 2,
+        "text": "Feedback requests"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 7.2\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-7-1/",
+    "images": [
+      {
+        "alt": "Generic settings with preview",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Generic_settings_with_preview.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Images listing with header and images list",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Images_listing_with_header_and_images_list.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Documents listing with Search field in header Add document button and a Collections dropdown Underneath are 2 rows of documents with a header row above",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Documents_listing_with_Search_field_in_header_.width-900_2st99KC.png",
+        "width": "900"
+      },
+      {
+        "alt": "Collapsible block settings",
+        "class": "richtext-image full-width",
+        "height": "415",
+        "src": "https://guide-media.wagtail.org/images/Collapsible_block_settings.width-900.png",
+        "width": "600"
+      },
+      {
+        "alt": "Page editor for Bread and Circuses page The form to the left and to the right the Preview side panel is expanded showing the page as it would appear to users on Mobile devices",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Page_editor_for_Bread_and_Circuses_page_The_fo.width-900_l88OI5D.png",
+        "width": "900"
+      },
+      {
+        "alt": "Keyboard shortcuts dialog",
+        "class": "richtext-image full-width",
+        "height": "800",
+        "src": "https://guide-media.wagtail.org/images/Keyboard_shortcuts_dialog_alyQsTE.width-900.png",
+        "width": "800"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 7.1"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Previews support for settings"
+      },
+      {
+        "level": 2,
+        "text": "Media listings improvements"
+      },
+      {
+        "level": 2,
+        "text": "Collapsible blocks settings"
+      },
+      {
+        "level": 2,
+        "text": "Enhanced preview for headless setups"
+      },
+      {
+        "level": 2,
+        "text": "Expanded keyboard shortcuts"
+      },
+      {
+        "level": 2,
+        "text": "Other UI improvements"
+      },
+      {
+        "level": 2,
+        "text": "Feedback requests"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 7.1\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-7-0/",
+    "images": [
+      {
+        "alt": "Pagination controls in redirects",
+        "class": "richtext-image full-width",
+        "height": "540",
+        "src": "https://guide-media.wagtail.org/images/Pagination_controls_in_redirects.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Locale in snippets listings",
+        "class": "richtext-image full-width",
+        "height": "675",
+        "src": "https://guide-media.wagtail.org/images/Locale_in_snippets_listings.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Locale in page chooser",
+        "class": "richtext-image full-width",
+        "height": "540",
+        "src": "https://guide-media.wagtail.org/images/Locale_in_page_chooser.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Keyboard shortcuts panel within the Help menu",
+        "class": "richtext-image full-width",
+        "height": "703",
+        "src": "https://guide-media.wagtail.org/images/Keyboard_shortcuts_panel_within_the_Help_menu.width-900.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 7.0"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Deferred validation for drafts"
+      },
+      {
+        "level": 2,
+        "text": "New and improved pagination"
+      },
+      {
+        "level": 2,
+        "text": "Locale in listings and choosers"
+      },
+      {
+        "level": 2,
+        "text": "Additional user interface improvements"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 7.0\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-6-4/",
+    "images": [
+      {
+        "alt": "Block chooser in StreamField, with a block being previewed",
+        "class": "richtext-image full-width",
+        "height": "450",
+        "src": "https://guide-media.wagtail.org/images/block_chooser_and_preview_focus.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Alt text accessibility checker",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Alt_text_accessibility_checker.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Authors block with two Authors child items each containing a People field The first blocks controls to the right are highlighted in red",
+        "class": "richtext-image full-width",
+        "height": "294",
+        "src": "https://guide-media.wagtail.org/images/Authors_block_with_two_Authors_child_items_eac.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Search terms report, with 4 terms displayed",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Search_terms_report.width-900.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 6.4"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 3,
+        "text": "Previews for StreamField Blocks"
+      },
+      {
+        "level": 3,
+        "text": "Alt text management enhancements"
+      },
+      {
+        "level": 3,
+        "text": "Drag-and-drop reordering for StreamField"
+      },
+      {
+        "level": 3,
+        "text": "Search terms report"
+      },
+      {
+        "level": 3,
+        "text": "Additional user interface improvements"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 6.4\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-6-3/",
+    "images": [
+      {
+        "alt": "Wagtail dashboard with new design released in Wagtail 6.3",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Wagtail_dashboard_with_new_Things_in_Wagtail_4.width-900_MPQXgu4.png",
+        "width": "900"
+      },
+      {
+        "alt": "Wagtail page listing in light theme with enhanced-contrast designs",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Wagtail_page_listing_in_light_theme_with_enhan.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Image editing form for Olivia Ava image To the right of the form is an image preview focal point controls and metadata about the image",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Image_editing_form_for_Olivia_Ava_image_To_the.width-900_VsFI5Yq.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 6.3"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Incremental dashboard enhancements"
+      },
+      {
+        "level": 2,
+        "text": "Enhanced contrast admin theme"
+      },
+      {
+        "level": 2,
+        "text": "Universal design"
+      },
+      {
+        "level": 2,
+        "text": "HEIC / HEIF image upload support"
+      },
+      {
+        "level": 3,
+        "text": "Image description field"
+      },
+      {
+        "level": 2,
+        "text": "Other UI improvements"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 6.3\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-6-2/",
+    "images": [
+      {
+        "alt": "Content metrics in Wagtail 6.2 in the side panel",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Content_metrics_in_Wagtail_6.2.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Concurrent editing warning dialog to prevent unintentional overrides",
+        "class": "richtext-image full-width",
+        "height": "675",
+        "src": "https://guide-media.wagtail.org/images/Concurrent_editing_warning_dialog_to_prevent_u.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Accessibility checker dialog with two issues found, one alt text, one about headings",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Alt_text_accessibility_checker.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Wagtail 6.2 site history report with new listing and filter interface",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Wagtail_6.2_site_history_report_with_new_listi.width-900.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 6.2"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Content metrics"
+      },
+      {
+        "level": 2,
+        "text": "Concurrent editing notifications"
+      },
+      {
+        "level": 2,
+        "text": "Alt text accessibility check"
+      },
+      {
+        "level": 2,
+        "text": "Universal listings designs for report views"
+      },
+      {
+        "level": 2,
+        "text": "Other user interface refinements"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 6.2\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-6-1/",
+    "images": [
+      {
+        "alt": "Documents listing with Search field in header Add document button and a Collections dropdown Underneath are 2 rows of documents with a header row above",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Documents_listing_with_Search_field_in_header_.width-900_X1WPjE0.png",
+        "width": "900"
+      },
+      {
+        "alt": "Editing interface for Welcome to the Wagtail Bakery, in snug mode",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Editing_interface_for_Welcome_to_the_Wagtail_B.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Keyboard shortcuts dialog",
+        "class": "richtext-image full-width",
+        "height": "800",
+        "src": "https://guide-media.wagtail.org/images/Keyboard_shortcuts_dialog.width-900.png",
+        "width": "800"
+      },
+      {
+        "alt": "Page privacy dialog with the Shared Password option selected",
+        "class": "richtext-image full-width",
+        "height": "800",
+        "src": "https://guide-media.wagtail.org/images/Page_privacy_dialog_with_the_Shared_Password_o.width-900.png",
+        "width": "800"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 6.1"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Universal listings continued"
+      },
+      {
+        "level": 2,
+        "text": "Information-dense admin interface"
+      },
+      {
+        "level": 2,
+        "text": "Keyboard shortcuts overview"
+      },
+      {
+        "level": 3,
+        "text": "Better guidance for password-protected content"
+      },
+      {
+        "level": 2,
+        "text": "Other user interface refinements"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 6.1\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-6-0/",
+    "images": [
+      {
+        "alt": "Wagtail 6.0 universal listings interface, with example of searching for a \"bread\" blog page",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/wagtail-6-filters-listing.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Wagtail 6.0 right-to-left interface example, with the page editor and a page preview",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/wagtail-6-rtl.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Wagtail 6.0 accessibility checker demo, with 3 issues found relating to headings on the page",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/wagtail-6-accessibility-checker-light.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Wagtail 6.0 in dark mode \u2013 with the same example as the accessibility checker",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/wagtail-6-accessibility-checker-dark.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Wagtail 6.0 page types report, on a simple site with 9 page types and 30 pages",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/wagtail-6-page-types-usage-report.width-900.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 6.0"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Universal listings"
+      },
+      {
+        "level": 2,
+        "text": "Right-to-left language support"
+      },
+      {
+        "level": 2,
+        "text": "Accessibility checker in page editor"
+      },
+      {
+        "level": 2,
+        "text": "Polished dark mode"
+      },
+      {
+        "level": 2,
+        "text": "Page types usage report"
+      },
+      {
+        "level": 2,
+        "text": "Accessibility improvements"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 6.0\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-5-2/",
+    "images": [
+      {
+        "alt": "v5.2 redesigned pages listing",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/page-listing-redesigned.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "v5.2 pages listing with search",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/page-listing-search.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "v5.2 compare buttons highlighted in red on dashboard",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/compare-buttons.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "v5.2 promoted search results external links",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/external-links.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "v5.2 email subject body fields in link chooser modal",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/email-subject-body.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "v5.2 snippets editing interface",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/snippets-features.width-900.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 5.2"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Redesigned page listing view"
+      },
+      {
+        "level": 2,
+        "text": "User interface refinements"
+      },
+      {
+        "level": 2,
+        "text": "External links in promoted search results"
+      },
+      {
+        "level": 2,
+        "text": "Subject and body for email links"
+      },
+      {
+        "level": 2,
+        "text": "Site-specific improvements"
+      },
+      {
+        "level": 3,
+        "text": "Wagtail user interface extensions with Stimulus"
+      },
+      {
+        "level": 3,
+        "text": "Content management features beyond pages"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 5.2\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-5-1/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 5.1"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Read-only panels"
+      },
+      {
+        "level": 2,
+        "text": "AVIF image support"
+      },
+      {
+        "level": 2,
+        "text": "Accessibility improvements"
+      },
+      {
+        "level": 2,
+        "text": "Dark mode improvements"
+      },
+      {
+        "level": 2,
+        "text": "General UI improvements"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 5.1\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-5-0/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 5.0"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Object usage information on deleting objects"
+      },
+      {
+        "level": 2,
+        "text": "SVG image support"
+      },
+      {
+        "level": 2,
+        "text": "Accessibility checker improvements"
+      },
+      {
+        "level": 2,
+        "text": "Always-on minimap"
+      },
+      {
+        "level": 2,
+        "text": "Dark mode"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 5.0\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-4-2/",
+    "images": [
+      {
+        "alt": "Multiple chooser panel for persons, with four items selectable",
+        "class": "richtext-image full-width",
+        "height": "500",
+        "src": "https://guide-media.wagtail.org/images/Multiple_chooser_panel_for_persons_with_four_i.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Page editor for \"Bread and Circuses\" page. The form to the left, and to the right the Preview side panel is expanded, showing the page as it would appear to users on Mobile devices",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Page_editor_for_Bread_and_Circuses_page_The_fo.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Accessibility checker showing one error with a heading hierarchy issue",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Accessibility_checker_showing_one_error_with_a.width-900.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 4.2"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Supercharged snippets"
+      },
+      {
+        "level": 3,
+        "text": "Multiple chooser panel"
+      },
+      {
+        "level": 2,
+        "text": "Resizable side panels"
+      },
+      {
+        "level": 2,
+        "text": "Built-in accessibility checker"
+      },
+      {
+        "level": 2,
+        "text": "Rich text improvements"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 4.2\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/releases/new-in-wagtail-4-1/",
+    "images": [
+      {
+        "alt": "Wagtail dashboard with new \"Things in Wagtail 4 have changed\" banner",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Wagtail_dashboard_with_new_Things_in_Wagtail_4.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Page editor for \"Breads and Circuses\" blog page, with the info side panel opened to the right, showing the page\u2019s metadata",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Page_editor_for_22Breads_and_Circuses22_blog_p.width-900_aWwHuBl.png",
+        "width": "900"
+      },
+      {
+        "alt": "Page editor for \"Breads and Circuses\" blog page, with the minimap opened to the right, showing the form sections",
+        "class": "richtext-image full-width",
+        "height": "562",
+        "src": "https://guide-media.wagtail.org/images/Page_editor_for_22Breads_and_Circuses22_blog_p.width-900_rxHi1iC.png",
+        "width": "900"
+      },
+      {
+        "alt": "This is a screenshot demonstrating the new slash command you can use in the Rich Text editor of Wagtail",
+        "class": "richtext-image full-width",
+        "height": "685",
+        "src": "https://guide-media.wagtail.org/images/This_is_a_screenshot_demonstrating_the_new_sla.width-900_uJFDAUA.png",
+        "width": "882"
+      },
+      {
+        "alt": "Page editor for \"Bread and Circuses\" page. The form to the left, and to the right the Preview side panel is expanded, showing the page as it would appear to users on Mobile devices",
+        "class": "richtext-image full-width",
+        "height": "666",
+        "src": "https://guide-media.wagtail.org/images/Page_editor_for_Bread_and_Circuses_page_The_fo.width-900.png",
+        "width": "900"
+      },
+      {
+        "alt": "Snippet editing form for a People snippet instance. To the right of the form is a \"Usage Used 2 times\" label",
+        "class": "richtext-image full-width",
+        "height": "416",
+        "src": "https://guide-media.wagtail.org/images/Snippet_editing_form_for_a_People_snippet_inst.width-900.png",
+        "width": "900"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "New in Wagtail 4.1"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "Onboarding documentation when you need it"
+      },
+      {
+        "level": 2,
+        "text": "A fully redesigned page editor"
+      },
+      {
+        "level": 2,
+        "text": "Richer rich text"
+      },
+      {
+        "level": 2,
+        "text": "Enhanced accessibility and support for Windows High Contrast mode"
+      },
+      {
+        "level": 2,
+        "text": "A new way to preview"
+      },
+      {
+        "level": 2,
+        "text": "Simplified scheduled publishing"
+      },
+      {
+        "level": 2,
+        "text": "Colour the admin your way"
+      },
+      {
+        "level": 2,
+        "text": "Usage reports"
+      },
+      {
+        "level": 2,
+        "text": "Supercharged snippets"
+      },
+      {
+        "level": 2,
+        "text": "Global settings for multi-site installations"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "New in Wagtail 4.1\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  },
+  {
+    "url": "https://guide.wagtail.org/en/about/",
+    "images": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "About"
+      },
+      {
+        "level": 2,
+        "text": "On this page"
+      },
+      {
+        "level": 2,
+        "text": "AI-friendly documentation"
+      },
+      {
+        "level": 2,
+        "text": "Historical copies"
+      },
+      {
+        "level": 2,
+        "text": "Other resources"
+      },
+      {
+        "level": 3,
+        "text": "Issues and feature requests"
+      },
+      {
+        "level": 3,
+        "text": "Community events"
+      },
+      {
+        "level": 2,
+        "text": "Was this page helpful?"
+      },
+      {
+        "level": 2,
+        "text": "Help us improve by leaving a comment below"
+      },
+      {
+        "level": 2,
+        "text": "About this guide"
+      },
+      {
+        "level": 2,
+        "text": "Help improve this guide"
+      },
+      {
+        "level": 2,
+        "text": "Wagtail"
+      }
+    ],
+    "nav": [
+      {
+        "class": "skip-link"
+      },
+      {
+        "class": "primary-nav",
+        "data-mobile-menu": null
+      },
+      {
+        "class": "nav-buttons"
+      }
+    ],
+    "media": [],
+    "lang": "en",
+    "title": "About\n            \n            \n                - Wagtail Guide",
+    "main": 1
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "target": {
+    "id": "nhs",
+    "url": "https://www.nhs.uk/",
+    "source": "/home/thibaudcolas/dev/web-sustainability-agents/docs/reports/assets/nhs/targets.json",
+    "original_sample_urls": [
+      "https://www.nhs.uk/",
+      "https://www.nhs.uk/live-well/",
+      "https://www.nhs.uk/live-well/exercise/",
+      "https://www.nhs.uk/live-well/exercise/walking-for-health/",
+      "https://www.nhs.uk/live-well/exercise/strength-and-flex-exercise-plan-how-to-videos/",
+      "https://www.nhs.uk/our-policies/choose-your-cookie-settings/",
+      "https://www.nhs.uk/our-policies/content-policy/"
+    ]
+  },
+  "command": [
+    "node",
+    "/home/thibaudcolas/dev/agentic-web-check/dist/cli.js",
+    "scan",
+    "https://www.nhs.uk/",
+    "--pages",
+    "1",
+    "--timeout",
+    "30000",
+    "--tasks",
+    "default",
+    "--agent",
+    "baseline",
+    "--out",
+    "/home/thibaudcolas/dev/agent-runs/agentic-web-check/2026-11-14T00-28-48Z/nhs/baseline",
+    "--no-color",
+    "--verbose"
+  ],
+  "cwd": "/home/thibaudcolas/dev/agentic-web-check",
+  "started_at": "2026-11-14T00:29:42.045872+00:00",
+  "timeout_seconds": 480,
+  "exit_code": 0,
+  "finished_at": "2026-11-14T00:30:00.038122+00:00",
+  "results_present": true
+}

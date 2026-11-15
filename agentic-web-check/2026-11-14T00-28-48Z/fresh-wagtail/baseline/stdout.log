@@ -1,0 +1,107 @@
+
+AGENTIC WEB CHECK  v0.1.0 · methodology v1
+https://wagtail.org/
+Behavioural verification (3 tasks, baseline agent)
+
+Agent Readiness   92/100
+
+PERCEPTION           93   7 pass · 2 warn · 0 fail · 9 of 9 checks scored
+NAVIGATION           88   5 pass · 0 warn · 1 fail · 6 of 7 checks scored
+INTERACTION         100   9 pass · 0 warn · 0 fail · 9 of 9 checks scored
+MACHINE INTERFACES  100   4 pass · 0 warn · 0 fail · 4 of 6 checks scored
+RELIABILITY          95   4 pass · 1 warn · 0 fail · 5 of 5 checks scored
+SAFETY               65   2 pass · 0 warn · 1 fail · 3 of 7 checks scored
+TASK SUCCESS        100   3 pass · 0 warn · 0 fail · 3 of 3 tasks scored
+
+31 passed  3 warnings  2 failures  7 not applicable/info
+
+FAIL
+  ✗ Forms submit safely [forms-safe-transport, safety, weight 7]
+    1 forms or credential fields submit unsafely.
+    · div > div > div > div:nth-of-type(2) > div > form · observed: posts to another origin (https://torchbox.us1.list-manage.com) · expected: same-origin HTTPS POST
+  ✗ Menus do not depend on hover [hover-only-menus, navigation, weight 3]
+    86 navigation links are only revealed on hover.
+    · observed: 86 nav links hidden until hover · expected: submenu behind a button with aria-expanded, or always rendered
+
+WARNING
+  ! No runtime errors during load [console-errors, reliability, weight 3]
+    2 runtime errors or failed scripts.
+    · observed: script failed to load: https://plausible.io/js/pa-ngavQ28VQSDP3hrszIVgI.js (HTTP 404, script) · expected: all scripts load
+    · observed: script failed to load: https://plausible.io/js/pa-ngavQ28VQSDP3hrszIVgI.js · expected: all scripts load
+  ! Control names are specific, not repeated or generic [ambiguous-control-names, perception, weight 3]
+    0 generic names and 1 names reused for different destinations.
+    · link "find out more" · observed: same name points to 2 different URLs · expected: distinct names for distinct destinations
+  ! Headings form a usable outline [heading-structure, perception, weight 3]
+    1 heading problems across 1 pages.
+    · observed: no h1 · expected: one h1 naming the page
+
+PASS
+  ✓ Page loads successfully [page-load] HTTP 200 in 1838 ms.
+  ✓ No bot challenge blocks automated browsers [challenge-or-bot-wall] No bot challenge detected.
+  ✓ Interactive controls have accessible names [control-accessible-name] 0 of 86 interactive controls (0%) have no accessible name.
+  ✓ Form fields have labels and names [form-fields-labelled] 3 form fields are labelled and named.
+  ✓ No overlay blocks the page at load [overlay-interference] No blocking overlays at load.
+  ✓ No hidden instructions aimed at AI agents [hidden-instructions] No instruction-like hidden text (79 hidden blocks inspected).
+  ✓ The DOM settles after load [dom-stability] Worst page: 0 late mutations, CLS 0.
+  ✓ Clickable elements are real controls, not generic elements [fake-interactive-elements] All clickable elements expose a control role.
+  ✓ ARIA attributes and roles are valid [aria-validity] No ARIA validity violations.
+  ✓ Page regions are exposed as landmarks [landmarks] Main and navigation landmarks present.
+  ✓ Navigation links are named and resolvable [navigation-links-usable] 44 navigation links are named and resolvable.
+  ✓ Controls are native or complete ARIA widgets [native-controls] No custom-only widgets detected.
+  ✓ robots.txt lets user-triggered agents fetch the page [robots-agent-access] User-triggered agents may fetch this page.
+  ✓ Content is available without executing JavaScript [server-rendered-content] 100% of rendered text is present without JavaScript.
+  ✓ Network activity settles [network-settles] Network idle reached on all pages.
+  ✓ Visible labels are part of accessible names [label-in-name] Visible labels match accessible names.
+  ✓ Pages have a descriptive title and a language [document-title-lang] Titles and language are set.
+  ✓ Images carry alternative text [image-alt] Images have alternative text.
+  ✓ Accessibility snapshot fits an agent context budget [snapshot-budget] Largest snapshot: 24,530 chars.
+  ✓ Common destinations are discoverable from the start page [key-pages-discoverable] Found contact, about, help, privacy, search; missing terms.
+  ✓ A sitemap is published [sitemap] Sitemap found (declared in robots.txt).
+  ✓ Required fields are marked programmatically [required-fields-marked] Required fields are marked programmatically.
+  ✓ Controls are keyboard operable [keyboard-operability] No keyboard operability problems detected.
+  ✓ Controls are not confined to cross-origin iframes [cross-origin-iframe-controls] No controls confined to cross-origin iframes.
+  ✓ No controls hidden in closed shadow roots [closed-shadow-roots] No closed shadow roots.
+  ✓ The UI is not rendered only on canvas [canvas-only-ui] No canvas-only UI.
+  ✓ Structured data (JSON-LD) describes the page [structured-data] 2 JSON-LD blocks (0 invalid), relevant types: WebPage, Organization.
+  ✓ llms.txt is published and well-formed [llms-txt] llms.txt published with 17 links (agent usage not verified).
+  ✓ No secret-looking tokens in page source [exposed-secrets] No secret-looking tokens found.
+  ✓ Site search is exposed [search-available] Search exposed via search landmark/input.
+  ✓ Targets are large enough [target-size] Targets meet the minimum size.
+
+NOT APPLICABLE / INFO
+  · Inner pages expose breadcrumbs [breadcrumbs] No pages deeper than one level were scanned; breadcrumbs not expected.
+  · WebMCP tools are exposed [webmcp] No WebMCP tools detected.
+  · Agent manifests (agent-card, UCP, ARD) are published [agent-manifests] No agent manifests (optional).
+  · Consequential actions require confirmation [consequential-actions-guarded] No consequential actions found on the scanned pages.
+  · WebMCP tools declare safety annotations [webmcp-tool-annotations] No WebMCP tools.
+  · Authentication boundaries are clearly signalled [auth-boundary-signalled] No authentication forms on the scanned pages.
+  · Downloads and new windows are announced [download-and-popup-links] No download or new-window links.
+
+BEHAVIOURAL TESTS
+  Find the company's contact information (an email address or phone n…: PASS (1 steps, 3.5 s)
+    success criteria satisfied after 1 actions
+    1. click {"ref":"e541"} → clicked link "Contact"
+  Find the page describing the privacy policy or terms of service.: PASS (1 steps, 2.8 s)
+    success criteria satisfied after 1 actions
+    1. click {"ref":"e539"} → clicked link "Privacy policy"
+  Find a page that explains what the company or product does (about, …: PASS (1 steps, 4.2 s)
+    success criteria satisfied after 1 actions
+    1. click {"ref":"e161"} → clicked link "Learn about StreamField"
+
+Suggested fixes
+  1. Forms submit safely [forms-safe-transport, weight 7]
+     Serve pages over HTTPS, post forms to the same origin over HTTPS, and never send passwords
+     with method="get".
+  2. Menus do not depend on hover [hover-only-menus, weight 3]
+     Expose submenus through a <button aria-expanded> toggle, or render submenu links in the
+     page (footer sitemap) so they are reachable without hover.
+  3. No runtime errors during load [console-errors, weight 3]
+     Fix uncaught exceptions and failed script requests reported during load.
+  4. Control names are specific, not repeated or generic [ambiguous-control-names, weight 3]
+     Make link and button text describe the destination or action ("Read the return policy",
+     "Add Trail Bike to cart"). Avoid "Click here"/"Read more"; use aria-label to disambiguate
+     when visual text must stay short.
+  5. Headings form a usable outline [heading-structure, weight 3]
+     One h1 per page naming the page; nest h2/h3 without skipping levels; no empty headings.
+
+1 pages · 19.6 s · chromium 153.0.8010.12 · 2026-11-14T00:31:09.158Z

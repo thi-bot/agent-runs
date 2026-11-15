@@ -1,0 +1,39 @@
+
+[1m[36m🗼 Agent Lighthouse[0m [90mv10.6.0[0m
+[90mThe Open-Source Lighthouse for the Agentic Web[0m
+
+Auditing [1mhttps://www.nhs.uk/[0m ...
+
+[1m────────────────────────────────────────────────────────────────────────[0m
+[1mOVERALL AGENT READINESS:[0m [1m89/100[0m (PARTIALLY-READY)
+Target: https://www.nhs.uk/ | Pages: 1 | Duration: 16.3s
+Conditions: Page: [1mhomepage[0m (declared) | Origin: [1mfresh[0m | Coverage: [1m77.6/132.2[0m mass (59%) | Unscored: [1m129[0m (58 advisory, 0 gated)
+[1m────────────────────────────────────────────────────────────────────────[0m
+
+Page scope
+Detected page types express uncertainty. Type-specific findings on detected pages are advisory.
+https://www.nhs.uk/: homepage (declared, strong)
+  Signals: declared:homepage
+Fetch: https://www.nhs.uk/ — read, HTTP 200; homepage (declared)
+0 additional advisory populations. Use --debug-audit <id> for URLs and findings.
+
+[1m📊 CATEGORIES:[0m
+
+  [1mAgentic Readiness[0m [90m—[0m 95/100
+    [32m•[0m Access & Crawl Control               : [32m100/100[0m  [90m(27✓ 0! 0✗ 1 advisory)[0m
+    [32m•[0m Machine Discovery                    : [32m 93/100[0m  [90m(10✓ 0! 1✗ 1 advisory)[0m
+    [90m•[0m Agent Interfaces                     : [90mnot assessed[0m  [90m(0✓ 0! 1✗ 1 advisory)[0m
+    [33m•[0m Agentic Commerce                     : [33m 50/100[0m  [90m(1✓ 0! 1✗)[0m
+
+  [1mAI Search Optimization[0m [90m—[0m 72/100
+    [32m•[0m Content Extraction                   : [32m 90/100[0m  [90m(15✓ 2! 2✗ 2 advisory)[0m
+    [31m•[0m Structured Data                      : [31m  0/100[0m  [90m(0✓ 0! 3✗)[0m
+    [34m•[0m Answer Readiness                     : [34m 73/100[0m  [90m(10✓ 2! 5✗ 6 advisory)[0m
+
+  [1mTechnical Foundation[0m [90m—[0m 97/100
+    [32m•[0m Agent Operability & Safety           : [32m 97/100[0m  [90m(24✓ 0! 1✗ 2 advisory)[0m
+
+  [90m• JSON Report:[0m    /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/nhs/agent-lighthouse-report.json
+  [90m• HTML Report:[0m    /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/nhs/agent-lighthouse-report.html
+  [90m• Markdown Report:[0m /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/nhs/agent-lighthouse-report.md
+  [90m• Audit trace:[0m    /home/thibaudcolas/dev/agent-runs/agent-lighthouse/2026-11-14T00-27-54Z/nhs/audit-trace.ndjson
