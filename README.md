@@ -113,8 +113,8 @@ review.
 Screenshots, compressed archives and the largest machine-readable evidence are
 stored with [Git LFS](.gitattributes): `*.png`, `*.jpg`, `*.gif`, `*.webp`,
 `*.gz`, `*.zip`, `*.pdf`, `*.mp4`, plus the per-run runtime, scan and rule data
-files listed in [`.gitattributes`](.gitattributes). Run `git lfs pull` after
-cloning to replace pointer files with content.
+files listed in [`.gitattributes`](.gitattributes). After cloning, run
+`git lfs install && git lfs pull` to replace pointer files with content.
 
 Evidence too large to keep here at all is archived in
 [agent-runs-traces](https://github.com/thi-bot/agent-runs-traces): about 250 MB
